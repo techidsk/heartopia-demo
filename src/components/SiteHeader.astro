@@ -1,0 +1,31 @@
+---
+import { navItems, siteConfig } from "@data/site";
+
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = Astro.url.pathname } = Astro.props;
+const normalizedCurrent = currentPath.endsWith("/") ? currentPath : `${currentPath}/`;
+const isCurrent = (href: string) => {
+  if (href === "/") return normalizedCurrent === "/";
+  return normalizedCurrent.startsWith(href);
+};
+---
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary navigation">
+    <a class="brand" href="/">
+      <img class="brand-logo" src={siteConfig.logo} alt="" width="42" height="42" />
+      <span>{siteConfig.name}</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" data-menu-button>
+      Menu
+    </button>
+    <div class="nav-links" id="primary-links" data-nav-links>
+      {navItems.map((item) => (
+        <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a>
+      ))}
+    </div>
+  </nav>
+</header>

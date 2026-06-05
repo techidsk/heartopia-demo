@@ -1,0 +1,79 @@
+[
+  {
+    "id": "profit-calculator",
+    "title": "Profit Calculator",
+    "category": "calculator",
+    "href": "/tools/profit-calculator/",
+    "image": "/assets/asset-gardening.jpg",
+    "description": "Compare crop profit by plot count, session length, and star bonus.",
+    "useCase": "Choose the best crop before planting.",
+    "linkedData": ["crops", "shops", "recipes"],
+    "status": "working"
+  },
+  {
+    "id": "fish-tracker",
+    "title": "Fish Tracker",
+    "category": "tracker",
+    "href": "/tools/fish-tracker/",
+    "image": "/assets/asset-fishing.jpg",
+    "description": "Track rare fish catches by water route, level gate, and time condition.",
+    "useCase": "Save collection progress across sessions.",
+    "linkedData": ["fish", "map"],
+    "status": "working"
+  },
+  {
+    "id": "crop-planner",
+    "title": "Crop Planner",
+    "category": "planner",
+    "href": "/tools/crop-planner/",
+    "image": "/assets/asset-gardening.jpg",
+    "description": "Build an active, balanced, or offline crop route from playtime and plot count.",
+    "useCase": "Turn a play window into a planting schedule.",
+    "linkedData": ["crops", "shops"],
+    "status": "working"
+  },
+  {
+    "id": "friendship-tracker",
+    "title": "Friendship Tracker",
+    "category": "tracker",
+    "href": "/tools/friendship-tracker/",
+    "image": "/assets/asset-events.jpg",
+    "description": "Estimate NPC routine progress from gifts, talks, and hangouts.",
+    "useCase": "Plan one relationship loop for the week.",
+    "linkedData": ["npcs", "shops"],
+    "status": "working"
+  },
+  {
+    "id": "recipe-finder",
+    "title": "Recipe Finder",
+    "category": "finder",
+    "href": "/tools/recipe-finder/",
+    "image": "/assets/asset-events.jpg",
+    "description": "Filter starter recipes by ingredients you already have.",
+    "useCase": "Choose what to cook before selling or gifting.",
+    "linkedData": ["recipes", "crops", "fish"],
+    "status": "working"
+  },
+  {
+    "id": "checklist",
+    "title": "Daily Checklist",
+    "category": "tracker",
+    "href": "/tools/checklist/",
+    "image": "/assets/asset-codes.jpg",
+    "description": "Save a repeatable daily route with presets for codes, crops, fish, and NPCs.",
+    "useCase": "Keep short sessions from drifting.",
+    "linkedData": ["codes", "map", "shops"],
+    "status": "working"
+  },
+  {
+    "id": "timer",
+    "title": "Route Timer",
+    "category": "timer",
+    "href": "/tools/timer/",
+    "image": "/assets/asset-map.jpg",
+    "description": "Run persistent timers for crops, cooking, fishing windows, and shop checks.",
+    "useCase": "Know when to return to a route.",
+    "linkedData": ["crops", "recipes", "map"],
+    "status": "working"
+  }
+]

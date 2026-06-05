@@ -1,0 +1,65 @@
+---
+import SiteHeader from "@components/SiteHeader.astro";
+import SiteFooter from "@components/SiteFooter.astro";
+import { siteConfig } from "@data/site";
+
+type FooterGroup = {
+  title: string;
+  links: Array<{ href: string; label: string }>;
+};
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  currentPath?: string;
+  ogImage?: string;
+  bodyClass?: string;
+  footerGroups?: FooterGroup[];
+}
+
+const {
+  title,
+  description,
+  canonicalPath = Astro.url.pathname,
+  currentPath = Astro.url.pathname,
+  ogImage = "/assets/heartopia-guide-hero.png",
+  bodyClass = "wiki-body",
+  footerGroups
+} = Astro.props;
+const canonical = new URL(canonicalPath, siteConfig.origin).toString();
+const absoluteOgImage = new URL(ogImage, siteConfig.origin).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={absoluteOgImage} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <slot name="head" />
+  </head>
+  <body class={bodyClass}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <SiteHeader currentPath={currentPath} />
+    <main id="main">
+      <slot />
+    </main>
+    <SiteFooter groups={footerGroups} />
+    <script>
+      import { initSiteShell } from "../tools/siteShell";
+      initSiteShell();
+    </script>
+    <slot name="scripts" />
+  </body>
+</html>

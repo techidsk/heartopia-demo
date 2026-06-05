@@ -5,14 +5,33 @@ Independent Heartopia fan guide website prepared for Cloudflare Pages and Google
 ## Local Preview
 
 ```powershell
-npx serve site
+npm run dev
 ```
+
+Legacy static preview:
+
+```powershell
+npm run dev:legacy
+```
+
+## Build And QA
+
+```powershell
+npm run build
+npm run qa
+```
+
+The Astro page-factory source lives in `src/` and builds to `dist/`. The existing `site/` directory remains the legacy static site. Before Astro runs, `scripts/prepare-public.mjs` copies legacy files into `.astro-public/` and excludes routes now owned by Astro.
 
 ## Deploy
 
 ```powershell
-npx wrangler pages deploy site --project-name heartopia-demo
+npm run deploy
 ```
+
+Legacy deploy is still available with `npm run deploy:legacy`.
+
+See `DOC/astro-page-factory.md` for the scaffold architecture and page migration workflow.
 
 ## AdSense Before Submission
 

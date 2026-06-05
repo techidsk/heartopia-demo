@@ -1,0 +1,197 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { fish } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const selected = fish[0];
+const fishTypes = ["lake", "river", "ocean", "hidden", "event"] as const;
+const routeCount = new Set(fish.map((item) => item.type)).size;
+const rareCount = fish.filter((item) => item.rarity === "rare").length;
+const badgeClass = (type: string, rarity: string) => (rarity === "rare" ? "rare" : type);
+const badgeText = (type: string, rarity: string) => {
+  if (rarity === "rare") return "RAR";
+  return ({ lake: "LAK", river: "RIV", ocean: "OCN", hidden: "HID", event: "EVT" } as Record<string, string>)[type] || "FSH";
+};
+const searchText = (item: typeof fish[number]) =>
+  [item.name, item.type, item.rarity, item.spot, item.condition, item.window, item.level, item.use].join(" ");
+
+const footerGroups = [
+  {
+    title: "Database",
+    links: [
+      { href: "/database/", label: "Database Hub" },
+      { href: "/fish/", label: "Fish" },
+      { href: "/recipes/", label: "Recipes" },
+      { href: "/crops/", label: "Crops" },
+      { href: "/animal-favorites/", label: "Animal Favorites" }
+    ]
+  },
+  {
+    title: "Route Tools",
+    links: [
+      { href: "/tools/fish-tracker/", label: "Fish Tracker" },
+      { href: "/map/", label: "Map" },
+      { href: "/recipes/", label: "Cooking Routes" },
+      { href: "/tools/checklist/", label: "Checklist" }
+    ]
+  }
+];
+---
+
+<BaseLayout
+  title="Heartopia Fish Database - Locations, Weather, Level Gates & Routes"
+  description="Heartopia fish database generated from structured data with searchable fish cards, fishing spots, water filters, time, weather, level gates, rare route notes, and saved catch progress."
+  canonicalPath="/fish/"
+  currentPath="/fish/"
+  ogImage="/assets/asset-fishing.jpg"
+  footerGroups={footerGroups}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/database/", label: "Database" }, { label: "Fish" }]} />
+      <h1>Heartopia Fish Database</h1>
+      <p>Search a fish, filter by water route, open the detail panel, then mark catches so fishing becomes a collection workflow instead of a wall of names.</p>
+      <MetricCards
+        metrics={[
+          { value: fish.length, label: "tracked fish" },
+          { value: routeCount, label: "water routes" },
+          { value: rareCount, label: "rare targets" },
+          { value: "Saved", label: "catch progress" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section media-section">
+    <div class="wiki-shell">
+      <figure class="article-art wide">
+        <img src="/assets/asset-fishing.jpg" alt="Heartopia fishing database visual" loading="eager" />
+        <figcaption>
+          <strong>Route by water type first</strong>
+          <span>Start with lake, river, ocean, hidden, or event routes. Then check weather and level gates before using premium bait.</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="wiki-section" id="fish-database">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Catch Planning Database</h2>
+        <p>Cards, tables, and generated detail pages all come from the same validated fish JSON.</p>
+      </div>
+
+      <div class="fish-database" data-fish-database>
+        <div class="fish-control-bar">
+          <label class="search-field">
+            <span>Search fish, spot, route, or condition</span>
+            <input type="search" placeholder="Try level 10, rainbow, Meadow Lake, tuna..." data-fish-db-search />
+          </label>
+          <div class="filter-row compact" aria-label="Fish route filters">
+            <button class="filter-button" type="button" data-fish-db-filter="all" aria-pressed="true">All</button>
+            {fishTypes.map((type) => (
+              <button class="filter-button" type="button" data-fish-db-filter={type} aria-pressed="false">
+                {type[0].toUpperCase() + type.slice(1)}
+              </button>
+            ))}
+            <button class="filter-button" type="button" data-fish-db-filter="rare" aria-pressed="false">Rare</button>
+          </div>
+          <p class="tool-count" data-fish-db-count>{fish.length} fish shown</p>
+        </div>
+
+        <div class="fish-database-layout">
+          <div class="fish-card-grid">
+            {fish.map((item, index) => (
+              <button
+                class:list={["fish-card", { "is-selected": index === 0 }]}
+                type="button"
+                data-fish-db-card
+                data-fish-id={item.id}
+                data-type={item.type}
+                data-rarity={item.rarity}
+                data-name={item.name}
+                data-spot={item.spot}
+                data-condition={item.condition}
+                data-window={item.window}
+                data-level={item.level}
+                data-use={item.use}
+                data-map={item.map}
+                data-search={searchText(item)}
+              >
+                <span class:list={["fish-badge", badgeClass(item.type, item.rarity)]}>{badgeText(item.type, item.rarity)}</span>
+                <span>
+                  <strong>{item.name}</strong>
+                  <small>{item.spot} · {item.condition}</small>
+                </span>
+              </button>
+            ))}
+          </div>
+
+          <aside class="fish-detail-panel" data-fish-db-detail>
+            <div class="npc-detail-head">
+              <span class:list={["fish-badge", badgeClass(selected.type, selected.rarity)]}>{badgeText(selected.type, selected.rarity)}</span>
+              <div>
+                <h2>{selected.name}</h2>
+                <p>{selected.spot}</p>
+              </div>
+            </div>
+            <span class="fish-route-chip">{selected.type} route · {selected.rarity}</span>
+            <div class="map-meta">
+              <span><strong>Condition:</strong> {selected.condition}</span>
+              <span><strong>Window:</strong> {selected.window}</span>
+              <span><strong>Level:</strong> {selected.level}</span>
+              <span><strong>Use:</strong> {selected.use}</span>
+            </div>
+            <label class="fish-catch-toggle"><input type="checkbox" data-fish-db-caught /> Caught in my save</label>
+            <div class="entity-action-grid">
+              <a class="pastel-button" href={selected.map}>Open Map Route</a>
+              <a class="pastel-button alt" href="/tools/fish-tracker/">Open Tracker</a>
+              <a class="pastel-button alt" href={`/fish/${selected.id}/`}>Open Detail</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section tint-blue" id="fish-table">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Fish Location Table</h2>
+        <p>Rows are a fan-maintained planning snapshot. Confirm in-game before spending limited bait.</p>
+      </div>
+      <div class="table-card">
+        <table class="dense-table">
+          <thead>
+            <tr><th>Fish</th><th>Spot</th><th>Type</th><th>Condition</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            {fish.map((item) => (
+              <tr>
+                <td>{item.name}</td>
+                <td>{item.spot}</td>
+                <td>{item.type}</td>
+                <td>{item.condition}</td>
+                <td><a href={`/fish/${item.id}/`}>Open</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell route-lane-grid">
+      <div class="route-lane"><h3>Fast Session</h3><p>Run Meadow Lake or Forest Lake, then sell routine fish or convert extras through cooking.</p></div>
+      <div class="route-lane"><h3>Rare Weather</h3><p>When Rainbow weather appears, prioritize Giantwood River and Starlight Sea before routine farming.</p></div>
+      <div class="route-lane"><h3>Late Game</h3><p>Save attractors for Swordfish, Bluefin Tuna, Smooth Hammerhead, and other level-gated checks.</p></div>
+    </div>
+  </section>
+
+  <script>
+    import { initFishDatabase } from "@tools/fishDatabase";
+    initFishDatabase();
+  </script>
+</BaseLayout>

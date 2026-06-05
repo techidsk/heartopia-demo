@@ -1,0 +1,146 @@
+[
+  {
+    "id": "gardening-store",
+    "name": "Gardening Store",
+    "type": "seeds",
+    "icon": "SE",
+    "owner": "Blanc",
+    "region": "Central Town",
+    "mapMarkerId": "gardening-store",
+    "unlock": "Available after the first gardening tutorial route.",
+    "hours": "Check during normal daytime town errands.",
+    "inventory": ["Tomato Seeds", "Potato Seeds", "Wheat Seeds", "Fertilizer", "Basic watering supplies"],
+    "notes": "Best first stop before crop-profit planning. Pair seed buys with a short-session crop route.",
+    "links": {
+      "map": "/map/?marker=gardening-store",
+      "npc": "/npcs/#mentors",
+      "tool": "/tools/#crop-profit-planner"
+    }
+  },
+  {
+    "id": "furniture-workshop",
+    "name": "Furniture Workshop",
+    "type": "furniture",
+    "icon": "FU",
+    "owner": "Bob",
+    "region": "Central Town",
+    "mapMarkerId": "furniture-workshop",
+    "unlock": "Follow Bob's furniture route and early joinery requests.",
+    "hours": "Plan this stop before house-design sessions.",
+    "inventory": ["Starter furniture", "Tables", "Chairs", "Shelves", "Decor sets"],
+    "notes": "Main handoff for house layouts, material planning, and room-by-room design ideas.",
+    "links": {
+      "map": "/map/?marker=furniture-workshop",
+      "npc": "/npcs/#shops",
+      "tool": "/house-designs/"
+    }
+  },
+  {
+    "id": "pet-shop",
+    "name": "Pet Shop",
+    "type": "pets",
+    "icon": "PT",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "Central Town",
+    "mapMarkerId": "pet-shop",
+    "unlock": "Use the pet-care onboarding path before broad food tests.",
+    "hours": "Visit when routing cats, dogs, and birdwatching unlocks.",
+    "inventory": ["Dog Food", "Cat-care items", "Pet adoption leads", "Pet care basics", "Birdwatching route notes"],
+    "notes": "Keep pet-shop cats and dogs separate from wild animal troughs and Oak-Oak.",
+    "links": {
+      "map": "/map/?marker=pet-shop",
+      "npc": "/npcs/#mentors",
+      "tool": "/pets/"
+    }
+  },
+  {
+    "id": "clothing-store",
+    "name": "Clothing Store",
+    "type": "fashion",
+    "icon": "CL",
+    "owner": "Dorothy",
+    "region": "Central Town",
+    "mapMarkerId": "clothing-store",
+    "unlock": "Progress Dorothy's fashion and poster route.",
+    "hours": "Combine with Central Town NPC gift loops.",
+    "inventory": ["Outfits", "Cosmetic pieces", "Fashion route items", "Event outfit leads"],
+    "notes": "Useful for fashion collection checks and seasonal outfit planning.",
+    "links": {
+      "map": "/map/?marker=clothing-store",
+      "npc": "/npcs/#shops",
+      "tool": "/database/"
+    }
+  },
+  {
+    "id": "music-store",
+    "name": "Annie's Music Store",
+    "type": "music",
+    "icon": "MU",
+    "owner": "Annie",
+    "region": "Central Town",
+    "mapMarkerId": "music-store",
+    "unlock": "Use after sheet-music and home-decoration systems appear.",
+    "hours": "Best checked during home-design prep.",
+    "inventory": ["Sheet music leads", "Music decor", "Instrument route notes", "Home ambiance items"],
+    "notes": "Connects house design with music collection and room-theme planning.",
+    "links": {
+      "map": "/map/?marker=music-store",
+      "npc": "/npcs/",
+      "tool": "/house-designs/"
+    }
+  },
+  {
+    "id": "general-store",
+    "name": "Ka Ching's General Store",
+    "type": "general",
+    "icon": "GE",
+    "owner": "Ka Ching",
+    "region": "Central Town",
+    "mapMarkerId": "general-store",
+    "unlock": "Visit when inventory pressure starts blocking routes.",
+    "hours": "Pair with any long gathering, fishing, or event loop.",
+    "inventory": ["Inventory expansion", "Utility goods", "Storage route notes", "Errand supplies"],
+    "notes": "Use this before material-heavy routes so fishing and foraging sessions do not stall.",
+    "links": {
+      "map": "/map/?marker=general-store",
+      "npc": "/npcs/#shops",
+      "tool": "/tools/#daily-checklist"
+    }
+  },
+  {
+    "id": "doris-weather-cart",
+    "name": "Doris Weather Cart",
+    "type": "traveling",
+    "icon": "TR",
+    "owner": "Doris",
+    "region": "Dynamic weather route",
+    "mapMarkerId": "doris-weather-cart",
+    "unlock": "Appears around special weather states, rainbows, snow, or meteor routes.",
+    "hours": "Patch-sensitive; confirm with the in-game map and weather forecast.",
+    "inventory": ["Weather recipes", "Limited ingredients", "Cosmetics", "Furniture", "Event stock"],
+    "notes": "Treat Doris as a dynamic merchant. Do not plan rare purchases without checking weather first.",
+    "links": {
+      "map": "/map/?marker=doris-weather-cart",
+      "npc": "/npcs/#finding",
+      "tool": "/events/"
+    }
+  },
+  {
+    "id": "sea-fishing-booth",
+    "name": "Sea Fishing Booth",
+    "type": "event",
+    "icon": "SF",
+    "owner": "Bill",
+    "region": "Fishing Village",
+    "mapMarkerId": "sea-fishing-booth",
+    "unlock": "Use during Sea Fishing and fishing-event routes.",
+    "hours": "Check when the events page points to fishing prep.",
+    "inventory": ["Sea fishing route", "Event fish notes", "Repair-kit reminders", "Coastal task handoffs"],
+    "notes": "Best paired with fish tracker, inventory checks, and event reward planning.",
+    "links": {
+      "map": "/map/?marker=sea-fishing-booth",
+      "npc": "/npcs/#mentors",
+      "tool": "/hobbies/fishing/"
+    }
+  }
+]

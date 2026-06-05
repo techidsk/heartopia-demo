@@ -1,0 +1,162 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { shops } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const selected = shops[0];
+const shopTypes = [...new Set(shops.map((shop) => shop.type))];
+const searchText = (shop: typeof shops[number]) =>
+  [shop.name, shop.type, shop.owner, shop.region, shop.unlock, shop.hours, shop.notes, ...shop.inventory].join(" ");
+
+const footerGroups = [
+  {
+    title: "Explore",
+    links: [
+      { href: "/codes/", label: "Codes" },
+      { href: "/map/", label: "Map" },
+      { href: "/shops/", label: "Shops" },
+      { href: "/npcs/", label: "NPCs" },
+      { href: "/tools/", label: "Tools" }
+    ]
+  },
+  {
+    title: "Database",
+    links: [
+      { href: "/fish/", label: "Fish" },
+      { href: "/recipes/", label: "Recipes" },
+      { href: "/crops/", label: "Crops" },
+      { href: "/animal-favorites/", label: "Animal Favorites" }
+    ]
+  }
+];
+---
+
+<BaseLayout
+  title="Heartopia Shop List - Store Icons, Owners, Inventory & Map Routes"
+  description="Heartopia shop hub generated from structured data with store icons, shopkeeper routes, key inventory, unlock notes, and map links for furniture, clothing, pets, seeds, music, and traveling merchants."
+  canonicalPath="/shops/"
+  currentPath="/shops/"
+  ogImage="/assets/asset-map.jpg"
+  footerGroups={footerGroups}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/database/", label: "Database" }, { label: "Shops" }]} />
+      <h1>Heartopia Shop List</h1>
+      <p>Use shops as a route system: find the owner, check what the store is for, jump to the map marker, then hand off to NPC, house, pet, crop, or event planning.</p>
+      <MetricCards
+        metrics={[
+          { value: shops.length, label: "shop records" },
+          { value: shopTypes.length, label: "store types" },
+          { value: "Map", label: "marker handoffs" },
+          { value: "Inventory", label: "quick view" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section tint-mint">
+    <div class="wiki-shell" data-shop-system>
+      <div class="center-head">
+        <h2>Quick Shop Finder</h2>
+        <p>Search by shop, owner, inventory, type, or region. Cards and detail routes are generated from the same shop JSON.</p>
+      </div>
+
+      <div class="shop-control-bar" data-shop-controls>
+        <label class="map-search">
+          <span>Search shops</span>
+          <input type="search" placeholder="Search Bob, furniture, pet food, seeds..." data-shop-search />
+        </label>
+        <div class="shop-filter-row" aria-label="Shop type filters">
+          <button class="map-filter" type="button" data-shop-filter="all" aria-pressed="true">All</button>
+          {shopTypes.map((type) => (
+            <button class="map-filter" type="button" data-shop-filter={type} aria-pressed="false">
+              {type[0].toUpperCase() + type.slice(1)}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div class="shop-system-grid">
+        <div class="shop-card-grid" data-shop-grid>
+          {shops.map((shop, index) => (
+            <button
+              class:list={["shop-card", { "is-selected": index === 0 }]}
+              type="button"
+              data-shop-card
+              data-shop-id={shop.id}
+              data-type={shop.type}
+              data-icon={shop.icon}
+              data-name={shop.name}
+              data-owner={shop.owner}
+              data-region={shop.region}
+              data-unlock={shop.unlock}
+              data-hours={shop.hours}
+              data-notes={shop.notes}
+              data-inventory={shop.inventory.join("|")}
+              data-map={shop.links.map || "/map/"}
+              data-tool={shop.links.tool || "/database/"}
+              data-search={searchText(shop)}
+              aria-pressed={index === 0 ? "true" : "false"}
+            >
+              <span class={`shop-icon shop-icon-${shop.type}`}>{shop.icon}</span>
+              <span class="shop-card-body"><strong>{shop.name}</strong><span>{shop.owner} · {shop.type}</span></span>
+            </button>
+          ))}
+        </div>
+
+        <aside class="shop-detail-panel" data-shop-detail>
+          <div class="shop-detail-head">
+            <span class={`shop-icon shop-icon-${selected.type}`}>{selected.icon}</span>
+            <div>
+              <h2>{selected.name}</h2>
+              <p>{selected.owner} · {selected.region}</p>
+            </div>
+          </div>
+          <div class="shop-route-chip">{selected.type} route · {selected.unlock}</div>
+          <p>{selected.notes}</p>
+          <div class="map-meta">
+            <span><strong>Hours:</strong> {selected.hours}</span>
+            <span><strong>Owner:</strong> {selected.owner}</span>
+          </div>
+          <div class="shop-inventory-grid">
+            {selected.inventory.map((item) => <span>{item}</span>)}
+          </div>
+          <div class="shop-actions">
+            <a class="pastel-button" href={selected.links.map || "/map/"}>View On Map</a>
+            <a class="pastel-button alt" href={`/shops/${selected.id}/`}>Open Detail</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <h2 class="wiki-title">Town Errand Loop</h2>
+        <ul class="compact-list">
+          <li>Start with the Gardening Store before planting or profit planning.</li>
+          <li>Check Ka Ching before long fishing, resource, or event routes.</li>
+          <li>Pair Bob and Annie with house-design sessions.</li>
+          <li>Route Dorothy with social and fashion collection checks.</li>
+        </ul>
+      </article>
+      <article class="wiki-card">
+        <h2 class="wiki-title">Dynamic Merchant Rules</h2>
+        <ul class="compact-list">
+          <li>Doris should be treated as weather-sensitive until live data is verified.</li>
+          <li>Event booths should stay linked to events and fishing pages.</li>
+          <li>Rare stock needs date notes, not permanent assumptions.</li>
+          <li>Use the map marker first, then confirm with the related guide.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <script>
+    import { initShopFinder } from "@tools/shopFinder";
+    initShopFinder();
+  </script>
+</BaseLayout>

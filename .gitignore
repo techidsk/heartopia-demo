@@ -1,4 +1,7 @@
 node_modules/
+.astro/
+.astro-public/
+dist/
 .wrangler/
 qa/*.png
 qa/**/*.png

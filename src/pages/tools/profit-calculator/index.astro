@@ -1,0 +1,111 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { profitCrops } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const defaultCrop = profitCrops.find((crop) => crop.id === "potato") || profitCrops[0];
+const cropPayload = profitCrops.map(({ id, name, minutes, seed, sell, use }) => ({ id, name, minutes, seed, sell, use }));
+const footerGroups = [
+  {
+    title: "Tools",
+    links: [
+      { href: "/tools/", label: "Tools Hub" },
+      { href: "/tools/crop-planner/", label: "Crop Planner" },
+      { href: "/tools/recipe-finder/", label: "Recipe Finder" }
+    ]
+  },
+  {
+    title: "Data",
+    links: [
+      { href: "/crops/", label: "Crops" },
+      { href: "/shops/", label: "Shops" },
+      { href: "/database/", label: "Database" }
+    ]
+  }
+];
+---
+
+<BaseLayout
+  title="Heartopia Profit Calculator - Crop Gold Planner"
+  description="Heartopia crop profit calculator generated from crop data for plots, session length, seed cost, sell value, and star bonus planning."
+  canonicalPath="/tools/profit-calculator/"
+  currentPath="/tools/"
+  ogImage="/assets/asset-gardening.jpg"
+  footerGroups={footerGroups}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/tools/", label: "Tools" }, { label: "Profit Calculator" }]} />
+      <h1>Heartopia Profit Calculator</h1>
+      <p>Compare crop value by session length, plot count, and star bonus before committing seeds.</p>
+      <MetricCards
+        metrics={[
+          { value: profitCrops.length, label: "crop defaults" },
+          { value: "Formula", label: "visible" },
+          { value: "Saved", label: "inputs" },
+          { value: "Links", label: "crops shops recipes" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section media-section tint-mint">
+    <div class="wiki-shell">
+      <figure class="article-art wide">
+        <img src="/assets/asset-gardening.jpg" alt="Heartopia crop profit route" loading="eager" />
+        <figcaption>
+          <strong>Profit depends on time</strong>
+          <span>A short active session usually rewards fast crops; long crops are better when they grow while you are away.</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell tool-page-layout">
+      <article class="wiki-card tool-workbench">
+        <h2 class="wiki-title">Calculate Crop Profit</h2>
+        <form class="tool-panel" data-profit-tool>
+          <label>
+            <span>Crop</span>
+            <select name="crop">
+              {profitCrops.map((crop) => <option value={crop.id} selected={crop.id === defaultCrop.id}>{crop.name}</option>)}
+            </select>
+          </label>
+          <div class="tool-form-grid">
+            <label><span>Plant boxes</span><input name="plots" type="number" min="1" value="8" /></label>
+            <label><span>Session hours</span><input name="hours" type="number" min="0.25" step="0.25" value="2" /></label>
+            <label><span>Star bonus %</span><input name="bonus" type="number" min="0" max="200" step="5" value="0" /></label>
+          </div>
+          <div class="result-box result-box-strong" data-profit-result></div>
+        </form>
+        <div class="table-card tool-table-card">
+          <table class="dense-table">
+            <thead><tr><th>Crop</th><th>Cycles</th><th>Profit</th><th>Best Use</th></tr></thead>
+            <tbody data-profit-ranking></tbody>
+          </table>
+        </div>
+      </article>
+      <aside class="tool-aside">
+        <div class="source-panel">
+          <h2>Formula</h2>
+          <p><strong>Profit =</strong> (base sell x star bonus - seed cost) x plant boxes x full harvest cycles.</p>
+          <p class="small">Full cycles are rounded down to keep the estimate practical for a fixed play window.</p>
+        </div>
+        <div class="tool-link-stack">
+          <a class="pastel-button" href="/crops/">Open Crop Database</a>
+          <a class="pastel-button alt" href="/shops/?q=seed">Find Seed Shops</a>
+          <a class="pastel-button alt" href="/recipes/">Check Recipe Uses</a>
+        </div>
+        <p class="saved-state" data-tool-save-status>Inputs save locally after the first change.</p>
+      </aside>
+    </div>
+  </section>
+
+  <script type="application/json" id="crop-profit-data" set:html={JSON.stringify(cropPayload)}></script>
+  <script>
+    import { initProfitCalculator } from "@tools/profitCalculator";
+    initProfitCalculator();
+  </script>
+</BaseLayout>

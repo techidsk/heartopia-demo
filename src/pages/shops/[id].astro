@@ -1,0 +1,85 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { shops, type Shop } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+  return shops.map((shop) => ({ params: { id: shop.id }, props: { shop } }));
+}
+
+interface Props {
+  shop: Shop;
+}
+
+const { shop } = Astro.props;
+const related = shops.filter((candidate) => candidate.id !== shop.id && candidate.type === shop.type).slice(0, 4);
+---
+
+<BaseLayout
+  title={`${shop.name} - Heartopia Shop Owner, Inventory & Map Route`}
+  description={`${shop.name} Heartopia shop detail with owner ${shop.owner}, ${shop.region} route, unlock notes, key inventory, map marker, and related guide handoffs.`}
+  canonicalPath={`/shops/${shop.id}/`}
+  currentPath="/shops/"
+  ogImage="/assets/asset-map.jpg"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/shops/", label: "Shops" }, { label: shop.name }]} />
+      <h1>{shop.name}</h1>
+      <p>{shop.notes}</p>
+      <MetricCards
+        metrics={[
+          { value: shop.icon, label: "shop icon" },
+          { value: shop.owner, label: "owner" },
+          { value: shop.type, label: "type" },
+          { value: shop.region, label: "region" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <h2 class="wiki-title">Inventory And Route</h2>
+        <div class="shop-inventory-grid">
+          {shop.inventory.map((item) => <span>{item}</span>)}
+        </div>
+        <div class="map-meta">
+          <span><strong>Unlock:</strong> {shop.unlock}</span>
+          <span><strong>Hours:</strong> {shop.hours}</span>
+          <span><strong>Map marker:</strong> {shop.mapMarkerId}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={shop.links.map || "/map/"}>View On Map</a>
+          {shop.links.npc && <a class="pastel-button alt" href={shop.links.npc}>NPC Route</a>}
+          {shop.links.tool && <a class="pastel-button alt" href={shop.links.tool}>Related Guide</a>}
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">Maintenance Note</h2>
+        <p>This detail page is generated from `site/assets/data/shops.json`; update the shop row to refresh list, detail, and route links together.</p>
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>Same Shop Type</h2>
+          <p>Related shops generated from the same collection.</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={`/shops/${candidate.id}/`}>
+              <h3>{candidate.name}</h3>
+              <p>{candidate.owner} · {candidate.region}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

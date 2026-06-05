@@ -1,0 +1,83 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { fish, type Fish } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+  return fish.map((item) => ({ params: { id: item.id }, props: { item } }));
+}
+
+interface Props {
+  item: Fish;
+}
+
+const { item } = Astro.props;
+const related = fish.filter((candidate) => candidate.id !== item.id && candidate.type === item.type).slice(0, 4);
+---
+
+<BaseLayout
+  title={`${item.name} - Heartopia Fish Location, Route & Conditions`}
+  description={`${item.name} Heartopia fish detail with ${item.spot} location, ${item.condition} condition, ${item.window} window, ${item.level} gate, and route handoffs.`}
+  canonicalPath={`/fish/${item.id}/`}
+  currentPath="/fish/"
+  ogImage="/assets/asset-fishing.jpg"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/fish/", label: "Fish" }, { label: item.name }]} />
+      <h1>{item.name}</h1>
+      <p>{item.use}. Use this generated detail page as the stable route target for map, tracker, and recipe handoffs.</p>
+      <MetricCards
+        metrics={[
+          { value: item.type, label: "water route" },
+          { value: item.rarity, label: "rarity" },
+          { value: item.level, label: "level gate" },
+          { value: item.window, label: "window" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <h2 class="wiki-title">Catch Route</h2>
+        <div class="map-meta">
+          <span><strong>Spot:</strong> {item.spot}</span>
+          <span><strong>Condition:</strong> {item.condition}</span>
+          <span><strong>Window:</strong> {item.window}</span>
+          <span><strong>Use:</strong> {item.use}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={item.map}>Open Map Route</a>
+          <a class="pastel-button alt" href="/tools/fish-tracker/">Track Catch</a>
+          <a class="pastel-button alt" href="/recipes/">Cooking Uses</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">Maintenance Note</h2>
+        <p>This page is generated from `site/assets/data/fish.json`; edit the JSON row instead of hand-editing detail HTML.</p>
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>Same Route Targets</h2>
+          <p>Nearby fish generated from the same data collection.</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={`/fish/${candidate.id}/`}>
+              <h3>{candidate.name}</h3>
+              <p>{candidate.spot} · {candidate.condition}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>
