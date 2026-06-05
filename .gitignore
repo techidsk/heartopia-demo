@@ -1,0 +1,6 @@
+node_modules/
+.wrangler/
+qa/*.png
+qa/**/*.png
+qa/competitor-metrics.json
+npm-debug.log*

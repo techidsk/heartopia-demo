@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heartopia Map Guide - Regions, NPCs, Animals & Fishing Spots</title>
+    <meta name="description" content="Heartopia map guide with six main regions, wild animal trough landmarks, key NPC locations, fish spots, foraging notes, and fast-travel tips.">
+    <link rel="canonical" href="https://heartopia-demo.pages.dev/map/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body class="wiki-body">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" data-menu-button>Menu</button>
+        <div class="nav-links" id="primary-links" data-nav-links>
+          <a href="/">Home</a>
+          <a href="/codes/">Codes</a>
+          <a href="/map/">Map</a>
+          <a href="/pets/">Pets</a>
+          <a href="/house-designs/">House Designs</a>
+          <a href="/npcs/">NPCs</a>
+          <a href="/tools/">Tools</a>
+          <a href="/events/">Events</a>
+          <a href="/download/">Download</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="wiki-hero map-hero-compact">
+        <div class="wiki-hero-inner">
+          <span class="top-note">Map data snapshot • June 4, 2026</span>
+          <h1><span>Heartopia Map</span> Guide</h1>
+          <p>Use this route layer to plan where to go next: map regions, animal troughs, NPC landmarks, fish spots, and foraging targets.</p>
+          <div class="mini-stats">
+            <div class="mini-stat"><strong>6</strong><span>regions</span></div>
+            <div class="mini-stat"><strong>8</strong><span>animal troughs</span></div>
+            <div class="mini-stat"><strong>9</strong><span>NPC records</span></div>
+            <div class="mini-stat"><strong>10</strong><span>fish spots</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section map-section" id="interactive-map" data-interactive-map>
+        <div class="wiki-shell">
+          <div class="center-head">
+            <h2>Interactive Route Map</h2>
+            <p>Tap a marker to see the route note, or filter the map by NPCs, animals, fish spots, resources, and home systems.</p>
+          </div>
+          <div class="map-layout">
+            <div class="map-panel">
+              <div class="map-toolbar" aria-label="Map marker filters">
+                <button class="map-filter" type="button" data-map-filter="all" aria-pressed="true">All</button>
+                <button class="map-filter" type="button" data-map-filter="npc" aria-pressed="false">NPCs</button>
+                <button class="map-filter" type="button" data-map-filter="animal" aria-pressed="false">Animals</button>
+                <button class="map-filter" type="button" data-map-filter="fish" aria-pressed="false">Fish</button>
+                <button class="map-filter" type="button" data-map-filter="resource" aria-pressed="false">Resources</button>
+                <button class="map-filter" type="button" data-map-filter="home" aria-pressed="false">Home</button>
+              </div>
+              <svg class="heartopia-map" viewBox="0 0 900 620" role="img" aria-labelledby="map-title map-desc">
+                <title id="map-title">Heartopia route map with regions and clickable markers</title>
+                <desc id="map-desc">A fan-made route map showing Home, Central Town, Flower Field, Forest, Fishing Village, Onsen Mountains, and markers for NPCs, animals, fishing, and resources.</desc>
+                <defs>
+                  <linearGradient id="mapSea" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0" stop-color="#c9eef5"></stop>
+                    <stop offset="1" stop-color="#9ed7e8"></stop>
+                  </linearGradient>
+                  <linearGradient id="mapGrass" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0" stop-color="#dff4cf"></stop>
+                    <stop offset="1" stop-color="#bfe2a8"></stop>
+                  </linearGradient>
+                  <linearGradient id="mapForest" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0" stop-color="#c4e5b5"></stop>
+                    <stop offset="1" stop-color="#78b87d"></stop>
+                  </linearGradient>
+                  <linearGradient id="mapTown" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0" stop-color="#fff2cf"></stop>
+                    <stop offset="1" stop-color="#f7cf8a"></stop>
+                  </linearGradient>
+                  <linearGradient id="mapMountain" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0" stop-color="#e5e1d9"></stop>
+                    <stop offset="1" stop-color="#b9c4be"></stop>
+                  </linearGradient>
+                </defs>
+                <rect width="900" height="620" fill="url(#mapSea)"></rect>
+                <path class="map-region" d="M28 356 C85 292 147 279 211 319 C275 360 304 460 253 557 C155 585 74 554 31 487 Z" fill="#f3e1a4"></path>
+                <path class="map-region" d="M70 75 C188 38 313 72 357 162 C381 214 322 283 232 292 C133 302 59 242 49 163 Z" fill="url(#mapForest)"></path>
+                <path class="map-region" d="M280 249 C353 201 490 187 574 254 C636 304 607 407 514 445 C422 482 296 447 251 370 Z" fill="url(#mapTown)"></path>
+                <path class="map-region" d="M482 52 C612 28 757 78 832 190 C807 276 710 315 602 282 C506 252 450 158 482 52 Z" fill="url(#mapMountain)"></path>
+                <path class="map-region" d="M95 295 C211 257 294 335 303 432 C241 492 147 480 89 416 Z" fill="url(#mapGrass)"></path>
+                <path class="map-region" d="M566 346 C650 289 798 299 865 387 C842 492 737 576 602 554 C532 493 525 407 566 346 Z" fill="#f8d7a9"></path>
+                <path class="map-river" d="M143 84 C199 153 257 230 328 304 C389 368 486 430 606 518"></path>
+                <path class="map-road" d="M177 391 C310 342 429 335 611 393"></path>
+                <path class="map-road" d="M436 316 C504 235 586 201 705 198"></path>
+                <text class="map-label" x="168" y="143">Forest</text>
+                <text class="map-label" x="420" y="329">Central Town</text>
+                <text class="map-label" x="190" y="384">Flower Field</text>
+                <text class="map-label" x="668" y="168">Onsen</text>
+                <text class="map-label" x="682" y="437">Fishing Village</text>
+                <text class="map-label" x="145" y="492">Home</text>
+
+                <g class="map-marker marker-home" tabindex="0" role="button" data-map-point data-type="home" data-name="Home Plot" data-region="Home" data-route="Gardening, tree chopping, mining, decorating" data-note="Start and end most daily routes here. Plant long-cycle crops before logging off.">
+                  <circle cx="167" cy="515" r="24"></circle><text x="167" y="516">H</text>
+                </g>
+                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-type="npc" data-name="Dorothy" data-region="Central Town" data-route="Clothing store and fashion route" data-note="Use Central Town as the social hub before running store errands.">
+                  <circle cx="410" cy="300" r="22"></circle><text x="410" y="301">D</text>
+                </g>
+                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-type="npc" data-name="Bob" data-region="Central Town" data-route="Furniture store and house design route" data-note="Pair this stop with house-design planning and material checks.">
+                  <circle cx="470" cy="355" r="22"></circle><text x="470" y="356">B</text>
+                </g>
+                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-type="npc" data-name="Ka Ching" data-region="Central Town" data-route="Inventory expansion service" data-note="Visit when storage friction blocks fishing, foraging, or event sessions.">
+                  <circle cx="523" cy="306" r="22"></circle><text x="523" y="307">$</text>
+                </g>
+                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-type="npc" data-name="Bill" data-region="Fishing Village" data-route="Sea Fishing event route" data-note="Use this marker when the event list points to sea fishing or festival fishing tasks.">
+                  <circle cx="729" cy="407" r="22"></circle><text x="729" y="408">B</text>
+                </g>
+                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-type="animal" data-name="Panda Trough" data-region="Forest" data-route="Bamboo and forest animal route" data-note="Check the bamboo area near Jump Puzzle stairs.">
+                  <circle cx="222" cy="178" r="22"></circle><text x="222" y="179">P</text>
+                </g>
+                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-type="animal" data-name="Fox Trough" data-region="Flower Field" data-route="Wild animal feeding route" data-note="Near Meadow Lake and the southern windmill hill.">
+                  <circle cx="197" cy="334" r="22"></circle><text x="197" y="335">F</text>
+                </g>
+                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-type="animal" data-name="Capybara Trough" data-region="Onsen Mountains" data-route="Hot spring animal route" data-note="West of Onsen Mountain Lake, near the ruins path.">
+                  <circle cx="654" cy="229" r="22"></circle><text x="654" y="230">C</text>
+                </g>
+                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-type="animal" data-name="Sea Otter Trough" data-region="Fishing Village" data-route="Coastal animal route" data-note="Between the two piers in Fishing Village.">
+                  <circle cx="781" cy="474" r="22"></circle><text x="781" y="475">O</text>
+                </g>
+                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-type="fish" data-name="Forest Lake" data-region="Forest" data-route="Lake fish route" data-note="Arctic Char, Giant Pearl Mussel, and Largemouth Bass route.">
+                  <circle cx="302" cy="221" r="22"></circle><text x="302" y="222">L</text>
+                </g>
+                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-type="fish" data-name="Meadow Lake" data-region="Flower Field" data-route="Starter lake route" data-note="Wels Catfish and Goldfish route; good early fishing loop.">
+                  <circle cx="248" cy="423" r="22"></circle><text x="248" y="424">L</text>
+                </g>
+                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-type="fish" data-name="Whale Sea" data-region="Fishing Village" data-route="Ocean fish route" data-note="Atlantic Salmon and Swordfish level 10 route.">
+                  <circle cx="653" cy="515" r="22"></circle><text x="653" y="516">S</text>
+                </g>
+                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-type="fish" data-name="Onsen Mountain Lake" data-region="Onsen Mountains" data-route="Mountain lake route" data-note="Common Whitefish and Ruffe route.">
+                  <circle cx="728" cy="254" r="22"></circle><text x="728" y="255">L</text>
+                </g>
+                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-type="resource" data-name="Bamboo" data-region="Forest" data-route="Foraging and building material route" data-note="Useful when house design or crafting routes need natural materials.">
+                  <circle cx="135" cy="214" r="22"></circle><text x="135" y="215">R</text>
+                </g>
+                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-type="resource" data-name="Shiitake Mushrooms" data-region="Fishing Village" data-route="Cooking ingredient route" data-note="Pair with fishing sessions before cooking or recipe tests.">
+                  <circle cx="603" cy="397" r="22"></circle><text x="603" y="398">R</text>
+                </g>
+                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-type="resource" data-name="Oyster Mushrooms" data-region="Onsen Mountains" data-route="Mountain foraging route" data-note="Use during Onsen animal and lake route checks.">
+                  <circle cx="578" cy="149" r="22"></circle><text x="578" y="150">R</text>
+                </g>
+              </svg>
+            </div>
+            <aside class="map-info-card" data-map-detail>
+              <h2>Tap A Marker</h2>
+              <p>Select any map marker to reveal the region, route, and practical note for that stop.</p>
+              <div class="map-meta">
+                <span><strong>Best first route:</strong> Home -> Central Town -> Flower Field -> Fishing Village</span>
+                <span><strong>Event route:</strong> Codes -> Bill -> Fish spots -> Inventory check</span>
+              </div>
+              <div class="map-legend" aria-label="Map legend">
+                <span><i class="legend-dot home"></i> Home systems</span>
+                <span><i class="legend-dot npc"></i> NPCs and services</span>
+                <span><i class="legend-dot animal"></i> Animal troughs</span>
+                <span><i class="legend-dot"></i> Fishing spots</span>
+                <span><i class="legend-dot resource"></i> Resources</span>
+              </div>
+            </aside>
+          </div>
+          <div class="map-route-grid" aria-label="Suggested map routes">
+            <div class="map-route-card"><h3>Starter Loop</h3><p>Home plot, Central Town shops, Flower Field lake, then back home for crops.</p></div>
+            <div class="map-route-card"><h3>Animal Loop</h3><p>Flower Field Fox, Forest Panda, Onsen Capybara, Fishing Village Sea Otter.</p></div>
+            <div class="map-route-card"><h3>Fishing Loop</h3><p>Meadow Lake, Forest Lake, Onsen Lake, then Whale Sea for higher-level checks.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section">
+        <div class="wiki-shell">
+          <div class="center-head">
+            <h2>Main Areas Overview</h2>
+            <p>Most geographical areas are route choices rather than hard-gated zones; D.G. level gates usually matter more for hobbies, shops, and event systems.</p>
+          </div>
+          <div class="table-card">
+            <table class="dense-table">
+              <thead><tr><th>Area</th><th>Description</th><th>Key Features</th></tr></thead>
+              <tbody>
+                <tr><td>Home</td><td>Your personal starting plot</td><td>Gardening, tree chopping, mining, decorating</td></tr>
+                <tr><td>Central Town</td><td>Social hub and shops</td><td>Dorothy clothing, Bob furniture, Pet Store, Ka Ching</td></tr>
+                <tr><td>Fishing Village</td><td>Coastal activity area</td><td>Sea Fishing event, Shiitake mushrooms, Sea Otter</td></tr>
+                <tr><td>Forest</td><td>Large exploration area</td><td>Bamboo, Jump Puzzle, Forest Lake, Panda, Sika Deer</td></tr>
+                <tr><td>Flower Field</td><td>Meadow and animal route</td><td>Meadow Lake, windmills, Alpaca, Fox</td></tr>
+                <tr><td>Onsen Mountains</td><td>Hot spring region</td><td>Geysers, Capybara, Oyster mushrooms, Crater Lake</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section tint-mint">
+        <div class="wiki-shell database-grid">
+          <div>
+            <h2 class="wiki-title">Wild Animal Troughs</h2>
+            <div class="table-card" style="margin-top:1rem;">
+              <table class="dense-table">
+                <thead><tr><th>Animal</th><th>Location</th><th>Landmark</th></tr></thead>
+                <tbody>
+                  <tr><td>Alpaca</td><td>Flower Fields / Tranquil River</td><td>Near the giant yellow duck</td></tr>
+                  <tr><td>Bunny</td><td>Suburbs</td><td>West of Art Street, between bus stop and town</td></tr>
+                  <tr><td>Capybara</td><td>Onsen Mountain</td><td>West of Onsen Mountain Lake, near ruins</td></tr>
+                  <tr><td>Ferret</td><td>Rosie River</td><td>South of river, near northern windmill</td></tr>
+                  <tr><td>Fox</td><td>Flower Field</td><td>Near Meadow Lake, base of southern windmill hill</td></tr>
+                  <tr><td>Panda</td><td>Forest</td><td>Bamboo area near Jump Puzzle stairs</td></tr>
+                  <tr><td>Sea Otter</td><td>Fishing Village</td><td>Between the two piers</td></tr>
+                  <tr><td>Sika Deer</td><td>Forest Lake</td><td>Beside Forest Lake, close to bus stop</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <h2 class="wiki-title">Key NPC Locations</h2>
+            <div class="table-card" style="margin-top:1rem;">
+              <table class="dense-table">
+                <thead><tr><th>NPC</th><th>Where</th><th>Function</th></tr></thead>
+                <tbody>
+                  <tr><td>Dorothy</td><td>Central Town</td><td>Clothing store unlock path</td></tr>
+                  <tr><td>Bob</td><td>Central Town</td><td>Furniture store unlock path</td></tr>
+                  <tr><td>Bailey J</td><td>Pet Store upstairs</td><td>Birdwatching hobby unlock</td></tr>
+                  <tr><td>Ka Ching</td><td>Near city center</td><td>Inventory expansion</td></tr>
+                  <tr><td>Bill</td><td>Fishing Village</td><td>Sea Fishing event host</td></tr>
+                  <tr><td>Naughty</td><td>Onsen Mountain north walkway</td><td>Treasure-hunt quest giver</td></tr>
+                  <tr><td>Albert Jr.</td><td>Wandering</td><td>Gold merchant, check map icon</td></tr>
+                  <tr><td>Roaming Oak</td><td>Special route</td><td>Quest line for Oak-Oak</td></tr>
+                  <tr><td>Doris</td><td>Weather merchant</td><td>Dynamic weather-related route</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section">
+        <div class="wiki-shell">
+          <div class="center-head">
+            <h2>Fishing Spots</h2>
+            <p>Use fish location data to decide whether to run lake, river, ocean, rainbow-weather, or hidden-pond routes.</p>
+          </div>
+          <div class="table-card">
+            <table class="dense-table">
+              <thead><tr><th>Spot</th><th>Type</th><th>Notable Fish</th></tr></thead>
+              <tbody>
+                <tr><td>Meadow Lake</td><td>Lake</td><td>Wels Catfish, Goldfish</td></tr>
+                <tr><td>Forest Lake</td><td>Lake</td><td>Arctic Char, Giant Pearl Mussel, Largemouth Bass</td></tr>
+                <tr><td>Onsen Mountain Lake</td><td>Lake</td><td>Common Whitefish, Ruffe</td></tr>
+                <tr><td>Spring Lake</td><td>Lake</td><td>Crucian Carp, rain boost</td></tr>
+                <tr><td>Giantwood River</td><td>River</td><td>Huchen, level 9, Rainbow weather</td></tr>
+                <tr><td>Tranquil River</td><td>River</td><td>Burbot, noon to evening</td></tr>
+                <tr><td>Zephyr Sea</td><td>Ocean</td><td>Beltfish, Atlantic Pygmy Octopus</td></tr>
+                <tr><td>Whale Sea</td><td>Ocean</td><td>Atlantic Salmon, Swordfish level 10</td></tr>
+                <tr><td>Starlight Sea</td><td>Ocean</td><td>Rainbow Fish in Rainbow weather</td></tr>
+                <tr><td>Secret Pond</td><td>Hidden</td><td>Koi at midnight</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><p class="small">Independent fan guide. Last updated June 4, 2026.</p></div>
+        <div class="footer-links"><strong>Explore</strong><a href="/codes/">Codes</a><a href="/guides/">Guides</a><a href="/map/">Map</a><a href="/tools/">Tools</a><a href="/database/">Database</a></div>
+        <div class="footer-links"><strong>Site</strong><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a></div>
+      </div>
+    </footer>
+    <script src="/assets/site.js" defer></script>
+  </body>
+</html>

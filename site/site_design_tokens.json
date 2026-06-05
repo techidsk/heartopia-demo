@@ -1,0 +1,40 @@
+{
+  "site": "Heartopia Hub",
+  "positioning": "Independent fan guide and tool hub for Heartopia players, built around useful routes, databases, calculators, and mobile-first pages.",
+  "style": "pastel game guide, practical wiki, friendly but data-dense",
+  "logo": {
+    "asset": "/assets/heartopia-hub-logo.svg",
+    "rules": "Use the heart pin logo for site identity. Do not reuse official Heartopia marks or competitor logos."
+  },
+  "colors": {
+    "ink": "#202633",
+    "earth": "#5b402f",
+    "teal": "#0b7f74",
+    "aqua": "#4f8fcd",
+    "coral": "#ec6b5e",
+    "gold": "#f0b84a",
+    "mint": "#d8f4e8",
+    "paper": "#ffffff",
+    "warm": "#fff8ef"
+  },
+  "typography": {
+    "heading": "Georgia / Times-style serif for guide identity",
+    "body": "Inter / system sans-serif for tables, tools, and mobile readability",
+    "rules": "No viewport-scaling font sizes; no negative letter spacing; compact headings inside cards."
+  },
+  "media": {
+    "rules": "Every main content route needs a visual or functional asset: interactive map, platform cards, database table, calculator, tracker, or themed image.",
+    "image_style": "bright cozy sim-game isometric scenes and purpose-built diagrams; no blurred stock backgrounds."
+  },
+  "components": {
+    "cards": "8px radius, no nested cards except real tools or modals",
+    "tables": "mobile-readable, dense but not cramped",
+    "tools": "controls should compute or filter real page data",
+    "ads": "reserved slots only after core answer; never next to copy/download buttons"
+  },
+  "content": {
+    "tone": "answer first, transparent data snapshot, no fake official claims",
+    "emoji_policy": "light use in small route labels only; avoid emoji as the main UI language",
+    "ad_sense_risk": "thin content if pages are only text summaries; each inner page must include unique data, tool logic, diagrams, or route tables"
+  }
+}

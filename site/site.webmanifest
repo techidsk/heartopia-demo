@@ -1,0 +1,21 @@
+{
+  "name": "Heartopia Hub",
+  "short_name": "Heartopia Hub",
+  "description": "Independent Heartopia fan wiki hub with codes, maps, tools, events, pets, NPCs, and beginner-friendly explainers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2aa89e",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/heartopia-hub-logo.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml"
+    }
+  ]
+}

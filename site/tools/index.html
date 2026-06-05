@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heartopia Tools - Crop Planner, Affinity Estimate & Checklist</title>
+    <meta name="description" content="Heartopia tools for crop profit planning, affinity routine estimates, cooking planning, and daily checklist organization.">
+    <link rel="canonical" href="https://heartopia-demo.pages.dev/tools/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body class="wiki-body">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" data-menu-button>Menu</button>
+        <div class="nav-links" id="primary-links" data-nav-links>
+          <a href="/">Home</a>
+          <a href="/codes/">Codes</a>
+          <a href="/map/">Map</a>
+          <a href="/pets/">Pets</a>
+          <a href="/house-designs/">House Designs</a>
+          <a href="/npcs/">NPCs</a>
+          <a href="/tools/">Tools</a>
+          <a href="/events/">Events</a>
+          <a href="/download/">Download</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="wiki-hero">
+        <div class="wiki-hero-inner">
+          <span class="top-note">Interactive helpers • no account data collected</span>
+          <h1><span>Heartopia Tools</span></h1>
+          <p>Plan Gold routes, gift routines, and daily tasks with transparent assumptions. These tools use visible data so the site remains useful even before a live backend exists.</p>
+        </div>
+      </section>
+
+      <section class="wiki-section media-section tint-mint">
+        <div class="wiki-shell">
+          <figure class="article-art wide">
+            <img src="/assets/asset-gardening.jpg" alt="Heartopia crop planner visual with garden route" loading="eager">
+            <figcaption><strong>Planning tools need context</strong><span>The calculator pages now carry the crop and routine visual language before the forms, which helps them feel like game tools instead of generic inputs.</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="wiki-section">
+        <div class="wiki-shell database-grid">
+          <article class="wiki-card">
+            <h2 class="wiki-title">Crop Profit Planner</h2>
+            <p>Based on early crop data: Tomato 15m, Potato 60m, Wheat 4h, Lettuce 8h, Pineapple 30m, Carrot 2h.</p>
+            <form class="tool-panel" data-crop-form>
+              <label>
+                <span>Crop</span>
+                <select name="crop">
+                  <option value="tomato">Tomato</option>
+                  <option value="potato" selected>Potato</option>
+                  <option value="wheat">Wheat</option>
+                  <option value="lettuce">Lettuce</option>
+                  <option value="pineapple">Pineapple</option>
+                  <option value="carrot">Carrot</option>
+                </select>
+              </label>
+              <label>
+                <span>Plant boxes</span>
+                <input name="plots" type="number" min="1" value="8">
+              </label>
+              <label>
+                <span>Session length in hours</span>
+                <input name="hours" type="number" min="0.25" step="0.25" value="2">
+              </label>
+              <div class="result-box" data-crop-result></div>
+            </form>
+          </article>
+
+          <article class="wiki-card">
+            <h2 class="wiki-title">Affinity Routine Estimate</h2>
+            <p>This is a planning model, not a confirmed formula. Use it to compare routines before exact values are verified.</p>
+            <form class="tool-panel" data-affinity-form>
+              <label><span>Days played</span><input name="days" type="number" min="0" value="3"></label>
+              <label><span>Favorite gifts</span><input name="gifts" type="number" min="0" value="2"></label>
+              <label><span>Daily talks</span><input name="chats" type="number" min="0" value="3"></label>
+              <div class="result-box" data-affinity-result>66 estimated affinity points. Prioritize one favorite gift and one daily talk loop to keep progress steady.</div>
+            </form>
+          </article>
+
+          <article class="wiki-card">
+            <h2 class="wiki-title">Daily Checklist</h2>
+            <p>Good for a short session route: mailbox, code test, NPC talk, crop harvest, fish route, and one quest objective.</p>
+            <form class="tool-panel" data-note-form>
+              <label>
+                <span>Session notes</span>
+                <textarea name="notes">Check mailbox rewards
+Redeem dcthx4u
+Talk to target NPC
+Harvest Potato route
+Run Forest Lake fishing</textarea>
+              </label>
+              <div class="result-box" data-note-result>Add one task per line to build a compact daily checklist.</div>
+            </form>
+          </article>
+
+          <article class="wiki-card">
+            <h2 class="wiki-title">Recipe ROI Notes</h2>
+            <ul class="compact-list">
+              <li>Mixed Jam starts from 4x Any Fruit.</li>
+              <li>Same-fruit jam variants are useful early value tests.</li>
+              <li>Fish and Chips converts 2x fish plus 2x Potato.</li>
+              <li>Missing QTE can create lower-value Bizarre Food.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><p class="small">Independent fan guide. Last updated June 4, 2026.</p></div>
+        <div class="footer-links"><strong>Explore</strong><a href="/codes/">Codes</a><a href="/guides/">Guides</a><a href="/map/">Map</a><a href="/tools/">Tools</a><a href="/database/">Database</a></div>
+        <div class="footer-links"><strong>Site</strong><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a></div>
+      </div>
+    </footer>
+    <script src="/assets/site.js" defer></script>
+  </body>
+</html>
