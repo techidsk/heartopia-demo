@@ -11,7 +11,18 @@
   --coral: #ec6b5e;
   --gold: #f0b84a;
   --blue: #4f8fcd;
+  --paper-warm: #fff6de;
+  --paper-cream: #fffaf0;
+  --paper-edge: #e3ccb4;
+  --leaf: #8fbd83;
+  --sky: #7ec6cf;
+  --treat: #f38c72;
+  --berry: #d98aa3;
+  --wood: #6b4a35;
+  --stitch: rgba(126, 93, 68, 0.22);
   --shadow: 0 18px 45px rgba(31, 50, 70, 0.14);
+  --cozy-shadow: 0 14px 28px rgba(126, 93, 68, 0.12);
+  --cozy-soft-shadow: 0 8px 18px rgba(126, 93, 68, 0.08);
 }
 
 * {
@@ -70,7 +81,7 @@ a {
 }
 
 .nav {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1220px, calc(100% - 32px));
   min-height: 66px;
   margin: 0 auto;
   display: flex;
@@ -423,6 +434,10 @@ tr:last-child td {
   border-bottom: 0;
 }
 
+td {
+  overflow-wrap: anywhere;
+}
+
 .ad-slot {
   min-height: 112px;
   display: grid;
@@ -567,7 +582,7 @@ tr:last-child td {
   color: rgba(255, 255, 255, 0.68);
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1220px) {
   .nav {
     flex-wrap: wrap;
   }
@@ -593,7 +608,9 @@ tr:last-child td {
   .nav-links a {
     justify-content: center;
   }
+}
 
+@media (max-width: 860px) {
   .hero {
     min-height: 78vh;
   }
@@ -1759,6 +1776,501 @@ tr:last-child td {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.8rem;
+}
+
+/* Cozy game UI pass: scrapbook paper, reward panels, and event-guide affordances. */
+.wiki-body {
+  background:
+    repeating-linear-gradient(0deg, rgba(126, 93, 68, 0.025) 0 1px, transparent 1px 12px),
+    linear-gradient(115deg, rgba(126, 198, 207, 0.14), transparent 34%),
+    linear-gradient(180deg, #fff7e8 0%, #f4fbf6 38%, #fff9ee 100%);
+}
+
+.site-header {
+  background: rgba(255, 250, 240, 0.96);
+  border-bottom: 1px solid rgba(227, 204, 180, 0.92);
+  box-shadow: 0 5px 0 rgba(255, 246, 222, 0.78);
+}
+
+.site-header::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  height: 1px;
+  background: repeating-linear-gradient(90deg, var(--stitch) 0 8px, transparent 8px 15px);
+  pointer-events: none;
+}
+
+.brand-logo {
+  padding: 3px;
+  border: 1px solid rgba(227, 204, 180, 0.72);
+  background: var(--paper-cream);
+  box-shadow: var(--cozy-soft-shadow);
+}
+
+.nav-links a,
+.menu-button {
+  border: 1px solid transparent;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.nav-links a:hover,
+.nav-links a[aria-current="page"] {
+  border-color: rgba(143, 189, 131, 0.44);
+  background: linear-gradient(180deg, #fffaf0, #e9f7e5);
+  color: var(--teal-dark);
+}
+
+.menu-button {
+  background: var(--paper-cream);
+  border-color: var(--paper-edge);
+}
+
+.wiki-hero {
+  min-height: 520px;
+  isolation: isolate;
+  border-bottom: 1px solid rgba(227, 204, 180, 0.82);
+  background: #fff1d8;
+}
+
+.wiki-hero::before {
+  background-image:
+    linear-gradient(180deg, rgba(255, 250, 240, 0.6), rgba(255, 247, 232, 0.88) 72%, rgba(255, 250, 240, 0.98)),
+    url("/assets/heartopia-guide-hero.png");
+  filter: saturate(1.05) brightness(1.02);
+}
+
+.wiki-hero::after,
+.article-hero::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  height: 22px;
+  background:
+    linear-gradient(180deg, rgba(255, 246, 222, 0.94), rgba(255, 250, 240, 0.98)),
+    repeating-linear-gradient(90deg, rgba(126, 93, 68, 0.18) 0 10px, transparent 10px 18px);
+  clip-path: polygon(0 0, 100% 0, 100% 62%, 95% 100%, 90% 62%, 85% 100%, 80% 62%, 75% 100%, 70% 62%, 65% 100%, 60% 62%, 55% 100%, 50% 62%, 45% 100%, 40% 62%, 35% 100%, 30% 62%, 25% 100%, 20% 62%, 15% 100%, 10% 62%, 5% 100%, 0 62%);
+  pointer-events: none;
+}
+
+.wiki-hero-inner {
+  z-index: 1;
+}
+
+.top-note,
+.data-pill,
+.status-chip,
+.reward-chip,
+.shop-route-chip,
+.crop-route-chip,
+.recipe-route-chip,
+.guide-route-chip,
+.fish-route-chip,
+.pet-route-chip {
+  border-radius: 7px;
+  border: 1px solid rgba(227, 204, 180, 0.74);
+  background: linear-gradient(180deg, rgba(255, 252, 242, 0.96), rgba(255, 246, 222, 0.9));
+  color: #6b5649;
+}
+
+.top-note {
+  position: relative;
+  padding: 0.42rem 0.82rem 0.42rem 1.95rem;
+  box-shadow: var(--cozy-soft-shadow);
+}
+
+.top-note::before {
+  content: "";
+  position: absolute;
+  left: 0.72rem;
+  width: 0.72rem;
+  height: 0.72rem;
+  background: var(--gold);
+  clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 56%, 80% 92%, 50% 70%, 20% 92%, 32% 56%, 2% 35%, 39% 35%);
+}
+
+.wiki-hero h1,
+.article-hero h1,
+.center-head h2,
+.wiki-title,
+.tool-aside .source-panel h2,
+.shop-detail-head h2 {
+  color: var(--wood);
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.74);
+}
+
+.wiki-hero h1 span {
+  color: var(--treat);
+}
+
+.wiki-hero p,
+.article-hero p,
+.center-head p,
+.source-note {
+  color: #6c6259;
+}
+
+.hero-buttons {
+  gap: 0.65rem;
+}
+
+.pastel-button,
+.button,
+.copy-button,
+.filter-button,
+.map-state-button {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+.pastel-button {
+  border-color: rgba(190, 91, 72, 0.36);
+  background: linear-gradient(180deg, #ff9e82, #ed735f);
+  box-shadow: 0 5px 0 #cf604f, 0 14px 24px rgba(207, 96, 79, 0.18);
+}
+
+.pastel-button.alt {
+  border-color: rgba(126, 198, 207, 0.5);
+  background: linear-gradient(180deg, #fffdf4, #e7f6f4);
+  color: #3f6067;
+  box-shadow: 0 5px 0 rgba(126, 198, 207, 0.32), var(--cozy-soft-shadow);
+}
+
+.pastel-button::after,
+.copy-button::after,
+.filter-button::after,
+.map-state-button::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 1px dashed rgba(255, 255, 255, 0.34);
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.pastel-button.alt::after,
+.copy-button::after,
+.filter-button::after,
+.map-state-button::after {
+  border-color: rgba(126, 93, 68, 0.15);
+}
+
+.wiki-card,
+.route-card,
+.tool-tile,
+.hobby-tile,
+.popular-link,
+.code-card,
+.table-card,
+.asset-card,
+.article-art,
+.toc-box,
+.quick-box,
+.source-panel,
+.map-panel,
+.map-info-card,
+.map-route-card,
+.shop-card,
+.shop-detail-panel,
+.tool-directory-controls,
+.tool-system-card,
+.tool-workbench > *,
+.tool-aside > *,
+.entity-card,
+.entity-detail-panel,
+.design-card,
+.design-detail-panel,
+.npc-card,
+.npc-detail-panel,
+.pet-card,
+.pet-detail-panel,
+.favorite-card,
+.favorite-detail-panel,
+.crop-card,
+.crop-detail-panel,
+.recipe-card,
+.recipe-detail-panel,
+.guide-card,
+.guide-detail-panel,
+.fish-card,
+.fish-detail-panel,
+.event-card,
+.event-detail-panel,
+.route-lane {
+  position: relative;
+  border-color: rgba(227, 204, 180, 0.86);
+  background:
+    linear-gradient(180deg, rgba(255, 253, 246, 0.96), rgba(255, 247, 232, 0.9)),
+    var(--paper-cream);
+  box-shadow: var(--cozy-shadow);
+}
+
+.wiki-card::before,
+.route-card::before,
+.tool-tile::before,
+.code-card::before,
+.table-card::before,
+.toc-box::before,
+.quick-box::before,
+.source-panel::before,
+.shop-detail-panel::before,
+.event-detail-panel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0.85rem;
+  left: 0.85rem;
+  height: 3px;
+  background: repeating-linear-gradient(90deg, rgba(240, 184, 74, 0.72) 0 18px, rgba(143, 189, 131, 0.68) 18px 34px, rgba(126, 198, 207, 0.62) 34px 50px);
+  border-radius: 0 0 4px 4px;
+  pointer-events: none;
+}
+
+.route-card:nth-child(1),
+.tool-tile:nth-child(1),
+.event-card:nth-child(1) {
+  background: linear-gradient(180deg, #fff7ef, #ffede5);
+}
+
+.route-card:nth-child(2),
+.tool-tile:nth-child(2),
+.event-card:nth-child(2) {
+  background: linear-gradient(180deg, #f9fff2, #eaf7e5);
+}
+
+.route-card:nth-child(3),
+.tool-tile:nth-child(3),
+.event-card:nth-child(3) {
+  background: linear-gradient(180deg, #fffbe8, #fff1c9);
+}
+
+.route-card:nth-child(4),
+.tool-tile:nth-child(4),
+.event-card:nth-child(4) {
+  background: linear-gradient(180deg, #f1fbff, #e2f6f7);
+}
+
+.route-card:nth-child(5),
+.event-card:nth-child(5) {
+  background: linear-gradient(180deg, #fff3f8, #ffe7f0);
+}
+
+.route-card:nth-child(6),
+.event-card:nth-child(6) {
+  background: linear-gradient(180deg, #fbf5ff, #eee8ff);
+}
+
+.icon-badge,
+.shop-icon,
+.popular-link i,
+.hobby-tile {
+  border: 1px solid rgba(227, 204, 180, 0.7);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 246, 222, 0.72)),
+    var(--paper-warm);
+  color: var(--treat);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.45), var(--cozy-soft-shadow);
+}
+
+.hobby-tile {
+  align-content: center;
+}
+
+.popular-link i {
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.asset-card,
+.article-art,
+.tool-system-card {
+  overflow: hidden;
+}
+
+.asset-card::before,
+.article-art::before,
+.tool-system-card::before {
+  content: "";
+  position: absolute;
+  top: 0.58rem;
+  left: 50%;
+  z-index: 2;
+  width: 3.2rem;
+  height: 0.86rem;
+  border: 1px solid rgba(227, 204, 180, 0.52);
+  background: rgba(255, 238, 169, 0.72);
+  transform: translateX(-50%) rotate(-2deg);
+  pointer-events: none;
+}
+
+.asset-card img,
+.article-art img,
+.tool-system-card img {
+  border-bottom: 1px solid rgba(227, 204, 180, 0.7);
+  filter: saturate(1.04) contrast(1.01);
+}
+
+.mini-stat,
+.metric-card,
+.map-progress-card,
+.shop-inventory-grid span,
+.ingredient-grid label,
+.checklist-item,
+.recipe-tool-card,
+.subtle-band,
+.answer-box {
+  border: 1px solid rgba(227, 204, 180, 0.76);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 246, 222, 0.74)),
+    var(--paper-warm);
+  box-shadow: var(--cozy-soft-shadow);
+}
+
+.mini-stat,
+.metric-card {
+  border-style: dashed;
+}
+
+.code-card {
+  border-style: dashed;
+}
+
+.code-token {
+  min-height: 34px;
+  border: 1px solid rgba(76, 58, 45, 0.16);
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 0 6px, transparent 6px calc(100% - 6px), rgba(255, 255, 255, 0.08) calc(100% - 6px)),
+    #6a513e;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.08);
+}
+
+.copy-button,
+.filter-button {
+  border-color: rgba(211, 126, 105, 0.52);
+  background: linear-gradient(180deg, #fffaf0, #ffe9df);
+  color: #a94f3f;
+}
+
+.filter-button[aria-pressed="true"] {
+  border-color: rgba(190, 91, 72, 0.65);
+  background: linear-gradient(180deg, #ff9e82, #ed735f);
+  color: #fff;
+  box-shadow: 0 4px 0 #cf604f;
+}
+
+.dense-table th,
+th {
+  background:
+    linear-gradient(180deg, #fff7e8, #f5ead2);
+  color: #654633;
+  text-transform: none;
+}
+
+.table-wrap,
+.table-card {
+  background: var(--paper-cream);
+}
+
+.article-hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(0deg, rgba(126, 93, 68, 0.028) 0 1px, transparent 1px 11px),
+    linear-gradient(135deg, rgba(255, 243, 224, 0.98), rgba(230, 248, 247, 0.95)),
+    var(--paper-warm);
+  border-bottom-color: rgba(227, 204, 180, 0.86);
+}
+
+.article-hero .wiki-shell {
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumb {
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid rgba(227, 204, 180, 0.68);
+  border-radius: 7px;
+  padding: 0.28rem 0.58rem;
+  background: rgba(255, 252, 242, 0.76);
+}
+
+.breadcrumb a {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dense-table .status-chip,
+.dense-table .risk-chip {
+  max-width: 100%;
+  white-space: normal;
+}
+
+.shop-card:hover,
+.shop-card.is-selected,
+.event-card:hover,
+.event-card.is-selected {
+  border-color: rgba(217, 138, 163, 0.72);
+  background: linear-gradient(180deg, #fff8fb, #ffeaf1);
+}
+
+.map-stage,
+.heartopia-map {
+  border-color: rgba(227, 204, 180, 0.86);
+  background: linear-gradient(180deg, #dff6f3, #fff6de);
+  box-shadow: inset 0 0 0 5px rgba(255, 250, 240, 0.78), var(--cozy-shadow);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(126, 198, 207, 0.74);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) {
+  .pastel-button:hover,
+  .copy-button:hover,
+  .filter-button:hover,
+  .map-state-button:hover {
+    transform: translateY(-1px);
+  }
+
+  .route-card:hover,
+  .tool-tile:hover,
+  .asset-card:hover,
+  .tool-system-card:hover,
+  .popular-link:hover,
+  .hobby-tile:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 34px rgba(126, 93, 68, 0.15);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }
 
 @media (max-width: 920px) {
