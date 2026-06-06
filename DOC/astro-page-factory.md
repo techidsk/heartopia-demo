@@ -1,8 +1,8 @@
 # Astro Page Factory Architecture
 
-This project now has two static-site lanes:
+This project now has one deployable Astro lane plus a legacy source tree:
 
-- `site/` is the legacy hand-authored publishable site.
+- `site/` stores legacy assets, JSON data, and hand-authored pages that have not moved to Astro yet.
 - `.astro-public/` is generated before Astro runs. It copies `site/` while excluding migrated routes.
 - `src/` is the new Astro page-factory source that builds to `dist/`.
 
@@ -22,7 +22,7 @@ This project now has two static-site lanes:
 - `/tools/profit-calculator/` is generated from validated crop data.
 - `/search/`, `/search-index.json`, `/sitemap.xml`, and `/feed.xml` are generated from `src/data/routes.ts`.
 
-The legacy `site/` tree still provides the rest of the site while pages are migrated incrementally. When a route moves to Astro, add its legacy output path to `src/data/migratedRoutes.json` so `scripts/prepare-public.mjs` excludes the legacy file and the generated page can own that URL.
+The legacy `site/` tree still provides assets, data, and unmigrated pages while pages move to Astro incrementally. When a route moves to Astro, remove the stale legacy output file and add its path to `src/data/migratedRoutes.json` so the generated page owns that URL.
 
 ## Directory Roles
 
@@ -75,5 +75,3 @@ npm run preview
 npm run qa
 npm run deploy
 ```
-
-Use `npm run dev:legacy` and `npm run deploy:legacy` only when you need the old `site/` output directly.

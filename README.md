@@ -8,12 +8,6 @@ Independent Heartopia fan guide website prepared for Cloudflare Pages and Google
 npm run dev
 ```
 
-Legacy static preview:
-
-```powershell
-npm run dev:legacy
-```
-
 ## Build And QA
 
 ```powershell
@@ -23,7 +17,7 @@ npm run quality
 npm run qa
 ```
 
-The Astro page-factory source lives in `src/` and builds to `dist/`. The existing `site/` directory remains the legacy static site. Before Astro runs, `scripts/prepare-public.mjs` copies legacy files into `.astro-public/` and excludes routes listed in `src/data/migratedRoutes.json`.
+The Astro page-factory source lives in `src/` and builds to `dist/`. The remaining `site/` directory is a legacy public-source tree for assets, data, and pages that have not moved to Astro yet. Before Astro runs, `scripts/prepare-public.mjs` copies the still-needed legacy files into `.astro-public/` and excludes routes listed in `src/data/migratedRoutes.json`.
 
 Generated sitemap, RSS feed, and static search index are built from `src/data/routes.ts`:
 
@@ -39,7 +33,7 @@ dist/search-index.json
 npm run deploy
 ```
 
-The normal deploy command builds `dist/` first, then deploys it to Cloudflare Pages with Wrangler. Legacy deploy is still available with `npm run deploy:legacy`.
+The deploy command builds `dist/` first, then deploys it to Cloudflare Pages with Wrangler.
 
 See `DOC/astro-page-factory.md` for the scaffold architecture and page migration workflow.
 
