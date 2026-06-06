@@ -42,6 +42,7 @@ const paths = [
   "/search/",
   "/de/",
   "/ja/fish/wels-catfish/",
+  "/zh-hans/404.html",
   "/zh-hans/",
   "/zh-hans/codes/",
   "/zh-hans/tools/",
@@ -56,6 +57,9 @@ const paths = [
   "/zh-hans/map/",
   "/zh-hans/database/",
   "/zh-hans/animal-favorites/",
+  "/zh-hans/house-designs/",
+  "/zh-hans/npcs/",
+  "/zh-hans/pets/",
   "/zh-hans/events/",
   "/zh-hans/hobbies/",
   "/zh-hans/hobbies/birdwatching/",
@@ -64,6 +68,7 @@ const paths = [
   "/zh-hans/hobbies/gardening/",
   "/zh-hans/hobbies/insects/"
 ];
+const expectedStatuses = new Map([["/zh-hans/404.html", 404]]);
 const viewports = [
   { width: 375, height: 812 },
   { width: 390, height: 844 },
@@ -185,9 +190,10 @@ try {
     await page.close();
   }
 
-  const failures = findings.filter(
-    (item) => item.status >= 400 || item.scrollWidth > item.width + 1 || item.bodyScrollWidth > item.width + 1
-  );
+  const failures = findings.filter((item) => {
+    const expectedStatus = expectedStatuses.get(item.path) || 200;
+    return item.status !== expectedStatus || item.scrollWidth > item.width + 1 || item.bodyScrollWidth > item.width + 1;
+  });
   console.log(JSON.stringify(findings, null, 2));
   if (failures.length) {
     console.error(`Layout overflow detected on ${failures.length} viewport/page checks.`);

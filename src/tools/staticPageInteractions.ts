@@ -1360,6 +1360,12 @@ if (houseGallery) {
   const progressNode = houseGallery.querySelector("[data-house-progress]");
   const searchInput = houseGallery.querySelector("[data-house-search]");
   const filterButtons = Array.from(houseGallery.querySelectorAll("[data-house-filter]"));
+  const houseLabels = {
+    materialsCollected: houseGallery.getAttribute("data-house-label-materials-collected") || "materials collected",
+    floorPlan: houseGallery.getAttribute("data-house-label-floor-plan") || "Floor Plan",
+    shownSingular: houseGallery.getAttribute("data-house-label-shown-singular") || "design shown",
+    shownPlural: houseGallery.getAttribute("data-house-label-shown-plural") || "designs shown"
+  };
   let activeFilter = "all";
   let selectedCard = cards.find((card) => card.classList.contains("is-selected")) || cards[0];
   let checkedMaterials = new Set(safeReadJson(storageKey, []));
@@ -1369,7 +1375,7 @@ if (houseGallery) {
   const updateHouseProgress = (designId, materials) => {
     if (!progressNode) return;
     const collected = materials.filter((material) => checkedMaterials.has(materialKey(designId, material))).length;
-    progressNode.textContent = `${collected}/${materials.length} materials collected`;
+    progressNode.textContent = `${collected}/${materials.length} ${houseLabels.materialsCollected}`;
   };
 
   const renderHouseDetail = (card) => {
@@ -1392,7 +1398,7 @@ if (houseGallery) {
     detail.querySelector(".design-stage").textContent = `${stage} · ${style} · ${size}`;
     const floorNode = detail.querySelector(".floor-plan-list");
     if (floorNode) {
-      floorNode.innerHTML = `<strong>Floor Plan</strong>${floorPlan.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}`;
+      floorNode.innerHTML = `<strong>${escapeHtml(houseLabels.floorPlan)}</strong>${floorPlan.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}`;
     }
     if (materialNode) {
       materialNode.innerHTML = materials
@@ -1423,7 +1429,7 @@ if (houseGallery) {
       }
     });
     const countNode = houseGallery.querySelector("[data-house-count]");
-    if (countNode) countNode.textContent = `${visibleCount} design${visibleCount === 1 ? "" : "s"} shown`;
+    if (countNode) countNode.textContent = `${visibleCount} ${visibleCount === 1 ? houseLabels.shownSingular : houseLabels.shownPlural}`;
     if (firstVisible && (!selectedCard || selectedCard.hidden)) renderHouseDetail(firstVisible);
   };
 
@@ -1457,6 +1463,20 @@ if (npcHub) {
   const searchInput = npcHub.querySelector("[data-npc-search]");
   const filterButtons = Array.from(npcHub.querySelectorAll("[data-npc-filter]"));
   const countNode = npcHub.querySelector("[data-npc-count]");
+  const npcLabels = {
+    location: npcHub.getAttribute("data-npc-label-location") || "Location",
+    schedule: npcHub.getAttribute("data-npc-label-schedule") || "Schedule",
+    giftDone: npcHub.getAttribute("data-npc-label-gift-done") || "Gift route done today",
+    openShop: npcHub.getAttribute("data-npc-label-open-shop") || "Open Shop",
+    openMap: npcHub.getAttribute("data-npc-label-open-map") || "Open Map Marker",
+    openTracker: npcHub.getAttribute("data-npc-label-open-tracker") || "Open Tracker",
+    shownSingular: npcHub.getAttribute("data-npc-label-shown-singular") || "NPC shown",
+    shownPlural: npcHub.getAttribute("data-npc-label-shown-plural") || "NPCs shown",
+    noMatchTitle: npcHub.getAttribute("data-npc-label-no-match-title") || "No NPC Match",
+    noMatchBody:
+      npcHub.getAttribute("data-npc-label-no-match-body") ||
+      "Try a shorter search like pet, Bob, weather, fishing, or shop."
+  };
   let activeFilter = "all";
   let selectedCard = cards.find((card) => card.classList.contains("is-selected")) || cards[0];
   let gifted = new Set(safeReadJson(storageKey, []));
@@ -1479,15 +1499,15 @@ if (npcHub) {
     detail.innerHTML = `
       <div class="npc-detail-head"><span class="${escapeHtml(badgeClass)}">${escapeHtml(badgeText)}</span><div><h2>${escapeHtml(name)}</h2><p>${escapeHtml(role)}</p></div></div>
       <div class="map-meta">
-        <span><strong>Location:</strong> ${escapeHtml(location)}</span>
-        <span><strong>Schedule:</strong> ${escapeHtml(schedule)}</span>
+        <span><strong>${escapeHtml(npcLabels.location)}:</strong> ${escapeHtml(location)}</span>
+        <span><strong>${escapeHtml(npcLabels.schedule)}:</strong> ${escapeHtml(schedule)}</span>
       </div>
       <div class="gift-list">${gifts.map((gift) => `<span>${escapeHtml(gift)}</span>`).join("")}</div>
-      <label class="npc-gift-toggle"><input type="checkbox" data-npc-gifted ${gifted.has(id) ? "checked" : ""}> Gift route done today</label>
+      <label class="npc-gift-toggle"><input type="checkbox" data-npc-gifted ${gifted.has(id) ? "checked" : ""}> ${escapeHtml(npcLabels.giftDone)}</label>
       <div class="entity-action-grid">
-        <a class="pastel-button" href="${escapeHtml(shop)}">Open Shop</a>
-        <a class="pastel-button alt" href="${escapeHtml(map)}">Open Map Marker</a>
-        <a class="pastel-button alt" href="${escapeHtml(tool)}">Open Tracker</a>
+        <a class="pastel-button" href="${escapeHtml(shop)}">${escapeHtml(npcLabels.openShop)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(map)}">${escapeHtml(npcLabels.openMap)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(tool)}">${escapeHtml(npcLabels.openTracker)}</a>
       </div>
     `;
     detail.querySelector("[data-npc-gifted]")?.addEventListener("change", (event) => {
@@ -1511,10 +1531,10 @@ if (npcHub) {
         if (!firstVisible) firstVisible = card;
       }
     });
-    if (countNode) countNode.textContent = `${visibleCount} NPC${visibleCount === 1 ? "" : "s"} shown`;
+    if (countNode) countNode.textContent = `${visibleCount} ${visibleCount === 1 ? npcLabels.shownSingular : npcLabels.shownPlural}`;
     if (firstVisible && (!selectedCard || selectedCard.hidden)) renderNpcDetail(firstVisible);
     if (!firstVisible && detail) {
-      detail.innerHTML = `<h2>No NPC Match</h2><p>Try a shorter search like pet, Bob, weather, fishing, or shop.</p>`;
+      detail.innerHTML = `<h2>${escapeHtml(npcLabels.noMatchTitle)}</h2><p>${escapeHtml(npcLabels.noMatchBody)}</p>`;
     }
   };
 
@@ -1539,6 +1559,21 @@ if (petHub) {
   const searchInput = petHub.querySelector("[data-pet-search]");
   const filterButtons = Array.from(petHub.querySelectorAll("[data-pet-filter]"));
   const countNode = petHub.querySelector("[data-pet-count]");
+  const petLabels = {
+    route: petHub.getAttribute("data-pet-label-route") || "route",
+    unlock: petHub.getAttribute("data-pet-label-unlock") || "Unlock",
+    source: petHub.getAttribute("data-pet-label-source") || "Source",
+    foodRecorded: petHub.getAttribute("data-pet-label-food-recorded") || "Food test recorded",
+    openSource: petHub.getAttribute("data-pet-label-open-source") || "Open Source",
+    openMap: petHub.getAttribute("data-pet-label-open-map") || "Open Map/Route",
+    favorites: petHub.getAttribute("data-pet-label-favorites") || "Animal Favorites",
+    shownSingular: petHub.getAttribute("data-pet-label-shown-singular") || "animal shown",
+    shownPlural: petHub.getAttribute("data-pet-label-shown-plural") || "animals shown",
+    noMatchTitle: petHub.getAttribute("data-pet-label-no-match-title") || "No Animal Match",
+    noMatchBody:
+      petHub.getAttribute("data-pet-label-no-match-body") ||
+      "Try a shorter search like dog food, fox, corn, wheat, or Oak-Oak."
+  };
   let activeFilter = "all";
   let selectedCard = cards.find((card) => card.classList.contains("is-selected")) || cards[0];
   let testedFood = new Set(safeReadJson(storageKey, []));
@@ -1561,17 +1596,17 @@ if (petHub) {
     const badgeClass = card.querySelector(".pet-badge")?.className || "pet-badge";
     detail.innerHTML = `
       <div class="npc-detail-head"><span class="${escapeHtml(badgeClass)}">${escapeHtml(badgeText)}</span><div><h2>${escapeHtml(name)}</h2><p>${escapeHtml(route)}</p></div></div>
-      <span class="pet-route-chip">${escapeHtml(category)} route</span>
+      <span class="pet-route-chip">${escapeHtml(category)} ${escapeHtml(petLabels.route)}</span>
       <div class="map-meta">
-        <span><strong>Unlock:</strong> ${escapeHtml(unlock)}</span>
-        <span><strong>Source:</strong> ${escapeHtml(source)}</span>
+        <span><strong>${escapeHtml(petLabels.unlock)}:</strong> ${escapeHtml(unlock)}</span>
+        <span><strong>${escapeHtml(petLabels.source)}:</strong> ${escapeHtml(source)}</span>
       </div>
       <div class="pet-food-list">${foods.map((food) => `<span>${escapeHtml(food)}</span>`).join("")}</div>
-      <label class="pet-test-toggle"><input type="checkbox" data-pet-tested ${testedFood.has(id) ? "checked" : ""}> Food test recorded</label>
+      <label class="pet-test-toggle"><input type="checkbox" data-pet-tested ${testedFood.has(id) ? "checked" : ""}> ${escapeHtml(petLabels.foodRecorded)}</label>
       <div class="entity-action-grid">
-        <a class="pastel-button" href="${escapeHtml(shop)}">Open Source</a>
-        <a class="pastel-button alt" href="${escapeHtml(map)}">Open Map/Route</a>
-        <a class="pastel-button alt" href="${escapeHtml(guide)}">Animal Favorites</a>
+        <a class="pastel-button" href="${escapeHtml(shop)}">${escapeHtml(petLabels.openSource)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(map)}">${escapeHtml(petLabels.openMap)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(guide)}">${escapeHtml(petLabels.favorites)}</a>
       </div>
     `;
     detail.querySelector("[data-pet-tested]")?.addEventListener("change", (event) => {
@@ -1595,10 +1630,10 @@ if (petHub) {
         if (!firstVisible) firstVisible = card;
       }
     });
-    if (countNode) countNode.textContent = `${visibleCount} animal${visibleCount === 1 ? "" : "s"} shown`;
+    if (countNode) countNode.textContent = `${visibleCount} ${visibleCount === 1 ? petLabels.shownSingular : petLabels.shownPlural}`;
     if (firstVisible && (!selectedCard || selectedCard.hidden)) renderPetDetail(firstVisible);
     if (!firstVisible && detail) {
-      detail.innerHTML = `<h2>No Animal Match</h2><p>Try a shorter search like dog food, fox, corn, wheat, or Oak-Oak.</p>`;
+      detail.innerHTML = `<h2>${escapeHtml(petLabels.noMatchTitle)}</h2><p>${escapeHtml(petLabels.noMatchBody)}</p>`;
     }
   };
 
