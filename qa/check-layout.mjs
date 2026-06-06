@@ -43,7 +43,8 @@ const paths = [
   "/de/",
   "/ja/fish/wels-catfish/",
   "/zh-hans/",
-  "/zh-hans/codes/"
+  "/zh-hans/codes/",
+  "/zh-hans/tools/"
 ];
 const viewports = [
   { width: 375, height: 812 },
