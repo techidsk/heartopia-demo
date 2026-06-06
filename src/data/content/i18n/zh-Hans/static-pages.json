@@ -1,0 +1,71 @@
+[
+  {
+    "path": "/about/",
+    "title": "关于 Heartopia Hub",
+    "description": "关于 Heartopia Hub：一个独立粉丝资料站，说明 Heartopia 兑换码、攻略、工具和数据库页面的编辑标准。",
+    "section": "站点",
+    "keywords": [
+      "heartopia",
+      "关于",
+      "独立",
+      "粉丝资料",
+      "编辑标准",
+      "兑换码",
+      "攻略",
+      "工具",
+      "数据库"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">编辑透明度</span>\n          <h1>关于 Heartopia Hub</h1>\n          <p>Heartopia Hub 是一个独立粉丝资料站，目标是帮助玩家找到实用、可核对、说明清楚的 Heartopia 信息。</p>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>我们发布什么</h2>\n          <p>我们发布新手攻略、兑换码核对记录、地图规划框架、轻量工具和数据库标准。目标是解释玩家决策，而不是简单重复其他网站上的名称、数字或传闻。</p>\n\n          <h2>编辑方法</h2>\n          <ul class=\"checklist\">\n            <li>兑换码信息会区分为已验证、已过期和未验证状态。</li>\n            <li>攻略会说明取舍、假设和更新时间。</li>\n            <li>数据库页面在发布前应包含来源可信度和实际游玩建议。</li>\n            <li>内容单薄的占位页面应保持未发布或 noindex，直到它们具备有用内容。</li>\n          </ul>\n\n          <h2>独立声明</h2>\n          <p>本站不隶属于、不代表、不受赞助，也不由 Heartopia、游戏开发者或发行方运营。名称和游戏引用仅用于识别与粉丝评论。</p>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/contact/",
+    "title": "联系 Heartopia Hub",
+    "description": "联系 Heartopia Hub，用于兑换码更正、攻略更新、隐私问题和编辑反馈。",
+    "section": "站点",
+    "keywords": [
+      "heartopia",
+      "联系",
+      "兑换码",
+      "更正",
+      "更新",
+      "隐私",
+      "问题",
+      "编辑",
+      "反馈"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">欢迎更正</span>\n          <h1>联系</h1>\n          <p>此页面用于兑换码更正、来源说明、隐私问题和攻略反馈。</p>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner split\">\n          <article class=\"content\">\n            <h2>编辑联系</h2>\n            <p>在提交 AdSense 审核前，请将下面的占位邮箱替换为站点所有者实际维护的收件箱。</p>\n            <p><strong>邮箱：</strong> <a href=\"mailto:replace-with-your-real-inbox@example.com\">replace-with-your-real-inbox@example.com</a></p>\n\n            <h2>请包含哪些信息</h2>\n            <ul class=\"checklist\">\n              <li>需要更正的页面 URL。</li>\n              <li>支持更改的来源链接或截图。</li>\n              <li>你核对兑换码、活动或机制的日期。</li>\n              <li>如果信息并非所有平台或地区通用，请附上一句说明。</li>\n            </ul>\n          </article>\n\n          <aside class=\"card\">\n            <h3>回应范围</h3>\n            <p>这个粉丝站可以审阅编辑更正和隐私请求，但不能提供官方游戏支持、账号找回或发行方协助。</p>\n          </aside>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/privacy/",
+    "title": "隐私政策 - Heartopia Hub",
+    "description": "Heartopia Hub 隐私政策，包含 Cookie、分析、广告、AdSense 和用户选择说明。",
+    "section": "站点",
+    "keywords": [
+      "heartopia",
+      "隐私",
+      "政策",
+      "cookie",
+      "分析",
+      "广告",
+      "adsense",
+      "用户选择"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">最后更新：2026 年 6 月 5 日</span>\n          <h1>隐私政策</h1>\n          <p>本政策说明 Heartopia Hub 会收集什么、广告可能如何运作，以及访问者如何控制 Cookie 和个性化广告。</p>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>我们收集的信息</h2>\n          <p>这个静态网站不需要账号，也不会要求密码、游戏账号数据、付款信息或个人资料。如果你通过电子邮件联系站点所有者，你的邮件内容和邮箱地址可能会用于回复请求。</p>\n\n          <h2>Cookie 和分析</h2>\n          <p>当前版本不包含分析脚本。如果以后加入分析，应更新本政策，写明服务提供商、收集的数据和退出选择。</p>\n\n          <h2>Google AdSense 和广告</h2>\n          <p>启用 Google AdSense 或其他广告合作伙伴后，第三方供应商可能会使用 Cookie 或类似技术，根据访问者此前访问本站和其他网站的情况投放广告。Google 使用广告 Cookie 后，Google 及其合作伙伴可以基于对本站和互联网上其他网站的访问记录展示广告。</p>\n          <p>访问者可以通过 Google 的广告设置查看个性化广告选择，也可以通过公认的行业退出资源了解更多第三方广告选择。如果本站面向有额外同意要求的地区提供服务，应在启用个性化广告前加入合规的同意机制。</p>\n\n          <h2>外部链接</h2>\n          <p>本站可能链接到官方游戏页面、发行方频道和社区资源。外部网站有自己的隐私实践，不受 Heartopia Hub 控制。</p>\n\n          <h2>联系</h2>\n          <p>如有隐私问题，请使用联系页面。在提交 AdSense 审核前，请将占位邮箱替换为实际维护的收件箱。</p>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/terms/",
+    "title": "使用条款 - Heartopia Hub",
+    "description": "Heartopia Hub 使用条款，包含粉丝站状态、编辑边界和免责声明。",
+    "section": "站点",
+    "keywords": [
+      "heartopia",
+      "条款",
+      "粉丝站",
+      "状态",
+      "编辑",
+      "边界",
+      "免责声明"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">最后更新：2026 年 6 月 5 日</span>\n          <h1>使用条款</h1>\n          <p>这些条款说明这个独立粉丝资料站的范围和限制。</p>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>粉丝资料站状态</h2>\n          <p>Heartopia Hub 是一个独立粉丝网站。本站不隶属于、不代表、不受赞助，也不由 Heartopia、游戏开发者或发行方运营。</p>\n\n          <h2>信息用途</h2>\n          <p>内容仅用于一般信息和娱乐目的。如果游戏发生变化，攻略、兑换码记录、工具和数据库标准可能包含假设或过时信息。重要细节请始终在官方游戏客户端或官方发行渠道中核对。</p>\n\n          <h2>不提供账号支持</h2>\n          <p>本站不能提供游戏账号找回、购买支持、官方漏洞处理或发行方决策。官方支持请使用游戏的正式支持渠道。</p>\n\n          <h2>更正</h2>\n          <p>如果你发现错误，请联系站点所有者，并附上页面 URL、证据和核对日期。更正会在发布前经过编辑审阅。</p>\n        </div>\n      </section>"
+  }
+]

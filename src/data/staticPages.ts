@@ -1,4 +1,5 @@
 import rawPages from "./content/static-pages.json";
+import zhHansStaticPages from "./content/i18n/zh-Hans/static-pages.json";
 import { defaultLocale, supportedLocales, type Locale } from "@i18n/config";
 
 export type StaticPage = {
@@ -12,17 +13,41 @@ export type StaticPage = {
   translationStatus?: "translated" | "fallback";
 };
 
-const englishPages = (rawPages as StaticPage[]).map((page) => ({ ...page, translationStatus: "translated" as const }));
+type StaticPageTranslation = Partial<Omit<StaticPage, "path" | "translationStatus">> & {
+  path: string;
+};
 
-const makeFallbackPages = (locale: Locale) =>
-  englishPages.map((page) => ({
-    ...page,
-    keywords: [...page.keywords, locale],
-    translationStatus: locale === defaultLocale ? ("translated" as const) : ("fallback" as const)
-  }));
+const translatedStaticPages = {
+  "zh-Hans": zhHansStaticPages as StaticPageTranslation[]
+} satisfies Partial<Record<Locale, StaticPageTranslation[]>>;
+
+const englishPages = (rawPages as StaticPage[]).map((page) => ({ ...page, translationStatus: "translated" as const }));
+const englishPagesByPath = new Map(englishPages.map((page) => [page.path, page]));
+
+const makeLocalizedPages = (locale: Locale) => {
+  const translationsByPath = new Map((translatedStaticPages[locale] || []).map((page) => [page.path, page]));
+  return englishPages.map((page) => {
+    const translation = translationsByPath.get(page.path);
+    if (!translation) {
+      return {
+        ...page,
+        keywords: [...page.keywords, locale],
+        translationStatus: "fallback" as const
+      };
+    }
+
+    return {
+      ...page,
+      ...translation,
+      keywords: translation.keywords || [...page.keywords, locale],
+      ogImage: translation.ogImage || page.ogImage,
+      translationStatus: "translated" as const
+    };
+  });
+};
 
 const staticPagesByLocale = Object.fromEntries(
-  supportedLocales.map((locale) => [locale, locale === defaultLocale ? englishPages : makeFallbackPages(locale)])
+  supportedLocales.map((locale) => [locale, locale === defaultLocale ? englishPages : makeLocalizedPages(locale)])
 ) as Record<Locale, StaticPage[]>;
 
 const pagesByLocale = Object.fromEntries(
@@ -34,6 +59,11 @@ export function getStaticPages(locale: Locale = defaultLocale) {
 }
 
 export const staticPages = getStaticPages(defaultLocale);
+
+export function getTranslatedStaticPagePaths(locale: Locale = defaultLocale) {
+  if (locale === defaultLocale) return [...englishPagesByPath.keys()];
+  return (translatedStaticPages[locale] || []).map((page) => page.path);
+}
 
 export function getStaticPage(path: string, locale: Locale = defaultLocale) {
   const normalized = path === "/" || path.endsWith("/") || path.endsWith(".html") ? path : `${path}/`;
