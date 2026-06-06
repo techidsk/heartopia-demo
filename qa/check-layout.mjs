@@ -50,6 +50,7 @@ const paths = [
   "/zh-hans/map/",
   "/zh-hans/database/",
   "/zh-hans/animal-favorites/",
+  "/zh-hans/events/",
   "/zh-hans/hobbies/",
   "/zh-hans/hobbies/fishing/",
   "/zh-hans/hobbies/cooking/"

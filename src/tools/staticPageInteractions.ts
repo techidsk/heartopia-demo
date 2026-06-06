@@ -2140,6 +2140,24 @@ if (eventHub) {
   const searchInput = eventHub.querySelector("[data-event-search]");
   const filterButtons = Array.from(eventHub.querySelectorAll("[data-event-filter]"));
   const countNode = eventHub.querySelector("[data-event-count]");
+  const eventLabels = {
+    noFixedCountdown: eventHub.getAttribute("data-event-label-no-fixed-countdown") || "No fixed countdown. Check the route or announcement before planning.",
+    datePending: eventHub.getAttribute("data-event-label-date-pending") || "Date pending. Confirm the current event source before planning.",
+    ended: eventHub.getAttribute("data-event-label-ended") || "Window likely ended. Move this event to archive after source review.",
+    countdownSuffix: eventHub.getAttribute("data-event-label-countdown-suffix") || "left in the reported window",
+    day: eventHub.getAttribute("data-event-label-day") || "d",
+    hour: eventHub.getAttribute("data-event-label-hour") || "h",
+    minute: eventHub.getAttribute("data-event-label-minute") || "m",
+    progressSuffix: eventHub.getAttribute("data-event-label-progress-suffix") || "prep tasks done",
+    saved: eventHub.getAttribute("data-event-label-saved") || "Saved locally in this browser.",
+    openRoute: eventHub.getAttribute("data-event-label-open-route") || "Open Route",
+    openChecklist: eventHub.getAttribute("data-event-label-open-checklist") || "Open Checklist",
+    relatedGuide: eventHub.getAttribute("data-event-label-related-guide") || "Related Guide",
+    shownSingular: eventHub.getAttribute("data-event-label-shown-singular") || "event shown",
+    shownPlural: eventHub.getAttribute("data-event-label-shown-plural") || "events shown",
+    noMatchTitle: eventHub.getAttribute("data-event-label-no-match-title") || "No Event Match",
+    noMatchBody: eventHub.getAttribute("data-event-label-no-match-body") || "Try a shorter search like modular, fishing, current, or archive."
+  };
   let activeFilter = "all";
   let selectedCard = cards.find((card) => card.classList.contains("is-selected")) || cards[0];
   let checkedPrep = new Set(safeReadJson(storageKey, []));
@@ -2148,23 +2166,25 @@ if (eventHub) {
   const prepKey = (eventId, task) => `${eventId}:${normalizeText(task)}`;
 
   const formatEventCountdown = (endAt) => {
-    if (!endAt) return "No fixed countdown. Check the route or announcement before planning.";
+    if (!endAt) return eventLabels.noFixedCountdown;
     const endTime = new Date(endAt).getTime();
     const remaining = endTime - Date.now();
-    if (!Number.isFinite(endTime)) return "Date pending. Confirm the current event source before planning.";
-    if (remaining <= 0) return "Window likely ended. Move this event to archive after source review.";
+    if (!Number.isFinite(endTime)) return eventLabels.datePending;
+    if (remaining <= 0) return eventLabels.ended;
     const totalMinutes = Math.ceil(remaining / 60000);
     const days = Math.floor(totalMinutes / 1440);
     const hours = Math.floor((totalMinutes % 1440) / 60);
     const minutes = totalMinutes % 60;
-    return days ? `${days}d ${hours}h ${minutes}m left in the reported window` : `${hours}h ${minutes}m left in the reported window`;
+    return days
+      ? `${days}${eventLabels.day} ${hours}${eventLabels.hour} ${minutes}${eventLabels.minute} ${eventLabels.countdownSuffix}`
+      : `${hours}${eventLabels.hour} ${minutes}${eventLabels.minute} ${eventLabels.countdownSuffix}`;
   };
 
   const updateEventProgress = (eventId, prepItems) => {
     const progressNode = detail?.querySelector("[data-event-progress]");
     if (!progressNode) return;
     const done = prepItems.filter((item) => checkedPrep.has(prepKey(eventId, item))).length;
-    progressNode.textContent = `${done}/${prepItems.length} prep tasks done`;
+    progressNode.textContent = `${done}/${prepItems.length} ${eventLabels.progressSuffix}`;
   };
 
   const renderEventDetail = (card) => {
@@ -2173,6 +2193,7 @@ if (eventHub) {
     cards.forEach((item) => item.classList.toggle("is-selected", item === card));
     const eventId = card.getAttribute("data-event-id") || normalizeText(card.getAttribute("data-name"));
     const status = card.getAttribute("data-status") || "current";
+    const statusLabel = card.getAttribute("data-status-label") || status;
     const name = card.getAttribute("data-name") || "Event";
     const windowText = card.getAttribute("data-window") || "TBA";
     const endAt = card.getAttribute("data-end-at") || "";
@@ -2183,7 +2204,7 @@ if (eventHub) {
     const tool = card.getAttribute("data-tool") || "/tools/checklist/";
     const guide = card.getAttribute("data-guide") || "/events/";
     detail.innerHTML = `
-      <span class="event-status ${escapeHtml(status)}">${escapeHtml(status)}</span>
+      <span class="event-status ${escapeHtml(status)}">${escapeHtml(statusLabel)}</span>
       <h2>${escapeHtml(name)}</h2>
       <p class="event-window">${escapeHtml(windowText)}</p>
       <div class="event-countdown" data-event-countdown>${escapeHtml(formatEventCountdown(endAt))}</div>
@@ -2193,11 +2214,11 @@ if (eventHub) {
         const key = prepKey(eventId, item);
         return `<label class="material-item"><input type="checkbox" data-event-prep-item="${escapeHtml(key)}" ${checkedPrep.has(key) ? "checked" : ""}><span>${escapeHtml(item)}</span></label>`;
       }).join("")}</div>
-      <div class="tracker-progress"><strong data-event-progress>0/${prepItems.length} prep tasks done</strong><span>Saved locally in this browser.</span></div>
+      <div class="tracker-progress"><strong data-event-progress>0/${prepItems.length} ${escapeHtml(eventLabels.progressSuffix)}</strong><span>${escapeHtml(eventLabels.saved)}</span></div>
       <div class="entity-action-grid">
-        <a class="pastel-button" href="${escapeHtml(map)}">Open Route</a>
-        <a class="pastel-button alt" href="${escapeHtml(tool)}">Open Checklist</a>
-        <a class="pastel-button alt" href="${escapeHtml(guide)}">Related Guide</a>
+        <a class="pastel-button" href="${escapeHtml(map)}">${escapeHtml(eventLabels.openRoute)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(tool)}">${escapeHtml(eventLabels.openChecklist)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(guide)}">${escapeHtml(eventLabels.relatedGuide)}</a>
       </div>
     `;
     updateEventProgress(eventId, prepItems);
@@ -2224,10 +2245,10 @@ if (eventHub) {
         if (!firstVisible) firstVisible = card;
       }
     });
-    if (countNode) countNode.textContent = `${visibleCount} event${visibleCount === 1 ? "" : "s"} shown`;
+    if (countNode) countNode.textContent = `${visibleCount} ${visibleCount === 1 ? eventLabels.shownSingular : eventLabels.shownPlural}`;
     if (firstVisible && (!selectedCard || selectedCard.hidden)) renderEventDetail(firstVisible);
     if (!firstVisible && detail) {
-      detail.innerHTML = `<h2>No Event Match</h2><p>Try a shorter search like modular, fishing, current, or archive.</p>`;
+      detail.innerHTML = `<h2>${escapeHtml(eventLabels.noMatchTitle)}</h2><p>${escapeHtml(eventLabels.noMatchBody)}</p>`;
     }
   };
 
