@@ -2323,7 +2323,36 @@ if (cropPlanner) {
   const resultNode = cropPlanner.querySelector("[data-crop-plan-result]");
   const stepsNode = document.querySelector("[data-crop-plan-steps]");
   const statusNode = document.querySelector("[data-tool-save-status]");
+  const cropPlanLabels = {
+    saved: cropPlanner.getAttribute("data-crop-plan-label-saved") || "Saved locally for this browser.",
+    forText: cropPlanner.getAttribute("data-crop-plan-label-for") || "for",
+    boxes: cropPlanner.getAttribute("data-crop-plan-label-boxes") || "boxes",
+    window: cropPlanner.getAttribute("data-crop-plan-label-window") || "window",
+    prioritize: cropPlanner.getAttribute("data-crop-plan-label-prioritize") || "prioritize",
+    step: cropPlanner.getAttribute("data-crop-plan-label-step") || "Step",
+    activeTitle: cropPlanner.getAttribute("data-crop-plan-active-title") || "Active money loop",
+    balancedTitle: cropPlanner.getAttribute("data-crop-plan-balanced-title") || "Balanced route",
+    offlineTitle: cropPlanner.getAttribute("data-crop-plan-offline-title") || "Before logout",
+    activeSteps: [
+      cropPlanner.getAttribute("data-crop-plan-active-step-1"),
+      cropPlanner.getAttribute("data-crop-plan-active-step-2"),
+      cropPlanner.getAttribute("data-crop-plan-active-step-3")
+    ],
+    balancedSteps: [
+      cropPlanner.getAttribute("data-crop-plan-balanced-step-1"),
+      cropPlanner.getAttribute("data-crop-plan-balanced-step-2"),
+      cropPlanner.getAttribute("data-crop-plan-balanced-step-3")
+    ],
+    offlineSteps: [
+      cropPlanner.getAttribute("data-crop-plan-offline-step-1"),
+      cropPlanner.getAttribute("data-crop-plan-offline-step-2"),
+      cropPlanner.getAttribute("data-crop-plan-offline-step-3")
+    ]
+  };
   setFormValues(cropPlanner, safeReadJson(storageKey, {}));
+
+  const formatTemplate = (template, values) =>
+    (template || "").replace(/\{(\w+)\}/g, (_, key) => String(values[key] ?? ""));
 
   const updateCropPlanner = (shouldSave = false) => {
     const values = collectFormValues(cropPlanner);
@@ -2332,31 +2361,37 @@ if (cropPlanner) {
     const mode = values.mode || "active";
     const plans = {
       active: {
-        title: "Active money loop",
+        title: cropPlanLabels.activeTitle,
         crops: ["Pineapple", "Tomato", "Potato"],
-        steps: [`Plant ${Math.ceil(boxes * 0.55)} boxes of Pineapple for 30-minute turns.`, `Use ${Math.floor(boxes * 0.3)} boxes of Tomato while actively checking the garden.`, "End the session with Potato if you will be away for about an hour."]
+        steps: cropPlanLabels.activeSteps.filter(Boolean).length === 3
+          ? cropPlanLabels.activeSteps.map((step) => formatTemplate(step, { boxes, a: Math.ceil(boxes * 0.55), b: Math.floor(boxes * 0.3) }))
+          : [`Plant ${Math.ceil(boxes * 0.55)} boxes of Pineapple for 30-minute turns.`, `Use ${Math.floor(boxes * 0.3)} boxes of Tomato while actively checking the garden.`, "End the session with Potato if you will be away for about an hour."]
       },
       balanced: {
-        title: "Balanced route",
+        title: cropPlanLabels.balancedTitle,
         crops: ["Potato", "Carrot", "Pineapple"],
-        steps: [`Put ${Math.ceil(boxes * 0.5)} boxes into Potato for stable value.`, `Use ${Math.floor(boxes * 0.3)} boxes for Carrot if your session reaches two hours.`, "Keep a few fast boxes open for Pineapple or Tomato resets."]
+        steps: cropPlanLabels.balancedSteps.filter(Boolean).length === 3
+          ? cropPlanLabels.balancedSteps.map((step) => formatTemplate(step, { boxes, a: Math.ceil(boxes * 0.5), b: Math.floor(boxes * 0.3) }))
+          : [`Put ${Math.ceil(boxes * 0.5)} boxes into Potato for stable value.`, `Use ${Math.floor(boxes * 0.3)} boxes for Carrot if your session reaches two hours.`, "Keep a few fast boxes open for Pineapple or Tomato resets."]
       },
       offline: {
-        title: "Before logout",
+        title: cropPlanLabels.offlineTitle,
         crops: ["Wheat", "Lettuce", "Carrot"],
-        steps: [`Fill ${boxes} boxes with the longest crop unlocked before logging off.`, "Use Wheat as the safe baseline if Lettuce or Corn-style long crops are not unlocked.", "Set a route timer so the next login starts with harvest."]
+        steps: cropPlanLabels.offlineSteps.filter(Boolean).length === 3
+          ? cropPlanLabels.offlineSteps.map((step) => formatTemplate(step, { boxes }))
+          : [`Fill ${boxes} boxes with the longest crop unlocked before logging off.`, "Use Wheat as the safe baseline if Lettuce or Corn-style long crops are not unlocked.", "Set a route timer so the next login starts with harvest."]
       }
     };
     const plan = plans[mode] || plans.active;
     if (resultNode) {
-      resultNode.textContent = `${plan.title}: for ${boxes} boxes and a ${hours}h window, prioritize ${plan.crops.join(", ")}.`;
+      resultNode.textContent = `${plan.title}: ${cropPlanLabels.forText} ${boxes} ${cropPlanLabels.boxes} ${hours}h ${cropPlanLabels.window}, ${cropPlanLabels.prioritize} ${plan.crops.join(", ")}.`;
     }
     if (stepsNode) {
-      stepsNode.innerHTML = plan.steps.map((step, index) => `<article class="plan-step"><strong>Step ${index + 1}</strong><span>${escapeHtml(step)}</span></article>`).join("");
+      stepsNode.innerHTML = plan.steps.map((step, index) => `<article class="plan-step"><strong>${escapeHtml(cropPlanLabels.step)} ${index + 1}</strong><span>${escapeHtml(step)}</span></article>`).join("");
     }
     if (shouldSave) {
       safeWriteJson(storageKey, values);
-      if (statusNode) statusNode.textContent = "Saved locally for this browser.";
+      if (statusNode) statusNode.textContent = cropPlanLabels.saved;
     }
   };
 
@@ -2371,6 +2406,9 @@ if (fishTracker) {
   const searchInput = fishTracker.querySelector("[data-fish-search]");
   const filterButtons = Array.from(fishTracker.querySelectorAll("[data-fish-filter]"));
   const progressNode = fishTracker.querySelector("[data-fish-progress]");
+  const fishLabels = {
+    visibleCaught: fishTracker.getAttribute("data-fish-label-visible-caught") || "visible caught"
+  };
   let activeFilter = "all";
   let caught = new Set(safeReadJson(storageKey, []));
 
@@ -2384,7 +2422,7 @@ if (fishTracker) {
     });
     const visibleRows = rows.filter((row) => !row.hidden);
     const visibleCaught = visibleRows.filter((row) => caught.has(fishId(row))).length;
-    if (progressNode) progressNode.textContent = `${visibleCaught}/${visibleRows.length} visible caught`;
+    if (progressNode) progressNode.textContent = `${visibleCaught}/${visibleRows.length} ${fishLabels.visibleCaught}`;
   };
 
   const applyFishFilters = () => {
@@ -2423,6 +2461,14 @@ if (friendshipTool) {
   const storageKey = "heartopia-friendship-tool";
   const resultNode = friendshipTool.querySelector("[data-friendship-result]");
   const statusNode = document.querySelector("[data-tool-save-status]");
+  const friendshipLabels = {
+    points: friendshipTool.getAttribute("data-friendship-label-points") || "estimated affinity points over",
+    days: friendshipTool.getAttribute("data-friendship-label-days") || "days",
+    pace: friendshipTool.getAttribute("data-friendship-label-pace") || "about",
+    perDay: friendshipTool.getAttribute("data-friendship-label-per-day") || "points per day",
+    hint: friendshipTool.getAttribute("data-friendship-label-hint") || "Keep favorite gifts for the target NPC and use liked gifts as filler.",
+    saved: friendshipTool.getAttribute("data-friendship-label-saved") || "Saved locally for this browser."
+  };
   setFormValues(friendshipTool, safeReadJson(storageKey, {}));
 
   const updateFriendship = (shouldSave = false) => {
@@ -2435,11 +2481,11 @@ if (friendshipTool) {
     const days = Math.max(1, Number(values.days || 1));
     const pace = Math.round(points / days);
     if (resultNode) {
-      resultNode.textContent = `${values.npc}: ${points} estimated affinity points over ${days} days, about ${pace} points per day. Keep favorite gifts for the target NPC and use liked gifts as filler.`;
+      resultNode.textContent = `${values.npc}: ${points} ${friendshipLabels.points} ${days} ${friendshipLabels.days}, ${friendshipLabels.pace} ${pace} ${friendshipLabels.perDay}. ${friendshipLabels.hint}`;
     }
     if (shouldSave) {
       safeWriteJson(storageKey, values);
-      if (statusNode) statusNode.textContent = "Saved locally for this browser.";
+      if (statusNode) statusNode.textContent = friendshipLabels.saved;
     }
   };
 
@@ -2453,6 +2499,10 @@ if (recipeFinder) {
   const ingredientInputs = Array.from(recipeFinder.querySelectorAll("[data-recipe-ingredient]"));
   const cards = Array.from(recipeFinder.querySelectorAll("[data-recipe-card]"));
   const countNode = recipeFinder.querySelector("[data-recipe-count]");
+  const recipeLabels = {
+    singular: recipeFinder.getAttribute("data-recipe-label-singular") || "recipe available",
+    plural: recipeFinder.getAttribute("data-recipe-label-plural") || "recipes available"
+  };
   const savedIngredients = new Set(safeReadJson(storageKey, []));
   if (savedIngredients.size) {
     ingredientInputs.forEach((input) => {
@@ -2469,7 +2519,7 @@ if (recipeFinder) {
       card.hidden = !isVisible;
       if (isVisible) visibleCount += 1;
     });
-    if (countNode) countNode.textContent = `${visibleCount} recipe${visibleCount === 1 ? "" : "s"} available`;
+    if (countNode) countNode.textContent = `${visibleCount} ${visibleCount === 1 ? recipeLabels.singular : recipeLabels.plural}`;
     safeWriteJson(storageKey, [...selected]);
   };
 
@@ -2483,6 +2533,10 @@ if (checklistTool) {
   const textarea = checklistTool.querySelector("[name='tasks']");
   const resultNode = checklistTool.querySelector("[data-checklist-result]");
   const progressNode = checklistTool.querySelector("[data-checklist-progress]");
+  const checklistLabels = {
+    completed: checklistTool.getAttribute("data-checklist-label-completed") || "completed",
+    empty: checklistTool.getAttribute("data-checklist-label-empty") || "Add one task per line to build a compact route."
+  };
   const saved = safeReadJson(storageKey, null);
   let completed = new Set(saved?.completed || []);
   if (saved?.tasks?.length && textarea) textarea.value = saved.tasks.join("\n");
@@ -2501,12 +2555,12 @@ if (checklistTool) {
     writeChecklist();
     if (progressNode) {
       const done = tasks.filter((task) => completed.has(taskKey(task))).length;
-      progressNode.textContent = `${done}/${tasks.length} completed`;
+      progressNode.textContent = `${done}/${tasks.length} ${checklistLabels.completed}`;
     }
     if (resultNode) {
       resultNode.innerHTML = tasks.length
         ? tasks.map((task) => `<label class="checklist-item"><input type="checkbox" data-checklist-item="${escapeHtml(taskKey(task))}" ${completed.has(taskKey(task)) ? "checked" : ""}><span>${escapeHtml(task)}</span></label>`).join("")
-        : "<p>Add one task per line to build a compact route.</p>";
+        : `<p>${escapeHtml(checklistLabels.empty)}</p>`;
     }
   };
 
@@ -2534,28 +2588,41 @@ if (timerTool) {
   const storageKey = "heartopia-route-timers";
   const listNode = timerTool.querySelector("[data-timer-list]");
   const countNode = timerTool.querySelector("[data-timer-count]");
+  const timerLabels = {
+    ready: timerTool.getAttribute("data-timer-label-ready") || "Ready now",
+    hour: timerTool.getAttribute("data-timer-label-hour") || "h",
+    minute: timerTool.getAttribute("data-timer-label-minute") || "m",
+    second: timerTool.getAttribute("data-timer-label-second") || "s",
+    singular: timerTool.getAttribute("data-timer-label-singular") || "active timer",
+    plural: timerTool.getAttribute("data-timer-label-plural") || "active timers",
+    clear: timerTool.getAttribute("data-timer-label-clear") || "Clear",
+    empty: timerTool.getAttribute("data-timer-label-empty") || "No timers yet. Start one from the form above.",
+    fallback: timerTool.getAttribute("data-timer-label-fallback") || "Route timer"
+  };
   let timers = safeReadJson(storageKey, []);
 
   const formatRemaining = (ms) => {
-    if (ms <= 0) return "Ready now";
+    if (ms <= 0) return timerLabels.ready;
     const totalSeconds = Math.ceil(ms / 1000);
     const hours = Math.floor(totalSeconds / 3600);
     const minutes = Math.floor((totalSeconds % 3600) / 60);
     const seconds = totalSeconds % 60;
-    return hours ? `${hours}h ${minutes}m ${seconds}s` : `${minutes}m ${seconds}s`;
+    return hours
+      ? `${hours}${timerLabels.hour} ${minutes}${timerLabels.minute} ${seconds}${timerLabels.second}`
+      : `${minutes}${timerLabels.minute} ${seconds}${timerLabels.second}`;
   };
 
   const saveTimers = () => safeWriteJson(storageKey, timers);
   const renderTimers = () => {
     const now = Date.now();
     const activeCount = timers.filter((timer) => timer.endAt > now).length;
-    if (countNode) countNode.textContent = `${activeCount} active timer${activeCount === 1 ? "" : "s"}`;
+    if (countNode) countNode.textContent = `${activeCount} ${activeCount === 1 ? timerLabels.singular : timerLabels.plural}`;
     if (!listNode) return;
     listNode.innerHTML = timers.length
       ? timers
-          .map((timer) => `<article class="timer-card ${timer.endAt <= now ? "is-ready" : ""}"><span><strong>${escapeHtml(timer.label)}</strong><small>${formatRemaining(timer.endAt - now)}</small></span><button class="map-state-button" type="button" data-timer-remove="${escapeHtml(timer.id)}">Clear</button></article>`)
+          .map((timer) => `<article class="timer-card ${timer.endAt <= now ? "is-ready" : ""}"><span><strong>${escapeHtml(timer.label)}</strong><small>${formatRemaining(timer.endAt - now)}</small></span><button class="map-state-button" type="button" data-timer-remove="${escapeHtml(timer.id)}">${escapeHtml(timerLabels.clear)}</button></article>`)
           .join("")
-      : "<p>No timers yet. Start one from the form above.</p>";
+      : `<p>${escapeHtml(timerLabels.empty)}</p>`;
   };
 
   timerTool.addEventListener("submit", (event) => {
@@ -2564,7 +2631,7 @@ if (timerTool) {
     const minutes = Math.max(1, Number(values.minutes || 1));
     timers.push({
       id: `${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
-      label: values.label || "Route timer",
+      label: values.label || timerLabels.fallback,
       endAt: Date.now() + minutes * 60 * 1000
     });
     saveTimers();
