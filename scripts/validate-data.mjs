@@ -4,8 +4,9 @@ import { fileURLToPath } from "node:url";
 import { z } from "zod";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const dataDir = path.join(rootDir, "site", "assets", "data");
+const dataDir = path.join(rootDir, "src", "data", "content");
 const pathSchema = z.string().min(1).regex(/^\//, "must be an absolute site path");
+const routePathSchema = z.string().min(1).regex(/^(?:\/|\/(?:.*\/|404\.html))$/, "must be a site route path");
 
 const schemas = {
   fish: z.array(
@@ -161,6 +162,17 @@ const schemas = {
       useCase: z.string().min(1),
       linkedData: z.array(z.string().min(1)),
       status: z.string().min(1)
+    })
+  ),
+  "static-pages": z.array(
+    z.object({
+      path: routePathSchema,
+      title: z.string().min(1),
+      description: z.string().min(1),
+      section: z.string().min(1),
+      keywords: z.array(z.string().min(1)),
+      ogImage: pathSchema.optional(),
+      content: z.string().min(1)
     })
   )
 };

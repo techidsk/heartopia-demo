@@ -1,3 +1,4 @@
+export function initStaticPageInteractions() {
 const menuButton = document.querySelector("[data-menu-button]");
 const navLinks = document.querySelector("[data-nav-links]");
 
@@ -1976,4 +1977,5 @@ if (timerTool) {
   });
   renderTimers();
   window.setInterval(renderTimers, 1000);
+}
 }

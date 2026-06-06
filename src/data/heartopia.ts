@@ -1,14 +1,14 @@
 import { z } from "zod";
-import fishRaw from "../../site/assets/data/fish.json";
-import shopsRaw from "../../site/assets/data/shops.json";
-import cropsRaw from "../../site/assets/data/crops.json";
-import recipesRaw from "../../site/assets/data/recipes.json";
-import codesRaw from "../../site/assets/data/codes.json";
-import eventsRaw from "../../site/assets/data/events.json";
-import npcsRaw from "../../site/assets/data/npcs.json";
-import petsRaw from "../../site/assets/data/pets.json";
-import hobbiesRaw from "../../site/assets/data/hobbies.json";
-import toolsRaw from "../../site/assets/data/tools.json";
+import fishRaw from "./content/fish.json";
+import shopsRaw from "./content/shops.json";
+import cropsRaw from "./content/crops.json";
+import recipesRaw from "./content/recipes.json";
+import codesRaw from "./content/codes.json";
+import eventsRaw from "./content/events.json";
+import npcsRaw from "./content/npcs.json";
+import petsRaw from "./content/pets.json";
+import hobbiesRaw from "./content/hobbies.json";
+import toolsRaw from "./content/tools.json";
 
 const pathSchema = z.string().min(1);
 

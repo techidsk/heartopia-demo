@@ -1,10 +1,10 @@
 # Astro Page Factory Architecture
 
-This project now has one deployable Astro lane plus a legacy source tree:
+This project now has one deployable Astro lane:
 
-- `site/` stores legacy assets, JSON data, and hand-authored pages that have not moved to Astro yet.
-- `.astro-public/` is generated before Astro runs. It copies `site/` while excluding migrated routes.
 - `src/` is the new Astro page-factory source that builds to `dist/`.
+- `src/data/content/` stores canonical JSON data and migrated static page content.
+- `public/` stores browser-visible static assets such as images, CSS, favicon, manifest, `ads.txt`, and Cloudflare `_headers`.
 
 ## Goals
 
@@ -15,22 +15,21 @@ This project now has one deployable Astro lane plus a legacy source tree:
 
 ## Current Generated Scope
 
-- `/fish/` and `/fish/[id]/` are generated from `site/assets/data/fish.json`.
-- `/shops/` and `/shops/[id]/` are generated from `site/assets/data/shops.json`.
-- `/crops/` and `/crops/[id]/` are generated from `site/assets/data/crops.json`.
-- `/recipes/` and `/recipes/[id]/` are generated from `site/assets/data/recipes.json`.
+- `/fish/` and `/fish/[id]/` are generated from `src/data/content/fish.json`.
+- `/shops/` and `/shops/[id]/` are generated from `src/data/content/shops.json`.
+- `/crops/` and `/crops/[id]/` are generated from `src/data/content/crops.json`.
+- `/recipes/` and `/recipes/[id]/` are generated from `src/data/content/recipes.json`.
 - `/tools/profit-calculator/` is generated from validated crop data.
+- Migrated static guide, tool, hobby, legal, home, and 404 pages are generated from `src/data/content/static-pages.json` through `src/pages/[...slug].astro`.
 - `/search/`, `/search-index.json`, `/sitemap.xml`, and `/feed.xml` are generated from `src/data/routes.ts`.
-
-The legacy `site/` tree still provides assets, data, and unmigrated pages while pages move to Astro incrementally. When a route moves to Astro, remove the stale legacy output file and add its path to `src/data/migratedRoutes.json` so the generated page owns that URL.
 
 ## Directory Roles
 
 - `src/layouts/BaseLayout.astro`: shared document shell, SEO tags, header, footer, and global CSS link.
 - `src/components/`: reusable page chrome such as navigation, breadcrumbs, metrics, and footer groups.
 - `src/data/heartopia.ts`: Zod schemas and validated data exports.
+- `src/data/staticPages.ts`: migrated static page registry and lookup helper.
 - `src/data/routes.ts`: generated route registry for sitemap, feed, and static search.
-- `src/data/migratedRoutes.json`: route-conflict exclusions for legacy public copying.
 - `src/pages/`: generated URL routes.
 - `src/tools/`: small client modules for generated interactive pages.
 - `scripts/validate-data.mjs`: JSON shape and duplicate-id validation.
@@ -39,14 +38,13 @@ The legacy `site/` tree still provides assets, data, and unmigrated pages while 
 
 ## Adding A Database Page
 
-1. Add or update the JSON data in `site/assets/data/`.
+1. Add or update the JSON data in `src/data/content/`.
 2. Add a Zod schema and parsed export in `src/data/heartopia.ts`.
 3. Create `src/pages/<route>/index.astro` for the list page.
 4. Add `src/pages/<route>/[id].astro` if the entity needs detail URLs.
 5. Reuse `BaseLayout`, `Breadcrumbs`, and `MetricCards`.
-6. Add the list route to `src/data/migratedRoutes.json` if it replaces a legacy HTML file.
-7. Add sitemap/search entries in `src/data/routes.ts`.
-8. Run `npm run validate:data`, `npm run build`, and `npm run qa`.
+6. Add sitemap/search entries in `src/data/routes.ts`.
+7. Run `npm run validate:data`, `npm run build`, and `npm run qa`.
 
 ## Adding A Tool Page
 

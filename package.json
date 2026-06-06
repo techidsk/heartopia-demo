@@ -4,8 +4,8 @@
   "private": true,
   "description": "Independent Heartopia fan guide website prepared for Cloudflare Pages and AdSense readiness.",
   "scripts": {
-    "dev": "node scripts/prepare-public.mjs && astro dev",
-    "build": "node scripts/prepare-public.mjs && astro build",
+    "dev": "astro dev",
+    "build": "astro build",
     "preview": "npx serve dist",
     "validate:data": "node scripts/validate-data.mjs",
     "quality": "node scripts/quality-gate.mjs",

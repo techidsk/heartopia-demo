@@ -1,0 +1,21 @@
+---
+import StaticContentPage from "@components/StaticContentPage.astro";
+import { staticPages, type StaticPage } from "@data/staticPages";
+
+export function getStaticPaths() {
+  return staticPages
+    .filter((page) => !["/", "/404.html"].includes(page.path))
+    .map((page) => ({
+      params: { slug: page.path.replace(/^\/|\/$/g, "") },
+      props: { page }
+    }));
+}
+
+interface Props {
+  page: StaticPage;
+}
+
+const { page } = Astro.props;
+---
+
+<StaticContentPage page={page} />

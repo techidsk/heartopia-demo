@@ -1,0 +1,8 @@
+---
+import StaticContentPage from "@components/StaticContentPage.astro";
+import { getStaticPage } from "@data/staticPages";
+
+const page = getStaticPage("/404.html");
+---
+
+<StaticContentPage page={page} robots="noindex,follow" />

@@ -42,6 +42,7 @@ const websiteId = `${siteConfig.origin}/#website`;
 const pageId = `${canonical}#webpage`;
 const searchTarget = `${siteConfig.origin}/search/?q={search_term_string}`;
 const adsenseSrc = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${siteConfig.adsenseClient}`;
+const isNoindex = robots.toLowerCase().includes("noindex");
 const defaultSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -136,8 +137,8 @@ const structuredData = schema || defaultSchema;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="/assets/styles.css" />
-    <script async src={adsenseSrc} crossorigin="anonymous"></script>
-    <script type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
+    {!isNoindex && <script async src={adsenseSrc} crossorigin="anonymous"></script>}
+    {!isNoindex && <script type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>}
     <slot name="head" />
   </head>
   <body class={bodyClass}>

@@ -1,0 +1,29 @@
+---
+import { siteConfig } from "@data/site";
+import type { StaticPage } from "@data/staticPages";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  page: StaticPage;
+  robots?: string;
+}
+
+const { page, robots = "index,follow,max-image-preview:large" } = Astro.props;
+const canonicalPath = page.path === "/404.html" ? "/404.html" : page.path;
+const currentPath = page.path === "/404.html" ? "/" : page.path;
+---
+
+<BaseLayout
+  title={page.title}
+  description={page.description}
+  canonicalPath={canonicalPath}
+  currentPath={currentPath}
+  ogImage={page.ogImage || siteConfig.defaultImage}
+  robots={robots}
+>
+  <Fragment set:html={page.content} />
+  <script>
+    import { initStaticPageInteractions } from "@tools/staticPageInteractions";
+    initStaticPageInteractions();
+  </script>
+</BaseLayout>
