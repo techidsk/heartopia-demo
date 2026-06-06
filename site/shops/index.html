@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heartopia Shop List - Store Icons, Owners, Inventory & Map Routes</title>
+    <meta name="description" content="Heartopia shop hub with store icons, shopkeeper routes, key inventory, unlock notes, and map links for furniture, clothing, pets, seeds, music, and traveling merchants.">
+    <link rel="canonical" href="https://heartopia-demo.pages.dev/shops/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body class="wiki-body">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" data-menu-button>Menu</button>
+        <div class="nav-links" id="primary-links" data-nav-links>
+          <a href="/">Home</a>
+          <a href="/codes/">Codes</a>
+          <a href="/map/">Map</a>
+          <a href="/shops/" aria-current="page">Shops</a>
+          <a href="/fish/">Fish</a>
+          <a href="/recipes/">Recipes</a>
+          <a href="/hobbies/">Hobbies</a>
+          <a href="/pets/">Pets</a>
+          <a href="/house-designs/">House Designs</a>
+          <a href="/npcs/">NPCs</a>
+          <a href="/tools/">Tools</a>
+          <a href="/events/">Events</a>
+          <a href="/download/">Download</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="article-hero">
+        <div class="wiki-shell">
+          <div class="breadcrumb"><a href="/">Home</a><span>›</span><a href="/database/">Database</a><span>›</span><span>Shops</span></div>
+          <h1>Heartopia Shop List</h1>
+          <p>Use shops as a real route system: find the owner, check what the store is for, jump to the map marker, then hand off to NPC, house, pet, crop, or event planning.</p>
+          <div class="page-metrics">
+            <div class="metric-card"><strong>8</strong><span>shop records</span></div>
+            <div class="metric-card"><strong>6</strong><span>store types</span></div>
+            <div class="metric-card"><strong>Map</strong><span>marker handoffs</span></div>
+            <div class="metric-card"><strong>Inventory</strong><span>quick view</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section tint-mint">
+        <div class="wiki-shell">
+          <div class="center-head">
+            <h2>Quick Shop Finder</h2>
+            <p>Search by shop, owner, inventory, type, or region. Select a store to reveal inventory, unlock notes, and route links.</p>
+          </div>
+
+          <div class="shop-control-bar" data-shop-controls>
+            <label class="map-search">
+              <span>Search shops</span>
+              <input type="search" placeholder="Search Bob, furniture, pet food, seeds..." data-shop-search>
+            </label>
+            <div class="shop-filter-row" aria-label="Shop type filters">
+              <button class="map-filter" type="button" data-shop-filter="all" aria-pressed="true">All</button>
+              <button class="map-filter" type="button" data-shop-filter="seeds" aria-pressed="false">Seeds</button>
+              <button class="map-filter" type="button" data-shop-filter="furniture" aria-pressed="false">Furniture</button>
+              <button class="map-filter" type="button" data-shop-filter="pets" aria-pressed="false">Pets</button>
+              <button class="map-filter" type="button" data-shop-filter="fashion" aria-pressed="false">Fashion</button>
+              <button class="map-filter" type="button" data-shop-filter="traveling" aria-pressed="false">Traveling</button>
+            </div>
+          </div>
+
+          <div class="shop-system-grid">
+            <div class="shop-card-grid" data-shop-grid>
+              <button class="shop-card is-selected" type="button" data-shop-card data-shop-id="gardening-store" data-type="seeds" data-search="gardening store blanc seeds tomato potato wheat fertilizer central town">
+                <span class="shop-icon shop-icon-seeds">SE</span>
+                <span class="shop-card-body"><strong>Gardening Store</strong><span>Blanc · seeds and crop prep</span></span>
+              </button>
+              <button class="shop-card" type="button" data-shop-card data-shop-id="furniture-workshop" data-type="furniture" data-search="furniture workshop bob house design tables chairs shelves central town">
+                <span class="shop-icon shop-icon-furniture">FU</span>
+                <span class="shop-card-body"><strong>Furniture Workshop</strong><span>Bob · furniture and decor</span></span>
+              </button>
+              <button class="shop-card" type="button" data-shop-card data-shop-id="pet-shop" data-type="pets" data-search="pet shop mrs joan bailey dog food cat care adoption birdwatching">
+                <span class="shop-icon shop-icon-pets">PT</span>
+                <span class="shop-card-body"><strong>Pet Shop</strong><span>Mrs. Joan · food and adoption</span></span>
+              </button>
+              <button class="shop-card" type="button" data-shop-card data-shop-id="clothing-store" data-type="fashion" data-search="clothing store dorothy outfits fashion cosmetics central town">
+                <span class="shop-icon shop-icon-fashion">CL</span>
+                <span class="shop-card-body"><strong>Clothing Store</strong><span>Dorothy · outfits and cosmetics</span></span>
+              </button>
+              <button class="shop-card" type="button" data-shop-card data-shop-id="music-store" data-type="music" data-search="annie music store sheet music instruments home ambiance decor">
+                <span class="shop-icon shop-icon-music">MU</span>
+                <span class="shop-card-body"><strong>Annie's Music Store</strong><span>Annie · music and ambiance</span></span>
+              </button>
+              <button class="shop-card" type="button" data-shop-card data-shop-id="general-store" data-type="general" data-search="ka ching general store inventory expansion utility storage supplies">
+                <span class="shop-icon shop-icon-general">GE</span>
+                <span class="shop-card-body"><strong>Ka Ching's General Store</strong><span>Ka Ching · inventory and utility</span></span>
+              </button>
+              <button class="shop-card" type="button" data-shop-card data-shop-id="doris-weather-cart" data-type="traveling" data-search="doris weather cart traveling merchant recipes cosmetics furniture rainbow meteor rain snow">
+                <span class="shop-icon shop-icon-traveling">TR</span>
+                <span class="shop-card-body"><strong>Doris Weather Cart</strong><span>Doris · dynamic weather stock</span></span>
+              </button>
+              <button class="shop-card" type="button" data-shop-card data-shop-id="sea-fishing-booth" data-type="event" data-search="sea fishing booth bill event fish repair kit fishing village">
+                <span class="shop-icon shop-icon-event">SF</span>
+                <span class="shop-card-body"><strong>Sea Fishing Booth</strong><span>Bill · coastal event route</span></span>
+              </button>
+            </div>
+
+            <aside class="shop-detail-panel" data-shop-detail>
+              <div class="shop-detail-head">
+                <span class="shop-icon shop-icon-seeds">SE</span>
+                <div>
+                  <h2>Gardening Store</h2>
+                  <p>Blanc · Central Town</p>
+                </div>
+              </div>
+              <div class="shop-route-chip">Seed route · crop-profit handoff</div>
+              <p>Best first stop before crop-profit planning. Pair seed buys with a short-session crop route.</p>
+              <div class="shop-inventory-grid">
+                <span>Tomato Seeds</span>
+                <span>Potato Seeds</span>
+                <span>Wheat Seeds</span>
+                <span>Fertilizer</span>
+              </div>
+              <div class="shop-actions">
+                <a class="pastel-button" href="/map/?marker=gardening-store">View On Map</a>
+                <a class="pastel-button alt" href="/tools/profit-calculator/">Open Planner</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section">
+        <div class="wiki-shell database-grid">
+          <article class="wiki-card">
+            <h2 class="wiki-title">Town Errand Loop</h2>
+            <ul class="compact-list">
+              <li>Start with the Gardening Store before planting or profit planning.</li>
+              <li>Check Ka Ching before long fishing, resource, or event routes.</li>
+              <li>Pair Bob and Annie with house-design sessions.</li>
+              <li>Route Dorothy with social and fashion collection checks.</li>
+            </ul>
+          </article>
+          <article class="wiki-card">
+            <h2 class="wiki-title">Dynamic Merchant Rules</h2>
+            <ul class="compact-list">
+              <li>Doris should be treated as weather-sensitive until live data is verified.</li>
+              <li>Event booths should stay linked to events and fishing pages.</li>
+              <li>Rare stock needs date notes, not permanent assumptions.</li>
+              <li>Use the map marker first, then confirm with the related guide.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><p class="small">Independent fan guide. Last updated June 6, 2026.</p></div>
+        <div class="footer-links"><strong>Explore</strong><a href="/codes/">Codes</a><a href="/map/">Map</a><a href="/shops/">Shops</a><a href="/npcs/">NPCs</a><a href="/tools/">Tools</a></div>
+        <div class="footer-links"><strong>Database</strong><a href="/fish/">Fish</a><a href="/recipes/">Recipes</a><a href="/crops/">Crops</a><a href="/animal-favorites/">Animal Favorites</a></div>
+      </div>
+    </footer>
+    <script src="/assets/site.js" defer></script>
+  </body>
+</html>

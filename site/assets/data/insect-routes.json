@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hobby-insects-unlock",
+    "name": "Unlock Bubble Net Route",
+    "group": "unlock",
+    "badge": "OPEN",
+    "summary": "Open insect catching around DG6, confirm the Bubble Net route, and catch one easy insect first.",
+    "steps": ["Reach the DG6-style insect unlock window", "Find the mentor or shop route for Bubble Net", "Equip Bubble Net before habitat checks", "Catch one common insect before chasing rare routes"],
+    "priority": "Unlock route",
+    "tool": "/tools/checklist/",
+    "primary": "/guides/",
+    "secondary": "/shops/"
+  },
+  {
+    "id": "hobby-insects-time",
+    "name": "Time Window Route",
+    "group": "time",
+    "badge": "TIME",
+    "summary": "Time gates matter more than walking speed: separate day, evening, and night insects.",
+    "steps": ["Check the target's time window before walking", "Use daytime for common meadow and town checks", "Use evening for forest or lamp routes", "Use night only when the target list needs it"],
+    "priority": "Time route",
+    "tool": "/tools/timer/",
+    "primary": "/map/",
+    "secondary": "/events/"
+  },
+  {
+    "id": "hobby-insects-weather",
+    "name": "Weather And Rain Route",
+    "group": "weather",
+    "badge": "RAIN",
+    "summary": "Rain and special weather should trigger targeted catches instead of generic loops.",
+    "steps": ["Check weather before spending the route", "Run rain-only insect checks first", "Skip rare weather targets during normal weather", "Archive failed windows in checklist notes"],
+    "priority": "Weather route",
+    "tool": "/tools/checklist/",
+    "primary": "/map/",
+    "secondary": "/events/"
+  },
+  {
+    "id": "hobby-insects-habitat",
+    "name": "Habitat Sweep Route",
+    "group": "habitat",
+    "badge": "LOC",
+    "summary": "Sweep trees, flowers, water edges, and mountain paths as separate route lanes.",
+    "steps": ["Start with flower field and town plants", "Check forest tree routes next", "Use water edges when fishing nearby", "Save mountain insects for onsen or resource loops"],
+    "priority": "Habitat route",
+    "tool": "/tools/checklist/",
+    "primary": "/map/?filter=resource",
+    "secondary": "/hobbies/fishing/"
+  },
+  {
+    "id": "hobby-insects-rare",
+    "name": "Rare Bug Priority",
+    "group": "rare",
+    "badge": "RARE",
+    "summary": "Track rare insects by time, weather, and habitat so the route has a real success condition.",
+    "steps": ["Record missing rare insect candidates", "Attach time and weather gates to each target", "Run only matching habitat lanes", "Stop after one confirmed catch or window miss"],
+    "priority": "Rare route",
+    "tool": "/tools/checklist/",
+    "primary": "/events/",
+    "secondary": "/map/"
+  },
+  {
+    "id": "hobby-insects-sale",
+    "name": "Sell Or Save Decision",
+    "group": "value",
+    "badge": "ROI",
+    "summary": "Treat insects as a collection and money route: confirm whether the catch is needed before selling duplicates.",
+    "steps": ["Check whether the insect is a first catch", "Save collection or request items first", "Sell duplicate common insects only after notes are clear", "Use profit tools for broader money route decisions"],
+    "priority": "Value route",
+    "tool": "/tools/profit-calculator/",
+    "primary": "/database/",
+    "secondary": "/tools/checklist/"
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "checkedAt": "2026-06-05",
+  "sourceNote": "Independent fan-source snapshot compiled from public Heartopia code trackers; verify in-game before relying on rewards.",
+  "activeCandidates": [
+    {
+      "code": "dcthx4u",
+      "status": "priority",
+      "rewards": ["Wishing Star x10"],
+      "rewardTypes": ["stars"],
+      "expiresAt": "2026-06-29",
+      "note": "Only active candidate here with a reported fixed deadline."
+    },
+    {
+      "code": "keepsmiling2026",
+      "status": "new",
+      "rewards": ["Wishing Star x5", "Mermaid Fish Attractor x3", "Fertilizer x10"],
+      "rewardTypes": ["stars", "fishing", "booster"]
+    },
+    {
+      "code": "heartopiaplaytime",
+      "status": "new",
+      "rewards": ["Stone x10", "Rare Timber x6", "Flawless Fluorite x2"],
+      "rewardTypes": ["materials"]
+    },
+    {
+      "code": "withu2026heartopia",
+      "status": "new",
+      "rewards": ["Repair Kit x3", "Gold x5,000", "Mermaid Perfume x2"],
+      "rewardTypes": ["materials", "gold"]
+    },
+    {
+      "code": "p6n4m9q3a2",
+      "status": "new",
+      "rewards": ["Wishing Star x3", "Repair Kit x5", "Growth Booster x10"],
+      "rewardTypes": ["stars", "materials", "booster"]
+    },
+    {
+      "code": "m5r9q2a7k8",
+      "status": "new",
+      "rewards": ["Wishing Star x3", "Repair Kit x5", "Growth Booster x10"],
+      "rewardTypes": ["stars", "materials", "booster"]
+    },
+    {
+      "code": "a4k9m7q2r6",
+      "status": "new",
+      "rewards": ["Wishing Star x5", "Mermaid Fish Attractor x3", "Fertilizer x10"],
+      "rewardTypes": ["stars", "fishing", "booster"]
+    },
+    {
+      "code": "l7m5q2r9a8",
+      "status": "new",
+      "rewards": ["Wishing Star x5", "Mermaid Fish Attractor x3", "Fertilizer x10"],
+      "rewardTypes": ["stars", "fishing", "booster"]
+    },
+    {
+      "code": "sweetgift314u",
+      "status": "new",
+      "rewards": ["Snowfeather Rose x5", "Colorful Sparkler x2", "Colorful Cold Firework x2"],
+      "rewardTypes": ["event"]
+    },
+    {
+      "code": "tangyuan0303y",
+      "status": "new",
+      "rewards": ["Wishing Star x5", "Apple x10", "Fertilizer x10"],
+      "rewardTypes": ["stars", "fruit", "booster"]
+    },
+    {
+      "code": "38bloom2026",
+      "status": "new",
+      "rewards": ["Mermaid Perfume x2", "Egg x10", "Gold x10,000"],
+      "rewardTypes": ["gold", "farm"]
+    },
+    {
+      "code": "lifewithline",
+      "status": "milestone",
+      "rewards": ["Wishing Star x10"],
+      "rewardTypes": ["stars"]
+    },
+    {
+      "code": "heartopia10m",
+      "status": "milestone",
+      "rewards": ["Wishing Star x10"],
+      "rewardTypes": ["stars"]
+    },
+    {
+      "code": "heartopia5m",
+      "status": "milestone",
+      "rewards": ["Wishing Star x5-10"],
+      "rewardTypes": ["stars"]
+    },
+    {
+      "code": "top1thanks",
+      "status": "milestone",
+      "rewards": ["Wishing Star x5", "Mermaid Perfume x2", "Mandarin x10"],
+      "rewardTypes": ["stars", "fruit"]
+    }
+  ],
+  "expiredArchive": [
+    {
+      "code": "SPRINGFEST2026",
+      "reportedReward": "10 Moonlight Crystals",
+      "expired": "March 2026"
+    },
+    {
+      "code": "happy2026",
+      "reportedReward": "10 Moonlight Crystals",
+      "expired": "March 2026"
+    },
+    {
+      "code": "heartopia0108",
+      "reportedReward": "100 Moonlight Crystals",
+      "expired": "February 7, 2026"
+    },
+    {
+      "code": "mylittlepony",
+      "reportedReward": "100 Moonlight Crystals",
+      "expired": "February 7, 2026"
+    },
+    {
+      "code": "especialgift0103",
+      "reportedReward": "100 Moonlight Crystals",
+      "expired": "February 7, 2026"
+    }
+  ]
+}

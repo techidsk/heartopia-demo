@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Heartopia Map Guide - Regions, NPCs, Animals & Fishing Spots</title>
-    <meta name="description" content="Heartopia map guide with six main regions, wild animal trough landmarks, key NPC locations, fish spots, foraging notes, and fast-travel tips.">
+    <title>Heartopia Map Guide - Regions, Shops, NPCs, Animals & Fishing Spots</title>
+    <meta name="description" content="Heartopia map guide with six main regions, shop and service markers, wild animal trough landmarks, key NPC locations, fish spots, foraging notes, and fast-travel tips.">
     <link rel="canonical" href="https://heartopia-demo.pages.dev/map/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
@@ -20,6 +20,10 @@
           <a href="/">Home</a>
           <a href="/codes/">Codes</a>
           <a href="/map/">Map</a>
+          <a href="/shops/">Shops</a>
+          <a href="/fish/">Fish</a>
+          <a href="/recipes/">Recipes</a>
+          <a href="/hobbies/">Hobbies</a>
           <a href="/pets/">Pets</a>
           <a href="/house-designs/">House Designs</a>
           <a href="/npcs/">NPCs</a>
@@ -33,14 +37,14 @@
     <main id="main">
       <section class="wiki-hero map-hero-compact">
         <div class="wiki-hero-inner">
-          <span class="top-note">Map data snapshot • June 4, 2026</span>
+          <span class="top-note">Map data snapshot • June 5, 2026</span>
           <h1><span>Heartopia Map</span> Guide</h1>
-          <p>Use this route layer to plan where to go next: map regions, animal troughs, NPC landmarks, fish spots, and foraging targets.</p>
+          <p>Use this route layer to plan where to go next: shops, map regions, animal troughs, NPC landmarks, fish spots, and foraging targets.</p>
           <div class="mini-stats">
             <div class="mini-stat"><strong>6</strong><span>regions</span></div>
-            <div class="mini-stat"><strong>8</strong><span>animal troughs</span></div>
-            <div class="mini-stat"><strong>9</strong><span>NPC records</span></div>
-            <div class="mini-stat"><strong>10</strong><span>fish spots</span></div>
+            <div class="mini-stat"><strong>8</strong><span>shop markers</span></div>
+            <div class="mini-stat"><strong>24</strong><span>route markers</span></div>
+            <div class="mini-stat"><strong>Saved</strong><span>marker progress</span></div>
           </div>
         </div>
       </section>
@@ -49,19 +53,32 @@
         <div class="wiki-shell">
           <div class="center-head">
             <h2>Interactive Route Map</h2>
-            <p>Tap a marker to see the route note, or filter the map by NPCs, animals, fish spots, resources, and home systems.</p>
+            <p>Search by NPC, shop, animal, fish spot, or resource. Select a marker to save progress and jump to the related guide.</p>
           </div>
           <div class="map-layout">
             <div class="map-panel">
+              <div class="map-search-row">
+                <label class="map-search">
+                  <span>Search map</span>
+                  <input type="search" placeholder="Search Bob, pet shop, bamboo, Whale Sea..." data-map-search>
+                </label>
+                <div class="map-toolbar-actions">
+                  <span class="map-progress" data-map-result-count>24 markers shown</span>
+                  <button class="map-filter" type="button" data-map-fullscreen aria-pressed="false">Full Screen</button>
+                </div>
+              </div>
               <div class="map-toolbar" aria-label="Map marker filters">
                 <button class="map-filter" type="button" data-map-filter="all" aria-pressed="true">All</button>
                 <button class="map-filter" type="button" data-map-filter="npc" aria-pressed="false">NPCs</button>
+                <button class="map-filter" type="button" data-map-filter="shop" aria-pressed="false">Shops</button>
                 <button class="map-filter" type="button" data-map-filter="animal" aria-pressed="false">Animals</button>
                 <button class="map-filter" type="button" data-map-filter="fish" aria-pressed="false">Fish</button>
                 <button class="map-filter" type="button" data-map-filter="resource" aria-pressed="false">Resources</button>
                 <button class="map-filter" type="button" data-map-filter="home" aria-pressed="false">Home</button>
               </div>
-              <svg class="heartopia-map" viewBox="0 0 900 620" role="img" aria-labelledby="map-title map-desc">
+              <div class="map-stage" aria-label="Canvas-rendered Heartopia route map">
+                <canvas class="map-canvas" width="900" height="620" data-map-canvas aria-hidden="true"></canvas>
+                <svg class="heartopia-map" viewBox="0 0 900 620" role="img" aria-labelledby="map-title map-desc">
                 <title id="map-title">Heartopia route map with regions and clickable markers</title>
                 <desc id="map-desc">A fan-made route map showing Home, Central Town, Flower Field, Forest, Fishing Village, Onsen Mountains, and markers for NPCs, animals, fishing, and resources.</desc>
                 <defs>
@@ -103,59 +120,85 @@
                 <text class="map-label" x="682" y="437">Fishing Village</text>
                 <text class="map-label" x="145" y="492">Home</text>
 
-                <g class="map-marker marker-home" tabindex="0" role="button" data-map-point data-type="home" data-name="Home Plot" data-region="Home" data-route="Gardening, tree chopping, mining, decorating" data-note="Start and end most daily routes here. Plant long-cycle crops before logging off.">
+                <g class="map-marker marker-home" tabindex="0" role="button" data-map-point data-map-id="home-plot" data-type="home" data-name="Home Plot" data-region="Home" data-route="Gardening, tree chopping, mining, decorating" data-note="Start and end most daily routes here. Plant long-cycle crops before logging off." data-href="/house-designs/" data-action-label="Open house ideas">
                   <circle cx="167" cy="515" r="24"></circle><text x="167" y="516">H</text>
                 </g>
-                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-type="npc" data-name="Dorothy" data-region="Central Town" data-route="Clothing store and fashion route" data-note="Use Central Town as the social hub before running store errands.">
+                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-map-id="dorothy" data-type="npc" data-name="Dorothy" data-region="Central Town" data-route="Clothing store and fashion route" data-note="Use Central Town as the social hub before running store errands." data-href="/npcs/#shops" data-action-label="Open NPC route">
                   <circle cx="410" cy="300" r="22"></circle><text x="410" y="301">D</text>
                 </g>
-                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-type="npc" data-name="Bob" data-region="Central Town" data-route="Furniture store and house design route" data-note="Pair this stop with house-design planning and material checks.">
+                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-map-id="bob" data-type="npc" data-name="Bob" data-region="Central Town" data-route="Furniture store and house design route" data-note="Pair this stop with house-design planning and material checks." data-href="/npcs/#shops" data-action-label="Open NPC route">
                   <circle cx="470" cy="355" r="22"></circle><text x="470" y="356">B</text>
                 </g>
-                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-type="npc" data-name="Ka Ching" data-region="Central Town" data-route="Inventory expansion service" data-note="Visit when storage friction blocks fishing, foraging, or event sessions.">
+                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-map-id="ka-ching" data-type="npc" data-name="Ka Ching" data-region="Central Town" data-route="Inventory expansion service" data-note="Visit when storage friction blocks fishing, foraging, or event sessions." data-href="/npcs/#shops" data-action-label="Open NPC route">
                   <circle cx="523" cy="306" r="22"></circle><text x="523" y="307">$</text>
                 </g>
-                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-type="npc" data-name="Bill" data-region="Fishing Village" data-route="Sea Fishing event route" data-note="Use this marker when the event list points to sea fishing or festival fishing tasks.">
+                <g class="map-marker marker-npc" tabindex="0" role="button" data-map-point data-map-id="bill" data-type="npc" data-name="Bill" data-region="Fishing Village" data-route="Sea Fishing event route" data-note="Use this marker when the event list points to sea fishing or festival fishing tasks." data-href="/npcs/#mentors" data-action-label="Open NPC route">
                   <circle cx="729" cy="407" r="22"></circle><text x="729" y="408">B</text>
                 </g>
-                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-type="animal" data-name="Panda Trough" data-region="Forest" data-route="Bamboo and forest animal route" data-note="Check the bamboo area near Jump Puzzle stairs.">
+                <g class="map-marker marker-shop" tabindex="0" role="button" data-map-point data-map-id="gardening-store" data-type="shop" data-name="Gardening Store" data-region="Central Town" data-route="Seed buying and crop-profit prep" data-note="Buy early crop seeds before using the crop planner. Blanc is the route owner for gardening unlocks." data-href="/shops/" data-action-label="Open shop list" data-search="Blanc tomato potato wheat fertilizer seed shop">
+                  <circle cx="372" cy="372" r="22"></circle><text x="372" y="373">S</text>
+                </g>
+                <g class="map-marker marker-shop" tabindex="0" role="button" data-map-point data-map-id="furniture-workshop" data-type="shop" data-name="Furniture Workshop" data-region="Central Town" data-route="Furniture, room planning, and decor buys" data-note="Bob's furniture stop connects house layouts with decor and material planning." data-href="/shops/" data-action-label="Open shop list" data-search="Bob furniture workshop house decor">
+                  <circle cx="494" cy="384" r="22"></circle><text x="494" y="385">F</text>
+                </g>
+                <g class="map-marker marker-shop" tabindex="0" role="button" data-map-point data-map-id="pet-shop" data-type="shop" data-name="Pet Shop" data-region="Central Town" data-route="Pet food, adoption, cats, dogs, and birdwatching" data-note="Use this stop for Dog Food, cat-care items, pet adoption, and Bailey J's birdwatching route." data-href="/shops/" data-action-label="Open shop list" data-search="Mrs Joan Bailey pet shop dog food cat care adoption">
+                  <circle cx="548" cy="350" r="22"></circle><text x="548" y="351">P</text>
+                </g>
+                <g class="map-marker marker-shop" tabindex="0" role="button" data-map-point data-map-id="clothing-store" data-type="shop" data-name="Clothing Store" data-region="Central Town" data-route="Fashion, outfits, and cosmetics" data-note="Dorothy's store is the main fashion and cosmetic route." data-href="/shops/" data-action-label="Open shop list" data-search="Dorothy clothing store fashion outfits cosmetics">
+                  <circle cx="390" cy="266" r="22"></circle><text x="390" y="267">C</text>
+                </g>
+                <g class="map-marker marker-shop" tabindex="0" role="button" data-map-point data-map-id="music-store" data-type="shop" data-name="Annie's Music Store" data-region="Central Town" data-route="Sheet music, music decor, and room ambiance" data-note="Use this store when house design needs music, ambiance, or sheet-music planning." data-href="/shops/" data-action-label="Open shop list" data-search="Annie music store sheet music instruments decor">
+                  <circle cx="444" cy="264" r="22"></circle><text x="444" y="265">M</text>
+                </g>
+                <g class="map-marker marker-shop" tabindex="0" role="button" data-map-point data-map-id="general-store" data-type="shop" data-name="Ka Ching's General Store" data-region="Central Town" data-route="Inventory expansion and utility goods" data-note="Visit before material-heavy, fishing, or event routes so storage friction does not block the loop." data-href="/shops/" data-action-label="Open shop list" data-search="Ka Ching general store inventory expansion storage utility">
+                  <circle cx="557" cy="286" r="22"></circle><text x="557" y="287">G</text>
+                </g>
+                <g class="map-marker marker-shop" tabindex="0" role="button" data-map-point data-map-id="doris-weather-cart" data-type="shop" data-name="Doris Weather Cart" data-region="Dynamic weather route" data-route="Weather merchant, recipes, cosmetics, and limited stock" data-note="Doris is patch and weather sensitive. Confirm the in-game map before planning rare purchases." data-href="/shops/" data-action-label="Open shop list" data-search="Doris weather merchant rainbow snow rain meteor">
+                  <circle cx="586" cy="196" r="22"></circle><text x="586" y="197">D</text>
+                </g>
+                <g class="map-marker marker-shop" tabindex="0" role="button" data-map-point data-map-id="sea-fishing-booth" data-type="shop" data-name="Sea Fishing Booth" data-region="Fishing Village" data-route="Sea Fishing event and coastal task handoff" data-note="Bill's event booth is best paired with fish tracker, repair-kit checks, and event rewards." data-href="/shops/" data-action-label="Open shop list" data-search="Bill sea fishing booth event repair kit coastal">
+                  <circle cx="766" cy="431" r="22"></circle><text x="766" y="432">E</text>
+                </g>
+                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-map-id="panda-trough" data-type="animal" data-name="Panda Trough" data-region="Forest" data-route="Bamboo and forest animal route" data-note="Check the bamboo area near Jump Puzzle stairs." data-href="/animal-favorites/" data-action-label="Open animal guide">
                   <circle cx="222" cy="178" r="22"></circle><text x="222" y="179">P</text>
                 </g>
-                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-type="animal" data-name="Fox Trough" data-region="Flower Field" data-route="Wild animal feeding route" data-note="Near Meadow Lake and the southern windmill hill.">
+                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-map-id="fox-trough" data-type="animal" data-name="Fox Trough" data-region="Flower Field" data-route="Wild animal feeding route" data-note="Near Meadow Lake and the southern windmill hill." data-href="/animal-favorites/" data-action-label="Open animal guide">
                   <circle cx="197" cy="334" r="22"></circle><text x="197" y="335">F</text>
                 </g>
-                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-type="animal" data-name="Capybara Trough" data-region="Onsen Mountains" data-route="Hot spring animal route" data-note="West of Onsen Mountain Lake, near the ruins path.">
+                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-map-id="capybara-trough" data-type="animal" data-name="Capybara Trough" data-region="Onsen Mountains" data-route="Hot spring animal route" data-note="West of Onsen Mountain Lake, near the ruins path." data-href="/animal-favorites/" data-action-label="Open animal guide">
                   <circle cx="654" cy="229" r="22"></circle><text x="654" y="230">C</text>
                 </g>
-                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-type="animal" data-name="Sea Otter Trough" data-region="Fishing Village" data-route="Coastal animal route" data-note="Between the two piers in Fishing Village.">
+                <g class="map-marker marker-animal" tabindex="0" role="button" data-map-point data-map-id="sea-otter-trough" data-type="animal" data-name="Sea Otter Trough" data-region="Fishing Village" data-route="Coastal animal route" data-note="Between the two piers in Fishing Village." data-href="/animal-favorites/" data-action-label="Open animal guide">
                   <circle cx="781" cy="474" r="22"></circle><text x="781" y="475">O</text>
                 </g>
-                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-type="fish" data-name="Forest Lake" data-region="Forest" data-route="Lake fish route" data-note="Arctic Char, Giant Pearl Mussel, and Largemouth Bass route.">
+                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-map-id="forest-lake" data-type="fish" data-name="Forest Lake" data-region="Forest" data-route="Lake fish route" data-note="Arctic Char, Giant Pearl Mussel, and Largemouth Bass route." data-href="/fish/" data-action-label="Open fish database">
                   <circle cx="302" cy="221" r="22"></circle><text x="302" y="222">L</text>
                 </g>
-                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-type="fish" data-name="Meadow Lake" data-region="Flower Field" data-route="Starter lake route" data-note="Wels Catfish and Goldfish route; good early fishing loop.">
+                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-map-id="meadow-lake" data-type="fish" data-name="Meadow Lake" data-region="Flower Field" data-route="Starter lake route" data-note="Wels Catfish and Goldfish route; good early fishing loop." data-href="/fish/" data-action-label="Open fish database">
                   <circle cx="248" cy="423" r="22"></circle><text x="248" y="424">L</text>
                 </g>
-                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-type="fish" data-name="Whale Sea" data-region="Fishing Village" data-route="Ocean fish route" data-note="Atlantic Salmon and Swordfish level 10 route.">
+                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-map-id="whale-sea" data-type="fish" data-name="Whale Sea" data-region="Fishing Village" data-route="Ocean fish route" data-note="Atlantic Salmon and Swordfish level 10 route." data-href="/fish/" data-action-label="Open fish database">
                   <circle cx="653" cy="515" r="22"></circle><text x="653" y="516">S</text>
                 </g>
-                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-type="fish" data-name="Onsen Mountain Lake" data-region="Onsen Mountains" data-route="Mountain lake route" data-note="Common Whitefish and Ruffe route.">
+                <g class="map-marker marker-fish" tabindex="0" role="button" data-map-point data-map-id="onsen-mountain-lake" data-type="fish" data-name="Onsen Mountain Lake" data-region="Onsen Mountains" data-route="Mountain lake route" data-note="Common Whitefish and Ruffe route." data-href="/fish/" data-action-label="Open fish database">
                   <circle cx="728" cy="254" r="22"></circle><text x="728" y="255">L</text>
                 </g>
-                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-type="resource" data-name="Bamboo" data-region="Forest" data-route="Foraging and building material route" data-note="Useful when house design or crafting routes need natural materials.">
+                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-map-id="bamboo" data-type="resource" data-name="Bamboo" data-region="Forest" data-route="Foraging and building material route" data-note="Useful when house design or crafting routes need natural materials." data-href="/house-designs/" data-action-label="Open house materials">
                   <circle cx="135" cy="214" r="22"></circle><text x="135" y="215">R</text>
                 </g>
-                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-type="resource" data-name="Shiitake Mushrooms" data-region="Fishing Village" data-route="Cooking ingredient route" data-note="Pair with fishing sessions before cooking or recipe tests.">
+                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-map-id="shiitake-mushrooms" data-type="resource" data-name="Shiitake Mushrooms" data-region="Fishing Village" data-route="Cooking ingredient route" data-note="Pair with fishing sessions before cooking or recipe tests." data-href="/recipes/" data-action-label="Open recipes">
                   <circle cx="603" cy="397" r="22"></circle><text x="603" y="398">R</text>
                 </g>
-                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-type="resource" data-name="Oyster Mushrooms" data-region="Onsen Mountains" data-route="Mountain foraging route" data-note="Use during Onsen animal and lake route checks.">
+                <g class="map-marker marker-resource" tabindex="0" role="button" data-map-point data-map-id="oyster-mushrooms" data-type="resource" data-name="Oyster Mushrooms" data-region="Onsen Mountains" data-route="Mountain foraging route" data-note="Use during Onsen animal and lake route checks." data-href="/recipes/" data-action-label="Open recipes">
                   <circle cx="578" cy="149" r="22"></circle><text x="578" y="150">R</text>
                 </g>
-              </svg>
+                </svg>
+              </div>
             </div>
             <aside class="map-info-card" data-map-detail>
               <h2>Tap A Marker</h2>
               <p>Select any map marker to reveal the region, route, and practical note for that stop.</p>
+              <div class="map-progress-card"><strong data-map-progress>0/24 visible markers completed</strong><span>Progress is saved locally in this browser.</span></div>
               <div class="map-meta">
                 <span><strong>Best first route:</strong> Home -> Central Town -> Flower Field -> Fishing Village</span>
                 <span><strong>Event route:</strong> Codes -> Bill -> Fish spots -> Inventory check</span>
@@ -163,6 +206,7 @@
               <div class="map-legend" aria-label="Map legend">
                 <span><i class="legend-dot home"></i> Home systems</span>
                 <span><i class="legend-dot npc"></i> NPCs and services</span>
+                <span><i class="legend-dot shop"></i> Shops and stores</span>
                 <span><i class="legend-dot animal"></i> Animal troughs</span>
                 <span><i class="legend-dot"></i> Fishing spots</span>
                 <span><i class="legend-dot resource"></i> Resources</span>
@@ -270,8 +314,8 @@
 
     <footer class="site-footer">
       <div class="footer-grid">
-        <div><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><p class="small">Independent fan guide. Last updated June 4, 2026.</p></div>
-        <div class="footer-links"><strong>Explore</strong><a href="/codes/">Codes</a><a href="/guides/">Guides</a><a href="/map/">Map</a><a href="/tools/">Tools</a><a href="/database/">Database</a></div>
+        <div><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><p class="small">Independent fan guide. Last updated June 6, 2026.</p></div>
+        <div class="footer-links"><strong>Explore</strong><a href="/codes/">Codes</a><a href="/guides/">Guides</a><a href="/map/">Map</a><a href="/shops/">Shops</a><a href="/tools/">Tools</a><a href="/database/">Database</a></div>
         <div class="footer-links"><strong>Site</strong><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a></div>
       </div>
     </footer>

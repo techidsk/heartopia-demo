@@ -1,0 +1,108 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { crops, recipes, type Recipe } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+  return recipes.map((recipe) => ({ params: { id: recipe.id }, props: { recipe } }));
+}
+
+interface Props {
+  recipe: Recipe;
+}
+
+const { recipe } = Astro.props;
+const ingredientText = recipe.ingredients.join(", ");
+const ingredientHaystack = ingredientText.toLowerCase();
+const sourceCrops = crops.filter((crop) => ingredientHaystack.includes(crop.name.toLowerCase())).slice(0, 4);
+const related = recipes.filter((candidate) => candidate.id !== recipe.id && candidate.group === recipe.group).slice(0, 4);
+---
+
+<BaseLayout
+  title={`${recipe.name} - Heartopia Recipe Ingredients, Route & Risk`}
+  description={`${recipe.name} Heartopia recipe detail with ingredients ${ingredientText}, ${recipe.route} route, ${recipe.risk} risk, source lane, and cooking tool handoffs.`}
+  canonicalPath={`/recipes/${recipe.id}/`}
+  currentPath="/recipes/"
+  ogImage="/assets/asset-gardening.jpg"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/recipes/", label: "Recipes" }, { label: recipe.name }]} />
+      <h1>{recipe.name}</h1>
+      <p>{recipe.use}. This generated detail page keeps recipe, ingredient, tool, and source links in sync with the recipe JSON row.</p>
+      <MetricCards
+        metrics={[
+          { value: recipe.route, label: "route" },
+          { value: recipe.risk, label: "risk" },
+          { value: recipe.ingredients.length, label: "ingredients" },
+          { value: recipe.source, label: "source" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <h2 class="wiki-title">Cooking Route</h2>
+        <div class="recipe-ingredient-list">
+          {recipe.ingredients.map((ingredient) => <span>{ingredient}</span>)}
+        </div>
+        <div class="map-meta">
+          <span><strong>Group:</strong> {recipe.group}</span>
+          <span><strong>Route:</strong> {recipe.route}</span>
+          <span><strong>Source lane:</strong> {recipe.source}</span>
+          <span><strong>Use:</strong> {recipe.use}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={recipe.tool}>Open Recipe Tool</a>
+          <a class="pastel-button alt" href={recipe.primary}>Ingredient Source</a>
+          <a class="pastel-button alt" href="/tools/checklist/">Save Checklist</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">Maintenance Note</h2>
+        <p>This page is generated from site/assets/data/recipes.json; update that recipe row to refresh list, detail, sitemap, feed, and search index together.</p>
+      </aside>
+    </div>
+  </section>
+
+  {sourceCrops.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>Ingredient Crop Sources</h2>
+          <p>Crop detail pages detected from this recipe ingredient list.</p>
+        </div>
+        <div class="route-grid">
+          {sourceCrops.map((crop) => (
+            <a class="route-card" href={`/crops/${crop.id}/`}>
+              <h3>{crop.name}</h3>
+              <p>{crop.growth} | {crop.unlock}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <section class="wiki-section">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>Same Recipe Group</h2>
+          <p>Related recipes generated from the same group.</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={`/recipes/${candidate.id}/`}>
+              <h3>{candidate.name}</h3>
+              <p>{candidate.ingredients.join(", ")}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

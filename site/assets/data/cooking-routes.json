@@ -1,0 +1,104 @@
+[
+  {
+    "id": "hobby-cooking-unlock",
+    "name": "Unlock Cooking With Massimo",
+    "group": "unlock",
+    "badge": "OPEN",
+    "summary": "Route through D.G. progress, Massimo, and the first stove before spending rare inputs.",
+    "steps": [
+      "Push D.G. progress until cooking route appears",
+      "Find Massimo near cafe or town center",
+      "Place or use a stove",
+      "Cook one low-risk starter recipe before spending rare inputs"
+    ],
+    "priority": "Unlock route",
+    "tool": "/tools/checklist/",
+    "primary": "/guides/",
+    "secondary": "/npcs/"
+  },
+  {
+    "id": "hobby-cooking-jam",
+    "name": "Low-Risk Jam Route",
+    "group": "fruit",
+    "badge": "JAM",
+    "summary": "Turn repeatable fruit into low-risk jam tests before using late crops or limited rewards.",
+    "steps": [
+      "Collect four repeatable fruit",
+      "Use Mixed Jam before single-fruit variants",
+      "Check Pineapple or Strawberry only after crop route is stable",
+      "Record value before mass cooking"
+    ],
+    "priority": "Fruit route",
+    "tool": "/tools/recipe-finder/",
+    "primary": "/recipes/?route=fruit",
+    "secondary": "/crops/"
+  },
+  {
+    "id": "hobby-cooking-fish-crop",
+    "name": "Fish And Chips Route",
+    "group": "fish",
+    "badge": "FISH",
+    "summary": "Combine routine fish and Potato only after checking whether cooking beats raw sale.",
+    "steps": [
+      "Run routine lake or coastal fishing first",
+      "Keep two Potato from the crop route",
+      "Open Recipe Finder before cooking",
+      "Compare cooked value against raw sale"
+    ],
+    "priority": "Fish route",
+    "tool": "/tools/recipe-finder/",
+    "primary": "/recipes/?q=fish%20chips",
+    "secondary": "/fish/"
+  },
+  {
+    "id": "hobby-cooking-crop",
+    "name": "Vegetable Sink Route",
+    "group": "crop",
+    "badge": "CROP",
+    "summary": "Use excess vegetables for House Salad, Tomato Plate, Carrot Dish, and Corn overlap decisions.",
+    "steps": [
+      "Use excess vegetables before rare ingredients",
+      "Check Tomato Plate and Carrot Dish after crop unlock",
+      "Keep Corn overlap separate from animal food tests",
+      "Use Crop Planner before planting for cooking only"
+    ],
+    "priority": "Crop route",
+    "tool": "/tools/crop-planner/",
+    "primary": "/recipes/?route=crop",
+    "secondary": "/crops/"
+  },
+  {
+    "id": "hobby-cooking-qte",
+    "name": "QTE Safety Route",
+    "group": "qte",
+    "badge": "QTE",
+    "summary": "Practice timing with cheap ingredients so rare inputs do not become Bizarre Food.",
+    "steps": [
+      "Practice QTE with low-cost ingredients",
+      "Pause rare input cooking until timing is reliable",
+      "Treat Bizarre Food as a failed-output warning",
+      "Use checklist for event or rare cooking sessions"
+    ],
+    "priority": "Safety route",
+    "tool": "/tools/checklist/",
+    "primary": "/recipes/?route=qte",
+    "secondary": "/guides/"
+  },
+  {
+    "id": "hobby-cooking-event",
+    "name": "Event Ingredient Route",
+    "group": "event",
+    "badge": "EVT",
+    "summary": "Avoid wasting limited event materials until the event window, recipe value, and prep route are clear.",
+    "steps": [
+      "Check active event status before cooking limited items",
+      "Confirm recipe value before spending event materials",
+      "Keep prep tasks in Events or Checklist",
+      "Archive results after event window ends"
+    ],
+    "priority": "Event route",
+    "tool": "/tools/checklist/",
+    "primary": "/events/",
+    "secondary": "/recipes/"
+  }
+]

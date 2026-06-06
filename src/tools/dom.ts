@@ -7,6 +7,14 @@ export const matchesSearchTerms = (haystack: unknown, query: unknown) => {
   return terms.length === 0 || terms.every((term) => normalizedHaystack.includes(term));
 };
 
+export const escapeHtml = (value: unknown) =>
+  String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
 export const safeReadJson = <T>(key: string, fallback: T): T => {
   try {
     const value = JSON.parse(localStorage.getItem(key) || "null");

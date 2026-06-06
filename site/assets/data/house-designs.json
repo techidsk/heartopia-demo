@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cozy-cottage",
+    "name": "Cozy Cottage Starter",
+    "style": "cozy",
+    "size": "small",
+    "stage": "Early game",
+    "image": "/assets/asset-house.jpg",
+    "materials": ["Warm wood furniture", "Soft rug", "Storage shelf", "Table lamp", "Plant decor"],
+    "floorPlan": ["Entry storage", "Kitchen wall", "Single living zone", "Pet corner"],
+    "shop": "/shops/?q=furniture",
+    "map": "/map/?marker=furniture-workshop"
+  },
+  {
+    "id": "garden-sunroom",
+    "name": "Garden Sunroom",
+    "style": "nature",
+    "size": "garden",
+    "stage": "Mid game",
+    "image": "/assets/asset-gardening.jpg",
+    "materials": ["Plant shelves", "Natural floor", "Wide windows", "Seed storage", "Outdoor path decor"],
+    "floorPlan": ["Garden-facing wall", "Plant workbench", "Storage lane", "Reading chair"],
+    "shop": "/shops/?q=seed",
+    "map": "/map/?marker=gardening-store"
+  },
+  {
+    "id": "modern-open-plan",
+    "name": "Modern Open Plan",
+    "style": "modern",
+    "size": "open",
+    "stage": "Mid to late game",
+    "image": "/assets/asset-map.jpg",
+    "materials": ["Clean floor", "Low table", "Symmetric shelves", "Neutral lighting", "Music decor"],
+    "floorPlan": ["Center walkway", "Living zone", "Dining wall", "Music corner"],
+    "shop": "/shops/?q=music",
+    "map": "/map/?marker=music-store"
+  },
+  {
+    "id": "seasonal-display-room",
+    "name": "Seasonal Display Room",
+    "style": "seasonal",
+    "size": "display",
+    "stage": "Collector route",
+    "image": "/assets/asset-events.jpg",
+    "materials": ["Event table", "Display shelf", "Accent rug", "Photo corner", "Limited decor set"],
+    "floorPlan": ["One display wall", "Photo corner", "Event storage", "Open walking lane"],
+    "shop": "/shops/?q=event",
+    "map": "/events/"
+  }
+]

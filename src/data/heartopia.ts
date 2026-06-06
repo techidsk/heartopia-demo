@@ -2,6 +2,12 @@ import { z } from "zod";
 import fishRaw from "../../site/assets/data/fish.json";
 import shopsRaw from "../../site/assets/data/shops.json";
 import cropsRaw from "../../site/assets/data/crops.json";
+import recipesRaw from "../../site/assets/data/recipes.json";
+import codesRaw from "../../site/assets/data/codes.json";
+import eventsRaw from "../../site/assets/data/events.json";
+import npcsRaw from "../../site/assets/data/npcs.json";
+import petsRaw from "../../site/assets/data/pets.json";
+import hobbiesRaw from "../../site/assets/data/hobbies.json";
 import toolsRaw from "../../site/assets/data/tools.json";
 
 const pathSchema = z.string().min(1);
@@ -54,6 +60,93 @@ export const cropSchema = z.object({
   related: pathSchema
 });
 
+export const recipeSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  group: z.string().min(1),
+  ingredients: z.array(z.string().min(1)),
+  route: z.string().min(1),
+  use: z.string().min(1),
+  risk: z.enum(["low", "medium", "high"]),
+  source: z.string().min(1),
+  tool: pathSchema,
+  primary: pathSchema
+});
+
+const codeCandidateSchema = z.object({
+  code: z.string().min(1),
+  status: z.enum(["priority", "new", "milestone"]),
+  rewards: z.array(z.string().min(1)),
+  rewardTypes: z.array(z.string().min(1)),
+  expiresAt: z.string().min(1).optional(),
+  note: z.string().min(1).optional()
+});
+
+export const codesSchema = z.object({
+  checkedAt: z.string().min(1),
+  sourceNote: z.string().min(1),
+  activeCandidates: z.array(codeCandidateSchema),
+  expiredArchive: z.array(
+    z.object({
+      code: z.string().min(1),
+      reportedReward: z.string().min(1),
+      expired: z.string().min(1)
+    })
+  )
+});
+
+export const eventSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  status: z.enum(["current", "route", "upcoming", "archive"]),
+  window: z.string().min(1),
+  endAt: z.string(),
+  route: z.string().min(1),
+  rewards: z.array(z.string().min(1)),
+  prep: z.array(z.string().min(1)),
+  links: z.object({
+    map: pathSchema,
+    tool: pathSchema,
+    guide: pathSchema
+  })
+});
+
+export const npcSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  group: z.string().min(1),
+  role: z.string().min(1),
+  location: z.string().min(1),
+  schedule: z.string().min(1),
+  gifts: z.array(z.string().min(1)),
+  shop: pathSchema,
+  map: pathSchema,
+  tool: pathSchema
+});
+
+export const petSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  category: z.string().min(1),
+  route: z.string().min(1),
+  food: z.array(z.string().min(1)),
+  unlock: z.string().min(1),
+  source: z.string().min(1),
+  map: pathSchema,
+  shop: pathSchema,
+  guide: pathSchema
+});
+
+export const hobbySchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  group: z.string().min(1),
+  summary: z.string().min(1),
+  primary: pathSchema,
+  tool: pathSchema,
+  database: pathSchema
+});
+
 export const toolSchema = z.object({
   id: z.string().min(1),
   title: z.string().min(1),
@@ -69,11 +162,23 @@ export const toolSchema = z.object({
 export const fish = z.array(fishSchema).parse(fishRaw);
 export const shops = z.array(shopSchema).parse(shopsRaw);
 export const crops = z.array(cropSchema).parse(cropsRaw);
+export const recipes = z.array(recipeSchema).parse(recipesRaw);
+export const codes = codesSchema.parse(codesRaw);
+export const events = z.array(eventSchema).parse(eventsRaw);
+export const npcs = z.array(npcSchema).parse(npcsRaw);
+export const pets = z.array(petSchema).parse(petsRaw);
+export const hobbies = z.array(hobbySchema).parse(hobbiesRaw);
 export const tools = z.array(toolSchema).parse(toolsRaw);
 
 export type Fish = z.infer<typeof fishSchema>;
 export type Shop = z.infer<typeof shopSchema>;
 export type Crop = z.infer<typeof cropSchema>;
+export type Recipe = z.infer<typeof recipeSchema>;
+export type Codes = z.infer<typeof codesSchema>;
+export type Event = z.infer<typeof eventSchema>;
+export type Npc = z.infer<typeof npcSchema>;
+export type Pet = z.infer<typeof petSchema>;
+export type Hobby = z.infer<typeof hobbySchema>;
 export type Tool = z.infer<typeof toolSchema>;
 
 export const profitCrops = crops.filter(

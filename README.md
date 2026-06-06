@@ -17,11 +17,21 @@ npm run dev:legacy
 ## Build And QA
 
 ```powershell
+npm run validate:data
 npm run build
+npm run quality
 npm run qa
 ```
 
-The Astro page-factory source lives in `src/` and builds to `dist/`. The existing `site/` directory remains the legacy static site. Before Astro runs, `scripts/prepare-public.mjs` copies legacy files into `.astro-public/` and excludes routes now owned by Astro.
+The Astro page-factory source lives in `src/` and builds to `dist/`. The existing `site/` directory remains the legacy static site. Before Astro runs, `scripts/prepare-public.mjs` copies legacy files into `.astro-public/` and excludes routes listed in `src/data/migratedRoutes.json`.
+
+Generated sitemap, RSS feed, and static search index are built from `src/data/routes.ts`:
+
+```powershell
+dist/sitemap.xml
+dist/feed.xml
+dist/search-index.json
+```
 
 ## Deploy
 
@@ -29,7 +39,7 @@ The Astro page-factory source lives in `src/` and builds to `dist/`. The existin
 npm run deploy
 ```
 
-Legacy deploy is still available with `npm run deploy:legacy`.
+The normal deploy command builds `dist/` first, then deploys it to Cloudflare Pages with Wrangler. Legacy deploy is still available with `npm run deploy:legacy`.
 
 See `DOC/astro-page-factory.md` for the scaffold architecture and page migration workflow.
 

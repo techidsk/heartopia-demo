@@ -17,17 +17,24 @@ This project now has two static-site lanes:
 
 - `/fish/` and `/fish/[id]/` are generated from `site/assets/data/fish.json`.
 - `/shops/` and `/shops/[id]/` are generated from `site/assets/data/shops.json`.
-- `/tools/profit-calculator/` is generated from `site/assets/data/crops.json`.
+- `/crops/` and `/crops/[id]/` are generated from `site/assets/data/crops.json`.
+- `/recipes/` and `/recipes/[id]/` are generated from `site/assets/data/recipes.json`.
+- `/tools/profit-calculator/` is generated from validated crop data.
+- `/search/`, `/search-index.json`, `/sitemap.xml`, and `/feed.xml` are generated from `src/data/routes.ts`.
 
-The legacy `site/` tree still provides the rest of the site while pages are migrated incrementally. When a route moves to Astro, add its legacy `index.html` to `generatedRouteFiles` in `scripts/prepare-public.mjs` so the generated page can own that URL.
+The legacy `site/` tree still provides the rest of the site while pages are migrated incrementally. When a route moves to Astro, add its legacy output path to `src/data/migratedRoutes.json` so `scripts/prepare-public.mjs` excludes the legacy file and the generated page can own that URL.
 
 ## Directory Roles
 
 - `src/layouts/BaseLayout.astro`: shared document shell, SEO tags, header, footer, and global CSS link.
 - `src/components/`: reusable page chrome such as navigation, breadcrumbs, metrics, and footer groups.
 - `src/data/heartopia.ts`: Zod schemas and validated data exports.
+- `src/data/routes.ts`: generated route registry for sitemap, feed, and static search.
+- `src/data/migratedRoutes.json`: route-conflict exclusions for legacy public copying.
 - `src/pages/`: generated URL routes.
 - `src/tools/`: small client modules for generated interactive pages.
+- `scripts/validate-data.mjs`: JSON shape and duplicate-id validation.
+- `scripts/quality-gate.mjs`: built-output SEO/artifact checks.
 - `qa/check-layout.mjs`: mobile/desktop overflow QA against `dist/`.
 
 ## Adding A Database Page
@@ -37,7 +44,9 @@ The legacy `site/` tree still provides the rest of the site while pages are migr
 3. Create `src/pages/<route>/index.astro` for the list page.
 4. Add `src/pages/<route>/[id].astro` if the entity needs detail URLs.
 5. Reuse `BaseLayout`, `Breadcrumbs`, and `MetricCards`.
-6. Run `npm run build` and `npm run qa`.
+6. Add the list route to `src/data/migratedRoutes.json` if it replaces a legacy HTML file.
+7. Add sitemap/search entries in `src/data/routes.ts`.
+8. Run `npm run validate:data`, `npm run build`, and `npm run qa`.
 
 ## Adding A Tool Page
 
@@ -47,11 +56,21 @@ The legacy `site/` tree still provides the rest of the site while pages are migr
 4. Store only user state in `localStorage`; do not duplicate canonical data in the script.
 5. Run `npm run qa` and manually check the tool at mobile width.
 
+## Generated SEO And Search
+
+- `src/pages/sitemap.xml.ts` renders XML from `routeEntries`.
+- `src/pages/feed.xml.ts` renders RSS from `feedEntries`.
+- `src/pages/search-index.json.ts` exposes the same route registry as JSON.
+- `src/pages/search/index.astro` provides the current lightweight static search UI.
+- `npm run quality` checks representative HTML routes, sitemap, feed, and search index after build.
+
 ## Commands
 
 ```powershell
 npm run dev
+npm run validate:data
 npm run build
+npm run quality
 npm run preview
 npm run qa
 npm run deploy

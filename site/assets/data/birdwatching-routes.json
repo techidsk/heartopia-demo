@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hobby-birdwatching-unlock",
+    "name": "Unlock Birdwatching Route",
+    "group": "unlock",
+    "badge": "OPEN",
+    "summary": "Start with the mentor route, camera or binocular handoff, and one easy observation before chasing rare birds.",
+    "steps": ["Open the birdwatching hobby prompt", "Confirm the camera or binocular tool route", "Take one starter bird photo", "Save the first confirmed location note"],
+    "priority": "Unlock route",
+    "tool": "/tools/checklist/",
+    "primary": "/guides/",
+    "secondary": "/map/?filter=animal"
+  },
+  {
+    "id": "hobby-birdwatching-weather",
+    "name": "Weather Window Route",
+    "group": "weather",
+    "badge": "WX",
+    "summary": "Use weather as the first filter before walking every region.",
+    "steps": ["Check current weather before leaving town", "Run sunny or clear starter checks first", "Move rain-only candidates into checklist", "Do not reroute for rare birds until weather matches"],
+    "priority": "Weather route",
+    "tool": "/tools/checklist/",
+    "primary": "/map/",
+    "secondary": "/events/"
+  },
+  {
+    "id": "hobby-birdwatching-location",
+    "name": "Habitat Loop Route",
+    "group": "habitat",
+    "badge": "LOC",
+    "summary": "Split birds by forest, coast, town, and mountain loops so collection does not become random wandering.",
+    "steps": ["Start with town and flower field checks", "Move to forest or lake edges for nature birds", "Use coast routes after fishing or shell stops", "Save mountain checks for onsen or late routes"],
+    "priority": "Habitat route",
+    "tool": "/tools/checklist/",
+    "primary": "/map/?filter=animal",
+    "secondary": "/hobbies/fishing/"
+  },
+  {
+    "id": "hobby-birdwatching-pose",
+    "name": "Pose And Photo Route",
+    "group": "photo",
+    "badge": "SHOT",
+    "summary": "Treat photo quality as a task state: sighting, clear shot, and confirmed album row.",
+    "steps": ["Approach slowly before opening camera", "Wait for a clean pose or perch", "Take the photo before moving closer", "Record whether the album accepted the shot"],
+    "priority": "Photo route",
+    "tool": "/tools/checklist/",
+    "primary": "/tools/checklist/",
+    "secondary": "/house-designs/"
+  },
+  {
+    "id": "hobby-birdwatching-rare",
+    "name": "Rare Bird Priority",
+    "group": "rare",
+    "badge": "RARE",
+    "summary": "Rare birds should be tracked by condition, not searched during every casual route.",
+    "steps": ["Record missing bird names and suspected habitat", "Add weather and time gates to each target", "Pair rare searches with nearby map tasks", "Stop after the condition window ends"],
+    "priority": "Rare route",
+    "tool": "/tools/checklist/",
+    "primary": "/map/",
+    "secondary": "/events/"
+  },
+  {
+    "id": "hobby-birdwatching-daily",
+    "name": "Daily Collection Loop",
+    "group": "daily",
+    "badge": "DAY",
+    "summary": "Use birdwatching as a light daily route that pairs with NPC, map, and photo tasks.",
+    "steps": ["Pick one bird route for the day", "Combine it with one NPC or shop stop", "Mark confirmed sightings in checklist", "Leave rare-only routes for matching weather"],
+    "priority": "Daily route",
+    "tool": "/tools/checklist/",
+    "primary": "/npcs/",
+    "secondary": "/shops/"
+  }
+]

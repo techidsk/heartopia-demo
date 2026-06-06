@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dog",
+    "name": "Dog",
+    "category": "pet",
+    "route": "Pet Shop adoption",
+    "food": ["Dog Food", "Simple cooked dishes", "Low-cost test foods"],
+    "unlock": "Pet-care route after Mrs. Joan onboarding",
+    "source": "Pet Shop",
+    "map": "/map/?marker=pet-shop",
+    "shop": "/shops/?q=dog food",
+    "guide": "/animal-favorites/"
+  },
+  {
+    "id": "cat",
+    "name": "Cat",
+    "category": "pet",
+    "route": "Pet Shop onboarding",
+    "food": ["Cat-care items", "Pet baseline food", "Low-cost tests"],
+    "unlock": "First pet-care onboarding route",
+    "source": "Pet Shop",
+    "map": "/map/?marker=pet-shop",
+    "shop": "/shops/?q=pet",
+    "guide": "/animal-favorites/"
+  },
+  {
+    "id": "fox",
+    "name": "Fox",
+    "category": "wild",
+    "route": "Flower Field trough",
+    "food": ["Meat lane", "Fish lane", "Wild animal tests"],
+    "unlock": "Wild animal trough route",
+    "source": "Flower Field",
+    "map": "/map/?marker=fox-trough",
+    "shop": "/fish/",
+    "guide": "/animal-favorites/"
+  },
+  {
+    "id": "sea-otter",
+    "name": "Sea Otter",
+    "category": "wild",
+    "route": "Fishing Village trough",
+    "food": ["Shrimp", "Shell lane", "Coastal fish tests"],
+    "unlock": "Wild animal trough route",
+    "source": "Fishing Village",
+    "map": "/map/?marker=sea-otter-trough",
+    "shop": "/fish/",
+    "guide": "/animal-favorites/"
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "category": "farm",
+    "route": "Farm animal route",
+    "food": ["Corn", "Crop lane", "Basic feed tests"],
+    "unlock": "Farm animal care route",
+    "source": "Farm animal lane",
+    "map": "/crops/",
+    "shop": "/shops/?q=seed",
+    "guide": "/animal-favorites/"
+  },
+  {
+    "id": "cow",
+    "name": "Cow",
+    "category": "farm",
+    "route": "Farm animal route",
+    "food": ["Wheat", "Grass lane", "Long crop overlap"],
+    "unlock": "Farm animal care route",
+    "source": "Farm animal lane",
+    "map": "/tools/crop-planner/",
+    "shop": "/shops/?q=seed",
+    "guide": "/animal-favorites/"
+  },
+  {
+    "id": "oak-oak",
+    "name": "Oak-Oak",
+    "category": "quest",
+    "route": "Forest quest companion",
+    "food": ["Quest-specific care", "Do not mix with dog route"],
+    "unlock": "Astralis Forest quest line",
+    "source": "Quest route",
+    "map": "/map/?marker=panda-trough",
+    "shop": "/animal-favorites/",
+    "guide": "/animal-favorites/"
+  }
+]

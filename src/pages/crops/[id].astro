@@ -1,0 +1,108 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { crops, recipes, type Crop } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+  return crops.map((crop) => ({ params: { id: crop.id }, props: { crop } }));
+}
+
+interface Props {
+  crop: Crop;
+}
+
+const { crop } = Astro.props;
+const formatGold = (value: number | null) => (value === null ? "Pending" : `${value.toLocaleString()} Gold`);
+const margin = crop.seed === null || crop.sell === null ? "Pending" : `${(crop.sell - crop.seed).toLocaleString()} Gold`;
+const cropName = crop.name.toLowerCase();
+const recipeUses = recipes
+  .filter((recipe) => recipe.ingredients.some((ingredient) => ingredient.toLowerCase().includes(cropName)))
+  .slice(0, 4);
+const relatedCrops = crops.filter((candidate) => candidate.id !== crop.id && candidate.group === crop.group).slice(0, 4);
+---
+
+<BaseLayout
+  title={`${crop.name} - Heartopia Crop Growth, Profit & Recipe Uses`}
+  description={`${crop.name} Heartopia crop detail with ${crop.growth} growth, ${crop.unlock} unlock, seed cost, sell value, recipe uses, and route planning links.`}
+  canonicalPath={`/crops/${crop.id}/`}
+  currentPath="/crops/"
+  ogImage="/assets/asset-gardening.jpg"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/crops/", label: "Crops" }, { label: crop.name }]} />
+      <h1>{crop.name}</h1>
+      <p>{crop.use}. This detail URL is generated from crop data and can be linked from recipes, shops, tools, and gardening guides.</p>
+      <MetricCards
+        metrics={[
+          { value: crop.growth, label: "growth" },
+          { value: crop.unlock, label: "unlock" },
+          { value: formatGold(crop.seed), label: "seed" },
+          { value: formatGold(crop.sell), label: "sell" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <h2 class="wiki-title">Crop Route</h2>
+        <div class="map-meta">
+          <span><strong>Group:</strong> {crop.group}</span>
+          <span><strong>Route:</strong> {crop.route}</span>
+          <span><strong>Margin:</strong> {margin}</span>
+          <span><strong>Use:</strong> {crop.use}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={crop.tool}>Open Crop Tool</a>
+          <a class="pastel-button alt" href={crop.shop}>Find Seeds</a>
+          <a class="pastel-button alt" href={crop.related}>Related Uses</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">Maintenance Note</h2>
+        <p>This page is generated from site/assets/data/crops.json; update that crop row to refresh list, detail, sitemap, feed, and search index together.</p>
+      </aside>
+    </div>
+  </section>
+
+  {recipeUses.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>Recipe Uses</h2>
+          <p>Recipes that mention this crop in their ingredient lane.</p>
+        </div>
+        <div class="route-grid">
+          {recipeUses.map((recipe) => (
+            <a class="route-card" href={`/recipes/${recipe.id}/`}>
+              <h3>{recipe.name}</h3>
+              <p>{recipe.ingredients.join(", ")}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {relatedCrops.length > 0 && (
+    <section class="wiki-section">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>Same Route Group</h2>
+          <p>Related crops from the same planning group.</p>
+        </div>
+        <div class="route-grid">
+          {relatedCrops.map((candidate) => (
+            <a class="route-card" href={`/crops/${candidate.id}/`}>
+              <h3>{candidate.name}</h3>
+              <p>{candidate.growth} | {candidate.unlock}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

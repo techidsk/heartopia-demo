@@ -1,0 +1,204 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { recipes } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const selected = recipes[0];
+const recipeGroups = [...new Set(recipes.flatMap((recipe) => recipe.group.split("-")))];
+const highRiskCount = recipes.filter((recipe) => recipe.risk === "high").length;
+const ingredientCount = new Set(recipes.flatMap((recipe) => recipe.ingredients)).size;
+const recipeFilters = ["fruit", "crop", "fish", "forage", "farm", "risk"].filter(
+  (filter) => filter === "risk" || recipeGroups.includes(filter)
+);
+const badgeClass = (recipe: typeof recipes[number]) => {
+  if (recipe.risk === "high") return "risk";
+  if (recipe.group.includes("fish")) return "fish";
+  if (recipe.group.includes("crop")) return "crop";
+  if (recipe.group.includes("forage")) return "forage";
+  if (recipe.group.includes("farm")) return "farm";
+  return "fruit";
+};
+const badgeText = (recipe: typeof recipes[number]) => recipe.route.slice(0, 3).toUpperCase();
+const searchText = (recipe: typeof recipes[number]) =>
+  [recipe.name, recipe.group, recipe.route, recipe.use, recipe.risk, recipe.source, ...recipe.ingredients].join(" ");
+
+const footerGroups = [
+  {
+    title: "Cooking",
+    links: [
+      { href: "/recipes/", label: "Recipes" },
+      { href: "/tools/recipe-finder/", label: "Recipe Finder" },
+      { href: "/hobbies/cooking/", label: "Cooking Hobby" },
+      { href: "/guides/", label: "Guides" }
+    ]
+  },
+  {
+    title: "Ingredients",
+    links: [
+      { href: "/crops/", label: "Crops" },
+      { href: "/fish/", label: "Fish" },
+      { href: "/animal-favorites/", label: "Animal Food" },
+      { href: "/map/", label: "Map" }
+    ]
+  }
+];
+---
+
+<BaseLayout
+  title="Heartopia Recipes Database - Ingredients, Routes & Cooking Risk"
+  description="Heartopia recipes database generated from structured recipe data with ingredient filters, route groups, cooking risk notes, recipe finder links, and crop, fish, event, and map handoffs."
+  canonicalPath="/recipes/"
+  currentPath="/recipes/"
+  ogImage="/assets/asset-gardening.jpg"
+  footerGroups={footerGroups}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/database/", label: "Database" }, { label: "Recipes" }]} />
+      <h1>Heartopia Recipes Database</h1>
+      <p>Filter recipes by ingredient lane, risk, route, and source so cooking becomes a planned sink for crops, fish, forage, farm goods, and event materials.</p>
+      <MetricCards
+        metrics={[
+          { value: recipes.length, label: "tracked recipes" },
+          { value: recipeGroups.length, label: "ingredient lanes" },
+          { value: ingredientCount, label: "ingredient notes" },
+          { value: highRiskCount, label: "high-risk tests" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section media-section">
+    <div class="wiki-shell">
+      <figure class="article-art wide">
+        <img src="/assets/asset-gardening.jpg" alt="Heartopia cooking and recipe planning visual" loading="eager" />
+        <figcaption>
+          <strong>Cook from verified inputs</strong>
+          <span>Low-risk routes are safe starter sinks; high-risk or event rows should be checked before spending limited ingredients.</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="wiki-section" id="recipe-database">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Recipe Route Database</h2>
+        <p>Search by recipe, ingredient, source lane, route, or risk level.</p>
+      </div>
+
+      <div class="recipe-database" data-recipe-database>
+        <div class="recipe-control-bar">
+          <label class="search-field">
+            <span>Search recipes, ingredients, or route</span>
+            <input type="search" placeholder="Try potato fish, jam, mushroom, QTE..." data-recipe-db-search />
+          </label>
+          <div class="filter-row compact" aria-label="Recipe filters">
+            <button class="filter-button" type="button" data-recipe-db-filter="all" aria-pressed="true">All</button>
+            {recipeFilters.map((filter) => (
+              <button class="filter-button" type="button" data-recipe-db-filter={filter} aria-pressed="false">
+                {filter === "risk" ? "High Risk" : filter[0].toUpperCase() + filter.slice(1)}
+              </button>
+            ))}
+          </div>
+          <p class="tool-count" data-recipe-db-count>{recipes.length} recipes shown</p>
+        </div>
+
+        <div class="recipe-database-layout">
+          <div class="recipe-card-grid">
+            {recipes.map((recipe, index) => (
+              <button
+                class:list={["recipe-card", { "is-selected": index === 0 }]}
+                type="button"
+                data-recipe-db-card
+                data-recipe-id={recipe.id}
+                data-group={recipe.group}
+                data-risk={recipe.risk}
+                data-name={recipe.name}
+                data-ingredients={recipe.ingredients.join("|")}
+                data-route={recipe.route}
+                data-use={recipe.use}
+                data-source={recipe.source}
+                data-tool={recipe.tool}
+                data-primary={recipe.primary}
+                data-search={searchText(recipe)}
+              >
+                <span class:list={["recipe-badge", badgeClass(recipe)]}>{badgeText(recipe)}</span>
+                <span>
+                  <strong>{recipe.name}</strong>
+                  <small>{recipe.ingredients.join(", ")}</small>
+                </span>
+              </button>
+            ))}
+          </div>
+
+          <aside class="recipe-detail-panel" data-recipe-db-detail>
+            <div class="npc-detail-head">
+              <span class:list={["recipe-badge", badgeClass(selected)]}>{badgeText(selected)}</span>
+              <div>
+                <h2>{selected.name}</h2>
+                <p>{selected.route}</p>
+              </div>
+            </div>
+            <span class:list={["recipe-route-chip", selected.risk]}>{selected.group} route | {selected.risk} risk</span>
+            <div class="recipe-ingredient-list">
+              {selected.ingredients.map((ingredient) => <span>{ingredient}</span>)}
+            </div>
+            <div class="map-meta">
+              <span><strong>Use:</strong> {selected.use}</span>
+              <span><strong>Source lane:</strong> {selected.source}</span>
+              <span><strong>Risk:</strong> {selected.risk}</span>
+            </div>
+            <label class="recipe-tested-toggle"><input type="checkbox" data-recipe-db-tested /> Recipe tested in my save</label>
+            <div class="entity-action-grid">
+              <a class="pastel-button" href={selected.tool}>Open Finder</a>
+              <a class="pastel-button alt" href={selected.primary}>Ingredient Source</a>
+              <a class="pastel-button alt" href={`/recipes/${selected.id}/`}>Open Detail</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section tint-blue" id="recipe-table">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Recipe Ingredient Table</h2>
+        <p>Use detail pages for stable linking from crop, fish, guide, and checklist flows.</p>
+      </div>
+      <div class="table-card">
+        <table class="dense-table">
+          <thead>
+            <tr><th>Recipe</th><th>Ingredients</th><th>Route</th><th>Risk</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            {recipes.map((recipe) => (
+              <tr>
+                <td>{recipe.name}</td>
+                <td>{recipe.ingredients.join(", ")}</td>
+                <td>{recipe.route}</td>
+                <td>{recipe.risk}</td>
+                <td><a href={`/recipes/${recipe.id}/`}>Open</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell route-lane-grid">
+      <div class="route-lane"><h3>Starter Sink</h3><p>Use jam and salad rows when you need a low-risk way to test crop or fruit value.</p></div>
+      <div class="route-lane"><h3>Hybrid Sink</h3><p>Use fish plus crop rows only when both ingredient routes are already part of the same session.</p></div>
+      <div class="route-lane"><h3>Event Sink</h3><p>Keep limited-event rows behind checklist confirmation until the reward window is verified.</p></div>
+    </div>
+  </section>
+
+  <script>
+    import { initRecipeDatabase } from "@tools/recipeDatabase";
+    initRecipeDatabase();
+  </script>
+</BaseLayout>

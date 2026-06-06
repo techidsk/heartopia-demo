@@ -31,9 +31,12 @@ const paths = [
   "/download/",
   "/privacy/",
   "/fish/wels-catfish/",
+  "/crops/potato/",
+  "/recipes/fish-and-chips/",
   "/shops/",
   "/shops/gardening-store/",
-  "/tools/profit-calculator/"
+  "/tools/profit-calculator/",
+  "/search/"
 ];
 const viewports = [
   { width: 375, height: 812 },

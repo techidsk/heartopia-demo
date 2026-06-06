@@ -1,0 +1,98 @@
+[
+  {
+    "id": "first-session",
+    "name": "First Session Route",
+    "group": "beginner",
+    "badge": "DAY1",
+    "summary": "Claim rewards, unlock map/watch/home basics, and avoid spending rare materials.",
+    "steps": ["Claim mailbox rewards and current codes", "Follow main quest until map and watch are introduced", "Set one money route before exploring everything", "Save rare materials until upgrade needs are clear"],
+    "priority": "Start here",
+    "tool": "/tools/checklist/",
+    "primary": "/codes/",
+    "secondary": "/map/"
+  },
+  {
+    "id": "crop-money",
+    "name": "Starter Crop Money",
+    "group": "money",
+    "badge": "GOLD",
+    "summary": "Pick Tomato, Potato, Wheat, or Lettuce based on how long you will play.",
+    "steps": ["Use Tomato or Pineapple for short active sessions", "Use Potato for one-hour loops", "Use Wheat, Lettuce, or Corn before logging off", "Compare crops before buying large seed stacks"],
+    "priority": "Early gold",
+    "tool": "/tools/profit-calculator/",
+    "primary": "/crops/",
+    "secondary": "/shops/?q=seed"
+  },
+  {
+    "id": "fishing-unlock",
+    "name": "Fishing Unlock & Rare Route",
+    "group": "hobby",
+    "badge": "FISH",
+    "summary": "Unlock fishing with Vanya, learn tension, then route by water type and weather.",
+    "steps": ["Meet Vanya through the early route", "Finish the repair kit step", "Practice white/yellow/red tension timing", "Prioritize Rainbow weather and Level 10 targets later"],
+    "priority": "Hobby route",
+    "tool": "/tools/fish-tracker/",
+    "primary": "/fish/",
+    "secondary": "/map/"
+  },
+  {
+    "id": "cooking-route",
+    "name": "Cooking ROI Route",
+    "group": "hobby",
+    "badge": "COOK",
+    "summary": "Turn crop and fish outputs into recipes, but avoid QTE losses on rare inputs.",
+    "steps": ["Unlock the Massimo cooking route", "Start with jam or Fish and Chips", "Use Recipe Finder before cooking random inventory", "Avoid event or rare ingredients until value is known"],
+    "priority": "After crops/fish",
+    "tool": "/tools/recipe-finder/",
+    "primary": "/recipes/",
+    "secondary": "/fish/"
+  },
+  {
+    "id": "friendship-loop",
+    "name": "Daily Friendship Loop",
+    "group": "daily",
+    "badge": "NPC",
+    "summary": "Choose one NPC target, check route, gift once, and record completion.",
+    "steps": ["Pick one priority NPC instead of spreading gifts everywhere", "Check location and schedule before walking", "Use safe gift lanes first", "Mark gift route done in the tracker"],
+    "priority": "Daily",
+    "tool": "/tools/friendship-tracker/",
+    "primary": "/npcs/",
+    "secondary": "/shops/"
+  },
+  {
+    "id": "animal-care",
+    "name": "Pet & Animal Care Split",
+    "group": "daily",
+    "badge": "PET",
+    "summary": "Keep pet-shop pets, wild trough animals, farm animals, and Oak-Oak separate.",
+    "steps": ["Use Dog Food as the safe dog baseline", "Do not mix Oak-Oak with normal dog care", "Plan wild animal troughs from the map", "Record food tests before spending cooked dishes"],
+    "priority": "D.G. 12+",
+    "tool": "/tools/checklist/",
+    "primary": "/pets/",
+    "secondary": "/animal-favorites/"
+  },
+  {
+    "id": "event-prep",
+    "name": "Event Prep Route",
+    "group": "event",
+    "badge": "EVT",
+    "summary": "Check active event windows, prep items, and avoid wasting limited materials.",
+    "steps": ["Open the event hub before starting routine routes", "Check current and upcoming event status", "Save prep tasks in the event detail panel", "Do not cook or sell limited items before value is known"],
+    "priority": "Time-limited",
+    "tool": "/tools/checklist/",
+    "primary": "/events/",
+    "secondary": "/recipes/"
+  },
+  {
+    "id": "home-layout",
+    "name": "Home Layout Planning",
+    "group": "system",
+    "badge": "HOME",
+    "summary": "Plan room jobs, walking paths, materials, and shop handoffs before decorating.",
+    "steps": ["Pick a house design style and size", "Check material requirements", "Open shops for furniture and decor sources", "Mark collected materials before building"],
+    "priority": "Before decorating",
+    "tool": "/tools/checklist/",
+    "primary": "/house-designs/",
+    "secondary": "/shops/"
+  }
+]

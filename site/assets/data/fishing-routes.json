@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hobby-fishing-unlock",
+    "name": "Unlock Fishing With Vanya",
+    "group": "unlock",
+    "summary": "Finish the mentor route, repair step, and rod handoff before chasing locations.",
+    "steps": ["Meet Vanya through the early tutorial", "Craft or deliver the repair kit step", "Receive the fishing rod and hobby ticket", "Catch one starter fish before leaving the route"],
+    "primary": "/guides/",
+    "tool": "/tools/checklist/",
+    "secondary": "/npcs/"
+  },
+  {
+    "id": "hobby-fishing-tension",
+    "name": "Line Tension Practice",
+    "group": "technique",
+    "summary": "Use the color rule until reel timing is automatic.",
+    "steps": ["Reel while the line is white", "Slow down when the line turns yellow", "Release when the line turns red", "Practice on routine lake fish before using rare bait"],
+    "primary": "/fish/",
+    "tool": "/tools/checklist/",
+    "secondary": "/map/"
+  },
+  {
+    "id": "hobby-fishing-lake",
+    "name": "Starter Lake Loop",
+    "group": "lake",
+    "summary": "Run Meadow Lake, Forest Lake, Onsen Mountain Lake, and Spring Lake before rare routes.",
+    "steps": ["Start with Meadow Lake for Wels Catfish and Goldfish", "Move to Forest Lake for Arctic Char and Pearl Mussel checks", "Use Onsen Mountain Lake for mountain lake rows", "Only use premium bait after the routine lake list is clear"],
+    "primary": "/fish/?type=lake",
+    "tool": "/tools/fish-tracker/",
+    "secondary": "/map/?filter=fishing"
+  },
+  {
+    "id": "hobby-fishing-river",
+    "name": "River And Rainbow Route",
+    "group": "river",
+    "summary": "Use Giantwood River and Tranquil River, then prioritize Rainbow weather windows.",
+    "steps": ["Check Giantwood River for Huchen and Rainbow Trout candidates", "Check Tranquil River during noon-evening windows", "Move river targets into Fish Tracker", "During Rainbow weather, stop routine farming and run rare river checks"],
+    "primary": "/fish/?type=river",
+    "tool": "/tools/fish-tracker/",
+    "secondary": "/map/?marker=giantwood-river"
+  },
+  {
+    "id": "hobby-fishing-ocean",
+    "name": "Ocean Progression",
+    "group": "ocean",
+    "summary": "Separate coastal checks from Level 10 late-ocean targets.",
+    "steps": ["Start at Fishing Village or Zephyr Sea for coastal rows", "Move to Whale Sea after the late ocean route opens", "Save attractors for Swordfish, Tuna, and Hammerhead", "Use Recipes only after checking whether cooking beats raw sale"],
+    "primary": "/fish/?type=ocean",
+    "tool": "/tools/fish-tracker/",
+    "secondary": "/recipes/"
+  },
+  {
+    "id": "hobby-fishing-rare",
+    "name": "Rare Fish Priority",
+    "group": "rare",
+    "summary": "Treat rare fish as a tracked route with weather, level, and bait gates.",
+    "steps": ["Track Level 10 targets before spending attractors", "Use Rainbow weather for Giantwood River and Starlight Sea", "Check Secret Pond around midnight for hidden pond fish", "Mark catches in Fish Tracker immediately"],
+    "primary": "/fish/?rare=true",
+    "tool": "/tools/fish-tracker/",
+    "secondary": "/events/"
+  }
+]

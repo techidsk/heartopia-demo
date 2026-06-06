@@ -1,0 +1,57 @@
+[
+  {
+    "id": "modular-streets",
+    "name": "Modular Streets Festival",
+    "status": "current",
+    "window": "May 9 - June 20, 2026",
+    "endAt": "2026-06-20T23:59:59+08:00",
+    "route": "Brick fish, Brick insects, Brick birds, and Collector's Challenge tasks.",
+    "rewards": ["Brick furniture lane", "Festival collectibles", "Collection progress"],
+    "prep": ["Redeem active codes", "Free storage space", "Open fish tracker", "Check map routes"],
+    "links": { "map": "/map/", "tool": "/tools/checklist/", "guide": "/events/#prep" }
+  },
+  {
+    "id": "graffiti-channel",
+    "name": "Graffiti Channel Exhibition",
+    "status": "current",
+    "window": "May 9 - June 20, 2026",
+    "endAt": "2026-06-20T23:59:59+08:00",
+    "route": "Fashion and collectible route tied to festival reward loops.",
+    "rewards": ["Fashion display route", "Collector tasks", "Event styling notes"],
+    "prep": ["Check clothing store", "Review event checklist", "Leave room for display items"],
+    "links": { "map": "/map/?marker=clothing-store", "tool": "/tools/checklist/", "guide": "/shops/?q=clothing" }
+  },
+  {
+    "id": "sea-fishing",
+    "name": "Sea Fishing",
+    "status": "route",
+    "window": "Unlock route",
+    "endAt": "",
+    "route": "Fishing Village with Bill; useful for event tasks and rare fish routing.",
+    "rewards": ["Sea fish progress", "Fishing event rewards", "Recipe inputs"],
+    "prep": ["Open fish tracker", "Check inventory space", "Bring repair kit if needed"],
+    "links": { "map": "/map/?marker=sea-fishing-booth", "tool": "/tools/fish-tracker/", "guide": "/fish/" }
+  },
+  {
+    "id": "next-banner-watch",
+    "name": "Next Banner Watch",
+    "status": "upcoming",
+    "window": "TBA",
+    "endAt": "",
+    "route": "Placeholder watch item for the next official banner or festival handoff.",
+    "rewards": ["Unknown until announcement"],
+    "prep": ["Keep codes page checked", "Save flexible materials", "Do not spend all event stock"],
+    "links": { "map": "/map/", "tool": "/tools/checklist/", "guide": "/codes/" }
+  },
+  {
+    "id": "closed-code-window",
+    "name": "Closed Code Window Archive",
+    "status": "archive",
+    "window": "Expired or unverified",
+    "endAt": "",
+    "route": "Archived reward windows should stay separate from current tasks.",
+    "rewards": ["Historical reward notes"],
+    "prep": ["Move expired codes out of current route", "Keep source check date visible"],
+    "links": { "map": "/codes/", "tool": "/tools/checklist/", "guide": "/codes/" }
+  }
+]

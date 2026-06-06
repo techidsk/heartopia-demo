@@ -1,0 +1,208 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { crops, profitCrops } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const selected = crops[0];
+const cropGroups = [...new Set(crops.map((crop) => crop.group))];
+const knownValueCount = crops.filter((crop) => crop.seed !== null && crop.sell !== null).length;
+const formatGold = (value: number | null) => (value === null ? "Pending" : `${value.toLocaleString()} Gold`);
+const formatMargin = (seed: number | null, sell: number | null) =>
+  seed === null || sell === null ? "Value pending" : `${(sell - seed).toLocaleString()} Gold`;
+const cropBadgeText = (crop: typeof crops[number]) => (crop.minutes === null ? "UNK" : crop.growth);
+const searchText = (crop: typeof crops[number]) =>
+  [
+    crop.name,
+    crop.group,
+    crop.growth,
+    crop.unlock,
+    crop.route,
+    crop.use,
+    crop.minutes === null ? "unknown growth" : `${crop.minutes} minutes`,
+    crop.seed === null ? "unknown seed" : `${crop.seed} seed`,
+    crop.sell === null ? "unknown sell" : `${crop.sell} sell`
+  ].join(" ");
+
+const footerGroups = [
+  {
+    title: "Crop Routes",
+    links: [
+      { href: "/crops/", label: "Crops" },
+      { href: "/tools/profit-calculator/", label: "Profit Calculator" },
+      { href: "/tools/crop-planner/", label: "Crop Planner" },
+      { href: "/shops/?q=seed", label: "Seed Shop" }
+    ]
+  },
+  {
+    title: "Handoffs",
+    links: [
+      { href: "/recipes/", label: "Recipe Uses" },
+      { href: "/animal-favorites/", label: "Animal Food" },
+      { href: "/hobbies/gardening/", label: "Gardening" },
+      { href: "/database/", label: "Database Hub" }
+    ]
+  }
+];
+---
+
+<BaseLayout
+  title="Heartopia Crop Database - Growth Times, Seed Costs & Profit Routes"
+  description="Heartopia crop database generated from structured crop data with growth times, seed costs, sell values, unlock levels, crop route filters, recipe handoffs, and profit planning links."
+  canonicalPath="/crops/"
+  currentPath="/crops/"
+  ogImage="/assets/asset-gardening.jpg"
+  footerGroups={footerGroups}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/database/", label: "Database" }, { label: "Crops" }]} />
+      <h1>Heartopia Crop Database</h1>
+      <p>Compare growth windows, seed costs, sell values, unlock levels, recipe uses, and route tools from one generated crop source.</p>
+      <MetricCards
+        metrics={[
+          { value: crops.length, label: "tracked crops" },
+          { value: cropGroups.length, label: "route groups" },
+          { value: knownValueCount, label: "priced crops" },
+          { value: profitCrops.length, label: "calculator-ready" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section media-section">
+    <div class="wiki-shell">
+      <figure class="article-art wide">
+        <img src="/assets/asset-gardening.jpg" alt="Heartopia crop route planning visual" loading="eager" />
+        <figcaption>
+          <strong>Plan by session length</strong>
+          <span>Fast crops fit active loops; long crops fit logout windows; unknown rows stay flagged until values are verified.</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="wiki-section" id="crop-database">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Crop Planning Database</h2>
+        <p>Search crop names, unlocks, growth windows, recipe uses, or route groups.</p>
+      </div>
+
+      <div class="crop-database" data-crop-database>
+        <div class="crop-control-bar">
+          <label class="search-field">
+            <span>Search crops, unlocks, use, or route</span>
+            <input type="search" placeholder="Try potato, Lv 6, jam, offline..." data-crop-db-search />
+          </label>
+          <div class="filter-row compact" aria-label="Crop route filters">
+            <button class="filter-button" type="button" data-crop-db-filter="all" aria-pressed="true">All</button>
+            {cropGroups.map((group) => (
+              <button class="filter-button" type="button" data-crop-db-filter={group} aria-pressed="false">
+                {group[0].toUpperCase() + group.slice(1)}
+              </button>
+            ))}
+          </div>
+          <p class="tool-count" data-crop-db-count>{crops.length} crops shown</p>
+        </div>
+
+        <div class="crop-database-layout">
+          <div class="crop-card-grid">
+            {crops.map((crop, index) => (
+              <button
+                class:list={["crop-card", { "is-selected": index === 0 }]}
+                type="button"
+                data-crop-db-card
+                data-crop-id={crop.id}
+                data-group={crop.group}
+                data-name={crop.name}
+                data-growth={crop.growth}
+                data-seed={formatGold(crop.seed)}
+                data-sell={formatGold(crop.sell)}
+                data-profit={formatMargin(crop.seed, crop.sell)}
+                data-unlock={crop.unlock}
+                data-route={crop.route}
+                data-use={crop.use}
+                data-shop={crop.shop}
+                data-tool={crop.tool}
+                data-related={crop.related}
+                data-search={searchText(crop)}
+              >
+                <span class:list={["crop-badge", crop.group]}>{cropBadgeText(crop)}</span>
+                <span>
+                  <strong>{crop.name}</strong>
+                  <small>{crop.unlock} | {crop.route}</small>
+                </span>
+              </button>
+            ))}
+          </div>
+
+          <aside class="crop-detail-panel" data-crop-db-detail>
+            <div class="npc-detail-head">
+              <span class:list={["crop-badge", selected.group]}>{cropBadgeText(selected)}</span>
+              <div>
+                <h2>{selected.name}</h2>
+                <p>{selected.route}</p>
+              </div>
+            </div>
+            <span class="crop-route-chip">{selected.group} route</span>
+            <div class="map-meta">
+              <span><strong>Growth:</strong> {selected.growth}</span>
+              <span><strong>Unlock:</strong> {selected.unlock}</span>
+              <span><strong>Seed:</strong> {formatGold(selected.seed)}</span>
+              <span><strong>Base sell:</strong> {formatGold(selected.sell)}</span>
+              <span><strong>Margin:</strong> {formatMargin(selected.seed, selected.sell)}</span>
+              <span><strong>Use:</strong> {selected.use}</span>
+            </div>
+            <label class="crop-watch-toggle"><input type="checkbox" data-crop-db-watch /> Add to planting watchlist</label>
+            <div class="entity-action-grid">
+              <a class="pastel-button" href={selected.tool}>Open Planner</a>
+              <a class="pastel-button alt" href={selected.shop}>Find Seeds</a>
+              <a class="pastel-button alt" href={`/crops/${selected.id}/`}>Open Detail</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section tint-mint" id="crop-table">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Crop Value Table</h2>
+        <p>Rows with pending values remain searchable but are excluded from the profit calculator until validated.</p>
+      </div>
+      <div class="table-card">
+        <table class="dense-table">
+          <thead>
+            <tr><th>Crop</th><th>Growth</th><th>Seed</th><th>Sell</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            {crops.map((crop) => (
+              <tr>
+                <td>{crop.name}</td>
+                <td>{crop.growth}</td>
+                <td>{formatGold(crop.seed)}</td>
+                <td>{formatGold(crop.sell)}</td>
+                <td><a href={`/crops/${crop.id}/`}>Open</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell route-lane-grid">
+      <div class="route-lane"><h3>Active Loop</h3><p>Use fast crops like Tomato and Pineapple when you will stay online and harvest repeatedly.</p></div>
+      <div class="route-lane"><h3>Balanced Loop</h3><p>Use Potato and Carrot style crops when the session is long enough for one or two checks.</p></div>
+      <div class="route-lane"><h3>Offline Loop</h3><p>Use Wheat, Lettuce, Corn, and other long crops before leaving the game for several hours.</p></div>
+    </div>
+  </section>
+
+  <script>
+    import { initCropDatabase } from "@tools/cropDatabase";
+    initCropDatabase();
+  </script>
+</BaseLayout>

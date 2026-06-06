@@ -1,0 +1,98 @@
+[
+  {
+    "id": "potato",
+    "category": "crops",
+    "name": "Potato",
+    "summary": "One-hour crop route and Fish and Chips ingredient.",
+    "detail": "Potato is the safest early one-hour crop: easy to plan, useful for cooking, and strong enough for early Gold loops.",
+    "links": { "database": "/crops/", "tool": "/tools/profit-calculator/", "shop": "/shops/?q=seed" }
+  },
+  {
+    "id": "wheat",
+    "category": "crops",
+    "name": "Wheat",
+    "summary": "Offline crop and cooking input.",
+    "detail": "Wheat is better when the player will be away for several hours. It also gives the recipe finder a stable grain input.",
+    "links": { "database": "/crops/", "tool": "/tools/crop-planner/", "shop": "/shops/?q=seed" }
+  },
+  {
+    "id": "fish-and-chips",
+    "category": "recipes",
+    "name": "Fish and Chips",
+    "summary": "2x fish plus 2x Potato cooking route.",
+    "detail": "Fish and Chips is the bridge between fishing and farming. Use it when low-value fish need a better route than raw sale.",
+    "links": { "database": "/recipes/", "tool": "/tools/recipe-finder/", "map": "/map/?marker=meadow-lake" }
+  },
+  {
+    "id": "huchen",
+    "category": "fish",
+    "name": "Huchen",
+    "summary": "Giantwood River rare fish with level gate.",
+    "detail": "Huchen belongs in a planned river route. Track it separately from lake and ocean targets so collection progress is visible.",
+    "links": { "database": "/fish/", "tool": "/tools/fish-tracker/", "map": "/map/?marker=giantwood-river" }
+  },
+  {
+    "id": "pet-shop",
+    "category": "shops",
+    "name": "Pet Shop",
+    "summary": "Dog Food, cat-care items, adoption, and pet onboarding.",
+    "detail": "The Pet Shop connects animal favorites, pet unlocks, and map routing. It should be treated as a core service, not a note inside NPC text.",
+    "links": { "database": "/shops/", "tool": "/tools/checklist/", "map": "/map/?marker=pet-shop" }
+  },
+  {
+    "id": "weather-bird-target",
+    "category": "birds",
+    "name": "Weather Bird Target",
+    "summary": "Birdwatching route entity with weather and habitat gates.",
+    "detail": "Weather Bird Target represents a birdwatching entry that should be tracked by weather, habitat, and album-confirmed photo state rather than a simple text note.",
+    "links": { "database": "/hobbies/birdwatching/", "tool": "/tools/checklist/", "map": "/map/?filter=animal" }
+  },
+  {
+    "id": "rain-insect-target",
+    "category": "insects",
+    "name": "Rain Insect Target",
+    "summary": "Insect route entity with rain, time, and habitat conditions.",
+    "detail": "Rain Insect Target is a condition-based catch: check weather first, then time window, then habitat lane before spending a route.",
+    "links": { "database": "/hobbies/insects/", "tool": "/tools/timer/", "map": "/map/?filter=resource" }
+  },
+  {
+    "id": "bubble-net",
+    "category": "materials",
+    "name": "Bubble Net",
+    "summary": "Insect catching unlock tool and route material.",
+    "detail": "Bubble Net is the tool gate for insect catching. Treat it as a route material connected to shops, guides, and the insect planner.",
+    "links": { "database": "/hobbies/insects/", "tool": "/tools/checklist/", "shop": "/shops/" }
+  },
+  {
+    "id": "doris",
+    "category": "npcs",
+    "name": "Doris",
+    "summary": "Weather merchant and friendship route candidate.",
+    "detail": "Doris is both a social target and a weather-sensitive merchant route. Link NPC details to shops, map markers, and friendship planning.",
+    "links": { "database": "/npcs/", "tool": "/tools/friendship-tracker/", "map": "/map/?marker=doris-weather-cart" }
+  },
+  {
+    "id": "oak-oak",
+    "category": "animals",
+    "name": "Oak-Oak",
+    "summary": "Quest-specific companion separated from normal pets.",
+    "detail": "Oak-Oak should not be mixed with pet-shop dogs or cats. Keep it in a quest-specific animal lane.",
+    "links": { "database": "/animal-favorites/", "tool": "/tools/checklist/", "map": "/map/?marker=panda-trough" }
+  },
+  {
+    "id": "profit-calculator",
+    "category": "tools",
+    "name": "Profit Calculator",
+    "summary": "Crop profit calculator with saved inputs and ranking table.",
+    "detail": "Use the Profit Calculator before planting. It turns crop rows into an actionable Gold route.",
+    "links": { "database": "/tools/profit-calculator/", "tool": "/tools/crop-planner/", "shop": "/shops/?q=seed" }
+  },
+  {
+    "id": "hobbies-hub",
+    "category": "tools",
+    "name": "Hobbies Hub",
+    "summary": "Seven hobby route cards with checklist handoffs.",
+    "detail": "Hobbies Hub closes the route gap across fishing, gardening, cooking, birdwatching, insects, cat care, and dog care.",
+    "links": { "database": "/hobbies/", "tool": "/tools/checklist/", "map": "/map/" }
+  }
+]

@@ -3,14 +3,14 @@
   <title>Heartopia Hub Updates</title>
   <link href="https://heartopia-demo.pages.dev/feed.xml" rel="self"/>
   <link href="https://heartopia-demo.pages.dev/"/>
-  <updated>2026-06-05T00:00:00+08:00</updated>
+  <updated>2026-06-06T00:00:00+08:00</updated>
   <id>https://heartopia-demo.pages.dev/</id>
   <entry>
-    <title>Add database pages, logo, platform resources, and interactive map</title>
+    <title>Launch shops, tools, hobbies, database routes, and canvas map</title>
     <link href="https://heartopia-demo.pages.dev/database/"/>
-    <id>https://heartopia-demo.pages.dev/database/2026-06-05</id>
-    <updated>2026-06-05T00:00:00+08:00</updated>
-    <summary>New fish, recipes, crops, and animal favorites pages add route data, visual modules, and internal links. The download page now has official platform resource cards.</summary>
+    <id>https://heartopia-demo.pages.dev/database/2026-06-06</id>
+    <updated>2026-06-06T00:00:00+08:00</updated>
+    <summary>New shops, tools, hobbies, fish, recipes, crops, events, pets, NPCs, and database pages add route data, visual modules, internal links, and a canvas-rendered map.</summary>
   </entry>
   <entry>
     <title>Launch guide hub and code verification framework</title>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heartopia Recipe Finder - Ingredients To Cooking Routes</title>
+    <meta name="description" content="Heartopia recipe finder for filtering starter recipes by available fruit, vegetables, fish, potatoes, and grains.">
+    <link rel="canonical" href="https://heartopia-demo.pages.dev/tools/recipe-finder/">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body class="wiki-body">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"><nav class="nav" aria-label="Primary navigation"><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" data-menu-button>Menu</button><div class="nav-links" id="primary-links" data-nav-links><a href="/">Home</a><a href="/codes/">Codes</a><a href="/map/">Map</a><a href="/shops/">Shops</a><a href="/fish/">Fish</a><a href="/recipes/">Recipes</a>
+          <a href="/hobbies/">Hobbies</a><a href="/pets/">Pets</a><a href="/house-designs/">House Designs</a><a href="/npcs/">NPCs</a><a href="/tools/" aria-current="page">Tools</a><a href="/events/">Events</a><a href="/download/">Download</a></div></nav></header>
+    <main id="main">
+      <section class="article-hero"><div class="wiki-shell"><div class="breadcrumb"><a href="/">Home</a><span>›</span><a href="/tools/">Tools</a><span>›</span><span>Recipe Finder</span></div><h1>Heartopia Recipe Finder</h1><p>Select ingredients on hand and filter starter recipes before cooking or selling.</p><div class="page-metrics"><div class="metric-card"><strong>8</strong><span>recipe cards</span></div><div class="metric-card"><strong>Ingredient</strong><span>filters</span></div><div class="metric-card"><strong>ROI</strong><span>notes</span></div><div class="metric-card"><strong>Data</strong><span>linked</span></div></div></div></section>
+      <section class="wiki-section media-section tint-peach"><div class="wiki-shell"><figure class="article-art wide"><img src="/assets/asset-events.jpg" alt="Heartopia recipe finder cooking route" loading="eager"><figcaption><strong>Cook from inventory</strong><span>The useful recipe page starts with what you have, then points to the crop or fish data needed to fill gaps.</span></figcaption></figure></div></section>
+      <section class="wiki-section">
+        <div class="wiki-shell tool-page-layout" data-recipe-finder>
+          <article class="wiki-card tool-workbench">
+            <h2 class="wiki-title">Available Ingredients</h2>
+            <div class="ingredient-grid" aria-label="Ingredient filters">
+              <label><input type="checkbox" value="fruit" data-recipe-ingredient checked><span>Any Fruit</span></label>
+              <label><input type="checkbox" value="potato" data-recipe-ingredient checked><span>Potato</span></label>
+              <label><input type="checkbox" value="fish" data-recipe-ingredient><span>Any Fish</span></label>
+              <label><input type="checkbox" value="vegetable" data-recipe-ingredient checked><span>Vegetable</span></label>
+              <label><input type="checkbox" value="apple" data-recipe-ingredient><span>Apple</span></label>
+              <label><input type="checkbox" value="blueberry" data-recipe-ingredient><span>Blueberry</span></label>
+              <label><input type="checkbox" value="pineapple" data-recipe-ingredient><span>Pineapple</span></label>
+              <label><input type="checkbox" value="wheat" data-recipe-ingredient><span>Wheat</span></label>
+            </div>
+            <div class="tracker-progress"><strong data-recipe-count>0 recipes available</strong><span>Ingredient choices save locally.</span></div>
+            <div class="recipe-result-grid">
+              <article class="recipe-tool-card" data-recipe-card data-ingredients="fruit"><strong>Mixed Jam</strong><span>4x Any Fruit</span><small>Starter sell route</small></article>
+              <article class="recipe-tool-card" data-recipe-card data-ingredients="apple"><strong>Apple Jam</strong><span>4x Apple</span><small>Same-fruit jam test</small></article>
+              <article class="recipe-tool-card" data-recipe-card data-ingredients="blueberry"><strong>Blueberry Jam</strong><span>4x Blueberry</span><small>Same-fruit jam test</small></article>
+              <article class="recipe-tool-card" data-recipe-card data-ingredients="pineapple"><strong>Pineapple Jam</strong><span>4x Pineapple</span><small>Good active crop loop</small></article>
+              <article class="recipe-tool-card" data-recipe-card data-ingredients="vegetable"><strong>House Salad</strong><span>2x Any Vegetable</span><small>Low-risk starter dish</small></article>
+              <article class="recipe-tool-card" data-recipe-card data-ingredients="fish potato"><strong>Fish and Chips</strong><span>2x Any Fish, 2x Potato</span><small>Fish route sink</small></article>
+              <article class="recipe-tool-card" data-recipe-card data-ingredients="wheat fruit"><strong>Fruit Toast</strong><span>Wheat plus fruit</span><small>Offline crop route</small></article>
+              <article class="recipe-tool-card" data-recipe-card data-ingredients="potato vegetable"><strong>Simple Stew</strong><span>Potato plus vegetable</span><small>Gift test candidate</small></article>
+            </div>
+          </article>
+          <aside class="tool-aside"><div class="source-panel"><h2>Finder Rule</h2><p>A recipe appears only when every required ingredient group is selected. Use the linked database pages when an ingredient is missing.</p></div><div class="tool-link-stack"><a class="pastel-button" href="/recipes/">Open Recipes</a><a class="pastel-button alt" href="/crops/">Open Crops</a><a class="pastel-button alt" href="/fish/">Open Fish</a></div></aside>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="footer-grid"><div><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><p class="small">Independent fan guide. Last updated June 6, 2026.</p></div><div class="footer-links"><strong>Tools</strong><a href="/tools/">Tools Hub</a><a href="/tools/profit-calculator/">Profit Calculator</a><a href="/tools/crop-planner/">Crop Planner</a></div><div class="footer-links"><strong>Data</strong><a href="/recipes/">Recipes</a><a href="/crops/">Crops</a><a href="/fish/">Fish</a></div></div></footer>
+    <script src="/assets/site.js" defer></script>
+  </body>
+</html>

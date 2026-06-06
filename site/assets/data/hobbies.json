@@ -1,0 +1,65 @@
+[
+  {
+    "id": "fishing",
+    "name": "Fishing",
+    "group": "core",
+    "summary": "Water-type route with unlock, tension practice, fish tracker, map spots, and rare catch planning.",
+    "primary": "/hobbies/fishing/",
+    "tool": "/tools/fish-tracker/",
+    "database": "/fish/"
+  },
+  {
+    "id": "gardening",
+    "name": "Gardening",
+    "group": "core",
+    "summary": "Crop route with seed planning, profit comparison, crop planner, timers, and recipe sinks.",
+    "primary": "/hobbies/gardening/",
+    "tool": "/tools/crop-planner/",
+    "database": "/crops/"
+  },
+  {
+    "id": "cooking",
+    "name": "Cooking",
+    "group": "core",
+    "summary": "Recipe route with Massimo unlock, jam, Fish and Chips, QTE safety, and event ingredient checks.",
+    "primary": "/hobbies/cooking/",
+    "tool": "/tools/recipe-finder/",
+    "database": "/recipes/"
+  },
+  {
+    "id": "birdwatching",
+    "name": "Birdwatching",
+    "group": "nature",
+    "summary": "Camera and binocular route with weather, location, pose, and collection checklist planning.",
+    "primary": "/hobbies/birdwatching/",
+    "tool": "/tools/checklist/",
+    "database": "/map/?filter=animal"
+  },
+  {
+    "id": "insects",
+    "name": "Insect Catching",
+    "group": "nature",
+    "summary": "Bubble Net route with DG6 unlock, time, weather, habitat, rare bugs, and sale checks.",
+    "primary": "/hobbies/insects/",
+    "tool": "/tools/checklist/",
+    "database": "/map/?filter=resource"
+  },
+  {
+    "id": "cat-care",
+    "name": "Cat Care",
+    "group": "care",
+    "summary": "Pet shop route with adoption, food tests, favorite tracking, and daily care loops.",
+    "primary": "/pets/?q=cat",
+    "tool": "/tools/checklist/",
+    "database": "/animal-favorites/"
+  },
+  {
+    "id": "dog-care",
+    "name": "Dog Care",
+    "group": "care",
+    "summary": "Dog food baseline, adoption route, Oak-Oak separation, and animal favorite testing.",
+    "primary": "/pets/?q=dog",
+    "tool": "/tools/checklist/",
+    "database": "/animal-favorites/"
+  }
+]

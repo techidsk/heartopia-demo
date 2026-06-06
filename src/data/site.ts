@@ -32,6 +32,7 @@ export const defaultFooterGroups = [
       { href: "/map/", label: "Map" },
       { href: "/shops/", label: "Shops" },
       { href: "/tools/", label: "Tools" },
+      { href: "/search/", label: "Search" },
       { href: "/database/", label: "Database" }
     ]
   },

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hobby-gardening-unlock",
+    "name": "Unlock Gardening With Blanc",
+    "group": "unlock",
+    "summary": "Open the starter plot route, learn seed buying, and keep every box active.",
+    "steps": ["Meet Blanc through the gardening tutorial", "Place or use starter plant boxes", "Buy Tomato and Potato seeds before experimenting", "Water and harvest once before leaving the route"],
+    "primary": "/guides/",
+    "tool": "/tools/checklist/",
+    "secondary": "/shops/?q=seed"
+  },
+  {
+    "id": "hobby-gardening-seed",
+    "name": "Seed Shop And Blanc Route",
+    "group": "seed",
+    "summary": "Use shop and map handoffs so seed buying is a planned stop, not a memory check.",
+    "steps": ["Open Shops and search seeds", "Check Blanc or Garden Shop source notes", "Buy only enough seed for the selected play window", "Save Gold for tool upgrades before overbuying late seeds"],
+    "primary": "/shops/?q=seed",
+    "tool": "/tools/checklist/",
+    "secondary": "/map/"
+  },
+  {
+    "id": "hobby-gardening-active",
+    "name": "Active Short-Session Loop",
+    "group": "active",
+    "summary": "Use Tomato and Pineapple when you are staying online and can harvest repeatedly.",
+    "steps": ["Plant Tomato for 15-minute starter loops", "Switch to Pineapple after the unlock if you want a 30-minute route", "Use the Profit Calculator before filling all boxes", "Replant immediately after each harvest"],
+    "primary": "/crops/?group=active",
+    "tool": "/tools/profit-calculator/",
+    "secondary": "/tools/timer/"
+  },
+  {
+    "id": "hobby-gardening-balanced",
+    "name": "One To Two Hour Crop Route",
+    "group": "balanced",
+    "summary": "Use Potato and Carrot when you can harvest once or twice in the same session.",
+    "steps": ["Use Potato as the early one-hour baseline", "Use Carrot for a two-hour route after Lv 5", "Check Fish and Chips before selling all Potato raw", "Use Crop Planner when box count changes"],
+    "primary": "/crops/?group=balanced",
+    "tool": "/tools/crop-planner/",
+    "secondary": "/recipes/"
+  },
+  {
+    "id": "hobby-gardening-offline",
+    "name": "Before Logout Route",
+    "group": "offline",
+    "summary": "Use Wheat, Lettuce, Corn, or long crops when growth should happen while away.",
+    "steps": ["Plant Wheat or Lettuce before logging off", "Use Corn when the 12-hour route fits your next login", "Set a timer if you want to return near harvest", "Use Animal Favorites before spending Corn or Wheat on food tests"],
+    "primary": "/crops/?group=offline",
+    "tool": "/tools/crop-planner/",
+    "secondary": "/animal-favorites/"
+  },
+  {
+    "id": "hobby-gardening-profit",
+    "name": "Profit And Recipe Decision",
+    "group": "profit",
+    "summary": "Compare raw sale, recipe use, and animal-food overlap before mass planting.",
+    "steps": ["Open Profit Calculator for the selected crop", "Check Recipes for crop sinks like jam or Fish and Chips", "Check Animal Favorites for Corn, Wheat, or food overlap", "Add uncertain crops to the crop watchlist"],
+    "primary": "/tools/profit-calculator/",
+    "tool": "/crops/",
+    "secondary": "/recipes/"
+  }
+]

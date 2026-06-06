@@ -9,7 +9,9 @@
     "build": "node scripts/prepare-public.mjs && astro build",
     "preview": "npx serve dist",
     "preview:legacy": "npx serve site",
-    "qa": "npm run build && npm run qa:layout",
+    "validate:data": "node scripts/validate-data.mjs",
+    "quality": "node scripts/quality-gate.mjs",
+    "qa": "npm run validate:data && npm run build && npm run quality && npm run qa:layout",
     "qa:layout": "node qa/check-layout.mjs",
     "deploy": "npm run build && npx wrangler pages deploy dist --project-name heartopia-demo",
     "deploy:legacy": "npx wrangler pages deploy site --project-name heartopia-demo"

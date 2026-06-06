@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Heartopia Fish Database - Locations, Weather, Level Gates & Routes</title>
-    <meta name="description" content="Heartopia fish database with fishing spots, water type, time, weather, level gates, rare route notes, and practical catch planning.">
+    <meta name="description" content="Heartopia fish database with searchable fish cards, fishing spots, water type filters, time, weather, level gates, rare route notes, and saved catch progress.">
     <link rel="canonical" href="https://heartopia-demo.pages.dev/fish/">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="manifest" href="/site.webmanifest">
@@ -12,14 +12,230 @@
   </head>
   <body class="wiki-body">
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header"><nav class="nav" aria-label="Primary navigation"><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" data-menu-button>Menu</button><div class="nav-links" id="primary-links" data-nav-links><a href="/">Home</a><a href="/codes/">Codes</a><a href="/map/">Map</a><a href="/fish/">Fish</a><a href="/recipes/">Recipes</a><a href="/pets/">Pets</a><a href="/house-designs/">House Designs</a><a href="/npcs/">NPCs</a><a href="/tools/">Tools</a><a href="/events/">Events</a><a href="/download/">Download</a></div></nav></header>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" data-menu-button>Menu</button>
+        <div class="nav-links" id="primary-links" data-nav-links>
+          <a href="/">Home</a>
+          <a href="/codes/">Codes</a>
+          <a href="/map/">Map</a>
+          <a href="/shops/">Shops</a>
+          <a href="/fish/" aria-current="page">Fish</a>
+          <a href="/recipes/">Recipes</a>
+          <a href="/hobbies/">Hobbies</a>
+          <a href="/pets/">Pets</a>
+          <a href="/house-designs/">House Designs</a>
+          <a href="/npcs/">NPCs</a>
+          <a href="/tools/">Tools</a>
+          <a href="/events/">Events</a>
+          <a href="/download/">Download</a>
+        </div>
+      </nav>
+    </header>
+
     <main id="main">
-      <section class="article-hero"><div class="wiki-shell"><div class="breadcrumb"><a href="/">Home</a><span>›</span><a href="/database/">Database</a><span>›</span><span>Fish</span></div><h1>Heartopia Fish Database</h1><p>Use this as the catch-planning page: spot type, weather, time, level gate, and route notes are separated so fishing is not just a wall of names.</p><div class="page-metrics"><div class="metric-card"><strong>24</strong><span>tracked rows</span></div><div class="metric-card"><strong>5</strong><span>water types</span></div><div class="metric-card"><strong>Rainbow</strong><span>rare weather</span></div><div class="metric-card"><strong>Lv 10</strong><span>late fish gate</span></div></div></div></section>
-      <section class="wiki-section media-section"><div class="wiki-shell"><figure class="article-art wide"><img src="/assets/asset-fishing.jpg" alt="Heartopia fishing database visual" loading="eager"><figcaption><strong>Route by water type first</strong><span>Start with lake, river, ocean, hidden, or event routes. Then check weather and level gates before using premium bait.</span></figcaption></figure></div></section>
-      <section class="wiki-section"><div class="wiki-shell"><div class="data-card-grid"><div class="data-card"><strong>Lake Route</strong><span>Meadow, Forest, Onsen, Spring</span></div><div class="data-card"><strong>River Route</strong><span>Giantwood and Tranquil River</span></div><div class="data-card"><strong>Ocean Route</strong><span>Zephyr, Whale, Starlight, Old Sea</span></div><div class="data-card"><strong>Rare Route</strong><span>Rainbow weather, midnight, high level</span></div></div></div></section>
-      <section class="wiki-section tint-blue"><div class="wiki-shell"><div class="center-head"><h2>Fish Location Table</h2><p>Rows are a fan-maintained planning snapshot. Confirm in-game before spending limited bait.</p></div><div class="table-card"><table class="dense-table"><thead><tr><th>Fish</th><th>Spot</th><th>Type</th><th>Condition</th></tr></thead><tbody><tr><td>Wels Catfish</td><td>Meadow Lake</td><td>Lake</td><td>Starter route</td></tr><tr><td>Goldfish</td><td>Meadow Lake</td><td>Lake</td><td>Morning to evening</td></tr><tr><td>Arctic Char</td><td>Forest Lake</td><td>Lake</td><td>Cool weather priority</td></tr><tr><td>Giant Pearl Mussel</td><td>Forest Lake</td><td>Lake</td><td>Any time sample row</td></tr><tr><td>Largemouth Bass</td><td>Forest Lake</td><td>Lake</td><td>Lake route filler</td></tr><tr><td>Common Whitefish</td><td>Onsen Mountain Lake</td><td>Lake</td><td>Mountain lake route</td></tr><tr><td>Ruffe</td><td>Onsen Mountain Lake</td><td>Lake</td><td>Mountain lake route</td></tr><tr><td>Crucian Carp</td><td>Spring Lake</td><td>Lake</td><td>Rain boost route</td></tr><tr><td>Huchen</td><td>Giantwood River</td><td>River</td><td>Level 9; Rainbow weather</td></tr><tr><td>Burbot</td><td>Tranquil River</td><td>River</td><td>Noon to evening</td></tr><tr><td>Beltfish</td><td>Zephyr Sea</td><td>Ocean</td><td>Coastal route</td></tr><tr><td>Atlantic Pygmy Octopus</td><td>Zephyr Sea</td><td>Ocean</td><td>Coastal route</td></tr><tr><td>Atlantic Salmon</td><td>Whale Sea</td><td>Ocean</td><td>Late ocean route</td></tr><tr><td>Swordfish</td><td>Whale Sea</td><td>Ocean</td><td>Level 10</td></tr><tr><td>Rainbow Fish</td><td>Starlight Sea</td><td>Ocean</td><td>Rainbow weather</td></tr><tr><td>Koi</td><td>Secret Pond</td><td>Hidden</td><td>Midnight route</td></tr><tr><td>Golden King Crab</td><td>Sea Fishing</td><td>Event</td><td>Event route</td></tr><tr><td>Bluefin Tuna</td><td>Old Sea</td><td>Ocean</td><td>Level 10</td></tr><tr><td>Smooth Hammerhead</td><td>Deep Sea</td><td>Ocean</td><td>Level 10</td></tr><tr><td>European Eel</td><td>Old Sea</td><td>Ocean</td><td>Evening route</td></tr><tr><td>Butterfly Koi</td><td>Secret Pond</td><td>Hidden</td><td>Rare pond check</td></tr><tr><td>Large Pearl Mussel</td><td>Forest Lake</td><td>Lake</td><td>Any time sample row</td></tr><tr><td>Rainbow Trout</td><td>Giantwood River</td><td>River</td><td>Rainbow route candidate</td></tr><tr><td>Sea Bream</td><td>Fishing Village</td><td>Ocean</td><td>Starter coastal check</td></tr></tbody></table></div></div></section>
-      <section class="wiki-section"><div class="wiki-shell route-lane-grid"><div class="route-lane"><h3>Fast Session</h3><p>Run Meadow Lake or Forest Lake, then sell routine fish or convert extras through cooking.</p></div><div class="route-lane"><h3>Rare Weather</h3><p>When Rainbow weather appears, prioritize Giantwood River and Starlight Sea before routine farming.</p></div><div class="route-lane"><h3>Late Game</h3><p>Save attractors for Swordfish, Bluefin Tuna, Smooth Hammerhead, and other level-gated checks.</p></div></div></section>
+      <section class="article-hero">
+        <div class="wiki-shell">
+          <div class="breadcrumb"><a href="/">Home</a><span>›</span><a href="/database/">Database</a><span>›</span><span>Fish</span></div>
+          <h1>Heartopia Fish Database</h1>
+          <p>Search a fish, filter by water route, open the detail panel, then mark catches so fishing becomes a collection workflow instead of a wall of names.</p>
+          <div class="page-metrics">
+            <div class="metric-card"><strong>24</strong><span>tracked fish</span></div>
+            <div class="metric-card"><strong>5</strong><span>water routes</span></div>
+            <div class="metric-card"><strong>10</strong><span>rare targets</span></div>
+            <div class="metric-card"><strong>Saved</strong><span>catch progress</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section media-section">
+        <div class="wiki-shell">
+          <figure class="article-art wide">
+            <img src="/assets/asset-fishing.jpg" alt="Heartopia fishing database visual" loading="eager">
+            <figcaption><strong>Route by water type first</strong><span>Start with lake, river, ocean, hidden, or event routes. Then check weather and level gates before using premium bait.</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="wiki-section" id="fish-database">
+        <div class="wiki-shell">
+          <div class="center-head">
+            <h2>Catch Planning Database</h2>
+            <p>Use the filters for session planning, then send rare targets to the tracker or map route.</p>
+          </div>
+
+          <div class="fish-database" data-fish-database>
+            <div class="fish-control-bar">
+              <label class="search-field">
+                <span>Search fish, spot, route, or condition</span>
+                <input type="search" placeholder="Try level 10, rainbow, Meadow Lake, tuna..." data-fish-db-search>
+              </label>
+              <div class="filter-row compact" aria-label="Fish route filters">
+                <button class="filter-button" type="button" data-fish-db-filter="all" aria-pressed="true">All</button>
+                <button class="filter-button" type="button" data-fish-db-filter="lake" aria-pressed="false">Lake</button>
+                <button class="filter-button" type="button" data-fish-db-filter="river" aria-pressed="false">River</button>
+                <button class="filter-button" type="button" data-fish-db-filter="ocean" aria-pressed="false">Ocean</button>
+                <button class="filter-button" type="button" data-fish-db-filter="hidden" aria-pressed="false">Hidden</button>
+                <button class="filter-button" type="button" data-fish-db-filter="event" aria-pressed="false">Event</button>
+                <button class="filter-button" type="button" data-fish-db-filter="rare" aria-pressed="false">Rare</button>
+              </div>
+              <p class="tool-count" data-fish-db-count>24 fish shown</p>
+            </div>
+
+            <div class="fish-database-layout">
+              <div class="fish-card-grid">
+                <button class="fish-card is-selected" type="button" data-fish-db-card data-fish-id="wels-catfish" data-type="lake" data-rarity="common" data-name="Wels Catfish" data-spot="Meadow Lake" data-condition="Starter route" data-window="Any starter session" data-level="Lv 1" data-use="Fast early fishing route" data-map="/map/?marker=meadow-lake" data-search="wels catfish meadow lake starter route lv 1 common">
+                  <span class="fish-badge lake">LAK</span><span><strong>Wels Catfish</strong><small>Meadow Lake · Starter route</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="goldfish" data-type="lake" data-rarity="common" data-name="Goldfish" data-spot="Meadow Lake" data-condition="Morning to evening" data-window="Morning-evening" data-level="Lv 1" data-use="Early collection and tracker target" data-map="/map/?marker=meadow-lake" data-search="goldfish meadow lake morning evening lv 1 common">
+                  <span class="fish-badge lake">LAK</span><span><strong>Goldfish</strong><small>Meadow Lake · Morning-evening</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="arctic-char" data-type="lake" data-rarity="uncommon" data-name="Arctic Char" data-spot="Forest Lake" data-condition="Cool weather priority" data-window="Cool weather" data-level="Lv 2" data-use="Forest Lake route check" data-map="/map/?marker=forest-lake" data-search="arctic char forest lake cool weather lv 2 uncommon">
+                  <span class="fish-badge lake">LAK</span><span><strong>Arctic Char</strong><small>Forest Lake · Cool weather</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="giant-pearl-mussel" data-type="lake" data-rarity="uncommon" data-name="Giant Pearl Mussel" data-spot="Forest Lake" data-condition="Any time sample row" data-window="Any time" data-level="Lv 2" data-use="Forest Lake filler and value check" data-map="/map/?marker=forest-lake" data-search="giant pearl mussel forest lake any time lv 2 uncommon">
+                  <span class="fish-badge lake">LAK</span><span><strong>Giant Pearl Mussel</strong><small>Forest Lake · Any time</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="largemouth-bass" data-type="lake" data-rarity="common" data-name="Largemouth Bass" data-spot="Forest Lake" data-condition="Lake route filler" data-window="Any time" data-level="Lv 2" data-use="Routine lake catch" data-map="/map/?marker=forest-lake" data-search="largemouth bass forest lake filler lv 2 common">
+                  <span class="fish-badge lake">LAK</span><span><strong>Largemouth Bass</strong><small>Forest Lake · Lake route filler</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="common-whitefish" data-type="lake" data-rarity="common" data-name="Common Whitefish" data-spot="Onsen Mountain Lake" data-condition="Mountain lake route" data-window="Any time" data-level="Lv 3" data-use="Onsen loop catch" data-map="/map/?marker=onsen-lake" data-search="common whitefish onsen mountain lake lv 3 common">
+                  <span class="fish-badge lake">LAK</span><span><strong>Common Whitefish</strong><small>Onsen Mountain Lake · Mountain route</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="ruffe" data-type="lake" data-rarity="common" data-name="Ruffe" data-spot="Onsen Mountain Lake" data-condition="Mountain lake route" data-window="Any time" data-level="Lv 3" data-use="Onsen loop catch" data-map="/map/?marker=onsen-lake" data-search="ruffe onsen mountain lake lv 3 common">
+                  <span class="fish-badge lake">LAK</span><span><strong>Ruffe</strong><small>Onsen Mountain Lake · Mountain route</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="crucian-carp" data-type="lake" data-rarity="uncommon" data-name="Crucian Carp" data-spot="Spring Lake" data-condition="Rain boost route" data-window="Rain boost" data-level="Lv 3" data-use="Rain session target" data-map="/map/" data-search="crucian carp spring lake rain boost lv 3 uncommon">
+                  <span class="fish-badge lake">LAK</span><span><strong>Crucian Carp</strong><small>Spring Lake · Rain boost</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="huchen" data-type="river" data-rarity="rare" data-name="Huchen" data-spot="Giantwood River" data-condition="Level 9; Rainbow weather" data-window="Rainbow weather" data-level="Lv 9" data-use="Rare river priority" data-map="/map/?marker=giantwood-river" data-search="huchen giantwood river level 9 rainbow weather rare">
+                  <span class="fish-badge river">RIV</span><span><strong>Huchen</strong><small>Giantwood River · Lv 9 Rainbow</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="burbot" data-type="river" data-rarity="common" data-name="Burbot" data-spot="Tranquil River" data-condition="Noon to evening" data-window="Noon-evening" data-level="Lv 4" data-use="Routine river route" data-map="/map/?marker=rosie-river" data-search="burbot tranquil river noon evening lv 4 common">
+                  <span class="fish-badge river">RIV</span><span><strong>Burbot</strong><small>Tranquil River · Noon-evening</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="beltfish" data-type="ocean" data-rarity="common" data-name="Beltfish" data-spot="Zephyr Sea" data-condition="Coastal route" data-window="Any coastal session" data-level="Lv 4" data-use="Coastal route filler" data-map="/map/" data-search="beltfish zephyr sea coastal ocean lv 4 common">
+                  <span class="fish-badge ocean">OCN</span><span><strong>Beltfish</strong><small>Zephyr Sea · Coastal route</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="atlantic-pygmy-octopus" data-type="ocean" data-rarity="uncommon" data-name="Atlantic Pygmy Octopus" data-spot="Zephyr Sea" data-condition="Coastal route" data-window="Any coastal session" data-level="Lv 4" data-use="Coastal route check" data-map="/map/" data-search="atlantic pygmy octopus zephyr sea coastal ocean lv 4 uncommon">
+                  <span class="fish-badge ocean">OCN</span><span><strong>Atlantic Pygmy Octopus</strong><small>Zephyr Sea · Coastal route</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="atlantic-salmon" data-type="ocean" data-rarity="uncommon" data-name="Atlantic Salmon" data-spot="Whale Sea" data-condition="Late ocean route" data-window="Late ocean session" data-level="Lv 7" data-use="Ocean value route" data-map="/map/" data-search="atlantic salmon whale sea late ocean lv 7 uncommon">
+                  <span class="fish-badge ocean">OCN</span><span><strong>Atlantic Salmon</strong><small>Whale Sea · Late ocean</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="swordfish" data-type="ocean" data-rarity="rare" data-name="Swordfish" data-spot="Whale Sea" data-condition="Level 10" data-window="Late ocean session" data-level="Lv 10" data-use="Late-game rare target" data-map="/map/" data-search="swordfish whale sea level 10 ocean rare">
+                  <span class="fish-badge rare">RAR</span><span><strong>Swordfish</strong><small>Whale Sea · Level 10</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="rainbow-fish" data-type="ocean" data-rarity="rare" data-name="Rainbow Fish" data-spot="Starlight Sea" data-condition="Rainbow weather" data-window="Rainbow weather" data-level="Lv 8" data-use="Rare weather priority" data-map="/map/" data-search="rainbow fish starlight sea rainbow weather ocean rare">
+                  <span class="fish-badge rare">RAR</span><span><strong>Rainbow Fish</strong><small>Starlight Sea · Rainbow weather</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="koi" data-type="hidden" data-rarity="rare" data-name="Koi" data-spot="Secret Pond" data-condition="Midnight route" data-window="Midnight" data-level="Lv 5" data-use="Hidden pond check" data-map="/map/" data-search="koi secret pond midnight hidden rare">
+                  <span class="fish-badge hidden">HID</span><span><strong>Koi</strong><small>Secret Pond · Midnight</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="golden-king-crab" data-type="event" data-rarity="rare" data-name="Golden King Crab" data-spot="Sea Fishing" data-condition="Event route" data-window="Event window" data-level="Event" data-use="Sea Fishing event target" data-map="/map/?marker=sea-fishing" data-search="golden king crab sea fishing event rare">
+                  <span class="fish-badge event">EVT</span><span><strong>Golden King Crab</strong><small>Sea Fishing · Event route</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="bluefin-tuna" data-type="ocean" data-rarity="rare" data-name="Bluefin Tuna" data-spot="Old Sea" data-condition="Level 10" data-window="Late ocean session" data-level="Lv 10" data-use="Late-game rare target" data-map="/map/" data-search="bluefin tuna old sea level 10 ocean rare">
+                  <span class="fish-badge rare">RAR</span><span><strong>Bluefin Tuna</strong><small>Old Sea · Level 10</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="smooth-hammerhead" data-type="ocean" data-rarity="rare" data-name="Smooth Hammerhead" data-spot="Deep Sea" data-condition="Level 10" data-window="Late ocean session" data-level="Lv 10" data-use="Late-game rare target" data-map="/map/" data-search="smooth hammerhead deep sea level 10 ocean rare">
+                  <span class="fish-badge rare">RAR</span><span><strong>Smooth Hammerhead</strong><small>Deep Sea · Level 10</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="european-eel" data-type="ocean" data-rarity="uncommon" data-name="European Eel" data-spot="Old Sea" data-condition="Evening route" data-window="Evening" data-level="Lv 7" data-use="Old Sea evening target" data-map="/map/" data-search="european eel old sea evening ocean uncommon">
+                  <span class="fish-badge ocean">OCN</span><span><strong>European Eel</strong><small>Old Sea · Evening</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="butterfly-koi" data-type="hidden" data-rarity="rare" data-name="Butterfly Koi" data-spot="Secret Pond" data-condition="Rare pond check" data-window="Rare pond window" data-level="Lv 6" data-use="Hidden pond rare check" data-map="/map/" data-search="butterfly koi secret pond hidden rare">
+                  <span class="fish-badge hidden">HID</span><span><strong>Butterfly Koi</strong><small>Secret Pond · Rare pond</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="large-pearl-mussel" data-type="lake" data-rarity="rare" data-name="Large Pearl Mussel" data-spot="Forest Lake" data-condition="Any time sample row" data-window="Any time" data-level="Lv 5" data-use="Forest Lake collection target" data-map="/map/?marker=forest-lake" data-search="large pearl mussel forest lake any time rare">
+                  <span class="fish-badge rare">RAR</span><span><strong>Large Pearl Mussel</strong><small>Forest Lake · Any time</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="rainbow-trout" data-type="river" data-rarity="rare" data-name="Rainbow Trout" data-spot="Giantwood River" data-condition="Rainbow route candidate" data-window="Rainbow weather" data-level="Lv 6" data-use="Rare river weather check" data-map="/map/?marker=giantwood-river" data-search="rainbow trout giantwood river rainbow weather rare">
+                  <span class="fish-badge rare">RAR</span><span><strong>Rainbow Trout</strong><small>Giantwood River · Rainbow route</small></span>
+                </button>
+                <button class="fish-card" type="button" data-fish-db-card data-fish-id="sea-bream" data-type="ocean" data-rarity="common" data-name="Sea Bream" data-spot="Fishing Village" data-condition="Starter coastal check" data-window="Any coastal session" data-level="Lv 1" data-use="Starter coastal route" data-map="/map/?marker=sea-otter-trough" data-search="sea bream fishing village starter coastal ocean common">
+                  <span class="fish-badge ocean">OCN</span><span><strong>Sea Bream</strong><small>Fishing Village · Starter coastal</small></span>
+                </button>
+              </div>
+
+              <aside class="fish-detail-panel" data-fish-db-detail>
+                <div class="npc-detail-head"><span class="fish-badge lake">LAK</span><div><h2>Wels Catfish</h2><p>Meadow Lake</p></div></div>
+                <span class="fish-route-chip">lake route</span>
+                <div class="map-meta">
+                  <span><strong>Condition:</strong> Starter route</span>
+                  <span><strong>Window:</strong> Any starter session</span>
+                  <span><strong>Level:</strong> Lv 1</span>
+                  <span><strong>Use:</strong> Fast early fishing route</span>
+                </div>
+                <label class="fish-catch-toggle"><input type="checkbox" data-fish-db-caught> Caught in my save</label>
+                <div class="entity-action-grid">
+                  <a class="pastel-button" href="/map/?marker=meadow-lake">Open Map Route</a>
+                  <a class="pastel-button alt" href="/tools/fish-tracker/">Open Tracker</a>
+                  <a class="pastel-button alt" href="/recipes/">Cooking Uses</a>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section tint-blue" id="fish-table">
+        <div class="wiki-shell">
+          <div class="center-head">
+            <h2>Fish Location Table</h2>
+            <p>Rows are a fan-maintained planning snapshot. Confirm in-game before spending limited bait.</p>
+          </div>
+          <div class="table-card">
+            <table class="dense-table">
+              <thead><tr><th>Fish</th><th>Spot</th><th>Type</th><th>Condition</th></tr></thead>
+              <tbody>
+                <tr><td>Wels Catfish</td><td>Meadow Lake</td><td>Lake</td><td>Starter route</td></tr>
+                <tr><td>Goldfish</td><td>Meadow Lake</td><td>Lake</td><td>Morning to evening</td></tr>
+                <tr><td>Arctic Char</td><td>Forest Lake</td><td>Lake</td><td>Cool weather priority</td></tr>
+                <tr><td>Giant Pearl Mussel</td><td>Forest Lake</td><td>Lake</td><td>Any time sample row</td></tr>
+                <tr><td>Largemouth Bass</td><td>Forest Lake</td><td>Lake</td><td>Lake route filler</td></tr>
+                <tr><td>Common Whitefish</td><td>Onsen Mountain Lake</td><td>Lake</td><td>Mountain lake route</td></tr>
+                <tr><td>Ruffe</td><td>Onsen Mountain Lake</td><td>Lake</td><td>Mountain lake route</td></tr>
+                <tr><td>Crucian Carp</td><td>Spring Lake</td><td>Lake</td><td>Rain boost route</td></tr>
+                <tr><td>Huchen</td><td>Giantwood River</td><td>River</td><td>Level 9; Rainbow weather</td></tr>
+                <tr><td>Burbot</td><td>Tranquil River</td><td>River</td><td>Noon to evening</td></tr>
+                <tr><td>Beltfish</td><td>Zephyr Sea</td><td>Ocean</td><td>Coastal route</td></tr>
+                <tr><td>Atlantic Pygmy Octopus</td><td>Zephyr Sea</td><td>Ocean</td><td>Coastal route</td></tr>
+                <tr><td>Atlantic Salmon</td><td>Whale Sea</td><td>Ocean</td><td>Late ocean route</td></tr>
+                <tr><td>Swordfish</td><td>Whale Sea</td><td>Ocean</td><td>Level 10</td></tr>
+                <tr><td>Rainbow Fish</td><td>Starlight Sea</td><td>Ocean</td><td>Rainbow weather</td></tr>
+                <tr><td>Koi</td><td>Secret Pond</td><td>Hidden</td><td>Midnight route</td></tr>
+                <tr><td>Golden King Crab</td><td>Sea Fishing</td><td>Event</td><td>Event route</td></tr>
+                <tr><td>Bluefin Tuna</td><td>Old Sea</td><td>Ocean</td><td>Level 10</td></tr>
+                <tr><td>Smooth Hammerhead</td><td>Deep Sea</td><td>Ocean</td><td>Level 10</td></tr>
+                <tr><td>European Eel</td><td>Old Sea</td><td>Ocean</td><td>Evening route</td></tr>
+                <tr><td>Butterfly Koi</td><td>Secret Pond</td><td>Hidden</td><td>Rare pond check</td></tr>
+                <tr><td>Large Pearl Mussel</td><td>Forest Lake</td><td>Lake</td><td>Any time sample row</td></tr>
+                <tr><td>Rainbow Trout</td><td>Giantwood River</td><td>River</td><td>Rainbow route candidate</td></tr>
+                <tr><td>Sea Bream</td><td>Fishing Village</td><td>Ocean</td><td>Starter coastal check</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="wiki-section">
+        <div class="wiki-shell route-lane-grid">
+          <div class="route-lane"><h3>Fast Session</h3><p>Run Meadow Lake or Forest Lake, then sell routine fish or convert extras through cooking.</p></div>
+          <div class="route-lane"><h3>Rare Weather</h3><p>When Rainbow weather appears, prioritize Giantwood River and Starlight Sea before routine farming.</p></div>
+          <div class="route-lane"><h3>Late Game</h3><p>Save attractors for Swordfish, Bluefin Tuna, Smooth Hammerhead, and other level-gated checks.</p></div>
+        </div>
+      </section>
     </main>
-    <footer class="site-footer"><div class="footer-grid"><div><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><p class="small">Independent fan guide. Last updated June 5, 2026.</p></div><div class="footer-links"><strong>Database</strong><a href="/fish/">Fish</a><a href="/recipes/">Recipes</a><a href="/crops/">Crops</a><a href="/animal-favorites/">Animal Favorites</a></div><div class="footer-links"><strong>Site</strong><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a></div></div></footer><script src="/assets/site.js" defer></script>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div><a class="brand" href="/"><img class="brand-logo" src="/assets/heartopia-hub-logo.svg" alt="" width="42" height="42"><span>Heartopia Hub</span></a><p class="small">Independent fan guide. Last updated June 6, 2026.</p></div>
+        <div class="footer-links"><strong>Database</strong><a href="/database/">Database Hub</a><a href="/fish/">Fish</a><a href="/recipes/">Recipes</a><a href="/crops/">Crops</a><a href="/animal-favorites/">Animal Favorites</a></div>
+        <div class="footer-links"><strong>Route Tools</strong><a href="/tools/fish-tracker/">Fish Tracker</a><a href="/map/">Map</a><a href="/recipes/">Cooking Routes</a><a href="/tools/checklist/">Checklist</a></div>
+      </div>
+    </footer>
+    <script src="/assets/site.js" defer></script>
   </body>
 </html>

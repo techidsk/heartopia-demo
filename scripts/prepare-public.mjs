@@ -5,12 +5,9 @@ import { fileURLToPath } from "node:url";
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const legacyDir = path.join(rootDir, "site");
 const publicDir = path.join(rootDir, ".astro-public");
+const migratedRoutesPath = path.join(rootDir, "src", "data", "migratedRoutes.json");
 
-const generatedRouteFiles = new Set([
-  "fish/index.html",
-  "shops/index.html",
-  "tools/profit-calculator/index.html"
-]);
+const generatedRouteFiles = new Set(JSON.parse(await fs.readFile(migratedRoutesPath, "utf8")));
 
 const toPosix = (value) => value.split(path.sep).join("/");
 

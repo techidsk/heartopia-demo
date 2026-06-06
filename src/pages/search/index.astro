@@ -1,0 +1,68 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { routeEntries } from "@data/routes";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const sections = [...new Set(routeEntries.map((entry) => entry.section))];
+const searchPayload = routeEntries.map(({ path, title, description, section, keywords }) => ({
+  path,
+  title,
+  description,
+  section,
+  keywords
+}));
+---
+
+<BaseLayout
+  title="Heartopia Search - Pages, Databases, Tools & Routes"
+  description="Search Heartopia Hub static pages, generated database entries, crop and recipe details, fish locations, shop routes, tools, guides, events, and hobby pages."
+  canonicalPath="/search/"
+  currentPath="/search/"
+  ogImage="/assets/heartopia-guide-hero.png"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Search" }]} />
+      <h1>Heartopia Search</h1>
+      <p>Search generated database entries, tools, guides, routes, and legacy pages from a build-time index.</p>
+      <MetricCards
+        metrics={[
+          { value: routeEntries.length, label: "indexed routes" },
+          { value: sections.length, label: "sections" },
+          { value: "Static", label: "search index" },
+          { value: "JSON", label: "handoff" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section" data-site-search>
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Find A Route</h2>
+        <p>Start with a crop, fish, recipe, NPC, shop, tool, code, or route keyword.</p>
+      </div>
+      <label class="search-field">
+        <span>Search Heartopia Hub</span>
+        <input type="search" placeholder="Try potato, rainbow, recipe, Doris, profit..." data-site-search-input />
+      </label>
+      <p class="tool-count" data-site-search-count>{routeEntries.length} results</p>
+      <div class="route-grid" data-site-search-results>
+        {routeEntries.slice(0, 12).map((entry) => (
+          <a class="route-card" href={entry.path}>
+            <span class="status-chip">{entry.section}</span>
+            <h3>{entry.title}</h3>
+            <p>{entry.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+    <script type="application/json" id="site-search-data" set:html={JSON.stringify(searchPayload)}></script>
+  </section>
+
+  <script>
+    import { initSiteSearch } from "@tools/siteSearch";
+    initSiteSearch();
+  </script>
+</BaseLayout>

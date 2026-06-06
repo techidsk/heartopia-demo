@@ -1,0 +1,74 @@
+[
+  {
+    "id": "blanc",
+    "name": "Blanc",
+    "group": "mentor",
+    "role": "Gardening mentor",
+    "location": "Garden Shop / Central Town",
+    "schedule": "Check the garden shop route before buying seeds.",
+    "gifts": ["Fresh crop", "Simple cooked dish", "Gardening material"],
+    "shop": "/shops/?q=seed",
+    "map": "/map/?marker=gardening-store",
+    "tool": "/tools/friendship-tracker/"
+  },
+  {
+    "id": "bob",
+    "name": "Bob",
+    "group": "shopkeeper",
+    "role": "Furniture workshop owner",
+    "location": "Central Town",
+    "schedule": "Use the furniture stop while planning house layouts.",
+    "gifts": ["Wood decor", "House material", "Simple dish"],
+    "shop": "/shops/?q=furniture",
+    "map": "/map/?marker=furniture-workshop",
+    "tool": "/tools/friendship-tracker/"
+  },
+  {
+    "id": "dorothy",
+    "name": "Dorothy",
+    "group": "shopkeeper",
+    "role": "Clothing store owner",
+    "location": "Central Town",
+    "schedule": "Pair clothing errands with Central Town NPC talk loops.",
+    "gifts": ["Fashion item", "Flower", "Dessert"],
+    "shop": "/shops/?q=clothing",
+    "map": "/map/?marker=clothing-store",
+    "tool": "/tools/friendship-tracker/"
+  },
+  {
+    "id": "mrs-joan",
+    "name": "Mrs. Joan",
+    "group": "mentor",
+    "role": "Pet care mentor",
+    "location": "Pet Shop",
+    "schedule": "Use the pet shop route when testing Dog Food and adoption flows.",
+    "gifts": ["Dog Food", "Pet-care item", "Cooked dish"],
+    "shop": "/shops/?q=pet",
+    "map": "/map/?marker=pet-shop",
+    "tool": "/tools/checklist/"
+  },
+  {
+    "id": "doris",
+    "name": "Doris",
+    "group": "dynamic",
+    "role": "Weather merchant",
+    "location": "Dynamic weather route",
+    "schedule": "Confirm the in-game weather route before planning rare purchases.",
+    "gifts": ["Weather item", "Colorful flower", "Rare dish"],
+    "shop": "/shops/?q=doris",
+    "map": "/map/?marker=doris-weather-cart",
+    "tool": "/tools/friendship-tracker/"
+  },
+  {
+    "id": "bill",
+    "name": "Bill",
+    "group": "event",
+    "role": "Sea Fishing event mentor",
+    "location": "Fishing Village",
+    "schedule": "Use Bill when sea fishing or event tasks point to coastal routes.",
+    "gifts": ["Fish", "Repair Kit", "Seafood dish"],
+    "shop": "/shops/?q=sea fishing",
+    "map": "/map/?marker=sea-fishing-booth",
+    "tool": "/tools/fish-tracker/"
+  }
+]
