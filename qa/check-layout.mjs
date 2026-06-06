@@ -52,8 +52,11 @@ const paths = [
   "/zh-hans/animal-favorites/",
   "/zh-hans/events/",
   "/zh-hans/hobbies/",
+  "/zh-hans/hobbies/birdwatching/",
   "/zh-hans/hobbies/fishing/",
-  "/zh-hans/hobbies/cooking/"
+  "/zh-hans/hobbies/cooking/",
+  "/zh-hans/hobbies/gardening/",
+  "/zh-hans/hobbies/insects/"
 ];
 const viewports = [
   { width: 375, height: 812 },
