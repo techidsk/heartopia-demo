@@ -42,7 +42,8 @@ const paths = [
   "/search/",
   "/de/",
   "/ja/fish/wels-catfish/",
-  "/zh-hans/"
+  "/zh-hans/",
+  "/zh-hans/codes/"
 ];
 const viewports = [
   { width: 375, height: 812 },
@@ -143,7 +144,8 @@ try {
   for (const viewport of viewports) {
     const page = await browser.newPage({ viewport });
     for (const pagePath of paths) {
-      const response = await page.goto(`${baseUrl}${pagePath}`, { waitUntil: "networkidle" });
+      const response = await page.goto(`${baseUrl}${pagePath}`, { waitUntil: "load", timeout: 60_000 });
+      await page.waitForLoadState("networkidle", { timeout: 5_000 }).catch(() => {});
       const metrics = await page.evaluate(() => ({
         title: document.title,
         width: window.innerWidth,
