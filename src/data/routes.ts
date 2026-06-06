@@ -1,4 +1,5 @@
 import { crops, fish, gardening, hobbies, insects, npcs, recipes, shops, tools } from "./heartopia";
+import { siteConfig } from "./site";
 import { staticPages } from "./staticPages";
 
 export type RouteEntry = {
@@ -8,29 +9,32 @@ export type RouteEntry = {
   section: string;
   keywords: string[];
   updated: string;
+  image?: string;
 };
 
-const updated = "2026-06-06";
+const updated = siteConfig.updatedDate;
 
 const route = (
   path: string,
   title: string,
   description: string,
   section: string,
-  keywords: string[] = []
+  keywords: string[] = [],
+  image?: string
 ): RouteEntry => ({
   path,
   title,
   description,
   section,
   keywords,
-  updated
+  updated,
+  image
 });
 
 const staticRoutes: RouteEntry[] = [
   ...staticPages
     .filter((page) => page.path !== "/404.html")
-    .map((page) => route(page.path, page.title, page.description, page.section, page.keywords)),
+    .map((page) => route(page.path, page.title, page.description, page.section, page.keywords, page.ogImage)),
   route("/search/", "Heartopia Search", "Search Heartopia Hub pages, databases, tools, and route notes.", "Site", [
     "search",
     "database",
@@ -80,7 +84,8 @@ const generatedRoutes: RouteEntry[] = [
       `${npc.name} - Heartopia Character`,
       `${npc.name} character detail with ${npc.role}, ${npc.location}, gift route notes, map handoff, and ${npc.nameZh || "structured"} source name.`,
       "Characters",
-      [npc.name, npc.nameZh || "", npc.group, npc.role, npc.location, ...npc.gifts]
+      [npc.name, npc.nameZh || "", npc.group, npc.role, npc.location, ...npc.gifts],
+      npc.image
     )
   ),
   route("/crops/", "Heartopia Crop Database", "Crop database with growth times, seed costs, sell values, unlocks, route groups, and recipe handoffs.", "Database", [
@@ -94,7 +99,8 @@ const generatedRoutes: RouteEntry[] = [
       `${crop.name} - Heartopia Crop`,
       `${crop.name} crop detail with ${crop.growth} growth, ${crop.unlock} unlock, seed cost, sell value, and route links.`,
       "Crops",
-      [crop.name, crop.group, crop.growth, crop.unlock, crop.route, crop.use]
+      [crop.name, crop.group, crop.growth, crop.unlock, crop.route, crop.use],
+      crop.image
     )
   ),
   route(
@@ -110,7 +116,8 @@ const generatedRoutes: RouteEntry[] = [
       `${item.name} - Heartopia Gardening Handbook`,
       `${item.name} gardening entry with ${item.nameZh} source name, ${item.season} season, hobby level ${item.hobbyLevel}, route notes, icon, and wiki source.`,
       "Gardening",
-      [item.name, item.nameZh, item.category, item.season, item.route, item.hobbyLevel]
+      [item.name, item.nameZh, item.category, item.season, item.route, item.hobbyLevel],
+      item.image
     )
   ),
   route(
@@ -126,7 +133,8 @@ const generatedRoutes: RouteEntry[] = [
       `${item.name} - Heartopia Insect`,
       `${item.name} insect detail with ${item.time} time window, ${item.weather} weather, ${item.route} route, rarity ${item.rarity}, and wiki source.`,
       "Insects",
-      [item.name, item.nameZh, item.season, item.time, item.weather, item.route, item.rarity, item.hobbyLevel]
+      [item.name, item.nameZh, item.season, item.time, item.weather, item.route, item.rarity, item.hobbyLevel],
+      item.image
     )
   ),
   route("/recipes/", "Heartopia Recipes Database", "Recipe database with ingredients, source lanes, route groups, risk notes, and cooking tool handoffs.", "Database", [
@@ -148,9 +156,12 @@ const generatedRoutes: RouteEntry[] = [
     "Heartopia Crop Profit Calculator",
     "Crop profit calculator for plots, session length, seed cost, sell value, and star bonus planning.",
     "Tools",
-    ["profit calculator", "crops", "gold"]
+    ["profit calculator", "crops", "gold"],
+    "/assets/asset-gardening.jpg"
   ),
-  ...tools.map((tool) => route(tool.href, tool.title, tool.description, "Tools", [tool.category, tool.useCase, ...tool.linkedData])),
+  ...tools.map((tool) =>
+    route(tool.href, tool.title, tool.description, "Tools", [tool.category, tool.useCase, ...tool.linkedData], tool.image)
+  ),
   ...hobbies.map((hobby) =>
     route(hobby.primary.includes("?") ? "/pets/" : hobby.primary, `Heartopia ${hobby.name}`, hobby.summary, "Hobbies", [
       hobby.name,
