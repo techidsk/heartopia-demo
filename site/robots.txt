@@ -10,4 +10,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://heartopia-demo.pages.dev/sitemap.xml
+Sitemap: https://heartopia.blog/sitemap.xml

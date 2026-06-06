@@ -5,6 +5,7 @@
   "recipes/index.html",
   "crops/index.html",
   "search/index.html",
+  "robots.txt",
   "sitemap.xml",
   "feed.xml",
   "search-index.json"

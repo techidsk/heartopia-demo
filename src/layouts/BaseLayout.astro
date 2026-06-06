@@ -14,6 +14,9 @@ interface Props {
   canonicalPath?: string;
   currentPath?: string;
   ogImage?: string;
+  ogImageAlt?: string;
+  robots?: string;
+  schema?: Record<string, unknown> | Array<Record<string, unknown>>;
   bodyClass?: string;
   footerGroups?: FooterGroup[];
 }
@@ -23,12 +26,81 @@ const {
   description,
   canonicalPath = Astro.url.pathname,
   currentPath = Astro.url.pathname,
-  ogImage = "/assets/heartopia-guide-hero.png",
+  ogImage = siteConfig.defaultImage,
+  ogImageAlt = siteConfig.defaultImageAlt,
+  robots = "index,follow,max-image-preview:large",
+  schema,
   bodyClass = "wiki-body",
   footerGroups
 } = Astro.props;
 const canonical = new URL(canonicalPath, siteConfig.origin).toString();
 const absoluteOgImage = new URL(ogImage, siteConfig.origin).toString();
+const siteLogo = new URL(siteConfig.logo, siteConfig.origin).toString();
+const siteRoot = new URL("/", siteConfig.origin).toString();
+const organizationId = `${siteConfig.origin}/#organization`;
+const websiteId = `${siteConfig.origin}/#website`;
+const pageId = `${canonical}#webpage`;
+const searchTarget = `${siteConfig.origin}/search/?q={search_term_string}`;
+const adsenseSrc = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${siteConfig.adsenseClient}`;
+const defaultSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": organizationId,
+      name: siteConfig.name,
+      url: siteRoot,
+      logo: {
+        "@type": "ImageObject",
+        url: siteLogo
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": websiteId,
+      name: siteConfig.name,
+      url: siteRoot,
+      description: siteConfig.description,
+      inLanguage: siteConfig.language,
+      publisher: {
+        "@id": organizationId
+      },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: searchTarget,
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": canonicalPath === "/" ? "CollectionPage" : "WebPage",
+      "@id": pageId,
+      name: title,
+      headline: title,
+      description,
+      url: canonical,
+      inLanguage: siteConfig.language,
+      datePublished: siteConfig.publishedDate,
+      dateModified: siteConfig.updatedDate,
+      isPartOf: {
+        "@id": websiteId
+      },
+      publisher: {
+        "@id": organizationId
+      },
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: absoluteOgImage,
+        caption: ogImageAlt
+      },
+      image: {
+        "@type": "ImageObject",
+        url: absoluteOgImage,
+        caption: ogImageAlt
+      }
+    }
+  ]
+};
+const structuredData = schema || defaultSchema;
 ---
 
 <!doctype html>
@@ -38,15 +110,34 @@ const absoluteOgImage = new URL(ogImage, siteConfig.origin).toString();
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="author" content={siteConfig.author} />
+    <meta name="application-name" content={siteConfig.name} />
+    <meta name="color-scheme" content="light" />
+    <meta name="robots" content={robots} />
+    <meta name="theme-color" content={siteConfig.themeColor} />
     <link rel="canonical" href={canonical} />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="search" type="application/opensearchdescription+xml" title={`${siteConfig.name} Search`} href="/opensearch.xml" />
+    <link rel="alternate" href="/feed.xml" type="application/rss+xml" title={`${siteConfig.name} RSS`} />
+    <link rel="alternate" href="/llms.txt" type="text/plain" title={`${siteConfig.name} LLM guide`} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={absoluteOgImage} />
+    <meta property="og:image:alt" content={ogImageAlt} />
+    <meta property="og:site_name" content={siteConfig.name} />
+    <meta property="og:locale" content={siteConfig.locale} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={absoluteOgImage} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="/assets/styles.css" />
+    <script async src={adsenseSrc} crossorigin="anonymous"></script>
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
     <slot name="head" />
   </head>
   <body class={bodyClass}>

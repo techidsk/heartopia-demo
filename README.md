@@ -46,6 +46,6 @@ See `DOC/astro-page-factory.md` for the scaffold architecture and page migration
 ## AdSense Before Submission
 
 - Replace the contact placeholder at `/contact/` with a monitored owner email.
-- Replace the commented `ads.txt` placeholder with the real AdSense publisher line.
-- Add the AdSense verification snippet to the `<head>` after Google issues the publisher ID.
-- Submit `https://heartopia-demo.pages.dev/sitemap.xml` in Google Search Console.
+- `ads.txt` is configured for `pub-1476592629109289`.
+- The AdSense verification script is injected into indexable page `<head>` output.
+- Submit `https://heartopia.blog/sitemap.xml` in Google Search Console.

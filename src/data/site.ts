@@ -1,9 +1,19 @@
 export const siteConfig = {
   name: "Heartopia Hub",
-  origin: "https://heartopia-demo.pages.dev",
+  origin: "https://heartopia.blog",
   description:
     "Independent Heartopia fan wiki hub with codes, maps, database notes, tools, and guides.",
+  author: "Heartopia Hub editorial team",
+  adsenseClient: "ca-pub-1476592629109289",
+  adsTxtLine: "google.com, pub-1476592629109289, DIRECT, f08c47fec0942fa0",
   logo: "/assets/heartopia-hub-logo.svg",
+  defaultImage: "/assets/heartopia-guide-hero.png",
+  defaultImageAlt: "Heartopia Hub guide preview for Heartopia maps, codes, tools, and database routes.",
+  themeColor: "#2aa89e",
+  locale: "en_US",
+  language: "en",
+  publishedDate: "2026-06-06",
+  updatedDate: "2026-06-06",
   updatedLabel: "June 6, 2026"
 };
 

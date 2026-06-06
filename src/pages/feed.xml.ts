@@ -6,14 +6,22 @@ const escapeXml = (value: string) =>
 
 export function GET() {
   const channelUrl = new URL("/feed.xml", siteConfig.origin).toString();
+  const siteImage = new URL(siteConfig.logo, siteConfig.origin).toString();
   const body = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>${escapeXml(siteConfig.name)}</title>
     <link>${escapeXml(siteConfig.origin)}</link>
     <description>${escapeXml(siteConfig.description)}</description>
-    <lastBuildDate>${new Date("2026-06-06T00:00:00+08:00").toUTCString()}</lastBuildDate>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="${escapeXml(channelUrl)}" rel="self" type="application/rss+xml" />
+    <language>${siteConfig.language}</language>
+    <lastBuildDate>${new Date(`${siteConfig.updatedDate}T00:00:00+08:00`).toUTCString()}</lastBuildDate>
+    <ttl>1440</ttl>
+    <image>
+      <url>${escapeXml(siteImage)}</url>
+      <title>${escapeXml(siteConfig.name)}</title>
+      <link>${escapeXml(siteConfig.origin)}</link>
+    </image>
+    <atom:link href="${escapeXml(channelUrl)}" rel="self" type="application/rss+xml" />
 ${feedEntries
   .map((entry) => {
     const link = new URL(entry.path, siteConfig.origin).toString();

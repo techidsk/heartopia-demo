@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://heartopia-demo.pages.dev",
+  site: "https://heartopia.blog",
   output: "static",
   outDir: "./dist",
   publicDir: "./.astro-public"
