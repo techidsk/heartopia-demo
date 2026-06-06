@@ -1,0 +1,137 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { crops, fish, gardening, insects, npcs, recipes, shops } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const portraitCount = npcs.filter((npc) => npc.image).length;
+const cropIconCount = crops.filter((crop) => crop.image).length;
+const totalWikiAssets = gardening.length + insects.length + portraitCount;
+
+const databaseCards = [
+  {
+    href: "/characters/",
+    image: "/assets/wiki/characters/blanc.png",
+    alt: "Blanc character portrait from the TW wiki",
+    eyebrow: `${portraitCount} portraits`,
+    title: "Characters & NPCs",
+    text: "Portrait-backed NPC records with source names, shop handoffs, roles, and detail pages."
+  },
+  {
+    href: "/gardening/",
+    image: "/assets/wiki/gardening/tomato.png",
+    alt: "Tomato gardening icon from the TW wiki",
+    eyebrow: `${gardening.length} wiki rows`,
+    title: "Gardening Handbook",
+    text: "Crops, flowers, trees, Chinese source labels, hobby levels, lore, and Wiki source links."
+  },
+  {
+    href: "/insects/",
+    image: "/assets/wiki/insects/insect-001.png",
+    alt: "Insect icon from the TW wiki",
+    eyebrow: `${insects.length} bug icons`,
+    title: "Insect Database",
+    text: "Bug icons, time windows, weather, route labels, rarity, and source-backed detail pages."
+  },
+  {
+    href: "/crops/",
+    image: "/assets/wiki/gardening/potato.png",
+    alt: "Potato gardening icon from the TW wiki",
+    eyebrow: `${cropIconCount} crop icons`,
+    title: "Crop Planner Data",
+    text: "Growth, seed price, sell value, profit notes, and imported Wiki identity fields."
+  },
+  {
+    href: "/fish/",
+    image: "/assets/asset-fishing.jpg",
+    alt: "Heartopia fishing database visual",
+    eyebrow: `${fish.length} fish rows`,
+    title: "Fish Database",
+    text: "Locations, water routes, weather, time windows, level gates, and tracker handoffs."
+  },
+  {
+    href: "/recipes/",
+    image: "/assets/asset-events.jpg",
+    alt: "Heartopia recipe database visual",
+    eyebrow: `${recipes.length} recipes`,
+    title: "Recipes",
+    text: "Ingredients, cooking route notes, recipe finder handoffs, and crop/fish dependencies."
+  },
+  {
+    href: "/shops/",
+    image: "/assets/asset-map.jpg",
+    alt: "Heartopia shop route visual",
+    eyebrow: `${shops.length} shops`,
+    title: "Shops",
+    text: "Shop owners, inventory hints, unlock notes, map markers, and NPC links."
+  }
+];
+---
+
+<BaseLayout
+  title="Heartopia Database - Wiki Images, Characters, Gardening, Insects, Crops & Routes"
+  description="Heartopia database hub with imported TW Wiki character portraits, gardening icons, insect icons, crop data, fish, recipes, shops, and source-backed detail pages."
+  canonicalPath="/database/"
+  currentPath="/database/"
+  ogImage="/assets/wiki/characters/blanc.png"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { label: "Database" }]} />
+      <h1>Heartopia Database</h1>
+      <p>Browse the visible Wiki-backed data imports first: character portraits, gardening icons, insect icons, crop records, and the older route databases.</p>
+      <MetricCards
+        metrics={[
+          { value: totalWikiAssets, label: "wiki image rows" },
+          { value: gardening.length, label: "gardening entries" },
+          { value: insects.length, label: "insect entries" },
+          { value: portraitCount, label: "character portraits" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section media-section">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Wiki Asset Entry Points</h2>
+        <p>These cards use the same local `/assets/wiki/...` files served by the preview build, so broken images here would catch missing static assets immediately.</p>
+      </div>
+      <div class="asset-grid">
+        {databaseCards.map((card) => (
+          <a class="asset-card wiki-asset-card" href={card.href}>
+            <img src={card.image} alt={card.alt} loading="eager" />
+            <span class="asset-card-body">
+              <small>{card.eyebrow}</small>
+              <strong>{card.title}</strong>
+              <span>{card.text}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section tint-mint">
+    <div class="wiki-shell database-grid">
+      <div class="table-card">
+        <table class="dense-table">
+          <thead><tr><th>Imported Area</th><th>Rows</th><th>Image Example</th><th>Open</th></tr></thead>
+          <tbody>
+            <tr><td>Characters</td><td>{portraitCount} portraits</td><td><img class="table-icon" src="/assets/wiki/characters/blanc.png" alt="Blanc portrait" loading="lazy" /></td><td><a href="/characters/">Open</a></td></tr>
+            <tr><td>Gardening</td><td>{gardening.length} entries</td><td><img class="table-icon" src="/assets/wiki/gardening/tomato.png" alt="Tomato icon" loading="lazy" /></td><td><a href="/gardening/">Open</a></td></tr>
+            <tr><td>Insects</td><td>{insects.length} entries</td><td><img class="table-icon" src="/assets/wiki/insects/insect-001.png" alt="Insect icon" loading="lazy" /></td><td><a href="/insects/">Open</a></td></tr>
+            <tr><td>Crops</td><td>{crops.length} entries</td><td><img class="table-icon" src="/assets/wiki/gardening/potato.png" alt="Potato icon" loading="lazy" /></td><td><a href="/crops/">Open</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <aside class="wiki-card">
+        <h2>Preview Check</h2>
+        <p>The direct static path should work in local preview:</p>
+        <p><a href="/assets/wiki/characters/blanc.png">/assets/wiki/characters/blanc.png</a></p>
+        <p><a href="/assets/wiki/gardening/tomato.png">/assets/wiki/gardening/tomato.png</a></p>
+        <p><a href="/assets/wiki/insects/insect-001.png">/assets/wiki/insects/insect-001.png</a></p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

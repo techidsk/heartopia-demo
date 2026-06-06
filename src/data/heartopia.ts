@@ -2,6 +2,8 @@ import { z } from "zod";
 import fishRaw from "./content/fish.json";
 import shopsRaw from "./content/shops.json";
 import cropsRaw from "./content/crops.json";
+import gardeningRaw from "./content/gardening.json";
+import insectsRaw from "./content/insects.json";
 import recipesRaw from "./content/recipes.json";
 import codesRaw from "./content/codes.json";
 import eventsRaw from "./content/events.json";
@@ -57,7 +59,57 @@ export const cropSchema = z.object({
   use: z.string().min(1),
   shop: pathSchema,
   tool: pathSchema,
-  related: pathSchema
+  related: pathSchema,
+  nameZh: z.string().min(1).optional(),
+  image: pathSchema.optional(),
+  wikiUrl: z.string().url().optional(),
+  season: z.string().min(1).optional(),
+  hobbyLevel: z.string().min(1).optional(),
+  lore: z.string().min(1).optional(),
+  source: z.string().min(1).optional()
+});
+
+export const gardeningSchema = z.object({
+  id: z.string().min(1),
+  sourceId: z.string(),
+  name: z.string().min(1),
+  nameZh: z.string().min(1),
+  number: z.string().min(1),
+  category: z.string().min(1),
+  season: z.string().min(1),
+  time: z.string().min(1),
+  weather: z.string().min(1),
+  route: z.string().min(1),
+  lore: z.string().min(1),
+  hobbyLevel: z.string().min(1),
+  iconFile: z.string().min(1),
+  wikiUrl: z.string().url(),
+  source: z.string().min(1),
+  image: pathSchema,
+  sourceImageUrl: z.string().url(),
+  imageWidth: z.number().positive(),
+  imageHeight: z.number().positive()
+});
+
+export const insectSchema = z.object({
+  id: z.string().min(1),
+  name: z.string().min(1),
+  nameZh: z.string().min(1),
+  number: z.string().min(1),
+  season: z.string().min(1),
+  time: z.string().min(1),
+  weather: z.string().min(1),
+  route: z.string().min(1),
+  lore: z.string().min(1),
+  rarity: z.string().min(1),
+  hobbyLevel: z.string().min(1),
+  iconFile: z.string().min(1),
+  wikiUrl: z.string().url(),
+  source: z.string().min(1),
+  image: pathSchema,
+  sourceImageUrl: z.string().url(),
+  imageWidth: z.number().positive(),
+  imageHeight: z.number().positive()
 });
 
 export const recipeSchema = z.object({
@@ -121,7 +173,16 @@ export const npcSchema = z.object({
   gifts: z.array(z.string().min(1)),
   shop: pathSchema,
   map: pathSchema,
-  tool: pathSchema
+  tool: pathSchema,
+  nameZh: z.string().min(1).optional(),
+  imageFile: z.string().min(1).optional(),
+  image: pathSchema.optional(),
+  sourceImageUrl: z.string().url().optional(),
+  imageWidth: z.number().positive().optional(),
+  imageHeight: z.number().positive().optional(),
+  profile: z.string().min(1).optional(),
+  wikiUrl: z.string().url().optional(),
+  source: z.string().min(1).optional()
 });
 
 export const petSchema = z.object({
@@ -162,6 +223,8 @@ export const toolSchema = z.object({
 export const fish = z.array(fishSchema).parse(fishRaw);
 export const shops = z.array(shopSchema).parse(shopsRaw);
 export const crops = z.array(cropSchema).parse(cropsRaw);
+export const gardening = z.array(gardeningSchema).parse(gardeningRaw);
+export const insects = z.array(insectSchema).parse(insectsRaw);
 export const recipes = z.array(recipeSchema).parse(recipesRaw);
 export const codes = codesSchema.parse(codesRaw);
 export const events = z.array(eventSchema).parse(eventsRaw);
@@ -173,6 +236,8 @@ export const tools = z.array(toolSchema).parse(toolsRaw);
 export type Fish = z.infer<typeof fishSchema>;
 export type Shop = z.infer<typeof shopSchema>;
 export type Crop = z.infer<typeof cropSchema>;
+export type Gardening = z.infer<typeof gardeningSchema>;
+export type Insect = z.infer<typeof insectSchema>;
 export type Recipe = z.infer<typeof recipeSchema>;
 export type Codes = z.infer<typeof codesSchema>;
 export type Event = z.infer<typeof eventSchema>;

@@ -5,6 +5,7 @@
   "description": "Independent Heartopia fan guide website prepared for Cloudflare Pages and AdSense readiness.",
   "scripts": {
     "dev": "astro dev",
+    "import:wiki": "node scripts/import-biligame-wiki.mjs",
     "build": "astro build",
     "preview": "npx serve dist",
     "validate:data": "node scripts/validate-data.mjs",

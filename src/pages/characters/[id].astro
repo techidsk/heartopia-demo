@@ -1,0 +1,73 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { npcs, type Npc } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+  return npcs.map((npc) => ({ params: { id: npc.id }, props: { npc } }));
+}
+
+interface Props {
+  npc: Npc;
+}
+
+const { npc } = Astro.props;
+---
+
+<BaseLayout
+  title={`${npc.name} - Heartopia Character, Role & Route Notes`}
+  description={`${npc.name} Heartopia character detail with role ${npc.role}, location ${npc.location}, gift route notes, map handoff, and ${npc.nameZh ? "TW Wiki portrait source" : "structured NPC route data"}.`}
+  canonicalPath={`/characters/${npc.id}/`}
+  currentPath="/characters/"
+  ogImage={npc.image || "/assets/asset-map.jpg"}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/characters/", label: "Characters" }, { label: npc.name }]} />
+      <h1>{npc.name}</h1>
+      <p>{npc.profile || `${npc.role} route note for ${npc.location}.`}</p>
+      <MetricCards
+        metrics={[
+          { value: npc.group, label: "group" },
+          { value: npc.role, label: "role" },
+          { value: npc.nameZh || "Pending", label: "source name" },
+          { value: npc.image ? "Wiki" : "Route", label: "image source" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <div class="collection-detail-head">
+          {npc.image ? (
+            <img src={npc.image} alt={`${npc.name} portrait`} loading="eager" />
+          ) : (
+            <span class="npc-badge">{npc.name.slice(0, 2).toUpperCase()}</span>
+          )}
+          <div>
+            <h2 class="wiki-title">{npc.name}</h2>
+            <p>{npc.nameZh ? `${npc.nameZh} · ` : ""}{npc.source || "Structured route data"}</p>
+          </div>
+        </div>
+        <div class="map-meta">
+          <span><strong>Location:</strong> {npc.location}</span>
+          <span><strong>Schedule:</strong> {npc.schedule}</span>
+          <span><strong>Gift route:</strong> {npc.gifts.join(", ")}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={npc.map}>Open Map Route</a>
+          <a class="pastel-button alt" href={npc.shop}>Shop Handoff</a>
+          <a class="pastel-button alt" href={npc.tool}>Friendship Tool</a>
+          {npc.wikiUrl && <a class="pastel-button alt" href={npc.wikiUrl} rel="nofollow noopener" target="_blank">Open Wiki Source</a>}
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">Source Note</h2>
+        <p>Portrait-backed characters are imported from the TW Wiki homepage image list. Route notes remain fan-maintained until more detail pages are verified.</p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,5 +1,5 @@
 ---
-import { navItems, siteConfig } from "@data/site";
+import { navGroups, siteConfig } from "@data/site";
 
 interface Props {
   currentPath?: string;
@@ -11,6 +11,7 @@ const isCurrent = (href: string) => {
   if (href === "/") return normalizedCurrent === "/";
   return normalizedCurrent.startsWith(href);
 };
+const isGroupCurrent = (links: Array<{ href: string }>) => links.some((link) => isCurrent(link.href));
 ---
 
 <header class="site-header">
@@ -20,11 +21,28 @@ const isCurrent = (href: string) => {
       <span>{siteConfig.name}</span>
     </a>
     <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" data-menu-button>
-      Menu
+      <span class="menu-button-icon" aria-hidden="true"></span>
+      <span data-menu-button-label>Menu</span>
     </button>
     <div class="nav-links" id="primary-links" data-nav-links>
-      {navItems.map((item) => (
-        <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a>
+      {navGroups.map((group, index) => (
+        <div class:list={["nav-group", { "is-active": isGroupCurrent(group.links) }]} data-nav-group>
+          <button
+            class="nav-group-trigger"
+            type="button"
+            aria-expanded="false"
+            aria-controls={`nav-panel-${index}`}
+            data-nav-trigger
+          >
+            <span>{group.label}</span>
+            <span class="nav-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="nav-dropdown" id={`nav-panel-${index}`} data-nav-dropdown>
+            {group.links.map((item) => (
+              <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a>
+            ))}
+          </div>
+        </div>
       ))}
     </div>
   </nav>

@@ -4,7 +4,7 @@ import { staticPages, type StaticPage } from "@data/staticPages";
 
 export function getStaticPaths() {
   return staticPages
-    .filter((page) => !["/", "/404.html"].includes(page.path))
+    .filter((page) => !["/", "/404.html", "/database/"].includes(page.path))
     .map((page) => ({
       params: { slug: page.path.replace(/^\/|\/$/g, "") },
       props: { page }

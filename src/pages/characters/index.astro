@@ -1,0 +1,83 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { npcs } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const imageCount = npcs.filter((npc) => npc.image).length;
+const groups = [...new Set(npcs.map((npc) => npc.group))];
+---
+
+<BaseLayout
+  title="Heartopia Characters - NPC Portraits, Roles & Wiki Sources"
+  description="Heartopia character hub with NPC portraits imported from the TW wiki homepage, roles, shops, map handoffs, gift planning notes, and source links."
+  canonicalPath="/characters/"
+  currentPath="/characters/"
+  ogImage="/assets/wiki/characters/blanc.png"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/database/", label: "Database" }, { label: "Characters" }]} />
+      <h1>Heartopia Characters</h1>
+      <p>Character and NPC records with imported TW Wiki portraits, English route names, Chinese source names, role notes, and friendship handoffs.</p>
+      <MetricCards
+        metrics={[
+          { value: npcs.length, label: "character rows" },
+          { value: imageCount, label: "wiki portraits" },
+          { value: groups.length, label: "role groups" },
+          { value: "Local", label: "image assets" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Character Portrait Grid</h2>
+        <p>Rows with TW Wiki homepage portraits show source names and direct source links. Route-only NPCs stay listed for planning continuity.</p>
+      </div>
+      <div class="entity-grid collection-card-grid">
+        {npcs.map((npc) => (
+          <a class="entity-card collection-card" href={`/characters/${npc.id}/`}>
+            {npc.image ? (
+              <img class="collection-thumb" src={npc.image} alt={`${npc.name} portrait`} loading="lazy" />
+            ) : (
+              <span class="npc-badge">{npc.name.slice(0, 2).toUpperCase()}</span>
+            )}
+            <span class="entity-type">{npc.group}</span>
+            <strong>{npc.name}</strong>
+            <small>{npc.nameZh ? `${npc.nameZh} | ` : ""}{npc.role}</small>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section tint-peach">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Character Route Table</h2>
+        <p>Use the table for quick shop, map, and friendship handoffs.</p>
+      </div>
+      <div class="table-card">
+        <table class="dense-table">
+          <thead>
+            <tr><th>Portrait</th><th>Character</th><th>Role</th><th>Location</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            {npcs.map((npc) => (
+              <tr>
+                <td>{npc.image ? <img class="table-icon" src={npc.image} alt={`${npc.name} portrait`} loading="lazy" /> : npc.group}</td>
+                <td>{npc.name}{npc.nameZh ? ` / ${npc.nameZh}` : ""}</td>
+                <td>{npc.role}</td>
+                <td>{npc.location}</td>
+                <td><a href={`/characters/${npc.id}/`}>Open</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

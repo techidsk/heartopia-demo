@@ -1,0 +1,89 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { insects, type Insect } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+  return insects.map((item) => ({ params: { id: item.id }, props: { item } }));
+}
+
+interface Props {
+  item: Insect;
+}
+
+const { item } = Astro.props;
+const related = insects.filter((candidate) => candidate.id !== item.id && candidate.route === item.route).slice(0, 4);
+---
+
+<BaseLayout
+  title={`${item.name} - Heartopia Insect Location, Weather & Time`}
+  description={`${item.name} Heartopia insect detail with ${item.time} time window, ${item.weather} weather, ${item.route} route, rarity ${item.rarity}, hobby level ${item.hobbyLevel}, icon, and TW Wiki source link.`}
+  canonicalPath={`/insects/${item.id}/`}
+  currentPath="/insects/"
+  ogImage={item.image}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/insects/", label: "Insects" }, { label: item.name }]} />
+      <h1>{item.name}</h1>
+      <p>{item.lore}</p>
+      <MetricCards
+        metrics={[
+          { value: item.time, label: "time" },
+          { value: item.weather, label: "weather" },
+          { value: item.rarity, label: "rarity" },
+          { value: item.hobbyLevel, label: "hobby level" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <div class="collection-detail-head">
+          <img src={item.image} alt={`${item.name} insect icon`} loading="eager" />
+          <div>
+            <h2 class="wiki-title">{item.name}</h2>
+            <p>{item.source}</p>
+          </div>
+        </div>
+        <div class="map-meta">
+          <span><strong>Season:</strong> {item.season}</span>
+          <span><strong>Route:</strong> {item.route}</span>
+          <span><strong>Wiki number:</strong> #{item.number}</span>
+          <span><strong>Source icon:</strong> {item.iconFile}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href="/insects/">Back To Insects</a>
+          <a class="pastel-button alt" href={item.wikiUrl} rel="nofollow noopener" target="_blank">Open Wiki Source</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">Catching Note</h2>
+        <p>This is a source-backed collection record. Confirm exact spawn behavior in game before spending limited lures or planning rare catch windows.</p>
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wiki-section tint-blue">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>Same Route</h2>
+          <p>Other insects from the same route label.</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={`/insects/${candidate.id}/`}>
+              <img class="table-icon" src={candidate.image} alt={`${candidate.name} icon`} loading="lazy" />
+              <h3>{candidate.name}</h3>
+              <p>{candidate.time} | {candidate.weather}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

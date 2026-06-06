@@ -27,19 +27,19 @@ const relatedCrops = crops.filter((candidate) => candidate.id !== crop.id && can
   description={`${crop.name} Heartopia crop detail with ${crop.growth} growth, ${crop.unlock} unlock, seed cost, sell value, recipe uses, and route planning links.`}
   canonicalPath={`/crops/${crop.id}/`}
   currentPath="/crops/"
-  ogImage="/assets/asset-gardening.jpg"
+  ogImage={crop.image || "/assets/asset-gardening.jpg"}
 >
   <section class="article-hero">
     <div class="wiki-shell">
       <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/crops/", label: "Crops" }, { label: crop.name }]} />
       <h1>{crop.name}</h1>
-      <p>{crop.use}. This detail URL is generated from crop data and can be linked from recipes, shops, tools, and gardening guides.</p>
+      <p>{crop.use}. {crop.nameZh ? `${crop.nameZh} is linked to the TW Wiki gardening handbook snapshot.` : "This detail URL is generated from crop data and can be linked from recipes, shops, tools, and gardening guides."}</p>
       <MetricCards
         metrics={[
           { value: crop.growth, label: "growth" },
           { value: crop.unlock, label: "unlock" },
           { value: formatGold(crop.seed), label: "seed" },
-          { value: formatGold(crop.sell), label: "sell" }
+          { value: crop.hobbyLevel || formatGold(crop.sell), label: crop.hobbyLevel ? "wiki level" : "sell" }
         ]}
       />
     </div>
@@ -48,17 +48,29 @@ const relatedCrops = crops.filter((candidate) => candidate.id !== crop.id && can
   <section class="wiki-section">
     <div class="wiki-shell database-grid">
       <article class="wiki-card">
+        {crop.image && (
+          <div class="collection-detail-head">
+            <img src={crop.image} alt={`${crop.name} crop icon`} loading="eager" />
+            <div>
+              <h2 class="wiki-title">{crop.name}</h2>
+              <p>{crop.nameZh} · {crop.source}</p>
+            </div>
+          </div>
+        )}
         <h2 class="wiki-title">Crop Route</h2>
         <div class="map-meta">
           <span><strong>Group:</strong> {crop.group}</span>
           <span><strong>Route:</strong> {crop.route}</span>
+          {crop.season && <span><strong>Season:</strong> {crop.season}</span>}
           <span><strong>Margin:</strong> {margin}</span>
           <span><strong>Use:</strong> {crop.use}</span>
         </div>
+        {crop.lore && <p>{crop.lore}</p>}
         <div class="entity-action-grid">
           <a class="pastel-button" href={crop.tool}>Open Crop Tool</a>
           <a class="pastel-button alt" href={crop.shop}>Find Seeds</a>
           <a class="pastel-button alt" href={crop.related}>Related Uses</a>
+          {crop.wikiUrl && <a class="pastel-button alt" href={crop.wikiUrl} rel="nofollow noopener" target="_blank">Open Wiki Source</a>}
         </div>
       </article>
       <aside class="wiki-card">

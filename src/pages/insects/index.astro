@@ -1,0 +1,161 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { insects } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const selected = insects[0];
+const timeGroup = (time: string) => {
+  if (time === "全天") return "all-day";
+  if (time.includes("18") || time.includes("0~6")) return "night";
+  if (time.includes("12") || time.includes("6~18") || time.includes("6~24")) return "day";
+  return "special";
+};
+const timeLabels = [
+  { id: "all-day", label: "All Day" },
+  { id: "day", label: "Day" },
+  { id: "night", label: "Night" },
+  { id: "special", label: "Special" }
+];
+const rareCount = insects.filter((item) => Number(item.rarity) >= 4).length;
+const routeCount = new Set(insects.map((item) => item.route)).size;
+const searchText = (item: typeof insects[number]) =>
+  [item.name, item.nameZh, item.season, item.time, item.weather, item.route, item.lore, item.rarity, item.hobbyLevel].join(" ");
+---
+
+<BaseLayout
+  title="Heartopia Insect Database - Bug Icons, Time, Weather & Routes"
+  description="Heartopia insect database imported from the TW wiki with bug icons, Chinese names, time windows, weather, route locations, rarity, hobby levels, and source links."
+  canonicalPath="/insects/"
+  currentPath="/insects/"
+  ogImage="/assets/wiki/insects/insect-001.png"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/database/", label: "Database" }, { label: "Insects" }]} />
+      <h1>Heartopia Insect Database</h1>
+      <p>Search bug names, time windows, weather, routes, rarity, and lore from the TW Wiki insect handbook, with every icon served from local assets.</p>
+      <MetricCards
+        metrics={[
+          { value: insects.length, label: "wiki rows" },
+          { value: routeCount, label: "route labels" },
+          { value: rareCount, label: "rare targets" },
+          { value: "81", label: "local icons" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section" id="insect-database">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Bug Catching Source Table</h2>
+        <p>Filter by time window, or search source names, weather, routes, rarity, and lore notes.</p>
+      </div>
+
+      <div class="database-browser" data-collection-browser>
+        <div class="database-control-bar">
+          <label class="search-field">
+            <span>Search insects</span>
+            <input type="search" placeholder="Try 彩虹, forest, Lv 10, butterfly..." data-collection-search />
+          </label>
+          <div class="filter-row compact" aria-label="Insect time filters">
+            <button class="filter-button" type="button" data-collection-filter="all" aria-pressed="true">All</button>
+            {timeLabels.map((group) => (
+              <button class="filter-button" type="button" data-collection-filter={group.id} aria-pressed="false">
+                {group.label}
+              </button>
+            ))}
+          </div>
+          <p class="tool-count" data-collection-count>{insects.length} items shown</p>
+        </div>
+
+        <div class="database-browser-layout">
+          <div class="entity-grid collection-card-grid">
+            {insects.map((item, index) => (
+              <button
+                class:list={["entity-card", "collection-card", { "is-selected": index === 0 }]}
+                type="button"
+                data-collection-card
+                data-group={timeGroup(item.time)}
+                data-name={item.name}
+                data-name-zh={item.nameZh}
+                data-image={item.image}
+                data-image-alt={`${item.name} insect icon`}
+                data-season={item.season}
+                data-time={item.time}
+                data-weather={item.weather}
+                data-route={item.route}
+                data-level={item.hobbyLevel}
+                data-rarity={item.rarity}
+                data-lore={item.lore}
+                data-wiki-url={item.wikiUrl}
+                data-detail-url={`/insects/${item.id}/`}
+                data-source={item.source}
+                data-search={searchText(item)}
+              >
+                <img class="collection-thumb" src={item.image} alt={`${item.name} insect icon`} loading="lazy" />
+                <span class="entity-type">Rarity {item.rarity}</span>
+                <strong>{item.name}</strong>
+                <small>{item.time} | {item.weather} | Lv {item.hobbyLevel}</small>
+              </button>
+            ))}
+          </div>
+
+          <aside class="entity-detail-panel collection-detail-panel" data-collection-detail>
+            <div class="collection-detail-head">
+              <img src={selected.image} alt={`${selected.name} insect icon`} loading="eager" />
+              <div>
+                <h2>{selected.name}</h2>
+                <p>{selected.source}</p>
+              </div>
+            </div>
+            <span class="status-chip">{selected.season} · Lv {selected.hobbyLevel} · Rarity {selected.rarity}</span>
+            <div class="map-meta">
+              <span><strong>Time:</strong> {selected.time}</span>
+              <span><strong>Weather:</strong> {selected.weather}</span>
+              <span><strong>Route:</strong> {selected.route}</span>
+            </div>
+            <p>{selected.lore}</p>
+            <div class="entity-action-grid">
+              <a class="pastel-button" href={`/insects/${selected.id}/`}>Open Detail</a>
+              <a class="pastel-button alt" href={selected.wikiUrl} rel="nofollow noopener" target="_blank">Open Wiki Source</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section tint-blue">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Insect Route Table</h2>
+        <p>Use this compact table when the route and time window matter more than the detail panel.</p>
+      </div>
+      <div class="table-card">
+        <table class="dense-table">
+          <thead>
+            <tr><th>Icon</th><th>Insect</th><th>Time</th><th>Weather</th><th>Route</th></tr>
+          </thead>
+          <tbody>
+            {insects.map((item) => (
+              <tr>
+                <td><img class="table-icon" src={item.image} alt={`${item.name} icon`} loading="lazy" /></td>
+                <td><a href={`/insects/${item.id}/`}>{item.name}</a></td>
+                <td>{item.time}</td>
+                <td>{item.weather}</td>
+                <td>{item.route}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    import { initCollectionDatabase } from "@tools/collectionDatabase";
+    initCollectionDatabase();
+  </script>
+</BaseLayout>

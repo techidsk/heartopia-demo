@@ -1,0 +1,90 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { gardening, type Gardening } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+export function getStaticPaths() {
+  return gardening.map((item) => ({ params: { id: item.id }, props: { item } }));
+}
+
+interface Props {
+  item: Gardening;
+}
+
+const { item } = Astro.props;
+const related = gardening.filter((candidate) => candidate.id !== item.id && candidate.category === item.category).slice(0, 4);
+---
+
+<BaseLayout
+  title={`${item.name} - Heartopia Gardening Handbook`}
+  description={`${item.name} Heartopia gardening detail with source name ${item.nameZh}, hobby level ${item.hobbyLevel}, season ${item.season}, route notes, icon, and TW Wiki source link.`}
+  canonicalPath={`/gardening/${item.id}/`}
+  currentPath="/gardening/"
+  ogImage={item.image}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/gardening/", label: "Gardening" }, { label: item.name }]} />
+      <h1>{item.name}</h1>
+      <p>{item.nameZh} from the TW Wiki gardening handbook. Use this page as a source-backed identity and icon record before applying gameplay assumptions.</p>
+      <MetricCards
+        metrics={[
+          { value: item.hobbyLevel, label: "hobby level" },
+          { value: item.season, label: "season" },
+          { value: item.category, label: "type" },
+          { value: `#${item.number}`, label: "wiki number" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <div class="collection-detail-head">
+          <img src={item.image} alt={`${item.name} gardening icon`} loading="eager" />
+          <div>
+            <h2 class="wiki-title">{item.name}</h2>
+            <p>{item.nameZh}</p>
+          </div>
+        </div>
+        <div class="map-meta">
+          <span><strong>Time:</strong> {item.time}</span>
+          <span><strong>Weather:</strong> {item.weather}</span>
+          <span><strong>Route:</strong> {item.route}</span>
+          <span><strong>Source:</strong> {item.source}</span>
+        </div>
+        <p>{item.lore}</p>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href="/gardening/">Back To Handbook</a>
+          <a class="pastel-button alt" href={item.wikiUrl} rel="nofollow noopener" target="_blank">Open Wiki Source</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">Data Note</h2>
+        <p>This record was imported from the TW Wiki semantic table and local imageinfo endpoint. Profit, growth, and shop values remain separate crop-database fields when verified.</p>
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>Related Gardening Entries</h2>
+          <p>More rows from the same handbook group.</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={`/gardening/${candidate.id}/`}>
+              <img class="table-icon" src={candidate.image} alt={`${candidate.name} icon`} loading="lazy" />
+              <h3>{candidate.name}</h3>
+              <p>{candidate.nameZh} | Lv {candidate.hobbyLevel}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

@@ -1,0 +1,152 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { gardening } from "@data/heartopia";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+const selected = gardening[0];
+const categoryLabels = [
+  { id: "crop", label: "Crops" },
+  { id: "garden", label: "Flowers & Trees" }
+];
+const cropCount = gardening.filter((item) => item.category === "crop").length;
+const sourceCount = new Set(gardening.map((item) => item.source)).size;
+const searchText = (item: typeof gardening[number]) =>
+  [item.name, item.nameZh, item.category, item.season, item.time, item.weather, item.route, item.lore, item.hobbyLevel].join(" ");
+---
+
+<BaseLayout
+  title="Heartopia Gardening Handbook - Crops, Flowers, Icons & Wiki Sources"
+  description="Heartopia gardening handbook imported from the TW wiki with crop and flower icons, source names, hobby levels, season notes, lore, and detail links."
+  canonicalPath="/gardening/"
+  currentPath="/gardening/"
+  ogImage="/assets/wiki/gardening/tomato.png"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs items={[{ href: "/", label: "Home" }, { href: "/database/", label: "Database" }, { label: "Gardening" }]} />
+      <h1>Heartopia Gardening Handbook</h1>
+      <p>Browse the TW Wiki gardening handbook with local icons, Chinese source names, hobby levels, crop handoffs, and source links for verification.</p>
+      <MetricCards
+        metrics={[
+          { value: gardening.length, label: "wiki rows" },
+          { value: cropCount, label: "matched crops" },
+          { value: gardening.length - cropCount, label: "flowers and trees" },
+          { value: sourceCount, label: "source table" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section" id="gardening-handbook">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Source-Backed Gardening Data</h2>
+        <p>Search names, Chinese source labels, lore, season, route text, or hobby level. Imported icons are served locally from the site assets.</p>
+      </div>
+
+      <div class="database-browser" data-collection-browser>
+        <div class="database-control-bar">
+          <label class="search-field">
+            <span>Search gardening entries</span>
+            <input type="search" placeholder="Try Tomato, 番茄, flower, Lv 7..." data-collection-search />
+          </label>
+          <div class="filter-row compact" aria-label="Gardening filters">
+            <button class="filter-button" type="button" data-collection-filter="all" aria-pressed="true">All</button>
+            {categoryLabels.map((category) => (
+              <button class="filter-button" type="button" data-collection-filter={category.id} aria-pressed="false">
+                {category.label}
+              </button>
+            ))}
+          </div>
+          <p class="tool-count" data-collection-count>{gardening.length} items shown</p>
+        </div>
+
+        <div class="database-browser-layout">
+          <div class="entity-grid collection-card-grid">
+            {gardening.map((item, index) => (
+              <button
+                class:list={["entity-card", "collection-card", { "is-selected": index === 0 }]}
+                type="button"
+                data-collection-card
+                data-group={item.category}
+                data-name={item.name}
+                data-name-zh={item.nameZh}
+                data-image={item.image}
+                data-image-alt={`${item.name} gardening icon`}
+                data-season={item.season}
+                data-time={item.time}
+                data-weather={item.weather}
+                data-route={item.route}
+                data-level={item.hobbyLevel}
+                data-lore={item.lore}
+                data-wiki-url={item.wikiUrl}
+                data-detail-url={`/gardening/${item.id}/`}
+                data-source={item.source}
+                data-search={searchText(item)}
+              >
+                <img class="collection-thumb" src={item.image} alt={`${item.name} gardening icon`} loading="lazy" />
+                <span class="entity-type">{item.category}</span>
+                <strong>{item.name}</strong>
+                <small>{item.nameZh} | Lv {item.hobbyLevel} | {item.season}</small>
+              </button>
+            ))}
+          </div>
+
+          <aside class="entity-detail-panel collection-detail-panel" data-collection-detail>
+            <div class="collection-detail-head">
+              <img src={selected.image} alt={`${selected.name} gardening icon`} loading="eager" />
+              <div>
+                <h2>{selected.name}</h2>
+                <p>{selected.nameZh} · {selected.source}</p>
+              </div>
+            </div>
+            <span class="status-chip">{selected.season} · Lv {selected.hobbyLevel}</span>
+            <div class="map-meta">
+              <span><strong>Time:</strong> {selected.time}</span>
+              <span><strong>Weather:</strong> {selected.weather}</span>
+              <span><strong>Route:</strong> {selected.route}</span>
+            </div>
+            <p>{selected.lore}</p>
+            <div class="entity-action-grid">
+              <a class="pastel-button" href={`/gardening/${selected.id}/`}>Open Detail</a>
+              <a class="pastel-button alt" href={selected.wikiUrl} rel="nofollow noopener" target="_blank">Open Wiki Source</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wiki-section tint-mint">
+    <div class="wiki-shell">
+      <div class="center-head">
+        <h2>Gardening Table</h2>
+        <p>Rows come from the TW Wiki semantic data snapshot. Gameplay values still need in-game confirmation before profit planning.</p>
+      </div>
+      <div class="table-card">
+        <table class="dense-table">
+          <thead>
+            <tr><th>Icon</th><th>Name</th><th>Source Name</th><th>Level</th><th>Detail</th></tr>
+          </thead>
+          <tbody>
+            {gardening.map((item) => (
+              <tr>
+                <td><img class="table-icon" src={item.image} alt={`${item.name} icon`} loading="lazy" /></td>
+                <td>{item.name}</td>
+                <td>{item.nameZh}</td>
+                <td>{item.hobbyLevel}</td>
+                <td><a href={`/gardening/${item.id}/`}>Open</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    import { initCollectionDatabase } from "@tools/collectionDatabase";
+    initCollectionDatabase();
+  </script>
+</BaseLayout>

@@ -7,6 +7,7 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 const selected = crops[0];
 const cropGroups = [...new Set(crops.map((crop) => crop.group))];
 const knownValueCount = crops.filter((crop) => crop.seed !== null && crop.sell !== null).length;
+const wikiImageCount = crops.filter((crop) => crop.image).length;
 const formatGold = (value: number | null) => (value === null ? "Pending" : `${value.toLocaleString()} Gold`);
 const formatMargin = (seed: number | null, sell: number | null) =>
   seed === null || sell === null ? "Value pending" : `${(sell - seed).toLocaleString()} Gold`;
@@ -14,11 +15,14 @@ const cropBadgeText = (crop: typeof crops[number]) => (crop.minutes === null ? "
 const searchText = (crop: typeof crops[number]) =>
   [
     crop.name,
+    crop.nameZh || "",
     crop.group,
     crop.growth,
     crop.unlock,
     crop.route,
     crop.use,
+    crop.lore || "",
+    crop.hobbyLevel || "",
     crop.minutes === null ? "unknown growth" : `${crop.minutes} minutes`,
     crop.seed === null ? "unknown seed" : `${crop.seed} seed`,
     crop.sell === null ? "unknown sell" : `${crop.sell} sell`
@@ -51,7 +55,7 @@ const footerGroups = [
   description="Heartopia crop database generated from structured crop data with growth times, seed costs, sell values, unlock levels, crop route filters, recipe handoffs, and profit planning links."
   canonicalPath="/crops/"
   currentPath="/crops/"
-  ogImage="/assets/asset-gardening.jpg"
+  ogImage={selected.image || "/assets/asset-gardening.jpg"}
   footerGroups={footerGroups}
 >
   <section class="article-hero">
@@ -64,7 +68,7 @@ const footerGroups = [
           { value: crops.length, label: "tracked crops" },
           { value: cropGroups.length, label: "route groups" },
           { value: knownValueCount, label: "priced crops" },
-          { value: profitCrops.length, label: "calculator-ready" }
+          { value: wikiImageCount, label: "wiki icons" }
         ]}
       />
     </div>
@@ -116,6 +120,8 @@ const footerGroups = [
                 data-crop-id={crop.id}
                 data-group={crop.group}
                 data-name={crop.name}
+                data-name-zh={crop.nameZh || ""}
+                data-image={crop.image || ""}
                 data-growth={crop.growth}
                 data-seed={formatGold(crop.seed)}
                 data-sell={formatGold(crop.sell)}
@@ -123,42 +129,57 @@ const footerGroups = [
                 data-unlock={crop.unlock}
                 data-route={crop.route}
                 data-use={crop.use}
+                data-season={crop.season || ""}
+                data-level={crop.hobbyLevel || ""}
+                data-lore={crop.lore || ""}
+                data-wiki-url={crop.wikiUrl || ""}
                 data-shop={crop.shop}
                 data-tool={crop.tool}
                 data-related={crop.related}
                 data-search={searchText(crop)}
               >
-                <span class:list={["crop-badge", crop.group]}>{cropBadgeText(crop)}</span>
+                {crop.image ? (
+                  <img class="collection-thumb" src={crop.image} alt={`${crop.name} crop icon`} loading="lazy" />
+                ) : (
+                  <span class:list={["crop-badge", crop.group]}>{cropBadgeText(crop)}</span>
+                )}
                 <span>
                   <strong>{crop.name}</strong>
-                  <small>{crop.unlock} | {crop.route}</small>
+                  <small>{crop.nameZh ? `${crop.nameZh} | ` : ""}{crop.unlock} | {crop.route}</small>
                 </span>
               </button>
             ))}
           </div>
 
           <aside class="crop-detail-panel" data-crop-db-detail>
-            <div class="npc-detail-head">
-              <span class:list={["crop-badge", selected.group]}>{cropBadgeText(selected)}</span>
+            <div class={selected.image ? "collection-detail-head" : "npc-detail-head"}>
+              {selected.image ? (
+                <img src={selected.image} alt={`${selected.name} crop icon`} loading="eager" />
+              ) : (
+                <span class:list={["crop-badge", selected.group]}>{cropBadgeText(selected)}</span>
+              )}
               <div>
                 <h2>{selected.name}</h2>
-                <p>{selected.route}</p>
+                <p>{selected.nameZh ? `${selected.nameZh} · ` : ""}{selected.route}</p>
               </div>
             </div>
             <span class="crop-route-chip">{selected.group} route</span>
             <div class="map-meta">
               <span><strong>Growth:</strong> {selected.growth}</span>
               <span><strong>Unlock:</strong> {selected.unlock}</span>
+              {selected.hobbyLevel && <span><strong>Wiki level:</strong> {selected.hobbyLevel}</span>}
               <span><strong>Seed:</strong> {formatGold(selected.seed)}</span>
               <span><strong>Base sell:</strong> {formatGold(selected.sell)}</span>
               <span><strong>Margin:</strong> {formatMargin(selected.seed, selected.sell)}</span>
               <span><strong>Use:</strong> {selected.use}</span>
             </div>
+            {selected.lore && <p>{selected.lore}</p>}
             <label class="crop-watch-toggle"><input type="checkbox" data-crop-db-watch /> Add to planting watchlist</label>
             <div class="entity-action-grid">
               <a class="pastel-button" href={selected.tool}>Open Planner</a>
               <a class="pastel-button alt" href={selected.shop}>Find Seeds</a>
               <a class="pastel-button alt" href={`/crops/${selected.id}/`}>Open Detail</a>
+              {selected.wikiUrl && <a class="pastel-button alt" href={selected.wikiUrl} rel="nofollow noopener" target="_blank">Wiki Source</a>}
             </div>
           </aside>
         </div>
@@ -175,12 +196,14 @@ const footerGroups = [
       <div class="table-card">
         <table class="dense-table">
           <thead>
-            <tr><th>Crop</th><th>Growth</th><th>Seed</th><th>Sell</th><th>Detail</th></tr>
+            <tr><th>Icon</th><th>Crop</th><th>Source Name</th><th>Growth</th><th>Seed</th><th>Sell</th><th>Detail</th></tr>
           </thead>
           <tbody>
             {crops.map((crop) => (
               <tr>
+                <td>{crop.image ? <img class="table-icon" src={crop.image} alt={`${crop.name} icon`} loading="lazy" /> : cropBadgeText(crop)}</td>
                 <td>{crop.name}</td>
+                <td>{crop.nameZh || "Pending"}</td>
                 <td>{crop.growth}</td>
                 <td>{formatGold(crop.seed)}</td>
                 <td>{formatGold(crop.sell)}</td>

@@ -5,11 +5,24 @@
     "group": "mentor",
     "role": "Gardening mentor",
     "location": "Garden Shop / Central Town",
-    "schedule": "Check the garden shop route before buying seeds.",
-    "gifts": ["Fresh crop", "Simple cooked dish", "Gardening material"],
+    "schedule": "Use Blanc as the gardening route anchor before seed buying and flower planning.",
+    "gifts": [
+      "Fresh crop",
+      "Flower",
+      "Simple cooked dish"
+    ],
     "shop": "/shops/?q=seed",
     "map": "/map/?marker=gardening-store",
-    "tool": "/tools/friendship-tracker/"
+    "tool": "/tools/friendship-tracker/",
+    "nameZh": "布蘭克",
+    "imageFile": "布蘭克.png",
+    "profile": "TW Wiki lists Blanc as the gardening mentor tied to crops, flowers, and later flower breeding routes.",
+    "image": "/assets/wiki/characters/blanc.png",
+    "sourceImageUrl": "https://patchwiki.biligame.com/images/heartopiatw/1/19/t19vqggz1e31xvseubqtb63txawx6e7.png",
+    "imageWidth": 161,
+    "imageHeight": 164,
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E5%B8%83%E8%98%AD%E5%85%8B",
+    "source": "Biligame Heartopia TW Wiki homepage"
   },
   {
     "id": "bob",
@@ -18,7 +31,11 @@
     "role": "Furniture workshop owner",
     "location": "Central Town",
     "schedule": "Use the furniture stop while planning house layouts.",
-    "gifts": ["Wood decor", "House material", "Simple dish"],
+    "gifts": [
+      "Wood decor",
+      "House material",
+      "Simple dish"
+    ],
     "shop": "/shops/?q=furniture",
     "map": "/map/?marker=furniture-workshop",
     "tool": "/tools/friendship-tracker/"
@@ -30,7 +47,11 @@
     "role": "Clothing store owner",
     "location": "Central Town",
     "schedule": "Pair clothing errands with Central Town NPC talk loops.",
-    "gifts": ["Fashion item", "Flower", "Dessert"],
+    "gifts": [
+      "Fashion item",
+      "Flower",
+      "Dessert"
+    ],
     "shop": "/shops/?q=clothing",
     "map": "/map/?marker=clothing-store",
     "tool": "/tools/friendship-tracker/"
@@ -42,7 +63,11 @@
     "role": "Pet care mentor",
     "location": "Pet Shop",
     "schedule": "Use the pet shop route when testing Dog Food and adoption flows.",
-    "gifts": ["Dog Food", "Pet-care item", "Cooked dish"],
+    "gifts": [
+      "Dog Food",
+      "Pet-care item",
+      "Cooked dish"
+    ],
     "shop": "/shops/?q=pet",
     "map": "/map/?marker=pet-shop",
     "tool": "/tools/checklist/"
@@ -54,7 +79,11 @@
     "role": "Weather merchant",
     "location": "Dynamic weather route",
     "schedule": "Confirm the in-game weather route before planning rare purchases.",
-    "gifts": ["Weather item", "Colorful flower", "Rare dish"],
+    "gifts": [
+      "Weather item",
+      "Colorful flower",
+      "Rare dish"
+    ],
     "shop": "/shops/?q=doris",
     "map": "/map/?marker=doris-weather-cart",
     "tool": "/tools/friendship-tracker/"
@@ -66,9 +95,113 @@
     "role": "Sea Fishing event mentor",
     "location": "Fishing Village",
     "schedule": "Use Bill when sea fishing or event tasks point to coastal routes.",
-    "gifts": ["Fish", "Repair Kit", "Seafood dish"],
+    "gifts": [
+      "Fish",
+      "Repair Kit",
+      "Seafood dish"
+    ],
     "shop": "/shops/?q=sea fishing",
     "map": "/map/?marker=sea-fishing-booth",
     "tool": "/tools/fish-tracker/"
+  },
+  {
+    "id": "albert-ii",
+    "name": "Albert II",
+    "nameZh": "阿爾伯特二世",
+    "imageFile": "阿爾伯特二世.png",
+    "group": "featured",
+    "role": "Featured town character",
+    "location": "Heartopia town route",
+    "schedule": "Homepage feature character; confirm live location in game before routing gifts.",
+    "gifts": [
+      "Favorite gift pending",
+      "Liked gift pending",
+      "Talk route"
+    ],
+    "shop": "/shops/",
+    "map": "/map/",
+    "tool": "/tools/friendship-tracker/",
+    "profile": "Featured on the TW Wiki homepage character strip; detailed route data is still pending.",
+    "image": "/assets/wiki/characters/albert-ii.png",
+    "sourceImageUrl": "https://patchwiki.biligame.com/images/heartopiatw/6/62/c467mk39h7v652vnhoebcq463xlfpxf.png",
+    "imageWidth": 161,
+    "imageHeight": 164,
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E9%98%BF%E7%88%BE%E4%BC%AF%E7%89%B9%E4%BA%8C%E4%B8%96",
+    "source": "Biligame Heartopia TW Wiki homepage"
+  },
+  {
+    "id": "ka-ching",
+    "name": "Ka Ching",
+    "nameZh": "卡清",
+    "imageFile": "卡清.png",
+    "group": "shopkeeper",
+    "role": "General store owner",
+    "location": "Central Town",
+    "schedule": "Pair Ka Ching with inventory, utility, and long-route preparation errands.",
+    "gifts": [
+      "Utility item",
+      "Simple dish",
+      "Favorite gift pending"
+    ],
+    "shop": "/shops/?q=general",
+    "map": "/map/?marker=general-store",
+    "tool": "/tools/friendship-tracker/",
+    "profile": "Featured on the TW Wiki homepage and connected to the general-store route in this guide.",
+    "image": "/assets/wiki/characters/ka-ching.png",
+    "sourceImageUrl": "https://patchwiki.biligame.com/images/heartopiatw/e/e2/ffd0nroy9l6gmb3i545nn3kj8tvumdi.png",
+    "imageWidth": 161,
+    "imageHeight": 164,
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E5%8D%A1%E6%B8%85",
+    "source": "Biligame Heartopia TW Wiki homepage"
+  },
+  {
+    "id": "annie",
+    "name": "Annie",
+    "nameZh": "安妮",
+    "imageFile": "安妮.png",
+    "group": "shopkeeper",
+    "role": "Music store owner",
+    "location": "Central Town",
+    "schedule": "Use Annie when house ambience, music, and collection routes overlap.",
+    "gifts": [
+      "Music decor",
+      "Dessert",
+      "Favorite gift pending"
+    ],
+    "shop": "/shops/?q=music",
+    "map": "/map/?marker=music-store",
+    "tool": "/tools/friendship-tracker/",
+    "profile": "Featured on the TW Wiki homepage and connected to the music-store route in this guide.",
+    "image": "/assets/wiki/characters/annie.png",
+    "sourceImageUrl": "https://patchwiki.biligame.com/images/heartopiatw/e/e3/0d21195izk4rs8v0rg6rxeu9f4dnr9j.png",
+    "imageWidth": 161,
+    "imageHeight": 164,
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E5%AE%89%E5%A6%AE",
+    "source": "Biligame Heartopia TW Wiki homepage"
+  },
+  {
+    "id": "vania",
+    "name": "Vania",
+    "nameZh": "萬尼亞",
+    "imageFile": "萬尼亞.png",
+    "group": "featured",
+    "role": "Featured town character",
+    "location": "Heartopia town route",
+    "schedule": "Homepage feature character; confirm live location in game before routing gifts.",
+    "gifts": [
+      "Favorite gift pending",
+      "Liked gift pending",
+      "Talk route"
+    ],
+    "shop": "/shops/",
+    "map": "/map/",
+    "tool": "/tools/friendship-tracker/",
+    "profile": "Featured on the TW Wiki homepage character strip; detailed route data is still pending.",
+    "image": "/assets/wiki/characters/vania.png",
+    "sourceImageUrl": "https://patchwiki.biligame.com/images/heartopiatw/3/39/nsojn5s9mlq3f1wpp48kp7b7zie1u5e.png",
+    "imageWidth": 161,
+    "imageHeight": 164,
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E8%90%AC%E5%B0%BC%E4%BA%9E",
+    "source": "Biligame Heartopia TW Wiki homepage"
   }
 ]

@@ -12,7 +12,14 @@
     "use": "Fast plot turnover while actively playing",
     "shop": "/shops/?q=seed",
     "tool": "/tools/profit-calculator/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "番茄",
+    "image": "/assets/wiki/gardening/tomato.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E7%95%AA%E8%8C%84",
+    "season": "日常",
+    "hobbyLevel": "1",
+    "lore": "一名畫家抵擋不住豔紅果子的誘惑，成為了「第 一個吃番茄的人」。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "potato",
@@ -27,7 +34,14 @@
     "use": "Balanced money loop and Fish and Chips input",
     "shop": "/shops/?q=seed",
     "tool": "/tools/profit-calculator/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "馬鈴薯",
+    "image": "/assets/wiki/gardening/potato.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E9%A6%AC%E9%88%B4%E8%96%AF",
+    "season": "日常",
+    "hobbyLevel": "1",
+    "lore": "你猜土豆坐在沙發上會變成什麼?當然會成沙發 薯條了。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "wheat",
@@ -42,7 +56,14 @@
     "use": "Offline growth and cow food overlap",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/animal-favorites/"
+    "related": "/animal-favorites/",
+    "nameZh": "小麥",
+    "image": "/assets/wiki/gardening/wheat.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E5%B0%8F%E9%BA%A5",
+    "season": "日常",
+    "hobbyLevel": "2",
+    "lore": "用途多多，除了吃，還有藥用價值，多吃粗糧對 身體好。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "lettuce",
@@ -57,7 +78,14 @@
     "use": "Long-session vegetable crop",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "生菜",
+    "image": "/assets/wiki/gardening/lettuce.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E7%94%9F%E8%8F%9C",
+    "season": "日常",
+    "hobbyLevel": "3",
+    "lore": "製作沙拉必不可少的原料，雖然營養豐富，但偶 爾吃幾口就夠了。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "pineapple",
@@ -72,7 +100,14 @@
     "use": "Fast crop and jam route test",
     "shop": "/shops/?q=seed",
     "tool": "/tools/profit-calculator/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "鳳梨",
+    "image": "/assets/wiki/gardening/pineapple.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E9%B3%B3%E6%A2%A8",
+    "season": "日常",
+    "hobbyLevel": "4",
+    "lore": "可以直接食用，也可以用來製作多種甜品……指 的不是鳳梨披薩。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "carrot",
@@ -87,7 +122,14 @@
     "use": "Balanced session crop and vegetable route",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "胡蘿蔔",
+    "image": "/assets/wiki/gardening/carrot.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E8%83%A1%E8%98%BF%E8%94%94",
+    "season": "日常",
+    "hobbyLevel": "5",
+    "lore": "部分人的童年噩夢，但確實具備多種功效。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "strawberry",
@@ -102,7 +144,14 @@
     "use": "Jam testing after unlock",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "草莓",
+    "image": "/assets/wiki/gardening/strawberry.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E8%8D%89%E8%8E%93",
+    "season": "日常",
+    "hobbyLevel": "6",
+    "lore": "帶有早春的清甜氣息，被譽為「水果皇后」。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "corn",
@@ -117,7 +166,14 @@
     "use": "Chicken food overlap and long-cycle crop",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/animal-favorites/"
+    "related": "/animal-favorites/",
+    "nameZh": "玉米",
+    "image": "/assets/wiki/gardening/corn.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E7%8E%89%E7%B1%B3",
+    "season": "日常",
+    "hobbyLevel": "6",
+    "lore": "易於栽培，產量極高，相當省心的一種作物。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "grape",
@@ -132,7 +188,14 @@
     "use": "Jam route candidate; confirm growth before mass planting",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "葡萄",
+    "image": "/assets/wiki/gardening/grape.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E8%91%A1%E8%90%84",
+    "season": "日常",
+    "hobbyLevel": "7",
+    "lore": "吃葡萄不吐葡萄皮，不吃葡萄倒吐葡萄皮。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "eggplant",
@@ -147,7 +210,14 @@
     "use": "Mid-game vegetable candidate",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "茄子",
+    "image": "/assets/wiki/gardening/eggplant.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E8%8C%84%E5%AD%90",
+    "season": "日常",
+    "hobbyLevel": "8",
+    "lore": "發音很像微笑，所以食用後心情會變好哦。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "tea-tree",
@@ -177,7 +247,14 @@
     "use": "Late unlock cooking candidate",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "可可豆",
+    "image": "/assets/wiki/gardening/cacao-tree.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E5%8F%AF%E5%8F%AF%E8%B1%86",
+    "season": "日常",
+    "hobbyLevel": "12",
+    "lore": "具有獨特的濃香，是大自然給甜食愛好者的饋 贈。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   },
   {
     "id": "avocado",
@@ -192,6 +269,13 @@
     "use": "Late unlock crop; verify value before mass planting",
     "shop": "/shops/?q=seed",
     "tool": "/tools/crop-planner/",
-    "related": "/recipes/"
+    "related": "/recipes/",
+    "nameZh": "酪梨",
+    "image": "/assets/wiki/gardening/avocado.png",
+    "wikiUrl": "https://wiki.biligame.com/heartopiatw/%E9%85%AA%E6%A2%A8",
+    "season": "日常",
+    "hobbyLevel": "13",
+    "lore": "據說沾醬油吃的話，味道和三文魚很像。",
+    "source": "Biligame Heartopia TW Wiki 園藝手冊"
   }
 ]

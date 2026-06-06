@@ -2,21 +2,6 @@ import * as L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
 export function initStaticPageInteractions() {
-const menuButton = document.querySelector("[data-menu-button]");
-const navLinks = document.querySelector("[data-nav-links]");
-
-if (menuButton && navLinks) {
-  menuButton.addEventListener("click", () => {
-    const isOpen = navLinks.classList.toggle("is-open");
-    menuButton.setAttribute("aria-expanded", String(isOpen));
-  });
-}
-
-const yearNode = document.querySelector("[data-year]");
-if (yearNode) {
-  yearNode.textContent = String(new Date().getFullYear());
-}
-
 const affinityForm = document.querySelector("[data-affinity-form]");
 if (affinityForm) {
   affinityForm.addEventListener("input", () => {

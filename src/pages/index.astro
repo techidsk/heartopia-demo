@@ -2,7 +2,43 @@
 import StaticContentPage from "@components/StaticContentPage.astro";
 import { getStaticPage } from "@data/staticPages";
 
-const page = getStaticPage("/");
+const basePage = getStaticPage("/");
+const contentReplacements = [
+  [
+    `<div class="mini-stat"><strong>10</strong><span>fish spot records</span></div>
+            <div class="mini-stat"><strong>8</strong><span>shop records</span></div>`,
+    `<div class="mini-stat"><strong>114</strong><span>wiki asset files</span></div>
+            <div class="mini-stat"><strong>81</strong><span>insect records</span></div>`
+  ],
+  [
+    `<p>Browse the main Heartopia routes with image-led entries, then jump into the detailed tables, tools, and checklists.</p>`,
+    `<p>Browse the main Heartopia routes with distinct entry art, including TW Wiki portraits, gardening icons, insect icons, and route visuals.</p>`
+  ],
+  [
+    `<a class="asset-card" href="/shops/"><img src="/assets/asset-map.jpg" alt="Heartopia shop route board with store markers" loading="eager"><span class="asset-card-body"><strong>Shop Routes</strong><span>Store owners, shop icons, inventory hints, unlocks, and map handoffs.</span></span></a>`,
+    `<a class="asset-card wiki-asset-card" href="/shops/"><img src="/assets/wiki/characters/ka-ching.png" alt="Ka Ching shopkeeper portrait" loading="eager"><span class="asset-card-body"><small>Wiki portrait</small><strong>Shop Routes</strong><span>Store owners, shop icons, inventory hints, unlocks, and map handoffs.</span></span></a>`
+  ],
+  [
+    `<a class="asset-card" href="/recipes/"><img src="/assets/asset-events.jpg" alt="Heartopia recipe and cooking route scene" loading="eager"><span class="asset-card-body"><strong>Recipes Database</strong><span>Cooking routes, ingredients, jam variants, and QTE risk notes.</span></span></a>`,
+    `<a class="asset-card wiki-asset-card" href="/recipes/"><img src="/assets/wiki/gardening/potato.png" alt="Potato gardening icon used by recipe routes" loading="eager"><span class="asset-card-body"><small>Ingredient icon</small><strong>Recipes Database</strong><span>Cooking routes, ingredients, jam variants, and QTE risk notes.</span></span></a>`
+  ],
+  [
+    `<a class="asset-card" href="/crops/"><img src="/assets/asset-gardening.jpg" alt="Heartopia garden crop route scene" loading="eager"><span class="asset-card-body"><strong>Crops Database</strong><span>Growth times, seed prices, plot planning, and profit comparison.</span></span></a>`,
+    `<a class="asset-card wiki-asset-card" href="/crops/"><img src="/assets/wiki/gardening/tomato.png" alt="Tomato gardening icon from the TW wiki" loading="eager"><span class="asset-card-body"><small>Wiki crop icon</small><strong>Crops Database</strong><span>Growth times, seed prices, plot planning, and profit comparison.</span></span></a>
+            <a class="asset-card wiki-asset-card" href="/gardening/"><img src="/assets/wiki/gardening/garden-019.png" alt="Morning glory gardening icon from the TW wiki" loading="eager"><span class="asset-card-body"><small>28 wiki rows</small><strong>Gardening Handbook</strong><span>Crops, flowers, trees, hobby levels, lore, and source links.</span></span></a>
+            <a class="asset-card wiki-asset-card" href="/insects/"><img src="/assets/wiki/insects/insect-001.png" alt="Heartopia insect icon from the TW wiki" loading="eager"><span class="asset-card-body"><small>81 bug icons</small><strong>Insect Database</strong><span>Bug icons, time windows, weather, rarity, and route labels.</span></span></a>
+            <a class="asset-card wiki-asset-card" href="/characters/"><img src="/assets/wiki/characters/blanc.png" alt="Blanc character portrait from the TW wiki" loading="eager"><span class="asset-card-body"><small>5 portraits</small><strong>Characters & NPCs</strong><span>Imported portraits, source names, roles, shops, and detail pages.</span></span></a>`
+  ],
+  [
+    `<a class="asset-card" href="/hobbies/"><img src="/assets/asset-gardening.jpg" alt="Heartopia hobby route hub scene" loading="eager"><span class="asset-card-body"><strong>Hobbies Hub</strong><span>Seven core routes across fishing, gardening, cooking, birds, insects, cats, and dogs.</span></span></a>`,
+    `<a class="asset-card wiki-asset-card" href="/hobbies/"><img src="/assets/wiki/gardening/corn.png" alt="Corn gardening icon for Heartopia hobby routes" loading="eager"><span class="asset-card-body"><small>Route hub</small><strong>Hobbies Hub</strong><span>Seven core routes across fishing, gardening, cooking, birds, insects, cats, and dogs.</span></span></a>`
+  ]
+] as const;
+
+const page = {
+  ...basePage,
+  content: contentReplacements.reduce((content, [from, to]) => content.replace(from, to), basePage.content)
+};
 ---
 
 <StaticContentPage page={page} />

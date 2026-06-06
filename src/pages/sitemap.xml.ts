@@ -6,7 +6,10 @@ const escapeXml = (value: string) =>
 
 const imageForEntry = (entry: RouteEntry) => {
   if (entry.path.startsWith("/fish/")) return "/assets/asset-fishing.jpg";
+  if (entry.path.startsWith("/characters/")) return "/assets/wiki/characters/blanc.png";
   if (entry.path.startsWith("/crops/")) return "/assets/asset-gardening.jpg";
+  if (entry.path.startsWith("/gardening/")) return "/assets/wiki/gardening/tomato.png";
+  if (entry.path.startsWith("/insects/")) return "/assets/wiki/insects/insect-001.png";
   if (entry.path.startsWith("/recipes/")) return "/assets/asset-events.jpg";
   if (entry.path.startsWith("/shops/") || entry.path === "/map/") return "/assets/asset-map.jpg";
   if (entry.path === "/download/") return "/assets/asset-download.jpg";
@@ -18,14 +21,14 @@ const imageForEntry = (entry: RouteEntry) => {
 
 const changefreqForEntry = (entry: RouteEntry) => {
   if (entry.path === "/" || ["Codes", "Tools", "Events"].includes(entry.section)) return "weekly";
-  if (["Fish", "Crops", "Recipes", "Shops"].includes(entry.section)) return "monthly";
+  if (["Characters", "Fish", "Crops", "Gardening", "Insects", "Recipes", "Shops"].includes(entry.section)) return "monthly";
   return "monthly";
 };
 
 const priorityForEntry = (entry: RouteEntry) => {
   if (entry.path === "/") return "1.0";
   if (entry.path.split("/").filter(Boolean).length === 1) return "0.8";
-  if (["Fish", "Crops", "Recipes", "Shops"].includes(entry.section)) return "0.6";
+  if (["Characters", "Fish", "Crops", "Gardening", "Insects", "Recipes", "Shops"].includes(entry.section)) return "0.6";
   if (entry.section === "Site") return "0.4";
   return "0.5";
 };

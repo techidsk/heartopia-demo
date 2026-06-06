@@ -1,4 +1,4 @@
-import { crops, fish, hobbies, recipes, shops, tools } from "./heartopia";
+import { crops, fish, gardening, hobbies, insects, npcs, recipes, shops, tools } from "./heartopia";
 import { staticPages } from "./staticPages";
 
 export type RouteEntry = {
@@ -67,6 +67,22 @@ const generatedRoutes: RouteEntry[] = [
       [shop.name, shop.type, shop.owner, shop.region, ...shop.inventory]
     )
   ),
+  route(
+    "/characters/",
+    "Heartopia Characters",
+    "Character and NPC hub with TW Wiki portraits, source names, roles, locations, shops, map handoffs, and friendship notes.",
+    "Database",
+    ["characters", "NPCs", "portraits", "friendship", "wiki"]
+  ),
+  ...npcs.map((npc) =>
+    route(
+      `/characters/${npc.id}/`,
+      `${npc.name} - Heartopia Character`,
+      `${npc.name} character detail with ${npc.role}, ${npc.location}, gift route notes, map handoff, and ${npc.nameZh || "structured"} source name.`,
+      "Characters",
+      [npc.name, npc.nameZh || "", npc.group, npc.role, npc.location, ...npc.gifts]
+    )
+  ),
   route("/crops/", "Heartopia Crop Database", "Crop database with growth times, seed costs, sell values, unlocks, route groups, and recipe handoffs.", "Database", [
     "crops",
     "gardening",
@@ -79,6 +95,38 @@ const generatedRoutes: RouteEntry[] = [
       `${crop.name} crop detail with ${crop.growth} growth, ${crop.unlock} unlock, seed cost, sell value, and route links.`,
       "Crops",
       [crop.name, crop.group, crop.growth, crop.unlock, crop.route, crop.use]
+    )
+  ),
+  route(
+    "/gardening/",
+    "Heartopia Gardening Handbook",
+    "Gardening handbook imported from the TW wiki with crop, flower, tree, icon, hobby level, season, and source links.",
+    "Database",
+    ["gardening", "crops", "flowers", "wiki", "園藝手冊"]
+  ),
+  ...gardening.map((item) =>
+    route(
+      `/gardening/${item.id}/`,
+      `${item.name} - Heartopia Gardening Handbook`,
+      `${item.name} gardening entry with ${item.nameZh} source name, ${item.season} season, hobby level ${item.hobbyLevel}, route notes, icon, and wiki source.`,
+      "Gardening",
+      [item.name, item.nameZh, item.category, item.season, item.route, item.hobbyLevel]
+    )
+  ),
+  route(
+    "/insects/",
+    "Heartopia Insect Database",
+    "Insect database imported from the TW wiki with bug icons, time windows, weather, routes, rarity, hobby level, and source links.",
+    "Database",
+    ["insects", "bugs", "bug catching", "蟲蟲物語"]
+  ),
+  ...insects.map((item) =>
+    route(
+      `/insects/${item.id}/`,
+      `${item.name} - Heartopia Insect`,
+      `${item.name} insect detail with ${item.time} time window, ${item.weather} weather, ${item.route} route, rarity ${item.rarity}, and wiki source.`,
+      "Insects",
+      [item.name, item.nameZh, item.season, item.time, item.weather, item.route, item.rarity, item.hobbyLevel]
     )
   ),
   route("/recipes/", "Heartopia Recipes Database", "Recipe database with ingredients, source lanes, route groups, risk notes, and cooking tool handoffs.", "Database", [

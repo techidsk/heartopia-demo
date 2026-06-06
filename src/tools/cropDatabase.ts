@@ -29,6 +29,8 @@ export function initCropDatabase() {
     const id = cropId(card);
     const group = card.getAttribute("data-group") || "active";
     const name = card.getAttribute("data-name") || "Crop";
+    const nameZh = card.getAttribute("data-name-zh") || "";
+    const image = card.getAttribute("data-image") || "";
     const growth = card.getAttribute("data-growth") || "Unknown";
     const seed = card.getAttribute("data-seed") || "Unknown";
     const sell = card.getAttribute("data-sell") || "Unknown";
@@ -36,6 +38,10 @@ export function initCropDatabase() {
     const unlock = card.getAttribute("data-unlock") || "Lv ?";
     const route = card.getAttribute("data-route") || "Check crop planner.";
     const use = card.getAttribute("data-use") || "Planting route candidate.";
+    const season = card.getAttribute("data-season") || "";
+    const level = card.getAttribute("data-level") || "";
+    const lore = card.getAttribute("data-lore") || "";
+    const wikiUrl = card.getAttribute("data-wiki-url") || "";
     const shop = card.getAttribute("data-shop") || "/shops/?q=seed";
     const tool = card.getAttribute("data-tool") || "/tools/crop-planner/";
     const related = card.getAttribute("data-related") || "/recipes/";
@@ -43,21 +49,28 @@ export function initCropDatabase() {
     const badgeClass = card.querySelector<HTMLElement>(".crop-badge")?.className || "crop-badge";
 
     detail.innerHTML = `
-      <div class="npc-detail-head"><span class="${escapeHtml(badgeClass)}">${escapeHtml(badgeText)}</span><div><h2>${escapeHtml(name)}</h2><p>${escapeHtml(route)}</p></div></div>
+      <div class="${image ? "collection-detail-head" : "npc-detail-head"}">
+        ${image ? `<img src="${escapeHtml(image)}" alt="${escapeHtml(name)} crop icon" loading="lazy">` : `<span class="${escapeHtml(badgeClass)}">${escapeHtml(badgeText)}</span>`}
+        <div><h2>${escapeHtml(name)}</h2><p>${nameZh ? `${escapeHtml(nameZh)} · ` : ""}${escapeHtml(route)}</p></div>
+      </div>
       <span class="crop-route-chip">${escapeHtml(group)} route</span>
       <div class="map-meta">
         <span><strong>Growth:</strong> ${escapeHtml(growth)}</span>
         <span><strong>Unlock:</strong> ${escapeHtml(unlock)}</span>
+        ${level ? `<span><strong>Wiki level:</strong> ${escapeHtml(level)}</span>` : ""}
+        ${season ? `<span><strong>Season:</strong> ${escapeHtml(season)}</span>` : ""}
         <span><strong>Seed:</strong> ${escapeHtml(seed)}</span>
         <span><strong>Base sell:</strong> ${escapeHtml(sell)}</span>
         <span><strong>Margin:</strong> ${escapeHtml(profit)}</span>
         <span><strong>Use:</strong> ${escapeHtml(use)}</span>
       </div>
+      ${lore ? `<p>${escapeHtml(lore)}</p>` : ""}
       <label class="crop-watch-toggle"><input type="checkbox" data-crop-db-watch ${watchlist.has(id) ? "checked" : ""}> Add to planting watchlist</label>
       <div class="entity-action-grid">
         <a class="pastel-button" href="${escapeHtml(tool)}">${group === "active" ? "Compare Profit" : "Open Planner"}</a>
         <a class="pastel-button alt" href="${escapeHtml(shop)}">Find Seeds</a>
         <a class="pastel-button alt" href="${escapeHtml(related)}">Related Uses</a>
+        ${wikiUrl ? `<a class="pastel-button alt" href="${escapeHtml(wikiUrl)}" rel="nofollow noopener" target="_blank">Wiki Source</a>` : ""}
       </div>
     `;
 
