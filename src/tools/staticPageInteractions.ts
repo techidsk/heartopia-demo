@@ -247,6 +247,97 @@ const mapGuideHref = (point) => {
   return "/map/";
 };
 
+const hasCjkText = (value) => /[\u3400-\u9fff]/.test(String(value || ""));
+
+const levelWords = {
+  "一级": "Level 1",
+  "二级": "Level 2",
+  "三级": "Level 3",
+  "四级": "Level 4",
+  "五级": "Level 5",
+  "六级": "Level 6",
+  "七级": "Level 7",
+  "八级": "Level 8",
+  "九级": "Level 9",
+  "十级": "Level 10",
+  "十一级": "Level 11",
+  "十二级": "Level 12"
+};
+
+const knownMapTerms = [
+  ["心动小镇", "Heartopia"],
+  ["城镇设施", "Town facilities"],
+  ["小镇居民", "Town residents"],
+  ["居民区", "Residential district"],
+  ["码头", "Pier"],
+  ["城镇", "Central Town"],
+  ["渔村", "Fishing Village"],
+  ["森林", "Forest"],
+  ["花田", "Flower Field"],
+  ["温泉山湖", "Onsen Mountain Lake"],
+  ["温泉山", "Onsen Mountains"],
+  ["湖鱼", "Lake fish"],
+  ["海鱼", "Sea fish"],
+  ["鱼", "Fish"],
+  ["鸟类", "Birds"],
+  ["虫类", "Insects"],
+  ["每周粉色泡泡", "Weekly pink bubble"],
+  ["动物新邻季限定泡泡", "Animal Neighbor season bubble"],
+  ["泡泡", "Bubbles"],
+  ["采集资源", "Gathering resources"],
+  ["限时资源", "Timed resources"],
+  ["梦光影", "Dreamlight event"],
+  ["冰雪季", "Snow season"],
+  ["潮流季限定", "Trend season limited"],
+  ["沸雪浴场", "Snow bathhouse"],
+  ["巴士站", "Bus stop"],
+  ["公交站台", "Bus stop"],
+  ["宠物之家", "Pet shop"],
+  ["捕虫商店", "Bug-catching shop"],
+  ["钓鱼商店", "Fishing shop"],
+  ["服装店", "Clothing store"],
+  ["家具店", "Furniture workshop"],
+  ["音乐广场", "Music plaza"],
+  ["烹饪商店", "Cooking shop"],
+  ["幸运商店", "Lucky shop"],
+  ["海钓", "Sea fishing"],
+  ["户外工匠台", "Outdoor crafting bench"],
+  ["户外灶台", "Outdoor stove"],
+  ["彩蛋", "Easter egg"]
+];
+
+const translateMapText = (value, fallback = "Local map marker") => {
+  let text = String(value || "").trim();
+  if (!text) return fallback;
+  Object.entries(levelWords).forEach(([source, target]) => {
+    text = text.replace(new RegExp(source, "g"), target);
+  });
+  knownMapTerms.forEach(([source, target]) => {
+    text = text.replace(new RegExp(source, "g"), target);
+  });
+  text = text.replace(/([a-z])(?=\d)/gi, "$1 ").replace(/[()（）]/g, " ").replace(/\s+/g, " ").trim();
+  return hasCjkText(text) ? fallback : text;
+};
+
+const mapPointDisplay = (point) => {
+  const categoryLabel =
+    {
+      npc: "Resident marker",
+      shop: "Facility marker",
+      animal: "Wildlife marker",
+      fish: "Fish marker",
+      resource: "Resource marker",
+      home: "Bubble marker"
+    }[point.category] || "Local map marker";
+  const title = translateMapText(point.title || point.typeTitle, categoryLabel);
+  const type = translateMapText(point.typeTitle || point.title, categoryLabel);
+  const groups = Array.isArray(point.groupTitles)
+    ? point.groupTitles.map((group) => translateMapText(group, "")).filter(Boolean)
+    : [];
+  const region = translateMapText(point.regionName, "Global map layer");
+  return { title, type, groups, region };
+};
+
 const initHeartopiaLeafletMap = async (interactiveMap) => {
   const stage = interactiveMap.querySelector(".map-stage");
   const detail = interactiveMap.querySelector("[data-map-detail]");
@@ -280,24 +371,34 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
       home: "#b45ca9"
     };
     const aliasTerms = {
-      "gardening-store": ["园艺商店", "布兰克"],
-      "furniture-workshop": ["波叔", "家具店"],
-      "pet-shop": ["宠物之家"],
-      "clothing-store": ["服装店", "多萝西"],
-      "music-store": ["音乐商店", "安妮"],
-      "general-store": ["卡清"],
-      "sea-fishing-booth": ["海钓", "比尔"],
-      dorothy: ["多萝西"],
-      bob: ["波叔"],
-      "ka-ching": ["卡清"],
-      bill: ["比尔"],
-      "forest-lake": ["森林湖鱼"],
-      "meadow-lake": ["草原湖鱼"],
-      "whale-sea": ["鲸鱼海"],
-      "onsen-mountain-lake": ["温泉山湖鱼"],
-      bamboo: ["稀有木材"],
-      "shiitake-mushrooms": ["香菇"],
-      "oyster-mushrooms": ["蘑菇"]
+      "gardening-store": ["gardening store", "园艺商店", "布兰克"],
+      "furniture-workshop": ["furniture workshop", "波叔", "家具店"],
+      "pet-shop": ["pet shop", "宠物之家"],
+      "clothing-store": ["clothing store", "服装店", "多萝西"],
+      "music-store": ["music store", "音乐商店", "安妮"],
+      "general-store": ["general store", "卡清"],
+      "sea-fishing-booth": ["sea fishing", "海钓", "比尔"],
+      dorothy: ["Dorothy", "多萝西"],
+      bob: ["Bob", "波叔"],
+      "ka-ching": ["Ka Ching", "卡清"],
+      bill: ["Bill", "比尔"],
+      "forest-lake": ["forest lake", "森林湖鱼"],
+      "meadow-lake": ["meadow lake", "草原湖鱼"],
+      "whale-sea": ["whale sea", "鲸鱼海"],
+      "onsen-mountain-lake": ["onsen mountain lake", "温泉山湖鱼"],
+      bamboo: ["bamboo", "稀有木材"],
+      "shiitake-mushrooms": ["shiitake", "香菇"],
+      "oyster-mushrooms": ["oyster mushroom", "蘑菇"],
+      "central-town": ["gardening store", "园艺商店"],
+      forest: ["forest lake", "森林湖鱼"],
+      "flower-field": ["meadow lake", "草原湖鱼"],
+      "fishing-village": ["sea fishing", "海钓"],
+      "onsen-mountains": ["onsen mountain lake", "温泉山湖鱼"],
+      panda: ["panda", "熊猫"],
+      fox: ["fox", "狐狸"],
+      capybara: ["capybara", "水豚"],
+      "sea-otter": ["sea otter", "海獭"],
+      bubble: ["bubble", "泡泡"]
     };
 
     filters.forEach((button) => {
@@ -357,6 +458,7 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
     let visibleEntries = [];
     const markerEntries = data.points.map((point) => {
       const color = categoryColors[point.category] || categoryColors.resource;
+      const display = mapPointDisplay(point);
       const marker = L.circleMarker([point.lat, point.lng], {
         radius: point.defaultVisible ? 7 : 5,
         color: "#ffffff",
@@ -366,13 +468,24 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
         opacity: 1
       });
       marker.on("click", () => selectPoint(point));
-      marker.bindTooltip(point.title, { direction: "top", offset: [0, -8], opacity: 0.92 });
+      marker.bindTooltip(display.title, { direction: "top", offset: [0, -8], opacity: 0.92 });
       return { point, marker };
     });
 
     const markerMatches = (point, filter, query) => {
       const matchesFilter = filter === "all" || point.category === filter;
-      return matchesFilter && matchesSearchTerms(point.search || point.title, query);
+      const display = mapPointDisplay(point);
+      const haystack = [
+        point.category,
+        point.search,
+        point.title,
+        point.typeTitle,
+        display.title,
+        display.type,
+        display.region,
+        display.groups.join(" ")
+      ].join(" ");
+      return matchesFilter && matchesSearchTerms(haystack, query);
     };
 
     const styleMarker = (entry) => {
@@ -400,13 +513,14 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
       selectedPoint = point;
       markerEntries.forEach(styleMarker);
       const categoryLabel = categoryLabels[point.category] || "Point";
-      const groupText = point.groupTitles?.length ? point.groupTitles.join(" / ") : "Local route marker";
-      const regionText = point.regionName || "Global map layer";
+      const display = mapPointDisplay(point);
+      const groupText = display.groups.length ? display.groups.join(" / ") : "Local route marker";
+      const regionText = display.region;
       const completed = completedMarkers.has(point.id);
       const guideHref = mapGuideHref(point);
       detail.innerHTML = `
-        <h2>${escapeHtml(point.title)}</h2>
-        <p>${escapeHtml(point.typeTitle)} · ${escapeHtml(categoryLabel)}. Use this marker inside the local Heartopia route layer.</p>
+        <h2>${escapeHtml(display.title)}</h2>
+        <p>${escapeHtml(display.type)} · ${escapeHtml(categoryLabel)}. Use this marker inside the local Heartopia route layer.</p>
         <div class="map-meta">
           <span><strong>Category:</strong> ${escapeHtml(categoryLabel)}</span>
           <span><strong>Group:</strong> ${escapeHtml(groupText)}</span>
@@ -454,7 +568,7 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
         else {
           detail.innerHTML = `
             <h2>No Map Match</h2>
-            <p>Try a shorter search like 多萝西, 园艺商店, 蓝莓, 湖鱼, 泡泡, bird, fish, or resource.</p>
+            <p>Try a shorter search like Dorothy, gardening store, blueberry, lake fish, bubble, bird, fish, or resource.</p>
           `;
         }
       } else {
@@ -475,8 +589,76 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
     fullscreenButton?.addEventListener("click", () => {
       const isFullscreen = interactiveMap.classList.toggle("is-fullscreen");
       fullscreenButton.setAttribute("aria-pressed", String(isFullscreen));
-      fullscreenButton.textContent = isFullscreen ? "Exit Full Screen" : "Full Screen";
+      fullscreenButton.textContent = isFullscreen ? "Exit full screen" : "Full screen";
       window.setTimeout(() => map.invalidateSize(), 60);
+    });
+
+    const contentSelectionTerms = [
+      ["starter loop", "gardening-store"],
+      ["animal loop", "fox"],
+      ["fishing loop", "meadow-lake"],
+      ["central town", "central-town"],
+      ["fishing village", "fishing-village"],
+      ["flower field", "flower-field"],
+      ["onsen mountain", "onsen-mountains"],
+      ["forest lake", "forest-lake"],
+      ["forest", "forest"],
+      ["home", "bubble"],
+      ["alpaca", "fox"],
+      ["bunny", "pet-shop"],
+      ["capybara", "capybara"],
+      ["ferret", "fish"],
+      ["fox", "fox"],
+      ["panda", "panda"],
+      ["sea otter", "sea-otter"],
+      ["sika deer", "forest"],
+      ["dorothy", "dorothy"],
+      ["bob", "bob"],
+      ["bailey", "pet-shop"],
+      ["ka ching", "ka-ching"],
+      ["bill", "bill"],
+      ["naughty", "onsen-mountains"],
+      ["doris", "clothing-store"],
+      ["meadow lake", "meadow-lake"],
+      ["whale sea", "whale-sea"],
+      ["secret pond", "fish"]
+    ];
+
+    const findPointForTerms = (terms) => {
+      for (const term of terms) {
+        if (!term) continue;
+        const point =
+          data.points.find((candidate) => markerMatches(candidate, "all", term)) ||
+          data.points.find((candidate) => matchesSearchTerms(candidate.search, term));
+        if (point) return point;
+      }
+      return null;
+    };
+
+    const selectContentTarget = (rawText) => {
+      const text = normalizeText(rawText);
+      const match = contentSelectionTerms.find(([label]) => text.includes(label));
+      const terms = match ? aliasTerms[match[1]] || [match[1]] : [text];
+      const point = findPointForTerms(terms);
+      if (!point) return false;
+      if (searchInput) searchInput.value = "";
+      activeFilter = "all";
+      filters.forEach((item) => item.setAttribute("aria-pressed", String(item.getAttribute("data-map-filter") === "all")));
+      applyMapFilters();
+      selectPoint(point, true);
+      detail.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      return true;
+    };
+
+    document.querySelectorAll(".map-route-card, .dense-table tbody tr").forEach((node) => {
+      node.addEventListener("click", () => selectContentTarget(node.textContent || ""));
+      node.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        selectContentTarget(node.textContent || "");
+      });
+      if (!node.hasAttribute("tabindex")) node.setAttribute("tabindex", "0");
+      if (!node.hasAttribute("role")) node.setAttribute("role", "button");
     });
 
     const requestedMarker = new URLSearchParams(window.location.search).get("marker") || "";
