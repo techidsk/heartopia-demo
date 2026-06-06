@@ -1840,6 +1840,20 @@ if (guidePlanner) {
   const searchInput = guidePlanner.querySelector("[data-guide-search]");
   const filterButtons = Array.from(guidePlanner.querySelectorAll("[data-guide-filter]"));
   const countNode = guidePlanner.querySelector("[data-guide-count]");
+  const labels = {
+    route: guidePlanner.getAttribute("data-guide-label-route") || "route",
+    tasksDone: guidePlanner.getAttribute("data-guide-label-tasks-done") || "route tasks done",
+    saved: guidePlanner.getAttribute("data-guide-label-saved") || "Saved locally in this browser.",
+    primary: guidePlanner.getAttribute("data-guide-label-primary") || "Open Primary Page",
+    tool: guidePlanner.getAttribute("data-guide-label-tool") || "Open Tool",
+    secondary: guidePlanner.getAttribute("data-guide-label-secondary") || "Related Route",
+    shownSingular: guidePlanner.getAttribute("data-guide-label-shown-singular") || "route shown",
+    shownPlural: guidePlanner.getAttribute("data-guide-label-shown-plural") || "routes shown",
+    noMatchTitle: guidePlanner.getAttribute("data-guide-label-no-match-title") || "No Guide Match",
+    noMatchBody:
+      guidePlanner.getAttribute("data-guide-label-no-match-body") ||
+      "Try a shorter search like cooking, pet, event, gold, or fishing."
+  };
   let activeFilter = "all";
   let selectedCard = cards.find((card) => card.classList.contains("is-selected")) || cards[0];
   let checkedSteps = new Set(safeReadJson(storageKey, []));
@@ -1850,7 +1864,7 @@ if (guidePlanner) {
     const progressNode = detail?.querySelector("[data-guide-progress]");
     if (!progressNode) return;
     const done = steps.filter((step) => checkedSteps.has(guideStepKey(guideId, step))).length;
-    progressNode.textContent = `${done}/${steps.length} route tasks done`;
+    progressNode.textContent = `${done}/${steps.length} ${labels.tasksDone}`;
   };
 
   const renderGuideDetail = (card) => {
@@ -1870,17 +1884,17 @@ if (guidePlanner) {
     const badgeClass = card.querySelector(".guide-badge")?.className || "guide-badge";
     detail.innerHTML = `
       <div class="npc-detail-head"><span class="${escapeHtml(badgeClass)}">${escapeHtml(badgeText)}</span><div><h2>${escapeHtml(name)}</h2><p>${escapeHtml(priority)}</p></div></div>
-      <span class="guide-route-chip">${escapeHtml(group)} route</span>
+      <span class="guide-route-chip">${escapeHtml(group)} ${escapeHtml(labels.route)}</span>
       <p>${escapeHtml(summary)}</p>
       <div class="guide-step-list">${steps.map((step) => {
         const key = guideStepKey(id, step);
         return `<label class="material-item"><input type="checkbox" data-guide-step="${escapeHtml(key)}" ${checkedSteps.has(key) ? "checked" : ""}><span>${escapeHtml(step)}</span></label>`;
       }).join("")}</div>
-      <div class="tracker-progress"><strong data-guide-progress>0/${steps.length} route tasks done</strong><span>Saved locally in this browser.</span></div>
+      <div class="tracker-progress"><strong data-guide-progress>0/${steps.length} ${escapeHtml(labels.tasksDone)}</strong><span>${escapeHtml(labels.saved)}</span></div>
       <div class="entity-action-grid">
-        <a class="pastel-button" href="${escapeHtml(primary)}">Open Primary Page</a>
-        <a class="pastel-button alt" href="${escapeHtml(tool)}">Open Tool</a>
-        <a class="pastel-button alt" href="${escapeHtml(secondary)}">Related Route</a>
+        <a class="pastel-button" href="${escapeHtml(primary)}">${escapeHtml(labels.primary)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(tool)}">${escapeHtml(labels.tool)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(secondary)}">${escapeHtml(labels.secondary)}</a>
       </div>
     `;
     updateGuideProgress(id, steps);
@@ -1900,10 +1914,12 @@ if (guidePlanner) {
         if (!firstVisible) firstVisible = card;
       }
     });
-    if (countNode) countNode.textContent = `${visibleCount} route${visibleCount === 1 ? "" : "s"} shown`;
+    if (countNode) {
+      countNode.textContent = `${visibleCount} ${visibleCount === 1 ? labels.shownSingular : labels.shownPlural}`;
+    }
     if (firstVisible && (!selectedCard || selectedCard.hidden)) renderGuideDetail(firstVisible);
     if (!firstVisible && detail) {
-      detail.innerHTML = `<h2>No Guide Match</h2><p>Try a shorter search like cooking, pet, event, gold, or fishing.</p>`;
+      detail.innerHTML = `<h2>${escapeHtml(labels.noMatchTitle)}</h2><p>${escapeHtml(labels.noMatchBody)}</p>`;
     }
   };
 
