@@ -1,7 +1,7 @@
 import { crops, fish, gardening, hobbies, insects, npcs, recipes, shops, tools } from "./heartopia";
 import { getSiteConfig } from "./site";
 import { getStaticPages } from "./staticPages";
-import { defaultLocale, type Locale } from "@i18n/config";
+import { defaultLocale, localizePath, supportedLocales, type Locale } from "@i18n/config";
 
 export type RouteEntry = {
   path: string;
@@ -201,6 +201,20 @@ export function getFeedEntries(locale: Locale = defaultLocale) {
   return getRouteEntries(locale)
     .filter((entry) => !["Site"].includes(entry.section))
     .slice(0, 30);
+}
+
+export function getIndexableRouteEntries() {
+  const defaultEntries = getRouteEntries(defaultLocale);
+  const translatedStaticEntries = supportedLocales
+    .filter((locale) => locale !== defaultLocale)
+    .flatMap((locale) => {
+      const updated = getSiteConfig(locale).updatedDate;
+      return getStaticPages(locale)
+        .filter((page) => page.path !== "/404.html" && page.translationStatus === "translated")
+        .map((page) => route(updated, localizePath(page.path, locale), page.title, page.description, page.section, page.keywords, page.ogImage));
+    });
+
+  return [...defaultEntries, ...translatedStaticEntries].filter((entry) => !entry.path.includes("?") && !entry.path.includes("#"));
 }
 
 export const routeEntries = getRouteEntries(defaultLocale);

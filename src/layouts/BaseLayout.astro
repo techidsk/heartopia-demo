@@ -5,6 +5,11 @@ import { getSiteConfig, type FooterGroup } from "@data/site";
 import { defaultLocale, getAlternateLocalePaths, getCanonicalPath, type Locale } from "@i18n/config";
 import { getUiMessages } from "@i18n/messages";
 
+type AlternateLocalePath = {
+  hrefLang: string;
+  path: string;
+};
+
 interface Props {
   title: string;
   description: string;
@@ -17,6 +22,7 @@ interface Props {
   schema?: Record<string, unknown> | Array<Record<string, unknown>>;
   bodyClass?: string;
   footerGroups?: FooterGroup[];
+  alternateLocalePaths?: AlternateLocalePath[];
 }
 
 const {
@@ -30,12 +36,14 @@ const {
   robots = "index,follow,max-image-preview:large",
   schema,
   bodyClass = "wiki-body",
-  footerGroups
+  footerGroups,
+  alternateLocalePaths
 } = Astro.props;
 const siteConfig = getSiteConfig(locale);
 const messages = getUiMessages(locale);
 const canonical = new URL(getCanonicalPath(canonicalPath, locale), siteConfig.origin).toString();
-const alternateLinks = getAlternateLocalePaths(canonicalPath).map((link) => ({
+const alternateSourceLinks = alternateLocalePaths || getAlternateLocalePaths(canonicalPath);
+const alternateLinks = alternateSourceLinks.map((link) => ({
   ...link,
   href: new URL(link.path, siteConfig.origin).toString()
 }));

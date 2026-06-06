@@ -1,6 +1,6 @@
 import rawPages from "./content/static-pages.json";
 import zhHansStaticPages from "./content/i18n/zh-Hans/static-pages.json";
-import { defaultLocale, supportedLocales, type Locale } from "@i18n/config";
+import { defaultLocale, getLocaleMeta, localizePath, supportedLocales, type Locale } from "@i18n/config";
 
 export type StaticPage = {
   path: string;
@@ -60,13 +60,31 @@ export function getStaticPages(locale: Locale = defaultLocale) {
 
 export const staticPages = getStaticPages(defaultLocale);
 
+const normalizeStaticPath = (path: string) => (path === "/" || path.endsWith("/") || path.endsWith(".html") ? path : `${path}/`);
+
 export function getTranslatedStaticPagePaths(locale: Locale = defaultLocale) {
   if (locale === defaultLocale) return [...englishPagesByPath.keys()];
   return (translatedStaticPages[locale] || []).map((page) => page.path);
 }
 
+export function isStaticPageTranslated(path: string, locale: Locale = defaultLocale) {
+  const normalized = normalizeStaticPath(path);
+  return getTranslatedStaticPagePaths(locale).includes(normalized);
+}
+
+export function getStaticPageAlternateLocalePaths(path: string) {
+  const normalized = normalizeStaticPath(path);
+  return supportedLocales
+    .filter((locale) => isStaticPageTranslated(normalized, locale))
+    .map((locale) => ({
+      locale,
+      hrefLang: getLocaleMeta(locale).language,
+      path: localizePath(normalized, locale)
+    }));
+}
+
 export function getStaticPage(path: string, locale: Locale = defaultLocale) {
-  const normalized = path === "/" || path.endsWith("/") || path.endsWith(".html") ? path : `${path}/`;
+  const normalized = normalizeStaticPath(path);
   const page = pagesByLocale[locale].get(normalized);
   if (!page) throw new Error(`Static page not found for ${locale}: ${path}`);
   return page;

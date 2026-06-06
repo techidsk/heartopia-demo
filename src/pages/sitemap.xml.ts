@@ -1,9 +1,9 @@
 import { getSiteConfig } from "@data/site";
-import { getRouteEntries, type RouteEntry } from "@data/routes";
+import { getIndexableRouteEntries, type RouteEntry } from "@data/routes";
 import { defaultLocale } from "@i18n/config";
 
 const siteConfig = getSiteConfig(defaultLocale);
-const routeEntries = getRouteEntries(defaultLocale);
+const routeEntries = getIndexableRouteEntries();
 
 const escapeXml = (value: string) =>
   value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -24,7 +24,7 @@ const imageForEntry = (entry: RouteEntry) => {
   return siteConfig.defaultImage;
 };
 
-const sitemapEntries = routeEntries.filter((entry) => !entry.path.includes("?") && !entry.path.includes("#"));
+const sitemapEntries = routeEntries;
 
 export function GET() {
   const body = `<?xml version="1.0" encoding="UTF-8"?>

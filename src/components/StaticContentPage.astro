@@ -1,7 +1,7 @@
 ---
 import { getSiteConfig } from "@data/site";
-import type { StaticPage } from "@data/staticPages";
-import { defaultLocale, isLocaleIndexable, localizePath, type Locale } from "@i18n/config";
+import { getStaticPageAlternateLocalePaths, type StaticPage } from "@data/staticPages";
+import { defaultLocale, localizePath, type Locale } from "@i18n/config";
 import { getUiMessages } from "@i18n/messages";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
@@ -17,8 +17,9 @@ const messages = getUiMessages(locale);
 const canonicalPath = page.path === "/404.html" ? "/404.html" : page.path;
 const currentPath = page.path === "/404.html" ? "/" : page.path;
 const resolvedRobots =
-  robots || (page.translationStatus === "fallback" || !isLocaleIndexable(locale) ? "noindex,follow" : "index,follow,max-image-preview:large");
+  robots || (page.translationStatus === "fallback" ? "noindex,follow" : "index,follow,max-image-preview:large");
 const showFallbackNotice = page.translationStatus === "fallback";
+const alternateLocalePaths = getStaticPageAlternateLocalePaths(canonicalPath);
 ---
 
 <BaseLayout
@@ -29,6 +30,7 @@ const showFallbackNotice = page.translationStatus === "fallback";
   currentPath={currentPath}
   ogImage={page.ogImage || siteConfig.defaultImage}
   robots={resolvedRobots}
+  alternateLocalePaths={alternateLocalePaths}
 >
   {showFallbackNotice && (
     <section class="wiki-section tint-mint">

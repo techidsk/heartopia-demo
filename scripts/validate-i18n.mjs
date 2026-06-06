@@ -7,7 +7,10 @@ const localesPath = path.join(rootDir, "src", "i18n", "locales.json");
 const astroConfigPath = path.join(rootDir, "astro.config.mjs");
 const tsconfigPath = path.join(rootDir, "tsconfig.json");
 const sitePath = path.join(rootDir, "src", "data", "site.ts");
+const routesPath = path.join(rootDir, "src", "data", "routes.ts");
 const staticPagesPath = path.join(rootDir, "src", "data", "staticPages.ts");
+const sitemapPath = path.join(rootDir, "src", "pages", "sitemap.xml.ts");
+const searchIndexPath = path.join(rootDir, "src", "pages", "search-index.json.ts");
 const staticPagesJsonPath = path.join(rootDir, "src", "data", "content", "static-pages.json");
 const staticPagesI18nDir = path.join(rootDir, "src", "data", "content", "i18n");
 const localizedIndexPath = path.join(rootDir, "src", "pages", "[locale]", "index.astro");
@@ -83,6 +86,24 @@ if (!staticPagesSource.includes("translationStatus")) {
 }
 if (!staticPagesSource.includes("translatedStaticPages")) {
   failures.push("src/data/staticPages.ts: static-page translations should load locale overlay files");
+}
+if (!staticPagesSource.includes("getStaticPageAlternateLocalePaths")) {
+  failures.push("src/data/staticPages.ts: translated static pages should expose page-level alternate locale paths");
+}
+
+const routesSource = await readText(routesPath);
+if (!routesSource.includes("getIndexableRouteEntries")) {
+  failures.push("src/data/routes.ts: missing getIndexableRouteEntries for SEO/search artifacts");
+}
+
+for (const [filePath, artifact] of [
+  [sitemapPath, "sitemap"],
+  [searchIndexPath, "search index"]
+]) {
+  const source = await readText(filePath);
+  if (!source.includes("getIndexableRouteEntries")) {
+    failures.push(`${path.relative(rootDir, filePath)}: ${artifact} should use getIndexableRouteEntries`);
+  }
 }
 
 const defaultStaticPages = JSON.parse(await readText(staticPagesJsonPath));
