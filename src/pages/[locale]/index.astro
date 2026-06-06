@@ -1,0 +1,22 @@
+---
+import StaticContentPage from "@components/StaticContentPage.astro";
+import { getStaticPage } from "@data/staticPages";
+import { defaultLocale, getLocaleByPathPrefix, getLocaleMeta, supportedLocales, type Locale } from "@i18n/config";
+
+export function getStaticPaths() {
+  const localizedLocales = supportedLocales.filter((locale) => locale !== defaultLocale);
+  return localizedLocales.map((locale) => ({
+    params: { locale: getLocaleMeta(locale).pathPrefix },
+    props: { locale }
+  }));
+}
+
+interface Props {
+  locale: Locale;
+}
+
+const locale = getLocaleByPathPrefix(Astro.params.locale) || Astro.props.locale;
+const page = getStaticPage("/", locale);
+---
+
+<StaticContentPage page={page} locale={locale} />

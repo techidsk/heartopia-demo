@@ -1,0 +1,40 @@
+---
+import type { RouteEntry } from "@data/routes";
+import { defaultLocale, localizePath, type Locale } from "@i18n/config";
+import { getUiMessages } from "@i18n/messages";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  entry: RouteEntry;
+  locale: Locale;
+}
+
+const { entry, locale } = Astro.props;
+const messages = getUiMessages(locale);
+---
+
+<BaseLayout
+  title={entry.title}
+  description={entry.description}
+  locale={locale}
+  canonicalPath={entry.path}
+  currentPath={entry.path}
+  ogImage={entry.image}
+  robots="noindex,follow"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <h1>{entry.title}</h1>
+      <p>{entry.description}</p>
+    </div>
+  </section>
+  <section class="wiki-section tint-mint">
+    <div class="wiki-shell">
+      <div class="source-panel">
+        <h2>{messages.translation.fallbackTitle}</h2>
+        <p>{messages.translation.fallbackBody}</p>
+        <a class="pastel-button alt" href={localizePath(entry.path, defaultLocale)}>{messages.translation.openEnglish}</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,13 +1,113 @@
 {
   "defaultLocale": "en",
   "locales": {
+    "de": {
+      "label": "Deutsch",
+      "htmlLang": "de",
+      "language": "de",
+      "ogLocale": "de_DE",
+      "pathPrefix": "de",
+      "textDirection": "ltr",
+      "indexable": false
+    },
     "en": {
       "label": "English",
       "htmlLang": "en",
       "language": "en",
       "ogLocale": "en_US",
       "pathPrefix": "",
-      "textDirection": "ltr"
+      "textDirection": "ltr",
+      "indexable": true
+    },
+    "es": {
+      "label": "Español",
+      "htmlLang": "es",
+      "language": "es",
+      "ogLocale": "es_ES",
+      "pathPrefix": "es",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "fr": {
+      "label": "Français",
+      "htmlLang": "fr",
+      "language": "fr",
+      "ogLocale": "fr_FR",
+      "pathPrefix": "fr",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "pt": {
+      "label": "Português",
+      "htmlLang": "pt",
+      "language": "pt",
+      "ogLocale": "pt_PT",
+      "pathPrefix": "pt",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "id": {
+      "label": "B. Indonesia",
+      "htmlLang": "id",
+      "language": "id",
+      "ogLocale": "id_ID",
+      "pathPrefix": "id",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "ru": {
+      "label": "Русский",
+      "htmlLang": "ru",
+      "language": "ru",
+      "ogLocale": "ru_RU",
+      "pathPrefix": "ru",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "th": {
+      "label": "ภาษาไทย",
+      "htmlLang": "th",
+      "language": "th",
+      "ogLocale": "th_TH",
+      "pathPrefix": "th",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "ja": {
+      "label": "日本語",
+      "htmlLang": "ja",
+      "language": "ja",
+      "ogLocale": "ja_JP",
+      "pathPrefix": "ja",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "ko": {
+      "label": "한국어",
+      "htmlLang": "ko",
+      "language": "ko",
+      "ogLocale": "ko_KR",
+      "pathPrefix": "ko",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "zh-Hant": {
+      "label": "繁體中文",
+      "htmlLang": "zh-Hant",
+      "language": "zh-Hant",
+      "ogLocale": "zh_TW",
+      "pathPrefix": "zh-hant",
+      "textDirection": "ltr",
+      "indexable": false
+    },
+    "zh-Hans": {
+      "label": "简体中文",
+      "htmlLang": "zh-Hans",
+      "language": "zh-Hans",
+      "ogLocale": "zh_CN",
+      "pathPrefix": "zh-hans",
+      "textDirection": "ltr",
+      "indexable": false
     }
   }
 }

@@ -1,5 +1,5 @@
 import rawPages from "./content/static-pages.json";
-import { defaultLocale, type Locale } from "@i18n/config";
+import { defaultLocale, supportedLocales, type Locale } from "@i18n/config";
 
 export type StaticPage = {
   path: string;
@@ -9,11 +9,21 @@ export type StaticPage = {
   keywords: string[];
   ogImage?: string;
   content: string;
+  translationStatus?: "translated" | "fallback";
 };
 
-const staticPagesByLocale = {
-  en: rawPages as StaticPage[]
-} satisfies Record<Locale, StaticPage[]>;
+const englishPages = (rawPages as StaticPage[]).map((page) => ({ ...page, translationStatus: "translated" as const }));
+
+const makeFallbackPages = (locale: Locale) =>
+  englishPages.map((page) => ({
+    ...page,
+    keywords: [...page.keywords, locale],
+    translationStatus: locale === defaultLocale ? ("translated" as const) : ("fallback" as const)
+  }));
+
+const staticPagesByLocale = Object.fromEntries(
+  supportedLocales.map((locale) => [locale, locale === defaultLocale ? englishPages : makeFallbackPages(locale)])
+) as Record<Locale, StaticPage[]>;
 
 const pagesByLocale = Object.fromEntries(
   Object.entries(staticPagesByLocale).map(([locale, pages]) => [locale, new Map(pages.map((page) => [page.path, page]))])

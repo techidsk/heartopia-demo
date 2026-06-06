@@ -1,6 +1,6 @@
 ---
 import { getNavGroups, getSiteConfig } from "@data/site";
-import { defaultLocale, localizePath, type Locale } from "@i18n/config";
+import { defaultLocale, getLocaleMeta, localizePath, sourcePathFromLocalizedPath, supportedLocales, type Locale } from "@i18n/config";
 import { getUiMessages } from "@i18n/messages";
 
 interface Props {
@@ -13,12 +13,21 @@ const siteConfig = getSiteConfig(locale);
 const navGroups = getNavGroups(locale);
 const messages = getUiMessages(locale);
 const homePath = localizePath("/", locale);
-const normalizedCurrent = currentPath.endsWith("/") ? currentPath : `${currentPath}/`;
+const sourceCurrentPath = sourcePathFromLocalizedPath(currentPath);
+const normalizedCurrent = sourceCurrentPath.endsWith("/") ? sourceCurrentPath : `${sourceCurrentPath}/`;
 const isCurrent = (href: string) => {
-  if (href === "/") return normalizedCurrent === "/";
-  return normalizedCurrent.startsWith(href);
+  const sourceHref = sourcePathFromLocalizedPath(href);
+  const normalizedHref = sourceHref.endsWith("/") ? sourceHref : `${sourceHref}/`;
+  if (normalizedHref === "/") return normalizedCurrent === "/";
+  return normalizedCurrent.startsWith(normalizedHref);
 };
 const isGroupCurrent = (links: Array<{ href: string }>) => links.some((link) => isCurrent(link.href));
+const languageLinks = supportedLocales.map((targetLocale) => ({
+  locale: targetLocale,
+  label: getLocaleMeta(targetLocale).label,
+  href: localizePath(sourceCurrentPath, targetLocale),
+  current: targetLocale === locale
+}));
 ---
 
 <header class="site-header">
@@ -59,6 +68,23 @@ const isGroupCurrent = (links: Array<{ href: string }>) => links.some((link) => 
           </div>
         </div>
       ))}
+      <div class="nav-group language-nav-group" data-nav-group>
+        <button
+          class="nav-group-trigger"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-panel-language"
+          data-nav-trigger
+        >
+          <span>{messages.navigation.languageLabel}</span>
+          <span class="nav-chevron" aria-hidden="true"></span>
+        </button>
+        <div class="nav-dropdown language-dropdown" id="nav-panel-language" data-nav-dropdown>
+          {languageLinks.map((item) => (
+            <a href={item.href} aria-current={item.current ? "page" : undefined}>{item.label}</a>
+          ))}
+        </div>
+      </div>
     </div>
   </nav>
 </header>

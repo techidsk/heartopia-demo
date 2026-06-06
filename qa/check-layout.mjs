@@ -39,7 +39,10 @@ const paths = [
   "/shops/",
   "/shops/gardening-store/",
   "/tools/profit-calculator/",
-  "/search/"
+  "/search/",
+  "/de/",
+  "/ja/fish/wels-catfish/",
+  "/zh-hans/"
 ];
 const viewports = [
   { width: 375, height: 812 },

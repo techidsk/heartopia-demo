@@ -1,0 +1,34 @@
+---
+import LocalizedFallbackPage from "@components/LocalizedFallbackPage.astro";
+import StaticContentPage from "@components/StaticContentPage.astro";
+import { getRouteEntries, type RouteEntry } from "@data/routes";
+import { getStaticPage, getStaticPages, type StaticPage } from "@data/staticPages";
+import { defaultLocale, getLocaleByPathPrefix, getLocaleMeta, supportedLocales, type Locale } from "@i18n/config";
+
+export function getStaticPaths() {
+  const localizedLocales = supportedLocales.filter((locale) => locale !== defaultLocale);
+  const sourceRoutes = getRouteEntries(defaultLocale).filter((entry) => entry.path !== "/" && entry.path !== "/404.html");
+  return localizedLocales.flatMap((locale) => {
+    const prefix = getLocaleMeta(locale).pathPrefix;
+    return sourceRoutes.map((entry) => ({
+      params: { locale: prefix, slug: entry.path.replace(/^\/|\/$/g, "") },
+      props: { locale, entry }
+    }));
+  });
+}
+
+interface Props {
+  locale: Locale;
+  entry: RouteEntry;
+}
+
+const locale = getLocaleByPathPrefix(Astro.params.locale) || Astro.props.locale;
+const entry = Astro.props.entry;
+const staticPaths = new Set(getStaticPages(locale).map((page) => page.path));
+let page: StaticPage | undefined;
+if (staticPaths.has(entry.path)) {
+  page = getStaticPage(entry.path, locale);
+}
+---
+
+{page ? <StaticContentPage page={page} locale={locale} /> : <LocalizedFallbackPage entry={entry} locale={locale} />}
