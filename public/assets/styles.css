@@ -1426,6 +1426,52 @@ td {
   background: #dff5f7;
 }
 
+.heartopia-leaflet-map {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  min-height: 420px;
+  background: #6c9fb0;
+}
+
+.map-section.is-leaflet-ready .map-canvas,
+.map-section.is-leaflet-ready .heartopia-map,
+.map-section.is-leaflet-loading .map-canvas,
+.map-section.is-leaflet-loading .heartopia-map {
+  display: none;
+}
+
+.map-section.is-leaflet-loading .map-stage::after {
+  content: "Loading Heartopia map data...";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 4;
+  transform: translate(-50%, -50%);
+  padding: 0.65rem 0.85rem;
+  border-radius: 8px;
+  background: rgba(255, 250, 242, 0.94);
+  color: #5a4338;
+  font-weight: 800;
+  box-shadow: 0 12px 30px rgba(66, 51, 42, 0.16);
+}
+
+.heartopia-leaflet-map .leaflet-control-attribution {
+  border-radius: 6px 0 0 0;
+  background: rgba(255, 250, 242, 0.9);
+  color: #6e6259;
+  font-size: 0.72rem;
+}
+
+.heartopia-leaflet-map .leaflet-tooltip {
+  border: 0;
+  border-radius: 6px;
+  background: rgba(47, 38, 31, 0.92);
+  color: #fff;
+  font-weight: 800;
+  box-shadow: 0 8px 18px rgba(47, 38, 31, 0.2);
+}
+
 .map-canvas,
 .heartopia-map {
   position: absolute;

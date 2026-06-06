@@ -1,3 +1,6 @@
+import * as L from "leaflet";
+import "leaflet/dist/leaflet.css";
+
 export function initStaticPageInteractions() {
 const menuButton = document.querySelector("[data-menu-button]");
 const navLinks = document.querySelector("[data-nav-links]");
@@ -216,8 +219,314 @@ if (shopGrid) {
     });
 }
 
+const createHeartopiaMapOverlay = () => {
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-label="Heartopia local route map">
+      <defs>
+        <linearGradient id="sea" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#bdeaf1"/><stop offset="1" stop-color="#8fcbd9"/></linearGradient>
+        <linearGradient id="forest" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#caeab9"/><stop offset="1" stop-color="#73b977"/></linearGradient>
+        <linearGradient id="town" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff0c9"/><stop offset="1" stop-color="#efbf73"/></linearGradient>
+        <linearGradient id="mountain" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#e5e0d6"/><stop offset="1" stop-color="#aebbb7"/></linearGradient>
+        <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#5f4a3d" flood-opacity="0.16"/></filter>
+      </defs>
+      <rect width="1200" height="1200" fill="url(#sea)"/>
+      <path d="M44 690 C104 594 188 548 281 600 C364 646 409 806 326 1036 C196 1101 78 1038 38 902 Z" fill="#f4dfa3" filter="url(#softShadow)"/>
+      <path d="M108 130 C266 48 450 109 514 254 C535 326 443 466 298 474 C160 485 67 381 70 246 Z" fill="url(#forest)" filter="url(#softShadow)"/>
+      <path d="M378 438 C492 333 704 338 810 454 C909 563 840 742 660 794 C514 839 391 726 342 606 Z" fill="url(#town)" filter="url(#softShadow)"/>
+      <path d="M666 78 C845 25 1069 135 1146 316 C1093 470 905 537 746 446 C626 378 581 211 666 78 Z" fill="url(#mountain)" filter="url(#softShadow)"/>
+      <path d="M142 560 C273 477 433 560 438 733 C357 870 206 858 105 745 Z" fill="#cfedbd" filter="url(#softShadow)"/>
+      <path d="M759 684 C899 585 1116 666 1170 829 C1121 1047 922 1167 750 1062 C660 934 668 772 759 684 Z" fill="#f4cea1" filter="url(#softShadow)"/>
+      <path d="M206 139 C286 309 414 492 542 625 C659 746 781 882 871 1061" fill="none" stroke="#69b5cc" stroke-width="34" stroke-linecap="round" opacity="0.62"/>
+      <path d="M206 139 C286 309 414 492 542 625 C659 746 781 882 871 1061" fill="none" stroke="#f3ffff" stroke-width="8" stroke-linecap="round" opacity="0.62"/>
+      <path d="M244 766 C462 650 685 659 910 752" fill="none" stroke="#a8825d" stroke-width="26" stroke-linecap="round" stroke-dasharray="4 34" opacity="0.56"/>
+      <path d="M640 598 C735 430 863 369 1032 377" fill="none" stroke="#a8825d" stroke-width="26" stroke-linecap="round" stroke-dasharray="4 34" opacity="0.48"/>
+      <g fill="#5a4338" font-family="Georgia, 'Times New Roman', serif" font-weight="900" font-size="40" text-anchor="middle" paint-order="stroke" stroke="#fff7df" stroke-width="9" stroke-linejoin="round">
+        <text x="250" y="282">Forest</text><text x="608" y="605">Central Town</text><text x="246" y="695">Flower Field</text><text x="919" y="286">Onsen</text><text x="930" y="878">Fishing Village</text><text x="198" y="950">Home</text>
+      </g>
+      <g opacity="0.75">
+        <circle cx="170" cy="234" r="18" fill="#43814f"/><circle cx="246" cy="188" r="20" fill="#43814f"/><circle cx="333" cy="244" r="24" fill="#43814f"/>
+        <circle cx="190" cy="381" r="18" fill="#43814f"/><circle cx="351" cy="410" r="20" fill="#43814f"/>
+        <path d="M841 237 l46 -93 l49 93 z" fill="#8a958f"/><path d="M942 276 l62 -124 l64 124 z" fill="#8a958f"/><path d="M730 276 l52 -107 l56 107 z" fill="#8a958f"/>
+      </g>
+    </svg>`;
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+};
+
+const mapGuideHref = (point) => {
+  if (point.category === "shop") return "/shops/";
+  if (point.category === "fish") return "/fish/";
+  if (point.category === "animal") return "/animal-favorites/";
+  if (point.category === "npc") return "/npcs/";
+  if (point.category === "home") return "/house-designs/";
+  if (point.category === "resource") return "/recipes/";
+  return "/map/";
+};
+
+const initHeartopiaLeafletMap = async (interactiveMap) => {
+  const stage = interactiveMap.querySelector(".map-stage");
+  const detail = interactiveMap.querySelector("[data-map-detail]");
+  const filters = Array.from(interactiveMap.querySelectorAll("[data-map-filter]"));
+  const searchInput = interactiveMap.querySelector("[data-map-search]");
+  const resultNode = interactiveMap.querySelector("[data-map-result-count]");
+  const fullscreenButton = interactiveMap.querySelector("[data-map-fullscreen]");
+  const storageKey = "heartopia-map-completed";
+  if (!stage || !detail) return;
+
+  interactiveMap.classList.add("is-leaflet-loading");
+  stage.insertAdjacentHTML("afterbegin", '<div class="heartopia-leaflet-map" data-leaflet-map role="application" aria-label="Heartopia Leaflet route map"></div>');
+  const mapNode = stage.querySelector("[data-leaflet-map]");
+
+  try {
+    const data = await fetch("/assets/data/heartopia-map.json").then((response) => {
+      if (!response.ok) throw new Error(`Heartopia map data returned ${response.status}`);
+      return response.json();
+    });
+    const bounds = [
+      [data.map.bounds[1], data.map.bounds[0]],
+      [data.map.bounds[3], data.map.bounds[2]]
+    ];
+    const categoryLabels = Object.fromEntries(data.categories.map((category) => [category.id, category.label]));
+    const categoryColors = {
+      npc: "#d75f82",
+      shop: "#3c83b7",
+      animal: "#6c8f39",
+      fish: "#287f90",
+      resource: "#a86f2e",
+      home: "#b45ca9"
+    };
+    const aliasTerms = {
+      "gardening-store": ["园艺商店", "布兰克"],
+      "furniture-workshop": ["波叔", "家具店"],
+      "pet-shop": ["宠物之家"],
+      "clothing-store": ["服装店", "多萝西"],
+      "music-store": ["音乐商店", "安妮"],
+      "general-store": ["卡清"],
+      "sea-fishing-booth": ["海钓", "比尔"],
+      dorothy: ["多萝西"],
+      bob: ["波叔"],
+      "ka-ching": ["卡清"],
+      bill: ["比尔"],
+      "forest-lake": ["森林湖鱼"],
+      "meadow-lake": ["草原湖鱼"],
+      "whale-sea": ["鲸鱼海"],
+      "onsen-mountain-lake": ["温泉山湖鱼"],
+      bamboo: ["稀有木材"],
+      "shiitake-mushrooms": ["香菇"],
+      "oyster-mushrooms": ["蘑菇"]
+    };
+
+    filters.forEach((button) => {
+      const filter = button.getAttribute("data-map-filter") || "all";
+      if (filter === "all") button.textContent = `All (${data.points.length})`;
+      else if (categoryLabels[filter]) {
+        const count = data.categories.find((category) => category.id === filter)?.count || 0;
+        button.textContent = `${categoryLabels[filter]} (${count})`;
+      }
+    });
+
+    const completedMarkers = (() => {
+      try {
+        return new Set(JSON.parse(localStorage.getItem(storageKey) || "[]"));
+      } catch {
+        return new Set();
+      }
+    })();
+    const writeCompleted = () => {
+      try {
+        localStorage.setItem(storageKey, JSON.stringify([...completedMarkers]));
+      } catch {}
+    };
+
+    const map = L.map(mapNode, {
+      minZoom: data.map.minZoom,
+      maxZoom: data.map.maxZoom,
+      maxBounds: bounds,
+      maxBoundsViscosity: 0.75,
+      zoomSnap: 0.25,
+      wheelPxPerZoomLevel: 80,
+      attributionControl: false
+    });
+    map.setView([data.map.startLat || 0, data.map.startLng || 0], data.map.initialZoom || 9);
+    L.imageOverlay(createHeartopiaMapOverlay(), bounds, {
+      opacity: 1,
+      interactive: false
+    }).addTo(map);
+
+    const regionLayer = L.layerGroup().addTo(map);
+    data.regions
+      .filter((region) => Array.isArray(region.polygon) && region.polygon.length)
+      .forEach((region) => {
+        const rings = region.polygon.map((ring) => ring.map(([lng, lat]) => [lat, lng]));
+        L.polygon(rings, {
+          color: region.parentId ? "rgba(87, 99, 79, 0.35)" : "rgba(87, 99, 79, 0.6)",
+          weight: region.parentId ? 1 : 2,
+          fillColor: "#f5d8a5",
+          fillOpacity: region.parentId ? 0.03 : 0.06,
+          interactive: false
+        }).addTo(regionLayer);
+      });
+
+    const markerLayer = L.layerGroup().addTo(map);
+    let activeFilter = "all";
+    let selectedPoint = null;
+    let visibleEntries = [];
+    const markerEntries = data.points.map((point) => {
+      const color = categoryColors[point.category] || categoryColors.resource;
+      const marker = L.circleMarker([point.lat, point.lng], {
+        radius: point.defaultVisible ? 7 : 5,
+        color: "#ffffff",
+        weight: point.defaultVisible ? 2 : 1,
+        fillColor: color,
+        fillOpacity: point.defaultVisible ? 0.95 : 0.72,
+        opacity: 1
+      });
+      marker.on("click", () => selectPoint(point));
+      marker.bindTooltip(point.title, { direction: "top", offset: [0, -8], opacity: 0.92 });
+      return { point, marker };
+    });
+
+    const markerMatches = (point, filter, query) => {
+      const matchesFilter = filter === "all" || point.category === filter;
+      return matchesFilter && matchesSearchTerms(point.search || point.title, query);
+    };
+
+    const styleMarker = (entry) => {
+      const isSelected = selectedPoint?.id === entry.point.id;
+      const isComplete = completedMarkers.has(entry.point.id);
+      const color = categoryColors[entry.point.category] || categoryColors.resource;
+      entry.marker.setStyle({
+        radius: isSelected ? 10 : entry.point.defaultVisible ? 7 : 5,
+        color: isSelected ? "#2f261f" : isComplete ? "#f6fff0" : "#ffffff",
+        weight: isSelected ? 3 : isComplete ? 2 : 1,
+        fillColor: isComplete ? "#8aa76a" : color,
+        fillOpacity: isSelected ? 1 : entry.point.defaultVisible ? 0.95 : 0.72
+      });
+      if (isSelected) entry.marker.bringToFront();
+    };
+
+    const renderProgress = () => {
+      const progressNode = interactiveMap.querySelector("[data-map-progress]");
+      if (!progressNode) return;
+      const completedVisible = visibleEntries.filter(({ point }) => completedMarkers.has(point.id)).length;
+      progressNode.textContent = `${completedVisible}/${visibleEntries.length} visible markers completed`;
+    };
+
+    function selectPoint(point, shouldPan = true) {
+      selectedPoint = point;
+      markerEntries.forEach(styleMarker);
+      const categoryLabel = categoryLabels[point.category] || "Point";
+      const groupText = point.groupTitles?.length ? point.groupTitles.join(" / ") : "Local route marker";
+      const regionText = point.regionName || "Global map layer";
+      const completed = completedMarkers.has(point.id);
+      const guideHref = mapGuideHref(point);
+      detail.innerHTML = `
+        <h2>${escapeHtml(point.title)}</h2>
+        <p>${escapeHtml(point.typeTitle)} · ${escapeHtml(categoryLabel)}. Use this marker inside the local Heartopia route layer.</p>
+        <div class="map-meta">
+          <span><strong>Category:</strong> ${escapeHtml(categoryLabel)}</span>
+          <span><strong>Group:</strong> ${escapeHtml(groupText)}</span>
+          <span><strong>Region:</strong> ${escapeHtml(regionText)}</span>
+          <span><strong>Coords:</strong> ${point.lng.toFixed(4)}, ${point.lat.toFixed(4)}</span>
+        </div>
+        <div class="map-progress-card"><strong data-map-progress>0/0 visible markers completed</strong><span>Progress is saved locally in this browser.</span></div>
+        <div class="map-action-row">
+          <button class="map-state-button" type="button" data-map-toggle-complete="${escapeHtml(point.id)}">${completed ? "Mark incomplete" : "Mark complete"}</button>
+          <a class="map-state-button link" href="${escapeHtml(guideHref)}">Open Related Guide</a>
+        </div>
+        <div class="map-legend" aria-label="Map legend">
+          <span><i class="legend-dot npc"></i> Residents</span>
+          <span><i class="legend-dot shop"></i> Facilities</span>
+          <span><i class="legend-dot animal"></i> Wildlife</span>
+          <span><i class="legend-dot"></i> Fish</span>
+          <span><i class="legend-dot resource"></i> Resources</span>
+          <span><i class="legend-dot home"></i> Bubbles</span>
+        </div>
+      `;
+      const toggleButton = detail.querySelector("[data-map-toggle-complete]");
+      toggleButton?.addEventListener("click", () => {
+        if (completedMarkers.has(point.id)) completedMarkers.delete(point.id);
+        else completedMarkers.add(point.id);
+        writeCompleted();
+        selectPoint(point, false);
+      });
+      renderProgress();
+      if (shouldPan) map.panTo([point.lat, point.lng], { animate: true, duration: 0.35 });
+    }
+
+    const applyMapFilters = () => {
+      const query = searchInput?.value || "";
+      markerLayer.clearLayers();
+      visibleEntries = markerEntries.filter(({ point }) => markerMatches(point, activeFilter, query));
+      visibleEntries.forEach((entry) => {
+        styleMarker(entry);
+        entry.marker.addTo(markerLayer);
+      });
+      if (resultNode) {
+        resultNode.textContent = `${visibleEntries.length} marker${visibleEntries.length === 1 ? "" : "s"} shown`;
+      }
+      if (!visibleEntries.some(({ point }) => point.id === selectedPoint?.id)) {
+        if (visibleEntries[0]) selectPoint(visibleEntries[0].point, false);
+        else {
+          detail.innerHTML = `
+            <h2>No Map Match</h2>
+            <p>Try a shorter search like 多萝西, 园艺商店, 蓝莓, 湖鱼, 泡泡, bird, fish, or resource.</p>
+          `;
+        }
+      } else {
+        markerEntries.forEach(styleMarker);
+        renderProgress();
+      }
+    };
+
+    filters.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeFilter = button.getAttribute("data-map-filter") || "all";
+        filters.forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+        applyMapFilters();
+      });
+    });
+    searchInput?.addEventListener("input", applyMapFilters);
+
+    fullscreenButton?.addEventListener("click", () => {
+      const isFullscreen = interactiveMap.classList.toggle("is-fullscreen");
+      fullscreenButton.setAttribute("aria-pressed", String(isFullscreen));
+      fullscreenButton.textContent = isFullscreen ? "Exit Full Screen" : "Full Screen";
+      window.setTimeout(() => map.invalidateSize(), 60);
+    });
+
+    const requestedMarker = new URLSearchParams(window.location.search).get("marker") || "";
+    const requestedTerms = aliasTerms[requestedMarker] || [requestedMarker];
+    const initialPoint =
+      data.points.find((point) => point.id === requestedMarker || String(point.sourceId) === requestedMarker) ||
+      data.points.find((point) => requestedTerms.some((term) => term && matchesSearchTerms(point.search, term))) ||
+      data.points.find((point) => point.defaultVisible) ||
+      data.points[0];
+
+    if (requestedMarker && !searchInput?.value) {
+      const alias = aliasTerms[requestedMarker]?.[0];
+      if (alias && searchInput) searchInput.value = alias;
+    }
+    applyMapFilters();
+    if (initialPoint) selectPoint(initialPoint, true);
+    interactiveMap.classList.remove("is-leaflet-loading");
+    interactiveMap.classList.add("is-leaflet-ready");
+    window.setTimeout(() => map.invalidateSize(), 100);
+  } catch (error) {
+    interactiveMap.classList.remove("is-leaflet-loading");
+    interactiveMap.classList.add("is-leaflet-error");
+    detail.innerHTML = `
+      <h2>Map Data Could Not Load</h2>
+      <p>The local Heartopia Leaflet map is unavailable right now. Refresh the page or use the static route notes below.</p>
+    `;
+    console.error(error);
+  }
+};
+
 const interactiveMap = document.querySelector("[data-interactive-map]");
 if (interactiveMap) {
+  if (interactiveMap.getAttribute("data-map-source") === "leaflet") {
+    initHeartopiaLeafletMap(interactiveMap);
+  } else {
   const detail = interactiveMap.querySelector("[data-map-detail]");
   const markers = Array.from(interactiveMap.querySelectorAll("[data-map-point]"));
   const filters = Array.from(interactiveMap.querySelectorAll("[data-map-filter]"));
@@ -582,6 +891,7 @@ if (interactiveMap) {
   applyMapFilters();
   if (initialMarker) showMarker(initialMarker);
   renderProgress();
+  }
 }
 
 const cropForm = document.querySelector("[data-crop-form]");

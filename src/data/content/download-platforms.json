@@ -9,7 +9,12 @@
     "requirement": "Reported iOS 12.0 or later",
     "cta": "Open App Store",
     "href": "https://apps.apple.com/us/app/heartopia/id6746151928",
-    "steps": ["Open the App Store listing.", "Check publisher and region availability.", "Install or update from the store.", "Launch the game and verify account linking."]
+    "steps": [
+      "Open the App Store listing.",
+      "Check publisher and region availability.",
+      "Install or update from the store.",
+      "Launch the game and verify account linking."
+    ]
   },
   {
     "id": "google-play",
@@ -21,7 +26,12 @@
     "requirement": "Reported Android 7.0+",
     "cta": "Open Google Play",
     "href": "https://play.google.com/store/apps/details?id=com.xd.xdtglobal.gp&hl=en_US",
-    "steps": ["Open the Google Play listing.", "Check publisher, package name, and device compatibility.", "Install or update from Play.", "Avoid APK mirrors when Play is available."]
+    "steps": [
+      "Open the Google Play listing.",
+      "Check publisher, package name, and device compatibility.",
+      "Install or update from Play.",
+      "Avoid APK mirrors when Play is available."
+    ]
   },
   {
     "id": "steam",
@@ -33,7 +43,12 @@
     "requirement": "Check the current Steam system requirements",
     "cta": "Open Steam",
     "href": "https://store.steampowered.com/app/4025700/Heartopia/",
-    "steps": ["Open the Steam store page.", "Review current release state and system requirements.", "Install through Steam when available.", "Keep patches inside Steam."]
+    "steps": [
+      "Open the Steam store page.",
+      "Review current release state and system requirements.",
+      "Install through Steam when available.",
+      "Keep patches inside Steam."
+    ]
   },
   {
     "id": "official-site",
@@ -45,19 +60,12 @@
     "requirement": "Verify the current launcher or store handoff",
     "cta": "Review Official Paths",
     "href": "#paths",
-    "steps": ["Use the publisher-owned Heartopia or XD route.", "Choose your platform and region.", "Follow the store or launcher handoff.", "Do not enter account data on copied pages."]
-  },
-  {
-    "id": "taptap-region",
-    "platform": "TapTap / Region Store",
-    "device": "Regional mobile route",
-    "routeType": "regional",
-    "risk": "medium",
-    "region": "Use only if it is an official publisher listing in your region",
-    "requirement": "Region and account flow can differ",
-    "cta": "Read Risk Matrix",
-    "href": "#risk-matrix",
-    "steps": ["Confirm the listing belongs to the publisher.", "Check whether your account region matches.", "Prefer app-store routes when available.", "Avoid copied install packages."]
+    "steps": [
+      "Use the publisher-owned Heartopia or XD route.",
+      "Choose your platform and region.",
+      "Follow the store or launcher handoff.",
+      "Do not enter account data on copied pages."
+    ]
   },
   {
     "id": "emulator",
@@ -69,6 +77,11 @@
     "requirement": "May break controls, performance, or account expectations",
     "cta": "Read Safety Notes",
     "href": "#safety",
-    "steps": ["Use official PC or store builds first.", "Do not install repacked game clients.", "Do not enter credentials into emulator download pages.", "Expect support and performance differences."]
+    "steps": [
+      "Use official PC or store builds first.",
+      "Do not install repacked game clients.",
+      "Do not enter credentials into emulator download pages.",
+      "Expect support and performance differences."
+    ]
   }
 ]
