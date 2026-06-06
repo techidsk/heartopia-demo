@@ -1,4 +1,7 @@
-import { siteConfig } from "@data/site";
+import { getSiteConfig } from "@data/site";
+import { defaultLocale } from "@i18n/config";
+
+const siteConfig = getSiteConfig(defaultLocale);
 
 export function GET() {
   const sitemap = new URL("/sitemap.xml", siteConfig.origin).toString();

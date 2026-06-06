@@ -1,5 +1,9 @@
-import { siteConfig } from "@data/site";
-import { routeEntries, type RouteEntry } from "@data/routes";
+import { getSiteConfig } from "@data/site";
+import { getRouteEntries, type RouteEntry } from "@data/routes";
+import { defaultLocale } from "@i18n/config";
+
+const siteConfig = getSiteConfig(defaultLocale);
+const routeEntries = getRouteEntries(defaultLocale);
 
 const escapeXml = (value: string) =>
   value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

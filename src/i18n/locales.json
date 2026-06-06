@@ -1,0 +1,13 @@
+{
+  "defaultLocale": "en",
+  "locales": {
+    "en": {
+      "label": "English",
+      "htmlLang": "en",
+      "language": "en",
+      "ogLocale": "en_US",
+      "pathPrefix": "",
+      "textDirection": "ltr"
+    }
+  }
+}

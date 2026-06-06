@@ -1,14 +1,18 @@
+import { getClientMessage } from "./i18n";
+
 export function initSiteShell() {
   const menuButton = document.querySelector<HTMLButtonElement>("[data-menu-button]");
   const menuButtonLabel = document.querySelector<HTMLElement>("[data-menu-button-label]");
   const navLinks = document.querySelector<HTMLElement>("[data-nav-links]");
   const navGroups = Array.from(document.querySelectorAll<HTMLElement>("[data-nav-group]"));
+  const menuLabel = menuButton?.dataset.menuLabel || getClientMessage("navigation.menu", "Menu");
+  const closeLabel = menuButton?.dataset.closeLabel || getClientMessage("navigation.close", "Close");
 
   if (menuButton && navLinks) {
     menuButton.addEventListener("click", () => {
       const isOpen = navLinks.classList.toggle("is-open");
       menuButton.setAttribute("aria-expanded", String(isOpen));
-      if (menuButtonLabel) menuButtonLabel.textContent = isOpen ? "Close" : "Menu";
+      if (menuButtonLabel) menuButtonLabel.textContent = isOpen ? closeLabel : menuLabel;
     });
   }
 
@@ -44,7 +48,7 @@ export function initSiteShell() {
     if (menuButton && navLinks?.classList.contains("is-open")) {
       navLinks.classList.remove("is-open");
       menuButton.setAttribute("aria-expanded", "false");
-      if (menuButtonLabel) menuButtonLabel.textContent = "Menu";
+      if (menuButtonLabel) menuButtonLabel.textContent = menuLabel;
     }
   });
 

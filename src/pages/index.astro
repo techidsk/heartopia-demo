@@ -1,8 +1,9 @@
 ---
 import StaticContentPage from "@components/StaticContentPage.astro";
 import { getStaticPage } from "@data/staticPages";
+import { defaultLocale } from "@i18n/config";
 
-const basePage = getStaticPage("/");
+const basePage = getStaticPage("/", defaultLocale);
 const contentReplacements = [
   [
     `<div class="mini-stat"><strong>10</strong><span>fish spot records</span></div>
@@ -41,4 +42,4 @@ const page = {
 };
 ---
 
-<StaticContentPage page={page} />
+<StaticContentPage page={page} locale={defaultLocale} />

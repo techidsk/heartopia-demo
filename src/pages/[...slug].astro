@@ -1,9 +1,10 @@
 ---
 import StaticContentPage from "@components/StaticContentPage.astro";
-import { staticPages, type StaticPage } from "@data/staticPages";
+import { getStaticPages, type StaticPage } from "@data/staticPages";
+import { defaultLocale } from "@i18n/config";
 
 export function getStaticPaths() {
-  return staticPages
+  return getStaticPages(defaultLocale)
     .filter((page) => !["/", "/404.html", "/database/"].includes(page.path))
     .map((page) => ({
       params: { slug: page.path.replace(/^\/|\/$/g, "") },
@@ -18,4 +19,4 @@ interface Props {
 const { page } = Astro.props;
 ---
 
-<StaticContentPage page={page} />
+<StaticContentPage page={page} locale={defaultLocale} />

@@ -1,5 +1,9 @@
-import { routeEntries } from "@data/routes";
-import { siteConfig } from "@data/site";
+import { getRouteEntries } from "@data/routes";
+import { getSiteConfig } from "@data/site";
+import { defaultLocale } from "@i18n/config";
+
+const siteConfig = getSiteConfig(defaultLocale);
+const routeEntries = getRouteEntries(defaultLocale);
 
 const priorityPaths = [
   "/",

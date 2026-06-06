@@ -1,4 +1,7 @@
-import { routeEntries } from "@data/routes";
+import { getRouteEntries } from "@data/routes";
+import { defaultLocale } from "@i18n/config";
+
+const routeEntries = getRouteEntries(defaultLocale);
 
 export function GET() {
   return new Response(

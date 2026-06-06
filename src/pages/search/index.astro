@@ -1,9 +1,11 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { routeEntries } from "@data/routes";
+import { getRouteEntries } from "@data/routes";
+import { defaultLocale } from "@i18n/config";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
+const routeEntries = getRouteEntries(defaultLocale);
 const sections = [...new Set(routeEntries.map((entry) => entry.section))];
 const searchPayload = routeEntries.map(({ path, title, description, section, keywords }) => ({
   path,
@@ -17,6 +19,7 @@ const searchPayload = routeEntries.map(({ path, title, description, section, key
 <BaseLayout
   title="Heartopia Search - Pages, Databases, Tools & Routes"
   description="Search Heartopia Hub static pages, generated database entries, crop and recipe details, fish locations, shop routes, tools, guides, events, and hobby pages."
+  locale={defaultLocale}
   canonicalPath="/search/"
   currentPath="/search/"
   ogImage="/assets/heartopia-guide-hero.png"

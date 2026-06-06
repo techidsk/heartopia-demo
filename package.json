@@ -9,8 +9,9 @@
     "build": "astro build",
     "preview": "npx serve dist",
     "validate:data": "node scripts/validate-data.mjs",
+    "validate:i18n": "node scripts/validate-i18n.mjs",
     "quality": "node scripts/quality-gate.mjs",
-    "qa": "npm run validate:data && npm run build && npm run quality && npm run qa:layout",
+    "qa": "npm run validate:data && npm run validate:i18n && npm run build && npm run quality && npm run qa:layout",
     "qa:layout": "node qa/check-layout.mjs",
     "deploy": "npm run build && npx wrangler pages deploy dist --project-name heartopia-blog"
   },

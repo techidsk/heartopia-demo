@@ -1,8 +1,9 @@
 ---
 import StaticContentPage from "@components/StaticContentPage.astro";
 import { getStaticPage } from "@data/staticPages";
+import { defaultLocale } from "@i18n/config";
 
-const page = getStaticPage("/404.html");
+const page = getStaticPage("/404.html", defaultLocale);
 ---
 
-<StaticContentPage page={page} robots="noindex,follow" />
+<StaticContentPage page={page} locale={defaultLocale} robots="noindex,follow" />

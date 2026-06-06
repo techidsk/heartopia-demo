@@ -1,14 +1,17 @@
 ---
-import { siteConfig } from "@data/site";
+import { getSiteConfig } from "@data/site";
 import type { StaticPage } from "@data/staticPages";
+import { defaultLocale, type Locale } from "@i18n/config";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
 interface Props {
   page: StaticPage;
+  locale?: Locale;
   robots?: string;
 }
 
-const { page, robots = "index,follow,max-image-preview:large" } = Astro.props;
+const { page, locale = defaultLocale, robots = "index,follow,max-image-preview:large" } = Astro.props;
+const siteConfig = getSiteConfig(locale);
 const canonicalPath = page.path === "/404.html" ? "/404.html" : page.path;
 const currentPath = page.path === "/404.html" ? "/" : page.path;
 ---
@@ -16,6 +19,7 @@ const currentPath = page.path === "/404.html" ? "/" : page.path;
 <BaseLayout
   title={page.title}
   description={page.description}
+  locale={locale}
   canonicalPath={canonicalPath}
   currentPath={currentPath}
   ogImage={page.ogImage || siteConfig.defaultImage}

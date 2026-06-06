@@ -1,4 +1,7 @@
-import { siteConfig } from "@data/site";
+import { getSiteConfig } from "@data/site";
+import { defaultLocale } from "@i18n/config";
+
+const siteConfig = getSiteConfig(defaultLocale);
 
 const escapeXml = (value: string) =>
   value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
