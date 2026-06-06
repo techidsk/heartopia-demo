@@ -346,6 +346,52 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
   const resultNode = interactiveMap.querySelector("[data-map-result-count]");
   const fullscreenButton = interactiveMap.querySelector("[data-map-fullscreen]");
   const storageKey = "heartopia-map-completed";
+  const labels = {
+    all: interactiveMap.getAttribute("data-map-label-all") || "All",
+    markerShownSingular: interactiveMap.getAttribute("data-map-label-marker-shown-singular") || "marker shown",
+    markerShownPlural: interactiveMap.getAttribute("data-map-label-marker-shown-plural") || "markers shown",
+    visibleCompleted: interactiveMap.getAttribute("data-map-label-visible-completed") || "visible markers completed",
+    progressSaved: interactiveMap.getAttribute("data-map-label-progress-saved") || "Progress is saved locally in this browser.",
+    localRouteMarker: interactiveMap.getAttribute("data-map-label-local-route-marker") || "Local route marker",
+    markerBody: interactiveMap.getAttribute("data-map-label-marker-body") || "Use this marker inside the local Heartopia route layer.",
+    category: interactiveMap.getAttribute("data-map-label-category") || "Category",
+    group: interactiveMap.getAttribute("data-map-label-group") || "Group",
+    region: interactiveMap.getAttribute("data-map-label-region") || "Region",
+    coords: interactiveMap.getAttribute("data-map-label-coords") || "Coords",
+    markComplete: interactiveMap.getAttribute("data-map-label-mark-complete") || "Mark complete",
+    markIncomplete: interactiveMap.getAttribute("data-map-label-mark-incomplete") || "Mark incomplete",
+    openRelatedGuide: interactiveMap.getAttribute("data-map-label-open-related-guide") || "Open Related Guide",
+    fullscreen: interactiveMap.getAttribute("data-map-label-fullscreen") || "Full screen",
+    exitFullscreen: interactiveMap.getAttribute("data-map-label-exit-fullscreen") || "Exit full screen",
+    noMatchTitle: interactiveMap.getAttribute("data-map-label-no-match-title") || "No Map Match",
+    noMatchBody:
+      interactiveMap.getAttribute("data-map-label-no-match-body") ||
+      "Try a shorter search like Dorothy, gardening store, blueberry, lake fish, bubble, bird, fish, or resource.",
+    mapLoadErrorTitle: interactiveMap.getAttribute("data-map-label-load-error-title") || "Map Data Could Not Load",
+    mapLoadErrorBody:
+      interactiveMap.getAttribute("data-map-label-load-error-body") ||
+      "The local Heartopia Leaflet map is unavailable right now. Refresh the page or use the static route notes below.",
+    legend: interactiveMap.getAttribute("data-map-label-legend") || "Map legend",
+    legendResidents: interactiveMap.getAttribute("data-map-label-legend-residents") || "Residents",
+    legendFacilities: interactiveMap.getAttribute("data-map-label-legend-facilities") || "Facilities",
+    legendWildlife: interactiveMap.getAttribute("data-map-label-legend-wildlife") || "Wildlife",
+    legendFish: interactiveMap.getAttribute("data-map-label-legend-fish") || "Fish",
+    legendResources: interactiveMap.getAttribute("data-map-label-legend-resources") || "Resources",
+    legendBubbles: interactiveMap.getAttribute("data-map-label-legend-bubbles") || "Bubbles"
+  };
+  const categoryLabelOverrides = {
+    npc: interactiveMap.getAttribute("data-map-category-label-npc"),
+    shop: interactiveMap.getAttribute("data-map-category-label-shop"),
+    animal: interactiveMap.getAttribute("data-map-category-label-animal"),
+    fish: interactiveMap.getAttribute("data-map-category-label-fish"),
+    resource: interactiveMap.getAttribute("data-map-category-label-resource"),
+    home: interactiveMap.getAttribute("data-map-category-label-home")
+  };
+  const currentLocalePrefix = window.location.pathname.match(/^\/[a-z]{2}(?:-[a-z]+)?\//i)?.[0]?.replace(/\/$/, "") || "";
+  const localizedGuideHref = (href) => {
+    if (!currentLocalePrefix || !href.startsWith("/") || href.startsWith(`${currentLocalePrefix}/`)) return href;
+    return `${currentLocalePrefix}${href}`;
+  };
   if (!stage || !detail) return;
 
   interactiveMap.classList.add("is-leaflet-loading");
@@ -361,7 +407,9 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
       [data.map.bounds[1], data.map.bounds[0]],
       [data.map.bounds[3], data.map.bounds[2]]
     ];
-    const categoryLabels = Object.fromEntries(data.categories.map((category) => [category.id, category.label]));
+    const categoryLabels = Object.fromEntries(
+      data.categories.map((category) => [category.id, categoryLabelOverrides[category.id] || category.label])
+    );
     const categoryColors = {
       npc: "#d75f82",
       shop: "#3c83b7",
@@ -403,7 +451,7 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
 
     filters.forEach((button) => {
       const filter = button.getAttribute("data-map-filter") || "all";
-      if (filter === "all") button.textContent = `All (${data.points.length})`;
+      if (filter === "all") button.textContent = `${labels.all} (${data.points.length})`;
       else if (categoryLabels[filter]) {
         const count = data.categories.find((category) => category.id === filter)?.count || 0;
         button.textContent = `${categoryLabels[filter]} (${count})`;
@@ -506,7 +554,7 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
       const progressNode = interactiveMap.querySelector("[data-map-progress]");
       if (!progressNode) return;
       const completedVisible = visibleEntries.filter(({ point }) => completedMarkers.has(point.id)).length;
-      progressNode.textContent = `${completedVisible}/${visibleEntries.length} visible markers completed`;
+      progressNode.textContent = `${completedVisible}/${visibleEntries.length} ${labels.visibleCompleted}`;
     };
 
     function selectPoint(point, shouldPan = true) {
@@ -514,31 +562,31 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
       markerEntries.forEach(styleMarker);
       const categoryLabel = categoryLabels[point.category] || "Point";
       const display = mapPointDisplay(point);
-      const groupText = display.groups.length ? display.groups.join(" / ") : "Local route marker";
+      const groupText = display.groups.length ? display.groups.join(" / ") : labels.localRouteMarker;
       const regionText = display.region;
       const completed = completedMarkers.has(point.id);
-      const guideHref = mapGuideHref(point);
+      const guideHref = localizedGuideHref(mapGuideHref(point));
       detail.innerHTML = `
         <h2>${escapeHtml(display.title)}</h2>
-        <p>${escapeHtml(display.type)} · ${escapeHtml(categoryLabel)}. Use this marker inside the local Heartopia route layer.</p>
+        <p>${escapeHtml(display.type)} · ${escapeHtml(categoryLabel)}. ${escapeHtml(labels.markerBody)}</p>
         <div class="map-meta">
-          <span><strong>Category:</strong> ${escapeHtml(categoryLabel)}</span>
-          <span><strong>Group:</strong> ${escapeHtml(groupText)}</span>
-          <span><strong>Region:</strong> ${escapeHtml(regionText)}</span>
-          <span><strong>Coords:</strong> ${point.lng.toFixed(4)}, ${point.lat.toFixed(4)}</span>
+          <span><strong>${escapeHtml(labels.category)}:</strong> ${escapeHtml(categoryLabel)}</span>
+          <span><strong>${escapeHtml(labels.group)}:</strong> ${escapeHtml(groupText)}</span>
+          <span><strong>${escapeHtml(labels.region)}:</strong> ${escapeHtml(regionText)}</span>
+          <span><strong>${escapeHtml(labels.coords)}:</strong> ${point.lng.toFixed(4)}, ${point.lat.toFixed(4)}</span>
         </div>
-        <div class="map-progress-card"><strong data-map-progress>0/0 visible markers completed</strong><span>Progress is saved locally in this browser.</span></div>
+        <div class="map-progress-card"><strong data-map-progress>0/0 ${escapeHtml(labels.visibleCompleted)}</strong><span>${escapeHtml(labels.progressSaved)}</span></div>
         <div class="map-action-row">
-          <button class="map-state-button" type="button" data-map-toggle-complete="${escapeHtml(point.id)}">${completed ? "Mark incomplete" : "Mark complete"}</button>
-          <a class="map-state-button link" href="${escapeHtml(guideHref)}">Open Related Guide</a>
+          <button class="map-state-button" type="button" data-map-toggle-complete="${escapeHtml(point.id)}">${completed ? escapeHtml(labels.markIncomplete) : escapeHtml(labels.markComplete)}</button>
+          <a class="map-state-button link" href="${escapeHtml(guideHref)}">${escapeHtml(labels.openRelatedGuide)}</a>
         </div>
-        <div class="map-legend" aria-label="Map legend">
-          <span><i class="legend-dot npc"></i> Residents</span>
-          <span><i class="legend-dot shop"></i> Facilities</span>
-          <span><i class="legend-dot animal"></i> Wildlife</span>
-          <span><i class="legend-dot"></i> Fish</span>
-          <span><i class="legend-dot resource"></i> Resources</span>
-          <span><i class="legend-dot home"></i> Bubbles</span>
+        <div class="map-legend" aria-label="${escapeHtml(labels.legend)}">
+          <span><i class="legend-dot npc"></i> ${escapeHtml(labels.legendResidents)}</span>
+          <span><i class="legend-dot shop"></i> ${escapeHtml(labels.legendFacilities)}</span>
+          <span><i class="legend-dot animal"></i> ${escapeHtml(labels.legendWildlife)}</span>
+          <span><i class="legend-dot"></i> ${escapeHtml(labels.legendFish)}</span>
+          <span><i class="legend-dot resource"></i> ${escapeHtml(labels.legendResources)}</span>
+          <span><i class="legend-dot home"></i> ${escapeHtml(labels.legendBubbles)}</span>
         </div>
       `;
       const toggleButton = detail.querySelector("[data-map-toggle-complete]");
@@ -561,14 +609,16 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
         entry.marker.addTo(markerLayer);
       });
       if (resultNode) {
-        resultNode.textContent = `${visibleEntries.length} marker${visibleEntries.length === 1 ? "" : "s"} shown`;
+        resultNode.textContent = `${visibleEntries.length} ${
+          visibleEntries.length === 1 ? labels.markerShownSingular : labels.markerShownPlural
+        }`;
       }
       if (!visibleEntries.some(({ point }) => point.id === selectedPoint?.id)) {
         if (visibleEntries[0]) selectPoint(visibleEntries[0].point, false);
         else {
           detail.innerHTML = `
-            <h2>No Map Match</h2>
-            <p>Try a shorter search like Dorothy, gardening store, blueberry, lake fish, bubble, bird, fish, or resource.</p>
+            <h2>${escapeHtml(labels.noMatchTitle)}</h2>
+            <p>${escapeHtml(labels.noMatchBody)}</p>
           `;
         }
       } else {
@@ -589,7 +639,7 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
     fullscreenButton?.addEventListener("click", () => {
       const isFullscreen = interactiveMap.classList.toggle("is-fullscreen");
       fullscreenButton.setAttribute("aria-pressed", String(isFullscreen));
-      fullscreenButton.textContent = isFullscreen ? "Exit full screen" : "Full screen";
+      fullscreenButton.textContent = isFullscreen ? labels.exitFullscreen : labels.fullscreen;
       window.setTimeout(() => map.invalidateSize(), 60);
     });
 
@@ -682,8 +732,8 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
     interactiveMap.classList.remove("is-leaflet-loading");
     interactiveMap.classList.add("is-leaflet-error");
     detail.innerHTML = `
-      <h2>Map Data Could Not Load</h2>
-      <p>The local Heartopia Leaflet map is unavailable right now. Refresh the page or use the static route notes below.</p>
+      <h2>${escapeHtml(labels.mapLoadErrorTitle)}</h2>
+      <p>${escapeHtml(labels.mapLoadErrorBody)}</p>
     `;
     console.error(error);
   }
