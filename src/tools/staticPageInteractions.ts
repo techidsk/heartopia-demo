@@ -1623,6 +1623,22 @@ if (animalFavorites) {
   const searchInput = animalFavorites.querySelector("[data-favorite-search]");
   const filterButtons = Array.from(animalFavorites.querySelectorAll("[data-favorite-filter]"));
   const countNode = animalFavorites.querySelector("[data-favorite-count]");
+  const labels = {
+    lane: animalFavorites.getAttribute("data-favorite-label-lane") || "lane",
+    region: animalFavorites.getAttribute("data-favorite-label-region") || "Region",
+    route: animalFavorites.getAttribute("data-favorite-label-route") || "Route",
+    testRecorded: animalFavorites.getAttribute("data-favorite-label-test-recorded") || "Test recorded",
+    openMap: animalFavorites.getAttribute("data-favorite-label-open-map") || "Open Map/Route",
+    relatedGuide: animalFavorites.getAttribute("data-favorite-label-related-guide") || "Related Guide",
+    saveChecklist: animalFavorites.getAttribute("data-favorite-label-save-checklist") || "Save Checklist",
+    checklistHref: animalFavorites.getAttribute("data-favorite-checklist-href") || "/tools/checklist/",
+    shownSingular: animalFavorites.getAttribute("data-favorite-label-shown-singular") || "animal shown",
+    shownPlural: animalFavorites.getAttribute("data-favorite-label-shown-plural") || "animals shown",
+    noMatchTitle: animalFavorites.getAttribute("data-favorite-label-no-match-title") || "No Food Lane Match",
+    noMatchBody:
+      animalFavorites.getAttribute("data-favorite-label-no-match-body") ||
+      "Try a shorter search like dog food, bamboo, shrimp, corn, or Oak-Oak."
+  };
   let activeFilter = "all";
   let selectedCard = cards.find((card) => card.classList.contains("is-selected")) || cards[0];
   let tested = new Set(safeReadJson(storageKey, []));
@@ -1644,18 +1660,18 @@ if (animalFavorites) {
     const badgeClass = card.querySelector(".favorite-badge")?.className || "favorite-badge";
     detail.innerHTML = `
       <div class="npc-detail-head"><span class="${escapeHtml(badgeClass)}">${escapeHtml(badgeText)}</span><div><h2>${escapeHtml(name)}</h2><p>${escapeHtml(route)}</p></div></div>
-      <span class="pet-route-chip">${escapeHtml(group)} lane</span>
+      <span class="pet-route-chip">${escapeHtml(group)} ${escapeHtml(labels.lane)}</span>
       <div class="map-meta">
-        <span><strong>Region:</strong> ${escapeHtml(region)}</span>
-        <span><strong>Route:</strong> ${escapeHtml(route)}</span>
+        <span><strong>${escapeHtml(labels.region)}:</strong> ${escapeHtml(region)}</span>
+        <span><strong>${escapeHtml(labels.route)}:</strong> ${escapeHtml(route)}</span>
       </div>
       <div class="favorite-food-list">${foods.map((food) => `<span>${escapeHtml(food)}</span>`).join("")}</div>
       <p>${escapeHtml(notes)}</p>
-      <label class="favorite-test-toggle"><input type="checkbox" data-favorite-tested ${tested.has(id) ? "checked" : ""}> Test recorded</label>
+      <label class="favorite-test-toggle"><input type="checkbox" data-favorite-tested ${tested.has(id) ? "checked" : ""}> ${escapeHtml(labels.testRecorded)}</label>
       <div class="entity-action-grid">
-        <a class="pastel-button" href="${escapeHtml(map)}">Open Map/Route</a>
-        <a class="pastel-button alt" href="${escapeHtml(related)}">Related Guide</a>
-        <a class="pastel-button alt" href="/tools/checklist/">Save Checklist</a>
+        <a class="pastel-button" href="${escapeHtml(map)}">${escapeHtml(labels.openMap)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(related)}">${escapeHtml(labels.relatedGuide)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(labels.checklistHref)}">${escapeHtml(labels.saveChecklist)}</a>
       </div>
     `;
     detail.querySelector("[data-favorite-tested]")?.addEventListener("change", (event) => {
@@ -1679,10 +1695,12 @@ if (animalFavorites) {
         if (!firstVisible) firstVisible = card;
       }
     });
-    if (countNode) countNode.textContent = `${visibleCount} animal${visibleCount === 1 ? "" : "s"} shown`;
+    if (countNode) {
+      countNode.textContent = `${visibleCount} ${visibleCount === 1 ? labels.shownSingular : labels.shownPlural}`;
+    }
     if (firstVisible && (!selectedCard || selectedCard.hidden)) renderFavoriteDetail(firstVisible);
     if (!firstVisible && detail) {
-      detail.innerHTML = `<h2>No Food Lane Match</h2><p>Try a shorter search like dog food, bamboo, shrimp, corn, or Oak-Oak.</p>`;
+      detail.innerHTML = `<h2>${escapeHtml(labels.noMatchTitle)}</h2><p>${escapeHtml(labels.noMatchBody)}</p>`;
     }
   };
 
