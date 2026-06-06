@@ -1276,6 +1276,17 @@ if (databaseBrowser) {
   const searchInput = databaseBrowser.querySelector("[data-database-search]");
   const filterButtons = Array.from(databaseBrowser.querySelectorAll("[data-database-filter]"));
   const countNode = databaseBrowser.querySelector("[data-database-count]");
+  const labels = {
+    openDataPage: databaseBrowser.getAttribute("data-database-label-open-data-page") || "Open Data Page",
+    openTool: databaseBrowser.getAttribute("data-database-label-open-tool") || "Open Tool",
+    openMap: databaseBrowser.getAttribute("data-database-label-open-map") || "Open Map/Route",
+    entityShownSingular: databaseBrowser.getAttribute("data-database-label-entity-shown-singular") || "entity shown",
+    entityShownPlural: databaseBrowser.getAttribute("data-database-label-entity-shown-plural") || "entities shown",
+    noMatchTitle: databaseBrowser.getAttribute("data-database-label-no-match-title") || "No Entity Match",
+    noMatchBody:
+      databaseBrowser.getAttribute("data-database-label-no-match-body") ||
+      "Try a shorter search like crop, fish, Doris, shop, or Potato."
+  };
   let activeFilter = "all";
 
   const renderDatabaseDetail = (card) => {
@@ -1293,9 +1304,9 @@ if (databaseBrowser) {
       <span class="entity-type">${escapeHtml(category)}</span>
       <p>${escapeHtml(detailText)}</p>
       <div class="entity-action-grid">
-        <a class="pastel-button" href="${escapeHtml(primary)}">Open Data Page</a>
-        <a class="pastel-button alt" href="${escapeHtml(tool)}">Open Tool</a>
-        <a class="pastel-button alt" href="${escapeHtml(map)}">Open Map/Route</a>
+        <a class="pastel-button" href="${escapeHtml(primary)}">${escapeHtml(labels.openDataPage)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(tool)}">${escapeHtml(labels.openTool)}</a>
+        <a class="pastel-button alt" href="${escapeHtml(map)}">${escapeHtml(labels.openMap)}</a>
       </div>
     `;
   };
@@ -1314,12 +1325,14 @@ if (databaseBrowser) {
         if (!firstVisible) firstVisible = card;
       }
     });
-    if (countNode) countNode.textContent = `${visibleCount} entit${visibleCount === 1 ? "y" : "ies"} shown`;
+    if (countNode) {
+      countNode.textContent = `${visibleCount} ${visibleCount === 1 ? labels.entityShownSingular : labels.entityShownPlural}`;
+    }
     if (firstVisible && !cards.some((card) => card.classList.contains("is-selected") && !card.hidden)) {
       renderDatabaseDetail(firstVisible);
     }
     if (!firstVisible && detail) {
-      detail.innerHTML = `<h2>No Entity Match</h2><p>Try a shorter search like crop, fish, Doris, shop, or Potato.</p>`;
+      detail.innerHTML = `<h2>${escapeHtml(labels.noMatchTitle)}</h2><p>${escapeHtml(labels.noMatchBody)}</p>`;
     }
   };
 

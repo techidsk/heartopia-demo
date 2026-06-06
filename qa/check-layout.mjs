@@ -47,7 +47,8 @@ const paths = [
   "/zh-hans/tools/",
   "/zh-hans/guides/",
   "/zh-hans/download/",
-  "/zh-hans/map/"
+  "/zh-hans/map/",
+  "/zh-hans/database/"
 ];
 const viewports = [
   { width: 375, height: 812 },
