@@ -1162,6 +1162,12 @@ if (downloadSelector) {
   const searchInput = downloadSelector.querySelector("[data-download-search]");
   const filterButtons = Array.from(downloadSelector.querySelectorAll("[data-download-filter]"));
   const countNode = downloadSelector.querySelector("[data-download-count]");
+  const labels = {
+    shownSingular: downloadSelector.getAttribute("data-download-label-shown-singular") || "route shown",
+    shownPlural: downloadSelector.getAttribute("data-download-label-shown-plural") || "routes shown",
+    showSteps: downloadSelector.getAttribute("data-download-label-show-steps") || "View Steps",
+    hideSteps: downloadSelector.getAttribute("data-download-label-hide-steps") || "Hide Steps"
+  };
   let activeFilter = "all";
 
   const matchesDownloadFilter = (card) => {
@@ -1185,7 +1191,9 @@ if (downloadSelector) {
       card.hidden = !isVisible;
       if (isVisible) visibleCount += 1;
     });
-    if (countNode) countNode.textContent = `${visibleCount} route${visibleCount === 1 ? "" : "s"} shown`;
+    if (countNode) {
+      countNode.textContent = `${visibleCount} ${visibleCount === 1 ? labels.shownSingular : labels.shownPlural}`;
+    }
   };
 
   filterButtons.forEach((button) => {
@@ -1203,7 +1211,7 @@ if (downloadSelector) {
       const isOpen = steps.hidden;
       steps.hidden = !isOpen;
       button.setAttribute("aria-expanded", String(isOpen));
-      button.textContent = isOpen ? "Hide Steps" : "View Steps";
+      button.textContent = isOpen ? labels.hideSteps : labels.showSteps;
     });
   });
 
