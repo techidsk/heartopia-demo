@@ -12,6 +12,7 @@
     "validate:i18n": "node scripts/validate-i18n.mjs",
     "report:i18n:data": "node scripts/report-i18n-data.mjs",
     "scaffold:i18n": "node scripts/scaffold-i18n-overlays.mjs",
+    "generate:zh-hant": "node scripts/generate-zh-hant-overlays.mjs",
     "quality": "node scripts/quality-gate.mjs",
     "qa": "npm run validate:data && npm run validate:i18n && npm run report:i18n:data && npm run build && npm run quality && npm run qa:layout",
     "qa:layout": "node qa/check-layout.mjs",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "astro": "^6.4.4",
+    "opencc-js": "^1.3.1",
     "playwright": "^1.60.0",
     "serve": "^14.2.4",
     "typescript": "^6.0.3",

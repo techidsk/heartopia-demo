@@ -1,2 +1,99 @@
-[]
-
+[
+  {
+    "id": "dog",
+    "translationStatus": "translated",
+    "name": "狗",
+    "category": "寵物",
+    "route": "寵物商店領養",
+    "food": [
+      "狗糧",
+      "簡單料理",
+      "低成本測試食物"
+    ],
+    "unlock": "完成瓊夫人入門後的寵物照護路線",
+    "source": "寵物商店"
+  },
+  {
+    "id": "cat",
+    "translationStatus": "translated",
+    "name": "貓",
+    "category": "寵物",
+    "route": "寵物商店入門",
+    "food": [
+      "貓咪照護用品",
+      "寵物基礎食物",
+      "低成本測試"
+    ],
+    "unlock": "第一次寵物照護入門路線",
+    "source": "寵物商店"
+  },
+  {
+    "id": "fox",
+    "translationStatus": "translated",
+    "name": "狐狸",
+    "category": "野生",
+    "route": "花田食槽",
+    "food": [
+      "肉類路線",
+      "魚類路線",
+      "野生動物測試"
+    ],
+    "unlock": "野生動物食槽路線",
+    "source": "花田"
+  },
+  {
+    "id": "sea-otter",
+    "translationStatus": "translated",
+    "name": "海獺",
+    "category": "野生",
+    "route": "漁村食槽",
+    "food": [
+      "蝦",
+      "貝類路線",
+      "海岸魚類測試"
+    ],
+    "unlock": "野生動物食槽路線",
+    "source": "漁村"
+  },
+  {
+    "id": "chicken",
+    "translationStatus": "translated",
+    "name": "雞",
+    "category": "農場",
+    "route": "農場動物路線",
+    "food": [
+      "玉米",
+      "作物路線",
+      "基礎飼料測試"
+    ],
+    "unlock": "農場動物照護路線",
+    "source": "農場動物路線"
+  },
+  {
+    "id": "cow",
+    "translationStatus": "translated",
+    "name": "牛",
+    "category": "農場",
+    "route": "農場動物路線",
+    "food": [
+      "小麥",
+      "牧草路線",
+      "長週期作物重疊"
+    ],
+    "unlock": "農場動物照護路線",
+    "source": "農場動物路線"
+  },
+  {
+    "id": "oak-oak",
+    "translationStatus": "translated",
+    "name": "Oak-Oak",
+    "category": "任務",
+    "route": "森林任務夥伴",
+    "food": [
+      "任務專屬照護",
+      "不要與狗狗路線混用"
+    ],
+    "unlock": "阿斯特拉森林任務線",
+    "source": "任務路線"
+  }
+]

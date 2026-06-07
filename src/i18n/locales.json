@@ -98,7 +98,7 @@
       "ogLocale": "zh_TW",
       "pathPrefix": "zh-hant",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "zh-Hans": {
       "label": "简体中文",

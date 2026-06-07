@@ -1,2 +1,51 @@
-[]
-
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "釣魚",
+    "group": "核心",
+    "summary": "水域路線，包含解鎖、拉力練習、魚類追蹤器、地圖點位和稀有魚規劃。"
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "園藝",
+    "group": "核心",
+    "summary": "作物路線，包含種子規劃、收益對比、作物規劃器、計時和料理消耗點。"
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "烹飪",
+    "group": "核心",
+    "summary": "料理路線，包含 Massimo 解鎖、果醬、炸魚薯條、QTE 安全和活動材料檢查。"
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "觀鳥",
+    "group": "自然",
+    "summary": "相機和望遠鏡路線，結合天氣、地點、姿態和收藏清單規劃。"
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "捕蟲",
+    "group": "自然",
+    "summary": "泡泡網路線，結合 DG6 解鎖、時間、天氣、棲息地、稀有蟲和出售檢查。"
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "貓咪照護",
+    "group": "社交",
+    "summary": "寵物照護路線，關注貓咪、寵物商店、基礎食物和每週親密度循環。"
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "狗狗照護",
+    "group": "社交",
+    "summary": "寵物照護路線，關注狗糧、領養流程和低成本喜好測試。"
+  }
+]

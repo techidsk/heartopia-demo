@@ -1,2 +1,222 @@
-[]
-
+[
+  {
+    "id": "mixed-jam",
+    "translationStatus": "translated",
+    "name": "混合果醬",
+    "group": "水果",
+    "ingredients": [
+      "任意水果 x4"
+    ],
+    "route": "水果",
+    "use": "入門價值測試",
+    "source": "水果循環"
+  },
+  {
+    "id": "apple-jam",
+    "translationStatus": "translated",
+    "name": "蘋果果醬",
+    "group": "水果",
+    "ingredients": [
+      "蘋果 x4"
+    ],
+    "route": "水果",
+    "use": "果園材料的簡單消耗點",
+    "source": "果園路線"
+  },
+  {
+    "id": "blueberry-jam",
+    "translationStatus": "translated",
+    "name": "藍莓果醬",
+    "group": "水果",
+    "ingredients": [
+      "藍莓 x4"
+    ],
+    "route": "水果",
+    "use": "水果循環的材料消耗點",
+    "source": "水果路線"
+  },
+  {
+    "id": "grape-jam",
+    "translationStatus": "translated",
+    "name": "葡萄果醬",
+    "group": "水果",
+    "ingredients": [
+      "葡萄 x4"
+    ],
+    "route": "水果",
+    "use": "後期種子路線",
+    "source": "等級 7 作物路線"
+  },
+  {
+    "id": "mandarin-jam",
+    "translationStatus": "translated",
+    "name": "橘子果醬",
+    "group": "水果",
+    "ingredients": [
+      "橘子 x4"
+    ],
+    "route": "水果",
+    "use": "兌換碼獎勵水果的消耗點",
+    "source": "獎勵水果路線"
+  },
+  {
+    "id": "pineapple-jam",
+    "translationStatus": "translated",
+    "name": "菠蘿果醬",
+    "group": "作物/水果",
+    "ingredients": [
+      "菠蘿 x4"
+    ],
+    "route": "作物/水果",
+    "use": "快速作物測試",
+    "source": "主動作物路線"
+  },
+  {
+    "id": "strawberry-jam",
+    "translationStatus": "translated",
+    "name": "草莓果醬",
+    "group": "作物/水果",
+    "ingredients": [
+      "草莓 x4"
+    ],
+    "route": "作物/水果",
+    "use": "中期解鎖路線",
+    "source": "等級 6 作物路線"
+  },
+  {
+    "id": "house-salad",
+    "translationStatus": "translated",
+    "name": "家常沙拉",
+    "group": "作物",
+    "ingredients": [
+      "任意蔬菜 x2"
+    ],
+    "route": "作物",
+    "use": "多餘蔬菜消耗點",
+    "source": "蔬菜路線"
+  },
+  {
+    "id": "fish-and-chips",
+    "translationStatus": "translated",
+    "name": "炸魚薯條",
+    "group": "魚類/作物",
+    "ingredients": [
+      "任意魚 x2",
+      "土豆 x2"
+    ],
+    "route": "魚類/作物",
+    "use": "適合魚類和作物的組合路線",
+    "source": "魚類加土豆路線"
+  },
+  {
+    "id": "grilled-mushrooms",
+    "translationStatus": "translated",
+    "name": "烤蘑菇",
+    "group": "採集",
+    "ingredients": [
+      "任意蘑菇 x4"
+    ],
+    "route": "採集",
+    "use": "採集材料消耗點",
+    "source": "蘑菇路線"
+  },
+  {
+    "id": "tomato-plate",
+    "translationStatus": "translated",
+    "name": "番茄拼盤",
+    "group": "作物",
+    "ingredients": [
+      "番茄",
+      "蔬菜材料"
+    ],
+    "route": "作物",
+    "use": "主動場次測試",
+    "source": "主動番茄路線"
+  },
+  {
+    "id": "corn-snack",
+    "translationStatus": "translated",
+    "name": "玉米小食",
+    "group": "作物",
+    "ingredients": [
+      "玉米材料"
+    ],
+    "route": "作物",
+    "use": "與動物食物路線重疊",
+    "source": "玉米和動物路線"
+  },
+  {
+    "id": "carrot-dish",
+    "translationStatus": "translated",
+    "name": "胡蘿蔔料理",
+    "group": "作物",
+    "ingredients": [
+      "胡蘿蔔材料"
+    ],
+    "route": "作物",
+    "use": "兩小時路線",
+    "source": "均衡作物路線"
+  },
+  {
+    "id": "seafood-plate",
+    "translationStatus": "translated",
+    "name": "海鮮拼盤",
+    "group": "魚類",
+    "ingredients": [
+      "海魚材料"
+    ],
+    "route": "魚類",
+    "use": "海洋循環後使用",
+    "source": "海洋路線"
+  },
+  {
+    "id": "mountain-soup",
+    "translationStatus": "translated",
+    "name": "山野湯",
+    "group": "採集/作物",
+    "ingredients": [
+      "蘑菇",
+      "蔬菜"
+    ],
+    "route": "採集/作物",
+    "use": "溫泉循環材料消耗點",
+    "source": "溫泉和作物路線"
+  },
+  {
+    "id": "simple-breakfast",
+    "translationStatus": "translated",
+    "name": "簡易早餐",
+    "group": "農場",
+    "ingredients": [
+      "雞蛋",
+      "作物材料"
+    ],
+    "route": "農場",
+    "use": "農場路線候選",
+    "source": "農場動物路線"
+  },
+  {
+    "id": "bizarre-food",
+    "translationStatus": "translated",
+    "name": "奇怪食物",
+    "group": "QTE",
+    "ingredients": [
+      "時機失敗"
+    ],
+    "route": "QTE",
+    "use": "使用稀有材料時儘量避免",
+    "source": "時機失敗"
+  },
+  {
+    "id": "event-dish",
+    "translationStatus": "translated",
+    "name": "活動料理",
+    "group": "活動",
+    "ingredients": [
+      "限時材料"
+    ],
+    "route": "活動",
+    "use": "先確認價值再投入",
+    "source": "限時活動路線"
+  }
+]

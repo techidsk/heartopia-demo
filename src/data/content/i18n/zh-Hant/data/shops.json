@@ -1,2 +1,141 @@
-[]
-
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "園藝商店",
+    "type": "种子",
+    "owner": "布蘭克",
+    "region": "中心城鎮",
+    "unlock": "完成第一次園藝教程路線後可用。",
+    "hours": "建議在白天日常跑圖時查看。",
+    "inventory": [
+      "番茄種子",
+      "土豆種子",
+      "小麥種子",
+      "肥料",
+      "基礎澆水用品"
+    ],
+    "notes": "規劃作物收益前的第一站。買種子時可以順手安排短時長作物路線。"
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "傢俱工坊",
+    "type": "家具",
+    "owner": "鮑勃",
+    "region": "中心城鎮",
+    "unlock": "推進鮑勃的傢俱路線和早期木工請求。",
+    "hours": "在安排房屋設計前先來這裡。",
+    "inventory": [
+      "入門傢俱",
+      "桌子",
+      "椅子",
+      "架子",
+      "裝飾套組"
+    ],
+    "notes": "房屋佈局、材料規劃和逐房間設計思路的主要交接點。"
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "寵物商店",
+    "type": "宠物",
+    "owner": "瓊夫人與 Bailey J",
+    "region": "中心城鎮",
+    "unlock": "在大範圍測試食物前，先走寵物照護入門路線。",
+    "hours": "規劃貓狗照護和觀鳥解鎖時造訪。",
+    "inventory": [
+      "狗糧",
+      "貓咪照護用品",
+      "寵物領養線索",
+      "寵物照護基礎",
+      "觀鳥路線筆記"
+    ],
+    "notes": "把寵物店裡的貓狗與野生動物食槽、Oak-Oak 分開記錄。"
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "服裝店",
+    "type": "时装",
+    "owner": "多蘿西",
+    "region": "中心城鎮",
+    "unlock": "推進多蘿西的時裝和海報路線。",
+    "hours": "可與中心城鎮 NPC 送禮循環一起安排。",
+    "inventory": [
+      "服裝",
+      "外觀部件",
+      "時裝路線物品",
+      "活動服裝線索"
+    ],
+    "notes": "適合做時裝收藏檢查和季節穿搭計劃。"
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "安妮音樂店",
+    "type": "音乐",
+    "owner": "安妮",
+    "region": "中心城鎮",
+    "unlock": "出現樂譜和家居裝飾系統後使用。",
+    "hours": "最適合在準備房屋設計時查看。",
+    "inventory": [
+      "樂譜線索",
+      "音樂裝飾",
+      "樂器路線筆記",
+      "居家氛圍物品"
+    ],
+    "notes": "把房屋設計、音樂收藏和房間主題規劃連接起來。"
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "卡清雜貨店",
+    "type": "杂货",
+    "owner": "卡清",
+    "region": "中心城鎮",
+    "unlock": "當背包壓力開始阻塞路線時造訪。",
+    "hours": "長路線前順手補給。",
+    "inventory": [
+      "日常補給",
+      "基礎材料",
+      "工具線索",
+      "庫存緩衝用品"
+    ],
+    "notes": "適合作為長時間跑圖前的補給檢查點。"
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "多莉絲天氣小車",
+    "type": "天气",
+    "owner": "多莉絲",
+    "region": "動態天氣路線",
+    "unlock": "確認天氣商人路線後再規劃稀有購買。",
+    "hours": "天氣變化或稀有采購前查看。",
+    "inventory": [
+      "天氣物品",
+      "稀有采購線索",
+      "彩色花朵",
+      "特殊路線筆記"
+    ],
+    "notes": "適合和天氣、稀有資源、活動準備一起規劃。"
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "海釣攤位",
+    "type": "钓鱼",
+    "owner": "比爾",
+    "region": "漁村",
+    "unlock": "海釣或活動任務指向海岸路線時使用。",
+    "hours": "安排漁村和海岸路線時查看。",
+    "inventory": [
+      "海釣線索",
+      "修理包",
+      "海鮮路線筆記",
+      "活動任務提示"
+    ],
+    "notes": "連接魚類追蹤、海岸地圖點和活動任務。"
+  }
+]

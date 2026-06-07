@@ -1,2 +1,162 @@
-[]
-
+[
+  {
+    "id": "blanc",
+    "translationStatus": "translated",
+    "name": "布蘭克",
+    "group": "導師",
+    "role": "園藝導師",
+    "location": "園藝商店 / 中心城鎮",
+    "schedule": "買種子和規劃花卉前，把布蘭克作為園藝路線錨點。",
+    "gifts": [
+      "新鮮作物",
+      "花朵",
+      "簡單料理"
+    ],
+    "nameZh": "布蘭克",
+    "profile": "TW Wiki 將布蘭克列為園藝導師，關聯作物、花卉和後續花卉培育路線。",
+    "source": "Biligame 心動小鎮 TW Wiki 首頁"
+  },
+  {
+    "id": "bob",
+    "translationStatus": "translated",
+    "name": "鮑勃",
+    "group": "店主",
+    "role": "傢俱工坊老闆",
+    "location": "中心城鎮",
+    "schedule": "規劃房屋佈局時順路拜訪傢俱點。",
+    "gifts": [
+      "木質裝飾",
+      "房屋材料",
+      "簡單料理"
+    ],
+    "nameZh": "鮑勃"
+  },
+  {
+    "id": "dorothy",
+    "translationStatus": "translated",
+    "name": "多蘿西",
+    "group": "店主",
+    "role": "服裝店老闆",
+    "location": "中心城鎮",
+    "schedule": "把服裝採購與中心城鎮 NPC 對話循環放在一起。",
+    "gifts": [
+      "時裝物品",
+      "花朵",
+      "甜點"
+    ],
+    "nameZh": "多蘿西"
+  },
+  {
+    "id": "mrs-joan",
+    "translationStatus": "translated",
+    "name": "瓊夫人",
+    "group": "導師",
+    "role": "寵物照護導師",
+    "location": "寵物商店",
+    "schedule": "測試狗糧和領養流程時走寵物商店路線。",
+    "gifts": [
+      "狗糧",
+      "寵物照護用品",
+      "料理"
+    ],
+    "nameZh": "瓊夫人"
+  },
+  {
+    "id": "doris",
+    "translationStatus": "translated",
+    "name": "多莉絲",
+    "group": "動態",
+    "role": "天氣商人",
+    "location": "動態天氣路線",
+    "schedule": "規劃稀有采購前先確認遊戲內天氣路線。",
+    "gifts": [
+      "天氣物品",
+      "彩色花朵",
+      "稀有料理"
+    ],
+    "nameZh": "多莉絲"
+  },
+  {
+    "id": "bill",
+    "translationStatus": "translated",
+    "name": "比爾",
+    "group": "活動",
+    "role": "海釣活動導師",
+    "location": "漁村",
+    "schedule": "海釣或活動任務指向海岸路線時找比爾。",
+    "gifts": [
+      "魚",
+      "修理包",
+      "海鮮料理"
+    ],
+    "nameZh": "比爾"
+  },
+  {
+    "id": "albert-ii",
+    "translationStatus": "translated",
+    "name": "阿爾伯特二世",
+    "group": "精選",
+    "role": "精選小鎮角色",
+    "location": "心動小鎮路線",
+    "schedule": "首頁精選角色；安排送禮前先在遊戲內確認實時位置。",
+    "gifts": [
+      "喜好禮物待確認",
+      "喜歡禮物待確認",
+      "對話路線"
+    ],
+    "nameZh": "阿爾伯特二世",
+    "profile": "出現在 TW Wiki 首頁角色欄；詳細路線資料仍待補齊。",
+    "source": "Biligame 心動小鎮 TW Wiki 首頁"
+  },
+  {
+    "id": "ka-ching",
+    "translationStatus": "translated",
+    "name": "卡清",
+    "group": "店主",
+    "role": "雜貨店老闆",
+    "location": "中心城鎮",
+    "schedule": "把卡清與背包、實用品和長路線準備一起安排。",
+    "gifts": [
+      "實用品",
+      "簡單料理",
+      "喜好禮物待確認"
+    ],
+    "nameZh": "卡清",
+    "profile": "出現在 TW Wiki 首頁，並在本指南中關聯雜貨店路線。",
+    "source": "Biligame 心動小鎮 TW Wiki 首頁"
+  },
+  {
+    "id": "annie",
+    "translationStatus": "translated",
+    "name": "安妮",
+    "group": "店主",
+    "role": "音樂店老闆",
+    "location": "中心城鎮",
+    "schedule": "當房屋氛圍、音樂和收藏路線重疊時找安妮。",
+    "gifts": [
+      "音樂裝飾",
+      "甜點",
+      "喜好禮物待確認"
+    ],
+    "nameZh": "安妮",
+    "profile": "出現在 TW Wiki 首頁，並在本指南中關聯音樂店路線。",
+    "source": "Biligame 心動小鎮 TW Wiki 首頁"
+  },
+  {
+    "id": "vania",
+    "translationStatus": "translated",
+    "name": "萬尼亞",
+    "group": "精選",
+    "role": "精選小鎮角色",
+    "location": "心動小鎮路線",
+    "schedule": "首頁精選角色；安排送禮前先在遊戲內確認實時位置。",
+    "gifts": [
+      "喜好禮物待確認",
+      "喜歡禮物待確認",
+      "對話路線"
+    ],
+    "nameZh": "萬尼亞",
+    "profile": "出現在 TW Wiki 首頁角色欄；詳細路線資料仍待補齊。",
+    "source": "Biligame 心動小鎮 TW Wiki 首頁"
+  }
+]

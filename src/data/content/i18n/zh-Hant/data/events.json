@@ -1,2 +1,83 @@
-[]
-
+[
+  {
+    "id": "modular-streets",
+    "translationStatus": "translated",
+    "name": "模塊街道節",
+    "window": "2026 年 5 月 9 日至 6 月 20 日",
+    "route": "完成磚塊魚、磚塊昆蟲、磚塊鳥類和收藏家挑戰任務。",
+    "rewards": [
+      "磚塊傢俱路線",
+      "節日收藏品",
+      "收藏進度"
+    ],
+    "prep": [
+      "兌換當前可用兌換碼",
+      "騰出倉庫空間",
+      "打開魚類追蹤器",
+      "檢查地圖路線"
+    ]
+  },
+  {
+    "id": "graffiti-channel",
+    "translationStatus": "translated",
+    "name": "塗鴉頻道展",
+    "window": "2026 年 5 月 9 日至 6 月 20 日",
+    "route": "與節日獎勵循環關聯的時裝和收藏路線。",
+    "rewards": [
+      "時裝展示路線",
+      "收藏家任務",
+      "活動搭配筆記"
+    ],
+    "prep": [
+      "檢查服裝店",
+      "複核活動清單",
+      "給展示物品預留空間"
+    ]
+  },
+  {
+    "id": "sea-fishing",
+    "translationStatus": "translated",
+    "name": "海釣",
+    "window": "解鎖路線",
+    "route": "與比爾一起前往漁村；適合活動任務和稀有魚路線規劃。",
+    "rewards": [
+      "海魚進度",
+      "釣魚活動獎勵",
+      "料理材料"
+    ],
+    "prep": [
+      "打開魚類追蹤器",
+      "檢查背包空間",
+      "需要時攜帶修理包"
+    ]
+  },
+  {
+    "id": "next-banner-watch",
+    "translationStatus": "translated",
+    "name": "下個卡池觀察",
+    "window": "待公佈",
+    "route": "用於追蹤下一個官方卡池或節日交接的佔位觀察項。",
+    "rewards": [
+      "公佈前未知"
+    ],
+    "prep": [
+      "持續檢查兌換碼頁面",
+      "保留靈活材料",
+      "不要耗盡全部活動庫存"
+    ]
+  },
+  {
+    "id": "closed-code-window",
+    "translationStatus": "translated",
+    "name": "已關閉兌換碼窗口歸檔",
+    "window": "已過期或未驗證",
+    "route": "已歸檔獎勵窗口應與當前任務分開保存。",
+    "rewards": [
+      "歷史獎勵備註"
+    ],
+    "prep": [
+      "把過期兌換碼移出當前路線",
+      "保留來源檢查日期"
+    ]
+  }
+]

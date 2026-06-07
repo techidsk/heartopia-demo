@@ -1,2 +1,97 @@
-[]
-
+[
+  {
+    "id": "profit-calculator",
+    "translationStatus": "translated",
+    "title": "收益計算器",
+    "category": "計算器",
+    "description": "按地塊數量、場次長度和星級加成比較作物收益。",
+    "useCase": "種植前選擇最合適的作物。",
+    "linkedData": [
+      "作物",
+      "商店",
+      "料理"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "fish-tracker",
+    "translationStatus": "translated",
+    "title": "魚類追蹤器",
+    "category": "追蹤器",
+    "description": "按水域路線、等級門檻和時間條件追蹤稀有魚。",
+    "useCase": "跨場次保存收藏進度。",
+    "linkedData": [
+      "魚類",
+      "地圖"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "crop-planner",
+    "translationStatus": "translated",
+    "title": "作物規劃器",
+    "category": "規劃器",
+    "description": "根據遊玩時長和地塊數量生成主動、均衡或離線作物路線。",
+    "useCase": "把可玩時間轉成種植日程。",
+    "linkedData": [
+      "作物",
+      "商店"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "friendship-tracker",
+    "translationStatus": "translated",
+    "title": "友情追蹤器",
+    "category": "追蹤器",
+    "description": "根據送禮、對話和同行估算 NPC 日常進度。",
+    "useCase": "規劃本週的一條關係循環。",
+    "linkedData": [
+      "NPC",
+      "商店"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "recipe-finder",
+    "translationStatus": "translated",
+    "title": "料理查找器",
+    "category": "查找器",
+    "description": "按已有食材篩選入門料理。",
+    "useCase": "出售或送禮前決定要做什麼菜。",
+    "linkedData": [
+      "料理",
+      "作物",
+      "魚類"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "checklist",
+    "translationStatus": "translated",
+    "title": "每日清單",
+    "category": "清單",
+    "description": "把日常路線、補給和收藏檢查集中到一張清單。",
+    "useCase": "進入遊戲前確認今天的優先事項。",
+    "linkedData": [
+      "路線",
+      "NPC",
+      "活動"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "timer",
+    "translationStatus": "translated",
+    "title": "路線計時器",
+    "category": "計時器",
+    "description": "為作物、釣魚和跑圖路線設置短時提醒。",
+    "useCase": "在多條路線之間保持節奏。",
+    "linkedData": [
+      "作物",
+      "釣魚",
+      "日常"
+    ],
+    "status": "可用"
+  }
+]
