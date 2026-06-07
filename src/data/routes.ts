@@ -1,4 +1,4 @@
-import { crops, fish, gardening, hobbies, insects, npcs, recipes, shops, tools } from "./heartopia";
+import { getHeartopiaData, getTranslatedDataIds } from "./heartopia";
 import { getSiteConfig } from "./site";
 import { getStaticPages } from "./staticPages";
 import { defaultLocale, localizePath, supportedLocales, type Locale } from "@i18n/config";
@@ -33,6 +33,7 @@ const route = (
 
 export function getRouteEntries(locale: Locale = defaultLocale) {
   const updated = getSiteConfig(locale).updatedDate;
+  const { crops, fish, gardening, hobbies, insects, npcs, recipes, shops, tools } = getHeartopiaData(locale);
   const createRoute = (
     path: string,
     title: string,
@@ -213,8 +214,28 @@ export function getIndexableRouteEntries() {
         .filter((page) => page.path !== "/404.html" && page.translationStatus === "translated")
         .map((page) => route(updated, localizePath(page.path, locale), page.title, page.description, page.section, page.keywords, page.ogImage));
     });
+  const translatedDataEntries = supportedLocales
+    .filter((locale) => locale !== defaultLocale)
+    .flatMap((locale) => {
+      const localizedRoutesByPath = new Map(getRouteEntries(locale).map((entry) => [entry.path, entry]));
+      const translatedPaths = [
+        ...getTranslatedDataIds(locale, "fish").map((id) => `/fish/${id}/`),
+        ...getTranslatedDataIds(locale, "shops").map((id) => `/shops/${id}/`),
+        ...getTranslatedDataIds(locale, "crops").map((id) => `/crops/${id}/`),
+        ...getTranslatedDataIds(locale, "gardening").map((id) => `/gardening/${id}/`),
+        ...getTranslatedDataIds(locale, "insects").map((id) => `/insects/${id}/`),
+        ...getTranslatedDataIds(locale, "recipes").map((id) => `/recipes/${id}/`),
+        ...getTranslatedDataIds(locale, "npcs").map((id) => `/characters/${id}/`)
+      ];
+      return translatedPaths
+        .map((path) => localizedRoutesByPath.get(path))
+        .filter((entry): entry is RouteEntry => Boolean(entry))
+        .map((entry) => ({ ...entry, path: localizePath(entry.path, locale) }));
+    });
 
-  return [...defaultEntries, ...translatedStaticEntries].filter((entry) => !entry.path.includes("?") && !entry.path.includes("#"));
+  return [...defaultEntries, ...translatedStaticEntries, ...translatedDataEntries].filter(
+    (entry) => !entry.path.includes("?") && !entry.path.includes("#")
+  );
 }
 
 export const routeEntries = getRouteEntries(defaultLocale);

@@ -1,0 +1,94 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { getHeartopiaData, type Shop } from "@data/heartopia";
+import { localizePath, type Locale } from "@i18n/config";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  shop: Shop;
+  locale: Locale;
+}
+
+const { shop, locale } = Astro.props;
+const { shops } = getHeartopiaData(locale);
+const related = shops.filter((candidate) => candidate.id !== shop.id && candidate.type === shop.type).slice(0, 4);
+const detailPath = `/shops/${shop.id}/`;
+const title = `${shop.name} - Heartopia 商店、库存与地图路线`;
+const description = `${shop.name} 商店资料：店主 ${shop.owner}，区域 ${shop.region}，包含解锁条件、营业路线、关键库存和地图跳转。`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  locale={locale}
+  canonicalPath={detailPath}
+  currentPath="/shops/"
+  ogImage="/assets/asset-map.jpg"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs
+        items={[
+          { href: localizePath("/", locale), label: "首页" },
+          { href: localizePath("/shops/", locale), label: "商店" },
+          { label: shop.name }
+        ]}
+      />
+      <h1>{shop.name}</h1>
+      <p>{shop.notes}</p>
+      <MetricCards
+        metrics={[
+          { value: shop.icon, label: "图标" },
+          { value: shop.owner, label: "店主" },
+          { value: shop.type, label: "类型" },
+          { value: shop.region, label: "区域" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <h2 class="wiki-title">库存与路线</h2>
+        <div class="shop-inventory-grid">
+          {shop.inventory.map((item) => <span>{item}</span>)}
+        </div>
+        <div class="map-meta">
+          <span><strong>解锁：</strong> {shop.unlock}</span>
+          <span><strong>营业路线：</strong> {shop.hours}</span>
+          <span><strong>地图标记：</strong> {shop.mapMarkerId}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={localizePath(shop.links.map || "/map/", locale)}>查看地图</a>
+          {shop.links.npc && <a class="pastel-button alt" href={localizePath(shop.links.npc, locale)}>角色路线</a>}
+          {shop.links.tool && <a class="pastel-button alt" href={localizePath(shop.links.tool, locale)}>相关工具</a>}
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">资料状态</h2>
+        <p>这家商店资料已完成简体中文整理。库存、解锁条件和地图路线会继续跟随公开资料更新。</p>
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>同类型商店</h2>
+          <p>来自同一商店类型的相关入口。</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={localizePath(`/shops/${candidate.id}/`, locale)}>
+              <h3>{candidate.name}</h3>
+              <p>{candidate.owner} | {candidate.region}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

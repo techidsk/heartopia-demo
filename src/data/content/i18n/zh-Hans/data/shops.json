@@ -1,0 +1,141 @@
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "园艺商店",
+    "type": "种子",
+    "owner": "布兰克",
+    "region": "中心城镇",
+    "unlock": "完成第一次园艺教程路线后可用。",
+    "hours": "建议在白天日常跑图时查看。",
+    "inventory": [
+      "番茄种子",
+      "土豆种子",
+      "小麦种子",
+      "肥料",
+      "基础浇水用品"
+    ],
+    "notes": "规划作物收益前的第一站。买种子时可以顺手安排短时长作物路线。"
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "家具工坊",
+    "type": "家具",
+    "owner": "鲍勃",
+    "region": "中心城镇",
+    "unlock": "推进鲍勃的家具路线和早期木工请求。",
+    "hours": "在安排房屋设计前先来这里。",
+    "inventory": [
+      "入门家具",
+      "桌子",
+      "椅子",
+      "架子",
+      "装饰套组"
+    ],
+    "notes": "房屋布局、材料规划和逐房间设计思路的主要交接点。"
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "宠物商店",
+    "type": "宠物",
+    "owner": "琼夫人与 Bailey J",
+    "region": "中心城镇",
+    "unlock": "在大范围测试食物前，先走宠物照护入门路线。",
+    "hours": "规划猫狗照护和观鸟解锁时造访。",
+    "inventory": [
+      "狗粮",
+      "猫咪照护用品",
+      "宠物领养线索",
+      "宠物照护基础",
+      "观鸟路线笔记"
+    ],
+    "notes": "把宠物店里的猫狗与野生动物食槽、Oak-Oak 分开记录。"
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "服装店",
+    "type": "时装",
+    "owner": "多萝西",
+    "region": "中心城镇",
+    "unlock": "推进多萝西的时装和海报路线。",
+    "hours": "可与中心城镇 NPC 送礼循环一起安排。",
+    "inventory": [
+      "服装",
+      "外观部件",
+      "时装路线物品",
+      "活动服装线索"
+    ],
+    "notes": "适合做时装收藏检查和季节穿搭计划。"
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "安妮音乐店",
+    "type": "音乐",
+    "owner": "安妮",
+    "region": "中心城镇",
+    "unlock": "出现乐谱和家居装饰系统后使用。",
+    "hours": "最适合在准备房屋设计时查看。",
+    "inventory": [
+      "乐谱线索",
+      "音乐装饰",
+      "乐器路线笔记",
+      "居家氛围物品"
+    ],
+    "notes": "把房屋设计、音乐收藏和房间主题规划连接起来。"
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "卡清杂货店",
+    "type": "杂货",
+    "owner": "卡清",
+    "region": "中心城镇",
+    "unlock": "当背包压力开始阻塞路线时造访。",
+    "hours": "长路线前顺手补给。",
+    "inventory": [
+      "日常补给",
+      "基础材料",
+      "工具线索",
+      "库存缓冲用品"
+    ],
+    "notes": "适合作为长时间跑图前的补给检查点。"
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "多莉丝天气小车",
+    "type": "天气",
+    "owner": "多莉丝",
+    "region": "动态天气路线",
+    "unlock": "确认天气商人路线后再规划稀有购买。",
+    "hours": "天气变化或稀有采购前查看。",
+    "inventory": [
+      "天气物品",
+      "稀有采购线索",
+      "彩色花朵",
+      "特殊路线笔记"
+    ],
+    "notes": "适合和天气、稀有资源、活动准备一起规划。"
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "海钓摊位",
+    "type": "钓鱼",
+    "owner": "比尔",
+    "region": "渔村",
+    "unlock": "海钓或活动任务指向海岸路线时使用。",
+    "hours": "安排渔村和海岸路线时查看。",
+    "inventory": [
+      "海钓线索",
+      "修理包",
+      "海鲜路线笔记",
+      "活动任务提示"
+    ],
+    "notes": "连接鱼类追踪、海岸地图点和活动任务。"
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "dog",
+    "translationStatus": "translated",
+    "name": "狗",
+    "category": "宠物",
+    "route": "宠物商店领养",
+    "food": [
+      "狗粮",
+      "简单料理",
+      "低成本测试食物"
+    ],
+    "unlock": "完成琼夫人入门后的宠物照护路线",
+    "source": "宠物商店"
+  },
+  {
+    "id": "cat",
+    "translationStatus": "translated",
+    "name": "猫",
+    "category": "宠物",
+    "route": "宠物商店入门",
+    "food": [
+      "猫咪照护用品",
+      "宠物基础食物",
+      "低成本测试"
+    ],
+    "unlock": "第一次宠物照护入门路线",
+    "source": "宠物商店"
+  },
+  {
+    "id": "fox",
+    "translationStatus": "translated",
+    "name": "狐狸",
+    "category": "野生",
+    "route": "花田食槽",
+    "food": [
+      "肉类路线",
+      "鱼类路线",
+      "野生动物测试"
+    ],
+    "unlock": "野生动物食槽路线",
+    "source": "花田"
+  },
+  {
+    "id": "sea-otter",
+    "translationStatus": "translated",
+    "name": "海獭",
+    "category": "野生",
+    "route": "渔村食槽",
+    "food": [
+      "虾",
+      "贝类路线",
+      "海岸鱼类测试"
+    ],
+    "unlock": "野生动物食槽路线",
+    "source": "渔村"
+  },
+  {
+    "id": "chicken",
+    "translationStatus": "translated",
+    "name": "鸡",
+    "category": "农场",
+    "route": "农场动物路线",
+    "food": [
+      "玉米",
+      "作物路线",
+      "基础饲料测试"
+    ],
+    "unlock": "农场动物照护路线",
+    "source": "农场动物路线"
+  },
+  {
+    "id": "cow",
+    "translationStatus": "translated",
+    "name": "牛",
+    "category": "农场",
+    "route": "农场动物路线",
+    "food": [
+      "小麦",
+      "牧草路线",
+      "长周期作物重叠"
+    ],
+    "unlock": "农场动物照护路线",
+    "source": "农场动物路线"
+  },
+  {
+    "id": "oak-oak",
+    "translationStatus": "translated",
+    "name": "Oak-Oak",
+    "category": "任务",
+    "route": "森林任务伙伴",
+    "food": [
+      "任务专属照护",
+      "不要与狗狗路线混用"
+    ],
+    "unlock": "阿斯特拉森林任务线",
+    "source": "任务路线"
+  }
+]

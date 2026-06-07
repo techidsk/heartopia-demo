@@ -1,0 +1,129 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { getHeartopiaData, type Crop } from "@data/heartopia";
+import { localizePath, type Locale } from "@i18n/config";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  crop: Crop;
+  locale: Locale;
+}
+
+const { crop, locale } = Astro.props;
+const { crops, recipes } = getHeartopiaData(locale);
+const formatGold = (value: number | null) => (value === null ? "待补" : `${value.toLocaleString()} 金币`);
+const margin = crop.seed === null || crop.sell === null ? "待补" : `${(crop.sell - crop.seed).toLocaleString()} 金币`;
+const cropName = crop.name.toLowerCase();
+const recipeUses = recipes
+  .filter((recipe) => recipe.ingredients.some((ingredient) => ingredient.toLowerCase().includes(cropName)))
+  .slice(0, 4);
+const relatedCrops = crops.filter((candidate) => candidate.id !== crop.id && candidate.group === crop.group).slice(0, 4);
+const detailPath = `/crops/${crop.id}/`;
+const title = `${crop.name} - Heartopia 作物成长、收益与配方用途`;
+const description = `${crop.name} 作物详情：成长时间 ${crop.growth}，解锁条件 ${crop.unlock}，包含种子成本、出售价值、配方用途和路线规划链接。`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  locale={locale}
+  canonicalPath={detailPath}
+  currentPath="/crops/"
+  ogImage={crop.image || "/assets/asset-gardening.jpg"}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs
+        items={[
+          { href: localizePath("/", locale), label: "首页" },
+          { href: localizePath("/crops/", locale), label: "作物" },
+          { label: crop.name }
+        ]}
+      />
+      <h1>{crop.name}</h1>
+      <p>{crop.use}。对比成长时间、种子成本和出售价值，决定它更适合在线循环还是离线种植。</p>
+      <MetricCards
+        metrics={[
+          { value: crop.growth, label: "成长" },
+          { value: crop.unlock, label: "解锁" },
+          { value: formatGold(crop.seed), label: "种子" },
+          { value: crop.hobbyLevel || formatGold(crop.sell), label: crop.hobbyLevel ? "Wiki 等级" : "出售" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        {crop.image && (
+          <div class="collection-detail-head">
+            <img src={crop.image} alt={`${crop.name} 作物图标`} loading="eager" />
+            <div>
+              <h2 class="wiki-title">{crop.name}</h2>
+              <p>{crop.nameZh || crop.name} · {crop.source}</p>
+            </div>
+          </div>
+        )}
+        <h2 class="wiki-title">作物路线</h2>
+        <div class="map-meta">
+          <span><strong>分组：</strong> {crop.group}</span>
+          <span><strong>路线：</strong> {crop.route}</span>
+          {crop.season && <span><strong>季节：</strong> {crop.season}</span>}
+          <span><strong>收益差：</strong> {margin}</span>
+          <span><strong>用途：</strong> {crop.use}</span>
+        </div>
+        {crop.lore && <p>{crop.lore}</p>}
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={localizePath(crop.tool, locale)}>打开作物工具</a>
+          <a class="pastel-button alt" href={localizePath(crop.shop, locale)}>查找种子</a>
+          <a class="pastel-button alt" href={localizePath(crop.related, locale)}>相关用途</a>
+          {crop.wikiUrl && <a class="pastel-button alt" href={crop.wikiUrl} rel="nofollow noopener" target="_blank">打开 Wiki 来源</a>}
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">资料状态</h2>
+        <p>这条作物资料已完成简体中文整理。成长时间、售价和种子成本会继续跟随资料源更新。</p>
+      </aside>
+    </div>
+  </section>
+
+  {recipeUses.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>配方用途</h2>
+          <p>这些配方在食材字段中提到了该作物。</p>
+        </div>
+        <div class="route-grid">
+          {recipeUses.map((recipe) => (
+            <a class="route-card" href={localizePath(`/recipes/${recipe.id}/`, locale)}>
+              <h3>{recipe.name}</h3>
+              <p>{recipe.ingredients.join(", ")}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {relatedCrops.length > 0 && (
+    <section class="wiki-section">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>同路线分组</h2>
+          <p>来自同一规划分组的相关作物。</p>
+        </div>
+        <div class="route-grid">
+          {relatedCrops.map((candidate) => (
+            <a class="route-card" href={localizePath(`/crops/${candidate.id}/`, locale)}>
+              <h3>{candidate.name}</h3>
+              <p>{candidate.growth} | {candidate.unlock}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

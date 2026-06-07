@@ -1,0 +1,83 @@
+[
+  {
+    "id": "modular-streets",
+    "translationStatus": "translated",
+    "name": "模块街道节",
+    "window": "2026 年 5 月 9 日至 6 月 20 日",
+    "route": "完成砖块鱼、砖块昆虫、砖块鸟类和收藏家挑战任务。",
+    "rewards": [
+      "砖块家具路线",
+      "节日收藏品",
+      "收藏进度"
+    ],
+    "prep": [
+      "兑换当前可用兑换码",
+      "腾出仓库空间",
+      "打开鱼类追踪器",
+      "检查地图路线"
+    ]
+  },
+  {
+    "id": "graffiti-channel",
+    "translationStatus": "translated",
+    "name": "涂鸦频道展",
+    "window": "2026 年 5 月 9 日至 6 月 20 日",
+    "route": "与节日奖励循环关联的时装和收藏路线。",
+    "rewards": [
+      "时装展示路线",
+      "收藏家任务",
+      "活动搭配笔记"
+    ],
+    "prep": [
+      "检查服装店",
+      "复核活动清单",
+      "给展示物品预留空间"
+    ]
+  },
+  {
+    "id": "sea-fishing",
+    "translationStatus": "translated",
+    "name": "海钓",
+    "window": "解锁路线",
+    "route": "与比尔一起前往渔村；适合活动任务和稀有鱼路线规划。",
+    "rewards": [
+      "海鱼进度",
+      "钓鱼活动奖励",
+      "料理材料"
+    ],
+    "prep": [
+      "打开鱼类追踪器",
+      "检查背包空间",
+      "需要时携带修理包"
+    ]
+  },
+  {
+    "id": "next-banner-watch",
+    "translationStatus": "translated",
+    "name": "下个卡池观察",
+    "window": "待公布",
+    "route": "用于追踪下一个官方卡池或节日交接的占位观察项。",
+    "rewards": [
+      "公布前未知"
+    ],
+    "prep": [
+      "持续检查兑换码页面",
+      "保留灵活材料",
+      "不要耗尽全部活动库存"
+    ]
+  },
+  {
+    "id": "closed-code-window",
+    "translationStatus": "translated",
+    "name": "已关闭兑换码窗口归档",
+    "window": "已过期或未验证",
+    "route": "已归档奖励窗口应与当前任务分开保存。",
+    "rewards": [
+      "历史奖励备注"
+    ],
+    "prep": [
+      "把过期兑换码移出当前路线",
+      "保留来源检查日期"
+    ]
+  }
+]

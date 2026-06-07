@@ -5,6 +5,7 @@ import { z } from "zod";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = path.join(rootDir, "src", "data", "content");
+const i18nDir = path.join(dataDir, "i18n");
 const pathSchema = z.string().min(1).regex(/^\//, "must be an absolute site path");
 const routePathSchema = z.string().min(1).regex(/^(?:\/|\/(?:.*\/|404\.html))$/, "must be a site route path");
 
@@ -238,6 +239,127 @@ const schemas = {
   )
 };
 
+const translationStatusSchema = z.enum(["translated", "draft"]);
+
+const localizedArrayOverlay = (shape) =>
+  z.array(z.object({ id: z.string().min(1), translationStatus: translationStatusSchema.optional(), ...shape }).strict());
+
+const overlaySchemas = {
+  fish: localizedArrayOverlay(
+    schemas.fish.element.pick({ name: true, spot: true, condition: true, window: true, level: true, use: true }).partial()
+      .shape
+  ),
+  shops: localizedArrayOverlay(
+    schemas.shops.element
+      .pick({ name: true, type: true, owner: true, region: true, unlock: true, hours: true, inventory: true, notes: true })
+      .partial().shape
+  ),
+  crops: localizedArrayOverlay(
+    schemas.crops.element
+      .pick({
+        name: true,
+        group: true,
+        growth: true,
+        unlock: true,
+        route: true,
+        use: true,
+        nameZh: true,
+        season: true,
+        hobbyLevel: true,
+        lore: true,
+        source: true
+      })
+      .partial().shape
+  ),
+  gardening: localizedArrayOverlay(
+    schemas.gardening.element
+      .pick({
+        name: true,
+        nameZh: true,
+        category: true,
+        season: true,
+        time: true,
+        weather: true,
+        route: true,
+        lore: true,
+        hobbyLevel: true,
+        source: true
+      })
+      .partial().shape
+  ),
+  insects: localizedArrayOverlay(
+    schemas.insects.element
+      .pick({
+        name: true,
+        nameZh: true,
+        season: true,
+        time: true,
+        weather: true,
+        route: true,
+        lore: true,
+        rarity: true,
+        hobbyLevel: true,
+        source: true
+      })
+      .partial().shape
+  ),
+  recipes: localizedArrayOverlay(
+    schemas.recipes.element.pick({ name: true, group: true, ingredients: true, route: true, use: true, source: true }).partial()
+      .shape
+  ),
+  codes: z
+    .object({
+      sourceNote: z.string().min(1).optional(),
+      activeCandidates: z.array(
+        z
+          .object({
+            code: z.string().min(1),
+            rewards: z.array(z.string().min(1)).optional(),
+            rewardTypes: z.array(z.string().min(1)).optional(),
+            note: z.string().min(1).optional()
+          })
+          .strict()
+      ),
+      expiredArchive: z.array(
+        z
+          .object({
+            code: z.string().min(1),
+            reportedReward: z.string().min(1).optional(),
+            expired: z.string().min(1).optional()
+          })
+          .strict()
+      )
+    })
+    .strict(),
+  events: localizedArrayOverlay(
+    schemas.events.element.pick({ name: true, window: true, route: true, rewards: true, prep: true }).partial().shape
+  ),
+  npcs: localizedArrayOverlay(
+    schemas.npcs.element
+      .pick({
+        name: true,
+        group: true,
+        role: true,
+        location: true,
+        schedule: true,
+        gifts: true,
+        nameZh: true,
+        profile: true,
+        source: true
+      })
+      .partial().shape
+  ),
+  pets: localizedArrayOverlay(
+    schemas.pets.element.pick({ name: true, category: true, route: true, food: true, unlock: true, source: true }).partial()
+      .shape
+  ),
+  hobbies: localizedArrayOverlay(schemas.hobbies.element.pick({ name: true, group: true, summary: true }).partial().shape),
+  tools: localizedArrayOverlay(
+    schemas.tools.element.pick({ title: true, category: true, description: true, useCase: true, linkedData: true, status: true })
+      .partial().shape
+  )
+};
+
 function assertUniqueIds(name, rows) {
   if (!Array.isArray(rows)) return;
   const seen = new Set();
@@ -253,6 +375,8 @@ function assertUniqueIds(name, rows) {
   }
 }
 
+const sourceData = {};
+
 for (const [name, schema] of Object.entries(schemas)) {
   const filePath = path.join(dataDir, `${name}.json`);
   const payload = JSON.parse(await fs.readFile(filePath, "utf8"));
@@ -264,5 +388,60 @@ for (const [name, schema] of Object.entries(schemas)) {
     throw new Error(`${name}.json failed validation:\n${issues}`);
   }
   assertUniqueIds(name, result.data);
+  sourceData[name] = result.data;
   console.log(`${name}.json ok`);
+}
+
+function assertKnownOverlayIds(name, rows, sourceRows) {
+  if (!Array.isArray(rows) || !Array.isArray(sourceRows)) return;
+  const sourceIds = new Set(sourceRows.map((row) => row.id));
+  const unknown = rows.filter((row) => !sourceIds.has(row.id)).map((row) => row.id);
+  if (unknown.length) throw new Error(`${name} overlay references unknown ids: ${unknown.join(", ")}`);
+}
+
+function assertOverlayRowsHaveCopy(name, rows) {
+  if (!Array.isArray(rows)) return;
+  const emptyRows = rows
+    .filter((row) => Object.keys(row).filter((key) => key !== "id" && key !== "translationStatus").length === 0)
+    .map((row) => row.id);
+  if (emptyRows.length) throw new Error(`${name} overlay rows have no localized fields: ${emptyRows.join(", ")}`);
+}
+
+function assertKnownCodeOverlayIds(label, rows, sourceRows) {
+  const sourceCodes = new Set(sourceRows.map((row) => row.code));
+  const unknown = rows.filter((row) => !sourceCodes.has(row.code)).map((row) => row.code);
+  if (unknown.length) throw new Error(`${label} overlay references unknown codes: ${unknown.join(", ")}`);
+}
+
+try {
+  const localeDirs = await fs.readdir(i18nDir);
+  for (const locale of localeDirs) {
+    const dataOverlayDir = path.join(i18nDir, locale, "data");
+    const stat = await fs.stat(dataOverlayDir).catch(() => null);
+    if (!stat?.isDirectory()) continue;
+
+    for (const [name, overlaySchema] of Object.entries(overlaySchemas)) {
+      const overlayPath = path.join(dataOverlayDir, `${name}.json`);
+      const payload = JSON.parse(await fs.readFile(overlayPath, "utf8"));
+      const result = overlaySchema.safeParse(payload);
+      if (!result.success) {
+        const issues = result.error.issues
+          .map((issue) => `  - ${issue.path.join(".") || "(root)"}: ${issue.message}`)
+          .join("\n");
+        throw new Error(`${path.relative(rootDir, overlayPath)} failed validation:\n${issues}`);
+      }
+
+      if (name === "codes") {
+        assertKnownCodeOverlayIds(`${locale}/data/codes.activeCandidates`, result.data.activeCandidates, sourceData.codes.activeCandidates);
+        assertKnownCodeOverlayIds(`${locale}/data/codes.expiredArchive`, result.data.expiredArchive, sourceData.codes.expiredArchive);
+      } else {
+        assertUniqueIds(`${locale}/data/${name}`, result.data);
+        assertKnownOverlayIds(`${locale}/data/${name}`, result.data, sourceData[name]);
+        assertOverlayRowsHaveCopy(`${locale}/data/${name}`, result.data);
+      }
+      console.log(`${path.relative(dataDir, overlayPath)} ok`);
+    }
+  }
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
 }

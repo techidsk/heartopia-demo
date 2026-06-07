@@ -1,0 +1,112 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { getHeartopiaData, type Recipe } from "@data/heartopia";
+import { localizePath, type Locale } from "@i18n/config";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  recipe: Recipe;
+  locale: Locale;
+}
+
+const { recipe, locale } = Astro.props;
+const { crops, recipes } = getHeartopiaData(locale);
+const ingredientText = recipe.ingredients.join("、");
+const ingredientHaystack = ingredientText.toLowerCase();
+const sourceCrops = crops.filter((crop) => ingredientHaystack.includes(crop.name.toLowerCase())).slice(0, 4);
+const related = recipes.filter((candidate) => candidate.id !== recipe.id && candidate.group === recipe.group).slice(0, 4);
+const riskLabels: Record<string, string> = { low: "低", medium: "中", high: "高" };
+const risk = riskLabels[recipe.risk] || recipe.risk;
+const detailPath = `/recipes/${recipe.id}/`;
+const title = `${recipe.name} - Heartopia 食谱材料、路线与风险`;
+const description = `${recipe.name} 食谱资料：材料 ${ingredientText}，路线 ${recipe.route}，风险 ${risk}，包含料理工具和来源入口。`;
+---
+
+<BaseLayout title={title} description={description} locale={locale} canonicalPath={detailPath} currentPath="/recipes/" ogImage="/assets/asset-gardening.jpg">
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs
+        items={[
+          { href: localizePath("/", locale), label: "首页" },
+          { href: localizePath("/recipes/", locale), label: "食谱" },
+          { label: recipe.name }
+        ]}
+      />
+      <h1>{recipe.name}</h1>
+      <p>{recipe.use}。先确认材料来源和风险，再把料理加入每日清单。</p>
+      <MetricCards
+        metrics={[
+          { value: recipe.route, label: "路线" },
+          { value: risk, label: "风险" },
+          { value: recipe.ingredients.length, label: "材料数" },
+          { value: recipe.source, label: "来源" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <h2 class="wiki-title">料理路线</h2>
+        <div class="recipe-ingredient-list">
+          {recipe.ingredients.map((ingredient) => <span>{ingredient}</span>)}
+        </div>
+        <div class="map-meta">
+          <span><strong>分组：</strong> {recipe.group}</span>
+          <span><strong>路线：</strong> {recipe.route}</span>
+          <span><strong>来源：</strong> {recipe.source}</span>
+          <span><strong>用途：</strong> {recipe.use}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={localizePath(recipe.tool, locale)}>打开食谱工具</a>
+          <a class="pastel-button alt" href={localizePath(recipe.primary, locale)}>材料来源</a>
+          <a class="pastel-button alt" href={localizePath("/tools/checklist/", locale)}>保存清单</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">资料状态</h2>
+        <p>这条食谱资料已完成简体中文整理。材料、路线和来源说明会继续跟随公开资料更新。</p>
+      </aside>
+    </div>
+  </section>
+
+  {sourceCrops.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>材料作物来源</h2>
+          <p>食材字段中匹配到的作物资料。</p>
+        </div>
+        <div class="route-grid">
+          {sourceCrops.map((crop) => (
+            <a class="route-card" href={localizePath(`/crops/${crop.id}/`, locale)}>
+              <h3>{crop.name}</h3>
+              <p>{crop.growth} | {crop.unlock}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {related.length > 0 && (
+    <section class="wiki-section">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>同分组食谱</h2>
+          <p>来自同一食谱分组的相关料理。</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={localizePath(`/recipes/${candidate.id}/`, locale)}>
+              <h3>{candidate.name}</h3>
+              <p>{candidate.ingredients.join("、")}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

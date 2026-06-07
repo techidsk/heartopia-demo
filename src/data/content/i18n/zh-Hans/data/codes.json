@@ -1,0 +1,205 @@
+{
+  "sourceNote": "独立粉丝来源快照，汇总公开的心动小镇兑换码追踪信息；依赖奖励前请先在游戏内确认。",
+  "activeCandidates": [
+    {
+      "code": "dcthx4u",
+      "rewards": [
+        "许愿星 x10"
+      ],
+      "rewardTypes": [
+        "许愿星"
+      ],
+      "note": "此处唯一报告了固定截止日期的可用候选码。"
+    },
+    {
+      "code": "keepsmiling2026",
+      "rewards": [
+        "许愿星 x5",
+        "美人鱼诱鱼器 x3",
+        "肥料 x10"
+      ],
+      "rewardTypes": [
+        "许愿星",
+        "钓鱼",
+        "增益"
+      ]
+    },
+    {
+      "code": "heartopiaplaytime",
+      "rewards": [
+        "石头 x10",
+        "稀有木材 x6",
+        "无瑕萤石 x2"
+      ],
+      "rewardTypes": [
+        "材料"
+      ]
+    },
+    {
+      "code": "withu2026heartopia",
+      "rewards": [
+        "修理包 x3",
+        "金币 x5,000",
+        "美人鱼香水 x2"
+      ],
+      "rewardTypes": [
+        "材料",
+        "金币"
+      ]
+    },
+    {
+      "code": "p6n4m9q3a2",
+      "rewards": [
+        "许愿星 x3",
+        "修理包 x5",
+        "生长加速剂 x10"
+      ],
+      "rewardTypes": [
+        "许愿星",
+        "材料",
+        "增益"
+      ]
+    },
+    {
+      "code": "m5r9q2a7k8",
+      "rewards": [
+        "许愿星 x3",
+        "修理包 x5",
+        "生长加速剂 x10"
+      ],
+      "rewardTypes": [
+        "许愿星",
+        "材料",
+        "增益"
+      ]
+    },
+    {
+      "code": "a4k9m7q2r6",
+      "rewards": [
+        "许愿星 x5",
+        "美人鱼诱鱼器 x3",
+        "肥料 x10"
+      ],
+      "rewardTypes": [
+        "许愿星",
+        "钓鱼",
+        "增益"
+      ]
+    },
+    {
+      "code": "l7m5q2r9a8",
+      "rewards": [
+        "许愿星 x5",
+        "美人鱼诱鱼器 x3",
+        "肥料 x10"
+      ],
+      "rewardTypes": [
+        "许愿星",
+        "钓鱼",
+        "增益"
+      ]
+    },
+    {
+      "code": "sweetgift314u",
+      "rewards": [
+        "雪羽玫瑰 x5",
+        "彩色仙女棒 x2",
+        "彩色冷焰火 x2"
+      ],
+      "rewardTypes": [
+        "活动"
+      ]
+    },
+    {
+      "code": "tangyuan0303y",
+      "rewards": [
+        "许愿星 x5",
+        "苹果 x10",
+        "肥料 x10"
+      ],
+      "rewardTypes": [
+        "许愿星",
+        "水果",
+        "增益"
+      ]
+    },
+    {
+      "code": "38bloom2026",
+      "rewards": [
+        "美人鱼香水 x2",
+        "鸡蛋 x10",
+        "金币 x10,000"
+      ],
+      "rewardTypes": [
+        "金币",
+        "农场"
+      ]
+    },
+    {
+      "code": "lifewithline",
+      "rewards": [
+        "许愿星 x10"
+      ],
+      "rewardTypes": [
+        "许愿星"
+      ]
+    },
+    {
+      "code": "heartopia10m",
+      "rewards": [
+        "许愿星 x10"
+      ],
+      "rewardTypes": [
+        "许愿星"
+      ]
+    },
+    {
+      "code": "heartopia5m",
+      "rewards": [
+        "许愿星 x5-10"
+      ],
+      "rewardTypes": [
+        "许愿星"
+      ]
+    },
+    {
+      "code": "top1thanks",
+      "rewards": [
+        "许愿星 x5",
+        "美人鱼香水 x2",
+        "橘子 x10"
+      ],
+      "rewardTypes": [
+        "许愿星",
+        "水果"
+      ]
+    }
+  ],
+  "expiredArchive": [
+    {
+      "code": "SPRINGFEST2026",
+      "reportedReward": "10 月光水晶",
+      "expired": "2026 年 3 月"
+    },
+    {
+      "code": "happy2026",
+      "reportedReward": "10 月光水晶",
+      "expired": "2026 年 3 月"
+    },
+    {
+      "code": "heartopia0108",
+      "reportedReward": "100 月光水晶",
+      "expired": "2026 年 2 月 7 日"
+    },
+    {
+      "code": "mylittlepony",
+      "reportedReward": "100 月光水晶",
+      "expired": "2026 年 2 月 7 日"
+    },
+    {
+      "code": "especialgift0103",
+      "reportedReward": "100 月光水晶",
+      "expired": "2026 年 2 月 7 日"
+    }
+  ]
+}

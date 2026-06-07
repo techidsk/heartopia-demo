@@ -1,0 +1,242 @@
+[
+  {
+    "id": "wels-catfish",
+    "translationStatus": "translated",
+    "name": "欧洲鲶",
+    "spot": "草甸湖",
+    "condition": "新手路线",
+    "window": "任意新手场次",
+    "level": "等级 1",
+    "use": "前期快速钓鱼路线"
+  },
+  {
+    "id": "goldfish",
+    "translationStatus": "translated",
+    "name": "金鱼",
+    "spot": "草甸湖",
+    "condition": "早晨到傍晚",
+    "window": "早晨至傍晚",
+    "level": "等级 1",
+    "use": "前期收藏和图鉴追踪目标"
+  },
+  {
+    "id": "arctic-char",
+    "translationStatus": "translated",
+    "name": "北极红点鲑",
+    "spot": "森林湖",
+    "condition": "优先在凉爽天气查看",
+    "window": "凉爽天气",
+    "level": "等级 2",
+    "use": "森林湖路线检查"
+  },
+  {
+    "id": "giant-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "巨型珍珠蚌",
+    "spot": "森林湖",
+    "condition": "任意时间样例记录",
+    "window": "任意时间",
+    "level": "等级 2",
+    "use": "森林湖补全与价值检查"
+  },
+  {
+    "id": "largemouth-bass",
+    "translationStatus": "translated",
+    "name": "大口黑鲈",
+    "spot": "森林湖",
+    "condition": "湖泊路线常规记录",
+    "window": "任意时间",
+    "level": "等级 2",
+    "use": "常规湖泊捕获"
+  },
+  {
+    "id": "common-whitefish",
+    "translationStatus": "translated",
+    "name": "普通白鲑",
+    "spot": "温泉山湖",
+    "condition": "山地湖路线",
+    "window": "任意时间",
+    "level": "等级 3",
+    "use": "温泉循环捕获"
+  },
+  {
+    "id": "ruffe",
+    "translationStatus": "translated",
+    "name": "梅花鲈",
+    "spot": "温泉山湖",
+    "condition": "山地湖路线",
+    "window": "任意时间",
+    "level": "等级 3",
+    "use": "温泉循环捕获"
+  },
+  {
+    "id": "crucian-carp",
+    "translationStatus": "translated",
+    "name": "鲫鱼",
+    "spot": "泉水湖",
+    "condition": "雨天加成路线",
+    "window": "雨天加成",
+    "level": "等级 3",
+    "use": "雨天场次目标"
+  },
+  {
+    "id": "huchen",
+    "translationStatus": "translated",
+    "name": "多瑙哲罗鱼",
+    "spot": "巨木河",
+    "condition": "等级 9；彩虹天气",
+    "window": "彩虹天气",
+    "level": "等级 9",
+    "use": "稀有河流优先目标"
+  },
+  {
+    "id": "burbot",
+    "translationStatus": "translated",
+    "name": "江鳕",
+    "spot": "静谧河",
+    "condition": "中午到傍晚",
+    "window": "中午至傍晚",
+    "level": "等级 4",
+    "use": "常规河流路线"
+  },
+  {
+    "id": "beltfish",
+    "translationStatus": "translated",
+    "name": "带鱼",
+    "spot": "微风海",
+    "condition": "海岸路线",
+    "window": "任意海岸场次",
+    "level": "等级 4",
+    "use": "海岸路线补全目标"
+  },
+  {
+    "id": "atlantic-pygmy-octopus",
+    "translationStatus": "translated",
+    "name": "大西洋侏儒章鱼",
+    "spot": "微风海",
+    "condition": "海岸路线",
+    "window": "任意海岸场次",
+    "level": "等级 4",
+    "use": "海岸路线检查"
+  },
+  {
+    "id": "atlantic-salmon",
+    "translationStatus": "translated",
+    "name": "大西洋鲑",
+    "spot": "鲸海",
+    "condition": "后期海洋路线",
+    "window": "后期海洋场次",
+    "level": "等级 7",
+    "use": "海洋价值路线"
+  },
+  {
+    "id": "swordfish",
+    "translationStatus": "translated",
+    "name": "剑鱼",
+    "spot": "鲸海",
+    "condition": "等级 10",
+    "window": "后期海洋场次",
+    "level": "等级 10",
+    "use": "后期稀有目标"
+  },
+  {
+    "id": "rainbow-fish",
+    "translationStatus": "translated",
+    "name": "彩虹鱼",
+    "spot": "星光海",
+    "condition": "彩虹天气",
+    "window": "彩虹天气",
+    "level": "等级 8",
+    "use": "稀有天气优先目标"
+  },
+  {
+    "id": "koi",
+    "translationStatus": "translated",
+    "name": "锦鲤",
+    "spot": "秘密池塘",
+    "condition": "午夜路线",
+    "window": "午夜",
+    "level": "等级 5",
+    "use": "隐藏池塘检查"
+  },
+  {
+    "id": "golden-king-crab",
+    "translationStatus": "translated",
+    "name": "黄金帝王蟹",
+    "spot": "海钓",
+    "condition": "活动路线",
+    "window": "活动时段",
+    "level": "活动",
+    "use": "海钓活动目标"
+  },
+  {
+    "id": "bluefin-tuna",
+    "translationStatus": "translated",
+    "name": "蓝鳍金枪鱼",
+    "spot": "旧海",
+    "condition": "等级 10",
+    "window": "后期海洋场次",
+    "level": "等级 10",
+    "use": "后期稀有目标"
+  },
+  {
+    "id": "smooth-hammerhead",
+    "translationStatus": "translated",
+    "name": "平滑双髻鲨",
+    "spot": "深海",
+    "condition": "等级 10",
+    "window": "后期海洋场次",
+    "level": "等级 10",
+    "use": "后期稀有目标"
+  },
+  {
+    "id": "european-eel",
+    "translationStatus": "translated",
+    "name": "欧洲鳗鲡",
+    "spot": "旧海",
+    "condition": "傍晚路线",
+    "window": "傍晚",
+    "level": "等级 7",
+    "use": "旧海傍晚目标"
+  },
+  {
+    "id": "butterfly-koi",
+    "translationStatus": "translated",
+    "name": "蝶尾锦鲤",
+    "spot": "秘密池塘",
+    "condition": "稀有池塘检查",
+    "window": "稀有池塘时段",
+    "level": "等级 6",
+    "use": "隐藏池塘稀有检查"
+  },
+  {
+    "id": "large-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "大型珍珠蚌",
+    "spot": "森林湖",
+    "condition": "任意时间样例记录",
+    "window": "任意时间",
+    "level": "等级 5",
+    "use": "森林湖收藏目标"
+  },
+  {
+    "id": "rainbow-trout",
+    "translationStatus": "translated",
+    "name": "虹鳟",
+    "spot": "巨木河",
+    "condition": "彩虹路线候选",
+    "window": "彩虹天气",
+    "level": "等级 6",
+    "use": "稀有河流天气检查"
+  },
+  {
+    "id": "sea-bream",
+    "translationStatus": "translated",
+    "name": "海鲷",
+    "spot": "渔村",
+    "condition": "新手海岸检查",
+    "window": "任意海岸场次",
+    "level": "等级 1",
+    "use": "新手海岸路线"
+  }
+]

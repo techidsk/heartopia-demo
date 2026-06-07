@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "钓鱼",
+    "group": "核心",
+    "summary": "水域路线，包含解锁、拉力练习、鱼类追踪器、地图点位和稀有鱼规划。"
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "园艺",
+    "group": "核心",
+    "summary": "作物路线，包含种子规划、收益对比、作物规划器、计时和料理消耗点。"
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "烹饪",
+    "group": "核心",
+    "summary": "料理路线，包含 Massimo 解锁、果酱、炸鱼薯条、QTE 安全和活动材料检查。"
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "观鸟",
+    "group": "自然",
+    "summary": "相机和望远镜路线，结合天气、地点、姿态和收藏清单规划。"
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "捕虫",
+    "group": "自然",
+    "summary": "泡泡网路线，结合 DG6 解锁、时间、天气、栖息地、稀有虫和出售检查。"
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "猫咪照护",
+    "group": "社交",
+    "summary": "宠物照护路线，关注猫咪、宠物商店、基础食物和每周亲密度循环。"
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "狗狗照护",
+    "group": "社交",
+    "summary": "宠物照护路线，关注狗粮、领养流程和低成本喜好测试。"
+  }
+]

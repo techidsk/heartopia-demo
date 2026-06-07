@@ -1,5 +1,23 @@
 ---
 import LocalizedFallbackPage from "@components/LocalizedFallbackPage.astro";
+import LocalizedCharacterDetailPage from "@components/data/LocalizedCharacterDetailPage.astro";
+import LocalizedCropDetailPage from "@components/data/LocalizedCropDetailPage.astro";
+import LocalizedFishDetailPage from "@components/data/LocalizedFishDetailPage.astro";
+import LocalizedGardeningDetailPage from "@components/data/LocalizedGardeningDetailPage.astro";
+import LocalizedInsectDetailPage from "@components/data/LocalizedInsectDetailPage.astro";
+import LocalizedRecipeDetailPage from "@components/data/LocalizedRecipeDetailPage.astro";
+import LocalizedShopDetailPage from "@components/data/LocalizedShopDetailPage.astro";
+import {
+  getHeartopiaData,
+  isDataEntryTranslated,
+  type Crop,
+  type Fish,
+  type Gardening,
+  type Insect,
+  type Npc,
+  type Recipe,
+  type Shop
+} from "@data/heartopia";
 import StaticContentPage from "@components/StaticContentPage.astro";
 import { getRouteEntries, type RouteEntry } from "@data/routes";
 import { getStaticPage, getStaticPages, type StaticPage } from "@data/staticPages";
@@ -10,9 +28,10 @@ export function getStaticPaths() {
   const sourceRoutes = getRouteEntries(defaultLocale).filter((entry) => entry.path !== "/" && entry.path !== "/404.html");
   return localizedLocales.flatMap((locale) => {
     const prefix = getLocaleMeta(locale).pathPrefix;
+    const localizedRoutesByPath = new Map(getRouteEntries(locale).map((entry) => [entry.path, entry]));
     return sourceRoutes.map((entry) => ({
       params: { locale: prefix, slug: entry.path.replace(/^\/|\/$/g, "") },
-      props: { locale, entry }
+      props: { locale, entry: localizedRoutesByPath.get(entry.path) || entry }
     }));
   });
 }
@@ -29,6 +48,61 @@ let page: StaticPage | undefined;
 if (staticPaths.has(entry.path)) {
   page = getStaticPage(entry.path, locale);
 }
+const cropMatch = entry.path.match(/^\/crops\/([^/]+)\/$/);
+let crop: Crop | undefined;
+if (cropMatch && isDataEntryTranslated(locale, "crops", cropMatch[1])) {
+  crop = getHeartopiaData(locale).crops.find((item) => item.id === cropMatch[1]);
+}
+const characterMatch = entry.path.match(/^\/characters\/([^/]+)\/$/);
+let npc: Npc | undefined;
+if (characterMatch && isDataEntryTranslated(locale, "npcs", characterMatch[1])) {
+  npc = getHeartopiaData(locale).npcs.find((item) => item.id === characterMatch[1]);
+}
+const fishMatch = entry.path.match(/^\/fish\/([^/]+)\/$/);
+let fishItem: Fish | undefined;
+if (fishMatch && isDataEntryTranslated(locale, "fish", fishMatch[1])) {
+  fishItem = getHeartopiaData(locale).fish.find((item) => item.id === fishMatch[1]);
+}
+const shopMatch = entry.path.match(/^\/shops\/([^/]+)\/$/);
+let shop: Shop | undefined;
+if (shopMatch && isDataEntryTranslated(locale, "shops", shopMatch[1])) {
+  shop = getHeartopiaData(locale).shops.find((item) => item.id === shopMatch[1]);
+}
+const recipeMatch = entry.path.match(/^\/recipes\/([^/]+)\/$/);
+let recipe: Recipe | undefined;
+if (recipeMatch && isDataEntryTranslated(locale, "recipes", recipeMatch[1])) {
+  recipe = getHeartopiaData(locale).recipes.find((item) => item.id === recipeMatch[1]);
+}
+const gardeningMatch = entry.path.match(/^\/gardening\/([^/]+)\/$/);
+let gardeningItem: Gardening | undefined;
+if (gardeningMatch && isDataEntryTranslated(locale, "gardening", gardeningMatch[1])) {
+  gardeningItem = getHeartopiaData(locale).gardening.find((item) => item.id === gardeningMatch[1]);
+}
+const insectMatch = entry.path.match(/^\/insects\/([^/]+)\/$/);
+let insect: Insect | undefined;
+if (insectMatch && isDataEntryTranslated(locale, "insects", insectMatch[1])) {
+  insect = getHeartopiaData(locale).insects.find((item) => item.id === insectMatch[1]);
+}
 ---
 
-{page ? <StaticContentPage page={page} locale={locale} /> : <LocalizedFallbackPage entry={entry} locale={locale} />}
+{
+  page ? (
+    <StaticContentPage page={page} locale={locale} />
+  ) : npc ? (
+    <LocalizedCharacterDetailPage npc={npc} locale={locale} />
+  ) : crop ? (
+    <LocalizedCropDetailPage crop={crop} locale={locale} />
+  ) : fishItem ? (
+    <LocalizedFishDetailPage item={fishItem} locale={locale} />
+  ) : shop ? (
+    <LocalizedShopDetailPage shop={shop} locale={locale} />
+  ) : recipe ? (
+    <LocalizedRecipeDetailPage recipe={recipe} locale={locale} />
+  ) : gardeningItem ? (
+    <LocalizedGardeningDetailPage item={gardeningItem} locale={locale} />
+  ) : insect ? (
+    <LocalizedInsectDetailPage item={insect} locale={locale} />
+  ) : (
+    <LocalizedFallbackPage entry={entry} locale={locale} />
+  )
+}

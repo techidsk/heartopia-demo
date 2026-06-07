@@ -1,0 +1,82 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { type Npc } from "@data/heartopia";
+import { localizePath, type Locale } from "@i18n/config";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  npc: Npc;
+  locale: Locale;
+}
+
+const { npc, locale } = Astro.props;
+const detailPath = `/characters/${npc.id}/`;
+const title = `${npc.name} - Heartopia 角色位置、路线与礼物`;
+const description = `${npc.name} 角色资料：${npc.role}，位置 ${npc.location}，包含行程、礼物路线、地图跳转和来源说明。`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  locale={locale}
+  canonicalPath={detailPath}
+  currentPath="/characters/"
+  ogImage={npc.image || "/assets/asset-map.jpg"}
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs
+        items={[
+          { href: localizePath("/", locale), label: "首页" },
+          { href: localizePath("/characters/", locale), label: "角色" },
+          { label: npc.name }
+        ]}
+      />
+      <h1>{npc.name}</h1>
+      <p>{npc.profile || `${npc.role}，常见位置在 ${npc.location}。`}</p>
+      <MetricCards
+        metrics={[
+          { value: npc.group, label: "分组" },
+          { value: npc.role, label: "角色" },
+          { value: npc.nameZh || npc.name, label: "来源名称" },
+          { value: npc.image ? "Wiki 肖像" : "路线资料", label: "图像来源" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <div class="collection-detail-head">
+          {npc.image ? (
+            <img src={npc.image} alt={`${npc.name} 肖像`} loading="eager" />
+          ) : (
+            <span class="npc-badge">{npc.name.slice(0, 2).toUpperCase()}</span>
+          )}
+          <div>
+            <h2 class="wiki-title">{npc.name}</h2>
+            <p>{npc.nameZh ? `${npc.nameZh} · ` : ""}{npc.source || "粉丝路线资料"}</p>
+          </div>
+        </div>
+        <h2 class="wiki-title">角色路线</h2>
+        <div class="map-meta">
+          <span><strong>位置：</strong> {npc.location}</span>
+          <span><strong>行程：</strong> {npc.schedule}</span>
+          <span><strong>礼物路线：</strong> {npc.gifts.join("、")}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={localizePath(npc.map, locale)}>打开地图路线</a>
+          <a class="pastel-button alt" href={localizePath(npc.shop, locale)}>商店关联</a>
+          <a class="pastel-button alt" href={localizePath(npc.tool, locale)}>友谊工具</a>
+          {npc.wikiUrl && <a class="pastel-button alt" href={npc.wikiUrl} rel="nofollow noopener" target="_blank">打开 Wiki 来源</a>}
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">资料状态</h2>
+        <p>这条角色资料已完成简体中文整理。礼物、位置和路线备注会继续跟随公开资料更新。</p>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

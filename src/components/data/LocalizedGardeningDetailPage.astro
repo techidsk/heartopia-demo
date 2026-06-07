@@ -1,0 +1,92 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { getHeartopiaData, type Gardening } from "@data/heartopia";
+import { localizePath, type Locale } from "@i18n/config";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  item: Gardening;
+  locale: Locale;
+}
+
+const { item, locale } = Astro.props;
+const { gardening } = getHeartopiaData(locale);
+const related = gardening.filter((candidate) => candidate.id !== item.id && candidate.category === item.category).slice(0, 4);
+const detailPath = `/gardening/${item.id}/`;
+const title = `${item.name} - Heartopia 园艺手册`;
+const description = `${item.name} 园艺资料：来源名 ${item.nameZh}，爱好等级 ${item.hobbyLevel}，季节 ${item.season}，包含路线、图标和 Wiki 来源。`;
+---
+
+<BaseLayout title={title} description={description} locale={locale} canonicalPath={detailPath} currentPath="/gardening/" ogImage={item.image}>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs
+        items={[
+          { href: localizePath("/", locale), label: "首页" },
+          { href: localizePath("/gardening/", locale), label: "园艺" },
+          { label: item.name }
+        ]}
+      />
+      <h1>{item.name}</h1>
+      <p>{item.nameZh} 来自园艺手册。先确认来源名、图标和等级，再结合实际作物收益做规划。</p>
+      <MetricCards
+        metrics={[
+          { value: item.hobbyLevel, label: "爱好等级" },
+          { value: item.season, label: "季节" },
+          { value: item.category, label: "类型" },
+          { value: `#${item.number}`, label: "Wiki 编号" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <div class="collection-detail-head">
+          <img src={item.image} alt={`${item.name} 园艺图标`} loading="eager" />
+          <div>
+            <h2 class="wiki-title">{item.name}</h2>
+            <p>{item.nameZh}</p>
+          </div>
+        </div>
+        <div class="map-meta">
+          <span><strong>时间：</strong> {item.time}</span>
+          <span><strong>天气：</strong> {item.weather}</span>
+          <span><strong>路线：</strong> {item.route}</span>
+          <span><strong>来源：</strong> {item.source}</span>
+        </div>
+        <p>{item.lore}</p>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={localizePath("/gardening/", locale)}>返回园艺手册</a>
+          <a class="pastel-button alt" href={item.wikiUrl} rel="nofollow noopener" target="_blank">打开 Wiki 来源</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">资料状态</h2>
+        <p>这条园艺资料已完成简体中文整理。收益、成长和商店数值会在对应作物数据中继续维护。</p>
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>相关园艺条目</h2>
+          <p>同一手册分组中的其他条目。</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={localizePath(`/gardening/${candidate.id}/`, locale)}>
+              <img class="table-icon" src={candidate.image} alt={`${candidate.name} 图标`} loading="lazy" />
+              <h3>{candidate.name}</h3>
+              <p>{candidate.nameZh} | {candidate.hobbyLevel} 级</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

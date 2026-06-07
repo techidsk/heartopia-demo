@@ -1,0 +1,97 @@
+[
+  {
+    "id": "profit-calculator",
+    "translationStatus": "translated",
+    "title": "收益计算器",
+    "category": "计算器",
+    "description": "按地块数量、场次长度和星级加成比较作物收益。",
+    "useCase": "种植前选择最合适的作物。",
+    "linkedData": [
+      "作物",
+      "商店",
+      "料理"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "fish-tracker",
+    "translationStatus": "translated",
+    "title": "鱼类追踪器",
+    "category": "追踪器",
+    "description": "按水域路线、等级门槛和时间条件追踪稀有鱼。",
+    "useCase": "跨场次保存收藏进度。",
+    "linkedData": [
+      "鱼类",
+      "地图"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "crop-planner",
+    "translationStatus": "translated",
+    "title": "作物规划器",
+    "category": "规划器",
+    "description": "根据游玩时长和地块数量生成主动、均衡或离线作物路线。",
+    "useCase": "把可玩时间转成种植日程。",
+    "linkedData": [
+      "作物",
+      "商店"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "friendship-tracker",
+    "translationStatus": "translated",
+    "title": "友情追踪器",
+    "category": "追踪器",
+    "description": "根据送礼、对话和同行估算 NPC 日常进度。",
+    "useCase": "规划本周的一条关系循环。",
+    "linkedData": [
+      "NPC",
+      "商店"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "recipe-finder",
+    "translationStatus": "translated",
+    "title": "料理查找器",
+    "category": "查找器",
+    "description": "按已有食材筛选入门料理。",
+    "useCase": "出售或送礼前决定要做什么菜。",
+    "linkedData": [
+      "料理",
+      "作物",
+      "鱼类"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "checklist",
+    "translationStatus": "translated",
+    "title": "每日清单",
+    "category": "清单",
+    "description": "把日常路线、补给和收藏检查集中到一张清单。",
+    "useCase": "进入游戏前确认今天的优先事项。",
+    "linkedData": [
+      "路线",
+      "NPC",
+      "活动"
+    ],
+    "status": "可用"
+  },
+  {
+    "id": "timer",
+    "translationStatus": "translated",
+    "title": "路线计时器",
+    "category": "计时器",
+    "description": "为作物、钓鱼和跑图路线设置短时提醒。",
+    "useCase": "在多条路线之间保持节奏。",
+    "linkedData": [
+      "作物",
+      "钓鱼",
+      "日常"
+    ],
+    "status": "可用"
+  }
+]

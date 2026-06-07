@@ -1,0 +1,162 @@
+[
+  {
+    "id": "blanc",
+    "translationStatus": "translated",
+    "name": "布兰克",
+    "group": "导师",
+    "role": "园艺导师",
+    "location": "园艺商店 / 中心城镇",
+    "schedule": "买种子和规划花卉前，把布兰克作为园艺路线锚点。",
+    "gifts": [
+      "新鲜作物",
+      "花朵",
+      "简单料理"
+    ],
+    "nameZh": "布兰克",
+    "profile": "TW Wiki 将布兰克列为园艺导师，关联作物、花卉和后续花卉培育路线。",
+    "source": "Biligame 心动小镇 TW Wiki 首页"
+  },
+  {
+    "id": "bob",
+    "translationStatus": "translated",
+    "name": "鲍勃",
+    "group": "店主",
+    "role": "家具工坊老板",
+    "location": "中心城镇",
+    "schedule": "规划房屋布局时顺路拜访家具点。",
+    "gifts": [
+      "木质装饰",
+      "房屋材料",
+      "简单料理"
+    ],
+    "nameZh": "鲍勃"
+  },
+  {
+    "id": "dorothy",
+    "translationStatus": "translated",
+    "name": "多萝西",
+    "group": "店主",
+    "role": "服装店老板",
+    "location": "中心城镇",
+    "schedule": "把服装采购与中心城镇 NPC 对话循环放在一起。",
+    "gifts": [
+      "时装物品",
+      "花朵",
+      "甜点"
+    ],
+    "nameZh": "多萝西"
+  },
+  {
+    "id": "mrs-joan",
+    "translationStatus": "translated",
+    "name": "琼夫人",
+    "group": "导师",
+    "role": "宠物照护导师",
+    "location": "宠物商店",
+    "schedule": "测试狗粮和领养流程时走宠物商店路线。",
+    "gifts": [
+      "狗粮",
+      "宠物照护用品",
+      "料理"
+    ],
+    "nameZh": "琼夫人"
+  },
+  {
+    "id": "doris",
+    "translationStatus": "translated",
+    "name": "多莉丝",
+    "group": "动态",
+    "role": "天气商人",
+    "location": "动态天气路线",
+    "schedule": "规划稀有采购前先确认游戏内天气路线。",
+    "gifts": [
+      "天气物品",
+      "彩色花朵",
+      "稀有料理"
+    ],
+    "nameZh": "多莉丝"
+  },
+  {
+    "id": "bill",
+    "translationStatus": "translated",
+    "name": "比尔",
+    "group": "活动",
+    "role": "海钓活动导师",
+    "location": "渔村",
+    "schedule": "海钓或活动任务指向海岸路线时找比尔。",
+    "gifts": [
+      "鱼",
+      "修理包",
+      "海鲜料理"
+    ],
+    "nameZh": "比尔"
+  },
+  {
+    "id": "albert-ii",
+    "translationStatus": "translated",
+    "name": "阿尔伯特二世",
+    "group": "精选",
+    "role": "精选小镇角色",
+    "location": "心动小镇路线",
+    "schedule": "首页精选角色；安排送礼前先在游戏内确认实时位置。",
+    "gifts": [
+      "喜好礼物待确认",
+      "喜欢礼物待确认",
+      "对话路线"
+    ],
+    "nameZh": "阿尔伯特二世",
+    "profile": "出现在 TW Wiki 首页角色栏；详细路线资料仍待补齐。",
+    "source": "Biligame 心动小镇 TW Wiki 首页"
+  },
+  {
+    "id": "ka-ching",
+    "translationStatus": "translated",
+    "name": "卡清",
+    "group": "店主",
+    "role": "杂货店老板",
+    "location": "中心城镇",
+    "schedule": "把卡清与背包、实用品和长路线准备一起安排。",
+    "gifts": [
+      "实用品",
+      "简单料理",
+      "喜好礼物待确认"
+    ],
+    "nameZh": "卡清",
+    "profile": "出现在 TW Wiki 首页，并在本指南中关联杂货店路线。",
+    "source": "Biligame 心动小镇 TW Wiki 首页"
+  },
+  {
+    "id": "annie",
+    "translationStatus": "translated",
+    "name": "安妮",
+    "group": "店主",
+    "role": "音乐店老板",
+    "location": "中心城镇",
+    "schedule": "当房屋氛围、音乐和收藏路线重叠时找安妮。",
+    "gifts": [
+      "音乐装饰",
+      "甜点",
+      "喜好礼物待确认"
+    ],
+    "nameZh": "安妮",
+    "profile": "出现在 TW Wiki 首页，并在本指南中关联音乐店路线。",
+    "source": "Biligame 心动小镇 TW Wiki 首页"
+  },
+  {
+    "id": "vania",
+    "translationStatus": "translated",
+    "name": "万尼亚",
+    "group": "精选",
+    "role": "精选小镇角色",
+    "location": "心动小镇路线",
+    "schedule": "首页精选角色；安排送礼前先在游戏内确认实时位置。",
+    "gifts": [
+      "喜好礼物待确认",
+      "喜欢礼物待确认",
+      "对话路线"
+    ],
+    "nameZh": "万尼亚",
+    "profile": "出现在 TW Wiki 首页角色栏；详细路线资料仍待补齐。",
+    "source": "Biligame 心动小镇 TW Wiki 首页"
+  }
+]

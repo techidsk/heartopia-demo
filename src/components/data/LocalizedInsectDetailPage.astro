@@ -1,0 +1,91 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { getHeartopiaData, type Insect } from "@data/heartopia";
+import { localizePath, type Locale } from "@i18n/config";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  item: Insect;
+  locale: Locale;
+}
+
+const { item, locale } = Astro.props;
+const { insects } = getHeartopiaData(locale);
+const related = insects.filter((candidate) => candidate.id !== item.id && candidate.route === item.route).slice(0, 4);
+const detailPath = `/insects/${item.id}/`;
+const title = `${item.name} - Heartopia 昆虫位置、天气与时间`;
+const description = `${item.name} 昆虫资料：时间 ${item.time}，天气 ${item.weather}，路线 ${item.route}，稀有度 ${item.rarity}，爱好等级 ${item.hobbyLevel}。`;
+---
+
+<BaseLayout title={title} description={description} locale={locale} canonicalPath={detailPath} currentPath="/insects/" ogImage={item.image}>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs
+        items={[
+          { href: localizePath("/", locale), label: "首页" },
+          { href: localizePath("/insects/", locale), label: "昆虫" },
+          { label: item.name }
+        ]}
+      />
+      <h1>{item.name}</h1>
+      <p>{item.lore}</p>
+      <MetricCards
+        metrics={[
+          { value: item.time, label: "时间" },
+          { value: item.weather, label: "天气" },
+          { value: item.rarity, label: "稀有度" },
+          { value: item.hobbyLevel, label: "爱好等级" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <div class="collection-detail-head">
+          <img src={item.image} alt={`${item.name} 昆虫图标`} loading="eager" />
+          <div>
+            <h2 class="wiki-title">{item.name}</h2>
+            <p>{item.source}</p>
+          </div>
+        </div>
+        <div class="map-meta">
+          <span><strong>季节：</strong> {item.season}</span>
+          <span><strong>路线：</strong> {item.route}</span>
+          <span><strong>Wiki 编号：</strong> #{item.number}</span>
+          <span><strong>图标文件：</strong> {item.iconFile}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={localizePath("/insects/", locale)}>返回昆虫数据库</a>
+          <a class="pastel-button alt" href={item.wikiUrl} rel="nofollow noopener" target="_blank">打开 Wiki 来源</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">捕捉备注</h2>
+        <p>这条昆虫资料已完成简体中文整理。稀有刷新和精确出现行为仍建议在游戏内确认后再规划。</p>
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wiki-section tint-blue">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>同路线昆虫</h2>
+          <p>来自同一路线标签的其他昆虫。</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={localizePath(`/insects/${candidate.id}/`, locale)}>
+              <img class="table-icon" src={candidate.image} alt={`${candidate.name} 图标`} loading="lazy" />
+              <h3>{candidate.name}</h3>
+              <p>{candidate.time} | {candidate.weather}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>

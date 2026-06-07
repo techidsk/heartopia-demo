@@ -1,0 +1,108 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import MetricCards from "@components/MetricCards.astro";
+import { getHeartopiaData, type Fish } from "@data/heartopia";
+import { localizePath, type Locale } from "@i18n/config";
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+interface Props {
+  item: Fish;
+  locale: Locale;
+}
+
+const { item, locale } = Astro.props;
+const { fish } = getHeartopiaData(locale);
+const related = fish.filter((candidate) => candidate.id !== item.id && candidate.type === item.type).slice(0, 4);
+const waterRouteLabels: Record<string, string> = {
+  lake: "湖泊",
+  river: "河流",
+  ocean: "海洋",
+  hidden: "隐藏水域",
+  event: "活动"
+};
+const rarityLabels: Record<string, string> = {
+  common: "常见",
+  uncommon: "少见",
+  rare: "稀有",
+  epic: "史诗",
+  legendary: "传说"
+};
+const waterRoute = waterRouteLabels[item.type] || item.type;
+const rarity = rarityLabels[item.rarity] || item.rarity;
+const detailPath = `/fish/${item.id}/`;
+const title = `${item.name} - Heartopia 钓鱼位置、条件与路线`;
+const description = `${item.name} 钓鱼资料：位置 ${item.spot}，条件 ${item.condition}，时间 ${item.window}，等级门槛 ${item.level}。`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  locale={locale}
+  canonicalPath={detailPath}
+  currentPath="/fish/"
+  ogImage="/assets/asset-fishing.jpg"
+>
+  <section class="article-hero">
+    <div class="wiki-shell">
+      <Breadcrumbs
+        items={[
+          { href: localizePath("/", locale), label: "首页" },
+          { href: localizePath("/fish/", locale), label: "鱼类" },
+          { label: item.name }
+        ]}
+      />
+      <h1>{item.name}</h1>
+      <p>{item.use}。先确认水域、天气或时段，再把目标加入钓鱼追踪。</p>
+      <MetricCards
+        metrics={[
+          { value: waterRoute, label: "水域路线" },
+          { value: rarity, label: "稀有度" },
+          { value: item.level, label: "等级门槛" },
+          { value: item.window, label: "时段" }
+        ]}
+      />
+    </div>
+  </section>
+
+  <section class="wiki-section">
+    <div class="wiki-shell database-grid">
+      <article class="wiki-card">
+        <h2 class="wiki-title">钓鱼路线</h2>
+        <div class="map-meta">
+          <span><strong>位置：</strong> {item.spot}</span>
+          <span><strong>条件：</strong> {item.condition}</span>
+          <span><strong>时段：</strong> {item.window}</span>
+          <span><strong>用途：</strong> {item.use}</span>
+        </div>
+        <div class="entity-action-grid">
+          <a class="pastel-button" href={localizePath(item.map, locale)}>打开地图路线</a>
+          <a class="pastel-button alt" href={localizePath("/tools/fish-tracker/", locale)}>追踪鱼类</a>
+          <a class="pastel-button alt" href={localizePath("/recipes/", locale)}>查看料理用途</a>
+        </div>
+      </article>
+      <aside class="wiki-card">
+        <h2 class="wiki-title">资料状态</h2>
+        <p>这条鱼类资料已完成简体中文整理。水域、条件和路线备注会继续跟随公开资料更新。</p>
+      </aside>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="wiki-section tint-mint">
+      <div class="wiki-shell">
+        <div class="center-head">
+          <h2>同水域目标</h2>
+          <p>来自同一水域路线的相关鱼类。</p>
+        </div>
+        <div class="route-grid">
+          {related.map((candidate) => (
+            <a class="route-card" href={localizePath(`/fish/${candidate.id}/`, locale)}>
+              <h3>{candidate.name}</h3>
+              <p>{candidate.spot} | {candidate.condition}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</BaseLayout>
