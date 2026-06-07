@@ -1,7 +1,7 @@
 import { getHeartopiaData, getTranslatedDataIds } from "./heartopia";
 import { getSiteConfig } from "./site";
 import { getStaticPages } from "./staticPages";
-import { defaultLocale, localizePath, supportedLocales, type Locale } from "@i18n/config";
+import { defaultLocale, isLocaleIndexable, localizePath, supportedLocales, type Locale } from "@i18n/config";
 
 export type RouteEntry = {
   path: string;
@@ -209,7 +209,7 @@ export async function getIndexableRouteEntries() {
   const translatedStaticEntries = (
     await Promise.all(
       supportedLocales
-        .filter((locale) => locale !== defaultLocale)
+        .filter((locale) => locale !== defaultLocale && isLocaleIndexable(locale))
         .map(async (locale) => {
           const updated = getSiteConfig(locale).updatedDate;
           return (await getStaticPages(locale))
@@ -223,7 +223,7 @@ export async function getIndexableRouteEntries() {
   const translatedDataEntries = (
     await Promise.all(
       supportedLocales
-        .filter((locale) => locale !== defaultLocale)
+        .filter((locale) => locale !== defaultLocale && isLocaleIndexable(locale))
         .map(async (locale) => {
           const localizedRoutesByPath = new Map((await getRouteEntries(locale)).map((entry) => [entry.path, entry]));
           const translatedPaths = [

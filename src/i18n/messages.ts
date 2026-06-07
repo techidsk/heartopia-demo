@@ -104,10 +104,10 @@ const uiMessages = {
     footer: { updated: "独立粉丝攻略。最后更新：{updatedLabel}。" },
     translation: { fallbackTitle: "翻译待补", fallbackBody: "此本地化页面已建立，但在翻译审核完成前仍使用英文来源内容。", openEnglish: "打开英文版本" }
   }
-} satisfies Record<Locale, UiMessages>;
+} satisfies Partial<Record<Locale, UiMessages>>;
 
 export function getUiMessages(locale: Locale = defaultLocale) {
-  return uiMessages[locale];
+  return uiMessages[locale] || uiMessages[defaultLocale] || uiMessages.en;
 }
 
 export function formatMessage(template: string, values: Record<string, string | number>) {

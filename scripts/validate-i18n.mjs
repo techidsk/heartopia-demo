@@ -50,10 +50,6 @@ for (const code of localeCodes) {
     failures.push(`locales.json: non-default locale '${code}' must define a pathPrefix`);
   }
 
-  if (code !== defaultLocale && meta.indexable) {
-    failures.push(`locales.json: non-default locale '${code}' must stay non-indexable until translated content exists`);
-  }
-
   const prefixKey = meta.pathPrefix || "(root)";
   const existing = prefixes.get(prefixKey);
   if (existing) {
@@ -73,8 +69,11 @@ if (!tsconfig.compilerOptions?.paths?.["@i18n/*"]) {
 }
 
 const siteSource = await readText(sitePath);
-if (!siteSource.includes("satisfies Record<") || !siteSource.includes("Locale")) {
+if (!siteSource.includes("localizedSiteContent") || !siteSource.includes("Locale")) {
   failures.push("src/data/site.ts: localized site content should be typed against Locale");
+}
+if (!siteSource.includes("localizedSiteContent[defaultLocale]") || !siteSource.includes("localizedSiteContent.en")) {
+  failures.push("src/data/site.ts: site chrome should fall back when a locale has no explicit localized copy");
 }
 
 const staticPagesSource = await readText(staticPagesPath);
@@ -95,6 +94,9 @@ const routesSource = await readText(routesPath);
 if (!routesSource.includes("getIndexableRouteEntries")) {
   failures.push("src/data/routes.ts: missing getIndexableRouteEntries for SEO/search artifacts");
 }
+if (!routesSource.includes("isLocaleIndexable")) {
+  failures.push("src/data/routes.ts: getIndexableRouteEntries should filter localized artifacts by locale indexable status");
+}
 
 for (const [filePath, artifact] of [
   [sitemapPath, "sitemap"],
@@ -110,6 +112,7 @@ const defaultStaticPages = JSON.parse(await readText(staticPagesJsonPath));
 const defaultStaticPagePaths = new Set(defaultStaticPages.map((page) => page.path));
 try {
   const localeDirs = await fs.readdir(staticPagesI18nDir);
+  const translatedLocales = new Set();
   for (const locale of localeDirs) {
     const localeDir = path.join(staticPagesI18nDir, locale);
     const stat = await fs.stat(localeDir);
@@ -119,6 +122,7 @@ try {
       continue;
     }
     if (locale === defaultLocale) failures.push(`src/data/content/i18n/${locale}: default locale should use static-pages.json directly`);
+    translatedLocales.add(locale);
 
     const overlayPath = path.join(localeDir, "static-pages.json");
     let overlayPages = [];
@@ -143,6 +147,16 @@ try {
         if (typeof page[key] !== "string" || !page[key].trim()) failures.push(`${label}: ${key} must be a non-empty string`);
       }
       if (!Array.isArray(page.keywords) || !page.keywords.length) failures.push(`${label}: keywords must be a non-empty array`);
+      if (page.translationStatus && !["translated", "draft"].includes(page.translationStatus)) {
+        failures.push(`${label}: translationStatus must be translated or draft`);
+      }
+    }
+  }
+
+  for (const code of localeCodes) {
+    const meta = localesConfig.locales[code] || {};
+    if (code !== defaultLocale && meta.indexable && !translatedLocales.has(code)) {
+      failures.push(`locales.json: indexable locale '${code}' must have a translation overlay directory`);
     }
   }
 } catch {

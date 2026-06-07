@@ -10,6 +10,7 @@ import LocalizedRecipeDetailPage from "@components/data/LocalizedRecipeDetailPag
 import LocalizedShopDetailPage from "@components/data/LocalizedShopDetailPage.astro";
 import {
   getHeartopiaData,
+  hasTranslatedData,
   isDataEntryTranslated,
   type Crop,
   type Fish,
@@ -68,7 +69,7 @@ const localizedDataIndexPaths = new Set([
   "/hobbies/",
   "/tools/"
 ]);
-const shouldRenderDataIndex = localizedDataIndexPaths.has(entry.path) && locale === "zh-Hans";
+const shouldRenderDataIndex = localizedDataIndexPaths.has(entry.path) && hasTranslatedData(locale);
 const localizedData = await getHeartopiaData(locale);
 const cropMatch = entry.path.match(/^\/crops\/([^/]+)\/$/);
 let crop: Crop | undefined;

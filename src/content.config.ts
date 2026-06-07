@@ -44,9 +44,5 @@ export const collections = {
   hobbies: defineCollection({ loader: arrayFile("src/data/content/hobbies.json"), schema: stripId(hobbySchema) }),
   tools: defineCollection({ loader: arrayFile("src/data/content/tools.json"), schema: stripId(toolSchema) }),
   codes,
-  staticPages: defineCollection({ loader: staticPageLoader("src/data/content/static-pages.json"), schema: staticPageSchema }),
-  zhHansStaticPages: defineCollection({
-    loader: staticPageLoader("src/data/content/i18n/zh-Hans/static-pages.json"),
-    schema: staticPageSchema.partial({ ogImage: true })
-  })
+  staticPages: defineCollection({ loader: staticPageLoader("src/data/content/static-pages.json"), schema: staticPageSchema })
 };

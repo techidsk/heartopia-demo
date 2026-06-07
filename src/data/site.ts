@@ -318,16 +318,16 @@ const localizedSiteContent = {
     footerLabels: { explore: "探索", site: "站点" },
     linkLabels: { ...englishLinks, home: "首页", codes: "兑换码", database: "数据库", map: "地图", shops: "商店", fish: "鱼类", recipes: "食谱", hobbies: "兴趣", pets: "宠物", house: "房屋", characters: "角色", tools: "工具", events: "活动", download: "下载", guides: "新手攻略", gardening: "园艺", insects: "昆虫", crops: "作物", animalFavorites: "动物喜好", houseDesigns: "房屋设计", legacyNpc: "旧版 NPC 攻略", profitCalculator: "收益计算器", cropPlanner: "作物规划器", recipeFinder: "食谱搜索", fishTracker: "鱼类追踪", checklist: "每日清单", search: "搜索", about: "关于", contact: "联系", privacy: "隐私政策", terms: "条款" }
   }
-} satisfies Record<Locale, SiteLocaleContent>;
+} satisfies Partial<Record<Locale, SiteLocaleContent>>;
 
 const linkFor = (link: { href: string; key: LinkKey }, locale: Locale): NavLink => ({
   href: localizePath(link.href, locale),
-  label: localizedSiteContent[locale].linkLabels[link.key]
+  label: (localizedSiteContent[locale] || localizedSiteContent[defaultLocale] || localizedSiteContent.en).linkLabels[link.key]
 });
 
 export function getSiteConfig(locale: Locale = defaultLocale) {
   const meta = getLocaleMeta(locale);
-  const content = localizedSiteContent[locale];
+  const content = localizedSiteContent[locale] || localizedSiteContent[defaultLocale] || localizedSiteContent.en;
   return {
     ...sharedSiteConfig,
     ...content,
@@ -345,7 +345,7 @@ export function getNavItems(locale: Locale = defaultLocale) {
 }
 
 export function getNavGroups(locale: Locale = defaultLocale): NavGroup[] {
-  const content = localizedSiteContent[locale];
+  const content = localizedSiteContent[locale] || localizedSiteContent[defaultLocale] || localizedSiteContent.en;
   return navGroupsBase.map((group) => ({
     label: content.groupLabels[group.labelKey],
     links: group.links.map((link) => linkFor(link, locale))
@@ -353,7 +353,7 @@ export function getNavGroups(locale: Locale = defaultLocale): NavGroup[] {
 }
 
 export function getDefaultFooterGroups(locale: Locale = defaultLocale): FooterGroup[] {
-  const content = localizedSiteContent[locale];
+  const content = localizedSiteContent[locale] || localizedSiteContent[defaultLocale] || localizedSiteContent.en;
   return footerGroupsBase.map((group) => ({
     title: content.footerLabels[group.titleKey],
     links: group.links.map((link) => linkFor(link, locale))

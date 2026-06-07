@@ -1,18 +1,6 @@
 import { z } from "zod";
 import { getCollection, getEntry } from "astro:content";
-import zhHansFishOverlay from "./content/i18n/zh-Hans/data/fish.json";
-import zhHansShopsOverlay from "./content/i18n/zh-Hans/data/shops.json";
-import zhHansCropsOverlay from "./content/i18n/zh-Hans/data/crops.json";
-import zhHansGardeningOverlay from "./content/i18n/zh-Hans/data/gardening.json";
-import zhHansInsectsOverlay from "./content/i18n/zh-Hans/data/insects.json";
-import zhHansRecipesOverlay from "./content/i18n/zh-Hans/data/recipes.json";
-import zhHansCodesOverlay from "./content/i18n/zh-Hans/data/codes.json";
-import zhHansEventsOverlay from "./content/i18n/zh-Hans/data/events.json";
-import zhHansNpcsOverlay from "./content/i18n/zh-Hans/data/npcs.json";
-import zhHansPetsOverlay from "./content/i18n/zh-Hans/data/pets.json";
-import zhHansHobbiesOverlay from "./content/i18n/zh-Hans/data/hobbies.json";
-import zhHansToolsOverlay from "./content/i18n/zh-Hans/data/tools.json";
-import { defaultLocale, type Locale } from "@i18n/config";
+import { defaultLocale, isLocale, type Locale } from "@i18n/config";
 
 const pathSchema = z.string().min(1);
 
@@ -403,24 +391,43 @@ export type HeartopiaData = {
 };
 export type DataSetName = Exclude<keyof z.infer<typeof dataOverlaySchema>, "codes">;
 
-const zhHansOverlay = dataOverlaySchema.parse({
-  fish: zhHansFishOverlay,
-  shops: zhHansShopsOverlay,
-  crops: zhHansCropsOverlay,
-  gardening: zhHansGardeningOverlay,
-  insects: zhHansInsectsOverlay,
-  recipes: zhHansRecipesOverlay,
-  codes: zhHansCodesOverlay,
-  events: zhHansEventsOverlay,
-  npcs: zhHansNpcsOverlay,
-  pets: zhHansPetsOverlay,
-  hobbies: zhHansHobbiesOverlay,
-  tools: zhHansToolsOverlay
-});
+type DataOverlay = z.infer<typeof dataOverlaySchema>;
+type DataOverlayFileName = keyof DataOverlay;
 
-const dataOverlays: Partial<Record<Locale, z.infer<typeof dataOverlaySchema>>> = {
-  "zh-Hans": zhHansOverlay
-};
+const overlayModules = import.meta.glob("./content/i18n/*/data/*.json", {
+  eager: true,
+  import: "default"
+}) as Record<string, unknown>;
+
+const dataOverlayFileNames = new Set<DataOverlayFileName>([
+  "fish",
+  "shops",
+  "crops",
+  "gardening",
+  "insects",
+  "recipes",
+  "codes",
+  "events",
+  "npcs",
+  "pets",
+  "hobbies",
+  "tools"
+]);
+
+const overlayBuckets: Partial<Record<Locale, Partial<Record<DataOverlayFileName, unknown>>>> = {};
+
+for (const [modulePath, payload] of Object.entries(overlayModules)) {
+  const match = modulePath.match(/\/i18n\/([^/]+)\/data\/([^/]+)\.json$/);
+  if (!match) continue;
+  const [, locale, fileName] = match;
+  if (!isLocale(locale) || !dataOverlayFileNames.has(fileName as DataOverlayFileName)) continue;
+  overlayBuckets[locale] ||= {};
+  overlayBuckets[locale][fileName as DataOverlayFileName] = payload;
+}
+
+const dataOverlays = Object.fromEntries(
+  Object.entries(overlayBuckets).map(([locale, overlay]) => [locale, dataOverlaySchema.parse(overlay)])
+) as Partial<Record<Locale, DataOverlay>>;
 
 const overlayIdSets: Partial<Record<Locale, Partial<Record<DataSetName, Set<string>>>>> = Object.fromEntries(
   Object.entries(dataOverlays).map(([locale, overlay]) => [
@@ -554,4 +561,8 @@ export function getTranslatedDataIds(locale: Locale, dataSet: DataSetName) {
 
 export function isDataEntryTranslated(locale: Locale, dataSet: DataSetName, id: string) {
   return overlayIdSets[locale]?.[dataSet]?.has(id) || false;
+}
+
+export function hasTranslatedData(locale: Locale) {
+  return Object.values(overlayIdSets[locale] || {}).some((ids) => ids.size > 0);
 }

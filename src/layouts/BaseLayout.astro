@@ -2,7 +2,7 @@
 import SiteHeader from "@components/SiteHeader.astro";
 import SiteFooter from "@components/SiteFooter.astro";
 import { getSiteConfig, type FooterGroup } from "@data/site";
-import { defaultLocale, getAlternateLocalePaths, getCanonicalPath, type Locale } from "@i18n/config";
+import { defaultLocale, getAlternateLocalePaths, getCanonicalPath, isLocaleIndexable, type Locale } from "@i18n/config";
 import { getUiMessages } from "@i18n/messages";
 
 type AlternateLocalePath = {
@@ -33,7 +33,7 @@ const {
   currentPath = Astro.url.pathname,
   ogImage,
   ogImageAlt,
-  robots = "index,follow,max-image-preview:large",
+  robots,
   schema,
   bodyClass = "wiki-body",
   footerGroups,
@@ -41,6 +41,7 @@ const {
 } = Astro.props;
 const siteConfig = getSiteConfig(locale);
 const messages = getUiMessages(locale);
+const resolvedRobots = robots || (isLocaleIndexable(locale) ? "index,follow,max-image-preview:large" : "noindex,follow");
 const canonical = new URL(getCanonicalPath(canonicalPath, locale), siteConfig.origin).toString();
 const alternateSourceLinks = alternateLocalePaths || getAlternateLocalePaths(canonicalPath);
 const alternateLinks = alternateSourceLinks.map((link) => ({
@@ -58,7 +59,7 @@ const websiteId = `${siteConfig.origin}/#website`;
 const pageId = `${canonical}#webpage`;
 const searchTarget = `${siteConfig.origin}/search/?q={search_term_string}`;
 const adsenseSrc = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${siteConfig.adsenseClient}`;
-const isNoindex = robots.toLowerCase().includes("noindex");
+const isNoindex = resolvedRobots.toLowerCase().includes("noindex");
 const defaultSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -131,7 +132,7 @@ const clientMessagesJson = JSON.stringify({ locale, messages }).replace(/</g, "\
     <meta name="author" content={siteConfig.author} />
     <meta name="application-name" content={siteConfig.name} />
     <meta name="color-scheme" content="light" />
-    <meta name="robots" content={robots} />
+    <meta name="robots" content={resolvedRobots} />
     <meta name="theme-color" content={siteConfig.themeColor} />
     <link rel="canonical" href={canonical} />
     {alternateLinks.map((link) => <link rel="alternate" hreflang={link.hrefLang} href={link.href} />)}
