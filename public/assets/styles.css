@@ -3653,6 +3653,39 @@ td {
   color: #6d625a;
 }
 
+.code-expired-list {
+  color: #746d67;
+}
+
+.expired-code-row {
+  border: 1px solid rgba(160, 150, 140, 0.38);
+  border-radius: 8px;
+  padding: 0.75rem 0.85rem;
+  background: #f2f0ed;
+  color: #746d67;
+}
+
+.dense-table tr.expired-code-row {
+  background: #f2f0ed;
+}
+
+.dense-table tr.expired-code-row td {
+  color: #746d67;
+}
+
+.expired-code-row strong {
+  color: #5f5852;
+}
+
+.expired-code-row s {
+  text-decoration-thickness: 2px;
+}
+
+.expired-code-row em {
+  color: #857d75;
+  font-style: normal;
+}
+
 .data-card-grid {
   grid-template-columns: repeat(4, 1fr);
 }

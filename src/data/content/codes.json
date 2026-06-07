@@ -1,101 +1,155 @@
 {
-  "checkedAt": "2026-06-05",
-  "sourceNote": "Independent fan-source snapshot compiled from public Heartopia code trackers; verify in-game before relying on rewards.",
+  "checkedAt": "2026-06-08",
+  "sourceNote": "G2A News working-code snapshot published June 1, 2026 and checked June 8, 2026; code validity can change without notice, so verify in-game before relying on rewards.",
   "activeCandidates": [
     {
-      "code": "dcthx4u",
-      "status": "priority",
-      "rewards": ["Wishing Star x10"],
-      "rewardTypes": ["stars"],
-      "expiresAt": "2026-06-29",
-      "note": "Only active candidate here with a reported fixed deadline."
+      "code": "r5a8m4q1n6",
+      "status": "new",
+      "rewards": ["Repair Kit x5", "Wishing Star x3", "Growth Booster x10"],
+      "rewardTypes": ["materials", "stars", "booster"],
+      "note": "G2A listed this working code as added May 25."
     },
     {
-      "code": "keepsmiling2026",
+      "code": "m2q7r6a9k3",
       "status": "new",
-      "rewards": ["Wishing Star x5", "Mermaid Fish Attractor x3", "Fertilizer x10"],
-      "rewardTypes": ["stars", "fishing", "booster"]
+      "rewards": ["Repair Kit x5", "Wishing Star x3", "Growth Booster x10"],
+      "rewardTypes": ["materials", "stars", "booster"],
+      "note": "G2A listed this working code as added May 18."
     },
     {
-      "code": "heartopiaplaytime",
+      "code": "mumlove4ever",
       "status": "new",
-      "rewards": ["Stone x10", "Rare Timber x6", "Flawless Fluorite x2"],
-      "rewardTypes": ["materials"]
+      "rewards": ["Wishing Star x5", "Fertilizer x10", "Apple x10"],
+      "rewardTypes": ["stars", "booster", "fruit"],
+      "note": "G2A listed this working code as added May 11."
     },
     {
-      "code": "withu2026heartopia",
+      "code": "n8q5m2a4r9",
       "status": "new",
-      "rewards": ["Repair Kit x3", "Gold x5,000", "Mermaid Perfume x2"],
-      "rewardTypes": ["materials", "gold"]
+      "rewards": ["Repair Kit x5", "Wishing Star x3", "Growth Booster x10"],
+      "rewardTypes": ["materials", "stars", "booster"],
+      "note": "G2A listed this working code as added May 11."
+    },
+    {
+      "code": "mayrelax",
+      "status": "new",
+      "rewards": ["Blueberry x3", "Bait x3", "Timber x5", "Wishing Star x10"],
+      "rewardTypes": ["fruit", "fishing", "materials", "stars"],
+      "note": "G2A listed this working code as added May 4."
+    },
+    {
+      "code": "a6r3m1q8n7",
+      "status": "new",
+      "rewards": ["Repair Kit x5", "Wishing Star x3", "Growth Booster x10"],
+      "rewardTypes": ["materials", "stars", "booster"],
+      "note": "G2A listed this working code as added May 4."
+    },
+    {
+      "code": "k9a2m5q7r4",
+      "status": "new",
+      "rewards": ["Repair Kit x5", "Wishing Star x3", "Growth Booster x10"],
+      "rewardTypes": ["materials", "stars", "booster"],
+      "note": "G2A listed this working code as added April 27."
+    },
+    {
+      "code": "q4m8n6a3r1",
+      "status": "new",
+      "rewards": ["Repair Kit x5", "Wishing Star x3", "Growth Booster x10"],
+      "rewardTypes": ["materials", "stars", "booster"],
+      "note": "G2A listed this working code as added April 20."
+    },
+    {
+      "code": "r7a5k2m8q9",
+      "status": "new",
+      "rewards": ["Repair Kit x5", "Wishing Star x3", "Growth Booster x10"],
+      "rewardTypes": ["materials", "stars", "booster"],
+      "note": "G2A listed this working code as added April 13."
     },
     {
       "code": "p6n4m9q3a2",
       "status": "new",
-      "rewards": ["Wishing Star x3", "Repair Kit x5", "Growth Booster x10"],
-      "rewardTypes": ["stars", "materials", "booster"]
+      "rewards": ["Repair Kit x5", "Wishing Star x3", "Growth Booster x10"],
+      "rewardTypes": ["materials", "stars", "booster"],
+      "note": "G2A listed this working code as added April 6."
     },
     {
       "code": "m5r9q2a7k8",
       "status": "new",
       "rewards": ["Wishing Star x3", "Repair Kit x5", "Growth Booster x10"],
-      "rewardTypes": ["stars", "materials", "booster"]
-    },
-    {
-      "code": "a4k9m7q2r6",
-      "status": "new",
-      "rewards": ["Wishing Star x5", "Mermaid Fish Attractor x3", "Fertilizer x10"],
-      "rewardTypes": ["stars", "fishing", "booster"]
-    },
-    {
-      "code": "l7m5q2r9a8",
-      "status": "new",
-      "rewards": ["Wishing Star x5", "Mermaid Fish Attractor x3", "Fertilizer x10"],
-      "rewardTypes": ["stars", "fishing", "booster"]
-    },
-    {
-      "code": "sweetgift314u",
-      "status": "new",
-      "rewards": ["Snowfeather Rose x5", "Colorful Sparkler x2", "Colorful Cold Firework x2"],
-      "rewardTypes": ["event"]
-    },
-    {
-      "code": "tangyuan0303y",
-      "status": "new",
-      "rewards": ["Wishing Star x5", "Apple x10", "Fertilizer x10"],
-      "rewardTypes": ["stars", "fruit", "booster"]
-    },
-    {
-      "code": "38bloom2026",
-      "status": "new",
-      "rewards": ["Mermaid Perfume x2", "Egg x10", "Gold x10,000"],
-      "rewardTypes": ["gold", "farm"]
+      "rewardTypes": ["stars", "materials", "booster"],
+      "note": "G2A listed this working code as added March 30."
     },
     {
       "code": "lifewithline",
       "status": "milestone",
       "rewards": ["Wishing Star x10"],
-      "rewardTypes": ["stars"]
+      "rewardTypes": ["stars"],
+      "note": "G2A listed this working code as added Jan. 23."
     },
     {
-      "code": "heartopia10m",
+      "code": "dcthx4u",
       "status": "milestone",
       "rewards": ["Wishing Star x10"],
-      "rewardTypes": ["stars"]
-    },
-    {
-      "code": "heartopia5m",
-      "status": "milestone",
-      "rewards": ["Wishing Star x5-10"],
-      "rewardTypes": ["stars"]
-    },
-    {
-      "code": "top1thanks",
-      "status": "milestone",
-      "rewards": ["Wishing Star x5", "Mermaid Perfume x2", "Mandarin x10"],
-      "rewardTypes": ["stars", "fruit"]
+      "rewardTypes": ["stars"],
+      "note": "G2A listed this working code as added Jan. 12."
     }
   ],
   "expiredArchive": [
+    {
+      "code": "keepsmiling2026",
+      "reportedReward": "Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopiaplaytime",
+      "reportedReward": "Stone x10, Rare Timber x6, Flawless Fluorite x2",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "withu2026heartopia",
+      "reportedReward": "Repair Kit x3, Gold x5,000, Mermaid Perfume x2",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "a4k9m7q2r6",
+      "reportedReward": "Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "l7m5q2r9a8",
+      "reportedReward": "Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "sweetgift314u",
+      "reportedReward": "Snowfeather Rose x5, Colorful Sparkler x2, Colorful Cold Firework x2",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "tangyuan0303y",
+      "reportedReward": "Wishing Star x5, Apple x10, Fertilizer x10",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "38bloom2026",
+      "reportedReward": "Mermaid Perfume x2, Egg x10, Gold x10,000",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia10m",
+      "reportedReward": "Wishing Star x10",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia5m",
+      "reportedReward": "Wishing Star x5-10",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "top1thanks",
+      "reportedReward": "Wishing Star x5, Mermaid Perfume x2, Mandarin x10",
+      "expired": "No longer listed in G2A June 2026 active list"
+    },
     {
       "code": "SPRINGFEST2026",
       "reportedReward": "10 Moonlight Crystals",

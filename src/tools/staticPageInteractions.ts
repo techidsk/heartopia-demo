@@ -63,7 +63,8 @@ if (codeFilter) {
     document.querySelectorAll("[data-code-row]").forEach((row) => {
       const status = row.getAttribute("data-status") || "";
       const haystack = row.getAttribute("data-search") || row.textContent;
-      const isVisible = (activeCodeFilter === "all" || status === activeCodeFilter) && matchesCodeSearch(haystack, query);
+      const statusTokens = status.split(/\s+/).filter(Boolean);
+      const isVisible = (activeCodeFilter === "all" || statusTokens.includes(activeCodeFilter)) && matchesCodeSearch(haystack, query);
       row.hidden = !isVisible;
       if (isVisible) visibleCount += 1;
     });

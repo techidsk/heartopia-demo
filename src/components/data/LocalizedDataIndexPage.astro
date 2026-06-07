@@ -227,7 +227,7 @@ const riskLabel = (risk: string) => ({ low: "低", medium: "中", high: "高" })
   {path === "/codes/" && (
     <section class="wiki-section"><div class="wiki-shell database-grid">
       <article class="wiki-card"><h2 class="wiki-title">可用候选</h2>{data.codes.activeCandidates.map((item) => <div class="source-panel"><strong>{item.code}</strong><p>{item.rewards.join(" / ")}</p>{item.note && <small>{item.note}</small>}</div>)}</article>
-      <aside class="wiki-card"><h2 class="wiki-title">过期归档</h2>{data.codes.expiredArchive.map((item) => <p><strong>{item.code}</strong><br />{item.reportedReward} · {item.expired}</p>)}</aside>
+      <aside class="wiki-card code-expired-list"><h2 class="wiki-title">过期归档</h2>{data.codes.expiredArchive.map((item) => <p class="expired-code-row"><strong><s>{item.code}</s></strong><br /><span>{item.reportedReward}</span> · <em>{item.expired}</em></p>)}</aside>
     </div></section>
   )}
 
