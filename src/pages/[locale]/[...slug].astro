@@ -2,6 +2,7 @@
 import LocalizedFallbackPage from "@components/LocalizedFallbackPage.astro";
 import LocalizedCharacterDetailPage from "@components/data/LocalizedCharacterDetailPage.astro";
 import LocalizedCropDetailPage from "@components/data/LocalizedCropDetailPage.astro";
+import LocalizedDataIndexPage from "@components/data/LocalizedDataIndexPage.astro";
 import LocalizedFishDetailPage from "@components/data/LocalizedFishDetailPage.astro";
 import LocalizedGardeningDetailPage from "@components/data/LocalizedGardeningDetailPage.astro";
 import LocalizedInsectDetailPage from "@components/data/LocalizedInsectDetailPage.astro";
@@ -48,6 +49,22 @@ let page: StaticPage | undefined;
 if (staticPaths.has(entry.path)) {
   page = getStaticPage(entry.path, locale);
 }
+const localizedDataIndexPaths = new Set([
+  "/database/",
+  "/fish/",
+  "/shops/",
+  "/crops/",
+  "/gardening/",
+  "/insects/",
+  "/recipes/",
+  "/characters/",
+  "/codes/",
+  "/events/",
+  "/pets/",
+  "/hobbies/",
+  "/tools/"
+]);
+const shouldRenderDataIndex = localizedDataIndexPaths.has(entry.path) && locale === "zh-Hans";
 const cropMatch = entry.path.match(/^\/crops\/([^/]+)\/$/);
 let crop: Crop | undefined;
 if (cropMatch && isDataEntryTranslated(locale, "crops", cropMatch[1])) {
@@ -86,7 +103,9 @@ if (insectMatch && isDataEntryTranslated(locale, "insects", insectMatch[1])) {
 ---
 
 {
-  page ? (
+  shouldRenderDataIndex ? (
+    <LocalizedDataIndexPage path={entry.path} locale={locale} />
+  ) : page ? (
     <StaticContentPage page={page} locale={locale} />
   ) : npc ? (
     <LocalizedCharacterDetailPage npc={npc} locale={locale} />

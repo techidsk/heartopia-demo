@@ -413,6 +413,45 @@ function assertKnownCodeOverlayIds(label, rows, sourceRows) {
   if (unknown.length) throw new Error(`${label} overlay references unknown codes: ${unknown.join(", ")}`);
 }
 
+const zhHansTraditionalCharacters = /[鳳紅鉤絹羅環閃蘆藍綠黃錘蟲蟈螞蟻網蟬蛺緣長異銀闊糞龜獨鍬紋亞蘭艷蝸麥蘿蔔鬱馬體藥豐夠來凍濃廣誰歲讚臺灣彙編轉現實驗強顆陽務競臨購帶側燈瑩澤給饋愛後醬於產種調話魚鳥場鎮區鋪勵獎兌換碼當線際儲櫃騰檢開閉歷錄進餘餵貓糧飼週齡級氣跡續點針對還靈準備聯繫關雙髮發類預選優劇熱標門養寵據錢過園補佈潔輪說計畫規確認獲築樹葉見構別師這項與並幫會個條]/;
+const zhHansPlaceholderPattern = /\b(?:Unknown|TBA|pending|Placeholder|fallback)\b/i;
+const zhHansAllowedLatin = /\b(?:Heartopia|Biligame|TW|Wiki|NPC|QTE|Oak-Oak|Massimo|Bailey J|DG6)\b/g;
+
+function collectOverlayStringIssues(locale, name, payload) {
+  if (locale !== "zh-Hans") return [];
+  const issues = [];
+  const visit = (value, segments) => {
+    if (Array.isArray(value)) {
+      value.forEach((item, index) => visit(item, [...segments, String(index)]));
+      return;
+    }
+    if (value && typeof value === "object") {
+      Object.entries(value).forEach(([key, item]) => visit(item, [...segments, key]));
+      return;
+    }
+    if (typeof value !== "string") return;
+
+    const field = segments.at(-1) || "";
+    if (["id", "code", "translationStatus"].includes(field)) return;
+    if (!value.trim()) {
+      issues.push(`${segments.join(".")}: empty localized string`);
+      return;
+    }
+    if (zhHansTraditionalCharacters.test(value)) {
+      issues.push(`${segments.join(".")}: contains traditional Chinese characters`);
+    }
+    if (zhHansPlaceholderPattern.test(value)) {
+      issues.push(`${segments.join(".")}: contains unlocalized placeholder text`);
+    }
+    const scrubbed = value.replace(zhHansAllowedLatin, "");
+    if (/[A-Za-z]{3,}/.test(scrubbed)) {
+      issues.push(`${segments.join(".")}: contains likely English residue`);
+    }
+  };
+  visit(payload, [name]);
+  return issues;
+}
+
 try {
   const localeDirs = await fs.readdir(i18nDir);
   for (const locale of localeDirs) {
@@ -438,6 +477,10 @@ try {
         assertUniqueIds(`${locale}/data/${name}`, result.data);
         assertKnownOverlayIds(`${locale}/data/${name}`, result.data, sourceData[name]);
         assertOverlayRowsHaveCopy(`${locale}/data/${name}`, result.data);
+      }
+      const stringIssues = collectOverlayStringIssues(locale, name, result.data);
+      if (stringIssues.length) {
+        throw new Error(`${path.relative(rootDir, overlayPath)} failed zh-Hans quality checks:\n${stringIssues.map((issue) => `  - ${issue}`).join("\n")}`);
       }
       console.log(`${path.relative(dataDir, overlayPath)} ok`);
     }

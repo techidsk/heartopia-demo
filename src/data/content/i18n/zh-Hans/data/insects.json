@@ -100,13 +100,13 @@
   {
     "id": "insect-008",
     "translationStatus": "translated",
-    "name": "芦筍葉甲",
-    "nameZh": "芦筍葉甲",
+    "name": "芦筍叶甲",
+    "nameZh": "芦筍叶甲",
     "season": "日常",
     "time": "全天",
     "weather": "晴天/雨天/彩虹",
     "route": "花田",
-    "lore": "颜色暗沉的小虫，在花田中比較常見。",
+    "lore": "颜色暗沉的小虫，在花田中比較常见。",
     "rarity": "1",
     "hobbyLevel": "1",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -120,7 +120,7 @@
     "time": "全天",
     "weather": "晴天/雨天/彩虹",
     "route": "溫泉山",
-    "lore": "觸角长而粗壯，能够幫助它們感知周圍的环境变化。",
+    "lore": "觸角长而粗壯，能够帮助它們感知周圍的环境变化。",
     "rarity": "1",
     "hobbyLevel": "1",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -232,7 +232,7 @@
     "time": "全天",
     "weather": "雨天/彩虹",
     "route": "城郊",
-    "lore": "比四星瓢虫多三个黑点的瓢虫，据说見到它就要走好運了~",
+    "lore": "比四星瓢虫多三个黑点的瓢虫，据说见到它就要走好運了~",
     "rarity": "4",
     "hobbyLevel": "2",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -282,8 +282,8 @@
   {
     "id": "insect-021",
     "translationStatus": "translated",
-    "name": "翠葉红頸凤蝶",
-    "nameZh": "翠葉红頸凤蝶",
+    "name": "翠叶红頸凤蝶",
+    "nameZh": "翠叶红頸凤蝶",
     "season": "日常",
     "time": "0~12,18~24",
     "weather": "晴天/雨天/彩虹",
@@ -302,7 +302,7 @@
     "time": "6~24",
     "weather": "晴天/彩虹",
     "route": "城郊",
-    "lore": "擁有高级的莫兰迪色系，有种清雅別致的美。",
+    "lore": "擁有高级的莫兰迪色系，有种清雅别致的美。",
     "rarity": "3",
     "hobbyLevel": "3",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -330,7 +330,7 @@
     "time": "全天",
     "weather": "晴天/雨天/彩虹",
     "route": "引虫出洞事件",
-    "lore": "並不是因为掉进蜜糖罐裡才获得這層美麗的皮膚的。",
+    "lore": "并不是因为掉进蜜糖罐裡才获得这層美麗的皮膚的。",
     "rarity": "待确认",
     "hobbyLevel": "3",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -358,7 +358,7 @@
     "time": "6~24",
     "weather": "晴天/雨天/彩虹",
     "route": "森林-小鹿塔",
-    "lore": "尾部长著灰白交的條纹，是從斑马身上得到的搭配灵感嗎?",
+    "lore": "尾部长著灰白交的条纹，是從斑马身上得到的搭配灵感嗎?",
     "rarity": "1",
     "hobbyLevel": "3",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -442,7 +442,7 @@
     "time": "全天",
     "weather": "雨天/彩虹",
     "route": "河畔",
-    "lore": "河流附近常見的蜻蜓，喜歡潮濕的天气。",
+    "lore": "河流附近常见的蜻蜓，喜歡潮濕的天气。",
     "rarity": "4",
     "hobbyLevel": "4",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -526,7 +526,7 @@
     "time": "0~6,12~24",
     "weather": "雨天/彩虹",
     "route": "森林-小鹿塔",
-    "lore": "身上的斑纹正好構成一个笑臉，看上去个性很开朗呢。",
+    "lore": "身上的斑纹正好构成一个笑臉，看上去个性很开朗呢。",
     "rarity": "4",
     "hobbyLevel": "5",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -568,7 +568,7 @@
     "time": "0~6,18~24",
     "weather": "晴天/雨天/彩虹",
     "route": "城郊",
-    "lore": "擁有金屬绿色的翅膀，像明亮的光照在了樹菜上。",
+    "lore": "擁有金屬绿色的翅膀，像明亮的光照在了树菜上。",
     "rarity": "1",
     "hobbyLevel": "6",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -722,7 +722,7 @@
     "time": "12~24",
     "weather": "晴天/彩虹",
     "route": "森林-灵橡松林",
-    "lore": "美麗而壽命短暫，要珍惜見到它的機会",
+    "lore": "美麗而壽命短暫，要珍惜见到它的機会",
     "rarity": "3",
     "hobbyLevel": "8",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -764,7 +764,7 @@
     "time": "0~6,18~24",
     "weather": "晴天/彩虹",
     "route": "花田-紫光海灘",
-    "lore": "背部的圖案抽象而複雜，提醒別人牠是一隻品味很好且不好惹的虫。",
+    "lore": "背部的圖案抽象而複雜，提醒别人牠是一隻品味很好且不好惹的虫。",
     "rarity": "3",
     "hobbyLevel": "8",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -890,7 +890,7 @@
     "time": "0~6,18~24",
     "weather": "晴天/彩虹",
     "route": "森林-小鹿塔",
-    "lore": "昆虫中的「建築大師」，会用樹枝、樹葉等常見的材料，構建精巧的小別墅。",
+    "lore": "昆虫中的「建筑大师」，会用树枝、树叶等常见的材料，构建精巧的小别墅。",
     "rarity": "待确认",
     "hobbyLevel": "10",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -904,7 +904,7 @@
     "time": "0~6,18~24",
     "weather": "晴天/彩虹",
     "route": "城郊湖",
-    "lore": "這蓝绿花纹……是電子蝴蝶嗎?带黄色显示灯的那种。",
+    "lore": "这蓝绿花纹……是電子蝴蝶嗎?带黄色显示灯的那种。",
     "rarity": "3",
     "hobbyLevel": "11",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -918,7 +918,7 @@
     "time": "0~6,12~24",
     "weather": "彩虹",
     "route": "森林-灵橡松林",
-    "lore": "光看這三又青銅大刀就知道是位不好惹的主。",
+    "lore": "光看这三又青銅大刀就知道是位不好惹的主。",
     "rarity": "7",
     "hobbyLevel": "11",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -932,7 +932,7 @@
     "time": "12~24",
     "weather": "彩虹",
     "route": "花田-鯨鱼山",
-    "lore": "是見到黑点越多的瓢虫越好運嗎?",
+    "lore": "是见到黑点越多的瓢虫越好運嗎?",
     "rarity": "7",
     "hobbyLevel": "11",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -946,7 +946,7 @@
     "time": "6~18",
     "weather": "雨天/彩虹",
     "route": "溫泉山-遺迹",
-    "lore": "擺出优雅的兰花形狀，這些天生的食者們对自己的攻擊擬熊很滿意。",
+    "lore": "擺出优雅的兰花形狀，这些天生的食者們对自己的攻擊擬熊很滿意。",
     "rarity": "4",
     "hobbyLevel": "11",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
@@ -1044,7 +1044,7 @@
     "time": "12~24",
     "weather": "彩虹",
     "route": "花田-风车花田",
-    "lore": "一双透明如玻璃的翅膀，成为蝴蝶界的「隱身大師」。",
+    "lore": "一双透明如玻璃的翅膀，成为蝴蝶界的「隱身大师」。",
     "rarity": "7",
     "hobbyLevel": "14",
     "source": "Biligame 心动小镇 TW Wiki 虫虫物语"
