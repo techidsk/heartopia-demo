@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": "mixed-jam",
+    "translationStatus": "translated",
+    "name": "Mixed Jam",
+    "group": "база данных: fruit",
+    "ingredients": [
+      "запись: 4x Any Fruit"
+    ],
+    "route": "Используйте Mixed Jam, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Mixed Jam как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "apple-jam",
+    "translationStatus": "translated",
+    "name": "Apple Jam",
+    "group": "база данных: fruit",
+    "ingredients": [
+      "запись: 4x Apple"
+    ],
+    "route": "Используйте Apple Jam, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Apple Jam как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "blueberry-jam",
+    "translationStatus": "translated",
+    "name": "Blueberry Jam",
+    "group": "база данных: fruit",
+    "ingredients": [
+      "запись: 4x Blueberry"
+    ],
+    "route": "Используйте Blueberry Jam, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Blueberry Jam как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "grape-jam",
+    "translationStatus": "translated",
+    "name": "Grape Jam",
+    "group": "база данных: fruit",
+    "ingredients": [
+      "запись: 4x Grape"
+    ],
+    "route": "Используйте Grape Jam, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Grape Jam как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "mandarin-jam",
+    "translationStatus": "translated",
+    "name": "Mandarin Jam",
+    "group": "база данных: fruit",
+    "ingredients": [
+      "запись: 4x Mandarin"
+    ],
+    "route": "Используйте Mandarin Jam, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Mandarin Jam как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "pineapple-jam",
+    "translationStatus": "translated",
+    "name": "Pineapple Jam",
+    "group": "база данных: crop-fruit",
+    "ingredients": [
+      "запись: 4x Pineapple"
+    ],
+    "route": "Используйте Pineapple Jam, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Pineapple Jam как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "strawberry-jam",
+    "translationStatus": "translated",
+    "name": "Strawberry Jam",
+    "group": "база данных: crop-fruit",
+    "ingredients": [
+      "запись: 4x Strawberry"
+    ],
+    "route": "Используйте Strawberry Jam, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Strawberry Jam как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "house-salad",
+    "translationStatus": "translated",
+    "name": "House Salad",
+    "group": "база данных: crop",
+    "ingredients": [
+      "запись: 2x Any Vegetable"
+    ],
+    "route": "Используйте House Salad, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "House Salad как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "fish-and-chips",
+    "translationStatus": "translated",
+    "name": "Fish and Chips",
+    "group": "база данных: fish-crop",
+    "ingredients": [
+      "запись: 2x Any Fish",
+      "запись: 2x Potato"
+    ],
+    "route": "Используйте Fish and Chips, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Fish and Chips как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "grilled-mushrooms",
+    "translationStatus": "translated",
+    "name": "Grilled Mushrooms",
+    "group": "база данных: forage",
+    "ingredients": [
+      "запись: 4x Any Mushroom"
+    ],
+    "route": "Используйте Grilled Mushrooms, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Grilled Mushrooms как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "tomato-plate",
+    "translationStatus": "translated",
+    "name": "Tomato Plate",
+    "group": "база данных: crop",
+    "ingredients": [
+      "запись: Tomato",
+      "запись: Vegetable input"
+    ],
+    "route": "Используйте Tomato Plate, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Tomato Plate как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "corn-snack",
+    "translationStatus": "translated",
+    "name": "Corn Snack",
+    "group": "база данных: crop",
+    "ingredients": [
+      "запись: Corn input"
+    ],
+    "route": "Используйте Corn Snack, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Corn Snack как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "carrot-dish",
+    "translationStatus": "translated",
+    "name": "Carrot Dish",
+    "group": "база данных: crop",
+    "ingredients": [
+      "запись: Carrot input"
+    ],
+    "route": "Используйте Carrot Dish, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Carrot Dish как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "seafood-plate",
+    "translationStatus": "translated",
+    "name": "Seafood Plate",
+    "group": "база данных: fish",
+    "ingredients": [
+      "запись: Ocean fish input"
+    ],
+    "route": "Используйте Seafood Plate, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Seafood Plate как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "mountain-soup",
+    "translationStatus": "translated",
+    "name": "Mountain Soup",
+    "group": "база данных: forage-crop",
+    "ingredients": [
+      "запись: Mushroom",
+      "запись: Vegetable"
+    ],
+    "route": "Используйте Mountain Soup, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Mountain Soup как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "simple-breakfast",
+    "translationStatus": "translated",
+    "name": "Simple Breakfast",
+    "group": "база данных: farm",
+    "ingredients": [
+      "запись: Egg",
+      "запись: Crop input"
+    ],
+    "route": "Используйте Simple Breakfast, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Simple Breakfast как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "bizarre-food",
+    "translationStatus": "translated",
+    "name": "Bizarre Food",
+    "group": "база данных: qte",
+    "ingredients": [
+      "запись: Failed timing"
+    ],
+    "route": "Используйте Bizarre Food, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Bizarre Food как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "event-dish",
+    "translationStatus": "translated",
+    "name": "Event Dish",
+    "group": "база данных: event",
+    "ingredients": [
+      "запись: Limited material"
+    ],
+    "route": "Используйте Event Dish, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "use": "Event Dish как быстрая русская справка для маршрута, планирования и коллекции.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  }
+]

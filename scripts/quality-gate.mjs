@@ -16,6 +16,20 @@ const adsensePlaceholderPatterns = [
   /提交 AdSense 审核前/,
   /占位邮箱/
 ];
+const nonChineseSeoLeakPatterns = [
+  /钓鱼位置/,
+  /条件与路线/,
+  /作物成长/,
+  /配方用途/,
+  /食谱材料/,
+  /商店、库存/,
+  /昆虫位置/,
+  /园艺手册/,
+  /角色位置/,
+  /兑换码/,
+  /数据库/,
+  /首页/
+];
 const localesConfig = JSON.parse(await fs.readFile(localesPath, "utf8"));
 const localeEntries = Object.entries(localesConfig.locales);
 const indexedLocales = localeEntries.filter(([, meta]) => meta.indexable);
@@ -63,6 +77,7 @@ const readDist = async (routePath) => fs.readFile(toDistFile(routePath), "utf8")
 const toPosix = (value) => value.split(path.sep).join("/");
 const has = (html, pattern) => pattern.test(html);
 const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const extractMetaContent = (html, selector) => html.match(selector)?.[1] || "";
 
 function localeForPath(pathname) {
   const normalized = pathname.startsWith("/") ? pathname : `/${pathname}`;
@@ -142,6 +157,19 @@ for (const filePath of htmlFiles) {
     const canonicalHref = canonicalMatch?.[1] || "";
     const locale = localeForPath(new URL(canonicalHref || siteOrigin, siteOrigin).pathname);
     const localeMeta = localesConfig.locales[locale];
+    if (!locale.startsWith("zh")) {
+      const seoText = [
+        extractMetaContent(html, /<title>([^<]+)<\/title>/i),
+        extractMetaContent(html, /<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i),
+        extractMetaContent(html, /<meta\s+property=["']og:title["']\s+content=["']([^"']+)["']/i),
+        extractMetaContent(html, /<meta\s+property=["']og:description["']\s+content=["']([^"']+)["']/i),
+        extractMetaContent(html, /<meta\s+name=["']twitter:title["']\s+content=["']([^"']+)["']/i),
+        extractMetaContent(html, /<meta\s+name=["']twitter:description["']\s+content=["']([^"']+)["']/i)
+      ].join(" ");
+      for (const pattern of nonChineseSeoLeakPatterns) {
+        if (pattern.test(seoText)) failures.push(`${relative}: non-Chinese SEO metadata contains Chinese template copy`);
+      }
+    }
     checks.push(
       ["canonical", /<link\s+rel=["']canonical["']\s+href=["']https:\/\/heartopia\.blog\//i],
       [

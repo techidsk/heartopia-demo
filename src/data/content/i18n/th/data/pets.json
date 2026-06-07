@@ -1,1 +1,99 @@
-[]
+[
+  {
+    "id": "dog",
+    "translationStatus": "translated",
+    "name": "Dog",
+    "category": "ฐานข้อมูล: pet",
+    "route": "ใช้ Dog เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "food": [
+      "รายการ: Dog Food",
+      "รายการ: Simple cooked dishes",
+      "รายการ: Low-cost test foods"
+    ],
+    "unlock": "Dog จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "cat",
+    "translationStatus": "translated",
+    "name": "Cat",
+    "category": "ฐานข้อมูล: pet",
+    "route": "ใช้ Cat เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "food": [
+      "รายการ: Cat-care items",
+      "รายการ: Pet baseline food",
+      "รายการ: Low-cost tests"
+    ],
+    "unlock": "Cat จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "fox",
+    "translationStatus": "translated",
+    "name": "Fox",
+    "category": "ฐานข้อมูล: wild",
+    "route": "ใช้ Fox เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "food": [
+      "รายการ: Meat lane",
+      "รายการ: Fish lane",
+      "รายการ: Wild animal tests"
+    ],
+    "unlock": "Fox จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "sea-otter",
+    "translationStatus": "translated",
+    "name": "Sea Otter",
+    "category": "ฐานข้อมูล: wild",
+    "route": "ใช้ Sea Otter เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "food": [
+      "รายการ: Shrimp",
+      "รายการ: Shell lane",
+      "รายการ: Coastal fish tests"
+    ],
+    "unlock": "Sea Otter จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "chicken",
+    "translationStatus": "translated",
+    "name": "Chicken",
+    "category": "ฐานข้อมูล: farm",
+    "route": "ใช้ Chicken เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "food": [
+      "รายการ: Corn",
+      "รายการ: Crop lane",
+      "รายการ: Basic feed tests"
+    ],
+    "unlock": "Chicken จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "cow",
+    "translationStatus": "translated",
+    "name": "Cow",
+    "category": "ฐานข้อมูล: farm",
+    "route": "ใช้ Cow เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "food": [
+      "รายการ: Wheat",
+      "รายการ: Grass lane",
+      "รายการ: Long crop overlap"
+    ],
+    "unlock": "Cow จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "oak-oak",
+    "translationStatus": "translated",
+    "name": "Oak-Oak",
+    "category": "ฐานข้อมูล: quest",
+    "route": "ใช้ Oak-Oak เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "food": [
+      "รายการ: Quest-specific care",
+      "รายการ: Do not mix with dog route"
+    ],
+    "unlock": "Oak-Oak จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  }
+]

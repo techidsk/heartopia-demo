@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "wels-catfish",
+    "translationStatus": "translated",
+    "name": "Wels Catfish",
+    "spot": "mapa: Meadow Lake",
+    "condition": "Usa Wels Catfish para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 1",
+    "use": "Wels Catfish como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "goldfish",
+    "translationStatus": "translated",
+    "name": "Goldfish",
+    "spot": "mapa: Meadow Lake",
+    "condition": "Usa Goldfish para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 1",
+    "use": "Goldfish como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "arctic-char",
+    "translationStatus": "translated",
+    "name": "Arctic Char",
+    "spot": "mapa: Forest Lake",
+    "condition": "Usa Arctic Char para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 2",
+    "use": "Arctic Char como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "giant-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Giant Pearl Mussel",
+    "spot": "mapa: Forest Lake",
+    "condition": "Usa Giant Pearl Mussel para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 2",
+    "use": "Giant Pearl Mussel como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "largemouth-bass",
+    "translationStatus": "translated",
+    "name": "Largemouth Bass",
+    "spot": "mapa: Forest Lake",
+    "condition": "Usa Largemouth Bass para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 2",
+    "use": "Largemouth Bass como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "common-whitefish",
+    "translationStatus": "translated",
+    "name": "Common Whitefish",
+    "spot": "mapa: Onsen Mountain Lake",
+    "condition": "Usa Common Whitefish para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 3",
+    "use": "Common Whitefish como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "ruffe",
+    "translationStatus": "translated",
+    "name": "Ruffe",
+    "spot": "mapa: Onsen Mountain Lake",
+    "condition": "Usa Ruffe para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 3",
+    "use": "Ruffe como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "crucian-carp",
+    "translationStatus": "translated",
+    "name": "Crucian Carp",
+    "spot": "mapa: Spring Lake",
+    "condition": "Usa Crucian Carp para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 3",
+    "use": "Crucian Carp como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "huchen",
+    "translationStatus": "translated",
+    "name": "Huchen",
+    "spot": "mapa: Giantwood River",
+    "condition": "Usa Huchen para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 9",
+    "use": "Huchen como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "burbot",
+    "translationStatus": "translated",
+    "name": "Burbot",
+    "spot": "mapa: Tranquil River",
+    "condition": "Usa Burbot para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 4",
+    "use": "Burbot como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "beltfish",
+    "translationStatus": "translated",
+    "name": "Beltfish",
+    "spot": "mapa: Zephyr Sea",
+    "condition": "Usa Beltfish para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 4",
+    "use": "Beltfish como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "atlantic-pygmy-octopus",
+    "translationStatus": "translated",
+    "name": "Atlantic Pygmy Octopus",
+    "spot": "mapa: Zephyr Sea",
+    "condition": "Usa Atlantic Pygmy Octopus para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 4",
+    "use": "Atlantic Pygmy Octopus como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "atlantic-salmon",
+    "translationStatus": "translated",
+    "name": "Atlantic Salmon",
+    "spot": "mapa: Whale Sea",
+    "condition": "Usa Atlantic Salmon para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 7",
+    "use": "Atlantic Salmon como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "swordfish",
+    "translationStatus": "translated",
+    "name": "Swordfish",
+    "spot": "mapa: Whale Sea",
+    "condition": "Usa Swordfish para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 10",
+    "use": "Swordfish como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "rainbow-fish",
+    "translationStatus": "translated",
+    "name": "Rainbow Fish",
+    "spot": "mapa: Starlight Sea",
+    "condition": "Usa Rainbow Fish para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 8",
+    "use": "Rainbow Fish como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "koi",
+    "translationStatus": "translated",
+    "name": "Koi",
+    "spot": "mapa: Secret Pond",
+    "condition": "Usa Koi para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 5",
+    "use": "Koi como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "golden-king-crab",
+    "translationStatus": "translated",
+    "name": "Golden King Crab",
+    "spot": "mapa: Sea Fishing",
+    "condition": "Usa Golden King Crab para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Event",
+    "use": "Golden King Crab como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "bluefin-tuna",
+    "translationStatus": "translated",
+    "name": "Bluefin Tuna",
+    "spot": "mapa: Old Sea",
+    "condition": "Usa Bluefin Tuna para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 10",
+    "use": "Bluefin Tuna como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "smooth-hammerhead",
+    "translationStatus": "translated",
+    "name": "Smooth Hammerhead",
+    "spot": "mapa: Deep Sea",
+    "condition": "Usa Smooth Hammerhead para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 10",
+    "use": "Smooth Hammerhead como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "european-eel",
+    "translationStatus": "translated",
+    "name": "European Eel",
+    "spot": "mapa: Old Sea",
+    "condition": "Usa European Eel para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 7",
+    "use": "European Eel como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "butterfly-koi",
+    "translationStatus": "translated",
+    "name": "Butterfly Koi",
+    "spot": "mapa: Secret Pond",
+    "condition": "Usa Butterfly Koi para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 6",
+    "use": "Butterfly Koi como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "large-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Large Pearl Mussel",
+    "spot": "mapa: Forest Lake",
+    "condition": "Usa Large Pearl Mussel para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 5",
+    "use": "Large Pearl Mussel como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "rainbow-trout",
+    "translationStatus": "translated",
+    "name": "Rainbow Trout",
+    "spot": "mapa: Giantwood River",
+    "condition": "Usa Rainbow Trout para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 6",
+    "use": "Rainbow Trout como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "sea-bream",
+    "translationStatus": "translated",
+    "name": "Sea Bream",
+    "spot": "mapa: Fishing Village",
+    "condition": "Usa Sea Bream para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "revisado: ruta",
+    "level": "Lv 1",
+    "use": "Sea Bream como referencia rápida en español para rutas, planificación y colección."
+  }
+]

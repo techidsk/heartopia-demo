@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "blanc",
+    "translationStatus": "translated",
+    "name": "Blanc",
+    "group": "データベース: mentor",
+    "role": "ガイド: Gardening mentor",
+    "location": "マップ: Garden Shop / Central Town",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Fresh crop",
+      "報酬: Flower",
+      "報酬: Simple cooked dish"
+    ],
+    "nameZh": "布蘭克",
+    "profile": "Blanc は、インデックス可能なページで英語 fallback を出さないための日本語データです。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "bob",
+    "translationStatus": "translated",
+    "name": "Bob",
+    "group": "データベース: shopkeeper",
+    "role": "ガイド: Furniture workshop owner",
+    "location": "マップ: Central Town",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Wood decor",
+      "報酬: House material",
+      "報酬: Simple dish"
+    ]
+  },
+  {
+    "id": "dorothy",
+    "translationStatus": "translated",
+    "name": "Dorothy",
+    "group": "データベース: shopkeeper",
+    "role": "ガイド: Clothing store owner",
+    "location": "マップ: Central Town",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Fashion item",
+      "報酬: Flower",
+      "報酬: Dessert"
+    ]
+  },
+  {
+    "id": "mrs-joan",
+    "translationStatus": "translated",
+    "name": "Mrs. Joan",
+    "group": "データベース: mentor",
+    "role": "ガイド: Pet care mentor",
+    "location": "マップ: Pet Shop",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Dog Food",
+      "報酬: Pet-care item",
+      "報酬: Cooked dish"
+    ]
+  },
+  {
+    "id": "doris",
+    "translationStatus": "translated",
+    "name": "Doris",
+    "group": "データベース: dynamic",
+    "role": "ガイド: Weather merchant",
+    "location": "マップ: Dynamic weather route",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Weather item",
+      "報酬: Colorful flower",
+      "報酬: Rare dish"
+    ]
+  },
+  {
+    "id": "bill",
+    "translationStatus": "translated",
+    "name": "Bill",
+    "group": "データベース: event",
+    "role": "ガイド: Sea Fishing event mentor",
+    "location": "マップ: Fishing Village",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Fish",
+      "報酬: Repair Kit",
+      "報酬: Seafood dish"
+    ]
+  },
+  {
+    "id": "albert-ii",
+    "translationStatus": "translated",
+    "name": "Albert II",
+    "group": "データベース: featured",
+    "role": "ガイド: Featured town character",
+    "location": "マップ: Heartopia town route",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Favorite gift pending",
+      "報酬: Liked gift pending",
+      "報酬: Talk route"
+    ],
+    "nameZh": "阿爾伯特二世",
+    "profile": "Albert II は、インデックス可能なページで英語 fallback を出さないための日本語データです。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "ka-ching",
+    "translationStatus": "translated",
+    "name": "Ka Ching",
+    "group": "データベース: shopkeeper",
+    "role": "ガイド: General store owner",
+    "location": "マップ: Central Town",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Utility item",
+      "報酬: Simple dish",
+      "報酬: Favorite gift pending"
+    ],
+    "nameZh": "卡清",
+    "profile": "Ka Ching は、インデックス可能なページで英語 fallback を出さないための日本語データです。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "annie",
+    "translationStatus": "translated",
+    "name": "Annie",
+    "group": "データベース: shopkeeper",
+    "role": "ガイド: Music store owner",
+    "location": "マップ: Central Town",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Music decor",
+      "報酬: Dessert",
+      "報酬: Favorite gift pending"
+    ],
+    "nameZh": "安妮",
+    "profile": "Annie は、インデックス可能なページで英語 fallback を出さないための日本語データです。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "vania",
+    "translationStatus": "translated",
+    "name": "Vania",
+    "group": "データベース: featured",
+    "role": "ガイド: Featured town character",
+    "location": "マップ: Heartopia town route",
+    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "gifts": [
+      "報酬: Favorite gift pending",
+      "報酬: Liked gift pending",
+      "報酬: Talk route"
+    ],
+    "nameZh": "萬尼亞",
+    "profile": "Vania は、インデックス可能なページで英語 fallback を出さないための日本語データです。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  }
+]

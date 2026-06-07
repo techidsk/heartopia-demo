@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "modular-streets",
+    "translationStatus": "translated",
+    "name": "Modular Streets Festival",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "route": "ใช้ Modular Streets Festival เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "rewards": [
+      "รางวัล: Brick furniture lane",
+      "รางวัล: Festival collectibles",
+      "รางวัล: Collection progress"
+    ],
+    "prep": [
+      "เส้นทาง: Redeem active codes",
+      "เส้นทาง: Free storage space",
+      "เส้นทาง: Open fish tracker",
+      "เส้นทาง: Check map routes"
+    ]
+  },
+  {
+    "id": "graffiti-channel",
+    "translationStatus": "translated",
+    "name": "Graffiti Channel Exhibition",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "route": "ใช้ Graffiti Channel Exhibition เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "rewards": [
+      "รางวัล: Fashion display route",
+      "รางวัล: Collector tasks",
+      "รางวัล: Event styling notes"
+    ],
+    "prep": [
+      "เส้นทาง: Check clothing store",
+      "เส้นทาง: Review event checklist",
+      "เส้นทาง: Leave room for display items"
+    ]
+  },
+  {
+    "id": "sea-fishing",
+    "translationStatus": "translated",
+    "name": "Sea Fishing",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "route": "ใช้ Sea Fishing เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "rewards": [
+      "รางวัล: Sea fish progress",
+      "รางวัล: Fishing event rewards",
+      "รางวัล: Recipe inputs"
+    ],
+    "prep": [
+      "เส้นทาง: Open fish tracker",
+      "เส้นทาง: Check inventory space",
+      "เส้นทาง: Bring repair kit if needed"
+    ]
+  },
+  {
+    "id": "next-banner-watch",
+    "translationStatus": "translated",
+    "name": "Next Banner Watch",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "route": "ใช้ Next Banner Watch เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "rewards": [
+      "รางวัล: Unknown until announcement"
+    ],
+    "prep": [
+      "เส้นทาง: Keep codes page checked",
+      "เส้นทาง: Save flexible materials",
+      "เส้นทาง: Do not spend all event stock"
+    ]
+  },
+  {
+    "id": "closed-code-window",
+    "translationStatus": "translated",
+    "name": "Closed Code Window Archive",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "route": "ใช้ Closed Code Window Archive เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "rewards": [
+      "รางวัล: Historical reward notes"
+    ],
+    "prep": [
+      "เส้นทาง: Move expired codes out of current route",
+      "เส้นทาง: Keep source check date visible"
+    ]
+  }
+]

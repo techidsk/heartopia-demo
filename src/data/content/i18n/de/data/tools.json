@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "id": "profit-calculator",
+    "translationStatus": "translated",
+    "title": "Profit Calculator",
+    "category": "Tools: calculator",
+    "description": "Deutschsprachige Heartopia-Seite fuer Profit Calculator mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "useCase": "Nutze Profit Calculator als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "linkedData": [
+      "Datenbank: crops",
+      "Datenbank: shops",
+      "Datenbank: recipes"
+    ],
+    "status": "veroeffentlicht"
+  },
+  {
+    "id": "fish-tracker",
+    "translationStatus": "translated",
+    "title": "Fish Tracker",
+    "category": "Tools: tracker",
+    "description": "Deutschsprachige Heartopia-Seite fuer Fish Tracker mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "useCase": "Nutze Fish Tracker als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "linkedData": [
+      "Datenbank: fish",
+      "Datenbank: map"
+    ],
+    "status": "veroeffentlicht"
+  },
+  {
+    "id": "crop-planner",
+    "translationStatus": "translated",
+    "title": "Crop Planner",
+    "category": "Tools: planner",
+    "description": "Deutschsprachige Heartopia-Seite fuer Crop Planner mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "useCase": "Nutze Crop Planner als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "linkedData": [
+      "Datenbank: crops",
+      "Datenbank: shops"
+    ],
+    "status": "veroeffentlicht"
+  },
+  {
+    "id": "friendship-tracker",
+    "translationStatus": "translated",
+    "title": "Friendship Tracker",
+    "category": "Tools: tracker",
+    "description": "Deutschsprachige Heartopia-Seite fuer Friendship Tracker mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "useCase": "Nutze Friendship Tracker als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "linkedData": [
+      "Datenbank: npcs",
+      "Datenbank: shops"
+    ],
+    "status": "veroeffentlicht"
+  },
+  {
+    "id": "recipe-finder",
+    "translationStatus": "translated",
+    "title": "Recipe Finder",
+    "category": "Tools: finder",
+    "description": "Deutschsprachige Heartopia-Seite fuer Recipe Finder mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "useCase": "Nutze Recipe Finder als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "linkedData": [
+      "Datenbank: recipes",
+      "Datenbank: crops",
+      "Datenbank: fish"
+    ],
+    "status": "veroeffentlicht"
+  },
+  {
+    "id": "checklist",
+    "translationStatus": "translated",
+    "title": "Daily Checklist",
+    "category": "Tools: tracker",
+    "description": "Deutschsprachige Heartopia-Seite fuer Daily Checklist mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "useCase": "Nutze Daily Checklist als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "linkedData": [
+      "Datenbank: codes",
+      "Datenbank: map",
+      "Datenbank: shops"
+    ],
+    "status": "veroeffentlicht"
+  },
+  {
+    "id": "timer",
+    "translationStatus": "translated",
+    "title": "Route Timer",
+    "category": "Tools: timer",
+    "description": "Deutschsprachige Heartopia-Seite fuer Route Timer mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "useCase": "Nutze Route Timer als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "linkedData": [
+      "Datenbank: crops",
+      "Datenbank: recipes",
+      "Datenbank: map"
+    ],
+    "status": "veroeffentlicht"
+  }
+]

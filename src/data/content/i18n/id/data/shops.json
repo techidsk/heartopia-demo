@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "Gardening Store",
+    "type": "toko: seeds",
+    "owner": "Blanc",
+    "region": "peta: Central Town",
+    "unlock": "Gardening Store tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
+    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "inventory": [
+      "entri: Tomato Seeds",
+      "entri: Potato Seeds",
+      "entri: Wheat Seeds",
+      "entri: Fertilizer",
+      "entri: Basic watering supplies"
+    ],
+    "notes": "Gardening Store adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "Furniture Workshop",
+    "type": "toko: furniture",
+    "owner": "Bob",
+    "region": "peta: Central Town",
+    "unlock": "Furniture Workshop tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
+    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "inventory": [
+      "entri: Starter furniture",
+      "entri: Tables",
+      "entri: Chairs",
+      "entri: Shelves",
+      "entri: Decor sets"
+    ],
+    "notes": "Furniture Workshop adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "Pet Shop",
+    "type": "toko: pets",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "peta: Central Town",
+    "unlock": "Pet Shop tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
+    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "inventory": [
+      "entri: Dog Food",
+      "entri: Cat-care items",
+      "entri: Pet adoption leads",
+      "entri: Pet care basics",
+      "entri: Birdwatching route notes"
+    ],
+    "notes": "Pet Shop adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "Clothing Store",
+    "type": "toko: fashion",
+    "owner": "Dorothy",
+    "region": "peta: Central Town",
+    "unlock": "Clothing Store tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
+    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "inventory": [
+      "entri: Outfits",
+      "entri: Cosmetic pieces",
+      "entri: Fashion route items",
+      "entri: Event outfit leads"
+    ],
+    "notes": "Clothing Store adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "Annie's Music Store",
+    "type": "toko: music",
+    "owner": "Annie",
+    "region": "peta: Central Town",
+    "unlock": "Annie's Music Store tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
+    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "inventory": [
+      "entri: Sheet music leads",
+      "entri: Music decor",
+      "entri: Instrument route notes",
+      "entri: Home ambiance items"
+    ],
+    "notes": "Annie's Music Store adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "Ka Ching's General Store",
+    "type": "toko: general",
+    "owner": "Ka Ching",
+    "region": "peta: Central Town",
+    "unlock": "Ka Ching's General Store tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
+    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "inventory": [
+      "entri: Inventory expansion",
+      "entri: Utility goods",
+      "entri: Storage route notes",
+      "entri: Errand supplies"
+    ],
+    "notes": "Ka Ching's General Store adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "Doris Weather Cart",
+    "type": "toko: traveling",
+    "owner": "Doris",
+    "region": "peta: Dynamic weather route",
+    "unlock": "Doris Weather Cart tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
+    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "inventory": [
+      "entri: Weather recipes",
+      "entri: Limited ingredients",
+      "entri: Cosmetics",
+      "entri: Furniture",
+      "entri: Event stock"
+    ],
+    "notes": "Doris Weather Cart adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "Sea Fishing Booth",
+    "type": "toko: event",
+    "owner": "Bill",
+    "region": "peta: Fishing Village",
+    "unlock": "Sea Fishing Booth tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
+    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "inventory": [
+      "entri: Sea fishing route",
+      "entri: Event fish notes",
+      "entri: Repair-kit reminders",
+      "entri: Coastal task handoffs"
+    ],
+    "notes": "Sea Fishing Booth adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+  }
+]

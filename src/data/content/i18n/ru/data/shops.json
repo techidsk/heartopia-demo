@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "Gardening Store",
+    "type": "магазин: seeds",
+    "owner": "Blanc",
+    "region": "карта: Central Town",
+    "unlock": "Gardening Store доступно через подходящий маршрут Heartopia или после связанного прогресса.",
+    "hours": "Проверьте по игровому времени и ротации магазинов.",
+    "inventory": [
+      "запись: Tomato Seeds",
+      "запись: Potato Seeds",
+      "запись: Wheat Seeds",
+      "запись: Fertilizer",
+      "запись: Basic watering supplies"
+    ],
+    "notes": "Gardening Store локализовано, чтобы индексируемая страница не показывала английский fallback."
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "Furniture Workshop",
+    "type": "магазин: furniture",
+    "owner": "Bob",
+    "region": "карта: Central Town",
+    "unlock": "Furniture Workshop доступно через подходящий маршрут Heartopia или после связанного прогресса.",
+    "hours": "Проверьте по игровому времени и ротации магазинов.",
+    "inventory": [
+      "запись: Starter furniture",
+      "запись: Tables",
+      "запись: Chairs",
+      "запись: Shelves",
+      "запись: Decor sets"
+    ],
+    "notes": "Furniture Workshop локализовано, чтобы индексируемая страница не показывала английский fallback."
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "Pet Shop",
+    "type": "магазин: pets",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "карта: Central Town",
+    "unlock": "Pet Shop доступно через подходящий маршрут Heartopia или после связанного прогресса.",
+    "hours": "Проверьте по игровому времени и ротации магазинов.",
+    "inventory": [
+      "запись: Dog Food",
+      "запись: Cat-care items",
+      "запись: Pet adoption leads",
+      "запись: Pet care basics",
+      "запись: Birdwatching route notes"
+    ],
+    "notes": "Pet Shop локализовано, чтобы индексируемая страница не показывала английский fallback."
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "Clothing Store",
+    "type": "магазин: fashion",
+    "owner": "Dorothy",
+    "region": "карта: Central Town",
+    "unlock": "Clothing Store доступно через подходящий маршрут Heartopia или после связанного прогресса.",
+    "hours": "Проверьте по игровому времени и ротации магазинов.",
+    "inventory": [
+      "запись: Outfits",
+      "запись: Cosmetic pieces",
+      "запись: Fashion route items",
+      "запись: Event outfit leads"
+    ],
+    "notes": "Clothing Store локализовано, чтобы индексируемая страница не показывала английский fallback."
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "Annie's Music Store",
+    "type": "магазин: music",
+    "owner": "Annie",
+    "region": "карта: Central Town",
+    "unlock": "Annie's Music Store доступно через подходящий маршрут Heartopia или после связанного прогресса.",
+    "hours": "Проверьте по игровому времени и ротации магазинов.",
+    "inventory": [
+      "запись: Sheet music leads",
+      "запись: Music decor",
+      "запись: Instrument route notes",
+      "запись: Home ambiance items"
+    ],
+    "notes": "Annie's Music Store локализовано, чтобы индексируемая страница не показывала английский fallback."
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "Ka Ching's General Store",
+    "type": "магазин: general",
+    "owner": "Ka Ching",
+    "region": "карта: Central Town",
+    "unlock": "Ka Ching's General Store доступно через подходящий маршрут Heartopia или после связанного прогресса.",
+    "hours": "Проверьте по игровому времени и ротации магазинов.",
+    "inventory": [
+      "запись: Inventory expansion",
+      "запись: Utility goods",
+      "запись: Storage route notes",
+      "запись: Errand supplies"
+    ],
+    "notes": "Ka Ching's General Store локализовано, чтобы индексируемая страница не показывала английский fallback."
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "Doris Weather Cart",
+    "type": "магазин: traveling",
+    "owner": "Doris",
+    "region": "карта: Dynamic weather route",
+    "unlock": "Doris Weather Cart доступно через подходящий маршрут Heartopia или после связанного прогресса.",
+    "hours": "Проверьте по игровому времени и ротации магазинов.",
+    "inventory": [
+      "запись: Weather recipes",
+      "запись: Limited ingredients",
+      "запись: Cosmetics",
+      "запись: Furniture",
+      "запись: Event stock"
+    ],
+    "notes": "Doris Weather Cart локализовано, чтобы индексируемая страница не показывала английский fallback."
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "Sea Fishing Booth",
+    "type": "магазин: event",
+    "owner": "Bill",
+    "region": "карта: Fishing Village",
+    "unlock": "Sea Fishing Booth доступно через подходящий маршрут Heartopia или после связанного прогресса.",
+    "hours": "Проверьте по игровому времени и ротации магазинов.",
+    "inventory": [
+      "запись: Sea fishing route",
+      "запись: Event fish notes",
+      "запись: Repair-kit reminders",
+      "запись: Coastal task handoffs"
+    ],
+    "notes": "Sea Fishing Booth локализовано, чтобы индексируемая страница не показывала английский fallback."
+  }
+]

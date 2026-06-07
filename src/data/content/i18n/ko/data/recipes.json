@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": "mixed-jam",
+    "translationStatus": "translated",
+    "name": "Mixed Jam",
+    "group": "데이터베이스: fruit",
+    "ingredients": [
+      "항목: 4x Any Fruit"
+    ],
+    "route": "Mixed Jam으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Mixed Jam은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "apple-jam",
+    "translationStatus": "translated",
+    "name": "Apple Jam",
+    "group": "데이터베이스: fruit",
+    "ingredients": [
+      "항목: 4x Apple"
+    ],
+    "route": "Apple Jam으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Apple Jam은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "blueberry-jam",
+    "translationStatus": "translated",
+    "name": "Blueberry Jam",
+    "group": "데이터베이스: fruit",
+    "ingredients": [
+      "항목: 4x Blueberry"
+    ],
+    "route": "Blueberry Jam으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Blueberry Jam은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "grape-jam",
+    "translationStatus": "translated",
+    "name": "Grape Jam",
+    "group": "데이터베이스: fruit",
+    "ingredients": [
+      "항목: 4x Grape"
+    ],
+    "route": "Grape Jam으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Grape Jam은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "mandarin-jam",
+    "translationStatus": "translated",
+    "name": "Mandarin Jam",
+    "group": "데이터베이스: fruit",
+    "ingredients": [
+      "항목: 4x Mandarin"
+    ],
+    "route": "Mandarin Jam으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Mandarin Jam은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "pineapple-jam",
+    "translationStatus": "translated",
+    "name": "Pineapple Jam",
+    "group": "데이터베이스: crop-fruit",
+    "ingredients": [
+      "항목: 4x Pineapple"
+    ],
+    "route": "Pineapple Jam으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Pineapple Jam은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "strawberry-jam",
+    "translationStatus": "translated",
+    "name": "Strawberry Jam",
+    "group": "데이터베이스: crop-fruit",
+    "ingredients": [
+      "항목: 4x Strawberry"
+    ],
+    "route": "Strawberry Jam으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Strawberry Jam은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "house-salad",
+    "translationStatus": "translated",
+    "name": "House Salad",
+    "group": "데이터베이스: crop",
+    "ingredients": [
+      "항목: 2x Any Vegetable"
+    ],
+    "route": "House Salad으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "House Salad은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "fish-and-chips",
+    "translationStatus": "translated",
+    "name": "Fish and Chips",
+    "group": "데이터베이스: fish-crop",
+    "ingredients": [
+      "항목: 2x Any Fish",
+      "항목: 2x Potato"
+    ],
+    "route": "Fish and Chips으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Fish and Chips은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "grilled-mushrooms",
+    "translationStatus": "translated",
+    "name": "Grilled Mushrooms",
+    "group": "데이터베이스: forage",
+    "ingredients": [
+      "항목: 4x Any Mushroom"
+    ],
+    "route": "Grilled Mushrooms으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Grilled Mushrooms은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "tomato-plate",
+    "translationStatus": "translated",
+    "name": "Tomato Plate",
+    "group": "데이터베이스: crop",
+    "ingredients": [
+      "항목: Tomato",
+      "항목: Vegetable input"
+    ],
+    "route": "Tomato Plate으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Tomato Plate은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "corn-snack",
+    "translationStatus": "translated",
+    "name": "Corn Snack",
+    "group": "데이터베이스: crop",
+    "ingredients": [
+      "항목: Corn input"
+    ],
+    "route": "Corn Snack으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Corn Snack은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "carrot-dish",
+    "translationStatus": "translated",
+    "name": "Carrot Dish",
+    "group": "데이터베이스: crop",
+    "ingredients": [
+      "항목: Carrot input"
+    ],
+    "route": "Carrot Dish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Carrot Dish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "seafood-plate",
+    "translationStatus": "translated",
+    "name": "Seafood Plate",
+    "group": "데이터베이스: fish",
+    "ingredients": [
+      "항목: Ocean fish input"
+    ],
+    "route": "Seafood Plate으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Seafood Plate은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "mountain-soup",
+    "translationStatus": "translated",
+    "name": "Mountain Soup",
+    "group": "데이터베이스: forage-crop",
+    "ingredients": [
+      "항목: Mushroom",
+      "항목: Vegetable"
+    ],
+    "route": "Mountain Soup으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Mountain Soup은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "simple-breakfast",
+    "translationStatus": "translated",
+    "name": "Simple Breakfast",
+    "group": "데이터베이스: farm",
+    "ingredients": [
+      "항목: Egg",
+      "항목: Crop input"
+    ],
+    "route": "Simple Breakfast으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Simple Breakfast은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "bizarre-food",
+    "translationStatus": "translated",
+    "name": "Bizarre Food",
+    "group": "데이터베이스: qte",
+    "ingredients": [
+      "항목: Failed timing"
+    ],
+    "route": "Bizarre Food으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Bizarre Food은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "event-dish",
+    "translationStatus": "translated",
+    "name": "Event Dish",
+    "group": "데이터베이스: event",
+    "ingredients": [
+      "항목: Limited material"
+    ],
+    "route": "Event Dish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "use": "Event Dish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  }
+]

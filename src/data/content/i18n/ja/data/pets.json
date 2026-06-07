@@ -1,1 +1,99 @@
-[]
+[
+  {
+    "id": "dog",
+    "translationStatus": "translated",
+    "name": "Dog",
+    "category": "データベース: pet",
+    "route": "Dog を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "food": [
+      "項目: Dog Food",
+      "項目: Simple cooked dishes",
+      "項目: Low-cost test foods"
+    ],
+    "unlock": "Dog は関連する Heartopia ルートまたは進行度で利用できます。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "cat",
+    "translationStatus": "translated",
+    "name": "Cat",
+    "category": "データベース: pet",
+    "route": "Cat を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "food": [
+      "項目: Cat-care items",
+      "項目: Pet baseline food",
+      "項目: Low-cost tests"
+    ],
+    "unlock": "Cat は関連する Heartopia ルートまたは進行度で利用できます。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "fox",
+    "translationStatus": "translated",
+    "name": "Fox",
+    "category": "データベース: wild",
+    "route": "Fox を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "food": [
+      "項目: Meat lane",
+      "項目: Fish lane",
+      "項目: Wild animal tests"
+    ],
+    "unlock": "Fox は関連する Heartopia ルートまたは進行度で利用できます。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "sea-otter",
+    "translationStatus": "translated",
+    "name": "Sea Otter",
+    "category": "データベース: wild",
+    "route": "Sea Otter を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "food": [
+      "項目: Shrimp",
+      "項目: Shell lane",
+      "項目: Coastal fish tests"
+    ],
+    "unlock": "Sea Otter は関連する Heartopia ルートまたは進行度で利用できます。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "chicken",
+    "translationStatus": "translated",
+    "name": "Chicken",
+    "category": "データベース: farm",
+    "route": "Chicken を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "food": [
+      "項目: Corn",
+      "項目: Crop lane",
+      "項目: Basic feed tests"
+    ],
+    "unlock": "Chicken は関連する Heartopia ルートまたは進行度で利用できます。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "cow",
+    "translationStatus": "translated",
+    "name": "Cow",
+    "category": "データベース: farm",
+    "route": "Cow を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "food": [
+      "項目: Wheat",
+      "項目: Grass lane",
+      "項目: Long crop overlap"
+    ],
+    "unlock": "Cow は関連する Heartopia ルートまたは進行度で利用できます。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  },
+  {
+    "id": "oak-oak",
+    "translationStatus": "translated",
+    "name": "Oak-Oak",
+    "category": "データベース: quest",
+    "route": "Oak-Oak を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "food": [
+      "項目: Quest-specific care",
+      "項目: Do not mix with dog route"
+    ],
+    "unlock": "Oak-Oak は関連する Heartopia ルートまたは進行度で利用できます。",
+    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+  }
+]

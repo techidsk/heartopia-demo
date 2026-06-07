@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": "mixed-jam",
+    "translationStatus": "translated",
+    "name": "Mixed Jam",
+    "group": "Datenbank: fruit",
+    "ingredients": [
+      "Eintrag: 4x Any Fruit"
+    ],
+    "route": "Nutze Mixed Jam als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Mixed Jam als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "apple-jam",
+    "translationStatus": "translated",
+    "name": "Apple Jam",
+    "group": "Datenbank: fruit",
+    "ingredients": [
+      "Eintrag: 4x Apple"
+    ],
+    "route": "Nutze Apple Jam als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Apple Jam als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "blueberry-jam",
+    "translationStatus": "translated",
+    "name": "Blueberry Jam",
+    "group": "Datenbank: fruit",
+    "ingredients": [
+      "Eintrag: 4x Blueberry"
+    ],
+    "route": "Nutze Blueberry Jam als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Blueberry Jam als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "grape-jam",
+    "translationStatus": "translated",
+    "name": "Grape Jam",
+    "group": "Datenbank: fruit",
+    "ingredients": [
+      "Eintrag: 4x Grape"
+    ],
+    "route": "Nutze Grape Jam als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Grape Jam als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "mandarin-jam",
+    "translationStatus": "translated",
+    "name": "Mandarin Jam",
+    "group": "Datenbank: fruit",
+    "ingredients": [
+      "Eintrag: 4x Mandarin"
+    ],
+    "route": "Nutze Mandarin Jam als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Mandarin Jam als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "pineapple-jam",
+    "translationStatus": "translated",
+    "name": "Pineapple Jam",
+    "group": "Datenbank: crop-fruit",
+    "ingredients": [
+      "Eintrag: 4x Pineapple"
+    ],
+    "route": "Nutze Pineapple Jam als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Pineapple Jam als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "strawberry-jam",
+    "translationStatus": "translated",
+    "name": "Strawberry Jam",
+    "group": "Datenbank: crop-fruit",
+    "ingredients": [
+      "Eintrag: 4x Strawberry"
+    ],
+    "route": "Nutze Strawberry Jam als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Strawberry Jam als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "house-salad",
+    "translationStatus": "translated",
+    "name": "House Salad",
+    "group": "Datenbank: crop",
+    "ingredients": [
+      "Eintrag: 2x Any Vegetable"
+    ],
+    "route": "Nutze House Salad als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "House Salad als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "fish-and-chips",
+    "translationStatus": "translated",
+    "name": "Fish and Chips",
+    "group": "Datenbank: fish-crop",
+    "ingredients": [
+      "Eintrag: 2x Any Fish",
+      "Eintrag: 2x Potato"
+    ],
+    "route": "Nutze Fish and Chips als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Fish and Chips als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "grilled-mushrooms",
+    "translationStatus": "translated",
+    "name": "Grilled Mushrooms",
+    "group": "Datenbank: forage",
+    "ingredients": [
+      "Eintrag: 4x Any Mushroom"
+    ],
+    "route": "Nutze Grilled Mushrooms als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Grilled Mushrooms als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "tomato-plate",
+    "translationStatus": "translated",
+    "name": "Tomato Plate",
+    "group": "Datenbank: crop",
+    "ingredients": [
+      "Eintrag: Tomato",
+      "Eintrag: Vegetable input"
+    ],
+    "route": "Nutze Tomato Plate als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Tomato Plate als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "corn-snack",
+    "translationStatus": "translated",
+    "name": "Corn Snack",
+    "group": "Datenbank: crop",
+    "ingredients": [
+      "Eintrag: Corn input"
+    ],
+    "route": "Nutze Corn Snack als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Corn Snack als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "carrot-dish",
+    "translationStatus": "translated",
+    "name": "Carrot Dish",
+    "group": "Datenbank: crop",
+    "ingredients": [
+      "Eintrag: Carrot input"
+    ],
+    "route": "Nutze Carrot Dish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Carrot Dish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "seafood-plate",
+    "translationStatus": "translated",
+    "name": "Seafood Plate",
+    "group": "Datenbank: fish",
+    "ingredients": [
+      "Eintrag: Ocean fish input"
+    ],
+    "route": "Nutze Seafood Plate als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Seafood Plate als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "mountain-soup",
+    "translationStatus": "translated",
+    "name": "Mountain Soup",
+    "group": "Datenbank: forage-crop",
+    "ingredients": [
+      "Eintrag: Mushroom",
+      "Eintrag: Vegetable"
+    ],
+    "route": "Nutze Mountain Soup als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Mountain Soup als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "simple-breakfast",
+    "translationStatus": "translated",
+    "name": "Simple Breakfast",
+    "group": "Datenbank: farm",
+    "ingredients": [
+      "Eintrag: Egg",
+      "Eintrag: Crop input"
+    ],
+    "route": "Nutze Simple Breakfast als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Simple Breakfast als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "bizarre-food",
+    "translationStatus": "translated",
+    "name": "Bizarre Food",
+    "group": "Datenbank: qte",
+    "ingredients": [
+      "Eintrag: Failed timing"
+    ],
+    "route": "Nutze Bizarre Food als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Bizarre Food als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  },
+  {
+    "id": "event-dish",
+    "translationStatus": "translated",
+    "name": "Event Dish",
+    "group": "Datenbank: event",
+    "ingredients": [
+      "Eintrag: Limited material"
+    ],
+    "route": "Nutze Event Dish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "use": "Event Dish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung.",
+    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+  }
+]

@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "Gardening Store",
+    "type": "loja: seeds",
+    "owner": "Blanc",
+    "region": "mapa: Central Town",
+    "unlock": "Gardening Store fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
+    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "inventory": [
+      "entrada: Tomato Seeds",
+      "entrada: Potato Seeds",
+      "entrada: Wheat Seeds",
+      "entrada: Fertilizer",
+      "entrada: Basic watering supplies"
+    ],
+    "notes": "Gardening Store é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "Furniture Workshop",
+    "type": "loja: furniture",
+    "owner": "Bob",
+    "region": "mapa: Central Town",
+    "unlock": "Furniture Workshop fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
+    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "inventory": [
+      "entrada: Starter furniture",
+      "entrada: Tables",
+      "entrada: Chairs",
+      "entrada: Shelves",
+      "entrada: Decor sets"
+    ],
+    "notes": "Furniture Workshop é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "Pet Shop",
+    "type": "loja: pets",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "mapa: Central Town",
+    "unlock": "Pet Shop fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
+    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "inventory": [
+      "entrada: Dog Food",
+      "entrada: Cat-care items",
+      "entrada: Pet adoption leads",
+      "entrada: Pet care basics",
+      "entrada: Birdwatching route notes"
+    ],
+    "notes": "Pet Shop é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "Clothing Store",
+    "type": "loja: fashion",
+    "owner": "Dorothy",
+    "region": "mapa: Central Town",
+    "unlock": "Clothing Store fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
+    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "inventory": [
+      "entrada: Outfits",
+      "entrada: Cosmetic pieces",
+      "entrada: Fashion route items",
+      "entrada: Event outfit leads"
+    ],
+    "notes": "Clothing Store é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "Annie's Music Store",
+    "type": "loja: music",
+    "owner": "Annie",
+    "region": "mapa: Central Town",
+    "unlock": "Annie's Music Store fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
+    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "inventory": [
+      "entrada: Sheet music leads",
+      "entrada: Music decor",
+      "entrada: Instrument route notes",
+      "entrada: Home ambiance items"
+    ],
+    "notes": "Annie's Music Store é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "Ka Ching's General Store",
+    "type": "loja: general",
+    "owner": "Ka Ching",
+    "region": "mapa: Central Town",
+    "unlock": "Ka Ching's General Store fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
+    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "inventory": [
+      "entrada: Inventory expansion",
+      "entrada: Utility goods",
+      "entrada: Storage route notes",
+      "entrada: Errand supplies"
+    ],
+    "notes": "Ka Ching's General Store é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "Doris Weather Cart",
+    "type": "loja: traveling",
+    "owner": "Doris",
+    "region": "mapa: Dynamic weather route",
+    "unlock": "Doris Weather Cart fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
+    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "inventory": [
+      "entrada: Weather recipes",
+      "entrada: Limited ingredients",
+      "entrada: Cosmetics",
+      "entrada: Furniture",
+      "entrada: Event stock"
+    ],
+    "notes": "Doris Weather Cart é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "Sea Fishing Booth",
+    "type": "loja: event",
+    "owner": "Bill",
+    "region": "mapa: Fishing Village",
+    "unlock": "Sea Fishing Booth fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
+    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "inventory": [
+      "entrada: Sea fishing route",
+      "entrada: Event fish notes",
+      "entrada: Repair-kit reminders",
+      "entrada: Coastal task handoffs"
+    ],
+    "notes": "Sea Fishing Booth é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+  }
+]

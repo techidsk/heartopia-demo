@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "Gardening Store",
+    "type": "tienda: seeds",
+    "owner": "Blanc",
+    "region": "mapa: Central Town",
+    "unlock": "Gardening Store está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "hours": "Revisar según la hora del juego y la rotación de tiendas.",
+    "inventory": [
+      "entrada: Tomato Seeds",
+      "entrada: Potato Seeds",
+      "entrada: Wheat Seeds",
+      "entrada: Fertilizer",
+      "entrada: Basic watering supplies"
+    ],
+    "notes": "Gardening Store es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "Furniture Workshop",
+    "type": "tienda: furniture",
+    "owner": "Bob",
+    "region": "mapa: Central Town",
+    "unlock": "Furniture Workshop está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "hours": "Revisar según la hora del juego y la rotación de tiendas.",
+    "inventory": [
+      "entrada: Starter furniture",
+      "entrada: Tables",
+      "entrada: Chairs",
+      "entrada: Shelves",
+      "entrada: Decor sets"
+    ],
+    "notes": "Furniture Workshop es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "Pet Shop",
+    "type": "tienda: pets",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "mapa: Central Town",
+    "unlock": "Pet Shop está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "hours": "Revisar según la hora del juego y la rotación de tiendas.",
+    "inventory": [
+      "entrada: Dog Food",
+      "entrada: Cat-care items",
+      "entrada: Pet adoption leads",
+      "entrada: Pet care basics",
+      "entrada: Birdwatching route notes"
+    ],
+    "notes": "Pet Shop es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "Clothing Store",
+    "type": "tienda: fashion",
+    "owner": "Dorothy",
+    "region": "mapa: Central Town",
+    "unlock": "Clothing Store está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "hours": "Revisar según la hora del juego y la rotación de tiendas.",
+    "inventory": [
+      "entrada: Outfits",
+      "entrada: Cosmetic pieces",
+      "entrada: Fashion route items",
+      "entrada: Event outfit leads"
+    ],
+    "notes": "Clothing Store es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "Annie's Music Store",
+    "type": "tienda: music",
+    "owner": "Annie",
+    "region": "mapa: Central Town",
+    "unlock": "Annie's Music Store está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "hours": "Revisar según la hora del juego y la rotación de tiendas.",
+    "inventory": [
+      "entrada: Sheet music leads",
+      "entrada: Music decor",
+      "entrada: Instrument route notes",
+      "entrada: Home ambiance items"
+    ],
+    "notes": "Annie's Music Store es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "Ka Ching's General Store",
+    "type": "tienda: general",
+    "owner": "Ka Ching",
+    "region": "mapa: Central Town",
+    "unlock": "Ka Ching's General Store está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "hours": "Revisar según la hora del juego y la rotación de tiendas.",
+    "inventory": [
+      "entrada: Inventory expansion",
+      "entrada: Utility goods",
+      "entrada: Storage route notes",
+      "entrada: Errand supplies"
+    ],
+    "notes": "Ka Ching's General Store es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "Doris Weather Cart",
+    "type": "tienda: traveling",
+    "owner": "Doris",
+    "region": "mapa: Dynamic weather route",
+    "unlock": "Doris Weather Cart está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "hours": "Revisar según la hora del juego y la rotación de tiendas.",
+    "inventory": [
+      "entrada: Weather recipes",
+      "entrada: Limited ingredients",
+      "entrada: Cosmetics",
+      "entrada: Furniture",
+      "entrada: Event stock"
+    ],
+    "notes": "Doris Weather Cart es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "Sea Fishing Booth",
+    "type": "tienda: event",
+    "owner": "Bill",
+    "region": "mapa: Fishing Village",
+    "unlock": "Sea Fishing Booth está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "hours": "Revisar según la hora del juego y la rotación de tiendas.",
+    "inventory": [
+      "entrada: Sea fishing route",
+      "entrada: Event fish notes",
+      "entrada: Repair-kit reminders",
+      "entrada: Coastal task handoffs"
+    ],
+    "notes": "Sea Fishing Booth es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+  }
+]

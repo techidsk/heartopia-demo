@@ -1,4 +1,263 @@
 {
-  "activeCandidates": [],
-  "expiredArchive": []
+  "sourceNote": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。",
+  "activeCandidates": [
+    {
+      "code": "r5a8m4q1n6",
+      "rewards": [
+        "報酬: Repair Kit x5",
+        "報酬: Wishing Star x3",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: materials",
+        "報酬: stars",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "m2q7r6a9k3",
+      "rewards": [
+        "報酬: Repair Kit x5",
+        "報酬: Wishing Star x3",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: materials",
+        "報酬: stars",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "mumlove4ever",
+      "rewards": [
+        "報酬: Wishing Star x5",
+        "報酬: Fertilizer x10",
+        "報酬: Apple x10"
+      ],
+      "rewardTypes": [
+        "報酬: stars",
+        "報酬: booster",
+        "報酬: fruit"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "n8q5m2a4r9",
+      "rewards": [
+        "報酬: Repair Kit x5",
+        "報酬: Wishing Star x3",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: materials",
+        "報酬: stars",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "mayrelax",
+      "rewards": [
+        "報酬: Blueberry x3",
+        "報酬: Bait x3",
+        "報酬: Timber x5",
+        "報酬: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "報酬: fruit",
+        "報酬: fishing",
+        "報酬: materials",
+        "報酬: stars"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "a6r3m1q8n7",
+      "rewards": [
+        "報酬: Repair Kit x5",
+        "報酬: Wishing Star x3",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: materials",
+        "報酬: stars",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "k9a2m5q7r4",
+      "rewards": [
+        "報酬: Repair Kit x5",
+        "報酬: Wishing Star x3",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: materials",
+        "報酬: stars",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "q4m8n6a3r1",
+      "rewards": [
+        "報酬: Repair Kit x5",
+        "報酬: Wishing Star x3",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: materials",
+        "報酬: stars",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "r7a5k2m8q9",
+      "rewards": [
+        "報酬: Repair Kit x5",
+        "報酬: Wishing Star x3",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: materials",
+        "報酬: stars",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "p6n4m9q3a2",
+      "rewards": [
+        "報酬: Repair Kit x5",
+        "報酬: Wishing Star x3",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: materials",
+        "報酬: stars",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "m5r9q2a7k8",
+      "rewards": [
+        "報酬: Wishing Star x3",
+        "報酬: Repair Kit x5",
+        "報酬: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "報酬: stars",
+        "報酬: materials",
+        "報酬: booster"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "lifewithline",
+      "rewards": [
+        "報酬: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "報酬: stars"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    },
+    {
+      "code": "dcthx4u",
+      "rewards": [
+        "報酬: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "報酬: stars"
+      ],
+      "note": "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。"
+    }
+  ],
+  "expiredArchive": [
+    {
+      "code": "keepsmiling2026",
+      "reportedReward": "報酬: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopiaplaytime",
+      "reportedReward": "報酬: Stone x10, Rare Timber x6, Flawless Fluorite x2",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "withu2026heartopia",
+      "reportedReward": "報酬: Repair Kit x3, Gold x5,000, Mermaid Perfume x2",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "a4k9m7q2r6",
+      "reportedReward": "報酬: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "l7m5q2r9a8",
+      "reportedReward": "報酬: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "sweetgift314u",
+      "reportedReward": "報酬: Snowfeather Rose x5, Colorful Sparkler x2, Colorful Cold Firework x2",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "tangyuan0303y",
+      "reportedReward": "報酬: Wishing Star x5, Apple x10, Fertilizer x10",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "38bloom2026",
+      "reportedReward": "報酬: Mermaid Perfume x2, Egg x10, Gold x10,000",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia10m",
+      "reportedReward": "報酬: Wishing Star x10",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia5m",
+      "reportedReward": "報酬: Wishing Star x5-10",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "top1thanks",
+      "reportedReward": "報酬: Wishing Star x5, Mermaid Perfume x2, Mandarin x10",
+      "expired": "期限切れとして報告済み: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "SPRINGFEST2026",
+      "reportedReward": "報酬: 10 Moonlight Crystals",
+      "expired": "期限切れとして報告済み: March 2026"
+    },
+    {
+      "code": "happy2026",
+      "reportedReward": "報酬: 10 Moonlight Crystals",
+      "expired": "期限切れとして報告済み: March 2026"
+    },
+    {
+      "code": "heartopia0108",
+      "reportedReward": "報酬: 100 Moonlight Crystals",
+      "expired": "期限切れとして報告済み: February 7, 2026"
+    },
+    {
+      "code": "mylittlepony",
+      "reportedReward": "報酬: 100 Moonlight Crystals",
+      "expired": "期限切れとして報告済み: February 7, 2026"
+    },
+    {
+      "code": "especialgift0103",
+      "reportedReward": "報酬: 100 Moonlight Crystals",
+      "expired": "期限切れとして報告済み: February 7, 2026"
+    }
+  ]
 }

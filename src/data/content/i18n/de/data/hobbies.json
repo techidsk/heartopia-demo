@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "Guide: core",
+    "summary": "Fishing als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "Guide: core",
+    "summary": "Gardening als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "Guide: core",
+    "summary": "Cooking als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "Guide: nature",
+    "summary": "Birdwatching als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "Guide: nature",
+    "summary": "Insect Catching als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "Guide: care",
+    "summary": "Cat Care als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "Guide: care",
+    "summary": "Dog Care als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  }
+]

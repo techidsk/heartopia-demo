@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "id": "mixed-jam",
+    "translationStatus": "translated",
+    "name": "Mixed Jam",
+    "group": "base de dados: fruit",
+    "ingredients": [
+      "entrada: 4x Any Fruit"
+    ],
+    "route": "Use Mixed Jam para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Mixed Jam como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "apple-jam",
+    "translationStatus": "translated",
+    "name": "Apple Jam",
+    "group": "base de dados: fruit",
+    "ingredients": [
+      "entrada: 4x Apple"
+    ],
+    "route": "Use Apple Jam para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Apple Jam como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "blueberry-jam",
+    "translationStatus": "translated",
+    "name": "Blueberry Jam",
+    "group": "base de dados: fruit",
+    "ingredients": [
+      "entrada: 4x Blueberry"
+    ],
+    "route": "Use Blueberry Jam para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Blueberry Jam como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "grape-jam",
+    "translationStatus": "translated",
+    "name": "Grape Jam",
+    "group": "base de dados: fruit",
+    "ingredients": [
+      "entrada: 4x Grape"
+    ],
+    "route": "Use Grape Jam para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Grape Jam como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "mandarin-jam",
+    "translationStatus": "translated",
+    "name": "Mandarin Jam",
+    "group": "base de dados: fruit",
+    "ingredients": [
+      "entrada: 4x Mandarin"
+    ],
+    "route": "Use Mandarin Jam para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Mandarin Jam como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "pineapple-jam",
+    "translationStatus": "translated",
+    "name": "Pineapple Jam",
+    "group": "base de dados: crop-fruit",
+    "ingredients": [
+      "entrada: 4x Pineapple"
+    ],
+    "route": "Use Pineapple Jam para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Pineapple Jam como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "strawberry-jam",
+    "translationStatus": "translated",
+    "name": "Strawberry Jam",
+    "group": "base de dados: crop-fruit",
+    "ingredients": [
+      "entrada: 4x Strawberry"
+    ],
+    "route": "Use Strawberry Jam para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Strawberry Jam como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "house-salad",
+    "translationStatus": "translated",
+    "name": "House Salad",
+    "group": "base de dados: crop",
+    "ingredients": [
+      "entrada: 2x Any Vegetable"
+    ],
+    "route": "Use House Salad para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "House Salad como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "fish-and-chips",
+    "translationStatus": "translated",
+    "name": "Fish and Chips",
+    "group": "base de dados: fish-crop",
+    "ingredients": [
+      "entrada: 2x Any Fish",
+      "entrada: 2x Potato"
+    ],
+    "route": "Use Fish and Chips para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Fish and Chips como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "grilled-mushrooms",
+    "translationStatus": "translated",
+    "name": "Grilled Mushrooms",
+    "group": "base de dados: forage",
+    "ingredients": [
+      "entrada: 4x Any Mushroom"
+    ],
+    "route": "Use Grilled Mushrooms para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Grilled Mushrooms como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "tomato-plate",
+    "translationStatus": "translated",
+    "name": "Tomato Plate",
+    "group": "base de dados: crop",
+    "ingredients": [
+      "entrada: Tomato",
+      "entrada: Vegetable input"
+    ],
+    "route": "Use Tomato Plate para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Tomato Plate como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "corn-snack",
+    "translationStatus": "translated",
+    "name": "Corn Snack",
+    "group": "base de dados: crop",
+    "ingredients": [
+      "entrada: Corn input"
+    ],
+    "route": "Use Corn Snack para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Corn Snack como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "carrot-dish",
+    "translationStatus": "translated",
+    "name": "Carrot Dish",
+    "group": "base de dados: crop",
+    "ingredients": [
+      "entrada: Carrot input"
+    ],
+    "route": "Use Carrot Dish para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Carrot Dish como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "seafood-plate",
+    "translationStatus": "translated",
+    "name": "Seafood Plate",
+    "group": "base de dados: fish",
+    "ingredients": [
+      "entrada: Ocean fish input"
+    ],
+    "route": "Use Seafood Plate para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Seafood Plate como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "mountain-soup",
+    "translationStatus": "translated",
+    "name": "Mountain Soup",
+    "group": "base de dados: forage-crop",
+    "ingredients": [
+      "entrada: Mushroom",
+      "entrada: Vegetable"
+    ],
+    "route": "Use Mountain Soup para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Mountain Soup como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "simple-breakfast",
+    "translationStatus": "translated",
+    "name": "Simple Breakfast",
+    "group": "base de dados: farm",
+    "ingredients": [
+      "entrada: Egg",
+      "entrada: Crop input"
+    ],
+    "route": "Use Simple Breakfast para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Simple Breakfast como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "bizarre-food",
+    "translationStatus": "translated",
+    "name": "Bizarre Food",
+    "group": "base de dados: qte",
+    "ingredients": [
+      "entrada: Failed timing"
+    ],
+    "route": "Use Bizarre Food para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Bizarre Food como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  },
+  {
+    "id": "event-dish",
+    "translationStatus": "translated",
+    "name": "Event Dish",
+    "group": "base de dados: event",
+    "ingredients": [
+      "entrada: Limited material"
+    ],
+    "route": "Use Event Dish para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "use": "Event Dish como referência rápida em português para rota, planejamento e coleção.",
+    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+  }
+]

@@ -1,1 +1,99 @@
-[]
+[
+  {
+    "id": "dog",
+    "translationStatus": "translated",
+    "name": "Dog",
+    "category": "base de datos: pet",
+    "route": "Usa Dog para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "food": [
+      "entrada: Dog Food",
+      "entrada: Simple cooked dishes",
+      "entrada: Low-cost test foods"
+    ],
+    "unlock": "Dog está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
+  },
+  {
+    "id": "cat",
+    "translationStatus": "translated",
+    "name": "Cat",
+    "category": "base de datos: pet",
+    "route": "Usa Cat para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "food": [
+      "entrada: Cat-care items",
+      "entrada: Pet baseline food",
+      "entrada: Low-cost tests"
+    ],
+    "unlock": "Cat está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
+  },
+  {
+    "id": "fox",
+    "translationStatus": "translated",
+    "name": "Fox",
+    "category": "base de datos: wild",
+    "route": "Usa Fox para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "food": [
+      "entrada: Meat lane",
+      "entrada: Fish lane",
+      "entrada: Wild animal tests"
+    ],
+    "unlock": "Fox está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
+  },
+  {
+    "id": "sea-otter",
+    "translationStatus": "translated",
+    "name": "Sea Otter",
+    "category": "base de datos: wild",
+    "route": "Usa Sea Otter para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "food": [
+      "entrada: Shrimp",
+      "entrada: Shell lane",
+      "entrada: Coastal fish tests"
+    ],
+    "unlock": "Sea Otter está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
+  },
+  {
+    "id": "chicken",
+    "translationStatus": "translated",
+    "name": "Chicken",
+    "category": "base de datos: farm",
+    "route": "Usa Chicken para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "food": [
+      "entrada: Corn",
+      "entrada: Crop lane",
+      "entrada: Basic feed tests"
+    ],
+    "unlock": "Chicken está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
+  },
+  {
+    "id": "cow",
+    "translationStatus": "translated",
+    "name": "Cow",
+    "category": "base de datos: farm",
+    "route": "Usa Cow para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "food": [
+      "entrada: Wheat",
+      "entrada: Grass lane",
+      "entrada: Long crop overlap"
+    ],
+    "unlock": "Cow está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
+  },
+  {
+    "id": "oak-oak",
+    "translationStatus": "translated",
+    "name": "Oak-Oak",
+    "category": "base de datos: quest",
+    "route": "Usa Oak-Oak para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "food": [
+      "entrada: Quest-specific care",
+      "entrada: Do not mix with dog route"
+    ],
+    "unlock": "Oak-Oak está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.",
+    "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
+  }
+]

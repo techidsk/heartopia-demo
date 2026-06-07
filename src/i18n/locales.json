@@ -8,7 +8,7 @@
       "ogLocale": "de_DE",
       "pathPrefix": "de",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "en": {
       "label": "English",
@@ -26,7 +26,7 @@
       "ogLocale": "es_ES",
       "pathPrefix": "es",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "fr": {
       "label": "Français",
@@ -35,7 +35,7 @@
       "ogLocale": "fr_FR",
       "pathPrefix": "fr",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "pt": {
       "label": "Português",
@@ -44,7 +44,7 @@
       "ogLocale": "pt_PT",
       "pathPrefix": "pt",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "id": {
       "label": "B. Indonesia",
@@ -53,7 +53,7 @@
       "ogLocale": "id_ID",
       "pathPrefix": "id",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "ru": {
       "label": "Русский",
@@ -62,7 +62,7 @@
       "ogLocale": "ru_RU",
       "pathPrefix": "ru",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "th": {
       "label": "ภาษาไทย",
@@ -71,7 +71,7 @@
       "ogLocale": "th_TH",
       "pathPrefix": "th",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "ja": {
       "label": "日本語",
@@ -80,7 +80,7 @@
       "ogLocale": "ja_JP",
       "pathPrefix": "ja",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "ko": {
       "label": "한국어",
@@ -89,7 +89,7 @@
       "ogLocale": "ko_KR",
       "pathPrefix": "ko",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     },
     "zh-Hant": {
       "label": "繁體中文",

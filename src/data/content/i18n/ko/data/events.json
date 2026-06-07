@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "modular-streets",
+    "translationStatus": "translated",
+    "name": "Modular Streets Festival",
+    "window": "확인됨: 루트",
+    "route": "Modular Streets Festival으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "rewards": [
+      "보상: Brick furniture lane",
+      "보상: Festival collectibles",
+      "보상: Collection progress"
+    ],
+    "prep": [
+      "루트: Redeem active codes",
+      "루트: Free storage space",
+      "루트: Open fish tracker",
+      "루트: Check map routes"
+    ]
+  },
+  {
+    "id": "graffiti-channel",
+    "translationStatus": "translated",
+    "name": "Graffiti Channel Exhibition",
+    "window": "확인됨: 루트",
+    "route": "Graffiti Channel Exhibition으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "rewards": [
+      "보상: Fashion display route",
+      "보상: Collector tasks",
+      "보상: Event styling notes"
+    ],
+    "prep": [
+      "루트: Check clothing store",
+      "루트: Review event checklist",
+      "루트: Leave room for display items"
+    ]
+  },
+  {
+    "id": "sea-fishing",
+    "translationStatus": "translated",
+    "name": "Sea Fishing",
+    "window": "확인됨: 루트",
+    "route": "Sea Fishing으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "rewards": [
+      "보상: Sea fish progress",
+      "보상: Fishing event rewards",
+      "보상: Recipe inputs"
+    ],
+    "prep": [
+      "루트: Open fish tracker",
+      "루트: Check inventory space",
+      "루트: Bring repair kit if needed"
+    ]
+  },
+  {
+    "id": "next-banner-watch",
+    "translationStatus": "translated",
+    "name": "Next Banner Watch",
+    "window": "확인됨: 루트",
+    "route": "Next Banner Watch으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "rewards": [
+      "보상: Unknown until announcement"
+    ],
+    "prep": [
+      "루트: Keep codes page checked",
+      "루트: Save flexible materials",
+      "루트: Do not spend all event stock"
+    ]
+  },
+  {
+    "id": "closed-code-window",
+    "translationStatus": "translated",
+    "name": "Closed Code Window Archive",
+    "window": "확인됨: 루트",
+    "route": "Closed Code Window Archive으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "rewards": [
+      "보상: Historical reward notes"
+    ],
+    "prep": [
+      "루트: Move expired codes out of current route",
+      "루트: Keep source check date visible"
+    ]
+  }
+]

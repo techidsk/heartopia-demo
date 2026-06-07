@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "wels-catfish",
+    "translationStatus": "translated",
+    "name": "Wels Catfish",
+    "spot": "Karte: Meadow Lake",
+    "condition": "Nutze Wels Catfish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 1",
+    "use": "Wels Catfish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "goldfish",
+    "translationStatus": "translated",
+    "name": "Goldfish",
+    "spot": "Karte: Meadow Lake",
+    "condition": "Nutze Goldfish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 1",
+    "use": "Goldfish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "arctic-char",
+    "translationStatus": "translated",
+    "name": "Arctic Char",
+    "spot": "Karte: Forest Lake",
+    "condition": "Nutze Arctic Char als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 2",
+    "use": "Arctic Char als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "giant-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Giant Pearl Mussel",
+    "spot": "Karte: Forest Lake",
+    "condition": "Nutze Giant Pearl Mussel als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 2",
+    "use": "Giant Pearl Mussel als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "largemouth-bass",
+    "translationStatus": "translated",
+    "name": "Largemouth Bass",
+    "spot": "Karte: Forest Lake",
+    "condition": "Nutze Largemouth Bass als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 2",
+    "use": "Largemouth Bass als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "common-whitefish",
+    "translationStatus": "translated",
+    "name": "Common Whitefish",
+    "spot": "Karte: Onsen Mountain Lake",
+    "condition": "Nutze Common Whitefish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 3",
+    "use": "Common Whitefish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "ruffe",
+    "translationStatus": "translated",
+    "name": "Ruffe",
+    "spot": "Karte: Onsen Mountain Lake",
+    "condition": "Nutze Ruffe als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 3",
+    "use": "Ruffe als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "crucian-carp",
+    "translationStatus": "translated",
+    "name": "Crucian Carp",
+    "spot": "Karte: Spring Lake",
+    "condition": "Nutze Crucian Carp als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 3",
+    "use": "Crucian Carp als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "huchen",
+    "translationStatus": "translated",
+    "name": "Huchen",
+    "spot": "Karte: Giantwood River",
+    "condition": "Nutze Huchen als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 9",
+    "use": "Huchen als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "burbot",
+    "translationStatus": "translated",
+    "name": "Burbot",
+    "spot": "Karte: Tranquil River",
+    "condition": "Nutze Burbot als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 4",
+    "use": "Burbot als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "beltfish",
+    "translationStatus": "translated",
+    "name": "Beltfish",
+    "spot": "Karte: Zephyr Sea",
+    "condition": "Nutze Beltfish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 4",
+    "use": "Beltfish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "atlantic-pygmy-octopus",
+    "translationStatus": "translated",
+    "name": "Atlantic Pygmy Octopus",
+    "spot": "Karte: Zephyr Sea",
+    "condition": "Nutze Atlantic Pygmy Octopus als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 4",
+    "use": "Atlantic Pygmy Octopus als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "atlantic-salmon",
+    "translationStatus": "translated",
+    "name": "Atlantic Salmon",
+    "spot": "Karte: Whale Sea",
+    "condition": "Nutze Atlantic Salmon als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 7",
+    "use": "Atlantic Salmon als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "swordfish",
+    "translationStatus": "translated",
+    "name": "Swordfish",
+    "spot": "Karte: Whale Sea",
+    "condition": "Nutze Swordfish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 10",
+    "use": "Swordfish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "rainbow-fish",
+    "translationStatus": "translated",
+    "name": "Rainbow Fish",
+    "spot": "Karte: Starlight Sea",
+    "condition": "Nutze Rainbow Fish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 8",
+    "use": "Rainbow Fish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "koi",
+    "translationStatus": "translated",
+    "name": "Koi",
+    "spot": "Karte: Secret Pond",
+    "condition": "Nutze Koi als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 5",
+    "use": "Koi als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "golden-king-crab",
+    "translationStatus": "translated",
+    "name": "Golden King Crab",
+    "spot": "Karte: Sea Fishing",
+    "condition": "Nutze Golden King Crab als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Event",
+    "use": "Golden King Crab als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "bluefin-tuna",
+    "translationStatus": "translated",
+    "name": "Bluefin Tuna",
+    "spot": "Karte: Old Sea",
+    "condition": "Nutze Bluefin Tuna als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 10",
+    "use": "Bluefin Tuna als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "smooth-hammerhead",
+    "translationStatus": "translated",
+    "name": "Smooth Hammerhead",
+    "spot": "Karte: Deep Sea",
+    "condition": "Nutze Smooth Hammerhead als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 10",
+    "use": "Smooth Hammerhead als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "european-eel",
+    "translationStatus": "translated",
+    "name": "European Eel",
+    "spot": "Karte: Old Sea",
+    "condition": "Nutze European Eel als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 7",
+    "use": "European Eel als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "butterfly-koi",
+    "translationStatus": "translated",
+    "name": "Butterfly Koi",
+    "spot": "Karte: Secret Pond",
+    "condition": "Nutze Butterfly Koi als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 6",
+    "use": "Butterfly Koi als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "large-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Large Pearl Mussel",
+    "spot": "Karte: Forest Lake",
+    "condition": "Nutze Large Pearl Mussel als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 5",
+    "use": "Large Pearl Mussel als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "rainbow-trout",
+    "translationStatus": "translated",
+    "name": "Rainbow Trout",
+    "spot": "Karte: Giantwood River",
+    "condition": "Nutze Rainbow Trout als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 6",
+    "use": "Rainbow Trout als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  },
+  {
+    "id": "sea-bream",
+    "translationStatus": "translated",
+    "name": "Sea Bream",
+    "spot": "Karte: Fishing Village",
+    "condition": "Nutze Sea Bream als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "window": "geprueft: Route",
+    "level": "Lv 1",
+    "use": "Sea Bream als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+  }
+]

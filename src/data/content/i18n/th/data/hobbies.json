@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "ไกด์: core",
+    "summary": "Fishing เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "ไกด์: core",
+    "summary": "Gardening เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "ไกด์: core",
+    "summary": "Cooking เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "ไกด์: nature",
+    "summary": "Birdwatching เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "ไกด์: nature",
+    "summary": "Insect Catching เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "ไกด์: care",
+    "summary": "Cat Care เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "ไกด์: care",
+    "summary": "Dog Care เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  }
+]

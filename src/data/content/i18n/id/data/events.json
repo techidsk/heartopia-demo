@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "modular-streets",
+    "translationStatus": "translated",
+    "name": "Modular Streets Festival",
+    "window": "diperiksa: rute",
+    "route": "Gunakan Modular Streets Festival untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "rewards": [
+      "hadiah: Brick furniture lane",
+      "hadiah: Festival collectibles",
+      "hadiah: Collection progress"
+    ],
+    "prep": [
+      "rute: Redeem active codes",
+      "rute: Free storage space",
+      "rute: Open fish tracker",
+      "rute: Check map routes"
+    ]
+  },
+  {
+    "id": "graffiti-channel",
+    "translationStatus": "translated",
+    "name": "Graffiti Channel Exhibition",
+    "window": "diperiksa: rute",
+    "route": "Gunakan Graffiti Channel Exhibition untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "rewards": [
+      "hadiah: Fashion display route",
+      "hadiah: Collector tasks",
+      "hadiah: Event styling notes"
+    ],
+    "prep": [
+      "rute: Check clothing store",
+      "rute: Review event checklist",
+      "rute: Leave room for display items"
+    ]
+  },
+  {
+    "id": "sea-fishing",
+    "translationStatus": "translated",
+    "name": "Sea Fishing",
+    "window": "diperiksa: rute",
+    "route": "Gunakan Sea Fishing untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "rewards": [
+      "hadiah: Sea fish progress",
+      "hadiah: Fishing event rewards",
+      "hadiah: Recipe inputs"
+    ],
+    "prep": [
+      "rute: Open fish tracker",
+      "rute: Check inventory space",
+      "rute: Bring repair kit if needed"
+    ]
+  },
+  {
+    "id": "next-banner-watch",
+    "translationStatus": "translated",
+    "name": "Next Banner Watch",
+    "window": "diperiksa: rute",
+    "route": "Gunakan Next Banner Watch untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "rewards": [
+      "hadiah: Unknown until announcement"
+    ],
+    "prep": [
+      "rute: Keep codes page checked",
+      "rute: Save flexible materials",
+      "rute: Do not spend all event stock"
+    ]
+  },
+  {
+    "id": "closed-code-window",
+    "translationStatus": "translated",
+    "name": "Closed Code Window Archive",
+    "window": "diperiksa: rute",
+    "route": "Gunakan Closed Code Window Archive untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "rewards": [
+      "hadiah: Historical reward notes"
+    ],
+    "prep": [
+      "rute: Move expired codes out of current route",
+      "rute: Keep source check date visible"
+    ]
+  }
+]

@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "wels-catfish",
+    "translationStatus": "translated",
+    "name": "Wels Catfish",
+    "spot": "マップ: Meadow Lake",
+    "condition": "Wels Catfish を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 1",
+    "use": "Wels Catfish はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "goldfish",
+    "translationStatus": "translated",
+    "name": "Goldfish",
+    "spot": "マップ: Meadow Lake",
+    "condition": "Goldfish を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 1",
+    "use": "Goldfish はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "arctic-char",
+    "translationStatus": "translated",
+    "name": "Arctic Char",
+    "spot": "マップ: Forest Lake",
+    "condition": "Arctic Char を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 2",
+    "use": "Arctic Char はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "giant-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Giant Pearl Mussel",
+    "spot": "マップ: Forest Lake",
+    "condition": "Giant Pearl Mussel を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 2",
+    "use": "Giant Pearl Mussel はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "largemouth-bass",
+    "translationStatus": "translated",
+    "name": "Largemouth Bass",
+    "spot": "マップ: Forest Lake",
+    "condition": "Largemouth Bass を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 2",
+    "use": "Largemouth Bass はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "common-whitefish",
+    "translationStatus": "translated",
+    "name": "Common Whitefish",
+    "spot": "マップ: Onsen Mountain Lake",
+    "condition": "Common Whitefish を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 3",
+    "use": "Common Whitefish はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "ruffe",
+    "translationStatus": "translated",
+    "name": "Ruffe",
+    "spot": "マップ: Onsen Mountain Lake",
+    "condition": "Ruffe を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 3",
+    "use": "Ruffe はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "crucian-carp",
+    "translationStatus": "translated",
+    "name": "Crucian Carp",
+    "spot": "マップ: Spring Lake",
+    "condition": "Crucian Carp を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 3",
+    "use": "Crucian Carp はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "huchen",
+    "translationStatus": "translated",
+    "name": "Huchen",
+    "spot": "マップ: Giantwood River",
+    "condition": "Huchen を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 9",
+    "use": "Huchen はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "burbot",
+    "translationStatus": "translated",
+    "name": "Burbot",
+    "spot": "マップ: Tranquil River",
+    "condition": "Burbot を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 4",
+    "use": "Burbot はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "beltfish",
+    "translationStatus": "translated",
+    "name": "Beltfish",
+    "spot": "マップ: Zephyr Sea",
+    "condition": "Beltfish を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 4",
+    "use": "Beltfish はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "atlantic-pygmy-octopus",
+    "translationStatus": "translated",
+    "name": "Atlantic Pygmy Octopus",
+    "spot": "マップ: Zephyr Sea",
+    "condition": "Atlantic Pygmy Octopus を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 4",
+    "use": "Atlantic Pygmy Octopus はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "atlantic-salmon",
+    "translationStatus": "translated",
+    "name": "Atlantic Salmon",
+    "spot": "マップ: Whale Sea",
+    "condition": "Atlantic Salmon を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 7",
+    "use": "Atlantic Salmon はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "swordfish",
+    "translationStatus": "translated",
+    "name": "Swordfish",
+    "spot": "マップ: Whale Sea",
+    "condition": "Swordfish を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 10",
+    "use": "Swordfish はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "rainbow-fish",
+    "translationStatus": "translated",
+    "name": "Rainbow Fish",
+    "spot": "マップ: Starlight Sea",
+    "condition": "Rainbow Fish を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 8",
+    "use": "Rainbow Fish はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "koi",
+    "translationStatus": "translated",
+    "name": "Koi",
+    "spot": "マップ: Secret Pond",
+    "condition": "Koi を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 5",
+    "use": "Koi はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "golden-king-crab",
+    "translationStatus": "translated",
+    "name": "Golden King Crab",
+    "spot": "マップ: Sea Fishing",
+    "condition": "Golden King Crab を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Event",
+    "use": "Golden King Crab はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "bluefin-tuna",
+    "translationStatus": "translated",
+    "name": "Bluefin Tuna",
+    "spot": "マップ: Old Sea",
+    "condition": "Bluefin Tuna を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 10",
+    "use": "Bluefin Tuna はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "smooth-hammerhead",
+    "translationStatus": "translated",
+    "name": "Smooth Hammerhead",
+    "spot": "マップ: Deep Sea",
+    "condition": "Smooth Hammerhead を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 10",
+    "use": "Smooth Hammerhead はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "european-eel",
+    "translationStatus": "translated",
+    "name": "European Eel",
+    "spot": "マップ: Old Sea",
+    "condition": "European Eel を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 7",
+    "use": "European Eel はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "butterfly-koi",
+    "translationStatus": "translated",
+    "name": "Butterfly Koi",
+    "spot": "マップ: Secret Pond",
+    "condition": "Butterfly Koi を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 6",
+    "use": "Butterfly Koi はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "large-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Large Pearl Mussel",
+    "spot": "マップ: Forest Lake",
+    "condition": "Large Pearl Mussel を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 5",
+    "use": "Large Pearl Mussel はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "rainbow-trout",
+    "translationStatus": "translated",
+    "name": "Rainbow Trout",
+    "spot": "マップ: Giantwood River",
+    "condition": "Rainbow Trout を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 6",
+    "use": "Rainbow Trout はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "sea-bream",
+    "translationStatus": "translated",
+    "name": "Sea Bream",
+    "spot": "マップ: Fishing Village",
+    "condition": "Sea Bream を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "window": "確認済み: ルート",
+    "level": "Lv 1",
+    "use": "Sea Bream はルート計画、収集、確認に使える日本語の早見データです。"
+  }
+]

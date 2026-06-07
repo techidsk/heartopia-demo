@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "Gardening Store",
+    "type": "Shop: seeds",
+    "owner": "Blanc",
+    "region": "Karte: Central Town",
+    "unlock": "Gardening Store ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
+    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "inventory": [
+      "Eintrag: Tomato Seeds",
+      "Eintrag: Potato Seeds",
+      "Eintrag: Wheat Seeds",
+      "Eintrag: Fertilizer",
+      "Eintrag: Basic watering supplies"
+    ],
+    "notes": "Gardening Store ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "Furniture Workshop",
+    "type": "Shop: furniture",
+    "owner": "Bob",
+    "region": "Karte: Central Town",
+    "unlock": "Furniture Workshop ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
+    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "inventory": [
+      "Eintrag: Starter furniture",
+      "Eintrag: Tables",
+      "Eintrag: Chairs",
+      "Eintrag: Shelves",
+      "Eintrag: Decor sets"
+    ],
+    "notes": "Furniture Workshop ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "Pet Shop",
+    "type": "Shop: pets",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "Karte: Central Town",
+    "unlock": "Pet Shop ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
+    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "inventory": [
+      "Eintrag: Dog Food",
+      "Eintrag: Cat-care items",
+      "Eintrag: Pet adoption leads",
+      "Eintrag: Pet care basics",
+      "Eintrag: Birdwatching route notes"
+    ],
+    "notes": "Pet Shop ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "Clothing Store",
+    "type": "Shop: fashion",
+    "owner": "Dorothy",
+    "region": "Karte: Central Town",
+    "unlock": "Clothing Store ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
+    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "inventory": [
+      "Eintrag: Outfits",
+      "Eintrag: Cosmetic pieces",
+      "Eintrag: Fashion route items",
+      "Eintrag: Event outfit leads"
+    ],
+    "notes": "Clothing Store ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "Annie's Music Store",
+    "type": "Shop: music",
+    "owner": "Annie",
+    "region": "Karte: Central Town",
+    "unlock": "Annie's Music Store ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
+    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "inventory": [
+      "Eintrag: Sheet music leads",
+      "Eintrag: Music decor",
+      "Eintrag: Instrument route notes",
+      "Eintrag: Home ambiance items"
+    ],
+    "notes": "Annie's Music Store ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "Ka Ching's General Store",
+    "type": "Shop: general",
+    "owner": "Ka Ching",
+    "region": "Karte: Central Town",
+    "unlock": "Ka Ching's General Store ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
+    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "inventory": [
+      "Eintrag: Inventory expansion",
+      "Eintrag: Utility goods",
+      "Eintrag: Storage route notes",
+      "Eintrag: Errand supplies"
+    ],
+    "notes": "Ka Ching's General Store ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "Doris Weather Cart",
+    "type": "Shop: traveling",
+    "owner": "Doris",
+    "region": "Karte: Dynamic weather route",
+    "unlock": "Doris Weather Cart ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
+    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "inventory": [
+      "Eintrag: Weather recipes",
+      "Eintrag: Limited ingredients",
+      "Eintrag: Cosmetics",
+      "Eintrag: Furniture",
+      "Eintrag: Event stock"
+    ],
+    "notes": "Doris Weather Cart ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "Sea Fishing Booth",
+    "type": "Shop: event",
+    "owner": "Bill",
+    "region": "Karte: Fishing Village",
+    "unlock": "Sea Fishing Booth ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
+    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "inventory": [
+      "Eintrag: Sea fishing route",
+      "Eintrag: Event fish notes",
+      "Eintrag: Repair-kit reminders",
+      "Eintrag: Coastal task handoffs"
+    ],
+    "notes": "Sea Fishing Booth ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+  }
+]

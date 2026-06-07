@@ -2,6 +2,7 @@
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
 import { getHeartopiaData, type Gardening } from "@data/heartopia";
+import { getSiteConfig } from "@data/site";
 import { localizePath, type Locale } from "@i18n/config";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
@@ -11,11 +12,13 @@ interface Props {
 }
 
 const { item, locale } = Astro.props;
+const siteConfig = getSiteConfig(locale);
+const labels = siteConfig.linkLabels;
 const { gardening } = await getHeartopiaData(locale);
 const related = gardening.filter((candidate) => candidate.id !== item.id && candidate.category === item.category).slice(0, 4);
 const detailPath = `/gardening/${item.id}/`;
-const title = `${item.name} - Heartopia 园艺手册`;
-const description = `${item.name} 园艺资料：来源名 ${item.nameZh}，爱好等级 ${item.hobbyLevel}，季节 ${item.season}，包含路线、图标和 Wiki 来源。`;
+const title = `${item.name} - Heartopia ${labels.gardening} ${labels.database}`;
+const description = `Heartopia ${labels.gardening}: ${item.name}. ${item.nameZh}; ${item.hobbyLevel}; ${item.season}; ${item.route}.`;
 ---
 
 <BaseLayout title={title} description={description} locale={locale} canonicalPath={detailPath} currentPath="/gardening/" ogImage={item.image}>
@@ -23,8 +26,8 @@ const description = `${item.name} 园艺资料：来源名 ${item.nameZh}，爱�
     <div class="wiki-shell">
       <Breadcrumbs
         items={[
-          { href: localizePath("/", locale), label: "首页" },
-          { href: localizePath("/gardening/", locale), label: "园艺" },
+          { href: localizePath("/", locale), label: labels.home },
+          { href: localizePath("/gardening/", locale), label: labels.gardening },
           { label: item.name }
         ]}
       />

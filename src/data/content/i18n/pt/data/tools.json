@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "id": "profit-calculator",
+    "translationStatus": "translated",
+    "title": "Profit Calculator",
+    "category": "ferramentas: calculator",
+    "description": "Página em português de Heartopia para Profit Calculator, com rotas, dados, ferramentas e dicas práticas.",
+    "useCase": "Use Profit Calculator para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "linkedData": [
+      "base de dados: crops",
+      "base de dados: shops",
+      "base de dados: recipes"
+    ],
+    "status": "publicado"
+  },
+  {
+    "id": "fish-tracker",
+    "translationStatus": "translated",
+    "title": "Fish Tracker",
+    "category": "ferramentas: tracker",
+    "description": "Página em português de Heartopia para Fish Tracker, com rotas, dados, ferramentas e dicas práticas.",
+    "useCase": "Use Fish Tracker para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "linkedData": [
+      "base de dados: fish",
+      "base de dados: map"
+    ],
+    "status": "publicado"
+  },
+  {
+    "id": "crop-planner",
+    "translationStatus": "translated",
+    "title": "Crop Planner",
+    "category": "ferramentas: planner",
+    "description": "Página em português de Heartopia para Crop Planner, com rotas, dados, ferramentas e dicas práticas.",
+    "useCase": "Use Crop Planner para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "linkedData": [
+      "base de dados: crops",
+      "base de dados: shops"
+    ],
+    "status": "publicado"
+  },
+  {
+    "id": "friendship-tracker",
+    "translationStatus": "translated",
+    "title": "Friendship Tracker",
+    "category": "ferramentas: tracker",
+    "description": "Página em português de Heartopia para Friendship Tracker, com rotas, dados, ferramentas e dicas práticas.",
+    "useCase": "Use Friendship Tracker para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "linkedData": [
+      "base de dados: npcs",
+      "base de dados: shops"
+    ],
+    "status": "publicado"
+  },
+  {
+    "id": "recipe-finder",
+    "translationStatus": "translated",
+    "title": "Recipe Finder",
+    "category": "ferramentas: finder",
+    "description": "Página em português de Heartopia para Recipe Finder, com rotas, dados, ferramentas e dicas práticas.",
+    "useCase": "Use Recipe Finder para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "linkedData": [
+      "base de dados: recipes",
+      "base de dados: crops",
+      "base de dados: fish"
+    ],
+    "status": "publicado"
+  },
+  {
+    "id": "checklist",
+    "translationStatus": "translated",
+    "title": "Daily Checklist",
+    "category": "ferramentas: tracker",
+    "description": "Página em português de Heartopia para Daily Checklist, com rotas, dados, ferramentas e dicas práticas.",
+    "useCase": "Use Daily Checklist para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "linkedData": [
+      "base de dados: codes",
+      "base de dados: map",
+      "base de dados: shops"
+    ],
+    "status": "publicado"
+  },
+  {
+    "id": "timer",
+    "translationStatus": "translated",
+    "title": "Route Timer",
+    "category": "ferramentas: timer",
+    "description": "Página em português de Heartopia para Route Timer, com rotas, dados, ferramentas e dicas práticas.",
+    "useCase": "Use Route Timer para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "linkedData": [
+      "base de dados: crops",
+      "base de dados: recipes",
+      "base de dados: map"
+    ],
+    "status": "publicado"
+  }
+]

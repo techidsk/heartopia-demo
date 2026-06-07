@@ -1,4 +1,263 @@
 {
-  "activeCandidates": [],
-  "expiredArchive": []
+  "sourceNote": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst.",
+  "activeCandidates": [
+    {
+      "code": "r5a8m4q1n6",
+      "rewards": [
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: materials",
+        "Belohnungen: stars",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "m2q7r6a9k3",
+      "rewards": [
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: materials",
+        "Belohnungen: stars",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "mumlove4ever",
+      "rewards": [
+        "Belohnungen: Wishing Star x5",
+        "Belohnungen: Fertilizer x10",
+        "Belohnungen: Apple x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: stars",
+        "Belohnungen: booster",
+        "Belohnungen: fruit"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "n8q5m2a4r9",
+      "rewards": [
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: materials",
+        "Belohnungen: stars",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "mayrelax",
+      "rewards": [
+        "Belohnungen: Blueberry x3",
+        "Belohnungen: Bait x3",
+        "Belohnungen: Timber x5",
+        "Belohnungen: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: fruit",
+        "Belohnungen: fishing",
+        "Belohnungen: materials",
+        "Belohnungen: stars"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "a6r3m1q8n7",
+      "rewards": [
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: materials",
+        "Belohnungen: stars",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "k9a2m5q7r4",
+      "rewards": [
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: materials",
+        "Belohnungen: stars",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "q4m8n6a3r1",
+      "rewards": [
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: materials",
+        "Belohnungen: stars",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "r7a5k2m8q9",
+      "rewards": [
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: materials",
+        "Belohnungen: stars",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "p6n4m9q3a2",
+      "rewards": [
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: materials",
+        "Belohnungen: stars",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "m5r9q2a7k8",
+      "rewards": [
+        "Belohnungen: Wishing Star x3",
+        "Belohnungen: Repair Kit x5",
+        "Belohnungen: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: stars",
+        "Belohnungen: materials",
+        "Belohnungen: booster"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "lifewithline",
+      "rewards": [
+        "Belohnungen: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: stars"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    },
+    {
+      "code": "dcthx4u",
+      "rewards": [
+        "Belohnungen: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "Belohnungen: stars"
+      ],
+      "note": "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst."
+    }
+  ],
+  "expiredArchive": [
+    {
+      "code": "keepsmiling2026",
+      "reportedReward": "Belohnungen: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopiaplaytime",
+      "reportedReward": "Belohnungen: Stone x10, Rare Timber x6, Flawless Fluorite x2",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "withu2026heartopia",
+      "reportedReward": "Belohnungen: Repair Kit x3, Gold x5,000, Mermaid Perfume x2",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "a4k9m7q2r6",
+      "reportedReward": "Belohnungen: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "l7m5q2r9a8",
+      "reportedReward": "Belohnungen: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "sweetgift314u",
+      "reportedReward": "Belohnungen: Snowfeather Rose x5, Colorful Sparkler x2, Colorful Cold Firework x2",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "tangyuan0303y",
+      "reportedReward": "Belohnungen: Wishing Star x5, Apple x10, Fertilizer x10",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "38bloom2026",
+      "reportedReward": "Belohnungen: Mermaid Perfume x2, Egg x10, Gold x10,000",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia10m",
+      "reportedReward": "Belohnungen: Wishing Star x10",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia5m",
+      "reportedReward": "Belohnungen: Wishing Star x5-10",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "top1thanks",
+      "reportedReward": "Belohnungen: Wishing Star x5, Mermaid Perfume x2, Mandarin x10",
+      "expired": "Als abgelaufen gemeldet: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "SPRINGFEST2026",
+      "reportedReward": "Belohnungen: 10 Moonlight Crystals",
+      "expired": "Als abgelaufen gemeldet: March 2026"
+    },
+    {
+      "code": "happy2026",
+      "reportedReward": "Belohnungen: 10 Moonlight Crystals",
+      "expired": "Als abgelaufen gemeldet: March 2026"
+    },
+    {
+      "code": "heartopia0108",
+      "reportedReward": "Belohnungen: 100 Moonlight Crystals",
+      "expired": "Als abgelaufen gemeldet: February 7, 2026"
+    },
+    {
+      "code": "mylittlepony",
+      "reportedReward": "Belohnungen: 100 Moonlight Crystals",
+      "expired": "Als abgelaufen gemeldet: February 7, 2026"
+    },
+    {
+      "code": "especialgift0103",
+      "reportedReward": "Belohnungen: 100 Moonlight Crystals",
+      "expired": "Als abgelaufen gemeldet: February 7, 2026"
+    }
+  ]
 }

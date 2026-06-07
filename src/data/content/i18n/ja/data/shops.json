@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "Gardening Store",
+    "type": "ショップ: seeds",
+    "owner": "Blanc",
+    "region": "マップ: Central Town",
+    "unlock": "Gardening Store は関連する Heartopia ルートまたは進行度で利用できます。",
+    "hours": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "inventory": [
+      "項目: Tomato Seeds",
+      "項目: Potato Seeds",
+      "項目: Wheat Seeds",
+      "項目: Fertilizer",
+      "項目: Basic watering supplies"
+    ],
+    "notes": "Gardening Store は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "Furniture Workshop",
+    "type": "ショップ: furniture",
+    "owner": "Bob",
+    "region": "マップ: Central Town",
+    "unlock": "Furniture Workshop は関連する Heartopia ルートまたは進行度で利用できます。",
+    "hours": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "inventory": [
+      "項目: Starter furniture",
+      "項目: Tables",
+      "項目: Chairs",
+      "項目: Shelves",
+      "項目: Decor sets"
+    ],
+    "notes": "Furniture Workshop は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "Pet Shop",
+    "type": "ショップ: pets",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "マップ: Central Town",
+    "unlock": "Pet Shop は関連する Heartopia ルートまたは進行度で利用できます。",
+    "hours": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "inventory": [
+      "項目: Dog Food",
+      "項目: Cat-care items",
+      "項目: Pet adoption leads",
+      "項目: Pet care basics",
+      "項目: Birdwatching route notes"
+    ],
+    "notes": "Pet Shop は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "Clothing Store",
+    "type": "ショップ: fashion",
+    "owner": "Dorothy",
+    "region": "マップ: Central Town",
+    "unlock": "Clothing Store は関連する Heartopia ルートまたは進行度で利用できます。",
+    "hours": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "inventory": [
+      "項目: Outfits",
+      "項目: Cosmetic pieces",
+      "項目: Fashion route items",
+      "項目: Event outfit leads"
+    ],
+    "notes": "Clothing Store は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "Annie's Music Store",
+    "type": "ショップ: music",
+    "owner": "Annie",
+    "region": "マップ: Central Town",
+    "unlock": "Annie's Music Store は関連する Heartopia ルートまたは進行度で利用できます。",
+    "hours": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "inventory": [
+      "項目: Sheet music leads",
+      "項目: Music decor",
+      "項目: Instrument route notes",
+      "項目: Home ambiance items"
+    ],
+    "notes": "Annie's Music Store は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "Ka Ching's General Store",
+    "type": "ショップ: general",
+    "owner": "Ka Ching",
+    "region": "マップ: Central Town",
+    "unlock": "Ka Ching's General Store は関連する Heartopia ルートまたは進行度で利用できます。",
+    "hours": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "inventory": [
+      "項目: Inventory expansion",
+      "項目: Utility goods",
+      "項目: Storage route notes",
+      "項目: Errand supplies"
+    ],
+    "notes": "Ka Ching's General Store は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "Doris Weather Cart",
+    "type": "ショップ: traveling",
+    "owner": "Doris",
+    "region": "マップ: Dynamic weather route",
+    "unlock": "Doris Weather Cart は関連する Heartopia ルートまたは進行度で利用できます。",
+    "hours": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "inventory": [
+      "項目: Weather recipes",
+      "項目: Limited ingredients",
+      "項目: Cosmetics",
+      "項目: Furniture",
+      "項目: Event stock"
+    ],
+    "notes": "Doris Weather Cart は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "Sea Fishing Booth",
+    "type": "ショップ: event",
+    "owner": "Bill",
+    "region": "マップ: Fishing Village",
+    "unlock": "Sea Fishing Booth は関連する Heartopia ルートまたは進行度で利用できます。",
+    "hours": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "inventory": [
+      "項目: Sea fishing route",
+      "項目: Event fish notes",
+      "項目: Repair-kit reminders",
+      "項目: Coastal task handoffs"
+    ],
+    "notes": "Sea Fishing Booth は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+  }
+]

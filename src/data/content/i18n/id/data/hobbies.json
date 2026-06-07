@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "panduan: core",
+    "summary": "Fishing sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "panduan: core",
+    "summary": "Gardening sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "panduan: core",
+    "summary": "Cooking sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "panduan: nature",
+    "summary": "Birdwatching sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "panduan: nature",
+    "summary": "Insect Catching sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "panduan: care",
+    "summary": "Cat Care sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "panduan: care",
+    "summary": "Dog Care sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  }
+]

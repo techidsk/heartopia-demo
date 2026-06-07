@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "guide: core",
+    "summary": "Fishing comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "guide: core",
+    "summary": "Gardening comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "guide: core",
+    "summary": "Cooking comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "guide: nature",
+    "summary": "Birdwatching comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "guide: nature",
+    "summary": "Insect Catching comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "guide: care",
+    "summary": "Cat Care comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "guide: care",
+    "summary": "Dog Care comme repère rapide en français pour les routes, la planification et la collection."
+  }
+]

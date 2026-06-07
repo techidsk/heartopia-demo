@@ -1,4 +1,263 @@
 {
-  "activeCandidates": [],
-  "expiredArchive": []
+  "sourceNote": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล",
+  "activeCandidates": [
+    {
+      "code": "r5a8m4q1n6",
+      "rewards": [
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: materials",
+        "รางวัล: stars",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "m2q7r6a9k3",
+      "rewards": [
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: materials",
+        "รางวัล: stars",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "mumlove4ever",
+      "rewards": [
+        "รางวัล: Wishing Star x5",
+        "รางวัล: Fertilizer x10",
+        "รางวัล: Apple x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: stars",
+        "รางวัล: booster",
+        "รางวัล: fruit"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "n8q5m2a4r9",
+      "rewards": [
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: materials",
+        "รางวัล: stars",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "mayrelax",
+      "rewards": [
+        "รางวัล: Blueberry x3",
+        "รางวัล: Bait x3",
+        "รางวัล: Timber x5",
+        "รางวัล: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: fruit",
+        "รางวัล: fishing",
+        "รางวัล: materials",
+        "รางวัล: stars"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "a6r3m1q8n7",
+      "rewards": [
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: materials",
+        "รางวัล: stars",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "k9a2m5q7r4",
+      "rewards": [
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: materials",
+        "รางวัล: stars",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "q4m8n6a3r1",
+      "rewards": [
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: materials",
+        "รางวัล: stars",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "r7a5k2m8q9",
+      "rewards": [
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: materials",
+        "รางวัล: stars",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "p6n4m9q3a2",
+      "rewards": [
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: materials",
+        "รางวัล: stars",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "m5r9q2a7k8",
+      "rewards": [
+        "รางวัล: Wishing Star x3",
+        "รางวัล: Repair Kit x5",
+        "รางวัล: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: stars",
+        "รางวัล: materials",
+        "รางวัล: booster"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "lifewithline",
+      "rewards": [
+        "รางวัล: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: stars"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    },
+    {
+      "code": "dcthx4u",
+      "rewards": [
+        "รางวัล: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "รางวัล: stars"
+      ],
+      "note": "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล"
+    }
+  ],
+  "expiredArchive": [
+    {
+      "code": "keepsmiling2026",
+      "reportedReward": "รางวัล: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopiaplaytime",
+      "reportedReward": "รางวัล: Stone x10, Rare Timber x6, Flawless Fluorite x2",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "withu2026heartopia",
+      "reportedReward": "รางวัล: Repair Kit x3, Gold x5,000, Mermaid Perfume x2",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "a4k9m7q2r6",
+      "reportedReward": "รางวัล: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "l7m5q2r9a8",
+      "reportedReward": "รางวัล: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "sweetgift314u",
+      "reportedReward": "รางวัล: Snowfeather Rose x5, Colorful Sparkler x2, Colorful Cold Firework x2",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "tangyuan0303y",
+      "reportedReward": "รางวัล: Wishing Star x5, Apple x10, Fertilizer x10",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "38bloom2026",
+      "reportedReward": "รางวัล: Mermaid Perfume x2, Egg x10, Gold x10,000",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia10m",
+      "reportedReward": "รางวัล: Wishing Star x10",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia5m",
+      "reportedReward": "รางวัล: Wishing Star x5-10",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "top1thanks",
+      "reportedReward": "รางวัล: Wishing Star x5, Mermaid Perfume x2, Mandarin x10",
+      "expired": "ถูกรายงานว่าหมดอายุ: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "SPRINGFEST2026",
+      "reportedReward": "รางวัล: 10 Moonlight Crystals",
+      "expired": "ถูกรายงานว่าหมดอายุ: March 2026"
+    },
+    {
+      "code": "happy2026",
+      "reportedReward": "รางวัล: 10 Moonlight Crystals",
+      "expired": "ถูกรายงานว่าหมดอายุ: March 2026"
+    },
+    {
+      "code": "heartopia0108",
+      "reportedReward": "รางวัล: 100 Moonlight Crystals",
+      "expired": "ถูกรายงานว่าหมดอายุ: February 7, 2026"
+    },
+    {
+      "code": "mylittlepony",
+      "reportedReward": "รางวัล: 100 Moonlight Crystals",
+      "expired": "ถูกรายงานว่าหมดอายุ: February 7, 2026"
+    },
+    {
+      "code": "especialgift0103",
+      "reportedReward": "รางวัล: 100 Moonlight Crystals",
+      "expired": "ถูกรายงานว่าหมดอายุ: February 7, 2026"
+    }
+  ]
 }

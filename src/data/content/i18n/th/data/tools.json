@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "id": "profit-calculator",
+    "translationStatus": "translated",
+    "title": "Profit Calculator",
+    "category": "เครื่องมือ: calculator",
+    "description": "หน้า Heartopia ภาษาไทยสำหรับ Profit Calculator พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "useCase": "ใช้ Profit Calculator เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "linkedData": [
+      "ฐานข้อมูล: crops",
+      "ฐานข้อมูล: shops",
+      "ฐานข้อมูล: recipes"
+    ],
+    "status": "เผยแพร่"
+  },
+  {
+    "id": "fish-tracker",
+    "translationStatus": "translated",
+    "title": "Fish Tracker",
+    "category": "เครื่องมือ: tracker",
+    "description": "หน้า Heartopia ภาษาไทยสำหรับ Fish Tracker พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "useCase": "ใช้ Fish Tracker เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "linkedData": [
+      "ฐานข้อมูล: fish",
+      "ฐานข้อมูล: map"
+    ],
+    "status": "เผยแพร่"
+  },
+  {
+    "id": "crop-planner",
+    "translationStatus": "translated",
+    "title": "Crop Planner",
+    "category": "เครื่องมือ: planner",
+    "description": "หน้า Heartopia ภาษาไทยสำหรับ Crop Planner พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "useCase": "ใช้ Crop Planner เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "linkedData": [
+      "ฐานข้อมูล: crops",
+      "ฐานข้อมูล: shops"
+    ],
+    "status": "เผยแพร่"
+  },
+  {
+    "id": "friendship-tracker",
+    "translationStatus": "translated",
+    "title": "Friendship Tracker",
+    "category": "เครื่องมือ: tracker",
+    "description": "หน้า Heartopia ภาษาไทยสำหรับ Friendship Tracker พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "useCase": "ใช้ Friendship Tracker เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "linkedData": [
+      "ฐานข้อมูล: npcs",
+      "ฐานข้อมูล: shops"
+    ],
+    "status": "เผยแพร่"
+  },
+  {
+    "id": "recipe-finder",
+    "translationStatus": "translated",
+    "title": "Recipe Finder",
+    "category": "เครื่องมือ: finder",
+    "description": "หน้า Heartopia ภาษาไทยสำหรับ Recipe Finder พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "useCase": "ใช้ Recipe Finder เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "linkedData": [
+      "ฐานข้อมูล: recipes",
+      "ฐานข้อมูล: crops",
+      "ฐานข้อมูล: fish"
+    ],
+    "status": "เผยแพร่"
+  },
+  {
+    "id": "checklist",
+    "translationStatus": "translated",
+    "title": "Daily Checklist",
+    "category": "เครื่องมือ: tracker",
+    "description": "หน้า Heartopia ภาษาไทยสำหรับ Daily Checklist พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "useCase": "ใช้ Daily Checklist เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "linkedData": [
+      "ฐานข้อมูล: codes",
+      "ฐานข้อมูล: map",
+      "ฐานข้อมูล: shops"
+    ],
+    "status": "เผยแพร่"
+  },
+  {
+    "id": "timer",
+    "translationStatus": "translated",
+    "title": "Route Timer",
+    "category": "เครื่องมือ: timer",
+    "description": "หน้า Heartopia ภาษาไทยสำหรับ Route Timer พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "useCase": "ใช้ Route Timer เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "linkedData": [
+      "ฐานข้อมูล: crops",
+      "ฐานข้อมูล: recipes",
+      "ฐานข้อมูล: map"
+    ],
+    "status": "เผยแพร่"
+  }
+]

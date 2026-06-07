@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "guia: core",
+    "summary": "Fishing como referência rápida em português para rota, planejamento e coleção."
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "guia: core",
+    "summary": "Gardening como referência rápida em português para rota, planejamento e coleção."
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "guia: core",
+    "summary": "Cooking como referência rápida em português para rota, planejamento e coleção."
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "guia: nature",
+    "summary": "Birdwatching como referência rápida em português para rota, planejamento e coleção."
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "guia: nature",
+    "summary": "Insect Catching como referência rápida em português para rota, planejamento e coleção."
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "guia: care",
+    "summary": "Cat Care como referência rápida em português para rota, planejamento e coleção."
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "guia: care",
+    "summary": "Dog Care como referência rápida em português para rota, planejamento e coleção."
+  }
+]

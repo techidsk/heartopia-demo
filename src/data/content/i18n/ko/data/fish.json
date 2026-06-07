@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "wels-catfish",
+    "translationStatus": "translated",
+    "name": "Wels Catfish",
+    "spot": "지도: Meadow Lake",
+    "condition": "Wels Catfish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 1",
+    "use": "Wels Catfish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "goldfish",
+    "translationStatus": "translated",
+    "name": "Goldfish",
+    "spot": "지도: Meadow Lake",
+    "condition": "Goldfish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 1",
+    "use": "Goldfish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "arctic-char",
+    "translationStatus": "translated",
+    "name": "Arctic Char",
+    "spot": "지도: Forest Lake",
+    "condition": "Arctic Char으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 2",
+    "use": "Arctic Char은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "giant-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Giant Pearl Mussel",
+    "spot": "지도: Forest Lake",
+    "condition": "Giant Pearl Mussel으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 2",
+    "use": "Giant Pearl Mussel은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "largemouth-bass",
+    "translationStatus": "translated",
+    "name": "Largemouth Bass",
+    "spot": "지도: Forest Lake",
+    "condition": "Largemouth Bass으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 2",
+    "use": "Largemouth Bass은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "common-whitefish",
+    "translationStatus": "translated",
+    "name": "Common Whitefish",
+    "spot": "지도: Onsen Mountain Lake",
+    "condition": "Common Whitefish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 3",
+    "use": "Common Whitefish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "ruffe",
+    "translationStatus": "translated",
+    "name": "Ruffe",
+    "spot": "지도: Onsen Mountain Lake",
+    "condition": "Ruffe으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 3",
+    "use": "Ruffe은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "crucian-carp",
+    "translationStatus": "translated",
+    "name": "Crucian Carp",
+    "spot": "지도: Spring Lake",
+    "condition": "Crucian Carp으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 3",
+    "use": "Crucian Carp은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "huchen",
+    "translationStatus": "translated",
+    "name": "Huchen",
+    "spot": "지도: Giantwood River",
+    "condition": "Huchen으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 9",
+    "use": "Huchen은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "burbot",
+    "translationStatus": "translated",
+    "name": "Burbot",
+    "spot": "지도: Tranquil River",
+    "condition": "Burbot으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 4",
+    "use": "Burbot은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "beltfish",
+    "translationStatus": "translated",
+    "name": "Beltfish",
+    "spot": "지도: Zephyr Sea",
+    "condition": "Beltfish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 4",
+    "use": "Beltfish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "atlantic-pygmy-octopus",
+    "translationStatus": "translated",
+    "name": "Atlantic Pygmy Octopus",
+    "spot": "지도: Zephyr Sea",
+    "condition": "Atlantic Pygmy Octopus으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 4",
+    "use": "Atlantic Pygmy Octopus은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "atlantic-salmon",
+    "translationStatus": "translated",
+    "name": "Atlantic Salmon",
+    "spot": "지도: Whale Sea",
+    "condition": "Atlantic Salmon으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 7",
+    "use": "Atlantic Salmon은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "swordfish",
+    "translationStatus": "translated",
+    "name": "Swordfish",
+    "spot": "지도: Whale Sea",
+    "condition": "Swordfish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 10",
+    "use": "Swordfish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "rainbow-fish",
+    "translationStatus": "translated",
+    "name": "Rainbow Fish",
+    "spot": "지도: Starlight Sea",
+    "condition": "Rainbow Fish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 8",
+    "use": "Rainbow Fish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "koi",
+    "translationStatus": "translated",
+    "name": "Koi",
+    "spot": "지도: Secret Pond",
+    "condition": "Koi으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 5",
+    "use": "Koi은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "golden-king-crab",
+    "translationStatus": "translated",
+    "name": "Golden King Crab",
+    "spot": "지도: Sea Fishing",
+    "condition": "Golden King Crab으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Event",
+    "use": "Golden King Crab은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "bluefin-tuna",
+    "translationStatus": "translated",
+    "name": "Bluefin Tuna",
+    "spot": "지도: Old Sea",
+    "condition": "Bluefin Tuna으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 10",
+    "use": "Bluefin Tuna은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "smooth-hammerhead",
+    "translationStatus": "translated",
+    "name": "Smooth Hammerhead",
+    "spot": "지도: Deep Sea",
+    "condition": "Smooth Hammerhead으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 10",
+    "use": "Smooth Hammerhead은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "european-eel",
+    "translationStatus": "translated",
+    "name": "European Eel",
+    "spot": "지도: Old Sea",
+    "condition": "European Eel으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 7",
+    "use": "European Eel은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "butterfly-koi",
+    "translationStatus": "translated",
+    "name": "Butterfly Koi",
+    "spot": "지도: Secret Pond",
+    "condition": "Butterfly Koi으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 6",
+    "use": "Butterfly Koi은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "large-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Large Pearl Mussel",
+    "spot": "지도: Forest Lake",
+    "condition": "Large Pearl Mussel으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 5",
+    "use": "Large Pearl Mussel은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "rainbow-trout",
+    "translationStatus": "translated",
+    "name": "Rainbow Trout",
+    "spot": "지도: Giantwood River",
+    "condition": "Rainbow Trout으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 6",
+    "use": "Rainbow Trout은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "sea-bream",
+    "translationStatus": "translated",
+    "name": "Sea Bream",
+    "spot": "지도: Fishing Village",
+    "condition": "Sea Bream으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "window": "확인됨: 루트",
+    "level": "Lv 1",
+    "use": "Sea Bream은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  }
+]

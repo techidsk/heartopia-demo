@@ -1,6 +1,7 @@
 ---
 import { getHeartopiaData } from "@data/heartopia";
-import { localizePath, type Locale } from "@i18n/config";
+import { getSiteConfig } from "@data/site";
+import { getLocaleMeta, localizePath, type Locale } from "@i18n/config";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
 interface Props {
@@ -9,6 +10,9 @@ interface Props {
 }
 
 const { locale, path } = Astro.props;
+const siteConfig = getSiteConfig(locale);
+const localeMeta = getLocaleMeta(locale);
+const labels = siteConfig.linkLabels;
 const data = await getHeartopiaData(locale);
 
 const pageCopy: Record<string, { title: string; description: string; eyebrow: string; heading: string; intro: string; currentPath: string }> = {
@@ -118,23 +122,47 @@ const pageCopy: Record<string, { title: string; description: string; eyebrow: st
   }
 };
 
-const copy = pageCopy[path] || pageCopy["/database/"];
+const pageLabelByPath: Record<string, string> = {
+  "/database/": labels.database,
+  "/fish/": labels.fish,
+  "/shops/": labels.shops,
+  "/crops/": labels.crops,
+  "/gardening/": labels.gardening,
+  "/insects/": labels.insects,
+  "/recipes/": labels.recipes,
+  "/characters/": labels.characters,
+  "/codes/": labels.codes,
+  "/events/": labels.events,
+  "/pets/": labels.pets,
+  "/hobbies/": labels.hobbies,
+  "/tools/": labels.tools
+};
+const baseCopy = pageCopy[path] || pageCopy["/database/"];
+const localizedHeading = pageLabelByPath[path] || labels.database;
+const copy = {
+  ...baseCopy,
+  title: `Heartopia ${localizedHeading} - ${localeMeta.label}`,
+  description: `Heartopia ${localizedHeading}: ${labels.database}, ${labels.map}, ${labels.tools}, ${labels.guides}.`,
+  eyebrow: `${localizedHeading} ${labels.guides}`,
+  heading: localizedHeading,
+  intro: `Heartopia ${localizedHeading}: ${labels.database}, ${labels.map}, ${labels.tools}, ${labels.guides}.`
+};
 const link = (href: string) => localizePath(href, locale);
 const cardLimit = path === "/database/" ? 12 : 999;
 
 const summaryCards = [
-  { value: data.fish.length, label: "鱼类" },
-  { value: data.shops.length, label: "商店" },
-  { value: data.crops.length, label: "作物" },
-  { value: data.gardening.length, label: "园艺" },
-  { value: data.insects.length, label: "昆虫" },
-  { value: data.recipes.length, label: "食谱" },
-  { value: data.npcs.length, label: "角色" },
-  { value: data.pets.length, label: "宠物" },
-  { value: data.hobbies.length, label: "爱好" },
-  { value: data.tools.length, label: "工具" },
-  { value: data.codes.activeCandidates.length, label: "兑换码" },
-  { value: data.events.length, label: "活动" }
+  { value: data.fish.length, label: labels.fish },
+  { value: data.shops.length, label: labels.shops },
+  { value: data.crops.length, label: labels.crops },
+  { value: data.gardening.length, label: labels.gardening },
+  { value: data.insects.length, label: labels.insects },
+  { value: data.recipes.length, label: labels.recipes },
+  { value: data.npcs.length, label: labels.characters },
+  { value: data.pets.length, label: labels.pets },
+  { value: data.hobbies.length, label: labels.hobbies },
+  { value: data.tools.length, label: labels.tools },
+  { value: data.codes.activeCandidates.length, label: labels.codes },
+  { value: data.events.length, label: labels.events }
 ];
 
 const riskLabel = (risk: string) => ({ low: "低", medium: "中", high: "高" })[risk] || risk;
@@ -143,7 +171,7 @@ const riskLabel = (risk: string) => ({ low: "低", medium: "中", high: "高" })
 <BaseLayout title={copy.title} description={copy.description} locale={locale} canonicalPath={path} currentPath={copy.currentPath}>
   <section class="article-hero">
     <div class="wiki-shell">
-      <div class="breadcrumb"><a href={link("/")}>首页</a><span>›</span><span>{copy.heading}</span></div>
+      <div class="breadcrumb"><a href={link("/")}>{labels.home}</a><span>›</span><span>{copy.heading}</span></div>
       <span class="top-note">{copy.eyebrow}</span>
       <h1>{copy.heading}</h1>
       <p>{copy.intro}</p>

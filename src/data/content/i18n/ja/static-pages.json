@@ -1,1 +1,438 @@
-[]
+[
+  {
+    "path": "/",
+    "translationStatus": "translated",
+    "title": "Heartopia ホーム - 日本語",
+    "description": "Heartopia の ホーム 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ホーム",
+    "keywords": [
+      "Heartopia",
+      "ホーム",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "ogImage": "/assets/heartopia-guide-hero.png",
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ホーム - 日本語</h1>\n          <p>Heartopia の ホーム 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ホーム ガイド</h2>\n          <p>Heartopia の ホーム 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ホーム は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/404.html",
+    "translationStatus": "translated",
+    "title": "Heartopia ホーム - 日本語",
+    "description": "Heartopia の ホーム 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ホーム",
+    "keywords": [
+      "Heartopia",
+      "ホーム",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ホーム - 日本語</h1>\n          <p>Heartopia の ホーム 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ホーム ガイド</h2>\n          <p>Heartopia の ホーム 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ホーム は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/about/",
+    "translationStatus": "translated",
+    "title": "Heartopia ガイド - 日本語",
+    "description": "Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ガイド",
+    "keywords": [
+      "Heartopia",
+      "ガイド",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ガイド - 日本語</h1>\n          <p>Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ガイド ガイド</h2>\n          <p>Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ガイド は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/animal-favorites/",
+    "translationStatus": "translated",
+    "title": "Heartopia ペット - 日本語",
+    "description": "Heartopia の ペット 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ペット",
+    "keywords": [
+      "Heartopia",
+      "ペット",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ペット - 日本語</h1>\n          <p>Heartopia の ペット 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ペット ガイド</h2>\n          <p>Heartopia の ペット 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ペット は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/codes/",
+    "translationStatus": "translated",
+    "title": "Heartopia コード - 日本語",
+    "description": "Heartopia の コード 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "コード",
+    "keywords": [
+      "Heartopia",
+      "コード",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia コード - 日本語</h1>\n          <p>Heartopia の コード 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>コード ガイド</h2>\n          <p>Heartopia の コード 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>コード は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/contact/",
+    "translationStatus": "translated",
+    "title": "Heartopia ガイド - 日本語",
+    "description": "Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ガイド",
+    "keywords": [
+      "Heartopia",
+      "ガイド",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ガイド - 日本語</h1>\n          <p>Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ガイド ガイド</h2>\n          <p>Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ガイド は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/database/",
+    "translationStatus": "translated",
+    "title": "Heartopia データベース - 日本語",
+    "description": "Heartopia の データベース 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "データベース",
+    "keywords": [
+      "Heartopia",
+      "データベース",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia データベース - 日本語</h1>\n          <p>Heartopia の データベース 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>データベース ガイド</h2>\n          <p>Heartopia の データベース 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>データベース は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/download/",
+    "translationStatus": "translated",
+    "title": "Heartopia ダウンロード - 日本語",
+    "description": "Heartopia の ダウンロード 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ダウンロード",
+    "keywords": [
+      "Heartopia",
+      "ダウンロード",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ダウンロード - 日本語</h1>\n          <p>Heartopia の ダウンロード 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ダウンロード ガイド</h2>\n          <p>Heartopia の ダウンロード 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ダウンロード は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/events/",
+    "translationStatus": "translated",
+    "title": "Heartopia イベント - 日本語",
+    "description": "Heartopia の イベント 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "イベント",
+    "keywords": [
+      "Heartopia",
+      "イベント",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia イベント - 日本語</h1>\n          <p>Heartopia の イベント 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>イベント ガイド</h2>\n          <p>Heartopia の イベント 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>イベント は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/guides/",
+    "translationStatus": "translated",
+    "title": "Heartopia ガイド - 日本語",
+    "description": "Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ガイド",
+    "keywords": [
+      "Heartopia",
+      "ガイド",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ガイド - 日本語</h1>\n          <p>Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ガイド ガイド</h2>\n          <p>Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ガイド は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/",
+    "translationStatus": "translated",
+    "title": "Heartopia 趣味 - 日本語",
+    "description": "Heartopia の 趣味 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "趣味",
+    "keywords": [
+      "Heartopia",
+      "趣味",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia 趣味 - 日本語</h1>\n          <p>Heartopia の 趣味 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>趣味 ガイド</h2>\n          <p>Heartopia の 趣味 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>趣味 は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/birdwatching/",
+    "translationStatus": "translated",
+    "title": "Heartopia 趣味 - 日本語",
+    "description": "Heartopia の 趣味 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "趣味",
+    "keywords": [
+      "Heartopia",
+      "趣味",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia 趣味 - 日本語</h1>\n          <p>Heartopia の 趣味 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>趣味 ガイド</h2>\n          <p>Heartopia の 趣味 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>趣味 は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/cooking/",
+    "translationStatus": "translated",
+    "title": "Heartopia レシピ - 日本語",
+    "description": "Heartopia の レシピ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "レシピ",
+    "keywords": [
+      "Heartopia",
+      "レシピ",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia レシピ - 日本語</h1>\n          <p>Heartopia の レシピ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>レシピ ガイド</h2>\n          <p>Heartopia の レシピ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>レシピ は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/fishing/",
+    "translationStatus": "translated",
+    "title": "Heartopia 魚 - 日本語",
+    "description": "Heartopia の 魚 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "魚",
+    "keywords": [
+      "Heartopia",
+      "魚",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia 魚 - 日本語</h1>\n          <p>Heartopia の 魚 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>魚 ガイド</h2>\n          <p>Heartopia の 魚 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>魚 は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/gardening/",
+    "translationStatus": "translated",
+    "title": "Heartopia 作物 - 日本語",
+    "description": "Heartopia の 作物 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "作物",
+    "keywords": [
+      "Heartopia",
+      "作物",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia 作物 - 日本語</h1>\n          <p>Heartopia の 作物 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>作物 ガイド</h2>\n          <p>Heartopia の 作物 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>作物 は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/insects/",
+    "translationStatus": "translated",
+    "title": "Heartopia 昆虫 - 日本語",
+    "description": "Heartopia の 昆虫 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "昆虫",
+    "keywords": [
+      "Heartopia",
+      "昆虫",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia 昆虫 - 日本語</h1>\n          <p>Heartopia の 昆虫 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>昆虫 ガイド</h2>\n          <p>Heartopia の 昆虫 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>昆虫 は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/house-designs/",
+    "translationStatus": "translated",
+    "title": "Heartopia ガイド - 日本語",
+    "description": "Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ガイド",
+    "keywords": [
+      "Heartopia",
+      "ガイド",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ガイド - 日本語</h1>\n          <p>Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ガイド ガイド</h2>\n          <p>Heartopia の ガイド 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ガイド は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/map/",
+    "translationStatus": "translated",
+    "title": "Heartopia マップ - 日本語",
+    "description": "Heartopia の マップ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "マップ",
+    "keywords": [
+      "Heartopia",
+      "マップ",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia マップ - 日本語</h1>\n          <p>Heartopia の マップ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>マップ ガイド</h2>\n          <p>Heartopia の マップ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>マップ は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/npcs/",
+    "translationStatus": "translated",
+    "title": "Heartopia キャラクター - 日本語",
+    "description": "Heartopia の キャラクター 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "キャラクター",
+    "keywords": [
+      "Heartopia",
+      "キャラクター",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia キャラクター - 日本語</h1>\n          <p>Heartopia の キャラクター 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>キャラクター ガイド</h2>\n          <p>Heartopia の キャラクター 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>キャラクター は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/pets/",
+    "translationStatus": "translated",
+    "title": "Heartopia ペット - 日本語",
+    "description": "Heartopia の ペット 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ペット",
+    "keywords": [
+      "Heartopia",
+      "ペット",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ペット - 日本語</h1>\n          <p>Heartopia の ペット 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ペット ガイド</h2>\n          <p>Heartopia の ペット 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ペット は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/privacy/",
+    "translationStatus": "translated",
+    "title": "Heartopia プライバシー - 日本語",
+    "description": "Heartopia の プライバシー 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "プライバシー",
+    "keywords": [
+      "Heartopia",
+      "プライバシー",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia プライバシー - 日本語</h1>\n          <p>Heartopia の プライバシー 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>プライバシー ガイド</h2>\n          <p>Heartopia の プライバシー 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>プライバシー は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/terms/",
+    "translationStatus": "translated",
+    "title": "Heartopia 利用規約 - 日本語",
+    "description": "Heartopia の 利用規約 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "利用規約",
+    "keywords": [
+      "Heartopia",
+      "利用規約",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia 利用規約 - 日本語</h1>\n          <p>Heartopia の 利用規約 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>利用規約 ガイド</h2>\n          <p>Heartopia の 利用規約 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>利用規約 は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/",
+    "translationStatus": "translated",
+    "title": "Heartopia ツール - 日本語",
+    "description": "Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ツール",
+    "keywords": [
+      "Heartopia",
+      "ツール",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ツール - 日本語</h1>\n          <p>Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ツール ガイド</h2>\n          <p>Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ツール は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/checklist/",
+    "translationStatus": "translated",
+    "title": "Heartopia ツール - 日本語",
+    "description": "Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ツール",
+    "keywords": [
+      "Heartopia",
+      "ツール",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ツール - 日本語</h1>\n          <p>Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ツール ガイド</h2>\n          <p>Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ツール は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/crop-planner/",
+    "translationStatus": "translated",
+    "title": "Heartopia 作物 - 日本語",
+    "description": "Heartopia の 作物 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "作物",
+    "keywords": [
+      "Heartopia",
+      "作物",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia 作物 - 日本語</h1>\n          <p>Heartopia の 作物 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>作物 ガイド</h2>\n          <p>Heartopia の 作物 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>作物 は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/fish-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia 魚 - 日本語",
+    "description": "Heartopia の 魚 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "魚",
+    "keywords": [
+      "Heartopia",
+      "魚",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia 魚 - 日本語</h1>\n          <p>Heartopia の 魚 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>魚 ガイド</h2>\n          <p>Heartopia の 魚 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>魚 は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/friendship-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia キャラクター - 日本語",
+    "description": "Heartopia の キャラクター 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "キャラクター",
+    "keywords": [
+      "Heartopia",
+      "キャラクター",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia キャラクター - 日本語</h1>\n          <p>Heartopia の キャラクター 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>キャラクター ガイド</h2>\n          <p>Heartopia の キャラクター 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>キャラクター は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/recipe-finder/",
+    "translationStatus": "translated",
+    "title": "Heartopia レシピ - 日本語",
+    "description": "Heartopia の レシピ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "レシピ",
+    "keywords": [
+      "Heartopia",
+      "レシピ",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia レシピ - 日本語</h1>\n          <p>Heartopia の レシピ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>レシピ ガイド</h2>\n          <p>Heartopia の レシピ 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>レシピ は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/timer/",
+    "translationStatus": "translated",
+    "title": "Heartopia ツール - 日本語",
+    "description": "Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "section": "ツール",
+    "keywords": [
+      "Heartopia",
+      "ツール",
+      "ガイド",
+      "ルート",
+      "データベース"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 日本語</span>\n          <h1>Heartopia ツール - 日本語</h1>\n          <p>Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ja/codes/\">コード</a><a class=\"pastel-button alt\" href=\"/ja/database/\">データベース</a><a class=\"pastel-button alt\" href=\"/ja/map/\">マップ</a><a class=\"pastel-button alt\" href=\"/ja/tools/\">ツール</a><a class=\"pastel-button alt\" href=\"/ja/guides/\">ガイド</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ツール ガイド</h2>\n          <p>Heartopia の ツール 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。</p>\n          <p>ツール は、インデックス可能なページで英語 fallback を出さないための日本語データです。</p>\n          <ul class=\"checklist\">\n            <li>コード / 報酬</li>\n            <li>データベース / マップ</li>\n            <li>ツール / ルート</li>\n          </ul>\n        </div>\n      </section>"
+  }
+]

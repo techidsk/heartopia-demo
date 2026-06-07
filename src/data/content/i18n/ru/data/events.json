@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "modular-streets",
+    "translationStatus": "translated",
+    "name": "Modular Streets Festival",
+    "window": "проверено: маршрут",
+    "route": "Используйте Modular Streets Festival, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "rewards": [
+      "награды: Brick furniture lane",
+      "награды: Festival collectibles",
+      "награды: Collection progress"
+    ],
+    "prep": [
+      "маршрут: Redeem active codes",
+      "маршрут: Free storage space",
+      "маршрут: Open fish tracker",
+      "маршрут: Check map routes"
+    ]
+  },
+  {
+    "id": "graffiti-channel",
+    "translationStatus": "translated",
+    "name": "Graffiti Channel Exhibition",
+    "window": "проверено: маршрут",
+    "route": "Используйте Graffiti Channel Exhibition, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "rewards": [
+      "награды: Fashion display route",
+      "награды: Collector tasks",
+      "награды: Event styling notes"
+    ],
+    "prep": [
+      "маршрут: Check clothing store",
+      "маршрут: Review event checklist",
+      "маршрут: Leave room for display items"
+    ]
+  },
+  {
+    "id": "sea-fishing",
+    "translationStatus": "translated",
+    "name": "Sea Fishing",
+    "window": "проверено: маршрут",
+    "route": "Используйте Sea Fishing, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "rewards": [
+      "награды: Sea fish progress",
+      "награды: Fishing event rewards",
+      "награды: Recipe inputs"
+    ],
+    "prep": [
+      "маршрут: Open fish tracker",
+      "маршрут: Check inventory space",
+      "маршрут: Bring repair kit if needed"
+    ]
+  },
+  {
+    "id": "next-banner-watch",
+    "translationStatus": "translated",
+    "name": "Next Banner Watch",
+    "window": "проверено: маршрут",
+    "route": "Используйте Next Banner Watch, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "rewards": [
+      "награды: Unknown until announcement"
+    ],
+    "prep": [
+      "маршрут: Keep codes page checked",
+      "маршрут: Save flexible materials",
+      "маршрут: Do not spend all event stock"
+    ]
+  },
+  {
+    "id": "closed-code-window",
+    "translationStatus": "translated",
+    "name": "Closed Code Window Archive",
+    "window": "проверено: маршрут",
+    "route": "Используйте Closed Code Window Archive, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "rewards": [
+      "награды: Historical reward notes"
+    ],
+    "prep": [
+      "маршрут: Move expired codes out of current route",
+      "маршрут: Keep source check date visible"
+    ]
+  }
+]

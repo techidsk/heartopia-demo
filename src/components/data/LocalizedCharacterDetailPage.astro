@@ -2,6 +2,7 @@
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
 import { type Npc } from "@data/heartopia";
+import { getSiteConfig } from "@data/site";
 import { localizePath, type Locale } from "@i18n/config";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
@@ -11,9 +12,11 @@ interface Props {
 }
 
 const { npc, locale } = Astro.props;
+const siteConfig = getSiteConfig(locale);
+const labels = siteConfig.linkLabels;
 const detailPath = `/characters/${npc.id}/`;
-const title = `${npc.name} - Heartopia 角色位置、路线与礼物`;
-const description = `${npc.name} 角色资料：${npc.role}，位置 ${npc.location}，包含行程、礼物路线、地图跳转和来源说明。`;
+const title = `${npc.name} - Heartopia ${labels.characters} ${labels.map}`;
+const description = `Heartopia ${labels.characters}: ${npc.name}. ${npc.role}; ${npc.location}; ${npc.schedule}.`;
 ---
 
 <BaseLayout
@@ -28,8 +31,8 @@ const description = `${npc.name} 角色资料：${npc.role}，位置 ${npc.locat
     <div class="wiki-shell">
       <Breadcrumbs
         items={[
-          { href: localizePath("/", locale), label: "首页" },
-          { href: localizePath("/characters/", locale), label: "角色" },
+          { href: localizePath("/", locale), label: labels.home },
+          { href: localizePath("/characters/", locale), label: labels.characters },
           { label: npc.name }
         ]}
       />

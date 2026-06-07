@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "blanc",
+    "translationStatus": "translated",
+    "name": "Blanc",
+    "group": "base de données: mentor",
+    "role": "guide: Gardening mentor",
+    "location": "carte: Garden Shop / Central Town",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Fresh crop",
+      "récompenses: Flower",
+      "récompenses: Simple cooked dish"
+    ],
+    "nameZh": "布蘭克",
+    "profile": "Blanc est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+  },
+  {
+    "id": "bob",
+    "translationStatus": "translated",
+    "name": "Bob",
+    "group": "base de données: shopkeeper",
+    "role": "guide: Furniture workshop owner",
+    "location": "carte: Central Town",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Wood decor",
+      "récompenses: House material",
+      "récompenses: Simple dish"
+    ]
+  },
+  {
+    "id": "dorothy",
+    "translationStatus": "translated",
+    "name": "Dorothy",
+    "group": "base de données: shopkeeper",
+    "role": "guide: Clothing store owner",
+    "location": "carte: Central Town",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Fashion item",
+      "récompenses: Flower",
+      "récompenses: Dessert"
+    ]
+  },
+  {
+    "id": "mrs-joan",
+    "translationStatus": "translated",
+    "name": "Mrs. Joan",
+    "group": "base de données: mentor",
+    "role": "guide: Pet care mentor",
+    "location": "carte: Pet Shop",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Dog Food",
+      "récompenses: Pet-care item",
+      "récompenses: Cooked dish"
+    ]
+  },
+  {
+    "id": "doris",
+    "translationStatus": "translated",
+    "name": "Doris",
+    "group": "base de données: dynamic",
+    "role": "guide: Weather merchant",
+    "location": "carte: Dynamic weather route",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Weather item",
+      "récompenses: Colorful flower",
+      "récompenses: Rare dish"
+    ]
+  },
+  {
+    "id": "bill",
+    "translationStatus": "translated",
+    "name": "Bill",
+    "group": "base de données: event",
+    "role": "guide: Sea Fishing event mentor",
+    "location": "carte: Fishing Village",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Fish",
+      "récompenses: Repair Kit",
+      "récompenses: Seafood dish"
+    ]
+  },
+  {
+    "id": "albert-ii",
+    "translationStatus": "translated",
+    "name": "Albert II",
+    "group": "base de données: featured",
+    "role": "guide: Featured town character",
+    "location": "carte: Heartopia town route",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Favorite gift pending",
+      "récompenses: Liked gift pending",
+      "récompenses: Talk route"
+    ],
+    "nameZh": "阿爾伯特二世",
+    "profile": "Albert II est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+  },
+  {
+    "id": "ka-ching",
+    "translationStatus": "translated",
+    "name": "Ka Ching",
+    "group": "base de données: shopkeeper",
+    "role": "guide: General store owner",
+    "location": "carte: Central Town",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Utility item",
+      "récompenses: Simple dish",
+      "récompenses: Favorite gift pending"
+    ],
+    "nameZh": "卡清",
+    "profile": "Ka Ching est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+  },
+  {
+    "id": "annie",
+    "translationStatus": "translated",
+    "name": "Annie",
+    "group": "base de données: shopkeeper",
+    "role": "guide: Music store owner",
+    "location": "carte: Central Town",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Music decor",
+      "récompenses: Dessert",
+      "récompenses: Favorite gift pending"
+    ],
+    "nameZh": "安妮",
+    "profile": "Annie est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+  },
+  {
+    "id": "vania",
+    "translationStatus": "translated",
+    "name": "Vania",
+    "group": "base de données: featured",
+    "role": "guide: Featured town character",
+    "location": "carte: Heartopia town route",
+    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "gifts": [
+      "récompenses: Favorite gift pending",
+      "récompenses: Liked gift pending",
+      "récompenses: Talk route"
+    ],
+    "nameZh": "萬尼亞",
+    "profile": "Vania est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+  }
+]

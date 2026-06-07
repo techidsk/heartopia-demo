@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "blanc",
+    "translationStatus": "translated",
+    "name": "Blanc",
+    "group": "basis data: mentor",
+    "role": "panduan: Gardening mentor",
+    "location": "peta: Garden Shop / Central Town",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Fresh crop",
+      "hadiah: Flower",
+      "hadiah: Simple cooked dish"
+    ],
+    "nameZh": "布蘭克",
+    "profile": "Blanc adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+  },
+  {
+    "id": "bob",
+    "translationStatus": "translated",
+    "name": "Bob",
+    "group": "basis data: shopkeeper",
+    "role": "panduan: Furniture workshop owner",
+    "location": "peta: Central Town",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Wood decor",
+      "hadiah: House material",
+      "hadiah: Simple dish"
+    ]
+  },
+  {
+    "id": "dorothy",
+    "translationStatus": "translated",
+    "name": "Dorothy",
+    "group": "basis data: shopkeeper",
+    "role": "panduan: Clothing store owner",
+    "location": "peta: Central Town",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Fashion item",
+      "hadiah: Flower",
+      "hadiah: Dessert"
+    ]
+  },
+  {
+    "id": "mrs-joan",
+    "translationStatus": "translated",
+    "name": "Mrs. Joan",
+    "group": "basis data: mentor",
+    "role": "panduan: Pet care mentor",
+    "location": "peta: Pet Shop",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Dog Food",
+      "hadiah: Pet-care item",
+      "hadiah: Cooked dish"
+    ]
+  },
+  {
+    "id": "doris",
+    "translationStatus": "translated",
+    "name": "Doris",
+    "group": "basis data: dynamic",
+    "role": "panduan: Weather merchant",
+    "location": "peta: Dynamic weather route",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Weather item",
+      "hadiah: Colorful flower",
+      "hadiah: Rare dish"
+    ]
+  },
+  {
+    "id": "bill",
+    "translationStatus": "translated",
+    "name": "Bill",
+    "group": "basis data: event",
+    "role": "panduan: Sea Fishing event mentor",
+    "location": "peta: Fishing Village",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Fish",
+      "hadiah: Repair Kit",
+      "hadiah: Seafood dish"
+    ]
+  },
+  {
+    "id": "albert-ii",
+    "translationStatus": "translated",
+    "name": "Albert II",
+    "group": "basis data: featured",
+    "role": "panduan: Featured town character",
+    "location": "peta: Heartopia town route",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Favorite gift pending",
+      "hadiah: Liked gift pending",
+      "hadiah: Talk route"
+    ],
+    "nameZh": "阿爾伯特二世",
+    "profile": "Albert II adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+  },
+  {
+    "id": "ka-ching",
+    "translationStatus": "translated",
+    "name": "Ka Ching",
+    "group": "basis data: shopkeeper",
+    "role": "panduan: General store owner",
+    "location": "peta: Central Town",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Utility item",
+      "hadiah: Simple dish",
+      "hadiah: Favorite gift pending"
+    ],
+    "nameZh": "卡清",
+    "profile": "Ka Ching adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+  },
+  {
+    "id": "annie",
+    "translationStatus": "translated",
+    "name": "Annie",
+    "group": "basis data: shopkeeper",
+    "role": "panduan: Music store owner",
+    "location": "peta: Central Town",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Music decor",
+      "hadiah: Dessert",
+      "hadiah: Favorite gift pending"
+    ],
+    "nameZh": "安妮",
+    "profile": "Annie adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+  },
+  {
+    "id": "vania",
+    "translationStatus": "translated",
+    "name": "Vania",
+    "group": "basis data: featured",
+    "role": "panduan: Featured town character",
+    "location": "peta: Heartopia town route",
+    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "gifts": [
+      "hadiah: Favorite gift pending",
+      "hadiah: Liked gift pending",
+      "hadiah: Talk route"
+    ],
+    "nameZh": "萬尼亞",
+    "profile": "Vania adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+  }
+]

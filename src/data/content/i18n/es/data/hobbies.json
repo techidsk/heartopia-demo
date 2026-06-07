@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "guía: core",
+    "summary": "Fishing como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "guía: core",
+    "summary": "Gardening como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "guía: core",
+    "summary": "Cooking como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "guía: nature",
+    "summary": "Birdwatching como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "guía: nature",
+    "summary": "Insect Catching como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "guía: care",
+    "summary": "Cat Care como referencia rápida en español para rutas, planificación y colección."
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "guía: care",
+    "summary": "Dog Care como referencia rápida en español para rutas, planificación y colección."
+  }
+]

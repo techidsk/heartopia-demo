@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "blanc",
+    "translationStatus": "translated",
+    "name": "Blanc",
+    "group": "ฐานข้อมูล: mentor",
+    "role": "ไกด์: Gardening mentor",
+    "location": "แผนที่: Garden Shop / Central Town",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Fresh crop",
+      "รางวัล: Flower",
+      "รางวัล: Simple cooked dish"
+    ],
+    "nameZh": "布蘭克",
+    "profile": "Blanc เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "bob",
+    "translationStatus": "translated",
+    "name": "Bob",
+    "group": "ฐานข้อมูล: shopkeeper",
+    "role": "ไกด์: Furniture workshop owner",
+    "location": "แผนที่: Central Town",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Wood decor",
+      "รางวัล: House material",
+      "รางวัล: Simple dish"
+    ]
+  },
+  {
+    "id": "dorothy",
+    "translationStatus": "translated",
+    "name": "Dorothy",
+    "group": "ฐานข้อมูล: shopkeeper",
+    "role": "ไกด์: Clothing store owner",
+    "location": "แผนที่: Central Town",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Fashion item",
+      "รางวัล: Flower",
+      "รางวัล: Dessert"
+    ]
+  },
+  {
+    "id": "mrs-joan",
+    "translationStatus": "translated",
+    "name": "Mrs. Joan",
+    "group": "ฐานข้อมูล: mentor",
+    "role": "ไกด์: Pet care mentor",
+    "location": "แผนที่: Pet Shop",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Dog Food",
+      "รางวัล: Pet-care item",
+      "รางวัล: Cooked dish"
+    ]
+  },
+  {
+    "id": "doris",
+    "translationStatus": "translated",
+    "name": "Doris",
+    "group": "ฐานข้อมูล: dynamic",
+    "role": "ไกด์: Weather merchant",
+    "location": "แผนที่: Dynamic weather route",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Weather item",
+      "รางวัล: Colorful flower",
+      "รางวัล: Rare dish"
+    ]
+  },
+  {
+    "id": "bill",
+    "translationStatus": "translated",
+    "name": "Bill",
+    "group": "ฐานข้อมูล: event",
+    "role": "ไกด์: Sea Fishing event mentor",
+    "location": "แผนที่: Fishing Village",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Fish",
+      "รางวัล: Repair Kit",
+      "รางวัล: Seafood dish"
+    ]
+  },
+  {
+    "id": "albert-ii",
+    "translationStatus": "translated",
+    "name": "Albert II",
+    "group": "ฐานข้อมูล: featured",
+    "role": "ไกด์: Featured town character",
+    "location": "แผนที่: Heartopia town route",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Favorite gift pending",
+      "รางวัล: Liked gift pending",
+      "รางวัล: Talk route"
+    ],
+    "nameZh": "阿爾伯特二世",
+    "profile": "Albert II เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "ka-ching",
+    "translationStatus": "translated",
+    "name": "Ka Ching",
+    "group": "ฐานข้อมูล: shopkeeper",
+    "role": "ไกด์: General store owner",
+    "location": "แผนที่: Central Town",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Utility item",
+      "รางวัล: Simple dish",
+      "รางวัล: Favorite gift pending"
+    ],
+    "nameZh": "卡清",
+    "profile": "Ka Ching เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "annie",
+    "translationStatus": "translated",
+    "name": "Annie",
+    "group": "ฐานข้อมูล: shopkeeper",
+    "role": "ไกด์: Music store owner",
+    "location": "แผนที่: Central Town",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Music decor",
+      "รางวัล: Dessert",
+      "รางวัล: Favorite gift pending"
+    ],
+    "nameZh": "安妮",
+    "profile": "Annie เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  },
+  {
+    "id": "vania",
+    "translationStatus": "translated",
+    "name": "Vania",
+    "group": "ฐานข้อมูล: featured",
+    "role": "ไกด์: Featured town character",
+    "location": "แผนที่: Heartopia town route",
+    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "gifts": [
+      "รางวัล: Favorite gift pending",
+      "รางวัล: Liked gift pending",
+      "รางวัล: Talk route"
+    ],
+    "nameZh": "萬尼亞",
+    "profile": "Vania เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ",
+    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+  }
+]

@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "modular-streets",
+    "translationStatus": "translated",
+    "name": "Modular Streets Festival",
+    "window": "geprueft: Route",
+    "route": "Nutze Modular Streets Festival als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "rewards": [
+      "Belohnungen: Brick furniture lane",
+      "Belohnungen: Festival collectibles",
+      "Belohnungen: Collection progress"
+    ],
+    "prep": [
+      "Route: Redeem active codes",
+      "Route: Free storage space",
+      "Route: Open fish tracker",
+      "Route: Check map routes"
+    ]
+  },
+  {
+    "id": "graffiti-channel",
+    "translationStatus": "translated",
+    "name": "Graffiti Channel Exhibition",
+    "window": "geprueft: Route",
+    "route": "Nutze Graffiti Channel Exhibition als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "rewards": [
+      "Belohnungen: Fashion display route",
+      "Belohnungen: Collector tasks",
+      "Belohnungen: Event styling notes"
+    ],
+    "prep": [
+      "Route: Check clothing store",
+      "Route: Review event checklist",
+      "Route: Leave room for display items"
+    ]
+  },
+  {
+    "id": "sea-fishing",
+    "translationStatus": "translated",
+    "name": "Sea Fishing",
+    "window": "geprueft: Route",
+    "route": "Nutze Sea Fishing als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "rewards": [
+      "Belohnungen: Sea fish progress",
+      "Belohnungen: Fishing event rewards",
+      "Belohnungen: Recipe inputs"
+    ],
+    "prep": [
+      "Route: Open fish tracker",
+      "Route: Check inventory space",
+      "Route: Bring repair kit if needed"
+    ]
+  },
+  {
+    "id": "next-banner-watch",
+    "translationStatus": "translated",
+    "name": "Next Banner Watch",
+    "window": "geprueft: Route",
+    "route": "Nutze Next Banner Watch als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "rewards": [
+      "Belohnungen: Unknown until announcement"
+    ],
+    "prep": [
+      "Route: Keep codes page checked",
+      "Route: Save flexible materials",
+      "Route: Do not spend all event stock"
+    ]
+  },
+  {
+    "id": "closed-code-window",
+    "translationStatus": "translated",
+    "name": "Closed Code Window Archive",
+    "window": "geprueft: Route",
+    "route": "Nutze Closed Code Window Archive als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "rewards": [
+      "Belohnungen: Historical reward notes"
+    ],
+    "prep": [
+      "Route: Move expired codes out of current route",
+      "Route: Keep source check date visible"
+    ]
+  }
+]

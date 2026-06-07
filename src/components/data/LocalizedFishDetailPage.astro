@@ -2,6 +2,7 @@
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
 import { getHeartopiaData, type Fish } from "@data/heartopia";
+import { getSiteConfig } from "@data/site";
 import { localizePath, type Locale } from "@i18n/config";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
@@ -11,6 +12,8 @@ interface Props {
 }
 
 const { item, locale } = Astro.props;
+const siteConfig = getSiteConfig(locale);
+const labels = siteConfig.linkLabels;
 const { fish } = await getHeartopiaData(locale);
 const related = fish.filter((candidate) => candidate.id !== item.id && candidate.type === item.type).slice(0, 4);
 const waterRouteLabels: Record<string, string> = {
@@ -30,8 +33,8 @@ const rarityLabels: Record<string, string> = {
 const waterRoute = waterRouteLabels[item.type] || item.type;
 const rarity = rarityLabels[item.rarity] || item.rarity;
 const detailPath = `/fish/${item.id}/`;
-const title = `${item.name} - Heartopia 钓鱼位置、条件与路线`;
-const description = `${item.name} 钓鱼资料：位置 ${item.spot}，条件 ${item.condition}，时间 ${item.window}，等级门槛 ${item.level}。`;
+const title = `${item.name} - Heartopia ${labels.fish} ${labels.map} ${labels.guides}`;
+const description = `Heartopia ${labels.fish}: ${item.name}. ${item.spot}; ${item.condition}; ${item.window}; ${item.level}.`;
 ---
 
 <BaseLayout
@@ -46,8 +49,8 @@ const description = `${item.name} 钓鱼资料：位置 ${item.spot}，条件 ${
     <div class="wiki-shell">
       <Breadcrumbs
         items={[
-          { href: localizePath("/", locale), label: "首页" },
-          { href: localizePath("/fish/", locale), label: "鱼类" },
+          { href: localizePath("/", locale), label: labels.home },
+          { href: localizePath("/fish/", locale), label: labels.fish },
           { label: item.name }
         ]}
       />

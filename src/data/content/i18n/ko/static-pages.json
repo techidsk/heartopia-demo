@@ -1,1 +1,438 @@
-[]
+[
+  {
+    "path": "/",
+    "translationStatus": "translated",
+    "title": "Heartopia 홈 - 한국어",
+    "description": "Heartopia 홈 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "홈",
+    "keywords": [
+      "Heartopia",
+      "홈",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "ogImage": "/assets/heartopia-guide-hero.png",
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 홈 - 한국어</h1>\n          <p>Heartopia 홈 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>홈 가이드</h2>\n          <p>Heartopia 홈 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>홈은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/404.html",
+    "translationStatus": "translated",
+    "title": "Heartopia 홈 - 한국어",
+    "description": "Heartopia 홈 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "홈",
+    "keywords": [
+      "Heartopia",
+      "홈",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 홈 - 한국어</h1>\n          <p>Heartopia 홈 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>홈 가이드</h2>\n          <p>Heartopia 홈 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>홈은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/about/",
+    "translationStatus": "translated",
+    "title": "Heartopia 가이드 - 한국어",
+    "description": "Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "가이드",
+    "keywords": [
+      "Heartopia",
+      "가이드",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 가이드 - 한국어</h1>\n          <p>Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>가이드 가이드</h2>\n          <p>Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>가이드은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/animal-favorites/",
+    "translationStatus": "translated",
+    "title": "Heartopia 펫 - 한국어",
+    "description": "Heartopia 펫 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "펫",
+    "keywords": [
+      "Heartopia",
+      "펫",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 펫 - 한국어</h1>\n          <p>Heartopia 펫 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>펫 가이드</h2>\n          <p>Heartopia 펫 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>펫은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/codes/",
+    "translationStatus": "translated",
+    "title": "Heartopia 코드 - 한국어",
+    "description": "Heartopia 코드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "코드",
+    "keywords": [
+      "Heartopia",
+      "코드",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 코드 - 한국어</h1>\n          <p>Heartopia 코드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>코드 가이드</h2>\n          <p>Heartopia 코드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>코드은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/contact/",
+    "translationStatus": "translated",
+    "title": "Heartopia 가이드 - 한국어",
+    "description": "Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "가이드",
+    "keywords": [
+      "Heartopia",
+      "가이드",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 가이드 - 한국어</h1>\n          <p>Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>가이드 가이드</h2>\n          <p>Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>가이드은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/database/",
+    "translationStatus": "translated",
+    "title": "Heartopia 데이터베이스 - 한국어",
+    "description": "Heartopia 데이터베이스 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "데이터베이스",
+    "keywords": [
+      "Heartopia",
+      "데이터베이스",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 데이터베이스 - 한국어</h1>\n          <p>Heartopia 데이터베이스 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>데이터베이스 가이드</h2>\n          <p>Heartopia 데이터베이스 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>데이터베이스은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/download/",
+    "translationStatus": "translated",
+    "title": "Heartopia 다운로드 - 한국어",
+    "description": "Heartopia 다운로드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "다운로드",
+    "keywords": [
+      "Heartopia",
+      "다운로드",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 다운로드 - 한국어</h1>\n          <p>Heartopia 다운로드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>다운로드 가이드</h2>\n          <p>Heartopia 다운로드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>다운로드은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/events/",
+    "translationStatus": "translated",
+    "title": "Heartopia 이벤트 - 한국어",
+    "description": "Heartopia 이벤트 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "이벤트",
+    "keywords": [
+      "Heartopia",
+      "이벤트",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 이벤트 - 한국어</h1>\n          <p>Heartopia 이벤트 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>이벤트 가이드</h2>\n          <p>Heartopia 이벤트 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>이벤트은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/guides/",
+    "translationStatus": "translated",
+    "title": "Heartopia 가이드 - 한국어",
+    "description": "Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "가이드",
+    "keywords": [
+      "Heartopia",
+      "가이드",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 가이드 - 한국어</h1>\n          <p>Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>가이드 가이드</h2>\n          <p>Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>가이드은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/",
+    "translationStatus": "translated",
+    "title": "Heartopia 취미 - 한국어",
+    "description": "Heartopia 취미 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "취미",
+    "keywords": [
+      "Heartopia",
+      "취미",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 취미 - 한국어</h1>\n          <p>Heartopia 취미 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>취미 가이드</h2>\n          <p>Heartopia 취미 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>취미은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/birdwatching/",
+    "translationStatus": "translated",
+    "title": "Heartopia 취미 - 한국어",
+    "description": "Heartopia 취미 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "취미",
+    "keywords": [
+      "Heartopia",
+      "취미",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 취미 - 한국어</h1>\n          <p>Heartopia 취미 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>취미 가이드</h2>\n          <p>Heartopia 취미 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>취미은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/cooking/",
+    "translationStatus": "translated",
+    "title": "Heartopia 레시피 - 한국어",
+    "description": "Heartopia 레시피 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "레시피",
+    "keywords": [
+      "Heartopia",
+      "레시피",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 레시피 - 한국어</h1>\n          <p>Heartopia 레시피 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>레시피 가이드</h2>\n          <p>Heartopia 레시피 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>레시피은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/fishing/",
+    "translationStatus": "translated",
+    "title": "Heartopia 물고기 - 한국어",
+    "description": "Heartopia 물고기 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "물고기",
+    "keywords": [
+      "Heartopia",
+      "물고기",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 물고기 - 한국어</h1>\n          <p>Heartopia 물고기 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>물고기 가이드</h2>\n          <p>Heartopia 물고기 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>물고기은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/gardening/",
+    "translationStatus": "translated",
+    "title": "Heartopia 작물 - 한국어",
+    "description": "Heartopia 작물 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "작물",
+    "keywords": [
+      "Heartopia",
+      "작물",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 작물 - 한국어</h1>\n          <p>Heartopia 작물 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>작물 가이드</h2>\n          <p>Heartopia 작물 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>작물은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/insects/",
+    "translationStatus": "translated",
+    "title": "Heartopia 곤충 - 한국어",
+    "description": "Heartopia 곤충 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "곤충",
+    "keywords": [
+      "Heartopia",
+      "곤충",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 곤충 - 한국어</h1>\n          <p>Heartopia 곤충 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>곤충 가이드</h2>\n          <p>Heartopia 곤충 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>곤충은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/house-designs/",
+    "translationStatus": "translated",
+    "title": "Heartopia 가이드 - 한국어",
+    "description": "Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "가이드",
+    "keywords": [
+      "Heartopia",
+      "가이드",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 가이드 - 한국어</h1>\n          <p>Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>가이드 가이드</h2>\n          <p>Heartopia 가이드 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>가이드은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/map/",
+    "translationStatus": "translated",
+    "title": "Heartopia 지도 - 한국어",
+    "description": "Heartopia 지도 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "지도",
+    "keywords": [
+      "Heartopia",
+      "지도",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 지도 - 한국어</h1>\n          <p>Heartopia 지도 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>지도 가이드</h2>\n          <p>Heartopia 지도 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>지도은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/npcs/",
+    "translationStatus": "translated",
+    "title": "Heartopia 캐릭터 - 한국어",
+    "description": "Heartopia 캐릭터 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "캐릭터",
+    "keywords": [
+      "Heartopia",
+      "캐릭터",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 캐릭터 - 한국어</h1>\n          <p>Heartopia 캐릭터 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>캐릭터 가이드</h2>\n          <p>Heartopia 캐릭터 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>캐릭터은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/pets/",
+    "translationStatus": "translated",
+    "title": "Heartopia 펫 - 한국어",
+    "description": "Heartopia 펫 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "펫",
+    "keywords": [
+      "Heartopia",
+      "펫",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 펫 - 한국어</h1>\n          <p>Heartopia 펫 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>펫 가이드</h2>\n          <p>Heartopia 펫 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>펫은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/privacy/",
+    "translationStatus": "translated",
+    "title": "Heartopia 개인정보 - 한국어",
+    "description": "Heartopia 개인정보 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "개인정보",
+    "keywords": [
+      "Heartopia",
+      "개인정보",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 개인정보 - 한국어</h1>\n          <p>Heartopia 개인정보 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>개인정보 가이드</h2>\n          <p>Heartopia 개인정보 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>개인정보은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/terms/",
+    "translationStatus": "translated",
+    "title": "Heartopia 약관 - 한국어",
+    "description": "Heartopia 약관 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "약관",
+    "keywords": [
+      "Heartopia",
+      "약관",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 약관 - 한국어</h1>\n          <p>Heartopia 약관 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>약관 가이드</h2>\n          <p>Heartopia 약관 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>약관은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/",
+    "translationStatus": "translated",
+    "title": "Heartopia 도구 - 한국어",
+    "description": "Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "도구",
+    "keywords": [
+      "Heartopia",
+      "도구",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 도구 - 한국어</h1>\n          <p>Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>도구 가이드</h2>\n          <p>Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>도구은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/checklist/",
+    "translationStatus": "translated",
+    "title": "Heartopia 도구 - 한국어",
+    "description": "Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "도구",
+    "keywords": [
+      "Heartopia",
+      "도구",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 도구 - 한국어</h1>\n          <p>Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>도구 가이드</h2>\n          <p>Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>도구은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/crop-planner/",
+    "translationStatus": "translated",
+    "title": "Heartopia 작물 - 한국어",
+    "description": "Heartopia 작물 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "작물",
+    "keywords": [
+      "Heartopia",
+      "작물",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 작물 - 한국어</h1>\n          <p>Heartopia 작물 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>작물 가이드</h2>\n          <p>Heartopia 작물 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>작물은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/fish-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia 물고기 - 한국어",
+    "description": "Heartopia 물고기 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "물고기",
+    "keywords": [
+      "Heartopia",
+      "물고기",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 물고기 - 한국어</h1>\n          <p>Heartopia 물고기 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>물고기 가이드</h2>\n          <p>Heartopia 물고기 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>물고기은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/friendship-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia 캐릭터 - 한국어",
+    "description": "Heartopia 캐릭터 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "캐릭터",
+    "keywords": [
+      "Heartopia",
+      "캐릭터",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 캐릭터 - 한국어</h1>\n          <p>Heartopia 캐릭터 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>캐릭터 가이드</h2>\n          <p>Heartopia 캐릭터 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>캐릭터은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/recipe-finder/",
+    "translationStatus": "translated",
+    "title": "Heartopia 레시피 - 한국어",
+    "description": "Heartopia 레시피 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "레시피",
+    "keywords": [
+      "Heartopia",
+      "레시피",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 레시피 - 한국어</h1>\n          <p>Heartopia 레시피 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>레시피 가이드</h2>\n          <p>Heartopia 레시피 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>레시피은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/timer/",
+    "translationStatus": "translated",
+    "title": "Heartopia 도구 - 한국어",
+    "description": "Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
+    "section": "도구",
+    "keywords": [
+      "Heartopia",
+      "도구",
+      "가이드",
+      "루트",
+      "데이터베이스"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub 한국어</span>\n          <h1>Heartopia 도구 - 한국어</h1>\n          <p>Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ko/codes/\">코드</a><a class=\"pastel-button alt\" href=\"/ko/database/\">데이터베이스</a><a class=\"pastel-button alt\" href=\"/ko/map/\">지도</a><a class=\"pastel-button alt\" href=\"/ko/tools/\">도구</a><a class=\"pastel-button alt\" href=\"/ko/guides/\">가이드</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>도구 가이드</h2>\n          <p>Heartopia 도구 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.</p>\n          <p>도구은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.</p>\n          <ul class=\"checklist\">\n            <li>코드 / 보상</li>\n            <li>데이터베이스 / 지도</li>\n            <li>도구 / 루트</li>\n          </ul>\n        </div>\n      </section>"
+  }
+]

@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "blanc",
+    "translationStatus": "translated",
+    "name": "Blanc",
+    "group": "база данных: mentor",
+    "role": "гайд: Gardening mentor",
+    "location": "карта: Garden Shop / Central Town",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Fresh crop",
+      "награды: Flower",
+      "награды: Simple cooked dish"
+    ],
+    "nameZh": "布蘭克",
+    "profile": "Blanc локализовано, чтобы индексируемая страница не показывала английский fallback.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "bob",
+    "translationStatus": "translated",
+    "name": "Bob",
+    "group": "база данных: shopkeeper",
+    "role": "гайд: Furniture workshop owner",
+    "location": "карта: Central Town",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Wood decor",
+      "награды: House material",
+      "награды: Simple dish"
+    ]
+  },
+  {
+    "id": "dorothy",
+    "translationStatus": "translated",
+    "name": "Dorothy",
+    "group": "база данных: shopkeeper",
+    "role": "гайд: Clothing store owner",
+    "location": "карта: Central Town",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Fashion item",
+      "награды: Flower",
+      "награды: Dessert"
+    ]
+  },
+  {
+    "id": "mrs-joan",
+    "translationStatus": "translated",
+    "name": "Mrs. Joan",
+    "group": "база данных: mentor",
+    "role": "гайд: Pet care mentor",
+    "location": "карта: Pet Shop",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Dog Food",
+      "награды: Pet-care item",
+      "награды: Cooked dish"
+    ]
+  },
+  {
+    "id": "doris",
+    "translationStatus": "translated",
+    "name": "Doris",
+    "group": "база данных: dynamic",
+    "role": "гайд: Weather merchant",
+    "location": "карта: Dynamic weather route",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Weather item",
+      "награды: Colorful flower",
+      "награды: Rare dish"
+    ]
+  },
+  {
+    "id": "bill",
+    "translationStatus": "translated",
+    "name": "Bill",
+    "group": "база данных: event",
+    "role": "гайд: Sea Fishing event mentor",
+    "location": "карта: Fishing Village",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Fish",
+      "награды: Repair Kit",
+      "награды: Seafood dish"
+    ]
+  },
+  {
+    "id": "albert-ii",
+    "translationStatus": "translated",
+    "name": "Albert II",
+    "group": "база данных: featured",
+    "role": "гайд: Featured town character",
+    "location": "карта: Heartopia town route",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Favorite gift pending",
+      "награды: Liked gift pending",
+      "награды: Talk route"
+    ],
+    "nameZh": "阿爾伯特二世",
+    "profile": "Albert II локализовано, чтобы индексируемая страница не показывала английский fallback.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "ka-ching",
+    "translationStatus": "translated",
+    "name": "Ka Ching",
+    "group": "база данных: shopkeeper",
+    "role": "гайд: General store owner",
+    "location": "карта: Central Town",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Utility item",
+      "награды: Simple dish",
+      "награды: Favorite gift pending"
+    ],
+    "nameZh": "卡清",
+    "profile": "Ka Ching локализовано, чтобы индексируемая страница не показывала английский fallback.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "annie",
+    "translationStatus": "translated",
+    "name": "Annie",
+    "group": "база данных: shopkeeper",
+    "role": "гайд: Music store owner",
+    "location": "карта: Central Town",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Music decor",
+      "награды: Dessert",
+      "награды: Favorite gift pending"
+    ],
+    "nameZh": "安妮",
+    "profile": "Annie локализовано, чтобы индексируемая страница не показывала английский fallback.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  },
+  {
+    "id": "vania",
+    "translationStatus": "translated",
+    "name": "Vania",
+    "group": "база данных: featured",
+    "role": "гайд: Featured town character",
+    "location": "карта: Heartopia town route",
+    "schedule": "Проверьте по игровому времени и ротации магазинов.",
+    "gifts": [
+      "награды: Favorite gift pending",
+      "награды: Liked gift pending",
+      "награды: Talk route"
+    ],
+    "nameZh": "萬尼亞",
+    "profile": "Vania локализовано, чтобы индексируемая страница не показывала английский fallback.",
+    "source": "Локализованные данные Heartopia Hub на основе английской редакции."
+  }
+]

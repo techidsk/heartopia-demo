@@ -1,1 +1,438 @@
-[]
+[
+  {
+    "path": "/",
+    "translationStatus": "translated",
+    "title": "Heartopia Accueil - Français",
+    "description": "Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Accueil",
+    "keywords": [
+      "Heartopia",
+      "Accueil",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "ogImage": "/assets/heartopia-guide-hero.png",
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Accueil - Français</h1>\n          <p>Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Accueil guide</h2>\n          <p>Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Accueil est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/404.html",
+    "translationStatus": "translated",
+    "title": "Heartopia Accueil - Français",
+    "description": "Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Accueil",
+    "keywords": [
+      "Heartopia",
+      "Accueil",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Accueil - Français</h1>\n          <p>Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Accueil guide</h2>\n          <p>Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Accueil est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/about/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guide - Français",
+    "description": "Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Guide",
+    "keywords": [
+      "Heartopia",
+      "Guide",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide guide</h2>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Guide est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/animal-favorites/",
+    "translationStatus": "translated",
+    "title": "Heartopia Animaux - Français",
+    "description": "Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Animaux",
+    "keywords": [
+      "Heartopia",
+      "Animaux",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Animaux - Français</h1>\n          <p>Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Animaux guide</h2>\n          <p>Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Animaux est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/codes/",
+    "translationStatus": "translated",
+    "title": "Heartopia Codes - Français",
+    "description": "Page Heartopia en français pour Codes, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Codes",
+    "keywords": [
+      "Heartopia",
+      "Codes",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Codes - Français</h1>\n          <p>Page Heartopia en français pour Codes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Codes guide</h2>\n          <p>Page Heartopia en français pour Codes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Codes est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/contact/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guide - Français",
+    "description": "Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Guide",
+    "keywords": [
+      "Heartopia",
+      "Guide",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide guide</h2>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Guide est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/database/",
+    "translationStatus": "translated",
+    "title": "Heartopia Base de données - Français",
+    "description": "Page Heartopia en français pour Base de données, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Base de données",
+    "keywords": [
+      "Heartopia",
+      "Base de données",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Base de données - Français</h1>\n          <p>Page Heartopia en français pour Base de données, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Base de données guide</h2>\n          <p>Page Heartopia en français pour Base de données, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Base de données est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/download/",
+    "translationStatus": "translated",
+    "title": "Heartopia Téléchargement - Français",
+    "description": "Page Heartopia en français pour Téléchargement, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Téléchargement",
+    "keywords": [
+      "Heartopia",
+      "Téléchargement",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Téléchargement - Français</h1>\n          <p>Page Heartopia en français pour Téléchargement, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Téléchargement guide</h2>\n          <p>Page Heartopia en français pour Téléchargement, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Téléchargement est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/events/",
+    "translationStatus": "translated",
+    "title": "Heartopia Événements - Français",
+    "description": "Page Heartopia en français pour Événements, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Événements",
+    "keywords": [
+      "Heartopia",
+      "Événements",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Événements - Français</h1>\n          <p>Page Heartopia en français pour Événements, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Événements guide</h2>\n          <p>Page Heartopia en français pour Événements, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Événements est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/guides/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guides - Français",
+    "description": "Page Heartopia en français pour Guides, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Guides",
+    "keywords": [
+      "Heartopia",
+      "Guides",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guides - Français</h1>\n          <p>Page Heartopia en français pour Guides, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guides guide</h2>\n          <p>Page Heartopia en français pour Guides, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Guides est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/",
+    "translationStatus": "translated",
+    "title": "Heartopia Activités - Français",
+    "description": "Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Activités",
+    "keywords": [
+      "Heartopia",
+      "Activités",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Activités - Français</h1>\n          <p>Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Activités guide</h2>\n          <p>Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Activités est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/birdwatching/",
+    "translationStatus": "translated",
+    "title": "Heartopia Activités - Français",
+    "description": "Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Activités",
+    "keywords": [
+      "Heartopia",
+      "Activités",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Activités - Français</h1>\n          <p>Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Activités guide</h2>\n          <p>Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Activités est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/cooking/",
+    "translationStatus": "translated",
+    "title": "Heartopia Recettes - Français",
+    "description": "Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Recettes",
+    "keywords": [
+      "Heartopia",
+      "Recettes",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Recettes - Français</h1>\n          <p>Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Recettes guide</h2>\n          <p>Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Recettes est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/fishing/",
+    "translationStatus": "translated",
+    "title": "Heartopia Poissons - Français",
+    "description": "Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Poissons",
+    "keywords": [
+      "Heartopia",
+      "Poissons",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Poissons - Français</h1>\n          <p>Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Poissons guide</h2>\n          <p>Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Poissons est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/gardening/",
+    "translationStatus": "translated",
+    "title": "Heartopia Cultures - Français",
+    "description": "Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Cultures",
+    "keywords": [
+      "Heartopia",
+      "Cultures",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Cultures - Français</h1>\n          <p>Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Cultures guide</h2>\n          <p>Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Cultures est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/insects/",
+    "translationStatus": "translated",
+    "title": "Heartopia Insectes - Français",
+    "description": "Page Heartopia en français pour Insectes, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Insectes",
+    "keywords": [
+      "Heartopia",
+      "Insectes",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Insectes - Français</h1>\n          <p>Page Heartopia en français pour Insectes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Insectes guide</h2>\n          <p>Page Heartopia en français pour Insectes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Insectes est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/house-designs/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guide - Français",
+    "description": "Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Guide",
+    "keywords": [
+      "Heartopia",
+      "Guide",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide guide</h2>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Guide est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/map/",
+    "translationStatus": "translated",
+    "title": "Heartopia Carte - Français",
+    "description": "Page Heartopia en français pour Carte, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Carte",
+    "keywords": [
+      "Heartopia",
+      "Carte",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Carte - Français</h1>\n          <p>Page Heartopia en français pour Carte, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Carte guide</h2>\n          <p>Page Heartopia en français pour Carte, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Carte est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/npcs/",
+    "translationStatus": "translated",
+    "title": "Heartopia Personnages - Français",
+    "description": "Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Personnages",
+    "keywords": [
+      "Heartopia",
+      "Personnages",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Personnages - Français</h1>\n          <p>Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Personnages guide</h2>\n          <p>Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Personnages est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/pets/",
+    "translationStatus": "translated",
+    "title": "Heartopia Animaux - Français",
+    "description": "Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Animaux",
+    "keywords": [
+      "Heartopia",
+      "Animaux",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Animaux - Français</h1>\n          <p>Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Animaux guide</h2>\n          <p>Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Animaux est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/privacy/",
+    "translationStatus": "translated",
+    "title": "Heartopia Confidentialité - Français",
+    "description": "Page Heartopia en français pour Confidentialité, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Confidentialité",
+    "keywords": [
+      "Heartopia",
+      "Confidentialité",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Confidentialité - Français</h1>\n          <p>Page Heartopia en français pour Confidentialité, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Confidentialité guide</h2>\n          <p>Page Heartopia en français pour Confidentialité, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Confidentialité est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/terms/",
+    "translationStatus": "translated",
+    "title": "Heartopia Conditions - Français",
+    "description": "Page Heartopia en français pour Conditions, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Conditions",
+    "keywords": [
+      "Heartopia",
+      "Conditions",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Conditions - Français</h1>\n          <p>Page Heartopia en français pour Conditions, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Conditions guide</h2>\n          <p>Page Heartopia en français pour Conditions, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Conditions est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/",
+    "translationStatus": "translated",
+    "title": "Heartopia Outils - Français",
+    "description": "Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Outils",
+    "keywords": [
+      "Heartopia",
+      "Outils",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Outils guide</h2>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Outils est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/checklist/",
+    "translationStatus": "translated",
+    "title": "Heartopia Outils - Français",
+    "description": "Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Outils",
+    "keywords": [
+      "Heartopia",
+      "Outils",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Outils guide</h2>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Outils est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/crop-planner/",
+    "translationStatus": "translated",
+    "title": "Heartopia Cultures - Français",
+    "description": "Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Cultures",
+    "keywords": [
+      "Heartopia",
+      "Cultures",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Cultures - Français</h1>\n          <p>Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Cultures guide</h2>\n          <p>Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Cultures est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/fish-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia Poissons - Français",
+    "description": "Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Poissons",
+    "keywords": [
+      "Heartopia",
+      "Poissons",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Poissons - Français</h1>\n          <p>Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Poissons guide</h2>\n          <p>Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Poissons est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/friendship-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia Personnages - Français",
+    "description": "Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Personnages",
+    "keywords": [
+      "Heartopia",
+      "Personnages",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Personnages - Français</h1>\n          <p>Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Personnages guide</h2>\n          <p>Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Personnages est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/recipe-finder/",
+    "translationStatus": "translated",
+    "title": "Heartopia Recettes - Français",
+    "description": "Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Recettes",
+    "keywords": [
+      "Heartopia",
+      "Recettes",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Recettes - Français</h1>\n          <p>Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Recettes guide</h2>\n          <p>Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Recettes est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/timer/",
+    "translationStatus": "translated",
+    "title": "Heartopia Outils - Français",
+    "description": "Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.",
+    "section": "Outils",
+    "keywords": [
+      "Heartopia",
+      "Outils",
+      "guide",
+      "itinéraire",
+      "base de données"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Outils guide</h2>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Outils est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+  }
+]

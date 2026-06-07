@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "가이드: core",
+    "summary": "Fishing은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "가이드: core",
+    "summary": "Gardening은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "가이드: core",
+    "summary": "Cooking은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "가이드: nature",
+    "summary": "Birdwatching은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "가이드: nature",
+    "summary": "Insect Catching은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "가이드: care",
+    "summary": "Cat Care은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "가이드: care",
+    "summary": "Dog Care은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+  }
+]

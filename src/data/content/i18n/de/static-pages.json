@@ -1,1 +1,438 @@
-[]
+[
+  {
+    "path": "/",
+    "translationStatus": "translated",
+    "title": "Heartopia Startseite - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Startseite mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Startseite",
+    "keywords": [
+      "Heartopia",
+      "Startseite",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "ogImage": "/assets/heartopia-guide-hero.png",
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Startseite - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Startseite mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Startseite Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Startseite mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Startseite ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/404.html",
+    "translationStatus": "translated",
+    "title": "Heartopia Startseite - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Startseite mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Startseite",
+    "keywords": [
+      "Heartopia",
+      "Startseite",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Startseite - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Startseite mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Startseite Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Startseite mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Startseite ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/about/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guide - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Guide",
+    "keywords": [
+      "Heartopia",
+      "Guide",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Guide - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Guide ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/animal-favorites/",
+    "translationStatus": "translated",
+    "title": "Heartopia Haustiere - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Haustiere mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Haustiere",
+    "keywords": [
+      "Heartopia",
+      "Haustiere",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Haustiere - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Haustiere mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Haustiere Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Haustiere mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Haustiere ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/codes/",
+    "translationStatus": "translated",
+    "title": "Heartopia Codes - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Codes mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Codes",
+    "keywords": [
+      "Heartopia",
+      "Codes",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Codes - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Codes mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Codes Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Codes mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Codes ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/contact/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guide - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Guide",
+    "keywords": [
+      "Heartopia",
+      "Guide",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Guide - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Guide ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/database/",
+    "translationStatus": "translated",
+    "title": "Heartopia Datenbank - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Datenbank mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Datenbank",
+    "keywords": [
+      "Heartopia",
+      "Datenbank",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Datenbank - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Datenbank mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Datenbank Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Datenbank mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Datenbank ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/download/",
+    "translationStatus": "translated",
+    "title": "Heartopia Download - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Download mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Download",
+    "keywords": [
+      "Heartopia",
+      "Download",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Download - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Download mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Download Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Download mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Download ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/events/",
+    "translationStatus": "translated",
+    "title": "Heartopia Events - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Events mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Events",
+    "keywords": [
+      "Heartopia",
+      "Events",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Events - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Events mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Events Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Events mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Events ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/guides/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guides - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Guides mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Guides",
+    "keywords": [
+      "Heartopia",
+      "Guides",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Guides - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Guides mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guides Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Guides mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Guides ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/",
+    "translationStatus": "translated",
+    "title": "Heartopia Hobbys - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Hobbys mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Hobbys",
+    "keywords": [
+      "Heartopia",
+      "Hobbys",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Hobbys - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Hobbys mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Hobbys Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Hobbys mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Hobbys ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/birdwatching/",
+    "translationStatus": "translated",
+    "title": "Heartopia Hobbys - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Hobbys mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Hobbys",
+    "keywords": [
+      "Heartopia",
+      "Hobbys",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Hobbys - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Hobbys mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Hobbys Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Hobbys mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Hobbys ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/cooking/",
+    "translationStatus": "translated",
+    "title": "Heartopia Rezepte - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Rezepte mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Rezepte",
+    "keywords": [
+      "Heartopia",
+      "Rezepte",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Rezepte - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Rezepte mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Rezepte Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Rezepte mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Rezepte ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/fishing/",
+    "translationStatus": "translated",
+    "title": "Heartopia Fische - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Fische mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Fische",
+    "keywords": [
+      "Heartopia",
+      "Fische",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Fische - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Fische mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Fische Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Fische mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Fische ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/gardening/",
+    "translationStatus": "translated",
+    "title": "Heartopia Pflanzen - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Pflanzen mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Pflanzen",
+    "keywords": [
+      "Heartopia",
+      "Pflanzen",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Pflanzen - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Pflanzen mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Pflanzen Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Pflanzen mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Pflanzen ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/insects/",
+    "translationStatus": "translated",
+    "title": "Heartopia Insekten - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Insekten mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Insekten",
+    "keywords": [
+      "Heartopia",
+      "Insekten",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Insekten - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Insekten mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Insekten Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Insekten mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Insekten ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/house-designs/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guide - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Guide",
+    "keywords": [
+      "Heartopia",
+      "Guide",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Guide - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Guide mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Guide ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/map/",
+    "translationStatus": "translated",
+    "title": "Heartopia Karte - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Karte mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Karte",
+    "keywords": [
+      "Heartopia",
+      "Karte",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Karte - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Karte mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Karte Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Karte mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Karte ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/npcs/",
+    "translationStatus": "translated",
+    "title": "Heartopia Charaktere - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Charaktere mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Charaktere",
+    "keywords": [
+      "Heartopia",
+      "Charaktere",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Charaktere - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Charaktere mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Charaktere Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Charaktere mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Charaktere ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/pets/",
+    "translationStatus": "translated",
+    "title": "Heartopia Haustiere - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Haustiere mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Haustiere",
+    "keywords": [
+      "Heartopia",
+      "Haustiere",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Haustiere - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Haustiere mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Haustiere Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Haustiere mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Haustiere ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/privacy/",
+    "translationStatus": "translated",
+    "title": "Heartopia Datenschutz - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Datenschutz mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Datenschutz",
+    "keywords": [
+      "Heartopia",
+      "Datenschutz",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Datenschutz - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Datenschutz mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Datenschutz Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Datenschutz mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Datenschutz ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/terms/",
+    "translationStatus": "translated",
+    "title": "Heartopia Nutzungsbedingungen - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Nutzungsbedingungen mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Nutzungsbedingungen",
+    "keywords": [
+      "Heartopia",
+      "Nutzungsbedingungen",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Nutzungsbedingungen - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Nutzungsbedingungen mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Nutzungsbedingungen Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Nutzungsbedingungen mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Nutzungsbedingungen ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/",
+    "translationStatus": "translated",
+    "title": "Heartopia Tools - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Tools",
+    "keywords": [
+      "Heartopia",
+      "Tools",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Tools - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Tools Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Tools ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/checklist/",
+    "translationStatus": "translated",
+    "title": "Heartopia Tools - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Tools",
+    "keywords": [
+      "Heartopia",
+      "Tools",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Tools - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Tools Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Tools ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/crop-planner/",
+    "translationStatus": "translated",
+    "title": "Heartopia Pflanzen - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Pflanzen mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Pflanzen",
+    "keywords": [
+      "Heartopia",
+      "Pflanzen",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Pflanzen - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Pflanzen mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Pflanzen Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Pflanzen mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Pflanzen ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/fish-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia Fische - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Fische mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Fische",
+    "keywords": [
+      "Heartopia",
+      "Fische",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Fische - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Fische mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Fische Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Fische mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Fische ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/friendship-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia Charaktere - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Charaktere mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Charaktere",
+    "keywords": [
+      "Heartopia",
+      "Charaktere",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Charaktere - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Charaktere mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Charaktere Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Charaktere mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Charaktere ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/recipe-finder/",
+    "translationStatus": "translated",
+    "title": "Heartopia Rezepte - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Rezepte mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Rezepte",
+    "keywords": [
+      "Heartopia",
+      "Rezepte",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Rezepte - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Rezepte mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Rezepte Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Rezepte mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Rezepte ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/timer/",
+    "translationStatus": "translated",
+    "title": "Heartopia Tools - Deutsch",
+    "description": "Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.",
+    "section": "Tools",
+    "keywords": [
+      "Heartopia",
+      "Tools",
+      "Guide",
+      "Route",
+      "Datenbank"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Deutsch</span>\n          <h1>Heartopia Tools - Deutsch</h1>\n          <p>Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/de/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/de/database/\">Datenbank</a><a class=\"pastel-button alt\" href=\"/de/map/\">Karte</a><a class=\"pastel-button alt\" href=\"/de/tools/\">Tools</a><a class=\"pastel-button alt\" href=\"/de/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Tools Guide</h2>\n          <p>Deutschsprachige Heartopia-Seite fuer Tools mit Routen, Daten, Tools und praktischen Spielerhinweisen.</p>\n          <p>Tools ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.</p>\n          <ul class=\"checklist\">\n            <li>Codes / Belohnungen</li>\n            <li>Datenbank / Karte</li>\n            <li>Tools / Route</li>\n          </ul>\n        </div>\n      </section>"
+  }
+]

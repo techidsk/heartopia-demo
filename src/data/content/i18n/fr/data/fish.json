@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "wels-catfish",
+    "translationStatus": "translated",
+    "name": "Wels Catfish",
+    "spot": "carte: Meadow Lake",
+    "condition": "Utilise Wels Catfish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 1",
+    "use": "Wels Catfish comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "goldfish",
+    "translationStatus": "translated",
+    "name": "Goldfish",
+    "spot": "carte: Meadow Lake",
+    "condition": "Utilise Goldfish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 1",
+    "use": "Goldfish comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "arctic-char",
+    "translationStatus": "translated",
+    "name": "Arctic Char",
+    "spot": "carte: Forest Lake",
+    "condition": "Utilise Arctic Char pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 2",
+    "use": "Arctic Char comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "giant-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Giant Pearl Mussel",
+    "spot": "carte: Forest Lake",
+    "condition": "Utilise Giant Pearl Mussel pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 2",
+    "use": "Giant Pearl Mussel comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "largemouth-bass",
+    "translationStatus": "translated",
+    "name": "Largemouth Bass",
+    "spot": "carte: Forest Lake",
+    "condition": "Utilise Largemouth Bass pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 2",
+    "use": "Largemouth Bass comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "common-whitefish",
+    "translationStatus": "translated",
+    "name": "Common Whitefish",
+    "spot": "carte: Onsen Mountain Lake",
+    "condition": "Utilise Common Whitefish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 3",
+    "use": "Common Whitefish comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "ruffe",
+    "translationStatus": "translated",
+    "name": "Ruffe",
+    "spot": "carte: Onsen Mountain Lake",
+    "condition": "Utilise Ruffe pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 3",
+    "use": "Ruffe comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "crucian-carp",
+    "translationStatus": "translated",
+    "name": "Crucian Carp",
+    "spot": "carte: Spring Lake",
+    "condition": "Utilise Crucian Carp pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 3",
+    "use": "Crucian Carp comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "huchen",
+    "translationStatus": "translated",
+    "name": "Huchen",
+    "spot": "carte: Giantwood River",
+    "condition": "Utilise Huchen pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 9",
+    "use": "Huchen comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "burbot",
+    "translationStatus": "translated",
+    "name": "Burbot",
+    "spot": "carte: Tranquil River",
+    "condition": "Utilise Burbot pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 4",
+    "use": "Burbot comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "beltfish",
+    "translationStatus": "translated",
+    "name": "Beltfish",
+    "spot": "carte: Zephyr Sea",
+    "condition": "Utilise Beltfish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 4",
+    "use": "Beltfish comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "atlantic-pygmy-octopus",
+    "translationStatus": "translated",
+    "name": "Atlantic Pygmy Octopus",
+    "spot": "carte: Zephyr Sea",
+    "condition": "Utilise Atlantic Pygmy Octopus pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 4",
+    "use": "Atlantic Pygmy Octopus comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "atlantic-salmon",
+    "translationStatus": "translated",
+    "name": "Atlantic Salmon",
+    "spot": "carte: Whale Sea",
+    "condition": "Utilise Atlantic Salmon pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 7",
+    "use": "Atlantic Salmon comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "swordfish",
+    "translationStatus": "translated",
+    "name": "Swordfish",
+    "spot": "carte: Whale Sea",
+    "condition": "Utilise Swordfish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 10",
+    "use": "Swordfish comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "rainbow-fish",
+    "translationStatus": "translated",
+    "name": "Rainbow Fish",
+    "spot": "carte: Starlight Sea",
+    "condition": "Utilise Rainbow Fish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 8",
+    "use": "Rainbow Fish comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "koi",
+    "translationStatus": "translated",
+    "name": "Koi",
+    "spot": "carte: Secret Pond",
+    "condition": "Utilise Koi pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 5",
+    "use": "Koi comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "golden-king-crab",
+    "translationStatus": "translated",
+    "name": "Golden King Crab",
+    "spot": "carte: Sea Fishing",
+    "condition": "Utilise Golden King Crab pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Event",
+    "use": "Golden King Crab comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "bluefin-tuna",
+    "translationStatus": "translated",
+    "name": "Bluefin Tuna",
+    "spot": "carte: Old Sea",
+    "condition": "Utilise Bluefin Tuna pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 10",
+    "use": "Bluefin Tuna comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "smooth-hammerhead",
+    "translationStatus": "translated",
+    "name": "Smooth Hammerhead",
+    "spot": "carte: Deep Sea",
+    "condition": "Utilise Smooth Hammerhead pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 10",
+    "use": "Smooth Hammerhead comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "european-eel",
+    "translationStatus": "translated",
+    "name": "European Eel",
+    "spot": "carte: Old Sea",
+    "condition": "Utilise European Eel pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 7",
+    "use": "European Eel comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "butterfly-koi",
+    "translationStatus": "translated",
+    "name": "Butterfly Koi",
+    "spot": "carte: Secret Pond",
+    "condition": "Utilise Butterfly Koi pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 6",
+    "use": "Butterfly Koi comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "large-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Large Pearl Mussel",
+    "spot": "carte: Forest Lake",
+    "condition": "Utilise Large Pearl Mussel pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 5",
+    "use": "Large Pearl Mussel comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "rainbow-trout",
+    "translationStatus": "translated",
+    "name": "Rainbow Trout",
+    "spot": "carte: Giantwood River",
+    "condition": "Utilise Rainbow Trout pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 6",
+    "use": "Rainbow Trout comme repère rapide en français pour les routes, la planification et la collection."
+  },
+  {
+    "id": "sea-bream",
+    "translationStatus": "translated",
+    "name": "Sea Bream",
+    "spot": "carte: Fishing Village",
+    "condition": "Utilise Sea Bream pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "vérifié: itinéraire",
+    "level": "Lv 1",
+    "use": "Sea Bream comme repère rapide en français pour les routes, la planification et la collection."
+  }
+]

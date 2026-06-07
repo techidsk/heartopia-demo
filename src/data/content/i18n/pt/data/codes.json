@@ -1,4 +1,263 @@
 {
-  "activeCandidates": [],
-  "expiredArchive": []
+  "sourceNote": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas.",
+  "activeCandidates": [
+    {
+      "code": "r5a8m4q1n6",
+      "rewards": [
+        "recompensas: Repair Kit x5",
+        "recompensas: Wishing Star x3",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: materials",
+        "recompensas: stars",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "m2q7r6a9k3",
+      "rewards": [
+        "recompensas: Repair Kit x5",
+        "recompensas: Wishing Star x3",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: materials",
+        "recompensas: stars",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "mumlove4ever",
+      "rewards": [
+        "recompensas: Wishing Star x5",
+        "recompensas: Fertilizer x10",
+        "recompensas: Apple x10"
+      ],
+      "rewardTypes": [
+        "recompensas: stars",
+        "recompensas: booster",
+        "recompensas: fruit"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "n8q5m2a4r9",
+      "rewards": [
+        "recompensas: Repair Kit x5",
+        "recompensas: Wishing Star x3",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: materials",
+        "recompensas: stars",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "mayrelax",
+      "rewards": [
+        "recompensas: Blueberry x3",
+        "recompensas: Bait x3",
+        "recompensas: Timber x5",
+        "recompensas: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "recompensas: fruit",
+        "recompensas: fishing",
+        "recompensas: materials",
+        "recompensas: stars"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "a6r3m1q8n7",
+      "rewards": [
+        "recompensas: Repair Kit x5",
+        "recompensas: Wishing Star x3",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: materials",
+        "recompensas: stars",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "k9a2m5q7r4",
+      "rewards": [
+        "recompensas: Repair Kit x5",
+        "recompensas: Wishing Star x3",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: materials",
+        "recompensas: stars",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "q4m8n6a3r1",
+      "rewards": [
+        "recompensas: Repair Kit x5",
+        "recompensas: Wishing Star x3",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: materials",
+        "recompensas: stars",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "r7a5k2m8q9",
+      "rewards": [
+        "recompensas: Repair Kit x5",
+        "recompensas: Wishing Star x3",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: materials",
+        "recompensas: stars",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "p6n4m9q3a2",
+      "rewards": [
+        "recompensas: Repair Kit x5",
+        "recompensas: Wishing Star x3",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: materials",
+        "recompensas: stars",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "m5r9q2a7k8",
+      "rewards": [
+        "recompensas: Wishing Star x3",
+        "recompensas: Repair Kit x5",
+        "recompensas: Growth Booster x10"
+      ],
+      "rewardTypes": [
+        "recompensas: stars",
+        "recompensas: materials",
+        "recompensas: booster"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "lifewithline",
+      "rewards": [
+        "recompensas: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "recompensas: stars"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    },
+    {
+      "code": "dcthx4u",
+      "rewards": [
+        "recompensas: Wishing Star x10"
+      ],
+      "rewardTypes": [
+        "recompensas: stars"
+      ],
+      "note": "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas."
+    }
+  ],
+  "expiredArchive": [
+    {
+      "code": "keepsmiling2026",
+      "reportedReward": "recompensas: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopiaplaytime",
+      "reportedReward": "recompensas: Stone x10, Rare Timber x6, Flawless Fluorite x2",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "withu2026heartopia",
+      "reportedReward": "recompensas: Repair Kit x3, Gold x5,000, Mermaid Perfume x2",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "a4k9m7q2r6",
+      "reportedReward": "recompensas: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "l7m5q2r9a8",
+      "reportedReward": "recompensas: Wishing Star x5, Mermaid Fish Attractor x3, Fertilizer x10",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "sweetgift314u",
+      "reportedReward": "recompensas: Snowfeather Rose x5, Colorful Sparkler x2, Colorful Cold Firework x2",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "tangyuan0303y",
+      "reportedReward": "recompensas: Wishing Star x5, Apple x10, Fertilizer x10",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "38bloom2026",
+      "reportedReward": "recompensas: Mermaid Perfume x2, Egg x10, Gold x10,000",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia10m",
+      "reportedReward": "recompensas: Wishing Star x10",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "heartopia5m",
+      "reportedReward": "recompensas: Wishing Star x5-10",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "top1thanks",
+      "reportedReward": "recompensas: Wishing Star x5, Mermaid Perfume x2, Mandarin x10",
+      "expired": "Reportado como expirado: No longer listed in G2A June 2026 active list"
+    },
+    {
+      "code": "SPRINGFEST2026",
+      "reportedReward": "recompensas: 10 Moonlight Crystals",
+      "expired": "Reportado como expirado: March 2026"
+    },
+    {
+      "code": "happy2026",
+      "reportedReward": "recompensas: 10 Moonlight Crystals",
+      "expired": "Reportado como expirado: March 2026"
+    },
+    {
+      "code": "heartopia0108",
+      "reportedReward": "recompensas: 100 Moonlight Crystals",
+      "expired": "Reportado como expirado: February 7, 2026"
+    },
+    {
+      "code": "mylittlepony",
+      "reportedReward": "recompensas: 100 Moonlight Crystals",
+      "expired": "Reportado como expirado: February 7, 2026"
+    },
+    {
+      "code": "especialgift0103",
+      "reportedReward": "recompensas: 100 Moonlight Crystals",
+      "expired": "Reportado como expirado: February 7, 2026"
+    }
+  ]
 }

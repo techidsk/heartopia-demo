@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "Gardening Store",
+    "type": "ร้านค้า: seeds",
+    "owner": "Blanc",
+    "region": "แผนที่: Central Town",
+    "unlock": "Gardening Store จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "inventory": [
+      "รายการ: Tomato Seeds",
+      "รายการ: Potato Seeds",
+      "รายการ: Wheat Seeds",
+      "รายการ: Fertilizer",
+      "รายการ: Basic watering supplies"
+    ],
+    "notes": "Gardening Store เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "Furniture Workshop",
+    "type": "ร้านค้า: furniture",
+    "owner": "Bob",
+    "region": "แผนที่: Central Town",
+    "unlock": "Furniture Workshop จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "inventory": [
+      "รายการ: Starter furniture",
+      "รายการ: Tables",
+      "รายการ: Chairs",
+      "รายการ: Shelves",
+      "รายการ: Decor sets"
+    ],
+    "notes": "Furniture Workshop เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "Pet Shop",
+    "type": "ร้านค้า: pets",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "แผนที่: Central Town",
+    "unlock": "Pet Shop จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "inventory": [
+      "รายการ: Dog Food",
+      "รายการ: Cat-care items",
+      "รายการ: Pet adoption leads",
+      "รายการ: Pet care basics",
+      "รายการ: Birdwatching route notes"
+    ],
+    "notes": "Pet Shop เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "Clothing Store",
+    "type": "ร้านค้า: fashion",
+    "owner": "Dorothy",
+    "region": "แผนที่: Central Town",
+    "unlock": "Clothing Store จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "inventory": [
+      "รายการ: Outfits",
+      "รายการ: Cosmetic pieces",
+      "รายการ: Fashion route items",
+      "รายการ: Event outfit leads"
+    ],
+    "notes": "Clothing Store เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "Annie's Music Store",
+    "type": "ร้านค้า: music",
+    "owner": "Annie",
+    "region": "แผนที่: Central Town",
+    "unlock": "Annie's Music Store จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "inventory": [
+      "รายการ: Sheet music leads",
+      "รายการ: Music decor",
+      "รายการ: Instrument route notes",
+      "รายการ: Home ambiance items"
+    ],
+    "notes": "Annie's Music Store เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "Ka Ching's General Store",
+    "type": "ร้านค้า: general",
+    "owner": "Ka Ching",
+    "region": "แผนที่: Central Town",
+    "unlock": "Ka Ching's General Store จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "inventory": [
+      "รายการ: Inventory expansion",
+      "รายการ: Utility goods",
+      "รายการ: Storage route notes",
+      "รายการ: Errand supplies"
+    ],
+    "notes": "Ka Ching's General Store เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "Doris Weather Cart",
+    "type": "ร้านค้า: traveling",
+    "owner": "Doris",
+    "region": "แผนที่: Dynamic weather route",
+    "unlock": "Doris Weather Cart จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "inventory": [
+      "รายการ: Weather recipes",
+      "รายการ: Limited ingredients",
+      "รายการ: Cosmetics",
+      "รายการ: Furniture",
+      "รายการ: Event stock"
+    ],
+    "notes": "Doris Weather Cart เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "Sea Fishing Booth",
+    "type": "ร้านค้า: event",
+    "owner": "Bill",
+    "region": "แผนที่: Fishing Village",
+    "unlock": "Sea Fishing Booth จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
+    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "inventory": [
+      "รายการ: Sea fishing route",
+      "รายการ: Event fish notes",
+      "รายการ: Repair-kit reminders",
+      "รายการ: Coastal task handoffs"
+    ],
+    "notes": "Sea Fishing Booth เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+  }
+]

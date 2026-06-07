@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "id": "gardening-store",
+    "translationStatus": "translated",
+    "name": "Gardening Store",
+    "type": "상점: seeds",
+    "owner": "Blanc",
+    "region": "지도: Central Town",
+    "unlock": "Gardening Store은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
+    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "inventory": [
+      "항목: Tomato Seeds",
+      "항목: Potato Seeds",
+      "항목: Wheat Seeds",
+      "항목: Fertilizer",
+      "항목: Basic watering supplies"
+    ],
+    "notes": "Gardening Store은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+  },
+  {
+    "id": "furniture-workshop",
+    "translationStatus": "translated",
+    "name": "Furniture Workshop",
+    "type": "상점: furniture",
+    "owner": "Bob",
+    "region": "지도: Central Town",
+    "unlock": "Furniture Workshop은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
+    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "inventory": [
+      "항목: Starter furniture",
+      "항목: Tables",
+      "항목: Chairs",
+      "항목: Shelves",
+      "항목: Decor sets"
+    ],
+    "notes": "Furniture Workshop은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+  },
+  {
+    "id": "pet-shop",
+    "translationStatus": "translated",
+    "name": "Pet Shop",
+    "type": "상점: pets",
+    "owner": "Mrs. Joan and Bailey J",
+    "region": "지도: Central Town",
+    "unlock": "Pet Shop은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
+    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "inventory": [
+      "항목: Dog Food",
+      "항목: Cat-care items",
+      "항목: Pet adoption leads",
+      "항목: Pet care basics",
+      "항목: Birdwatching route notes"
+    ],
+    "notes": "Pet Shop은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+  },
+  {
+    "id": "clothing-store",
+    "translationStatus": "translated",
+    "name": "Clothing Store",
+    "type": "상점: fashion",
+    "owner": "Dorothy",
+    "region": "지도: Central Town",
+    "unlock": "Clothing Store은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
+    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "inventory": [
+      "항목: Outfits",
+      "항목: Cosmetic pieces",
+      "항목: Fashion route items",
+      "항목: Event outfit leads"
+    ],
+    "notes": "Clothing Store은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+  },
+  {
+    "id": "music-store",
+    "translationStatus": "translated",
+    "name": "Annie's Music Store",
+    "type": "상점: music",
+    "owner": "Annie",
+    "region": "지도: Central Town",
+    "unlock": "Annie's Music Store은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
+    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "inventory": [
+      "항목: Sheet music leads",
+      "항목: Music decor",
+      "항목: Instrument route notes",
+      "항목: Home ambiance items"
+    ],
+    "notes": "Annie's Music Store은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+  },
+  {
+    "id": "general-store",
+    "translationStatus": "translated",
+    "name": "Ka Ching's General Store",
+    "type": "상점: general",
+    "owner": "Ka Ching",
+    "region": "지도: Central Town",
+    "unlock": "Ka Ching's General Store은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
+    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "inventory": [
+      "항목: Inventory expansion",
+      "항목: Utility goods",
+      "항목: Storage route notes",
+      "항목: Errand supplies"
+    ],
+    "notes": "Ka Ching's General Store은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+  },
+  {
+    "id": "doris-weather-cart",
+    "translationStatus": "translated",
+    "name": "Doris Weather Cart",
+    "type": "상점: traveling",
+    "owner": "Doris",
+    "region": "지도: Dynamic weather route",
+    "unlock": "Doris Weather Cart은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
+    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "inventory": [
+      "항목: Weather recipes",
+      "항목: Limited ingredients",
+      "항목: Cosmetics",
+      "항목: Furniture",
+      "항목: Event stock"
+    ],
+    "notes": "Doris Weather Cart은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+  },
+  {
+    "id": "sea-fishing-booth",
+    "translationStatus": "translated",
+    "name": "Sea Fishing Booth",
+    "type": "상점: event",
+    "owner": "Bill",
+    "region": "지도: Fishing Village",
+    "unlock": "Sea Fishing Booth은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
+    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "inventory": [
+      "항목: Sea fishing route",
+      "항목: Event fish notes",
+      "항목: Repair-kit reminders",
+      "항목: Coastal task handoffs"
+    ],
+    "notes": "Sea Fishing Booth은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+  }
+]

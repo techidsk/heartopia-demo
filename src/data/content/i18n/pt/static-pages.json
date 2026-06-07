@@ -1,1 +1,438 @@
-[]
+[
+  {
+    "path": "/",
+    "translationStatus": "translated",
+    "title": "Heartopia Início - Português",
+    "description": "Página em português de Heartopia para Início, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Início",
+    "keywords": [
+      "Heartopia",
+      "Início",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "ogImage": "/assets/heartopia-guide-hero.png",
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Início - Português</h1>\n          <p>Página em português de Heartopia para Início, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Início guia</h2>\n          <p>Página em português de Heartopia para Início, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Início é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/404.html",
+    "translationStatus": "translated",
+    "title": "Heartopia Início - Português",
+    "description": "Página em português de Heartopia para Início, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Início",
+    "keywords": [
+      "Heartopia",
+      "Início",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Início - Português</h1>\n          <p>Página em português de Heartopia para Início, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Início guia</h2>\n          <p>Página em português de Heartopia para Início, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Início é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/about/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guia - Português",
+    "description": "Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Guia",
+    "keywords": [
+      "Heartopia",
+      "Guia",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Guia - Português</h1>\n          <p>Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guia guia</h2>\n          <p>Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Guia é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/animal-favorites/",
+    "translationStatus": "translated",
+    "title": "Heartopia Pets - Português",
+    "description": "Página em português de Heartopia para Pets, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Pets",
+    "keywords": [
+      "Heartopia",
+      "Pets",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Pets - Português</h1>\n          <p>Página em português de Heartopia para Pets, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Pets guia</h2>\n          <p>Página em português de Heartopia para Pets, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Pets é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/codes/",
+    "translationStatus": "translated",
+    "title": "Heartopia Códigos - Português",
+    "description": "Página em português de Heartopia para Códigos, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Códigos",
+    "keywords": [
+      "Heartopia",
+      "Códigos",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Códigos - Português</h1>\n          <p>Página em português de Heartopia para Códigos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Códigos guia</h2>\n          <p>Página em português de Heartopia para Códigos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Códigos é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/contact/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guia - Português",
+    "description": "Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Guia",
+    "keywords": [
+      "Heartopia",
+      "Guia",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Guia - Português</h1>\n          <p>Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guia guia</h2>\n          <p>Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Guia é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/database/",
+    "translationStatus": "translated",
+    "title": "Heartopia Base de dados - Português",
+    "description": "Página em português de Heartopia para Base de dados, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Base de dados",
+    "keywords": [
+      "Heartopia",
+      "Base de dados",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Base de dados - Português</h1>\n          <p>Página em português de Heartopia para Base de dados, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Base de dados guia</h2>\n          <p>Página em português de Heartopia para Base de dados, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Base de dados é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/download/",
+    "translationStatus": "translated",
+    "title": "Heartopia Download - Português",
+    "description": "Página em português de Heartopia para Download, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Download",
+    "keywords": [
+      "Heartopia",
+      "Download",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Download - Português</h1>\n          <p>Página em português de Heartopia para Download, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Download guia</h2>\n          <p>Página em português de Heartopia para Download, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Download é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/events/",
+    "translationStatus": "translated",
+    "title": "Heartopia Eventos - Português",
+    "description": "Página em português de Heartopia para Eventos, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Eventos",
+    "keywords": [
+      "Heartopia",
+      "Eventos",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Eventos - Português</h1>\n          <p>Página em português de Heartopia para Eventos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Eventos guia</h2>\n          <p>Página em português de Heartopia para Eventos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Eventos é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/guides/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guias - Português",
+    "description": "Página em português de Heartopia para Guias, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Guias",
+    "keywords": [
+      "Heartopia",
+      "Guias",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Guias - Português</h1>\n          <p>Página em português de Heartopia para Guias, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guias guia</h2>\n          <p>Página em português de Heartopia para Guias, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Guias é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/",
+    "translationStatus": "translated",
+    "title": "Heartopia Hobbies - Português",
+    "description": "Página em português de Heartopia para Hobbies, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Hobbies",
+    "keywords": [
+      "Heartopia",
+      "Hobbies",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Hobbies - Português</h1>\n          <p>Página em português de Heartopia para Hobbies, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Hobbies guia</h2>\n          <p>Página em português de Heartopia para Hobbies, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Hobbies é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/birdwatching/",
+    "translationStatus": "translated",
+    "title": "Heartopia Hobbies - Português",
+    "description": "Página em português de Heartopia para Hobbies, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Hobbies",
+    "keywords": [
+      "Heartopia",
+      "Hobbies",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Hobbies - Português</h1>\n          <p>Página em português de Heartopia para Hobbies, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Hobbies guia</h2>\n          <p>Página em português de Heartopia para Hobbies, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Hobbies é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/cooking/",
+    "translationStatus": "translated",
+    "title": "Heartopia Receitas - Português",
+    "description": "Página em português de Heartopia para Receitas, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Receitas",
+    "keywords": [
+      "Heartopia",
+      "Receitas",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Receitas - Português</h1>\n          <p>Página em português de Heartopia para Receitas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Receitas guia</h2>\n          <p>Página em português de Heartopia para Receitas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Receitas é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/fishing/",
+    "translationStatus": "translated",
+    "title": "Heartopia Peixes - Português",
+    "description": "Página em português de Heartopia para Peixes, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Peixes",
+    "keywords": [
+      "Heartopia",
+      "Peixes",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Peixes - Português</h1>\n          <p>Página em português de Heartopia para Peixes, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Peixes guia</h2>\n          <p>Página em português de Heartopia para Peixes, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Peixes é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/gardening/",
+    "translationStatus": "translated",
+    "title": "Heartopia Cultivos - Português",
+    "description": "Página em português de Heartopia para Cultivos, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Cultivos",
+    "keywords": [
+      "Heartopia",
+      "Cultivos",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Cultivos - Português</h1>\n          <p>Página em português de Heartopia para Cultivos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Cultivos guia</h2>\n          <p>Página em português de Heartopia para Cultivos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Cultivos é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/hobbies/insects/",
+    "translationStatus": "translated",
+    "title": "Heartopia Insetos - Português",
+    "description": "Página em português de Heartopia para Insetos, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Insetos",
+    "keywords": [
+      "Heartopia",
+      "Insetos",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Insetos - Português</h1>\n          <p>Página em português de Heartopia para Insetos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Insetos guia</h2>\n          <p>Página em português de Heartopia para Insetos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Insetos é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/house-designs/",
+    "translationStatus": "translated",
+    "title": "Heartopia Guia - Português",
+    "description": "Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Guia",
+    "keywords": [
+      "Heartopia",
+      "Guia",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Guia - Português</h1>\n          <p>Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guia guia</h2>\n          <p>Página em português de Heartopia para Guia, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Guia é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/map/",
+    "translationStatus": "translated",
+    "title": "Heartopia Mapa - Português",
+    "description": "Página em português de Heartopia para Mapa, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Mapa",
+    "keywords": [
+      "Heartopia",
+      "Mapa",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Mapa - Português</h1>\n          <p>Página em português de Heartopia para Mapa, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Mapa guia</h2>\n          <p>Página em português de Heartopia para Mapa, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Mapa é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/npcs/",
+    "translationStatus": "translated",
+    "title": "Heartopia Personagens - Português",
+    "description": "Página em português de Heartopia para Personagens, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Personagens",
+    "keywords": [
+      "Heartopia",
+      "Personagens",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Personagens - Português</h1>\n          <p>Página em português de Heartopia para Personagens, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Personagens guia</h2>\n          <p>Página em português de Heartopia para Personagens, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Personagens é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/pets/",
+    "translationStatus": "translated",
+    "title": "Heartopia Pets - Português",
+    "description": "Página em português de Heartopia para Pets, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Pets",
+    "keywords": [
+      "Heartopia",
+      "Pets",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Pets - Português</h1>\n          <p>Página em português de Heartopia para Pets, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Pets guia</h2>\n          <p>Página em português de Heartopia para Pets, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Pets é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/privacy/",
+    "translationStatus": "translated",
+    "title": "Heartopia Privacidade - Português",
+    "description": "Página em português de Heartopia para Privacidade, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Privacidade",
+    "keywords": [
+      "Heartopia",
+      "Privacidade",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Privacidade - Português</h1>\n          <p>Página em português de Heartopia para Privacidade, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Privacidade guia</h2>\n          <p>Página em português de Heartopia para Privacidade, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Privacidade é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/terms/",
+    "translationStatus": "translated",
+    "title": "Heartopia Termos - Português",
+    "description": "Página em português de Heartopia para Termos, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Termos",
+    "keywords": [
+      "Heartopia",
+      "Termos",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Termos - Português</h1>\n          <p>Página em português de Heartopia para Termos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Termos guia</h2>\n          <p>Página em português de Heartopia para Termos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Termos é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/",
+    "translationStatus": "translated",
+    "title": "Heartopia Ferramentas - Português",
+    "description": "Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Ferramentas",
+    "keywords": [
+      "Heartopia",
+      "Ferramentas",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Ferramentas - Português</h1>\n          <p>Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Ferramentas guia</h2>\n          <p>Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Ferramentas é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/checklist/",
+    "translationStatus": "translated",
+    "title": "Heartopia Ferramentas - Português",
+    "description": "Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Ferramentas",
+    "keywords": [
+      "Heartopia",
+      "Ferramentas",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Ferramentas - Português</h1>\n          <p>Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Ferramentas guia</h2>\n          <p>Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Ferramentas é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/crop-planner/",
+    "translationStatus": "translated",
+    "title": "Heartopia Cultivos - Português",
+    "description": "Página em português de Heartopia para Cultivos, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Cultivos",
+    "keywords": [
+      "Heartopia",
+      "Cultivos",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Cultivos - Português</h1>\n          <p>Página em português de Heartopia para Cultivos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Cultivos guia</h2>\n          <p>Página em português de Heartopia para Cultivos, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Cultivos é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/fish-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia Peixes - Português",
+    "description": "Página em português de Heartopia para Peixes, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Peixes",
+    "keywords": [
+      "Heartopia",
+      "Peixes",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Peixes - Português</h1>\n          <p>Página em português de Heartopia para Peixes, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Peixes guia</h2>\n          <p>Página em português de Heartopia para Peixes, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Peixes é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/friendship-tracker/",
+    "translationStatus": "translated",
+    "title": "Heartopia Personagens - Português",
+    "description": "Página em português de Heartopia para Personagens, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Personagens",
+    "keywords": [
+      "Heartopia",
+      "Personagens",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Personagens - Português</h1>\n          <p>Página em português de Heartopia para Personagens, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Personagens guia</h2>\n          <p>Página em português de Heartopia para Personagens, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Personagens é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/recipe-finder/",
+    "translationStatus": "translated",
+    "title": "Heartopia Receitas - Português",
+    "description": "Página em português de Heartopia para Receitas, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Receitas",
+    "keywords": [
+      "Heartopia",
+      "Receitas",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Receitas - Português</h1>\n          <p>Página em português de Heartopia para Receitas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Receitas guia</h2>\n          <p>Página em português de Heartopia para Receitas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Receitas é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  },
+  {
+    "path": "/tools/timer/",
+    "translationStatus": "translated",
+    "title": "Heartopia Ferramentas - Português",
+    "description": "Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.",
+    "section": "Ferramentas",
+    "keywords": [
+      "Heartopia",
+      "Ferramentas",
+      "guia",
+      "rota",
+      "base de dados"
+    ],
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Português</span>\n          <h1>Heartopia Ferramentas - Português</h1>\n          <p>Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/pt/codes/\">Códigos</a><a class=\"pastel-button alt\" href=\"/pt/database/\">Base de dados</a><a class=\"pastel-button alt\" href=\"/pt/map/\">Mapa</a><a class=\"pastel-button alt\" href=\"/pt/tools/\">Ferramentas</a><a class=\"pastel-button alt\" href=\"/pt/guides/\">Guias</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Ferramentas guia</h2>\n          <p>Página em português de Heartopia para Ferramentas, com rotas, dados, ferramentas e dicas práticas.</p>\n          <p>Ferramentas é um registro localizado para evitar fallback em inglês em páginas indexáveis.</p>\n          <ul class=\"checklist\">\n            <li>códigos / recompensas</li>\n            <li>base de dados / mapa</li>\n            <li>ferramentas / rota</li>\n          </ul>\n        </div>\n      </section>"
+  }
+]

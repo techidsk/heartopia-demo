@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "wels-catfish",
+    "translationStatus": "translated",
+    "name": "Wels Catfish",
+    "spot": "peta: Meadow Lake",
+    "condition": "Gunakan Wels Catfish untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 1",
+    "use": "Wels Catfish sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "goldfish",
+    "translationStatus": "translated",
+    "name": "Goldfish",
+    "spot": "peta: Meadow Lake",
+    "condition": "Gunakan Goldfish untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 1",
+    "use": "Goldfish sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "arctic-char",
+    "translationStatus": "translated",
+    "name": "Arctic Char",
+    "spot": "peta: Forest Lake",
+    "condition": "Gunakan Arctic Char untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 2",
+    "use": "Arctic Char sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "giant-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Giant Pearl Mussel",
+    "spot": "peta: Forest Lake",
+    "condition": "Gunakan Giant Pearl Mussel untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 2",
+    "use": "Giant Pearl Mussel sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "largemouth-bass",
+    "translationStatus": "translated",
+    "name": "Largemouth Bass",
+    "spot": "peta: Forest Lake",
+    "condition": "Gunakan Largemouth Bass untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 2",
+    "use": "Largemouth Bass sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "common-whitefish",
+    "translationStatus": "translated",
+    "name": "Common Whitefish",
+    "spot": "peta: Onsen Mountain Lake",
+    "condition": "Gunakan Common Whitefish untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 3",
+    "use": "Common Whitefish sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "ruffe",
+    "translationStatus": "translated",
+    "name": "Ruffe",
+    "spot": "peta: Onsen Mountain Lake",
+    "condition": "Gunakan Ruffe untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 3",
+    "use": "Ruffe sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "crucian-carp",
+    "translationStatus": "translated",
+    "name": "Crucian Carp",
+    "spot": "peta: Spring Lake",
+    "condition": "Gunakan Crucian Carp untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 3",
+    "use": "Crucian Carp sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "huchen",
+    "translationStatus": "translated",
+    "name": "Huchen",
+    "spot": "peta: Giantwood River",
+    "condition": "Gunakan Huchen untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 9",
+    "use": "Huchen sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "burbot",
+    "translationStatus": "translated",
+    "name": "Burbot",
+    "spot": "peta: Tranquil River",
+    "condition": "Gunakan Burbot untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 4",
+    "use": "Burbot sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "beltfish",
+    "translationStatus": "translated",
+    "name": "Beltfish",
+    "spot": "peta: Zephyr Sea",
+    "condition": "Gunakan Beltfish untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 4",
+    "use": "Beltfish sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "atlantic-pygmy-octopus",
+    "translationStatus": "translated",
+    "name": "Atlantic Pygmy Octopus",
+    "spot": "peta: Zephyr Sea",
+    "condition": "Gunakan Atlantic Pygmy Octopus untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 4",
+    "use": "Atlantic Pygmy Octopus sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "atlantic-salmon",
+    "translationStatus": "translated",
+    "name": "Atlantic Salmon",
+    "spot": "peta: Whale Sea",
+    "condition": "Gunakan Atlantic Salmon untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 7",
+    "use": "Atlantic Salmon sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "swordfish",
+    "translationStatus": "translated",
+    "name": "Swordfish",
+    "spot": "peta: Whale Sea",
+    "condition": "Gunakan Swordfish untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 10",
+    "use": "Swordfish sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "rainbow-fish",
+    "translationStatus": "translated",
+    "name": "Rainbow Fish",
+    "spot": "peta: Starlight Sea",
+    "condition": "Gunakan Rainbow Fish untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 8",
+    "use": "Rainbow Fish sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "koi",
+    "translationStatus": "translated",
+    "name": "Koi",
+    "spot": "peta: Secret Pond",
+    "condition": "Gunakan Koi untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 5",
+    "use": "Koi sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "golden-king-crab",
+    "translationStatus": "translated",
+    "name": "Golden King Crab",
+    "spot": "peta: Sea Fishing",
+    "condition": "Gunakan Golden King Crab untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Event",
+    "use": "Golden King Crab sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "bluefin-tuna",
+    "translationStatus": "translated",
+    "name": "Bluefin Tuna",
+    "spot": "peta: Old Sea",
+    "condition": "Gunakan Bluefin Tuna untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 10",
+    "use": "Bluefin Tuna sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "smooth-hammerhead",
+    "translationStatus": "translated",
+    "name": "Smooth Hammerhead",
+    "spot": "peta: Deep Sea",
+    "condition": "Gunakan Smooth Hammerhead untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 10",
+    "use": "Smooth Hammerhead sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "european-eel",
+    "translationStatus": "translated",
+    "name": "European Eel",
+    "spot": "peta: Old Sea",
+    "condition": "Gunakan European Eel untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 7",
+    "use": "European Eel sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "butterfly-koi",
+    "translationStatus": "translated",
+    "name": "Butterfly Koi",
+    "spot": "peta: Secret Pond",
+    "condition": "Gunakan Butterfly Koi untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 6",
+    "use": "Butterfly Koi sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "large-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Large Pearl Mussel",
+    "spot": "peta: Forest Lake",
+    "condition": "Gunakan Large Pearl Mussel untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 5",
+    "use": "Large Pearl Mussel sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "rainbow-trout",
+    "translationStatus": "translated",
+    "name": "Rainbow Trout",
+    "spot": "peta: Giantwood River",
+    "condition": "Gunakan Rainbow Trout untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 6",
+    "use": "Rainbow Trout sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  },
+  {
+    "id": "sea-bream",
+    "translationStatus": "translated",
+    "name": "Sea Bream",
+    "spot": "peta: Fishing Village",
+    "condition": "Gunakan Sea Bream untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "diperiksa: rute",
+    "level": "Lv 1",
+    "use": "Sea Bream sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+  }
+]

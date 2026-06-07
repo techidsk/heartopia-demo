@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "blanc",
+    "translationStatus": "translated",
+    "name": "Blanc",
+    "group": "데이터베이스: mentor",
+    "role": "가이드: Gardening mentor",
+    "location": "지도: Garden Shop / Central Town",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Fresh crop",
+      "보상: Flower",
+      "보상: Simple cooked dish"
+    ],
+    "nameZh": "布蘭克",
+    "profile": "Blanc은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "bob",
+    "translationStatus": "translated",
+    "name": "Bob",
+    "group": "데이터베이스: shopkeeper",
+    "role": "가이드: Furniture workshop owner",
+    "location": "지도: Central Town",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Wood decor",
+      "보상: House material",
+      "보상: Simple dish"
+    ]
+  },
+  {
+    "id": "dorothy",
+    "translationStatus": "translated",
+    "name": "Dorothy",
+    "group": "데이터베이스: shopkeeper",
+    "role": "가이드: Clothing store owner",
+    "location": "지도: Central Town",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Fashion item",
+      "보상: Flower",
+      "보상: Dessert"
+    ]
+  },
+  {
+    "id": "mrs-joan",
+    "translationStatus": "translated",
+    "name": "Mrs. Joan",
+    "group": "데이터베이스: mentor",
+    "role": "가이드: Pet care mentor",
+    "location": "지도: Pet Shop",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Dog Food",
+      "보상: Pet-care item",
+      "보상: Cooked dish"
+    ]
+  },
+  {
+    "id": "doris",
+    "translationStatus": "translated",
+    "name": "Doris",
+    "group": "데이터베이스: dynamic",
+    "role": "가이드: Weather merchant",
+    "location": "지도: Dynamic weather route",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Weather item",
+      "보상: Colorful flower",
+      "보상: Rare dish"
+    ]
+  },
+  {
+    "id": "bill",
+    "translationStatus": "translated",
+    "name": "Bill",
+    "group": "데이터베이스: event",
+    "role": "가이드: Sea Fishing event mentor",
+    "location": "지도: Fishing Village",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Fish",
+      "보상: Repair Kit",
+      "보상: Seafood dish"
+    ]
+  },
+  {
+    "id": "albert-ii",
+    "translationStatus": "translated",
+    "name": "Albert II",
+    "group": "데이터베이스: featured",
+    "role": "가이드: Featured town character",
+    "location": "지도: Heartopia town route",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Favorite gift pending",
+      "보상: Liked gift pending",
+      "보상: Talk route"
+    ],
+    "nameZh": "阿爾伯特二世",
+    "profile": "Albert II은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "ka-ching",
+    "translationStatus": "translated",
+    "name": "Ka Ching",
+    "group": "데이터베이스: shopkeeper",
+    "role": "가이드: General store owner",
+    "location": "지도: Central Town",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Utility item",
+      "보상: Simple dish",
+      "보상: Favorite gift pending"
+    ],
+    "nameZh": "卡清",
+    "profile": "Ka Ching은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "annie",
+    "translationStatus": "translated",
+    "name": "Annie",
+    "group": "데이터베이스: shopkeeper",
+    "role": "가이드: Music store owner",
+    "location": "지도: Central Town",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Music decor",
+      "보상: Dessert",
+      "보상: Favorite gift pending"
+    ],
+    "nameZh": "安妮",
+    "profile": "Annie은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  },
+  {
+    "id": "vania",
+    "translationStatus": "translated",
+    "name": "Vania",
+    "group": "데이터베이스: featured",
+    "role": "가이드: Featured town character",
+    "location": "지도: Heartopia town route",
+    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "gifts": [
+      "보상: Favorite gift pending",
+      "보상: Liked gift pending",
+      "보상: Talk route"
+    ],
+    "nameZh": "萬尼亞",
+    "profile": "Vania은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.",
+    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+  }
+]

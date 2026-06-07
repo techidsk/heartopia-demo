@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "id": "wels-catfish",
+    "translationStatus": "translated",
+    "name": "Wels Catfish",
+    "spot": "แผนที่: Meadow Lake",
+    "condition": "ใช้ Wels Catfish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 1",
+    "use": "Wels Catfish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "goldfish",
+    "translationStatus": "translated",
+    "name": "Goldfish",
+    "spot": "แผนที่: Meadow Lake",
+    "condition": "ใช้ Goldfish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 1",
+    "use": "Goldfish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "arctic-char",
+    "translationStatus": "translated",
+    "name": "Arctic Char",
+    "spot": "แผนที่: Forest Lake",
+    "condition": "ใช้ Arctic Char เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 2",
+    "use": "Arctic Char เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "giant-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Giant Pearl Mussel",
+    "spot": "แผนที่: Forest Lake",
+    "condition": "ใช้ Giant Pearl Mussel เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 2",
+    "use": "Giant Pearl Mussel เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "largemouth-bass",
+    "translationStatus": "translated",
+    "name": "Largemouth Bass",
+    "spot": "แผนที่: Forest Lake",
+    "condition": "ใช้ Largemouth Bass เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 2",
+    "use": "Largemouth Bass เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "common-whitefish",
+    "translationStatus": "translated",
+    "name": "Common Whitefish",
+    "spot": "แผนที่: Onsen Mountain Lake",
+    "condition": "ใช้ Common Whitefish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 3",
+    "use": "Common Whitefish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "ruffe",
+    "translationStatus": "translated",
+    "name": "Ruffe",
+    "spot": "แผนที่: Onsen Mountain Lake",
+    "condition": "ใช้ Ruffe เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 3",
+    "use": "Ruffe เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "crucian-carp",
+    "translationStatus": "translated",
+    "name": "Crucian Carp",
+    "spot": "แผนที่: Spring Lake",
+    "condition": "ใช้ Crucian Carp เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 3",
+    "use": "Crucian Carp เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "huchen",
+    "translationStatus": "translated",
+    "name": "Huchen",
+    "spot": "แผนที่: Giantwood River",
+    "condition": "ใช้ Huchen เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 9",
+    "use": "Huchen เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "burbot",
+    "translationStatus": "translated",
+    "name": "Burbot",
+    "spot": "แผนที่: Tranquil River",
+    "condition": "ใช้ Burbot เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 4",
+    "use": "Burbot เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "beltfish",
+    "translationStatus": "translated",
+    "name": "Beltfish",
+    "spot": "แผนที่: Zephyr Sea",
+    "condition": "ใช้ Beltfish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 4",
+    "use": "Beltfish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "atlantic-pygmy-octopus",
+    "translationStatus": "translated",
+    "name": "Atlantic Pygmy Octopus",
+    "spot": "แผนที่: Zephyr Sea",
+    "condition": "ใช้ Atlantic Pygmy Octopus เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 4",
+    "use": "Atlantic Pygmy Octopus เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "atlantic-salmon",
+    "translationStatus": "translated",
+    "name": "Atlantic Salmon",
+    "spot": "แผนที่: Whale Sea",
+    "condition": "ใช้ Atlantic Salmon เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 7",
+    "use": "Atlantic Salmon เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "swordfish",
+    "translationStatus": "translated",
+    "name": "Swordfish",
+    "spot": "แผนที่: Whale Sea",
+    "condition": "ใช้ Swordfish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 10",
+    "use": "Swordfish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "rainbow-fish",
+    "translationStatus": "translated",
+    "name": "Rainbow Fish",
+    "spot": "แผนที่: Starlight Sea",
+    "condition": "ใช้ Rainbow Fish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 8",
+    "use": "Rainbow Fish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "koi",
+    "translationStatus": "translated",
+    "name": "Koi",
+    "spot": "แผนที่: Secret Pond",
+    "condition": "ใช้ Koi เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 5",
+    "use": "Koi เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "golden-king-crab",
+    "translationStatus": "translated",
+    "name": "Golden King Crab",
+    "spot": "แผนที่: Sea Fishing",
+    "condition": "ใช้ Golden King Crab เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Event",
+    "use": "Golden King Crab เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "bluefin-tuna",
+    "translationStatus": "translated",
+    "name": "Bluefin Tuna",
+    "spot": "แผนที่: Old Sea",
+    "condition": "ใช้ Bluefin Tuna เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 10",
+    "use": "Bluefin Tuna เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "smooth-hammerhead",
+    "translationStatus": "translated",
+    "name": "Smooth Hammerhead",
+    "spot": "แผนที่: Deep Sea",
+    "condition": "ใช้ Smooth Hammerhead เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 10",
+    "use": "Smooth Hammerhead เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "european-eel",
+    "translationStatus": "translated",
+    "name": "European Eel",
+    "spot": "แผนที่: Old Sea",
+    "condition": "ใช้ European Eel เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 7",
+    "use": "European Eel เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "butterfly-koi",
+    "translationStatus": "translated",
+    "name": "Butterfly Koi",
+    "spot": "แผนที่: Secret Pond",
+    "condition": "ใช้ Butterfly Koi เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 6",
+    "use": "Butterfly Koi เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "large-pearl-mussel",
+    "translationStatus": "translated",
+    "name": "Large Pearl Mussel",
+    "spot": "แผนที่: Forest Lake",
+    "condition": "ใช้ Large Pearl Mussel เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 5",
+    "use": "Large Pearl Mussel เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "rainbow-trout",
+    "translationStatus": "translated",
+    "name": "Rainbow Trout",
+    "spot": "แผนที่: Giantwood River",
+    "condition": "ใช้ Rainbow Trout เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 6",
+    "use": "Rainbow Trout เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  },
+  {
+    "id": "sea-bream",
+    "translationStatus": "translated",
+    "name": "Sea Bream",
+    "spot": "แผนที่: Fishing Village",
+    "condition": "ใช้ Sea Bream เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "ตรวจแล้ว: เส้นทาง",
+    "level": "Lv 1",
+    "use": "Sea Bream เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+  }
+]

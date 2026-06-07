@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "ガイド: core",
+    "summary": "Fishing はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "ガイド: core",
+    "summary": "Gardening はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "ガイド: core",
+    "summary": "Cooking はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "ガイド: nature",
+    "summary": "Birdwatching はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "ガイド: nature",
+    "summary": "Insect Catching はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "ガイド: care",
+    "summary": "Cat Care はルート計画、収集、確認に使える日本語の早見データです。"
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "ガイド: care",
+    "summary": "Dog Care はルート計画、収集、確認に使える日本語の早見データです。"
+  }
+]

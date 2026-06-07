@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "fishing",
+    "translationStatus": "translated",
+    "name": "Fishing",
+    "group": "гайд: core",
+    "summary": "Fishing как быстрая русская справка для маршрута, планирования и коллекции."
+  },
+  {
+    "id": "gardening",
+    "translationStatus": "translated",
+    "name": "Gardening",
+    "group": "гайд: core",
+    "summary": "Gardening как быстрая русская справка для маршрута, планирования и коллекции."
+  },
+  {
+    "id": "cooking",
+    "translationStatus": "translated",
+    "name": "Cooking",
+    "group": "гайд: core",
+    "summary": "Cooking как быстрая русская справка для маршрута, планирования и коллекции."
+  },
+  {
+    "id": "birdwatching",
+    "translationStatus": "translated",
+    "name": "Birdwatching",
+    "group": "гайд: nature",
+    "summary": "Birdwatching как быстрая русская справка для маршрута, планирования и коллекции."
+  },
+  {
+    "id": "insects",
+    "translationStatus": "translated",
+    "name": "Insect Catching",
+    "group": "гайд: nature",
+    "summary": "Insect Catching как быстрая русская справка для маршрута, планирования и коллекции."
+  },
+  {
+    "id": "cat-care",
+    "translationStatus": "translated",
+    "name": "Cat Care",
+    "group": "гайд: care",
+    "summary": "Cat Care как быстрая русская справка для маршрута, планирования и коллекции."
+  },
+  {
+    "id": "dog-care",
+    "translationStatus": "translated",
+    "name": "Dog Care",
+    "group": "гайд: care",
+    "summary": "Dog Care как быстрая русская справка для маршрута, планирования и коллекции."
+  }
+]
