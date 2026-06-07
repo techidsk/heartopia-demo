@@ -40,7 +40,15 @@ const artifactChecks = [
   { path: "/sitemap.xml", includes: ["<urlset", "xmlns:image", "<image:image>", `${siteOrigin}/fish/`] },
   { path: "/feed.xml", includes: ["<rss", "<channel>", "<language>en</language>", "<atom:link"] },
   { path: "/search-index.json", json: true },
-  { path: "/robots.txt", includes: [`Sitemap: ${siteOrigin}/sitemap.xml`, "Disallow: /search-index.json"] },
+  {
+    path: "/robots.txt",
+    includes: [
+      "User-agent: Mediapartners-Google",
+      "User-agent: Google-Display-Ads-Bot",
+      `Sitemap: ${siteOrigin}/sitemap.xml`,
+      "Disallow: /search-index.json"
+    ]
+  },
   { path: "/opensearch.xml", includes: ["OpenSearchDescription", `${siteOrigin}/search/?q={searchTerms}`] },
   { path: "/llms.txt", includes: ["# Heartopia Hub", `${siteOrigin}/sitemap.xml`] },
   { path: "/ads.txt", includes: [adsTxtLine] }
@@ -109,6 +117,7 @@ for (const filePath of htmlFiles) {
     ["<title>", /<title>[^<]+<\/title>/i],
     ["meta description", /<meta\s+name=["']description["']\s+content=["'][^"']+["']/i],
     ["application-name", /<meta\s+name=["']application-name["']\s+content=["'][^"']+["']/i],
+    ["google-adsense-account", new RegExp(`<meta\\s+name=["']google-adsense-account["']\\s+content=["']${adsenseClient}["']`, "i")],
     ["main landmark", /<main\b/i],
     ["robots", /<meta\s+name=["']robots["']\s+content=["'][^"']+["']/i],
     ["opensearch", /<link\s+rel=["']search["'][^>]+opensearchdescription\+xml/i],

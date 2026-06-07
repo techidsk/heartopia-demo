@@ -14,6 +14,9 @@ Allow: /
 User-agent: AdsBot-Google
 Allow: /
 
+User-agent: Google-Display-Ads-Bot
+Allow: /
+
 User-agent: *
 Allow: /
 Disallow: /search-index.json
