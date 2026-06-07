@@ -12,9 +12,12 @@ const staticPagesPath = path.join(rootDir, "src", "data", "staticPages.ts");
 const sitemapPath = path.join(rootDir, "src", "pages", "sitemap.xml.ts");
 const searchIndexPath = path.join(rootDir, "src", "pages", "search-index.json.ts");
 const staticPagesJsonPath = path.join(rootDir, "src", "data", "content", "static-pages.json");
+const contentDir = path.join(rootDir, "src", "data", "content");
 const staticPagesI18nDir = path.join(rootDir, "src", "data", "content", "i18n");
 const localizedIndexPath = path.join(rootDir, "src", "pages", "[locale]", "index.astro");
 const localizedSlugPath = path.join(rootDir, "src", "pages", "[locale]", "[...slug].astro");
+const dataOverlayFiles = ["fish", "shops", "crops", "gardening", "insects", "recipes", "events", "npcs", "pets", "hobbies", "tools"];
+const codesSections = ["activeCandidates", "expiredArchive"];
 
 const failures = [];
 const readText = (filePath) => fs.readFile(filePath, "utf8");
@@ -110,9 +113,18 @@ for (const [filePath, artifact] of [
 
 const defaultStaticPages = JSON.parse(await readText(staticPagesJsonPath));
 const defaultStaticPagePaths = new Set(defaultStaticPages.map((page) => page.path));
+const sourceDataByName = Object.fromEntries(
+  await Promise.all(dataOverlayFiles.map(async (name) => [name, JSON.parse(await readText(path.join(contentDir, `${name}.json`)))]))
+);
+const sourceDataIdsByName = Object.fromEntries(
+  Object.entries(sourceDataByName).map(([name, rows]) => [name, new Set(rows.map((row) => row.id))])
+);
+const sourceCodes = JSON.parse(await readText(path.join(contentDir, "codes.json")));
+
 try {
   const localeDirs = await fs.readdir(staticPagesI18nDir);
   const translatedLocales = new Set();
+  const localeCoverage = new Map();
   for (const locale of localeDirs) {
     const localeDir = path.join(staticPagesI18nDir, locale);
     const stat = await fs.stat(localeDir);
@@ -123,6 +135,12 @@ try {
     }
     if (locale === defaultLocale) failures.push(`src/data/content/i18n/${locale}: default locale should use static-pages.json directly`);
     translatedLocales.add(locale);
+    const coverage = {
+      translatedStaticPaths: new Set(),
+      translatedDataIdsByName: Object.fromEntries(dataOverlayFiles.map((name) => [name, new Set()])),
+      localizedCodeValuesBySection: Object.fromEntries(codesSections.map((name) => [name, new Set()]))
+    };
+    localeCoverage.set(locale, coverage);
 
     const overlayPath = path.join(localeDir, "static-pages.json");
     let overlayPages = [];
@@ -143,6 +161,7 @@ try {
       if (!defaultStaticPagePaths.has(page.path)) failures.push(`${label}: path '${page.path}' does not exist in default static pages`);
       if (seenPaths.has(page.path)) failures.push(`${label}: duplicate translation path '${page.path}'`);
       seenPaths.add(page.path);
+      if (page.translationStatus !== "draft") coverage.translatedStaticPaths.add(page.path);
       for (const key of ["title", "description", "section", "content"]) {
         if (typeof page[key] !== "string" || !page[key].trim()) failures.push(`${label}: ${key} must be a non-empty string`);
       }
@@ -151,12 +170,87 @@ try {
         failures.push(`${label}: translationStatus must be translated or draft`);
       }
     }
+
+    for (const dataSet of dataOverlayFiles) {
+      const dataOverlayPath = path.join(localeDir, "data", `${dataSet}.json`);
+      let rows = [];
+      try {
+        rows = JSON.parse(await readText(dataOverlayPath));
+      } catch {
+        failures.push(`src/data/content/i18n/${locale}/data/${dataSet}.json: missing or invalid JSON`);
+        continue;
+      }
+      if (!Array.isArray(rows)) {
+        failures.push(`src/data/content/i18n/${locale}/data/${dataSet}.json: expected an array`);
+        continue;
+      }
+      const sourceIds = sourceDataIdsByName[dataSet];
+      const seenIds = new Set();
+      for (const [index, row] of rows.entries()) {
+        const label = `src/data/content/i18n/${locale}/data/${dataSet}.json[${index}]`;
+        if (!row.id || typeof row.id !== "string") {
+          failures.push(`${label}: id must be a string`);
+          continue;
+        }
+        if (!sourceIds.has(row.id)) failures.push(`${label}: id '${row.id}' does not exist in default ${dataSet}.json`);
+        if (seenIds.has(row.id)) failures.push(`${label}: duplicate translation id '${row.id}'`);
+        seenIds.add(row.id);
+        if (row.translationStatus && !["translated", "draft"].includes(row.translationStatus)) {
+          failures.push(`${label}: translationStatus must be translated or draft`);
+        }
+        if (row.translationStatus !== "draft") coverage.translatedDataIdsByName[dataSet].add(row.id);
+      }
+    }
+
+    const codesOverlayPath = path.join(localeDir, "data", "codes.json");
+    let codesOverlay;
+    try {
+      codesOverlay = JSON.parse(await readText(codesOverlayPath));
+    } catch {
+      failures.push(`src/data/content/i18n/${locale}/data/codes.json: missing or invalid JSON`);
+      codesOverlay = {};
+    }
+    for (const section of codesSections) {
+      const rows = codesOverlay?.[section];
+      if (!Array.isArray(rows)) {
+        failures.push(`src/data/content/i18n/${locale}/data/codes.json: ${section} must be an array`);
+        continue;
+      }
+      const sourceCodesForSection = new Set(sourceCodes[section].map((row) => row.code));
+      const seenCodes = new Set();
+      for (const [index, row] of rows.entries()) {
+        const label = `src/data/content/i18n/${locale}/data/codes.json.${section}[${index}]`;
+        if (!row.code || typeof row.code !== "string") {
+          failures.push(`${label}: code must be a string`);
+          continue;
+        }
+        if (!sourceCodesForSection.has(row.code)) failures.push(`${label}: code '${row.code}' does not exist in default codes.json`);
+        if (seenCodes.has(row.code)) failures.push(`${label}: duplicate code '${row.code}'`);
+        seenCodes.add(row.code);
+        coverage.localizedCodeValuesBySection[section].add(row.code);
+      }
+    }
   }
 
   for (const code of localeCodes) {
     const meta = localesConfig.locales[code] || {};
     if (code !== defaultLocale && meta.indexable && !translatedLocales.has(code)) {
       failures.push(`locales.json: indexable locale '${code}' must have a translation overlay directory`);
+    }
+    if (code !== defaultLocale && meta.indexable && translatedLocales.has(code)) {
+      const coverage = localeCoverage.get(code);
+      const missingStaticPages = defaultStaticPages.filter((page) => !coverage.translatedStaticPaths.has(page.path));
+      if (missingStaticPages.length) {
+        failures.push(`locales.json: indexable locale '${code}' is missing ${missingStaticPages.length} static page translation(s)`);
+      }
+      for (const dataSet of dataOverlayFiles) {
+        const missingRows = sourceDataByName[dataSet].filter((row) => !coverage.translatedDataIdsByName[dataSet].has(row.id));
+        if (missingRows.length) failures.push(`locales.json: indexable locale '${code}' is missing ${missingRows.length} ${dataSet} translation row(s)`);
+      }
+      for (const section of codesSections) {
+        const missingCodes = sourceCodes[section].filter((row) => !coverage.localizedCodeValuesBySection[section].has(row.code));
+        if (missingCodes.length) failures.push(`locales.json: indexable locale '${code}' is missing ${missingCodes.length} codes.${section} translation row(s)`);
+      }
     }
   }
 } catch {
