@@ -1,8 +1,10 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { shops } from "@data/heartopia";
+import { getDefaultHeartopiaData } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
+
+const { shops } = await getDefaultHeartopiaData();
 
 const selected = shops[0];
 const shopTypes = [...new Set(shops.map((shop) => shop.type))];

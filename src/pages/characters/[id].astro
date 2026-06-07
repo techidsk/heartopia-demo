@@ -1,10 +1,13 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { npcs, type Npc } from "@data/heartopia";
+import { getDefaultHeartopiaData, type Npc } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
-export function getStaticPaths() {
+const { npcs } = await getDefaultHeartopiaData();
+
+export async function getStaticPaths() {
+  const { npcs } = await getDefaultHeartopiaData();
   return npcs.map((npc) => ({ params: { id: npc.id }, props: { npc } }));
 }
 

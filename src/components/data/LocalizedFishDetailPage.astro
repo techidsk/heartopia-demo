@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { item, locale } = Astro.props;
-const { fish } = getHeartopiaData(locale);
+const { fish } = await getHeartopiaData(locale);
 const related = fish.filter((candidate) => candidate.id !== item.id && candidate.type === item.type).slice(0, 4);
 const waterRouteLabels: Record<string, string> = {
   lake: "湖泊",

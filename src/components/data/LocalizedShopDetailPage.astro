@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { shop, locale } = Astro.props;
-const { shops } = getHeartopiaData(locale);
+const { shops } = await getHeartopiaData(locale);
 const related = shops.filter((candidate) => candidate.id !== shop.id && candidate.type === shop.type).slice(0, 4);
 const detailPath = `/shops/${shop.id}/`;
 const title = `${shop.name} - Heartopia 商店、库存与地图路线`;

@@ -31,9 +31,9 @@ const route = (
   image
 });
 
-export function getRouteEntries(locale: Locale = defaultLocale) {
+export async function getRouteEntries(locale: Locale = defaultLocale) {
   const updated = getSiteConfig(locale).updatedDate;
-  const { crops, fish, gardening, hobbies, insects, npcs, recipes, shops, tools } = getHeartopiaData(locale);
+  const { crops, fish, gardening, hobbies, insects, npcs, recipes, shops, tools } = await getHeartopiaData(locale);
   const createRoute = (
     path: string,
     title: string,
@@ -44,7 +44,7 @@ export function getRouteEntries(locale: Locale = defaultLocale) {
   ) => route(updated, path, title, description, section, keywords, image);
 
   const staticRoutes: RouteEntry[] = [
-    ...getStaticPages(locale)
+    ...(await getStaticPages(locale))
       .filter((page) => page.path !== "/404.html")
       .map((page) => createRoute(page.path, page.title, page.description, page.section, page.keywords, page.ogImage)),
     createRoute("/search/", "Heartopia Search", "Search Heartopia Hub pages, databases, tools, and route notes.", "Site", [
@@ -198,45 +198,52 @@ export function getRouteEntries(locale: Locale = defaultLocale) {
   return [...entriesByPath.values()].sort((a, b) => a.path.localeCompare(b.path));
 }
 
-export function getFeedEntries(locale: Locale = defaultLocale) {
-  return getRouteEntries(locale)
+export async function getFeedEntries(locale: Locale = defaultLocale) {
+  return (await getRouteEntries(locale))
     .filter((entry) => !["Site"].includes(entry.section))
     .slice(0, 30);
 }
 
-export function getIndexableRouteEntries() {
-  const defaultEntries = getRouteEntries(defaultLocale);
-  const translatedStaticEntries = supportedLocales
-    .filter((locale) => locale !== defaultLocale)
-    .flatMap((locale) => {
-      const updated = getSiteConfig(locale).updatedDate;
-      return getStaticPages(locale)
-        .filter((page) => page.path !== "/404.html" && page.translationStatus === "translated")
-        .map((page) => route(updated, localizePath(page.path, locale), page.title, page.description, page.section, page.keywords, page.ogImage));
-    });
-  const translatedDataEntries = supportedLocales
-    .filter((locale) => locale !== defaultLocale)
-    .flatMap((locale) => {
-      const localizedRoutesByPath = new Map(getRouteEntries(locale).map((entry) => [entry.path, entry]));
-      const translatedPaths = [
-        ...getTranslatedDataIds(locale, "fish").map((id) => `/fish/${id}/`),
-        ...getTranslatedDataIds(locale, "shops").map((id) => `/shops/${id}/`),
-        ...getTranslatedDataIds(locale, "crops").map((id) => `/crops/${id}/`),
-        ...getTranslatedDataIds(locale, "gardening").map((id) => `/gardening/${id}/`),
-        ...getTranslatedDataIds(locale, "insects").map((id) => `/insects/${id}/`),
-        ...getTranslatedDataIds(locale, "recipes").map((id) => `/recipes/${id}/`),
-        ...getTranslatedDataIds(locale, "npcs").map((id) => `/characters/${id}/`)
-      ];
-      return translatedPaths
-        .map((path) => localizedRoutesByPath.get(path))
-        .filter((entry): entry is RouteEntry => Boolean(entry))
-        .map((entry) => ({ ...entry, path: localizePath(entry.path, locale) }));
-    });
+export async function getIndexableRouteEntries() {
+  const defaultEntries = await getRouteEntries(defaultLocale);
+  const translatedStaticEntries = (
+    await Promise.all(
+      supportedLocales
+        .filter((locale) => locale !== defaultLocale)
+        .map(async (locale) => {
+          const updated = getSiteConfig(locale).updatedDate;
+          return (await getStaticPages(locale))
+            .filter((page) => page.path !== "/404.html" && page.translationStatus === "translated")
+            .map((page) =>
+              route(updated, localizePath(page.path, locale), page.title, page.description, page.section, page.keywords, page.ogImage)
+            );
+        })
+    )
+  ).flat();
+  const translatedDataEntries = (
+    await Promise.all(
+      supportedLocales
+        .filter((locale) => locale !== defaultLocale)
+        .map(async (locale) => {
+          const localizedRoutesByPath = new Map((await getRouteEntries(locale)).map((entry) => [entry.path, entry]));
+          const translatedPaths = [
+            ...getTranslatedDataIds(locale, "fish").map((id) => `/fish/${id}/`),
+            ...getTranslatedDataIds(locale, "shops").map((id) => `/shops/${id}/`),
+            ...getTranslatedDataIds(locale, "crops").map((id) => `/crops/${id}/`),
+            ...getTranslatedDataIds(locale, "gardening").map((id) => `/gardening/${id}/`),
+            ...getTranslatedDataIds(locale, "insects").map((id) => `/insects/${id}/`),
+            ...getTranslatedDataIds(locale, "recipes").map((id) => `/recipes/${id}/`),
+            ...getTranslatedDataIds(locale, "npcs").map((id) => `/characters/${id}/`)
+          ];
+          return translatedPaths
+            .map((path) => localizedRoutesByPath.get(path))
+            .filter((entry): entry is RouteEntry => Boolean(entry))
+            .map((entry) => ({ ...entry, path: localizePath(entry.path, locale) }));
+        })
+    )
+  ).flat();
 
   return [...defaultEntries, ...translatedStaticEntries, ...translatedDataEntries].filter(
     (entry) => !entry.path.includes("?") && !entry.path.includes("#")
   );
 }
-
-export const routeEntries = getRouteEntries(defaultLocale);
-export const feedEntries = getFeedEntries(defaultLocale);

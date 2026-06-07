@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { crop, locale } = Astro.props;
-const { crops, recipes } = getHeartopiaData(locale);
+const { crops, recipes } = await getHeartopiaData(locale);
 const formatGold = (value: number | null) => (value === null ? "待补" : `${value.toLocaleString()} 金币`);
 const margin = crop.seed === null || crop.sell === null ? "待补" : `${(crop.sell - crop.seed).toLocaleString()} 金币`;
 const cropName = crop.name.toLowerCase();

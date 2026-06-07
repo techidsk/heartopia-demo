@@ -1,8 +1,7 @@
 import { getIndexableRouteEntries } from "@data/routes";
 
-const routeEntries = getIndexableRouteEntries();
-
-export function GET() {
+export async function GET() {
+  const routeEntries = await getIndexableRouteEntries();
   return new Response(
     JSON.stringify(
       {

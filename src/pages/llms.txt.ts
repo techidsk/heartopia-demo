@@ -3,8 +3,6 @@ import { getSiteConfig } from "@data/site";
 import { defaultLocale } from "@i18n/config";
 
 const siteConfig = getSiteConfig(defaultLocale);
-const routeEntries = getRouteEntries(defaultLocale);
-
 const priorityPaths = [
   "/",
   "/codes/",
@@ -20,7 +18,8 @@ const priorityPaths = [
   "/download/"
 ];
 
-export function GET() {
+export async function GET() {
+  const routeEntries = await getRouteEntries(defaultLocale);
   const priorityEntries = priorityPaths
     .map((path) => routeEntries.find((entry) => entry.path === path))
     .filter((entry): entry is NonNullable<typeof entry> => Boolean(entry));

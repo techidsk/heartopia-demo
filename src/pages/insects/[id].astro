@@ -1,10 +1,13 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { insects, type Insect } from "@data/heartopia";
+import { getDefaultHeartopiaData, type Insect } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
-export function getStaticPaths() {
+const { insects } = await getDefaultHeartopiaData();
+
+export async function getStaticPaths() {
+  const { insects } = await getDefaultHeartopiaData();
   return insects.map((item) => ({ params: { id: item.id }, props: { item } }));
 }
 

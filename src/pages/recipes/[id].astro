@@ -1,10 +1,13 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { crops, recipes, type Recipe } from "@data/heartopia";
+import { getDefaultHeartopiaData, type Recipe } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
-export function getStaticPaths() {
+const { crops, recipes } = await getDefaultHeartopiaData();
+
+export async function getStaticPaths() {
+  const { recipes } = await getDefaultHeartopiaData();
   return recipes.map((recipe) => ({ params: { id: recipe.id }, props: { recipe } }));
 }
 

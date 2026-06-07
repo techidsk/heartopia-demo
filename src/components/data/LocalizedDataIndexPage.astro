@@ -9,7 +9,7 @@ interface Props {
 }
 
 const { locale, path } = Astro.props;
-const data = getHeartopiaData(locale);
+const data = await getHeartopiaData(locale);
 
 const pageCopy: Record<string, { title: string; description: string; eyebrow: string; heading: string; intro: string; currentPath: string }> = {
   "/database/": {

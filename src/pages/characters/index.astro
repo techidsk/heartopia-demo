@@ -1,8 +1,10 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { npcs } from "@data/heartopia";
+import { getDefaultHeartopiaData } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
+
+const { npcs } = await getDefaultHeartopiaData();
 
 const imageCount = npcs.filter((npc) => npc.image).length;
 const groups = [...new Set(npcs.map((npc) => npc.group))];

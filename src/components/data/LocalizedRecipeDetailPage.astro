@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { recipe, locale } = Astro.props;
-const { crops, recipes } = getHeartopiaData(locale);
+const { crops, recipes } = await getHeartopiaData(locale);
 const ingredientText = recipe.ingredients.join("、");
 const ingredientHaystack = ingredientText.toLowerCase();
 const sourceCrops = crops.filter((crop) => ingredientHaystack.includes(crop.name.toLowerCase())).slice(0, 4);

@@ -19,7 +19,7 @@ const currentPath = page.path === "/404.html" ? "/" : page.path;
 const resolvedRobots =
   robots || (page.translationStatus === "fallback" ? "noindex,follow" : "index,follow,max-image-preview:large");
 const showFallbackNotice = page.translationStatus === "fallback";
-const alternateLocalePaths = getStaticPageAlternateLocalePaths(canonicalPath);
+const alternateLocalePaths = await getStaticPageAlternateLocalePaths(canonicalPath);
 ---
 
 <BaseLayout

@@ -3,8 +3,6 @@ import { getIndexableRouteEntries, type RouteEntry } from "@data/routes";
 import { defaultLocale } from "@i18n/config";
 
 const siteConfig = getSiteConfig(defaultLocale);
-const routeEntries = getIndexableRouteEntries();
-
 const escapeXml = (value: string) =>
   value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -24,9 +22,8 @@ const imageForEntry = (entry: RouteEntry) => {
   return siteConfig.defaultImage;
 };
 
-const sitemapEntries = routeEntries;
-
-export function GET() {
+export async function GET() {
+  const sitemapEntries = await getIndexableRouteEntries();
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${sitemapEntries

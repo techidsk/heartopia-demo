@@ -1,8 +1,10 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { crops, profitCrops } from "@data/heartopia";
+import { getDefaultHeartopiaData } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
+
+const { crops, profitCrops } = await getDefaultHeartopiaData();
 
 const selected = crops[0];
 const cropGroups = [...new Set(crops.map((crop) => crop.group))];

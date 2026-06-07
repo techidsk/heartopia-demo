@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { item, locale } = Astro.props;
-const { insects } = getHeartopiaData(locale);
+const { insects } = await getHeartopiaData(locale);
 const related = insects.filter((candidate) => candidate.id !== item.id && candidate.route === item.route).slice(0, 4);
 const detailPath = `/insects/${item.id}/`;
 const title = `${item.name} - Heartopia 昆虫位置、天气与时间`;

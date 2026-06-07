@@ -1,8 +1,10 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { gardening } from "@data/heartopia";
+import { getDefaultHeartopiaData } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
+
+const { gardening } = await getDefaultHeartopiaData();
 
 const selected = gardening[0];
 const categoryLabels = [

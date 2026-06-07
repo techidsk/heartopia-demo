@@ -24,17 +24,21 @@ import { getRouteEntries, type RouteEntry } from "@data/routes";
 import { getStaticPage, getStaticPages, type StaticPage } from "@data/staticPages";
 import { defaultLocale, getLocaleByPathPrefix, getLocaleMeta, supportedLocales, type Locale } from "@i18n/config";
 
-export function getStaticPaths() {
+export async function getStaticPaths() {
   const localizedLocales = supportedLocales.filter((locale) => locale !== defaultLocale);
-  const sourceRoutes = getRouteEntries(defaultLocale).filter((entry) => entry.path !== "/" && entry.path !== "/404.html");
-  return localizedLocales.flatMap((locale) => {
-    const prefix = getLocaleMeta(locale).pathPrefix;
-    const localizedRoutesByPath = new Map(getRouteEntries(locale).map((entry) => [entry.path, entry]));
-    return sourceRoutes.map((entry) => ({
-      params: { locale: prefix, slug: entry.path.replace(/^\/|\/$/g, "") },
-      props: { locale, entry: localizedRoutesByPath.get(entry.path) || entry }
-    }));
-  });
+  const sourceRoutes = (await getRouteEntries(defaultLocale)).filter((entry) => entry.path !== "/" && entry.path !== "/404.html");
+  return (
+    await Promise.all(
+      localizedLocales.map(async (locale) => {
+        const prefix = getLocaleMeta(locale).pathPrefix;
+        const localizedRoutesByPath = new Map((await getRouteEntries(locale)).map((entry) => [entry.path, entry]));
+        return sourceRoutes.map((entry) => ({
+          params: { locale: prefix, slug: entry.path.replace(/^\/|\/$/g, "") },
+          props: { locale, entry: localizedRoutesByPath.get(entry.path) || entry }
+        }));
+      })
+    )
+  ).flat();
 }
 
 interface Props {
@@ -44,10 +48,10 @@ interface Props {
 
 const locale = getLocaleByPathPrefix(Astro.params.locale) || Astro.props.locale;
 const entry = Astro.props.entry;
-const staticPaths = new Set(getStaticPages(locale).map((page) => page.path));
+const staticPaths = new Set((await getStaticPages(locale)).map((page) => page.path));
 let page: StaticPage | undefined;
 if (staticPaths.has(entry.path)) {
-  page = getStaticPage(entry.path, locale);
+  page = await getStaticPage(entry.path, locale);
 }
 const localizedDataIndexPaths = new Set([
   "/database/",
@@ -65,40 +69,41 @@ const localizedDataIndexPaths = new Set([
   "/tools/"
 ]);
 const shouldRenderDataIndex = localizedDataIndexPaths.has(entry.path) && locale === "zh-Hans";
+const localizedData = await getHeartopiaData(locale);
 const cropMatch = entry.path.match(/^\/crops\/([^/]+)\/$/);
 let crop: Crop | undefined;
 if (cropMatch && isDataEntryTranslated(locale, "crops", cropMatch[1])) {
-  crop = getHeartopiaData(locale).crops.find((item) => item.id === cropMatch[1]);
+  crop = localizedData.crops.find((item) => item.id === cropMatch[1]);
 }
 const characterMatch = entry.path.match(/^\/characters\/([^/]+)\/$/);
 let npc: Npc | undefined;
 if (characterMatch && isDataEntryTranslated(locale, "npcs", characterMatch[1])) {
-  npc = getHeartopiaData(locale).npcs.find((item) => item.id === characterMatch[1]);
+  npc = localizedData.npcs.find((item) => item.id === characterMatch[1]);
 }
 const fishMatch = entry.path.match(/^\/fish\/([^/]+)\/$/);
 let fishItem: Fish | undefined;
 if (fishMatch && isDataEntryTranslated(locale, "fish", fishMatch[1])) {
-  fishItem = getHeartopiaData(locale).fish.find((item) => item.id === fishMatch[1]);
+  fishItem = localizedData.fish.find((item) => item.id === fishMatch[1]);
 }
 const shopMatch = entry.path.match(/^\/shops\/([^/]+)\/$/);
 let shop: Shop | undefined;
 if (shopMatch && isDataEntryTranslated(locale, "shops", shopMatch[1])) {
-  shop = getHeartopiaData(locale).shops.find((item) => item.id === shopMatch[1]);
+  shop = localizedData.shops.find((item) => item.id === shopMatch[1]);
 }
 const recipeMatch = entry.path.match(/^\/recipes\/([^/]+)\/$/);
 let recipe: Recipe | undefined;
 if (recipeMatch && isDataEntryTranslated(locale, "recipes", recipeMatch[1])) {
-  recipe = getHeartopiaData(locale).recipes.find((item) => item.id === recipeMatch[1]);
+  recipe = localizedData.recipes.find((item) => item.id === recipeMatch[1]);
 }
 const gardeningMatch = entry.path.match(/^\/gardening\/([^/]+)\/$/);
 let gardeningItem: Gardening | undefined;
 if (gardeningMatch && isDataEntryTranslated(locale, "gardening", gardeningMatch[1])) {
-  gardeningItem = getHeartopiaData(locale).gardening.find((item) => item.id === gardeningMatch[1]);
+  gardeningItem = localizedData.gardening.find((item) => item.id === gardeningMatch[1]);
 }
 const insectMatch = entry.path.match(/^\/insects\/([^/]+)\/$/);
 let insect: Insect | undefined;
 if (insectMatch && isDataEntryTranslated(locale, "insects", insectMatch[1])) {
-  insect = getHeartopiaData(locale).insects.find((item) => item.id === insectMatch[1]);
+  insect = localizedData.insects.find((item) => item.id === insectMatch[1]);
 }
 ---
 

@@ -5,7 +5,7 @@ import { getRouteEntries } from "@data/routes";
 import { defaultLocale } from "@i18n/config";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
-const routeEntries = getRouteEntries(defaultLocale);
+const routeEntries = await getRouteEntries(defaultLocale);
 const sections = [...new Set(routeEntries.map((entry) => entry.section))];
 const searchPayload = routeEntries.map(({ path, title, description, section, keywords }) => ({
   path,

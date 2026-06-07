@@ -4,13 +4,14 @@ This project now has one deployable Astro lane:
 
 - `src/` is the new Astro page-factory source that builds to `dist/`.
 - `src/data/content/` stores canonical JSON data and migrated static page content.
+- `src/content.config.ts` registers the canonical JSON files as Astro Content Collections with shared Zod schemas from `src/data/heartopiaSchemas.ts`.
 - `public/` stores browser-visible static assets such as images, CSS, favicon, manifest, `ads.txt`, and Cloudflare `_headers`.
 
 ## Goals
 
 - Keep current URLs and visual language stable.
 - Move repeated header, footer, SEO, and page chrome into shared components.
-- Generate database and tool pages from validated JSON instead of hand-maintained HTML rows.
+- Generate database and tool pages from Astro Content Collections backed by validated JSON instead of hand-maintained HTML rows.
 - Keep deployment static for Cloudflare Pages.
 
 ## Current Generated Scope
@@ -27,9 +28,11 @@ This project now has one deployable Astro lane:
 
 - `src/layouts/BaseLayout.astro`: shared document shell, SEO tags, header, footer, and global CSS link.
 - `src/components/`: reusable page chrome such as navigation, breadcrumbs, metrics, and footer groups.
-- `src/data/heartopia.ts`: Zod schemas and validated data exports.
-- `src/data/staticPages.ts`: migrated static page registry and lookup helper.
-- `src/data/routes.ts`: generated route registry for sitemap, feed, and static search.
+- `src/content.config.ts`: Astro Content Collections for canonical data and static-page JSON.
+- `src/data/heartopiaSchemas.ts`: shared Zod schemas used by Content Collections and overlay validation.
+- `src/data/heartopia.ts`: async collection reader, locale overlay merger, and typed flattened data helpers.
+- `src/data/staticPages.ts`: async collection-backed static page registry and lookup helper.
+- `src/data/routes.ts`: async generated route registry for sitemap, feed, and static search.
 - `src/pages/`: generated URL routes.
 - `src/tools/`: small client modules for generated interactive pages.
 - `scripts/validate-data.mjs`: JSON shape and duplicate-id validation.
@@ -39,12 +42,14 @@ This project now has one deployable Astro lane:
 ## Adding A Database Page
 
 1. Add or update the JSON data in `src/data/content/`.
-2. Add a Zod schema and parsed export in `src/data/heartopia.ts`.
-3. Create `src/pages/<route>/index.astro` for the list page.
-4. Add `src/pages/<route>/[id].astro` if the entity needs detail URLs.
-5. Reuse `BaseLayout`, `Breadcrumbs`, and `MetricCards`.
-6. Add sitemap/search entries in `src/data/routes.ts`.
-7. Run `npm run validate:data`, `npm run build`, and `npm run qa`.
+2. Add a Zod schema in `src/data/heartopiaSchemas.ts`.
+3. Register the JSON file in `src/content.config.ts`.
+4. Expose the flattened data from `src/data/heartopia.ts` when pages need a row shape with `id`.
+5. Create `src/pages/<route>/index.astro` for the list page.
+6. Add `src/pages/<route>/[id].astro` if the entity needs detail URLs.
+7. Reuse `BaseLayout`, `Breadcrumbs`, and `MetricCards`.
+8. Add sitemap/search entries in `src/data/routes.ts`.
+9. Run `npm run validate:data`, `npm run build`, and `npm run qa`.
 
 ## Adding A Tool Page
 
@@ -56,9 +61,9 @@ This project now has one deployable Astro lane:
 
 ## Generated SEO And Search
 
-- `src/pages/sitemap.xml.ts` renders XML from `routeEntries`.
-- `src/pages/feed.xml.ts` renders RSS from `feedEntries`.
-- `src/pages/search-index.json.ts` exposes the same route registry as JSON.
+- `src/pages/sitemap.xml.ts` renders XML from `getIndexableRouteEntries()`.
+- `src/pages/feed.xml.ts` renders RSS from `getFeedEntries()`.
+- `src/pages/search-index.json.ts` exposes the same async route registry as JSON.
 - `src/pages/search/index.astro` provides the current lightweight static search UI.
 - `npm run quality` checks representative HTML routes, sitemap, feed, and search index after build.
 

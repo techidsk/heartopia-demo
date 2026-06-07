@@ -1,8 +1,10 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { recipes } from "@data/heartopia";
+import { getDefaultHeartopiaData } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
+
+const { recipes } = await getDefaultHeartopiaData();
 
 const selected = recipes[0];
 const recipeGroups = [...new Set(recipes.flatMap((recipe) => recipe.group.split("-")))];

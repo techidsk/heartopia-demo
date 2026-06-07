@@ -1,8 +1,10 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { fish } from "@data/heartopia";
+import { getDefaultHeartopiaData } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
+
+const { fish } = await getDefaultHeartopiaData();
 
 const selected = fish[0];
 const fishTypes = ["lake", "river", "ocean", "hidden", "event"] as const;

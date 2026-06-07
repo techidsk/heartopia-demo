@@ -1,16 +1,5 @@
 import { z } from "zod";
-import fishRaw from "./content/fish.json";
-import shopsRaw from "./content/shops.json";
-import cropsRaw from "./content/crops.json";
-import gardeningRaw from "./content/gardening.json";
-import insectsRaw from "./content/insects.json";
-import recipesRaw from "./content/recipes.json";
-import codesRaw from "./content/codes.json";
-import eventsRaw from "./content/events.json";
-import npcsRaw from "./content/npcs.json";
-import petsRaw from "./content/pets.json";
-import hobbiesRaw from "./content/hobbies.json";
-import toolsRaw from "./content/tools.json";
+import { getCollection, getEntry } from "astro:content";
 import zhHansFishOverlay from "./content/i18n/zh-Hans/data/fish.json";
 import zhHansShopsOverlay from "./content/i18n/zh-Hans/data/shops.json";
 import zhHansCropsOverlay from "./content/i18n/zh-Hans/data/crops.json";
@@ -385,19 +374,6 @@ const dataOverlaySchema = z.object({
   tools: toolOverlaySchema
 });
 
-export const fish = z.array(fishSchema).parse(fishRaw);
-export const shops = z.array(shopSchema).parse(shopsRaw);
-export const crops = z.array(cropSchema).parse(cropsRaw);
-export const gardening = z.array(gardeningSchema).parse(gardeningRaw);
-export const insects = z.array(insectSchema).parse(insectsRaw);
-export const recipes = z.array(recipeSchema).parse(recipesRaw);
-export const codes = codesSchema.parse(codesRaw);
-export const events = z.array(eventSchema).parse(eventsRaw);
-export const npcs = z.array(npcSchema).parse(npcsRaw);
-export const pets = z.array(petSchema).parse(petsRaw);
-export const hobbies = z.array(hobbySchema).parse(hobbiesRaw);
-export const tools = z.array(toolSchema).parse(toolsRaw);
-
 export type Fish = z.infer<typeof fishSchema>;
 export type Shop = z.infer<typeof shopSchema>;
 export type Crop = z.infer<typeof cropSchema>;
@@ -478,30 +454,93 @@ function mergeCodeCandidates<T extends { code: string }>(rows: T[], overlays: Ar
   return rows.map((row) => ({ ...row, ...(overlaysByCode.get(row.code) || {}) }));
 }
 
-export function getHeartopiaData(locale: Locale = defaultLocale): HeartopiaData {
-  const overlay = dataOverlays[locale];
-  const localizedCrops = overlay ? mergeById(crops, overlay.crops) : crops;
+const byCollectionId = <T>(entry: { id: string; data: Omit<T, "id"> }): T => ({ id: entry.id, ...entry.data }) as T;
+
+let defaultDataPromise: Promise<HeartopiaData> | undefined;
+
+async function getDefaultHeartopiaDataFromCollections(): Promise<HeartopiaData> {
+  const [
+    fishEntries,
+    shopEntries,
+    cropEntries,
+    gardeningEntries,
+    insectEntries,
+    recipeEntries,
+    eventEntries,
+    npcEntries,
+    petEntries,
+    hobbyEntries,
+    toolEntries,
+    codesEntry
+  ] = await Promise.all([
+    getCollection("fish"),
+    getCollection("shops"),
+    getCollection("crops"),
+    getCollection("gardening"),
+    getCollection("insects"),
+    getCollection("recipes"),
+    getCollection("events"),
+    getCollection("npcs"),
+    getCollection("pets"),
+    getCollection("hobbies"),
+    getCollection("tools"),
+    getEntry("codes", "codes")
+  ]);
+
+  const crops = cropEntries.map(byCollectionId<Crop>);
 
   return {
-    fish: overlay ? mergeById(fish, overlay.fish) : fish,
-    shops: overlay ? mergeById(shops, overlay.shops) : shops,
+    fish: fishEntries.map(byCollectionId<Fish>),
+    shops: shopEntries.map(byCollectionId<Shop>),
+    crops,
+    gardening: gardeningEntries.map(byCollectionId<Gardening>),
+    insects: insectEntries.map(byCollectionId<Insect>),
+    recipes: recipeEntries.map(byCollectionId<Recipe>),
+    codes: codesSchema.parse(codesEntry?.data),
+    events: eventEntries.map(byCollectionId<Event>),
+    npcs: npcEntries.map(byCollectionId<Npc>),
+    pets: petEntries.map(byCollectionId<Pet>),
+    hobbies: hobbyEntries.map(byCollectionId<Hobby>),
+    tools: toolEntries.map(byCollectionId<Tool>),
+    profitCrops: crops.filter(
+      (crop): crop is Crop & { minutes: number; seed: number; sell: number } =>
+        crop.minutes !== null && crop.seed !== null && crop.sell !== null
+    )
+  };
+}
+
+export function getDefaultHeartopiaData(): Promise<HeartopiaData> {
+  defaultDataPromise ||= getDefaultHeartopiaDataFromCollections();
+  return defaultDataPromise;
+}
+
+export async function getHeartopiaData(locale: Locale = defaultLocale): Promise<HeartopiaData> {
+  const defaultData = await getDefaultHeartopiaData();
+  if (locale === defaultLocale) return defaultData;
+
+  const overlay = dataOverlays[locale];
+  const localizedCrops = overlay ? mergeById(defaultData.crops, overlay.crops) : defaultData.crops;
+
+  return {
+    fish: overlay ? mergeById(defaultData.fish, overlay.fish) : defaultData.fish,
+    shops: overlay ? mergeById(defaultData.shops, overlay.shops) : defaultData.shops,
     crops: localizedCrops,
-    gardening: overlay ? mergeById(gardening, overlay.gardening) : gardening,
-    insects: overlay ? mergeById(insects, overlay.insects) : insects,
-    recipes: overlay ? mergeById(recipes, overlay.recipes) : recipes,
+    gardening: overlay ? mergeById(defaultData.gardening, overlay.gardening) : defaultData.gardening,
+    insects: overlay ? mergeById(defaultData.insects, overlay.insects) : defaultData.insects,
+    recipes: overlay ? mergeById(defaultData.recipes, overlay.recipes) : defaultData.recipes,
     codes: overlay
       ? {
-          ...codes,
-          ...("sourceNote" in overlay.codes ? { sourceNote: overlay.codes.sourceNote || codes.sourceNote } : {}),
-          activeCandidates: mergeCodeCandidates(codes.activeCandidates, overlay.codes.activeCandidates),
-          expiredArchive: mergeCodeCandidates(codes.expiredArchive, overlay.codes.expiredArchive)
+          ...defaultData.codes,
+          ...("sourceNote" in overlay.codes ? { sourceNote: overlay.codes.sourceNote || defaultData.codes.sourceNote } : {}),
+          activeCandidates: mergeCodeCandidates(defaultData.codes.activeCandidates, overlay.codes.activeCandidates),
+          expiredArchive: mergeCodeCandidates(defaultData.codes.expiredArchive, overlay.codes.expiredArchive)
         }
-      : codes,
-    events: overlay ? mergeById(events, overlay.events) : events,
-    npcs: overlay ? mergeById(npcs, overlay.npcs) : npcs,
-    pets: overlay ? mergeById(pets, overlay.pets) : pets,
-    hobbies: overlay ? mergeById(hobbies, overlay.hobbies) : hobbies,
-    tools: overlay ? mergeById(tools, overlay.tools) : tools,
+      : defaultData.codes,
+    events: overlay ? mergeById(defaultData.events, overlay.events) : defaultData.events,
+    npcs: overlay ? mergeById(defaultData.npcs, overlay.npcs) : defaultData.npcs,
+    pets: overlay ? mergeById(defaultData.pets, overlay.pets) : defaultData.pets,
+    hobbies: overlay ? mergeById(defaultData.hobbies, overlay.hobbies) : defaultData.hobbies,
+    tools: overlay ? mergeById(defaultData.tools, overlay.tools) : defaultData.tools,
     profitCrops: localizedCrops.filter(
       (crop): crop is Crop & { minutes: number; seed: number; sell: number } =>
         crop.minutes !== null && crop.seed !== null && crop.sell !== null
@@ -516,8 +555,3 @@ export function getTranslatedDataIds(locale: Locale, dataSet: DataSetName) {
 export function isDataEntryTranslated(locale: Locale, dataSet: DataSetName, id: string) {
   return overlayIdSets[locale]?.[dataSet]?.has(id) || false;
 }
-
-export const profitCrops = crops.filter(
-  (crop): crop is Crop & { minutes: number; seed: number; sell: number } =>
-    crop.minutes !== null && crop.seed !== null && crop.sell !== null
-);

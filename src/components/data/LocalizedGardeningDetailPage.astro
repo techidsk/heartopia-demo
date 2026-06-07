@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { item, locale } = Astro.props;
-const { gardening } = getHeartopiaData(locale);
+const { gardening } = await getHeartopiaData(locale);
 const related = gardening.filter((candidate) => candidate.id !== item.id && candidate.category === item.category).slice(0, 4);
 const detailPath = `/gardening/${item.id}/`;
 const title = `${item.name} - Heartopia 园艺手册`;

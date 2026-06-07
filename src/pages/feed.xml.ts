@@ -3,12 +3,11 @@ import { getSiteConfig } from "@data/site";
 import { defaultLocale } from "@i18n/config";
 
 const siteConfig = getSiteConfig(defaultLocale);
-const feedEntries = getFeedEntries(defaultLocale);
-
 const escapeXml = (value: string) =>
   value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-export function GET() {
+export async function GET() {
+  const feedEntries = await getFeedEntries(defaultLocale);
   const channelUrl = new URL("/feed.xml", siteConfig.origin).toString();
   const siteImage = new URL(siteConfig.logo, siteConfig.origin).toString();
   const body = `<?xml version="1.0" encoding="UTF-8"?>

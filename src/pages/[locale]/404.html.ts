@@ -13,11 +13,11 @@ export function getStaticPaths() {
 const escapeHtml = (value: string) =>
   value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-export function GET({ params, props }: { params: { locale?: string }; props: { locale: Locale } }) {
+export async function GET({ params, props }: { params: { locale?: string }; props: { locale: Locale } }) {
   const locale = getLocaleByPathPrefix(params.locale) || props.locale;
   const meta = getLocaleMeta(locale);
   const siteConfig = getSiteConfig(locale);
-  const page = getStaticPage("/404.html", locale);
+  const page = await getStaticPage("/404.html", locale);
   const canonical = `${siteConfig.origin}/${meta.pathPrefix}/404.html`;
   const ogImage = new URL(siteConfig.defaultImage, siteConfig.origin).toString();
 

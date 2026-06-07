@@ -1,8 +1,10 @@
 ---
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import MetricCards from "@components/MetricCards.astro";
-import { crops, fish, gardening, insects, npcs, recipes, shops } from "@data/heartopia";
+import { getDefaultHeartopiaData } from "@data/heartopia";
 import BaseLayout from "@layouts/BaseLayout.astro";
+
+const { crops, fish, gardening, insects, npcs, recipes, shops } = await getDefaultHeartopiaData();
 
 const portraitCount = npcs.filter((npc) => npc.image).length;
 const cropIconCount = crops.filter((crop) => crop.image).length;

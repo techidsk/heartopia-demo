@@ -16,7 +16,7 @@ interface Props {
 }
 
 const locale = getLocaleByPathPrefix(Astro.params.locale) || Astro.props.locale;
-const page = getStaticPage("/", locale);
+const page = await getStaticPage("/", locale);
 ---
 
 <StaticContentPage page={page} locale={locale} />
