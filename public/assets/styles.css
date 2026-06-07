@@ -174,7 +174,7 @@ a {
 
 .nav-dropdown {
   position: absolute;
-  top: calc(100% + 0.45rem);
+  top: 100%;
   left: 0;
   z-index: 30;
   width: min(280px, calc(100vw - 32px));
@@ -186,6 +186,11 @@ a {
   border-radius: 8px;
   background: var(--paper);
   box-shadow: var(--shadow);
+}
+
+.nav-group:nth-last-child(2) .nav-dropdown {
+  right: 0;
+  left: auto;
 }
 
 .nav-group:hover .nav-dropdown,
