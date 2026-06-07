@@ -1,6 +1,6 @@
 import { getHeartopiaData, getTranslatedDataIds } from "./heartopia";
 import { getSiteConfig } from "./site";
-import { getStaticPages } from "./staticPages";
+import { getStaticPages, isStaticPageTranslated } from "./staticPages";
 import { defaultLocale, isLocaleIndexable, localizePath, supportedLocales, type Locale } from "@i18n/config";
 
 export type RouteEntry = {
@@ -12,6 +12,52 @@ export type RouteEntry = {
   updated: string;
   image?: string;
 };
+
+export const localizedDataIndexPaths = new Set([
+  "/database/",
+  "/fish/",
+  "/shops/",
+  "/crops/",
+  "/gardening/",
+  "/insects/",
+  "/recipes/",
+  "/characters/",
+  "/codes/",
+  "/events/",
+  "/pets/",
+  "/hobbies/",
+  "/tools/"
+]);
+
+const normalizeRoutePath = (path: string) => {
+  const [pathname] = path.split(/[?#]/);
+  const normalized = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  return normalized === "/" || normalized.endsWith("/") || normalized.endsWith(".html") ? normalized : `${normalized}/`;
+};
+
+export async function canRenderLocalizedRoute(path: string, locale: Locale = defaultLocale) {
+  const normalized = normalizeRoutePath(path);
+  if (locale === defaultLocale || normalized === "/") return true;
+  if (await isStaticPageTranslated(normalized, locale)) return true;
+  if (localizedDataIndexPaths.has(normalized)) return true;
+
+  const dataMatches: Array<[RegExp, Parameters<typeof getTranslatedDataIds>[1]]> = [
+    [/^\/fish\/([^/]+)\/$/, "fish"],
+    [/^\/shops\/([^/]+)\/$/, "shops"],
+    [/^\/crops\/([^/]+)\/$/, "crops"],
+    [/^\/gardening\/([^/]+)\/$/, "gardening"],
+    [/^\/insects\/([^/]+)\/$/, "insects"],
+    [/^\/recipes\/([^/]+)\/$/, "recipes"],
+    [/^\/characters\/([^/]+)\/$/, "npcs"]
+  ];
+
+  for (const [pattern, dataSet] of dataMatches) {
+    const match = normalized.match(pattern);
+    if (match) return getTranslatedDataIds(locale, dataSet).includes(match[1]);
+  }
+
+  return false;
+}
 
 const route = (
   updated: string,
@@ -227,6 +273,7 @@ export async function getIndexableRouteEntries() {
         .map(async (locale) => {
           const localizedRoutesByPath = new Map((await getRouteEntries(locale)).map((entry) => [entry.path, entry]));
           const translatedPaths = [
+            ...localizedDataIndexPaths,
             ...getTranslatedDataIds(locale, "fish").map((id) => `/fish/${id}/`),
             ...getTranslatedDataIds(locale, "shops").map((id) => `/shops/${id}/`),
             ...getTranslatedDataIds(locale, "crops").map((id) => `/crops/${id}/`),

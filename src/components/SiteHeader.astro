@@ -1,5 +1,6 @@
 ---
 import { getNavGroups, getSiteConfig } from "@data/site";
+import { canRenderLocalizedRoute } from "@data/routes";
 import { defaultLocale, getLocaleMeta, localizePath, sourcePathFromLocalizedPath, supportedLocales, type Locale } from "@i18n/config";
 import { getUiMessages } from "@i18n/messages";
 
@@ -22,12 +23,17 @@ const isCurrent = (href: string) => {
   return normalizedCurrent.startsWith(normalizedHref);
 };
 const isGroupCurrent = (links: Array<{ href: string }>) => links.some((link) => isCurrent(link.href));
-const languageLinks = supportedLocales.map((targetLocale) => ({
-  locale: targetLocale,
-  label: getLocaleMeta(targetLocale).label,
-  href: localizePath(sourceCurrentPath, targetLocale),
-  current: targetLocale === locale
-}));
+const languageLinks = await Promise.all(
+  supportedLocales.map(async (targetLocale) => {
+    const canUseCurrentPath = await canRenderLocalizedRoute(sourceCurrentPath, targetLocale);
+    return {
+      locale: targetLocale,
+      label: getLocaleMeta(targetLocale).label,
+      href: localizePath(canUseCurrentPath ? sourceCurrentPath : "/", targetLocale),
+      current: targetLocale === locale
+    };
+  })
+);
 ---
 
 <header class="site-header">

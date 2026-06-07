@@ -21,7 +21,7 @@ import {
   type Shop
 } from "@data/heartopia";
 import StaticContentPage from "@components/StaticContentPage.astro";
-import { getRouteEntries, type RouteEntry } from "@data/routes";
+import { canRenderLocalizedRoute, getRouteEntries, localizedDataIndexPaths, type RouteEntry } from "@data/routes";
 import { getStaticPage, getStaticPages, type StaticPage } from "@data/staticPages";
 import { defaultLocale, getLocaleByPathPrefix, getLocaleMeta, supportedLocales, type Locale } from "@i18n/config";
 
@@ -33,10 +33,18 @@ export async function getStaticPaths() {
       localizedLocales.map(async (locale) => {
         const prefix = getLocaleMeta(locale).pathPrefix;
         const localizedRoutesByPath = new Map((await getRouteEntries(locale)).map((entry) => [entry.path, entry]));
-        return sourceRoutes.map((entry) => ({
-          params: { locale: prefix, slug: entry.path.replace(/^\/|\/$/g, "") },
-          props: { locale, entry: localizedRoutesByPath.get(entry.path) || entry }
-        }));
+        const renderableRoutes = await Promise.all(
+          sourceRoutes.map(async (entry) => ({
+            entry,
+            renderable: await canRenderLocalizedRoute(entry.path, locale)
+          }))
+        );
+        return renderableRoutes
+          .filter(({ renderable }) => renderable)
+          .map(({ entry }) => ({
+            params: { locale: prefix, slug: entry.path.replace(/^\/|\/$/g, "") },
+            props: { locale, entry: localizedRoutesByPath.get(entry.path) || entry }
+          }));
       })
     )
   ).flat();
@@ -54,21 +62,6 @@ let page: StaticPage | undefined;
 if (staticPaths.has(entry.path)) {
   page = await getStaticPage(entry.path, locale);
 }
-const localizedDataIndexPaths = new Set([
-  "/database/",
-  "/fish/",
-  "/shops/",
-  "/crops/",
-  "/gardening/",
-  "/insects/",
-  "/recipes/",
-  "/characters/",
-  "/codes/",
-  "/events/",
-  "/pets/",
-  "/hobbies/",
-  "/tools/"
-]);
 const shouldRenderDataIndex = localizedDataIndexPaths.has(entry.path) && hasTranslatedData(locale);
 const localizedData = await getHeartopiaData(locale);
 const cropMatch = entry.path.match(/^\/crops\/([^/]+)\/$/);

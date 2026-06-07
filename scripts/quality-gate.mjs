@@ -30,6 +30,35 @@ const nonChineseSeoLeakPatterns = [
   /数据库/,
   /首页/
 ];
+const fallbackTitlePatterns = [
+  /<title>Translation pending<\/title>/i,
+  /<title>Übersetzung ausstehend<\/title>/i,
+  /<title>Traducción pendiente<\/title>/i,
+  /<title>Traduction en attente<\/title>/i,
+  /<title>Tradução pendente<\/title>/i,
+  /<title>Terjemahan tertunda<\/title>/i,
+  /<title>Перевод ожидается<\/title>/i,
+  /<title>รอการแปล<\/title>/i,
+  /<title>翻訳準備中<\/title>/i,
+  /<title>번역 준비 중<\/title>/i,
+  /<title>翻譯待補<\/title>/i,
+  /<title>翻译待补<\/title>/i
+];
+const localizedIndexableContentPaths = [
+  "/database/",
+  "/fish/",
+  "/shops/",
+  "/crops/",
+  "/gardening/",
+  "/insects/",
+  "/recipes/",
+  "/characters/",
+  "/codes/",
+  "/events/",
+  "/pets/",
+  "/hobbies/",
+  "/tools/"
+];
 const localesConfig = JSON.parse(await fs.readFile(localesPath, "utf8"));
 const localeEntries = Object.entries(localesConfig.locales);
 const indexedLocales = localeEntries.filter(([, meta]) => meta.indexable);
@@ -151,6 +180,9 @@ for (const filePath of htmlFiles) {
   for (const pattern of adsensePlaceholderPatterns) {
     if (pattern.test(html)) failures.push(`${relative}: contains AdSense/contact placeholder copy`);
   }
+  for (const pattern of fallbackTitlePatterns) {
+    if (pattern.test(html)) failures.push(`${relative}: contains localized fallback title page`);
+  }
 
   if (!isNoindex) {
     const canonicalMatch = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i);
@@ -203,6 +235,15 @@ for (const check of artifactChecks) {
           failures.push(`${check.path}: contains non-indexable locale path ${entry.path}`);
         }
       }
+      if (check.path === "/search-index.json") {
+        const entryPaths = new Set((parsed.entries || []).map((entry) => entry.path).filter(Boolean));
+        for (const prefix of indexablePrefixes) {
+          for (const contentPath of localizedIndexableContentPaths) {
+            const localizedPath = `/${prefix}${contentPath}`;
+            if (!entryPaths.has(localizedPath)) failures.push(`${check.path}: missing localized content path ${localizedPath}`);
+          }
+        }
+      }
       continue;
     }
     for (const text of check.includes) {
@@ -210,12 +251,17 @@ for (const check of artifactChecks) {
     }
     if (check.path === "/sitemap.xml") {
       const locs = [...body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+      const locSet = new Set(locs);
       for (const loc of locs) {
         const pathname = new URL(loc).pathname;
         if (!isPathIndexableLocale(pathname)) failures.push(`${check.path}: contains non-indexable locale URL ${loc}`);
       }
       for (const prefix of indexablePrefixes) {
         if (!body.includes(`${siteOrigin}/${prefix}/`)) failures.push(`${check.path}: missing indexable locale /${prefix}/`);
+        for (const contentPath of localizedIndexableContentPaths) {
+          const localizedUrl = `${siteOrigin}/${prefix}${contentPath}`;
+          if (!locSet.has(localizedUrl)) failures.push(`${check.path}: missing localized content URL ${localizedUrl}`);
+        }
       }
     }
   } catch (error) {

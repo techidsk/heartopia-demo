@@ -1,8 +1,18 @@
 ---
 import SiteHeader from "@components/SiteHeader.astro";
 import SiteFooter from "@components/SiteFooter.astro";
+import { canRenderLocalizedRoute } from "@data/routes";
 import { getSiteConfig, type FooterGroup } from "@data/site";
-import { defaultLocale, getAlternateLocalePaths, getCanonicalPath, isLocaleIndexable, type Locale } from "@i18n/config";
+import {
+  defaultLocale,
+  getCanonicalPath,
+  getLocaleMeta,
+  isLocaleIndexable,
+  localizePath,
+  sourcePathFromLocalizedPath,
+  supportedLocales,
+  type Locale
+} from "@i18n/config";
 import { getUiMessages } from "@i18n/messages";
 
 type AlternateLocalePath = {
@@ -42,13 +52,27 @@ const {
 const siteConfig = getSiteConfig(locale);
 const messages = getUiMessages(locale);
 const resolvedRobots = robots || (isLocaleIndexable(locale) ? "index,follow,max-image-preview:large" : "noindex,follow");
-const canonical = new URL(getCanonicalPath(canonicalPath, locale), siteConfig.origin).toString();
-const alternateSourceLinks = alternateLocalePaths || getAlternateLocalePaths(canonicalPath);
+const canonicalSourcePath = sourcePathFromLocalizedPath(canonicalPath);
+const canonical = new URL(getCanonicalPath(canonicalSourcePath, locale), siteConfig.origin).toString();
+const alternateSourceLinks =
+  alternateLocalePaths ||
+  (
+    await Promise.all(
+      supportedLocales
+        .filter((targetLocale) => isLocaleIndexable(targetLocale))
+        .map(async (targetLocale) => ({
+          locale: targetLocale,
+          hrefLang: getLocaleMeta(targetLocale).language,
+          path: localizePath(canonicalSourcePath, targetLocale),
+          renderable: await canRenderLocalizedRoute(canonicalSourcePath, targetLocale)
+        }))
+    )
+  ).filter((link) => link.renderable);
 const alternateLinks = alternateSourceLinks.map((link) => ({
   ...link,
   href: new URL(link.path, siteConfig.origin).toString()
 }));
-const xDefaultHref = new URL(getCanonicalPath(canonicalPath, defaultLocale), siteConfig.origin).toString();
+const xDefaultHref = new URL(getCanonicalPath(canonicalSourcePath, defaultLocale), siteConfig.origin).toString();
 const resolvedOgImage = ogImage || siteConfig.defaultImage;
 const resolvedOgImageAlt = ogImageAlt || siteConfig.defaultImageAlt;
 const absoluteOgImage = new URL(resolvedOgImage, siteConfig.origin).toString();
