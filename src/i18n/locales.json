@@ -107,7 +107,7 @@
       "ogLocale": "zh_CN",
       "pathPrefix": "zh-hans",
       "textDirection": "ltr",
-      "indexable": false
+      "indexable": true
     }
   }
 }

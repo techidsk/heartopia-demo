@@ -4,10 +4,23 @@ import { fileURLToPath } from "node:url";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const distDir = path.join(rootDir, "dist");
+const localesPath = path.join(rootDir, "src", "i18n", "locales.json");
 const siteOrigin = "https://heartopia.blog";
 const adsenseClient = "ca-pub-1476592629109289";
 const adsTxtLine = "google.com, pub-1476592629109289, DIRECT, f08c47fec0942fa0";
 const oldOriginPattern = /heartopia-demo\.pages\.dev/i;
+const adsensePlaceholderPatterns = [
+  /replace-with-your-real-inbox@example\.com/i,
+  /Before AdSense submission/i,
+  /placeholder email/i,
+  /提交 AdSense 审核前/,
+  /占位邮箱/
+];
+const localesConfig = JSON.parse(await fs.readFile(localesPath, "utf8"));
+const localeEntries = Object.entries(localesConfig.locales);
+const indexedLocales = localeEntries.filter(([, meta]) => meta.indexable);
+const localeByPrefix = new Map(localeEntries.filter(([, meta]) => meta.pathPrefix).map(([locale, meta]) => [meta.pathPrefix, locale]));
+const indexablePrefixes = new Set(indexedLocales.map(([, meta]) => meta.pathPrefix).filter(Boolean));
 
 const htmlPaths = [
   "/",
@@ -41,6 +54,18 @@ const toDistFile = (routePath) => {
 const readDist = async (routePath) => fs.readFile(toDistFile(routePath), "utf8");
 const toPosix = (value) => value.split(path.sep).join("/");
 const has = (html, pattern) => pattern.test(html);
+const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+function localeForPath(pathname) {
+  const normalized = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  const prefix = normalized.split("/").filter(Boolean)[0] || "";
+  return localeByPrefix.get(prefix) || localesConfig.defaultLocale;
+}
+
+function isPathIndexableLocale(pathname) {
+  const locale = localeForPath(pathname);
+  return Boolean(localesConfig.locales[locale]?.indexable);
+}
 
 async function walkFiles(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -99,9 +124,24 @@ for (const filePath of htmlFiles) {
     ["twitter:image:alt", /<meta\s+name=["']twitter:image:alt["']\s+content=["'][^"']+["']/i]
   ];
 
+  for (const pattern of adsensePlaceholderPatterns) {
+    if (pattern.test(html)) failures.push(`${relative}: contains AdSense/contact placeholder copy`);
+  }
+
   if (!isNoindex) {
+    const canonicalMatch = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i);
+    const canonicalHref = canonicalMatch?.[1] || "";
+    const locale = localeForPath(new URL(canonicalHref || siteOrigin, siteOrigin).pathname);
+    const localeMeta = localesConfig.locales[locale];
     checks.push(
       ["canonical", /<link\s+rel=["']canonical["']\s+href=["']https:\/\/heartopia\.blog\//i],
+      [
+        "self hreflang",
+        new RegExp(
+          `<link\\s+rel=["']alternate["']\\s+hreflang=["']${escapeRegExp(localeMeta.language)}["']\\s+href=["']${escapeRegExp(canonicalHref)}["']`,
+          "i"
+        )
+      ],
       ["adsense", new RegExp(`pagead2\\.googlesyndication\\.com/pagead/js/adsbygoogle\\.js\\?client=${adsenseClient}`)],
       ["json-ld", /<script\s+type=["']application\/ld\+json["']/i]
     );
@@ -121,10 +161,25 @@ for (const check of artifactChecks) {
       if (!Array.isArray(parsed.entries) || parsed.entries.length < 10) {
         failures.push(`${check.path}: expected entries array with at least 10 items`);
       }
+      for (const entry of parsed.entries || []) {
+        if (entry.path && !isPathIndexableLocale(entry.path)) {
+          failures.push(`${check.path}: contains non-indexable locale path ${entry.path}`);
+        }
+      }
       continue;
     }
     for (const text of check.includes) {
       if (!body.includes(text)) failures.push(`${check.path}: missing ${text}`);
+    }
+    if (check.path === "/sitemap.xml") {
+      const locs = [...body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+      for (const loc of locs) {
+        const pathname = new URL(loc).pathname;
+        if (!isPathIndexableLocale(pathname)) failures.push(`${check.path}: contains non-indexable locale URL ${loc}`);
+      }
+      for (const prefix of indexablePrefixes) {
+        if (!body.includes(`${siteOrigin}/${prefix}/`)) failures.push(`${check.path}: missing indexable locale /${prefix}/`);
+      }
     }
   } catch (error) {
     failures.push(`${check.path}: ${error.message}`);
