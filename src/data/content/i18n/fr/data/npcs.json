@@ -3,155 +3,160 @@
     "id": "blanc",
     "translationStatus": "translated",
     "name": "Blanc",
-    "group": "base de données: mentor",
-    "role": "guide: Gardening mentor",
-    "location": "carte: Garden Shop / Central Town",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "mentor",
+    "role": "Jardinage mentor",
+    "location": "Garden boutique / Ville centrale",
+    "schedule": "Use Blanc as the jardining route anchor before seed buying and flower planning.",
     "gifts": [
-      "récompenses: Fresh crop",
-      "récompenses: Flower",
-      "récompenses: Simple cooked dish"
+      "Fresh culture",
+      "Flower",
+      "Simple cooked dish"
     ],
     "nameZh": "布蘭克",
-    "profile": "Blanc est une fiche en français pour planifier les routes, la collection et les vérifications.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "profile": "TW Wiki lists Blanc as the jardining mentor tied to cultures, flowers, and later flower breeding routes.",
+    "source": "Page d'accueil du wiki Biligame Heartopia TW"
   },
   {
     "id": "bob",
     "translationStatus": "translated",
     "name": "Bob",
-    "group": "base de données: shopkeeper",
-    "role": "guide: Furniture workshop owner",
-    "location": "carte: Central Town",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "marchand",
+    "role": "Furniture workshop owner",
+    "location": "Ville centrale",
+    "schedule": "Use the meubles stop while planning maison layouts.",
     "gifts": [
-      "récompenses: Wood decor",
-      "récompenses: House material",
-      "récompenses: Simple dish"
-    ]
+      "Wood decor",
+      "maison material",
+      "Simple dish"
+    ],
+    "nameZh": "Bob"
   },
   {
     "id": "dorothy",
     "translationStatus": "translated",
     "name": "Dorothy",
-    "group": "base de données: shopkeeper",
-    "role": "guide: Clothing store owner",
-    "location": "carte: Central Town",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "marchand",
+    "role": "Clothing store owner",
+    "location": "Ville centrale",
+    "schedule": "Pair clothing errands with Ville centrale PNJ talk loops.",
     "gifts": [
-      "récompenses: Fashion item",
-      "récompenses: Flower",
-      "récompenses: Dessert"
-    ]
+      "Fashion item",
+      "Flower",
+      "Dessert"
+    ],
+    "nameZh": "Dorothy"
   },
   {
     "id": "mrs-joan",
     "translationStatus": "translated",
     "name": "Mrs. Joan",
-    "group": "base de données: mentor",
-    "role": "guide: Pet care mentor",
-    "location": "carte: Pet Shop",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "mentor",
+    "role": "animal de compagnie soin mentor",
+    "location": "Animalerie",
+    "schedule": "Use the animal de compagnie boutique route when testing Chien nourriture and adoption flows.",
     "gifts": [
-      "récompenses: Dog Food",
-      "récompenses: Pet-care item",
-      "récompenses: Cooked dish"
-    ]
+      "Chien nourriture",
+      "animal de compagnie-soin item",
+      "Cooked dish"
+    ],
+    "nameZh": "Mrs. Joan"
   },
   {
     "id": "doris",
     "translationStatus": "translated",
     "name": "Doris",
-    "group": "base de données: dynamic",
-    "role": "guide: Weather merchant",
-    "location": "carte: Dynamic weather route",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "dynamique",
+    "role": "meteo merchant",
+    "location": "Dynamic meteo route",
+    "schedule": "Confirm the in-jeu meteo route before planning rare purchases.",
     "gifts": [
-      "récompenses: Weather item",
-      "récompenses: Colorful flower",
-      "récompenses: Rare dish"
-    ]
+      "meteo item",
+      "Colorful flower",
+      "rare dish"
+    ],
+    "nameZh": "Doris"
   },
   {
     "id": "bill",
     "translationStatus": "translated",
     "name": "Bill",
-    "group": "base de données: event",
-    "role": "guide: Sea Fishing event mentor",
-    "location": "carte: Fishing Village",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "evenement",
+    "role": "Sea Poissonsing evenement mentor",
+    "location": "Village de peche",
+    "schedule": "Use Bill when sea peche or evenement tasks point to coastal routes.",
     "gifts": [
-      "récompenses: Fish",
-      "récompenses: Repair Kit",
-      "récompenses: Seafood dish"
-    ]
+      "Poissons",
+      "Kit de reparation",
+      "Seafood dish"
+    ],
+    "nameZh": "Bill"
   },
   {
     "id": "albert-ii",
     "translationStatus": "translated",
     "name": "Albert II",
-    "group": "base de données: featured",
-    "role": "guide: Featured town character",
-    "location": "carte: Heartopia town route",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "vedette",
+    "role": "Featured town character",
+    "location": "Heartopia town route",
+    "schedule": "Accueilpage feature character; confirm live location in jeu before routing cadeaux.",
     "gifts": [
-      "récompenses: Favorite gift pending",
-      "récompenses: Liked gift pending",
-      "récompenses: Talk route"
+      "Favorite cadeau pending",
+      "Liked cadeau pending",
+      "Talk route"
     ],
     "nameZh": "阿爾伯特二世",
-    "profile": "Albert II est une fiche en français pour planifier les routes, la collection et les vérifications.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "profile": "Featured on the TW Wiki homepage character strip; detailed route donnees is still pending.",
+    "source": "Page d'accueil du wiki Biligame Heartopia TW"
   },
   {
     "id": "ka-ching",
     "translationStatus": "translated",
     "name": "Ka Ching",
-    "group": "base de données: shopkeeper",
-    "role": "guide: General store owner",
-    "location": "carte: Central Town",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "marchand",
+    "role": "General store owner",
+    "location": "Ville centrale",
+    "schedule": "Pair Ka Ching with inventory, utility, and long-route preparation errands.",
     "gifts": [
-      "récompenses: Utility item",
-      "récompenses: Simple dish",
-      "récompenses: Favorite gift pending"
+      "Utility item",
+      "Simple dish",
+      "Favorite cadeau pending"
     ],
     "nameZh": "卡清",
-    "profile": "Ka Ching est une fiche en français pour planifier les routes, la collection et les vérifications.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "profile": "Featured on the TW Wiki homepage and connected to the general-store route in this guide.",
+    "source": "Page d'accueil du wiki Biligame Heartopia TW"
   },
   {
     "id": "annie",
     "translationStatus": "translated",
     "name": "Annie",
-    "group": "base de données: shopkeeper",
-    "role": "guide: Music store owner",
-    "location": "carte: Central Town",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "marchand",
+    "role": "Music store owner",
+    "location": "Ville centrale",
+    "schedule": "Use Annie when maison ambience, musique, and collection routes overlap.",
     "gifts": [
-      "récompenses: Music decor",
-      "récompenses: Dessert",
-      "récompenses: Favorite gift pending"
+      "Music decor",
+      "Dessert",
+      "Favorite cadeau pending"
     ],
     "nameZh": "安妮",
-    "profile": "Annie est une fiche en français pour planifier les routes, la collection et les vérifications.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "profile": "Featured on the TW Wiki homepage and connected to the musique-store route in this guide.",
+    "source": "Page d'accueil du wiki Biligame Heartopia TW"
   },
   {
     "id": "vania",
     "translationStatus": "translated",
     "name": "Vania",
-    "group": "base de données: featured",
-    "role": "guide: Featured town character",
-    "location": "carte: Heartopia town route",
-    "schedule": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "group": "vedette",
+    "role": "Featured town character",
+    "location": "Heartopia town route",
+    "schedule": "Accueilpage feature character; confirm live location in jeu before routing cadeaux.",
     "gifts": [
-      "récompenses: Favorite gift pending",
-      "récompenses: Liked gift pending",
-      "récompenses: Talk route"
+      "Favorite cadeau pending",
+      "Liked cadeau pending",
+      "Talk route"
     ],
     "nameZh": "萬尼亞",
-    "profile": "Vania est une fiche en français pour planifier les routes, la collection et les vérifications.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "profile": "Featured on the TW Wiki homepage character strip; detailed route donnees is still pending.",
+    "source": "Page d'accueil du wiki Biligame Heartopia TW"
   }
 ]

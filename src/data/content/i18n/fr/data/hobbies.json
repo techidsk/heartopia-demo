@@ -2,50 +2,50 @@
   {
     "id": "fishing",
     "translationStatus": "translated",
-    "name": "Fishing",
-    "group": "guide: core",
-    "summary": "Fishing comme repère rapide en français pour les routes, la planification et la collection."
+    "name": "Peche",
+    "group": "principal",
+    "summary": "Water-type route with unlock, tension practice, poisson suivi, carte spots, and rare catch planning."
   },
   {
     "id": "gardening",
     "translationStatus": "translated",
-    "name": "Gardening",
-    "group": "guide: core",
-    "summary": "Gardening comme repère rapide en français pour les routes, la planification et la collection."
+    "name": "Jardinage",
+    "group": "principal",
+    "summary": "culture route with seed planning, profit comparison, planificateur de cultures, minuteurs, and recette sinks."
   },
   {
     "id": "cooking",
     "translationStatus": "translated",
-    "name": "Cooking",
-    "group": "guide: core",
-    "summary": "Cooking comme repère rapide en français pour les routes, la planification et la collection."
+    "name": "Cuisine",
+    "group": "principal",
+    "summary": "recette route with Massimo unlock, jam, Poissons and Chips, QTE safety, and evenement ingredient checks."
   },
   {
     "id": "birdwatching",
     "translationStatus": "translated",
-    "name": "Birdwatching",
-    "group": "guide: nature",
-    "summary": "Birdwatching comme repère rapide en français pour les routes, la planification et la collection."
+    "name": "Observation des oiseaux",
+    "group": "nature",
+    "summary": "Camera and binocular route with meteo, location, pose, and collection checklist planning."
   },
   {
     "id": "insects",
     "translationStatus": "translated",
-    "name": "Insect Catching",
-    "group": "guide: nature",
-    "summary": "Insect Catching comme repère rapide en français pour les routes, la planification et la collection."
+    "name": "Chasse aux insectes",
+    "group": "nature",
+    "summary": "Bubble Net route with DG6 unlock, time, meteo, habitat, rare bugs, and sale checks."
   },
   {
     "id": "cat-care",
     "translationStatus": "translated",
-    "name": "Cat Care",
-    "group": "guide: care",
-    "summary": "Cat Care comme repère rapide en français pour les routes, la planification et la collection."
+    "name": "Soin des chats",
+    "group": "soin",
+    "summary": "animal de compagnie boutique route with adoption, nourriture tests, favorite tracking, and daily soin loops."
   },
   {
     "id": "dog-care",
     "translationStatus": "translated",
-    "name": "Dog Care",
-    "group": "guide: care",
-    "summary": "Dog Care comme repère rapide en français pour les routes, la planification et la collection."
+    "name": "Soin des chiens",
+    "group": "soin",
+    "summary": "Chien nourriture baseline, adoption route, Oak-Oak separation, and animal favorite testing."
   }
 ]

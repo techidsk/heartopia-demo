@@ -2,96 +2,96 @@
   {
     "id": "profit-calculator",
     "translationStatus": "translated",
-    "title": "Profit Calculator",
-    "category": "outils: calculator",
-    "description": "Page Heartopia en français pour Profit Calculator, avec itinéraires, données, outils et conseils pratiques.",
-    "useCase": "Utilise Profit Calculator pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "title": "Calculateur de profit",
+    "category": "calculateur",
+    "description": "Compare culture profit by plot count, session length, and star bonus.",
+    "useCase": "Choose the best culture before planting.",
     "linkedData": [
-      "base de données: crops",
-      "base de données: shops",
-      "base de données: recipes"
+      "cultures",
+      "boutiques",
+      "recettes"
     ],
-    "status": "publié"
+    "status": "fonctionnel"
   },
   {
     "id": "fish-tracker",
     "translationStatus": "translated",
-    "title": "Fish Tracker",
-    "category": "outils: tracker",
-    "description": "Page Heartopia en français pour Fish Tracker, avec itinéraires, données, outils et conseils pratiques.",
-    "useCase": "Utilise Fish Tracker pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "title": "Suivi des poissons",
+    "category": "suivi",
+    "description": "Track rare poisson catches by water route, niveau gate, and time condition.",
+    "useCase": "enregistrer collection progression across sessions.",
     "linkedData": [
-      "base de données: fish",
-      "base de données: map"
+      "poisson",
+      "carte"
     ],
-    "status": "publié"
+    "status": "fonctionnel"
   },
   {
     "id": "crop-planner",
     "translationStatus": "translated",
-    "title": "Crop Planner",
-    "category": "outils: planner",
-    "description": "Page Heartopia en français pour Crop Planner, avec itinéraires, données, outils et conseils pratiques.",
-    "useCase": "Utilise Crop Planner pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "title": "Planificateur de cultures",
+    "category": "planificateur",
+    "description": "Build an actif, equilibre, or hors ligne culture route from playtime and plot count.",
+    "useCase": "Turn a play fenetre into a planting schedule.",
     "linkedData": [
-      "base de données: crops",
-      "base de données: shops"
+      "cultures",
+      "boutiques"
     ],
-    "status": "publié"
+    "status": "fonctionnel"
   },
   {
     "id": "friendship-tracker",
     "translationStatus": "translated",
-    "title": "Friendship Tracker",
-    "category": "outils: tracker",
-    "description": "Page Heartopia en français pour Friendship Tracker, avec itinéraires, données, outils et conseils pratiques.",
-    "useCase": "Utilise Friendship Tracker pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "title": "Suivi d'amitie",
+    "category": "suivi",
+    "description": "Estimate PNJ routine progression from cadeaux, talks, and hangouts.",
+    "useCase": "Plan one relationship loop for the week.",
     "linkedData": [
-      "base de données: npcs",
-      "base de données: shops"
+      "npcs",
+      "boutiques"
     ],
-    "status": "publié"
+    "status": "fonctionnel"
   },
   {
     "id": "recipe-finder",
     "translationStatus": "translated",
-    "title": "Recipe Finder",
-    "category": "outils: finder",
-    "description": "Page Heartopia en français pour Recipe Finder, avec itinéraires, données, outils et conseils pratiques.",
-    "useCase": "Utilise Recipe Finder pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "title": "Chercheur de recettes",
+    "category": "chercheur",
+    "description": "filtrer starter recettes by ingredients you already have.",
+    "useCase": "Choose what to cook before selling or gifting.",
     "linkedData": [
-      "base de données: recipes",
-      "base de données: crops",
-      "base de données: fish"
+      "recettes",
+      "cultures",
+      "poisson"
     ],
-    "status": "publié"
+    "status": "fonctionnel"
   },
   {
     "id": "checklist",
     "translationStatus": "translated",
-    "title": "Daily Checklist",
-    "category": "outils: tracker",
-    "description": "Page Heartopia en français pour Daily Checklist, avec itinéraires, données, outils et conseils pratiques.",
-    "useCase": "Utilise Daily Checklist pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "title": "Checklist quotidienne",
+    "category": "suivi",
+    "description": "enregistrer a repeatable daily route with presets for codes, cultures, poisson, and PNJ.",
+    "useCase": "Keep short sessions from drifting.",
     "linkedData": [
-      "base de données: codes",
-      "base de données: map",
-      "base de données: shops"
+      "codes",
+      "carte",
+      "boutiques"
     ],
-    "status": "publié"
+    "status": "fonctionnel"
   },
   {
     "id": "timer",
     "translationStatus": "translated",
-    "title": "Route Timer",
-    "category": "outils: timer",
-    "description": "Page Heartopia en français pour Route Timer, avec itinéraires, données, outils et conseils pratiques.",
-    "useCase": "Utilise Route Timer pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "title": "Minuteur de route",
+    "category": "minuteur",
+    "description": "Run persistent minuteurs for cultures, cooking, peche windows, and boutique checks.",
+    "useCase": "Know when to return to a route.",
     "linkedData": [
-      "base de données: crops",
-      "base de données: recipes",
-      "base de données: map"
+      "cultures",
+      "recettes",
+      "carte"
     ],
-    "status": "publié"
+    "status": "fonctionnel"
   }
 ]

@@ -2,141 +2,141 @@
   {
     "id": "gardening-store",
     "translationStatus": "translated",
-    "name": "Gardening Store",
-    "type": "boutique: seeds",
+    "name": "Boutique de jardinage",
+    "type": "graines",
     "owner": "Blanc",
-    "region": "carte: Central Town",
-    "unlock": "Gardening Store se débloque via la route Heartopia adaptée ou la progression associée.",
-    "hours": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "region": "Ville centrale",
+    "unlock": "Available after the first jardining tutorial route.",
+    "hours": "Check during normal daytime town errands.",
     "inventory": [
-      "fiche: Tomato Seeds",
-      "fiche: Potato Seeds",
-      "fiche: Wheat Seeds",
-      "fiche: Fertilizer",
-      "fiche: Basic watering supplies"
+      "Tomate Seeds",
+      "Pomme de terre Seeds",
+      "Ble Seeds",
+      "Engrais",
+      "Basic watering supplies"
     ],
-    "notes": "Gardening Store est une fiche en français pour planifier les routes, la collection et les vérifications."
+    "notes": "Best first stop before culture-profit planning. Pair seed buys with a short-session culture route."
   },
   {
     "id": "furniture-workshop",
     "translationStatus": "translated",
-    "name": "Furniture Workshop",
-    "type": "boutique: furniture",
+    "name": "Atelier de meubles",
+    "type": "meubles",
     "owner": "Bob",
-    "region": "carte: Central Town",
-    "unlock": "Furniture Workshop se débloque via la route Heartopia adaptée ou la progression associée.",
-    "hours": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "region": "Ville centrale",
+    "unlock": "Follow Bob's meubles route and early joinery requetes.",
+    "hours": "Plan this stop before maison-design sessions.",
     "inventory": [
-      "fiche: Starter furniture",
-      "fiche: Tables",
-      "fiche: Chairs",
-      "fiche: Shelves",
-      "fiche: Decor sets"
+      "Starter meubles",
+      "Tables",
+      "Chairs",
+      "Shelves",
+      "Decor sets"
     ],
-    "notes": "Furniture Workshop est une fiche en français pour planifier les routes, la collection et les vérifications."
+    "notes": "Main handoff for maison layouts, material planning, and room-by-room design ideas."
   },
   {
     "id": "pet-shop",
     "translationStatus": "translated",
-    "name": "Pet Shop",
-    "type": "boutique: pets",
+    "name": "Animalerie",
+    "type": "animal de compagnies",
     "owner": "Mrs. Joan and Bailey J",
-    "region": "carte: Central Town",
-    "unlock": "Pet Shop se débloque via la route Heartopia adaptée ou la progression associée.",
-    "hours": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "region": "Ville centrale",
+    "unlock": "Use the animal de compagnie-soin onboarding path before broad nourriture tests.",
+    "hours": "Visit when routing cats, dogs, and birdwatching unlocks.",
     "inventory": [
-      "fiche: Dog Food",
-      "fiche: Cat-care items",
-      "fiche: Pet adoption leads",
-      "fiche: Pet care basics",
-      "fiche: Birdwatching route notes"
+      "Chien nourriture",
+      "Chat-soin items",
+      "animal de compagnie adoption leads",
+      "animal de compagnie soin basics",
+      "Observation des oiseaux route notes"
     ],
-    "notes": "Pet Shop est une fiche en français pour planifier les routes, la collection et les vérifications."
+    "notes": "Keep animal de compagnie-boutique cats and dogs separate from sauvage mangeoires animales and Oak-Oak."
   },
   {
     "id": "clothing-store",
     "translationStatus": "translated",
-    "name": "Clothing Store",
-    "type": "boutique: fashion",
+    "name": "Boutique de vetements",
+    "type": "mode",
     "owner": "Dorothy",
-    "region": "carte: Central Town",
-    "unlock": "Clothing Store se débloque via la route Heartopia adaptée ou la progression associée.",
-    "hours": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "region": "Ville centrale",
+    "unlock": "progression Dorothy's mode and poster route.",
+    "hours": "Combine with Ville centrale PNJ cadeau loops.",
     "inventory": [
-      "fiche: Outfits",
-      "fiche: Cosmetic pieces",
-      "fiche: Fashion route items",
-      "fiche: Event outfit leads"
+      "Outfits",
+      "Cosmetic pieces",
+      "Fashion route items",
+      "evenement outfit leads"
     ],
-    "notes": "Clothing Store est une fiche en français pour planifier les routes, la collection et les vérifications."
+    "notes": "Useful for mode collection checks and seasonal outfit planning."
   },
   {
     "id": "music-store",
     "translationStatus": "translated",
-    "name": "Annie's Music Store",
-    "type": "boutique: music",
+    "name": "Boutique de musique d'Annie",
+    "type": "musique",
     "owner": "Annie",
-    "region": "carte: Central Town",
-    "unlock": "Annie's Music Store se débloque via la route Heartopia adaptée ou la progression associée.",
-    "hours": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "region": "Ville centrale",
+    "unlock": "Use after sheet-musique and home-decoration systems appear.",
+    "hours": "Best checked during home-design prep.",
     "inventory": [
-      "fiche: Sheet music leads",
-      "fiche: Music decor",
-      "fiche: Instrument route notes",
-      "fiche: Home ambiance items"
+      "Sheet musique leads",
+      "Music decor",
+      "Instrument route notes",
+      "Accueil ambiance items"
     ],
-    "notes": "Annie's Music Store est une fiche en français pour planifier les routes, la collection et les vérifications."
+    "notes": "Connects maison design with musique collection and room-theme planning."
   },
   {
     "id": "general-store",
     "translationStatus": "translated",
-    "name": "Ka Ching's General Store",
-    "type": "boutique: general",
+    "name": "Magasin general de Ka Ching",
+    "type": "general",
     "owner": "Ka Ching",
-    "region": "carte: Central Town",
-    "unlock": "Ka Ching's General Store se débloque via la route Heartopia adaptée ou la progression associée.",
-    "hours": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "region": "Ville centrale",
+    "unlock": "Visit when inventory pressure starts blocking routes.",
+    "hours": "Pair with any long gathering, peche, or evenement loop.",
     "inventory": [
-      "fiche: Inventory expansion",
-      "fiche: Utility goods",
-      "fiche: Storage route notes",
-      "fiche: Errand supplies"
+      "Inventory expansion",
+      "Utility goods",
+      "Storage route notes",
+      "Errand supplies"
     ],
-    "notes": "Ka Ching's General Store est une fiche en français pour planifier les routes, la collection et les vérifications."
+    "notes": "Use this before material-heavy routes so peche and foraging sessions do not stall."
   },
   {
     "id": "doris-weather-cart",
     "translationStatus": "translated",
-    "name": "Doris Weather Cart",
-    "type": "boutique: traveling",
+    "name": "Chariot meteo de Doris",
+    "type": "itinerant",
     "owner": "Doris",
-    "region": "carte: Dynamic weather route",
-    "unlock": "Doris Weather Cart se débloque via la route Heartopia adaptée ou la progression associée.",
-    "hours": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "region": "Dynamic meteo route",
+    "unlock": "Appears around special meteo states, rainbows, snow, or meteor routes.",
+    "hours": "Patch-sensitive; confirm with the in-jeu carte and meteo forecast.",
     "inventory": [
-      "fiche: Weather recipes",
-      "fiche: Limited ingredients",
-      "fiche: Cosmetics",
-      "fiche: Furniture",
-      "fiche: Event stock"
+      "meteo recettes",
+      "Limited ingredients",
+      "Cosmetics",
+      "Furniture",
+      "evenement stock"
     ],
-    "notes": "Doris Weather Cart est une fiche en français pour planifier les routes, la collection et les vérifications."
+    "notes": "Treat Doris as a dynamique merchant. Do not plan rare purchases without checking meteo first."
   },
   {
     "id": "sea-fishing-booth",
     "translationStatus": "translated",
-    "name": "Sea Fishing Booth",
-    "type": "boutique: event",
+    "name": "Stand de peche en mer",
+    "type": "evenement",
     "owner": "Bill",
-    "region": "carte: Fishing Village",
-    "unlock": "Sea Fishing Booth se débloque via la route Heartopia adaptée ou la progression associée.",
-    "hours": "À vérifier selon l'heure du jeu et la rotation des boutiques.",
+    "region": "Village de peche",
+    "unlock": "Use during Sea Poissonsing and peche-evenement routes.",
+    "hours": "Check when the evenements page points to peche prep.",
     "inventory": [
-      "fiche: Sea fishing route",
-      "fiche: Event fish notes",
-      "fiche: Repair-kit reminders",
-      "fiche: Coastal task handoffs"
+      "Sea peche route",
+      "evenement poisson notes",
+      "Repair-kit reminders",
+      "Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth est une fiche en français pour planifier les routes, la collection et les vérifications."
+    "notes": "Best paired with poisson suivi, inventory checks, and evenement recompense planning."
   }
 ]

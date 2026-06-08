@@ -2,98 +2,98 @@
   {
     "id": "dog",
     "translationStatus": "translated",
-    "name": "Dog",
-    "category": "base de données: pet",
-    "route": "Utilise Dog pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Chien",
+    "category": "animal de compagnie",
+    "route": "animal de compagnie boutique adoption",
     "food": [
-      "fiche: Dog Food",
-      "fiche: Simple cooked dishes",
-      "fiche: Low-cost test foods"
+      "Chien nourriture",
+      "Simple cooked dishes",
+      "Low-cost test foods"
     ],
-    "unlock": "Dog se débloque via la route Heartopia adaptée ou la progression associée.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "unlock": "animal de compagnie-soin route after Mrs. Joan onboarding",
+    "source": "Animalerie"
   },
   {
     "id": "cat",
     "translationStatus": "translated",
-    "name": "Cat",
-    "category": "base de données: pet",
-    "route": "Utilise Cat pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Chat",
+    "category": "animal de compagnie",
+    "route": "animal de compagnie boutique onboarding",
     "food": [
-      "fiche: Cat-care items",
-      "fiche: Pet baseline food",
-      "fiche: Low-cost tests"
+      "Chat-soin items",
+      "animal de compagnie baseline nourriture",
+      "Low-cost tests"
     ],
-    "unlock": "Cat se débloque via la route Heartopia adaptée ou la progression associée.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "unlock": "First animal de compagnie-soin onboarding route",
+    "source": "Animalerie"
   },
   {
     "id": "fox",
     "translationStatus": "translated",
-    "name": "Fox",
-    "category": "base de données: wild",
-    "route": "Utilise Fox pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Renard",
+    "category": "sauvage",
+    "route": "Champ fleuri trough",
     "food": [
-      "fiche: Meat lane",
-      "fiche: Fish lane",
-      "fiche: Wild animal tests"
+      "Meat lane",
+      "Poissons lane",
+      "Sauvage animal tests"
     ],
-    "unlock": "Fox se débloque via la route Heartopia adaptée ou la progression associée.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "unlock": "Sauvage animal trough route",
+    "source": "Champ fleuri"
   },
   {
     "id": "sea-otter",
     "translationStatus": "translated",
-    "name": "Sea Otter",
-    "category": "base de données: wild",
-    "route": "Utilise Sea Otter pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Loutre de mer",
+    "category": "sauvage",
+    "route": "Poissonsing Village trough",
     "food": [
-      "fiche: Shrimp",
-      "fiche: Shell lane",
-      "fiche: Coastal fish tests"
+      "Shrimp",
+      "Shell lane",
+      "Coastal poisson tests"
     ],
-    "unlock": "Sea Otter se débloque via la route Heartopia adaptée ou la progression associée.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "unlock": "Sauvage animal trough route",
+    "source": "Village de peche"
   },
   {
     "id": "chicken",
     "translationStatus": "translated",
-    "name": "Chicken",
-    "category": "base de données: farm",
-    "route": "Utilise Chicken pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Poule",
+    "category": "ferme",
+    "route": "Ferme animal route",
     "food": [
-      "fiche: Corn",
-      "fiche: Crop lane",
-      "fiche: Basic feed tests"
+      "Mais",
+      "culture lane",
+      "Basic feed tests"
     ],
-    "unlock": "Chicken se débloque via la route Heartopia adaptée ou la progression associée.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "unlock": "Ferme animal soin route",
+    "source": "Ferme animal lane"
   },
   {
     "id": "cow",
     "translationStatus": "translated",
-    "name": "Cow",
-    "category": "base de données: farm",
-    "route": "Utilise Cow pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Vache",
+    "category": "ferme",
+    "route": "Ferme animal route",
     "food": [
-      "fiche: Wheat",
-      "fiche: Grass lane",
-      "fiche: Long crop overlap"
+      "Ble",
+      "Grass lane",
+      "Long culture overlap"
     ],
-    "unlock": "Cow se débloque via la route Heartopia adaptée ou la progression associée.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "unlock": "Ferme animal soin route",
+    "source": "Ferme animal lane"
   },
   {
     "id": "oak-oak",
     "translationStatus": "translated",
     "name": "Oak-Oak",
-    "category": "base de données: quest",
-    "route": "Utilise Oak-Oak pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "category": "quete",
+    "route": "Foret quete companion",
     "food": [
-      "fiche: Quest-specific care",
-      "fiche: Do not mix with dog route"
+      "Quete-specific soin",
+      "Do not mix with dog route"
     ],
-    "unlock": "Oak-Oak se débloque via la route Heartopia adaptée ou la progression associée.",
-    "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
+    "unlock": "Astralis Foret quete line",
+    "source": "Quete route"
   }
 ]

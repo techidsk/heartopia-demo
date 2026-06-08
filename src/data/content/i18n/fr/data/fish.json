@@ -2,241 +2,241 @@
   {
     "id": "wels-catfish",
     "translationStatus": "translated",
-    "name": "Wels Catfish",
-    "spot": "carte: Meadow Lake",
-    "condition": "Utilise Wels Catfish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Silure glane",
+    "spot": "Lac de la Prairie",
+    "condition": "Starter route",
+    "window": "Toute session debutant",
     "level": "Lv 1",
-    "use": "Wels Catfish comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "route de peche rapide au debut"
   },
   {
     "id": "goldfish",
     "translationStatus": "translated",
-    "name": "Goldfish",
-    "spot": "carte: Meadow Lake",
-    "condition": "Utilise Goldfish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Poisson rouge",
+    "spot": "Lac de la Prairie",
+    "condition": "Du matin au soir",
+    "window": "Matin-soir",
     "level": "Lv 1",
-    "use": "Goldfish comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Cible de collection et suivi au debut"
   },
   {
     "id": "arctic-char",
     "translationStatus": "translated",
-    "name": "Arctic Char",
-    "spot": "carte: Forest Lake",
-    "condition": "Utilise Arctic Char pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Omble chevalier",
+    "spot": "Lac de la Foret",
+    "condition": "Priorite par temps frais",
+    "window": "Temps frais",
     "level": "Lv 2",
-    "use": "Arctic Char comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Controle de route du lac de la Foret"
   },
   {
     "id": "giant-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Giant Pearl Mussel",
-    "spot": "carte: Forest Lake",
-    "condition": "Utilise Giant Pearl Mussel pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Grande moule perliere",
+    "spot": "Lac de la Foret",
+    "condition": "Ligne exemple a tout moment",
+    "window": "A tout moment",
     "level": "Lv 2",
-    "use": "Giant Pearl Mussel comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Complement du lac de la Foret et controle de valeur"
   },
   {
     "id": "largemouth-bass",
     "translationStatus": "translated",
-    "name": "Largemouth Bass",
-    "spot": "carte: Forest Lake",
-    "condition": "Utilise Largemouth Bass pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Achigan a grande bouche",
+    "spot": "Lac de la Foret",
+    "condition": "Complement de route de lac",
+    "window": "A tout moment",
     "level": "Lv 2",
-    "use": "Largemouth Bass comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Prise lacustre courante"
   },
   {
     "id": "common-whitefish",
     "translationStatus": "translated",
-    "name": "Common Whitefish",
-    "spot": "carte: Onsen Mountain Lake",
-    "condition": "Utilise Common Whitefish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Coregone blanc",
+    "spot": "Lac de la montagne onsen",
+    "condition": "route de lac de montagne",
+    "window": "A tout moment",
     "level": "Lv 3",
-    "use": "Common Whitefish comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Prise de boucle onsen"
   },
   {
     "id": "ruffe",
     "translationStatus": "translated",
-    "name": "Ruffe",
-    "spot": "carte: Onsen Mountain Lake",
-    "condition": "Utilise Ruffe pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Gremille",
+    "spot": "Lac de la montagne onsen",
+    "condition": "route de lac de montagne",
+    "window": "A tout moment",
     "level": "Lv 3",
-    "use": "Ruffe comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Prise de boucle onsen"
   },
   {
     "id": "crucian-carp",
     "translationStatus": "translated",
-    "name": "Crucian Carp",
-    "spot": "carte: Spring Lake",
-    "condition": "Utilise Crucian Carp pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Carassin",
+    "spot": "Lac du printemps",
+    "condition": "Route bonus sous la pluie",
+    "window": "Bonus de pluie",
     "level": "Lv 3",
-    "use": "Crucian Carp comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Cible de session sous la pluie"
   },
   {
     "id": "huchen",
     "translationStatus": "translated",
-    "name": "Huchen",
-    "spot": "carte: Giantwood River",
-    "condition": "Utilise Huchen pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Huchon",
+    "spot": "Riviere Grandbois",
+    "condition": "niveau 9; Temps arc-en-ciel",
+    "window": "Temps arc-en-ciel",
     "level": "Lv 9",
-    "use": "Huchen comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Priorite de riviere rare"
   },
   {
     "id": "burbot",
     "translationStatus": "translated",
-    "name": "Burbot",
-    "spot": "carte: Tranquil River",
-    "condition": "Utilise Burbot pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Lotte",
+    "spot": "Riviere tranquille",
+    "condition": "De midi au soir",
+    "window": "Midi-soir",
     "level": "Lv 4",
-    "use": "Burbot comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "route de riviere courante"
   },
   {
     "id": "beltfish",
     "translationStatus": "translated",
-    "name": "Beltfish",
-    "spot": "carte: Zephyr Sea",
-    "condition": "Utilise Beltfish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Poisson-sabre",
+    "spot": "Mer Zephyr",
+    "condition": "Coastal route",
+    "window": "Any coastal session",
     "level": "Lv 4",
-    "use": "Beltfish comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Complement de route cotiere"
   },
   {
     "id": "atlantic-pygmy-octopus",
     "translationStatus": "translated",
-    "name": "Atlantic Pygmy Octopus",
-    "spot": "carte: Zephyr Sea",
-    "condition": "Utilise Atlantic Pygmy Octopus pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Poulpe pygmee atlantique",
+    "spot": "Mer Zephyr",
+    "condition": "Coastal route",
+    "window": "Any coastal session",
     "level": "Lv 4",
-    "use": "Atlantic Pygmy Octopus comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Controle de route cotiere"
   },
   {
     "id": "atlantic-salmon",
     "translationStatus": "translated",
-    "name": "Atlantic Salmon",
-    "spot": "carte: Whale Sea",
-    "condition": "Utilise Atlantic Salmon pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Saumon atlantique",
+    "spot": "Mer de la Baleine",
+    "condition": "Late ocean route",
+    "window": "Late ocean session",
     "level": "Lv 7",
-    "use": "Atlantic Salmon comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "route de valeur oceanique"
   },
   {
     "id": "swordfish",
     "translationStatus": "translated",
-    "name": "Swordfish",
-    "spot": "carte: Whale Sea",
-    "condition": "Utilise Swordfish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Espadon",
+    "spot": "Mer de la Baleine",
+    "condition": "niveau 10",
+    "window": "Late ocean session",
     "level": "Lv 10",
-    "use": "Swordfish comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Cible rare de fin de jeu"
   },
   {
     "id": "rainbow-fish",
     "translationStatus": "translated",
-    "name": "Rainbow Fish",
-    "spot": "carte: Starlight Sea",
-    "condition": "Utilise Rainbow Fish pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Poisson arc-en-ciel",
+    "spot": "Mer etoilee",
+    "condition": "Temps arc-en-ciel",
+    "window": "Temps arc-en-ciel",
     "level": "Lv 8",
-    "use": "Rainbow Fish comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Priorite par meteo rare"
   },
   {
     "id": "koi",
     "translationStatus": "translated",
-    "name": "Koi",
-    "spot": "carte: Secret Pond",
-    "condition": "Utilise Koi pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Carpe koi",
+    "spot": "Etang secret",
+    "condition": "Minuit route",
+    "window": "Minuit",
     "level": "Lv 5",
-    "use": "Koi comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Controle d'etang cache"
   },
   {
     "id": "golden-king-crab",
     "translationStatus": "translated",
-    "name": "Golden King Crab",
-    "spot": "carte: Sea Fishing",
-    "condition": "Utilise Golden King Crab pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Crabe royal dore",
+    "spot": "Peche en mer",
+    "condition": "Route d'evenement",
+    "window": "Fenetre d'evenement",
     "level": "Event",
-    "use": "Golden King Crab comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Cible de l'evenement peche en mer"
   },
   {
     "id": "bluefin-tuna",
     "translationStatus": "translated",
-    "name": "Bluefin Tuna",
-    "spot": "carte: Old Sea",
-    "condition": "Utilise Bluefin Tuna pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Thon rouge",
+    "spot": "Vieille mer",
+    "condition": "niveau 10",
+    "window": "Late ocean session",
     "level": "Lv 10",
-    "use": "Bluefin Tuna comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Cible rare de fin de jeu"
   },
   {
     "id": "smooth-hammerhead",
     "translationStatus": "translated",
-    "name": "Smooth Hammerhead",
-    "spot": "carte: Deep Sea",
-    "condition": "Utilise Smooth Hammerhead pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Requin-marteau halicorne",
+    "spot": "Deep Sea",
+    "condition": "niveau 10",
+    "window": "Late ocean session",
     "level": "Lv 10",
-    "use": "Smooth Hammerhead comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Cible rare de fin de jeu"
   },
   {
     "id": "european-eel",
     "translationStatus": "translated",
-    "name": "European Eel",
-    "spot": "carte: Old Sea",
-    "condition": "Utilise European Eel pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Anguille europeenne",
+    "spot": "Vieille mer",
+    "condition": "Soir route",
+    "window": "Soir",
     "level": "Lv 7",
-    "use": "European Eel comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Vieille mer evening target"
   },
   {
     "id": "butterfly-koi",
     "translationStatus": "translated",
-    "name": "Butterfly Koi",
-    "spot": "carte: Secret Pond",
-    "condition": "Utilise Butterfly Koi pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Koi papillon",
+    "spot": "Etang secret",
+    "condition": "rare pond check",
+    "window": "rare pond fenetre",
     "level": "Lv 6",
-    "use": "Butterfly Koi comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Hidden pond rare check"
   },
   {
     "id": "large-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Large Pearl Mussel",
-    "spot": "carte: Forest Lake",
-    "condition": "Utilise Large Pearl Mussel pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Grande moule perliere",
+    "spot": "Lac de la Foret",
+    "condition": "Ligne exemple a tout moment",
+    "window": "A tout moment",
     "level": "Lv 5",
-    "use": "Large Pearl Mussel comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Foret Lake collection target"
   },
   {
     "id": "rainbow-trout",
     "translationStatus": "translated",
-    "name": "Rainbow Trout",
-    "spot": "carte: Giantwood River",
-    "condition": "Utilise Rainbow Trout pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Truite arc-en-ciel",
+    "spot": "Riviere Grandbois",
+    "condition": "Rainbow route candidate",
+    "window": "Temps arc-en-ciel",
     "level": "Lv 6",
-    "use": "Rainbow Trout comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "rare riviere meteo check"
   },
   {
     "id": "sea-bream",
     "translationStatus": "translated",
-    "name": "Sea Bream",
-    "spot": "carte: Fishing Village",
-    "condition": "Utilise Sea Bream pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "window": "vérifié: itinéraire",
+    "name": "Dorade",
+    "spot": "Village de peche",
+    "condition": "Starter coastal check",
+    "window": "Any coastal session",
     "level": "Lv 1",
-    "use": "Sea Bream comme repère rapide en français pour les routes, la planification et la collection."
+    "use": "Starter coastal route"
   }
 ]

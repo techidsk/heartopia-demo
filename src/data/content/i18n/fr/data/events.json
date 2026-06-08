@@ -2,82 +2,82 @@
   {
     "id": "modular-streets",
     "translationStatus": "translated",
-    "name": "Modular Streets Festival",
-    "window": "vérifié: itinéraire",
-    "route": "Utilise Modular Streets Festival pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Modular Sarbrets Festival",
+    "window": "May 9 - June 20, 2026",
+    "route": "Brick poisson, Brick insects, Brick birds, and Collector's Challenge tasks.",
     "rewards": [
-      "récompenses: Brick furniture lane",
-      "récompenses: Festival collectibles",
-      "récompenses: Collection progress"
+      "Brick meubles lane",
+      "Festival collectibles",
+      "Collection progression"
     ],
     "prep": [
-      "itinéraire: Redeem active codes",
-      "itinéraire: Free storage space",
-      "itinéraire: Open fish tracker",
-      "itinéraire: Check map routes"
+      "Redeem actif codes",
+      "Free storage space",
+      "ouvrir poisson suivi",
+      "Check carte routes"
     ]
   },
   {
     "id": "graffiti-channel",
     "translationStatus": "translated",
     "name": "Graffiti Channel Exhibition",
-    "window": "vérifié: itinéraire",
-    "route": "Utilise Graffiti Channel Exhibition pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "May 9 - June 20, 2026",
+    "route": "Fashion and collectible route tied to festival recompense loops.",
     "rewards": [
-      "récompenses: Fashion display route",
-      "récompenses: Collector tasks",
-      "récompenses: Event styling notes"
+      "Fashion display route",
+      "Collector tasks",
+      "evenement styling notes"
     ],
     "prep": [
-      "itinéraire: Check clothing store",
-      "itinéraire: Review event checklist",
-      "itinéraire: Leave room for display items"
+      "Check clothing store",
+      "Review evenement checklist",
+      "Leave room for display items"
     ]
   },
   {
     "id": "sea-fishing",
     "translationStatus": "translated",
-    "name": "Sea Fishing",
-    "window": "vérifié: itinéraire",
-    "route": "Utilise Sea Fishing pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Peche en mer",
+    "window": "Route de deblocage",
+    "route": "Poissonsing Village with Bill; useful for evenement tasks and rare poisson routing.",
     "rewards": [
-      "récompenses: Sea fish progress",
-      "récompenses: Fishing event rewards",
-      "récompenses: Recipe inputs"
+      "Sea poisson progression",
+      "Poissonsing evenement recompenses",
+      "recette inputs"
     ],
     "prep": [
-      "itinéraire: Open fish tracker",
-      "itinéraire: Check inventory space",
-      "itinéraire: Bring repair kit if needed"
+      "ouvrir poisson suivi",
+      "Check inventory space",
+      "Bring repair kit if needed"
     ]
   },
   {
     "id": "next-banner-watch",
     "translationStatus": "translated",
     "name": "Next Banner Watch",
-    "window": "vérifié: itinéraire",
-    "route": "Utilise Next Banner Watch pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "window": "A annoncer",
+    "route": "Placeholder watch item for the next officiel banner or festival handoff.",
     "rewards": [
-      "récompenses: Unknown until announcement"
+      "Unknown until announcement"
     ],
     "prep": [
-      "itinéraire: Keep codes page checked",
-      "itinéraire: Save flexible materials",
-      "itinéraire: Do not spend all event stock"
+      "Keep codes page checked",
+      "enregistrer flexible materiaux",
+      "Do not spend all evenement stock"
     ]
   },
   {
     "id": "closed-code-window",
     "translationStatus": "translated",
-    "name": "Closed Code Window Archive",
-    "window": "vérifié: itinéraire",
-    "route": "Utilise Closed Code Window Archive pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
+    "name": "Closed code fenetre archive",
+    "window": "Expire ou non verifie",
+    "route": "Archived recompense windows should stay separate from en cours tasks.",
     "rewards": [
-      "récompenses: Historical reward notes"
+      "Historical recompense notes"
     ],
     "prep": [
-      "itinéraire: Move expired codes out of current route",
-      "itinéraire: Keep source check date visible"
+      "Move expires codes out of en cours route",
+      "Keep source check date visible"
     ]
   }
 ]
