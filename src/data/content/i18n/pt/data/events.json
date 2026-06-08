@@ -2,82 +2,82 @@
   {
     "id": "modular-streets",
     "translationStatus": "translated",
-    "name": "Modular Streets Festival",
-    "window": "verificado: rota",
-    "route": "Use Modular Streets Festival para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Festival Modular Streets",
+    "window": "9 de maio - 20 de junho de 2026",
+    "route": "Tarefas de Brick fish, Brick insects, Brick birds e Collector's Challenge.",
     "rewards": [
-      "recompensas: Brick furniture lane",
-      "recompensas: Festival collectibles",
-      "recompensas: Collection progress"
+      "Linha de móveis Brick",
+      "Colecionáveis do festival",
+      "Progresso de coleção"
     ],
     "prep": [
-      "rota: Redeem active codes",
-      "rota: Free storage space",
-      "rota: Open fish tracker",
-      "rota: Check map routes"
+      "Resgatar códigos ativos",
+      "Liberar espaço de armazenamento",
+      "Abrir rastreador de peixes",
+      "Checar rotas do mapa"
     ]
   },
   {
     "id": "graffiti-channel",
     "translationStatus": "translated",
-    "name": "Graffiti Channel Exhibition",
-    "window": "verificado: rota",
-    "route": "Use Graffiti Channel Exhibition para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Exposição Graffiti Channel",
+    "window": "9 de maio - 20 de junho de 2026",
+    "route": "Rota de moda e colecionáveis ligada aos ciclos de recompensa do festival.",
     "rewards": [
-      "recompensas: Fashion display route",
-      "recompensas: Collector tasks",
-      "recompensas: Event styling notes"
+      "Rota de exibição de moda",
+      "Tarefas de colecionador",
+      "Notas de estilo do evento"
     ],
     "prep": [
-      "rota: Check clothing store",
-      "rota: Review event checklist",
-      "rota: Leave room for display items"
+      "Checar a loja de roupas",
+      "Revisar a lista do evento",
+      "Deixar espaço para itens de exibição"
     ]
   },
   {
     "id": "sea-fishing",
     "translationStatus": "translated",
     "name": "Sea Fishing",
-    "window": "verificado: rota",
-    "route": "Use Sea Fishing para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "window": "Rota de desbloqueio",
+    "route": "Vila de Pesca com Bill; útil para tarefas de evento e rotas de peixes raros.",
     "rewards": [
-      "recompensas: Sea fish progress",
-      "recompensas: Fishing event rewards",
-      "recompensas: Recipe inputs"
+      "Progresso de peixes marinhos",
+      "Recompensas de evento de pesca",
+      "Ingredientes de receitas"
     ],
     "prep": [
-      "rota: Open fish tracker",
-      "rota: Check inventory space",
-      "rota: Bring repair kit if needed"
+      "Abrir rastreador de peixes",
+      "Checar espaço do inventário",
+      "Levar kit de reparo se necessário"
     ]
   },
   {
     "id": "next-banner-watch",
     "translationStatus": "translated",
-    "name": "Next Banner Watch",
-    "window": "verificado: rota",
-    "route": "Use Next Banner Watch para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Observação do próximo banner",
+    "window": "TBA",
+    "route": "Item de observação para o próximo banner oficial ou transição de festival.",
     "rewards": [
-      "recompensas: Unknown until announcement"
+      "Desconhecido até o anúncio"
     ],
     "prep": [
-      "rota: Keep codes page checked",
-      "rota: Save flexible materials",
-      "rota: Do not spend all event stock"
+      "Manter a página de códigos verificada",
+      "Guardar materiais flexíveis",
+      "Não gastar todo o estoque de evento"
     ]
   },
   {
     "id": "closed-code-window",
     "translationStatus": "translated",
-    "name": "Closed Code Window Archive",
-    "window": "verificado: rota",
-    "route": "Use Closed Code Window Archive para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Arquivo de janela de códigos encerrada",
+    "window": "Expirado ou não verificado",
+    "route": "Janelas de recompensa arquivadas devem ficar separadas das tarefas atuais.",
     "rewards": [
-      "recompensas: Historical reward notes"
+      "Notas históricas de recompensa"
     ],
     "prep": [
-      "rota: Move expired codes out of current route",
-      "rota: Keep source check date visible"
+      "Remover códigos expirados da rota atual",
+      "Manter a data de verificação da fonte visível"
     ]
   }
 ]

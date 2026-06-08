@@ -2,98 +2,98 @@
   {
     "id": "dog",
     "translationStatus": "translated",
-    "name": "Dog",
-    "category": "base de dados: pet",
-    "route": "Use Dog para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Cachorro",
+    "category": "pet",
+    "route": "Adoção na Loja de Pets",
     "food": [
-      "entrada: Dog Food",
-      "entrada: Simple cooked dishes",
-      "entrada: Low-cost test foods"
+      "Ração de cachorro",
+      "Pratos simples cozidos",
+      "Alimentos baratos para teste"
     ],
-    "unlock": "Dog fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "unlock": "Rota de cuidado com pets após a introdução da Sra. Joan",
+    "source": "Loja de Pets"
   },
   {
     "id": "cat",
     "translationStatus": "translated",
-    "name": "Cat",
-    "category": "base de dados: pet",
-    "route": "Use Cat para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Gato",
+    "category": "pet",
+    "route": "Introdução da Loja de Pets",
     "food": [
-      "entrada: Cat-care items",
-      "entrada: Pet baseline food",
-      "entrada: Low-cost tests"
+      "Itens de cuidado para gatos",
+      "Comida base de pet",
+      "Testes baratos"
     ],
-    "unlock": "Cat fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "unlock": "Primeira rota de introdução ao cuidado com pets",
+    "source": "Loja de Pets"
   },
   {
     "id": "fox",
     "translationStatus": "translated",
-    "name": "Fox",
-    "category": "base de dados: wild",
-    "route": "Use Fox para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Raposa",
+    "category": "selvagem",
+    "route": "Cocho do Campo das Flores",
     "food": [
-      "entrada: Meat lane",
-      "entrada: Fish lane",
-      "entrada: Wild animal tests"
+      "Linha de carne",
+      "Linha de peixe",
+      "Testes com animais selvagens"
     ],
-    "unlock": "Fox fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "unlock": "Rota de cochos de animais selvagens",
+    "source": "Campo das Flores"
   },
   {
     "id": "sea-otter",
     "translationStatus": "translated",
-    "name": "Sea Otter",
-    "category": "base de dados: wild",
-    "route": "Use Sea Otter para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Lontra-marinha",
+    "category": "selvagem",
+    "route": "Cocho da Vila de Pesca",
     "food": [
-      "entrada: Shrimp",
-      "entrada: Shell lane",
-      "entrada: Coastal fish tests"
+      "Camarão",
+      "Linha de conchas",
+      "Testes com peixes costeiros"
     ],
-    "unlock": "Sea Otter fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "unlock": "Rota de cochos de animais selvagens",
+    "source": "Vila de Pesca"
   },
   {
     "id": "chicken",
     "translationStatus": "translated",
-    "name": "Chicken",
-    "category": "base de dados: farm",
-    "route": "Use Chicken para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Galinha",
+    "category": "fazenda",
+    "route": "Rota de animais da fazenda",
     "food": [
-      "entrada: Corn",
-      "entrada: Crop lane",
-      "entrada: Basic feed tests"
+      "Milho",
+      "Linha de cultivos",
+      "Testes básicos de ração"
     ],
-    "unlock": "Chicken fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "unlock": "Rota de cuidado de animais da fazenda",
+    "source": "Linha de animais da fazenda"
   },
   {
     "id": "cow",
     "translationStatus": "translated",
-    "name": "Cow",
-    "category": "base de dados: farm",
-    "route": "Use Cow para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "name": "Vaca",
+    "category": "fazenda",
+    "route": "Rota de animais da fazenda",
     "food": [
-      "entrada: Wheat",
-      "entrada: Grass lane",
-      "entrada: Long crop overlap"
+      "Trigo",
+      "Linha de capim",
+      "Sobreposição com cultivo longo"
     ],
-    "unlock": "Cow fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "unlock": "Rota de cuidado de animais da fazenda",
+    "source": "Linha de animais da fazenda"
   },
   {
     "id": "oak-oak",
     "translationStatus": "translated",
     "name": "Oak-Oak",
-    "category": "base de dados: quest",
-    "route": "Use Oak-Oak para planejar a rota e comparar mapa, loja, nível e rotina diária.",
+    "category": "missão",
+    "route": "Companheiro de missão da Floresta",
     "food": [
-      "entrada: Quest-specific care",
-      "entrada: Do not mix with dog route"
+      "Cuidado específico da missão",
+      "Não misturar com a rota de cachorros"
     ],
-    "unlock": "Oak-Oak fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "unlock": "Linha de missão da Floresta Astralis",
+    "source": "Rota de missão"
   }
 ]

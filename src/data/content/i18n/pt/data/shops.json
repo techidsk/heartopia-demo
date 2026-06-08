@@ -2,141 +2,141 @@
   {
     "id": "gardening-store",
     "translationStatus": "translated",
-    "name": "Gardening Store",
-    "type": "loja: seeds",
+    "name": "Loja de Jardinagem",
+    "type": "sementes",
     "owner": "Blanc",
-    "region": "mapa: Central Town",
-    "unlock": "Gardening Store fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "region": "Cidade Central",
+    "unlock": "Disponível após a primeira rota tutorial de jardinagem.",
+    "hours": "Confira durante tarefas normais da cidade durante o dia.",
     "inventory": [
-      "entrada: Tomato Seeds",
-      "entrada: Potato Seeds",
-      "entrada: Wheat Seeds",
-      "entrada: Fertilizer",
-      "entrada: Basic watering supplies"
+      "Sementes de tomate",
+      "Sementes de batata",
+      "Sementes de trigo",
+      "Fertilizante",
+      "Suprimentos básicos de rega"
     ],
-    "notes": "Gardening Store é uma ficha em português para planejar rotas, coleção e verificações rápidas."
+    "notes": "Melhor primeira parada antes de planejar lucro de cultivos. Combine sementes com uma rota de sessão curta."
   },
   {
     "id": "furniture-workshop",
     "translationStatus": "translated",
-    "name": "Furniture Workshop",
-    "type": "loja: furniture",
+    "name": "Oficina de Móveis",
+    "type": "móveis",
     "owner": "Bob",
-    "region": "mapa: Central Town",
-    "unlock": "Furniture Workshop fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "region": "Cidade Central",
+    "unlock": "Siga a rota de móveis do Bob e os primeiros pedidos de marcenaria.",
+    "hours": "Planeje esta parada antes das sessões de design de casa.",
     "inventory": [
-      "entrada: Starter furniture",
-      "entrada: Tables",
-      "entrada: Chairs",
-      "entrada: Shelves",
-      "entrada: Decor sets"
+      "Móveis iniciais",
+      "Mesas",
+      "Cadeiras",
+      "Prateleiras",
+      "Conjuntos de decoração"
     ],
-    "notes": "Furniture Workshop é uma ficha em português para planejar rotas, coleção e verificações rápidas."
+    "notes": "Principal conexão para layouts de casa, planejamento de materiais e ideias cômodo por cômodo."
   },
   {
     "id": "pet-shop",
     "translationStatus": "translated",
-    "name": "Pet Shop",
-    "type": "loja: pets",
-    "owner": "Mrs. Joan and Bailey J",
-    "region": "mapa: Central Town",
-    "unlock": "Pet Shop fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "name": "Loja de Pets",
+    "type": "pets",
+    "owner": "Sra. Joan e Bailey J",
+    "region": "Cidade Central",
+    "unlock": "Use a introdução de cuidado com pets antes de testar muitos alimentos.",
+    "hours": "Visite ao rotear gatos, cachorros e desbloqueios de observação de aves.",
     "inventory": [
-      "entrada: Dog Food",
-      "entrada: Cat-care items",
-      "entrada: Pet adoption leads",
-      "entrada: Pet care basics",
-      "entrada: Birdwatching route notes"
+      "Ração de cachorro",
+      "Itens de cuidado para gatos",
+      "Pistas de adoção de pets",
+      "Noções básicas de cuidado com pets",
+      "Notas de rota de observação de aves"
     ],
-    "notes": "Pet Shop é uma ficha em português para planejar rotas, coleção e verificações rápidas."
+    "notes": "Mantenha gatos e cachorros da loja separados dos cochos de animais selvagens e de Oak-Oak."
   },
   {
     "id": "clothing-store",
     "translationStatus": "translated",
-    "name": "Clothing Store",
-    "type": "loja: fashion",
+    "name": "Loja de Roupas",
+    "type": "moda",
     "owner": "Dorothy",
-    "region": "mapa: Central Town",
-    "unlock": "Clothing Store fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "region": "Cidade Central",
+    "unlock": "Avance a rota de moda e pôsteres da Dorothy.",
+    "hours": "Combine com ciclos de conversa e presentes de NPCs na Cidade Central.",
     "inventory": [
-      "entrada: Outfits",
-      "entrada: Cosmetic pieces",
-      "entrada: Fashion route items",
-      "entrada: Event outfit leads"
+      "Trajes",
+      "Peças cosméticas",
+      "Itens de rota de moda",
+      "Pistas de trajes de evento"
     ],
-    "notes": "Clothing Store é uma ficha em português para planejar rotas, coleção e verificações rápidas."
+    "notes": "Útil para checar coleções de moda e planejar roupas sazonais."
   },
   {
     "id": "music-store",
     "translationStatus": "translated",
-    "name": "Annie's Music Store",
-    "type": "loja: music",
+    "name": "Loja de Música da Annie",
+    "type": "música",
     "owner": "Annie",
-    "region": "mapa: Central Town",
-    "unlock": "Annie's Music Store fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "region": "Cidade Central",
+    "unlock": "Use depois que sistemas de partituras e decoração da casa aparecerem.",
+    "hours": "Melhor conferir durante a preparação de design da casa.",
     "inventory": [
-      "entrada: Sheet music leads",
-      "entrada: Music decor",
-      "entrada: Instrument route notes",
-      "entrada: Home ambiance items"
+      "Pistas de partituras",
+      "Decoração musical",
+      "Notas de rota de instrumentos",
+      "Itens de ambiente para casa"
     ],
-    "notes": "Annie's Music Store é uma ficha em português para planejar rotas, coleção e verificações rápidas."
+    "notes": "Conecta design de casa com coleção musical e planejamento de tema dos cômodos."
   },
   {
     "id": "general-store",
     "translationStatus": "translated",
-    "name": "Ka Ching's General Store",
-    "type": "loja: general",
+    "name": "Armazém Geral Ka Ching",
+    "type": "geral",
     "owner": "Ka Ching",
-    "region": "mapa: Central Town",
-    "unlock": "Ka Ching's General Store fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "region": "Cidade Central",
+    "unlock": "Visite quando a pressão do inventário começar a bloquear rotas.",
+    "hours": "Combine com qualquer ciclo longo de coleta, pesca ou evento.",
     "inventory": [
-      "entrada: Inventory expansion",
-      "entrada: Utility goods",
-      "entrada: Storage route notes",
-      "entrada: Errand supplies"
+      "Expansão de inventário",
+      "Bens utilitários",
+      "Notas de rota de armazenamento",
+      "Suprimentos para tarefas"
     ],
-    "notes": "Ka Ching's General Store é uma ficha em português para planejar rotas, coleção e verificações rápidas."
+    "notes": "Use antes de rotas pesadas em materiais para que pesca e coleta não travem."
   },
   {
     "id": "doris-weather-cart",
     "translationStatus": "translated",
-    "name": "Doris Weather Cart",
-    "type": "loja: traveling",
+    "name": "Carrinho Climático da Doris",
+    "type": "ambulante",
     "owner": "Doris",
-    "region": "mapa: Dynamic weather route",
-    "unlock": "Doris Weather Cart fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "region": "rota de clima dinâmico",
+    "unlock": "Aparece perto de estados climáticos especiais, arco-íris, neve ou rotas de meteoros.",
+    "hours": "Sensível a patches; confirme no mapa do jogo e na previsão do tempo.",
     "inventory": [
-      "entrada: Weather recipes",
-      "entrada: Limited ingredients",
-      "entrada: Cosmetics",
-      "entrada: Furniture",
-      "entrada: Event stock"
+      "Receitas de clima",
+      "Ingredientes limitados",
+      "Cosméticos",
+      "Móveis",
+      "Estoque de evento"
     ],
-    "notes": "Doris Weather Cart é uma ficha em português para planejar rotas, coleção e verificações rápidas."
+    "notes": "Trate Doris como mercadora dinâmica. Não planeje compras raras sem checar o clima primeiro."
   },
   {
     "id": "sea-fishing-booth",
     "translationStatus": "translated",
-    "name": "Sea Fishing Booth",
-    "type": "loja: event",
+    "name": "Barraca de Pesca Marinha",
+    "type": "evento",
     "owner": "Bill",
-    "region": "mapa: Fishing Village",
-    "unlock": "Sea Fishing Booth fica disponível na rota adequada de Heartopia ou após o progresso relacionado.",
-    "hours": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "region": "Vila de Pesca",
+    "unlock": "Use durante Sea Fishing e rotas de eventos de pesca.",
+    "hours": "Confira quando a página de eventos apontar para preparo de pesca.",
     "inventory": [
-      "entrada: Sea fishing route",
-      "entrada: Event fish notes",
-      "entrada: Repair-kit reminders",
-      "entrada: Coastal task handoffs"
+      "Rota de pesca marinha",
+      "Notas de peixes de evento",
+      "Lembretes de kit de reparo",
+      "Passagens para tarefas costeiras"
     ],
-    "notes": "Sea Fishing Booth é uma ficha em português para planejar rotas, coleção e verificações rápidas."
+    "notes": "Melhor combinar com rastreador de peixes, checagem de inventário e planejamento de recompensas de evento."
   }
 ]

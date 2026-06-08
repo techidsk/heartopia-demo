@@ -2,50 +2,50 @@
   {
     "id": "fishing",
     "translationStatus": "translated",
-    "name": "Fishing",
-    "group": "guia: core",
-    "summary": "Fishing como referência rápida em português para rota, planejamento e coleção."
+    "name": "Pesca",
+    "group": "principal",
+    "summary": "Rota de tipos de água com desbloqueio, prática de tensão, rastreador de peixes, pontos do mapa e planejamento de capturas raras."
   },
   {
     "id": "gardening",
     "translationStatus": "translated",
-    "name": "Gardening",
-    "group": "guia: core",
-    "summary": "Gardening como referência rápida em português para rota, planejamento e coleção."
+    "name": "Jardinagem",
+    "group": "principal",
+    "summary": "Rota de cultivos com planejamento de sementes, comparação de lucro, planejador de cultivos, temporizadores e uso em receitas."
   },
   {
     "id": "cooking",
     "translationStatus": "translated",
-    "name": "Cooking",
-    "group": "guia: core",
-    "summary": "Cooking como referência rápida em português para rota, planejamento e coleção."
+    "name": "Culinária",
+    "group": "principal",
+    "summary": "Rota de receitas com desbloqueio do Massimo, geleias, Fish and Chips, segurança de QTE e checagem de ingredientes de evento."
   },
   {
     "id": "birdwatching",
     "translationStatus": "translated",
-    "name": "Birdwatching",
-    "group": "guia: nature",
-    "summary": "Birdwatching como referência rápida em português para rota, planejamento e coleção."
+    "name": "Observação de aves",
+    "group": "natureza",
+    "summary": "Rota de câmera e binóculos com clima, localização, pose e checklist de coleção."
   },
   {
     "id": "insects",
     "translationStatus": "translated",
-    "name": "Insect Catching",
-    "group": "guia: nature",
-    "summary": "Insect Catching como referência rápida em português para rota, planejamento e coleção."
+    "name": "Captura de insetos",
+    "group": "natureza",
+    "summary": "Bubble Net rota with DG6 desbloqueio, tempo, clima, habitat, raro bugs, and sale checks."
   },
   {
     "id": "cat-care",
     "translationStatus": "translated",
-    "name": "Cat Care",
-    "group": "guia: care",
-    "summary": "Cat Care como referência rápida em português para rota, planejamento e coleção."
+    "name": "Cuidado com gatos",
+    "group": "cuidado",
+    "summary": "Rota da loja de pets com adoção, testes de comida, rastreamento de favoritos e ciclos diários de cuidado."
   },
   {
     "id": "dog-care",
     "translationStatus": "translated",
-    "name": "Dog Care",
-    "group": "guia: care",
-    "summary": "Dog Care como referência rápida em português para rota, planejamento e coleção."
+    "name": "Cuidado com cachorros",
+    "group": "cuidado",
+    "summary": "Base de ração de cachorro, rota de adoção, separação de Oak-Oak e testes de preferências dos animais."
   }
 ]

@@ -2,241 +2,241 @@
   {
     "id": "wels-catfish",
     "translationStatus": "translated",
-    "name": "Wels Catfish",
-    "spot": "mapa: Meadow Lake",
-    "condition": "Use Wels Catfish para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Siluro-europeu",
+    "spot": "Lago do Prado",
+    "condition": "Rota inicial",
+    "window": "Qualquer sessão inicial",
     "level": "Lv 1",
-    "use": "Wels Catfish como referência rápida em português para rota, planejamento e coleção."
+    "use": "Rota rápida de pesca no começo"
   },
   {
     "id": "goldfish",
     "translationStatus": "translated",
-    "name": "Goldfish",
-    "spot": "mapa: Meadow Lake",
-    "condition": "Use Goldfish para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Peixe-dourado",
+    "spot": "Lago do Prado",
+    "condition": "Da manhã ao anoitecer",
+    "window": "Manhã ao anoitecer",
     "level": "Lv 1",
-    "use": "Goldfish como referência rápida em português para rota, planejamento e coleção."
+    "use": "Alvo inicial de coleção e rastreamento"
   },
   {
     "id": "arctic-char",
     "translationStatus": "translated",
-    "name": "Arctic Char",
-    "spot": "mapa: Forest Lake",
-    "condition": "Use Arctic Char para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Truta-do-ártico",
+    "spot": "Lago da Floresta",
+    "condition": "Priorize em clima fresco",
+    "window": "Clima fresco",
     "level": "Lv 2",
-    "use": "Arctic Char como referência rápida em português para rota, planejamento e coleção."
+    "use": "Checagem da rota do Lago da Floresta"
   },
   {
     "id": "giant-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Giant Pearl Mussel",
-    "spot": "mapa: Forest Lake",
-    "condition": "Use Giant Pearl Mussel para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Mexilhão-pérola-gigante",
+    "spot": "Lago da Floresta",
+    "condition": "Registro de amostra em qualquer horário",
+    "window": "Qualquer horário",
     "level": "Lv 2",
-    "use": "Giant Pearl Mussel como referência rápida em português para rota, planejamento e coleção."
+    "use": "Preenchimento e checagem de valor do Lago da Floresta"
   },
   {
     "id": "largemouth-bass",
     "translationStatus": "translated",
-    "name": "Largemouth Bass",
-    "spot": "mapa: Forest Lake",
-    "condition": "Use Largemouth Bass para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Achigã",
+    "spot": "Lago da Floresta",
+    "condition": "Registro comum de rota de lago",
+    "window": "Qualquer horário",
     "level": "Lv 2",
-    "use": "Largemouth Bass como referência rápida em português para rota, planejamento e coleção."
+    "use": "Captura comum de lago"
   },
   {
     "id": "common-whitefish",
     "translationStatus": "translated",
-    "name": "Common Whitefish",
-    "spot": "mapa: Onsen Mountain Lake",
-    "condition": "Use Common Whitefish para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Coregono-comum",
+    "spot": "Lago da Montanha Onsen",
+    "condition": "Rota do lago da montanha",
+    "window": "Qualquer horário",
     "level": "Lv 3",
-    "use": "Common Whitefish como referência rápida em português para rota, planejamento e coleção."
+    "use": "Captura do circuito Onsen"
   },
   {
     "id": "ruffe",
     "translationStatus": "translated",
-    "name": "Ruffe",
-    "spot": "mapa: Onsen Mountain Lake",
-    "condition": "Use Ruffe para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Acerina",
+    "spot": "Lago da Montanha Onsen",
+    "condition": "Rota do lago da montanha",
+    "window": "Qualquer horário",
     "level": "Lv 3",
-    "use": "Ruffe como referência rápida em português para rota, planejamento e coleção."
+    "use": "Captura do circuito Onsen"
   },
   {
     "id": "crucian-carp",
     "translationStatus": "translated",
-    "name": "Crucian Carp",
-    "spot": "mapa: Spring Lake",
-    "condition": "Use Crucian Carp para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Carpa-cruciana",
+    "spot": "Lago da Nascente",
+    "condition": "Rota com bônus de chuva",
+    "window": "Bônus de chuva",
     "level": "Lv 3",
-    "use": "Crucian Carp como referência rápida em português para rota, planejamento e coleção."
+    "use": "Alvo para sessões chuvosas"
   },
   {
     "id": "huchen",
     "translationStatus": "translated",
-    "name": "Huchen",
-    "spot": "mapa: Giantwood River",
-    "condition": "Use Huchen para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Salmão-do-danúbio",
+    "spot": "Rio Madeira-Gigante",
+    "condition": "Lv 9; clima de arco-íris",
+    "window": "Clima de arco-íris",
     "level": "Lv 9",
-    "use": "Huchen como referência rápida em português para rota, planejamento e coleção."
+    "use": "Prioridade rara de rio"
   },
   {
     "id": "burbot",
     "translationStatus": "translated",
-    "name": "Burbot",
-    "spot": "mapa: Tranquil River",
-    "condition": "Use Burbot para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Lota",
+    "spot": "Rio Tranquilo",
+    "condition": "Do meio-dia ao anoitecer",
+    "window": "Meio-dia ao anoitecer",
     "level": "Lv 4",
-    "use": "Burbot como referência rápida em português para rota, planejamento e coleção."
+    "use": "Rota comum de rio"
   },
   {
     "id": "beltfish",
     "translationStatus": "translated",
-    "name": "Beltfish",
-    "spot": "mapa: Zephyr Sea",
-    "condition": "Use Beltfish para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Peixe-espada-de-fita",
+    "spot": "Mar Zefir",
+    "condition": "Rota costeira",
+    "window": "Qualquer sessão costeira",
     "level": "Lv 4",
-    "use": "Beltfish como referência rápida em português para rota, planejamento e coleção."
+    "use": "Preenchimento de rota costeira"
   },
   {
     "id": "atlantic-pygmy-octopus",
     "translationStatus": "translated",
-    "name": "Atlantic Pygmy Octopus",
-    "spot": "mapa: Zephyr Sea",
-    "condition": "Use Atlantic Pygmy Octopus para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Polvo-pigmeu-do-atlântico",
+    "spot": "Mar Zefir",
+    "condition": "Rota costeira",
+    "window": "Qualquer sessão costeira",
     "level": "Lv 4",
-    "use": "Atlantic Pygmy Octopus como referência rápida em português para rota, planejamento e coleção."
+    "use": "Checagem de rota costeira"
   },
   {
     "id": "atlantic-salmon",
     "translationStatus": "translated",
-    "name": "Atlantic Salmon",
-    "spot": "mapa: Whale Sea",
-    "condition": "Use Atlantic Salmon para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Salmão-do-atlântico",
+    "spot": "Mar da Baleia",
+    "condition": "Rota oceânica tardia",
+    "window": "Sessão oceânica tardia",
     "level": "Lv 7",
-    "use": "Atlantic Salmon como referência rápida em português para rota, planejamento e coleção."
+    "use": "Rota oceânica de valor"
   },
   {
     "id": "swordfish",
     "translationStatus": "translated",
-    "name": "Swordfish",
-    "spot": "mapa: Whale Sea",
-    "condition": "Use Swordfish para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Peixe-espada",
+    "spot": "Mar da Baleia",
+    "condition": "Lv 10",
+    "window": "Qualquer sessão costeira",
     "level": "Lv 10",
-    "use": "Swordfish como referência rápida em português para rota, planejamento e coleção."
+    "use": "Alvo raro de fim de jogo"
   },
   {
     "id": "rainbow-fish",
     "translationStatus": "translated",
-    "name": "Rainbow Fish",
-    "spot": "mapa: Starlight Sea",
-    "condition": "Use Rainbow Fish para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Peixe-arco-íris",
+    "spot": "Mar da Luz Estelar",
+    "condition": "Clima de arco-íris",
+    "window": "Clima de arco-íris",
     "level": "Lv 8",
-    "use": "Rainbow Fish como referência rápida em português para rota, planejamento e coleção."
+    "use": "Prioridade de clima raro"
   },
   {
     "id": "koi",
     "translationStatus": "translated",
-    "name": "Koi",
-    "spot": "mapa: Secret Pond",
-    "condition": "Use Koi para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Carpa-koi",
+    "spot": "Lagoa Secreta",
+    "condition": "Rota da meia-noite",
+    "window": "Meia-noite",
     "level": "Lv 5",
-    "use": "Koi como referência rápida em português para rota, planejamento e coleção."
+    "use": "Checagem da lagoa oculta"
   },
   {
     "id": "golden-king-crab",
     "translationStatus": "translated",
-    "name": "Golden King Crab",
-    "spot": "mapa: Sea Fishing",
-    "condition": "Use Golden King Crab para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
-    "level": "Event",
-    "use": "Golden King Crab como referência rápida em português para rota, planejamento e coleção."
+    "name": "Caranguejo-real-dourado",
+    "spot": "Sea Fishing",
+    "condition": "Rota de evento",
+    "window": "Janela de evento",
+    "level": "Evento",
+    "use": "Alvo do evento Sea Fishing"
   },
   {
     "id": "bluefin-tuna",
     "translationStatus": "translated",
-    "name": "Bluefin Tuna",
-    "spot": "mapa: Old Sea",
-    "condition": "Use Bluefin Tuna para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Atum-rabilho",
+    "spot": "Mar Antigo",
+    "condition": "Rota do anoitecer",
+    "window": "Anoitecer",
     "level": "Lv 10",
-    "use": "Bluefin Tuna como referência rápida em português para rota, planejamento e coleção."
+    "use": "Alvo do anoitecer no Mar Antigo"
   },
   {
     "id": "smooth-hammerhead",
     "translationStatus": "translated",
-    "name": "Smooth Hammerhead",
-    "spot": "mapa: Deep Sea",
-    "condition": "Use Smooth Hammerhead para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Tubarão-martelo-liso",
+    "spot": "Mar Profundo",
+    "condition": "Lv 10",
+    "window": "Qualquer sessão costeira",
     "level": "Lv 10",
-    "use": "Smooth Hammerhead como referência rápida em português para rota, planejamento e coleção."
+    "use": "Alvo raro de fim de jogo"
   },
   {
     "id": "european-eel",
     "translationStatus": "translated",
-    "name": "European Eel",
-    "spot": "mapa: Old Sea",
-    "condition": "Use European Eel para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Enguia-europeia",
+    "spot": "Mar Antigo",
+    "condition": "Checagem rara de lagoa",
+    "window": "Janela rara da lagoa",
     "level": "Lv 7",
-    "use": "European Eel como referência rápida em português para rota, planejamento e coleção."
+    "use": "Checagem rara da lagoa oculta"
   },
   {
     "id": "butterfly-koi",
     "translationStatus": "translated",
-    "name": "Butterfly Koi",
-    "spot": "mapa: Secret Pond",
-    "condition": "Use Butterfly Koi para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Carpa-koi-borboleta",
+    "spot": "Lagoa Secreta",
+    "condition": "Checagem rara da lagoa",
+    "window": "Janela rara da lagoa",
     "level": "Lv 6",
-    "use": "Butterfly Koi como referência rápida em português para rota, planejamento e coleção."
+    "use": "Checagem rara da lagoa oculta"
   },
   {
     "id": "large-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Large Pearl Mussel",
-    "spot": "mapa: Forest Lake",
-    "condition": "Use Large Pearl Mussel para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Mexilhão-pérola-grande",
+    "spot": "Lago da Floresta",
+    "condition": "Registro de amostra em qualquer horário",
+    "window": "Qualquer horário",
     "level": "Lv 5",
-    "use": "Large Pearl Mussel como referência rápida em português para rota, planejamento e coleção."
+    "use": "Alvo de coleção do Lago da Floresta"
   },
   {
     "id": "rainbow-trout",
     "translationStatus": "translated",
-    "name": "Rainbow Trout",
-    "spot": "mapa: Giantwood River",
-    "condition": "Use Rainbow Trout para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Truta-arco-íris",
+    "spot": "Rio Madeira-Gigante",
+    "condition": "Candidato de rota com arco-íris",
+    "window": "Clima de arco-íris",
     "level": "Lv 6",
-    "use": "Rainbow Trout como referência rápida em português para rota, planejamento e coleção."
+    "use": "Checagem de clima raro no rio"
   },
   {
     "id": "sea-bream",
     "translationStatus": "translated",
-    "name": "Sea Bream",
-    "spot": "mapa: Fishing Village",
-    "condition": "Use Sea Bream para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "window": "verificado: rota",
+    "name": "Sargo",
+    "spot": "Vila de Pesca",
+    "condition": "Checagem costeira inicial",
+    "window": "Qualquer sessão costeira",
     "level": "Lv 1",
-    "use": "Sea Bream como referência rápida em português para rota, planejamento e coleção."
+    "use": "Rota costeira inicial"
   }
 ]

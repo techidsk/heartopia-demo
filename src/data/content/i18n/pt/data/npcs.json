@@ -3,155 +3,160 @@
     "id": "blanc",
     "translationStatus": "translated",
     "name": "Blanc",
-    "group": "base de dados: mentor",
-    "role": "guia: Gardening mentor",
-    "location": "mapa: Garden Shop / Central Town",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "mentor",
+    "role": "Mentor de jardinagem",
+    "location": "Loja de Jardinagem / Cidade Central",
+    "schedule": "Use Blanc como âncora da rota de jardinagem antes de comprar sementes e planejar flores.",
     "gifts": [
-      "recompensas: Fresh crop",
-      "recompensas: Flower",
-      "recompensas: Simple cooked dish"
+      "Cultivo fresco",
+      "Flor",
+      "Prato simples cozido"
     ],
-    "nameZh": "布蘭克",
-    "profile": "Blanc é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "nameZh": "Blanc",
+    "profile": "A TW Wiki lista Blanc como mentor de jardinagem ligado a cultivos, flores e futuras rotas de cruzamento de flores.",
+    "source": "Biligame Heartopia TW Wiki página inicial"
   },
   {
     "id": "bob",
     "translationStatus": "translated",
     "name": "Bob",
-    "group": "base de dados: shopkeeper",
-    "role": "guia: Furniture workshop owner",
-    "location": "mapa: Central Town",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "lojista",
+    "role": "Dono da oficina de móveis",
+    "location": "Cidade Central",
+    "schedule": "Use a parada de móveis enquanto planeja layouts de casa.",
     "gifts": [
-      "recompensas: Wood decor",
-      "recompensas: House material",
-      "recompensas: Simple dish"
-    ]
+      "Decoração de madeira",
+      "Material de casa",
+      "Prato simples"
+    ],
+    "nameZh": "Bob"
   },
   {
     "id": "dorothy",
     "translationStatus": "translated",
     "name": "Dorothy",
-    "group": "base de dados: shopkeeper",
-    "role": "guia: Clothing store owner",
-    "location": "mapa: Central Town",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "lojista",
+    "role": "Dona da loja de roupas",
+    "location": "Cidade Central",
+    "schedule": "Combine tarefas de roupas com ciclos de conversa de NPCs na Cidade Central.",
     "gifts": [
-      "recompensas: Fashion item",
-      "recompensas: Flower",
-      "recompensas: Dessert"
-    ]
+      "Item de moda",
+      "Flor",
+      "Sobremesa"
+    ],
+    "nameZh": "Dorothy"
   },
   {
     "id": "mrs-joan",
     "translationStatus": "translated",
-    "name": "Mrs. Joan",
-    "group": "base de dados: mentor",
-    "role": "guia: Pet care mentor",
-    "location": "mapa: Pet Shop",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "name": "Sra. Joan",
+    "group": "mentor",
+    "role": "Mentora de cuidado com pets",
+    "location": "Loja de Pets",
+    "schedule": "Use a rota da loja de pets ao testar ração de cachorro e fluxos de adoção.",
     "gifts": [
-      "recompensas: Dog Food",
-      "recompensas: Pet-care item",
-      "recompensas: Cooked dish"
-    ]
+      "Ração de cachorro",
+      "Item de cuidado para pets",
+      "Prato cozido"
+    ],
+    "nameZh": "Sra. Joan"
   },
   {
     "id": "doris",
     "translationStatus": "translated",
     "name": "Doris",
-    "group": "base de dados: dynamic",
-    "role": "guia: Weather merchant",
-    "location": "mapa: Dynamic weather route",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "dinâmico",
+    "role": "Mercadora de clima",
+    "location": "Rota de clima dinâmico",
+    "schedule": "Confirme a rota climática no jogo antes de planejar compras raras.",
     "gifts": [
-      "recompensas: Weather item",
-      "recompensas: Colorful flower",
-      "recompensas: Rare dish"
-    ]
+      "Item de clima",
+      "Flor colorida",
+      "Prato raro"
+    ],
+    "nameZh": "Doris"
   },
   {
     "id": "bill",
     "translationStatus": "translated",
     "name": "Bill",
-    "group": "base de dados: event",
-    "role": "guia: Sea Fishing event mentor",
-    "location": "mapa: Fishing Village",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "evento",
+    "role": "Mentor do evento Sea Fishing",
+    "location": "Vila de Pesca",
+    "schedule": "Use Bill quando pesca marinha ou tarefas de evento apontarem para rotas costeiras.",
     "gifts": [
-      "recompensas: Fish",
-      "recompensas: Repair Kit",
-      "recompensas: Seafood dish"
-    ]
+      "Peixe",
+      "Kit de Reparo",
+      "Prato de frutos do mar"
+    ],
+    "nameZh": "Bill"
   },
   {
     "id": "albert-ii",
     "translationStatus": "translated",
     "name": "Albert II",
-    "group": "base de dados: featured",
-    "role": "guia: Featured town character",
-    "location": "mapa: Heartopia town route",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "destaque",
+    "role": "Personagem em destaque da cidade",
+    "location": "Rota da cidade de Heartopia",
+    "schedule": "Personagem em destaque da página inicial; confirme a localização ao vivo no jogo antes de rotear presentes.",
     "gifts": [
-      "recompensas: Favorite gift pending",
-      "recompensas: Liked gift pending",
-      "recompensas: Talk route"
+      "Presente favorito pendente",
+      "Presente apreciado pendente",
+      "Rota de conversa"
     ],
-    "nameZh": "阿爾伯特二世",
-    "profile": "Albert II é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "nameZh": "Albert II",
+    "profile": "Em destaque na faixa de personagens da página inicial da TW Wiki; dados detalhados de rota ainda pendentes.",
+    "source": "Biligame Heartopia TW Wiki página inicial"
   },
   {
     "id": "ka-ching",
     "translationStatus": "translated",
     "name": "Ka Ching",
-    "group": "base de dados: shopkeeper",
-    "role": "guia: General store owner",
-    "location": "mapa: Central Town",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "lojista",
+    "role": "Dono do armazém geral",
+    "location": "Cidade Central",
+    "schedule": "Combine Ka Ching com tarefas de inventário, utilidade e preparação de rotas longas.",
     "gifts": [
-      "recompensas: Utility item",
-      "recompensas: Simple dish",
-      "recompensas: Favorite gift pending"
+      "Item utilitário",
+      "Prato simples",
+      "Presente favorito pendente"
     ],
-    "nameZh": "卡清",
-    "profile": "Ka Ching é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "nameZh": "Ka Ching",
+    "profile": "Em destaque na página inicial da TW Wiki e conectado à rota do armazém geral neste guia.",
+    "source": "Biligame Heartopia TW Wiki página inicial"
   },
   {
     "id": "annie",
     "translationStatus": "translated",
     "name": "Annie",
-    "group": "base de dados: shopkeeper",
-    "role": "guia: Music store owner",
-    "location": "mapa: Central Town",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "lojista",
+    "role": "Dona da loja de música",
+    "location": "Cidade Central",
+    "schedule": "Use Annie quando ambiente da casa, música e rotas de coleção se sobrepuserem.",
     "gifts": [
-      "recompensas: Music decor",
-      "recompensas: Dessert",
-      "recompensas: Favorite gift pending"
+      "Decoração musical",
+      "Sobremesa",
+      "Presente favorito pendente"
     ],
-    "nameZh": "安妮",
-    "profile": "Annie é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "nameZh": "Annie",
+    "profile": "Em destaque na página inicial da TW Wiki e conectada à rota da loja de música neste guia.",
+    "source": "Biligame Heartopia TW Wiki página inicial"
   },
   {
     "id": "vania",
     "translationStatus": "translated",
     "name": "Vania",
-    "group": "base de dados: featured",
-    "role": "guia: Featured town character",
-    "location": "mapa: Heartopia town route",
-    "schedule": "Verifique conforme o horário do jogo e a rotação das lojas.",
+    "group": "destaque",
+    "role": "Mentora de pesca",
+    "location": "Rota da cidade de Heartopia",
+    "schedule": "Use Vania como referência da rota de pesca quando o desbloqueio apontar para varas, tensão e pontos d'água.",
     "gifts": [
-      "recompensas: Favorite gift pending",
-      "recompensas: Liked gift pending",
-      "recompensas: Talk route"
+      "Peixe",
+      "Kit de Reparo",
+      "Presente favorito pendente"
     ],
-    "nameZh": "萬尼亞",
-    "profile": "Vania é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
-    "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
+    "nameZh": "Vania",
+    "profile": "Featured on the TW Wiki homepage character strip; detailed rota data is still pending.",
+    "source": "Biligame Heartopia TW Wiki página inicial"
   }
 ]
