@@ -15,7 +15,7 @@
       "Eintrag: Fertilizer",
       "Eintrag: Basic watering supplies"
     ],
-    "notes": "Gardening Store ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+    "notes": "Gardening Store ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "Eintrag: Shelves",
       "Eintrag: Decor sets"
     ],
-    "notes": "Furniture Workshop ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+    "notes": "Furniture Workshop ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "Eintrag: Pet care basics",
       "Eintrag: Birdwatching route notes"
     ],
-    "notes": "Pet Shop ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+    "notes": "Pet Shop ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "Eintrag: Fashion route items",
       "Eintrag: Event outfit leads"
     ],
-    "notes": "Clothing Store ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+    "notes": "Clothing Store ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "Eintrag: Instrument route notes",
       "Eintrag: Home ambiance items"
     ],
-    "notes": "Annie's Music Store ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+    "notes": "Annie's Music Store ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "Eintrag: Storage route notes",
       "Eintrag: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+    "notes": "Ka Ching's General Store ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "Eintrag: Furniture",
       "Eintrag: Event stock"
     ],
-    "notes": "Doris Weather Cart ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+    "notes": "Doris Weather Cart ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "Eintrag: Repair-kit reminders",
       "Eintrag: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite."
+    "notes": "Sea Fishing Booth ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
   }
 ]

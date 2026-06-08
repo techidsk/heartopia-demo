@@ -4,7 +4,7 @@
     "translationStatus": "translated",
     "title": "Profit Calculator",
     "category": "ツール: calculator",
-    "description": "Heartopia の Profit Calculator 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "description": "Profit Calculator に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
     "useCase": "Profit Calculator を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
     "linkedData": [
       "データベース: crops",
@@ -18,7 +18,7 @@
     "translationStatus": "translated",
     "title": "Fish Tracker",
     "category": "ツール: tracker",
-    "description": "Heartopia の Fish Tracker 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "description": "Fish Tracker に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
     "useCase": "Fish Tracker を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
     "linkedData": [
       "データベース: fish",
@@ -31,7 +31,7 @@
     "translationStatus": "translated",
     "title": "Crop Planner",
     "category": "ツール: planner",
-    "description": "Heartopia の Crop Planner 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "description": "Crop Planner に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
     "useCase": "Crop Planner を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
     "linkedData": [
       "データベース: crops",
@@ -44,7 +44,7 @@
     "translationStatus": "translated",
     "title": "Friendship Tracker",
     "category": "ツール: tracker",
-    "description": "Heartopia の Friendship Tracker 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "description": "Friendship Tracker に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
     "useCase": "Friendship Tracker を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
     "linkedData": [
       "データベース: npcs",
@@ -57,7 +57,7 @@
     "translationStatus": "translated",
     "title": "Recipe Finder",
     "category": "ツール: finder",
-    "description": "Heartopia の Recipe Finder 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "description": "Recipe Finder に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
     "useCase": "Recipe Finder を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
     "linkedData": [
       "データベース: recipes",
@@ -71,7 +71,7 @@
     "translationStatus": "translated",
     "title": "Daily Checklist",
     "category": "ツール: tracker",
-    "description": "Heartopia の Daily Checklist 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "description": "Daily Checklist に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
     "useCase": "Daily Checklist を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
     "linkedData": [
       "データベース: codes",
@@ -85,7 +85,7 @@
     "translationStatus": "translated",
     "title": "Route Timer",
     "category": "ツール: timer",
-    "description": "Heartopia の Route Timer 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。",
+    "description": "Route Timer に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
     "useCase": "Route Timer を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
     "linkedData": [
       "データベース: crops",

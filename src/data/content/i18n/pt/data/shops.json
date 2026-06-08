@@ -15,7 +15,7 @@
       "entrada: Fertilizer",
       "entrada: Basic watering supplies"
     ],
-    "notes": "Gardening Store é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+    "notes": "Gardening Store é uma ficha em português para planejar rotas, coleção e verificações rápidas."
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "entrada: Shelves",
       "entrada: Decor sets"
     ],
-    "notes": "Furniture Workshop é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+    "notes": "Furniture Workshop é uma ficha em português para planejar rotas, coleção e verificações rápidas."
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "entrada: Pet care basics",
       "entrada: Birdwatching route notes"
     ],
-    "notes": "Pet Shop é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+    "notes": "Pet Shop é uma ficha em português para planejar rotas, coleção e verificações rápidas."
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "entrada: Fashion route items",
       "entrada: Event outfit leads"
     ],
-    "notes": "Clothing Store é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+    "notes": "Clothing Store é uma ficha em português para planejar rotas, coleção e verificações rápidas."
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "entrada: Instrument route notes",
       "entrada: Home ambiance items"
     ],
-    "notes": "Annie's Music Store é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+    "notes": "Annie's Music Store é uma ficha em português para planejar rotas, coleção e verificações rápidas."
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "entrada: Storage route notes",
       "entrada: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+    "notes": "Ka Ching's General Store é uma ficha em português para planejar rotas, coleção e verificações rápidas."
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "entrada: Furniture",
       "entrada: Event stock"
     ],
-    "notes": "Doris Weather Cart é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+    "notes": "Doris Weather Cart é uma ficha em português para planejar rotas, coleção e verificações rápidas."
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "entrada: Repair-kit reminders",
       "entrada: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth é um registro localizado para evitar fallback em inglês em páginas indexáveis."
+    "notes": "Sea Fishing Booth é uma ficha em português para planejar rotas, coleção e verificações rápidas."
   }
 ]

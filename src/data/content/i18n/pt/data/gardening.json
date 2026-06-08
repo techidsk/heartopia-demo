@@ -9,7 +9,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Tomato para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Tomato é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Tomato é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "1",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -23,7 +23,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Potato para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Potato é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Potato é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "1",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -37,7 +37,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Wheat para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Wheat é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Wheat é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "2",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -51,7 +51,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Lettuce para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Lettuce é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Lettuce é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "3",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -65,7 +65,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Pineapple para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Pineapple é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Pineapple é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "4",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -79,7 +79,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Carrot para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Carrot é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Carrot é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "5",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -93,7 +93,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Strawberry para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Strawberry é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Strawberry é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "6",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -107,7 +107,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Corn para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Corn é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Corn é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "6",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -121,7 +121,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Grape para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Grape é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Grape é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "7",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -135,7 +135,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Eggplant para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Eggplant é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Eggplant é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "8",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -149,7 +149,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 茶葉 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "茶葉 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "茶葉 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "11",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -163,7 +163,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Cacao Tree para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Cacao Tree é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Cacao Tree é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "12",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -177,7 +177,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use Avocado para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "Avocado é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "Avocado é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "13",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -191,7 +191,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 雛菊 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "雛菊 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "雛菊 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "3",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -205,7 +205,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 三色堇 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "三色堇 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "三色堇 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "4",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -219,7 +219,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 花燭 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "花燭 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "花燭 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "5",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -233,7 +233,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 虞美人 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "虞美人 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "虞美人 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "5",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -247,7 +247,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 馬蹄蓮 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "馬蹄蓮 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "馬蹄蓮 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "6",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -261,7 +261,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 牽牛花 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "牽牛花 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "牽牛花 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "6",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -275,7 +275,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 康乃馨 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "康乃馨 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "康乃馨 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "7",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -289,7 +289,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 鬱金香 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "鬱金香 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "鬱金香 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "8",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -303,7 +303,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 百合 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "百合 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "百合 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "9",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -317,7 +317,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 玫瑰 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "玫瑰 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "玫瑰 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "10",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -331,7 +331,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 風信子 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "風信子 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "風信子 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "11",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -345,7 +345,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 蝴蝶蘭 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "蝴蝶蘭 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "蝴蝶蘭 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "12",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -359,7 +359,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 天竺葵 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "天竺葵 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "天竺葵 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "13",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -373,7 +373,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 白蘿蔔 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "白蘿蔔 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "白蘿蔔 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "7",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   },
@@ -387,7 +387,7 @@
     "time": "verificado: rota",
     "weather": "verificado: rota",
     "route": "Use 綠絨蒿 para planejar a rota e comparar mapa, loja, nível e rotina diária.",
-    "lore": "綠絨蒿 é um registro localizado para evitar fallback em inglês em páginas indexáveis.",
+    "lore": "綠絨蒿 é uma ficha em português para planejar rotas, coleção e verificações rápidas.",
     "hobbyLevel": "3",
     "source": "Dados localizados do Heartopia Hub com base na edição em inglês."
   }

@@ -9,7 +9,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Tomato als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Tomato ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Tomato ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "1",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -23,7 +23,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Potato als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Potato ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Potato ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "1",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -37,7 +37,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Wheat als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Wheat ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Wheat ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "2",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -51,7 +51,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Lettuce als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Lettuce ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Lettuce ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "3",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -65,7 +65,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Pineapple als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Pineapple ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Pineapple ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "4",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -79,7 +79,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Carrot als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Carrot ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Carrot ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "5",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -93,7 +93,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Strawberry als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Strawberry ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Strawberry ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "6",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -107,7 +107,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Corn als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Corn ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Corn ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "6",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -121,7 +121,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Grape als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Grape ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Grape ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "7",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -135,7 +135,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Eggplant als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Eggplant ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Eggplant ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "8",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -149,7 +149,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 茶葉 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "茶葉 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "茶葉 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "11",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -163,7 +163,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Cacao Tree als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Cacao Tree ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Cacao Tree ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "12",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -177,7 +177,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze Avocado als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "Avocado ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Avocado ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "13",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -191,7 +191,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 雛菊 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "雛菊 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "雛菊 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "3",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -205,7 +205,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 三色堇 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "三色堇 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "三色堇 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "4",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -219,7 +219,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 花燭 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "花燭 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "花燭 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "5",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -233,7 +233,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 虞美人 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "虞美人 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "虞美人 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "5",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -247,7 +247,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 馬蹄蓮 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "馬蹄蓮 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "馬蹄蓮 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "6",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -261,7 +261,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 牽牛花 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "牽牛花 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "牽牛花 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "6",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -275,7 +275,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 康乃馨 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "康乃馨 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "康乃馨 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "7",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -289,7 +289,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 鬱金香 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "鬱金香 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "鬱金香 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "8",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -303,7 +303,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 百合 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "百合 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "百合 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "9",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -317,7 +317,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 玫瑰 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "玫瑰 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "玫瑰 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "10",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -331,7 +331,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 風信子 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "風信子 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "風信子 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "11",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -345,7 +345,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 蝴蝶蘭 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "蝴蝶蘭 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "蝴蝶蘭 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "12",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -359,7 +359,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 天竺葵 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "天竺葵 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "天竺葵 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "13",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -373,7 +373,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 白蘿蔔 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "白蘿蔔 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "白蘿蔔 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "7",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
@@ -387,7 +387,7 @@
     "time": "geprueft: Route",
     "weather": "geprueft: Route",
     "route": "Nutze 綠絨蒿 als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "lore": "綠絨蒿 ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "綠絨蒿 ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "hobbyLevel": "3",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   }

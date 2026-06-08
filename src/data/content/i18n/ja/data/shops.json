@@ -15,7 +15,7 @@
       "項目: Fertilizer",
       "項目: Basic watering supplies"
     ],
-    "notes": "Gardening Store は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+    "notes": "Gardening Store の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。"
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "項目: Shelves",
       "項目: Decor sets"
     ],
-    "notes": "Furniture Workshop は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+    "notes": "Furniture Workshop の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。"
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "項目: Pet care basics",
       "項目: Birdwatching route notes"
     ],
-    "notes": "Pet Shop は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+    "notes": "Pet Shop の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。"
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "項目: Fashion route items",
       "項目: Event outfit leads"
     ],
-    "notes": "Clothing Store は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+    "notes": "Clothing Store の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。"
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "項目: Instrument route notes",
       "項目: Home ambiance items"
     ],
-    "notes": "Annie's Music Store は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+    "notes": "Annie's Music Store の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。"
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "項目: Storage route notes",
       "項目: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+    "notes": "Ka Ching's General Store の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。"
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "項目: Furniture",
       "項目: Event stock"
     ],
-    "notes": "Doris Weather Cart は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+    "notes": "Doris Weather Cart の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。"
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "項目: Repair-kit reminders",
       "項目: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth は、インデックス可能なページで英語 fallback を出さないための日本語データです。"
+    "notes": "Sea Fishing Booth の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。"
   }
 ]

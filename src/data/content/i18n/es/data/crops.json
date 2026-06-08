@@ -11,7 +11,7 @@
     "nameZh": "番茄",
     "season": "ruta: 日常",
     "hobbyLevel": "1",
-    "lore": "Tomato es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Tomato es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -26,7 +26,7 @@
     "nameZh": "馬鈴薯",
     "season": "ruta: 日常",
     "hobbyLevel": "1",
-    "lore": "Potato es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Potato es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -41,7 +41,7 @@
     "nameZh": "小麥",
     "season": "ruta: 日常",
     "hobbyLevel": "2",
-    "lore": "Wheat es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Wheat es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -56,7 +56,7 @@
     "nameZh": "生菜",
     "season": "ruta: 日常",
     "hobbyLevel": "3",
-    "lore": "Lettuce es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Lettuce es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -71,7 +71,7 @@
     "nameZh": "鳳梨",
     "season": "ruta: 日常",
     "hobbyLevel": "4",
-    "lore": "Pineapple es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Pineapple es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -86,7 +86,7 @@
     "nameZh": "胡蘿蔔",
     "season": "ruta: 日常",
     "hobbyLevel": "5",
-    "lore": "Carrot es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Carrot es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -101,7 +101,7 @@
     "nameZh": "草莓",
     "season": "ruta: 日常",
     "hobbyLevel": "6",
-    "lore": "Strawberry es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Strawberry es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -116,7 +116,7 @@
     "nameZh": "玉米",
     "season": "ruta: 日常",
     "hobbyLevel": "6",
-    "lore": "Corn es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Corn es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -131,7 +131,7 @@
     "nameZh": "葡萄",
     "season": "ruta: 日常",
     "hobbyLevel": "7",
-    "lore": "Grape es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Grape es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -146,7 +146,7 @@
     "nameZh": "茄子",
     "season": "ruta: 日常",
     "hobbyLevel": "8",
-    "lore": "Eggplant es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Eggplant es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -171,7 +171,7 @@
     "nameZh": "可可豆",
     "season": "ruta: 日常",
     "hobbyLevel": "12",
-    "lore": "Cacao Tree es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Cacao Tree es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
   {
@@ -186,7 +186,7 @@
     "nameZh": "酪梨",
     "season": "ruta: 日常",
     "hobbyLevel": "13",
-    "lore": "Avocado es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Avocado es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   }
 ]

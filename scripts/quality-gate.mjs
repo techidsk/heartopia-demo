@@ -65,6 +65,16 @@ const nonEnglishUiLeakPatterns = [
   /Other entries from the same handbook group/,
   /Other insects from the same route tag/
 ];
+const generatedStaticCopyPatterns = [
+  /Heartopia の .+ 向け日本語ページ/,
+  /英語 fallback を出さないため/,
+  /without english fallback/i,
+  /sin mostrar contenido inglés como fallback/i,
+  /evitar fallback em inglês/i,
+  /tidak memakai fallback bahasa Inggris/i,
+  /ไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ/,
+  /영어 fallback을 표시하지 않도록/
+];
 const fallbackTitlePatterns = [
   /<title>Translation pending<\/title>/i,
   /<title>Übersetzung ausstehend<\/title>/i,
@@ -245,6 +255,9 @@ for (const filePath of htmlFiles) {
       const mainText = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] || html;
       for (const pattern of nonEnglishUiLeakPatterns) {
         if (pattern.test(mainText)) failures.push(`${relative}: non-English body contains English data UI copy`);
+      }
+      for (const pattern of generatedStaticCopyPatterns) {
+        if (pattern.test(mainText)) failures.push(`${relative}: body contains generated static-page placeholder copy`);
       }
     }
     checks.push(

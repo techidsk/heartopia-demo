@@ -15,7 +15,7 @@
       "รายการ: Fertilizer",
       "รายการ: Basic watering supplies"
     ],
-    "notes": "Gardening Store เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+    "notes": "Gardening Store เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "รายการ: Shelves",
       "รายการ: Decor sets"
     ],
-    "notes": "Furniture Workshop เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+    "notes": "Furniture Workshop เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "รายการ: Pet care basics",
       "รายการ: Birdwatching route notes"
     ],
-    "notes": "Pet Shop เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+    "notes": "Pet Shop เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "รายการ: Fashion route items",
       "รายการ: Event outfit leads"
     ],
-    "notes": "Clothing Store เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+    "notes": "Clothing Store เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "รายการ: Instrument route notes",
       "รายการ: Home ambiance items"
     ],
-    "notes": "Annie's Music Store เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+    "notes": "Annie's Music Store เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "รายการ: Storage route notes",
       "รายการ: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+    "notes": "Ka Ching's General Store เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "รายการ: Furniture",
       "รายการ: Event stock"
     ],
-    "notes": "Doris Weather Cart เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+    "notes": "Doris Weather Cart เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "รายการ: Repair-kit reminders",
       "รายการ: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ"
+    "notes": "Sea Fishing Booth เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
   }
 ]

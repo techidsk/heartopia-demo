@@ -2,437 +2,437 @@
   {
     "path": "/",
     "translationStatus": "translated",
-    "title": "Heartopia Beranda - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Beranda, berisi rute, data, alat, dan catatan pemain.",
-    "section": "Beranda",
+    "title": "Heartopia Hub Bahasa Indonesia",
+    "description": "Beranda Bahasa Indonesia untuk Heartopia: kode, database, peta, toko, ikan, tanaman, resep, dan alat bantu.",
+    "section": "B. Indonesia",
     "keywords": [
       "Heartopia",
-      "Beranda",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
     "ogImage": "/assets/heartopia-guide-hero.png",
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Beranda - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Beranda, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Beranda panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Beranda, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Beranda adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Hub Bahasa Indonesia</h1>\n          <p>Beranda Bahasa Indonesia untuk Heartopia: kode, database, peta, toko, ikan, tanaman, resep, dan alat bantu.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Mulai cepat</h2>\n            <p>Gunakan halaman ini sebagai pintu masuk ke rute utama Heartopia. Cek kode, buka database atau peta, lalu gunakan alat bantu saat perlu merencanakan.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/404.html",
     "translationStatus": "translated",
-    "title": "Heartopia Beranda - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Beranda, berisi rute, data, alat, dan catatan pemain.",
-    "section": "Beranda",
+    "title": "Halaman Heartopia tidak ditemukan",
+    "description": "Halaman Bahasa Indonesia ini tidak ditemukan. Gunakan kode, database, peta, atau alat bantu untuk lanjut.",
+    "section": "B. Indonesia",
     "keywords": [
       "Heartopia",
-      "Beranda",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Beranda - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Beranda, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Beranda panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Beranda, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Beranda adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Halaman Heartopia tidak ditemukan</h1>\n          <p>Halaman Bahasa Indonesia ini tidak ditemukan. Gunakan kode, database, peta, atau alat bantu untuk lanjut.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Mulai cepat</h2>\n            <p>Gunakan halaman ini sebagai pintu masuk ke rute utama Heartopia. Cek kode, buka database atau peta, lalu gunakan alat bantu saat perlu merencanakan.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/about/",
     "translationStatus": "translated",
-    "title": "Heartopia Panduan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Panduan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Panduan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Panduan",
     "keywords": [
       "Heartopia",
       "Panduan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Panduan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Panduan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Panduan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Panduan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Panduan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Panduan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Panduan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/animal-favorites/",
     "translationStatus": "translated",
-    "title": "Heartopia Peliharaan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Peliharaan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Peliharaan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Peliharaan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Peliharaan",
     "keywords": [
       "Heartopia",
       "Peliharaan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Peliharaan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Peliharaan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Peliharaan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Peliharaan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Peliharaan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Peliharaan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Peliharaan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Peliharaan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Peliharaan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/codes/",
     "translationStatus": "translated",
-    "title": "Heartopia Kode - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Kode, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Kode - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Kode: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Kode",
     "keywords": [
       "Heartopia",
       "Kode",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Kode - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Kode, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Kode panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Kode, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Kode adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Kode - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Kode: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Kode</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Kode. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/contact/",
     "translationStatus": "translated",
-    "title": "Heartopia Panduan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Panduan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Panduan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Panduan",
     "keywords": [
       "Heartopia",
       "Panduan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Panduan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Panduan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Panduan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Panduan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Panduan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Panduan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Panduan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/database/",
     "translationStatus": "translated",
-    "title": "Heartopia Basis data - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Basis data, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Basis data - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Basis data: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Basis data",
     "keywords": [
       "Heartopia",
       "Basis data",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Basis data - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Basis data, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Basis data panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Basis data, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Basis data adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Basis data - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Basis data: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Basis data</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Basis data. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/download/",
     "translationStatus": "translated",
-    "title": "Heartopia Unduh - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Unduh, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Unduh - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Unduh: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Unduh",
     "keywords": [
       "Heartopia",
       "Unduh",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Unduh - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Unduh, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Unduh panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Unduh, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Unduh adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Unduh - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Unduh: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Unduh</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Unduh. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/events/",
     "translationStatus": "translated",
-    "title": "Heartopia Event - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Event, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Event - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Event: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Event",
     "keywords": [
       "Heartopia",
       "Event",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Event - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Event, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Event panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Event, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Event adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Event - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Event: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Event</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Event. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/guides/",
     "translationStatus": "translated",
-    "title": "Heartopia Panduan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Panduan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Panduan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Panduan",
     "keywords": [
       "Heartopia",
       "Panduan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Panduan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Panduan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Panduan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Panduan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Panduan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Panduan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Panduan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/",
     "translationStatus": "translated",
-    "title": "Heartopia Hobi - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Hobi, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Hobi - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Hobi: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Hobi",
     "keywords": [
       "Heartopia",
       "Hobi",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Hobi - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Hobi, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Hobi panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Hobi, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Hobi adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Hobi - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Hobi: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Hobi</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Hobi. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/birdwatching/",
     "translationStatus": "translated",
-    "title": "Heartopia Hobi - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Hobi, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Hobi - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Hobi: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Hobi",
     "keywords": [
       "Heartopia",
       "Hobi",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Hobi - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Hobi, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Hobi panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Hobi, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Hobi adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Hobi - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Hobi: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Hobi</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Hobi. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/cooking/",
     "translationStatus": "translated",
-    "title": "Heartopia Resep - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Resep, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Resep - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Resep: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Resep",
     "keywords": [
       "Heartopia",
       "Resep",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Resep - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Resep, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Resep panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Resep, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Resep adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Resep - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Resep: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Resep</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Resep. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/fishing/",
     "translationStatus": "translated",
-    "title": "Heartopia Ikan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Ikan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Ikan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Ikan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Ikan",
     "keywords": [
       "Heartopia",
       "Ikan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Ikan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Ikan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Ikan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Ikan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Ikan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Ikan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Ikan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Ikan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Ikan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/gardening/",
     "translationStatus": "translated",
-    "title": "Heartopia Tanaman - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Tanaman, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Tanaman - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Tanaman: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Tanaman",
     "keywords": [
       "Heartopia",
       "Tanaman",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Tanaman - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Tanaman, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Tanaman panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Tanaman, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Tanaman adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Tanaman - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Tanaman: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Tanaman</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Tanaman. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/insects/",
     "translationStatus": "translated",
-    "title": "Heartopia Serangga - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Serangga, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Serangga - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Serangga: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Serangga",
     "keywords": [
       "Heartopia",
       "Serangga",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Serangga - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Serangga, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Serangga panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Serangga, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Serangga adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Serangga - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Serangga: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Serangga</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Serangga. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/house-designs/",
     "translationStatus": "translated",
-    "title": "Heartopia Panduan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Panduan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Panduan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Panduan",
     "keywords": [
       "Heartopia",
       "Panduan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Panduan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Panduan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Panduan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Panduan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Panduan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Panduan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Panduan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Panduan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/map/",
     "translationStatus": "translated",
-    "title": "Heartopia Peta - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Peta, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Peta - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Peta: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Peta",
     "keywords": [
       "Heartopia",
       "Peta",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Peta - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Peta, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Peta panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Peta, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Peta adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Peta - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Peta: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Peta</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Peta. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/npcs/",
     "translationStatus": "translated",
-    "title": "Heartopia Karakter - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Karakter, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Karakter - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Karakter: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Karakter",
     "keywords": [
       "Heartopia",
       "Karakter",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Karakter - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Karakter, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Karakter panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Karakter, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Karakter adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Karakter - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Karakter: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Karakter</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Karakter. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/pets/",
     "translationStatus": "translated",
-    "title": "Heartopia Peliharaan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Peliharaan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Peliharaan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Peliharaan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Peliharaan",
     "keywords": [
       "Heartopia",
       "Peliharaan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Peliharaan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Peliharaan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Peliharaan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Peliharaan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Peliharaan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Peliharaan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Peliharaan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Peliharaan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Peliharaan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/privacy/",
     "translationStatus": "translated",
-    "title": "Heartopia Privasi - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Privasi, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Privasi - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Privasi: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Privasi",
     "keywords": [
       "Heartopia",
       "Privasi",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Privasi - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Privasi, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Privasi panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Privasi, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Privasi adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Privasi - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Privasi: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Privasi</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Privasi. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/terms/",
     "translationStatus": "translated",
-    "title": "Heartopia Ketentuan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Ketentuan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Ketentuan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Ketentuan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Ketentuan",
     "keywords": [
       "Heartopia",
       "Ketentuan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Ketentuan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Ketentuan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Ketentuan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Ketentuan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Ketentuan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Ketentuan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Ketentuan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Ketentuan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Ketentuan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/",
     "translationStatus": "translated",
-    "title": "Heartopia Alat - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Alat - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Alat: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Alat",
     "keywords": [
       "Heartopia",
       "Alat",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Alat - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Alat panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Alat adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Alat - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Alat: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Alat</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Alat. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/checklist/",
     "translationStatus": "translated",
-    "title": "Heartopia Alat - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Alat - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Alat: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Alat",
     "keywords": [
       "Heartopia",
       "Alat",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Alat - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Alat panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Alat adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Alat - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Alat: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Alat</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Alat. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/crop-planner/",
     "translationStatus": "translated",
-    "title": "Heartopia Tanaman - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Tanaman, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Tanaman - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Tanaman: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Tanaman",
     "keywords": [
       "Heartopia",
       "Tanaman",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Tanaman - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Tanaman, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Tanaman panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Tanaman, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Tanaman adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Tanaman - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Tanaman: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Tanaman</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Tanaman. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/fish-tracker/",
     "translationStatus": "translated",
-    "title": "Heartopia Ikan - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Ikan, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Ikan - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Ikan: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Ikan",
     "keywords": [
       "Heartopia",
       "Ikan",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Ikan - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Ikan, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Ikan panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Ikan, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Ikan adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Ikan - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Ikan: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Ikan</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Ikan. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/friendship-tracker/",
     "translationStatus": "translated",
-    "title": "Heartopia Karakter - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Karakter, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Karakter - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Karakter: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Karakter",
     "keywords": [
       "Heartopia",
       "Karakter",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Karakter - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Karakter, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Karakter panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Karakter, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Karakter adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Karakter - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Karakter: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Karakter</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Karakter. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/recipe-finder/",
     "translationStatus": "translated",
-    "title": "Heartopia Resep - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Resep, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Resep - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Resep: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Resep",
     "keywords": [
       "Heartopia",
       "Resep",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Resep - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Resep, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Resep panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Resep, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Resep adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Resep - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Resep: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Resep</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Resep. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/timer/",
     "translationStatus": "translated",
-    "title": "Heartopia Alat - Indonesia",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.",
+    "title": "Heartopia Alat - B. Indonesia",
+    "description": "Panduan Heartopia Bahasa Indonesia untuk Alat: rute, data, peta, dan alat bantu dalam satu tempat.",
     "section": "Alat",
     "keywords": [
       "Heartopia",
       "Alat",
-      "panduan",
-      "rute",
-      "basis data"
+      "B. Indonesia",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Alat - Indonesia</h1>\n          <p>Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Basis data</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Alat panduan</h2>\n          <p>Halaman Heartopia bahasa Indonesia untuk Alat, berisi rute, data, alat, dan catatan pemain.</p>\n          <p>Alat adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.</p>\n          <ul class=\"checklist\">\n            <li>kode / hadiah</li>\n            <li>basis data / peta</li>\n            <li>alat / rute</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Indonesia</span>\n          <h1>Heartopia Alat - B. Indonesia</h1>\n          <p>Panduan Heartopia Bahasa Indonesia untuk Alat: rute, data, peta, dan alat bantu dalam satu tempat.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/id/codes/\">Kode</a><a class=\"pastel-button alt\" href=\"/id/database/\">Database</a><a class=\"pastel-button alt\" href=\"/id/map/\">Peta</a><a class=\"pastel-button alt\" href=\"/id/tools/\">Alat</a><a class=\"pastel-button alt\" href=\"/id/guides/\">Panduan</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Rencanakan Alat</h2>\n            <p>Halaman ini merangkum informasi penting Heartopia untuk Alat. Gunakan tautan cepat untuk membuka kode, database, peta, dan alat bantu.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Cek kode</h3><p>Kandidat aktif dan hadiah.</p></div><div class=\"route-card\"><h3>Pakai data</h3><p>Ikan, toko, tanaman, resep, dan karakter.</p></div><div class=\"route-card\"><h3>Atur rute</h3><p>Peta, marker, kalkulator, dan pelacak.</p></div></div>\n        </div>\n      </section>"
   }
 ]

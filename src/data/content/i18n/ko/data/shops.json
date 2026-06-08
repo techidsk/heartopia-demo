@@ -15,7 +15,7 @@
       "항목: Fertilizer",
       "항목: Basic watering supplies"
     ],
-    "notes": "Gardening Store은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+    "notes": "Gardening Store 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "항목: Shelves",
       "항목: Decor sets"
     ],
-    "notes": "Furniture Workshop은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+    "notes": "Furniture Workshop 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "항목: Pet care basics",
       "항목: Birdwatching route notes"
     ],
-    "notes": "Pet Shop은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+    "notes": "Pet Shop 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "항목: Fashion route items",
       "항목: Event outfit leads"
     ],
-    "notes": "Clothing Store은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+    "notes": "Clothing Store 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "항목: Instrument route notes",
       "항목: Home ambiance items"
     ],
-    "notes": "Annie's Music Store은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+    "notes": "Annie's Music Store 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "항목: Storage route notes",
       "항목: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+    "notes": "Ka Ching's General Store 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "항목: Furniture",
       "항목: Event stock"
     ],
-    "notes": "Doris Weather Cart은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+    "notes": "Doris Weather Cart 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "항목: Repair-kit reminders",
       "항목: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다."
+    "notes": "Sea Fishing Booth 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
   }
 ]

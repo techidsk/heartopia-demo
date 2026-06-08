@@ -9,7 +9,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Tomato pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Tomato est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Tomato est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "1",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -23,7 +23,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Potato pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Potato est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Potato est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "1",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -37,7 +37,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Wheat pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Wheat est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Wheat est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "2",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -51,7 +51,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Lettuce pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Lettuce est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Lettuce est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "3",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -65,7 +65,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Pineapple pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Pineapple est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Pineapple est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "4",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -79,7 +79,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Carrot pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Carrot est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Carrot est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "5",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -93,7 +93,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Strawberry pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Strawberry est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Strawberry est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "6",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -107,7 +107,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Corn pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Corn est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Corn est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "6",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -121,7 +121,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Grape pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Grape est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Grape est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "7",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -135,7 +135,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Eggplant pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Eggplant est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Eggplant est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "8",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -149,7 +149,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 茶葉 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "茶葉 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "茶葉 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "11",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -163,7 +163,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Cacao Tree pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Cacao Tree est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Cacao Tree est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "12",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -177,7 +177,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise Avocado pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "Avocado est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "Avocado est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "13",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -191,7 +191,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 雛菊 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "雛菊 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "雛菊 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "3",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -205,7 +205,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 三色堇 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "三色堇 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "三色堇 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "4",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -219,7 +219,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 花燭 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "花燭 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "花燭 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "5",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -233,7 +233,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 虞美人 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "虞美人 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "虞美人 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "5",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -247,7 +247,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 馬蹄蓮 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "馬蹄蓮 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "馬蹄蓮 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "6",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -261,7 +261,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 牽牛花 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "牽牛花 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "牽牛花 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "6",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -275,7 +275,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 康乃馨 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "康乃馨 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "康乃馨 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "7",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -289,7 +289,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 鬱金香 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "鬱金香 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "鬱金香 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "8",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -303,7 +303,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 百合 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "百合 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "百合 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "9",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -317,7 +317,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 玫瑰 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "玫瑰 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "玫瑰 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "10",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -331,7 +331,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 風信子 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "風信子 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "風信子 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "11",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -345,7 +345,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 蝴蝶蘭 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "蝴蝶蘭 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "蝴蝶蘭 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "12",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -359,7 +359,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 天竺葵 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "天竺葵 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "天竺葵 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "13",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -373,7 +373,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 白蘿蔔 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "白蘿蔔 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "白蘿蔔 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "7",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   },
@@ -387,7 +387,7 @@
     "time": "vérifié: itinéraire",
     "weather": "vérifié: itinéraire",
     "route": "Utilise 綠絨蒿 pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.",
-    "lore": "綠絨蒿 est une fiche localisée pour éviter une page indexable en anglais de secours.",
+    "lore": "綠絨蒿 est une fiche en français pour planifier les routes, la collection et les vérifications.",
     "hobbyLevel": "3",
     "source": "Données Heartopia Hub localisées à partir de la rédaction anglaise."
   }

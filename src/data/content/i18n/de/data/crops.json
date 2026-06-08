@@ -11,7 +11,7 @@
     "nameZh": "番茄",
     "season": "Route: 日常",
     "hobbyLevel": "1",
-    "lore": "Tomato ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Tomato ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -26,7 +26,7 @@
     "nameZh": "馬鈴薯",
     "season": "Route: 日常",
     "hobbyLevel": "1",
-    "lore": "Potato ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Potato ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -41,7 +41,7 @@
     "nameZh": "小麥",
     "season": "Route: 日常",
     "hobbyLevel": "2",
-    "lore": "Wheat ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Wheat ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -56,7 +56,7 @@
     "nameZh": "生菜",
     "season": "Route: 日常",
     "hobbyLevel": "3",
-    "lore": "Lettuce ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Lettuce ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -71,7 +71,7 @@
     "nameZh": "鳳梨",
     "season": "Route: 日常",
     "hobbyLevel": "4",
-    "lore": "Pineapple ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Pineapple ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -86,7 +86,7 @@
     "nameZh": "胡蘿蔔",
     "season": "Route: 日常",
     "hobbyLevel": "5",
-    "lore": "Carrot ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Carrot ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -101,7 +101,7 @@
     "nameZh": "草莓",
     "season": "Route: 日常",
     "hobbyLevel": "6",
-    "lore": "Strawberry ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Strawberry ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -116,7 +116,7 @@
     "nameZh": "玉米",
     "season": "Route: 日常",
     "hobbyLevel": "6",
-    "lore": "Corn ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Corn ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -131,7 +131,7 @@
     "nameZh": "葡萄",
     "season": "Route: 日常",
     "hobbyLevel": "7",
-    "lore": "Grape ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Grape ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -146,7 +146,7 @@
     "nameZh": "茄子",
     "season": "Route: 日常",
     "hobbyLevel": "8",
-    "lore": "Eggplant ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Eggplant ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -171,7 +171,7 @@
     "nameZh": "可可豆",
     "season": "Route: 日常",
     "hobbyLevel": "12",
-    "lore": "Cacao Tree ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Cacao Tree ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   },
   {
@@ -186,7 +186,7 @@
     "nameZh": "酪梨",
     "season": "Route: 日常",
     "hobbyLevel": "13",
-    "lore": "Avocado ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.",
+    "lore": "Avocado ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
     "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
   }
 ]

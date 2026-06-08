@@ -15,7 +15,7 @@
       "запись: Fertilizer",
       "запись: Basic watering supplies"
     ],
-    "notes": "Gardening Store локализовано, чтобы индексируемая страница не показывала английский fallback."
+    "notes": "Gardening Store — русская заметка для маршрутов, коллекции и быстрой проверки."
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "запись: Shelves",
       "запись: Decor sets"
     ],
-    "notes": "Furniture Workshop локализовано, чтобы индексируемая страница не показывала английский fallback."
+    "notes": "Furniture Workshop — русская заметка для маршрутов, коллекции и быстрой проверки."
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "запись: Pet care basics",
       "запись: Birdwatching route notes"
     ],
-    "notes": "Pet Shop локализовано, чтобы индексируемая страница не показывала английский fallback."
+    "notes": "Pet Shop — русская заметка для маршрутов, коллекции и быстрой проверки."
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "запись: Fashion route items",
       "запись: Event outfit leads"
     ],
-    "notes": "Clothing Store локализовано, чтобы индексируемая страница не показывала английский fallback."
+    "notes": "Clothing Store — русская заметка для маршрутов, коллекции и быстрой проверки."
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "запись: Instrument route notes",
       "запись: Home ambiance items"
     ],
-    "notes": "Annie's Music Store локализовано, чтобы индексируемая страница не показывала английский fallback."
+    "notes": "Annie's Music Store — русская заметка для маршрутов, коллекции и быстрой проверки."
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "запись: Storage route notes",
       "запись: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store локализовано, чтобы индексируемая страница не показывала английский fallback."
+    "notes": "Ka Ching's General Store — русская заметка для маршрутов, коллекции и быстрой проверки."
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "запись: Furniture",
       "запись: Event stock"
     ],
-    "notes": "Doris Weather Cart локализовано, чтобы индексируемая страница не показывала английский fallback."
+    "notes": "Doris Weather Cart — русская заметка для маршрутов, коллекции и быстрой проверки."
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "запись: Repair-kit reminders",
       "запись: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth локализовано, чтобы индексируемая страница не показывала английский fallback."
+    "notes": "Sea Fishing Booth — русская заметка для маршрутов, коллекции и быстрой проверки."
   }
 ]

@@ -2,437 +2,437 @@
   {
     "path": "/",
     "translationStatus": "translated",
-    "title": "Heartopia Accueil - Français",
-    "description": "Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.",
-    "section": "Accueil",
+    "title": "Hub Heartopia en français",
+    "description": "Accueil français pour Heartopia avec codes, base de données, carte, boutiques, poissons, cultures, recettes et outils.",
+    "section": "Français",
     "keywords": [
       "Heartopia",
-      "Accueil",
+      "Français",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
     "ogImage": "/assets/heartopia-guide-hero.png",
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Accueil - Français</h1>\n          <p>Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Accueil guide</h2>\n          <p>Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Accueil est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Hub Heartopia en français</h1>\n          <p>Accueil français pour Heartopia avec codes, base de données, carte, boutiques, poissons, cultures, recettes et outils.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Démarrer vite</h2>\n            <p>Utilise cette page comme point de départ pour les routes Heartopia importantes. Vérifie les codes, ouvre la base de données ou la carte, puis passe aux outils pour planifier.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/404.html",
     "translationStatus": "translated",
-    "title": "Heartopia Accueil - Français",
-    "description": "Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.",
-    "section": "Accueil",
+    "title": "Page Heartopia introuvable",
+    "description": "Cette page française est introuvable. Utilise codes, base de données, carte ou outils pour continuer.",
+    "section": "Français",
     "keywords": [
       "Heartopia",
-      "Accueil",
+      "Français",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Accueil - Français</h1>\n          <p>Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Accueil guide</h2>\n          <p>Page Heartopia en français pour Accueil, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Accueil est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Page Heartopia introuvable</h1>\n          <p>Cette page française est introuvable. Utilise codes, base de données, carte ou outils pour continuer.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Démarrer vite</h2>\n            <p>Utilise cette page comme point de départ pour les routes Heartopia importantes. Vérifie les codes, ouvre la base de données ou la carte, puis passe aux outils pour planifier.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/about/",
     "translationStatus": "translated",
     "title": "Heartopia Guide - Français",
-    "description": "Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Guide: routes, données, carte et outils au même endroit.",
     "section": "Guide",
     "keywords": [
       "Heartopia",
       "Guide",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide guide</h2>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Guide est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Guide Heartopia en français pour Guide: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Guide</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Guide. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/animal-favorites/",
     "translationStatus": "translated",
     "title": "Heartopia Animaux - Français",
-    "description": "Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Animaux: routes, données, carte et outils au même endroit.",
     "section": "Animaux",
     "keywords": [
       "Heartopia",
       "Animaux",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Animaux - Français</h1>\n          <p>Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Animaux guide</h2>\n          <p>Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Animaux est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Animaux - Français</h1>\n          <p>Guide Heartopia en français pour Animaux: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Animaux</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Animaux. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/codes/",
     "translationStatus": "translated",
     "title": "Heartopia Codes - Français",
-    "description": "Page Heartopia en français pour Codes, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Codes: routes, données, carte et outils au même endroit.",
     "section": "Codes",
     "keywords": [
       "Heartopia",
       "Codes",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Codes - Français</h1>\n          <p>Page Heartopia en français pour Codes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Codes guide</h2>\n          <p>Page Heartopia en français pour Codes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Codes est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Codes - Français</h1>\n          <p>Guide Heartopia en français pour Codes: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Codes</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Codes. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/contact/",
     "translationStatus": "translated",
     "title": "Heartopia Guide - Français",
-    "description": "Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Guide: routes, données, carte et outils au même endroit.",
     "section": "Guide",
     "keywords": [
       "Heartopia",
       "Guide",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide guide</h2>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Guide est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Guide Heartopia en français pour Guide: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Guide</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Guide. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/database/",
     "translationStatus": "translated",
     "title": "Heartopia Base de données - Français",
-    "description": "Page Heartopia en français pour Base de données, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Base de données: routes, données, carte et outils au même endroit.",
     "section": "Base de données",
     "keywords": [
       "Heartopia",
       "Base de données",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Base de données - Français</h1>\n          <p>Page Heartopia en français pour Base de données, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Base de données guide</h2>\n          <p>Page Heartopia en français pour Base de données, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Base de données est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Base de données - Français</h1>\n          <p>Guide Heartopia en français pour Base de données: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Base de données</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Base de données. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/download/",
     "translationStatus": "translated",
     "title": "Heartopia Téléchargement - Français",
-    "description": "Page Heartopia en français pour Téléchargement, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Téléchargement: routes, données, carte et outils au même endroit.",
     "section": "Téléchargement",
     "keywords": [
       "Heartopia",
       "Téléchargement",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Téléchargement - Français</h1>\n          <p>Page Heartopia en français pour Téléchargement, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Téléchargement guide</h2>\n          <p>Page Heartopia en français pour Téléchargement, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Téléchargement est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Téléchargement - Français</h1>\n          <p>Guide Heartopia en français pour Téléchargement: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Téléchargement</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Téléchargement. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/events/",
     "translationStatus": "translated",
     "title": "Heartopia Événements - Français",
-    "description": "Page Heartopia en français pour Événements, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Événements: routes, données, carte et outils au même endroit.",
     "section": "Événements",
     "keywords": [
       "Heartopia",
       "Événements",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Événements - Français</h1>\n          <p>Page Heartopia en français pour Événements, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Événements guide</h2>\n          <p>Page Heartopia en français pour Événements, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Événements est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Événements - Français</h1>\n          <p>Guide Heartopia en français pour Événements: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Événements</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Événements. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/guides/",
     "translationStatus": "translated",
     "title": "Heartopia Guides - Français",
-    "description": "Page Heartopia en français pour Guides, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Guides: routes, données, carte et outils au même endroit.",
     "section": "Guides",
     "keywords": [
       "Heartopia",
       "Guides",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guides - Français</h1>\n          <p>Page Heartopia en français pour Guides, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guides guide</h2>\n          <p>Page Heartopia en français pour Guides, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Guides est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guides - Français</h1>\n          <p>Guide Heartopia en français pour Guides: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Guides</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Guides. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/",
     "translationStatus": "translated",
     "title": "Heartopia Activités - Français",
-    "description": "Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Activités: routes, données, carte et outils au même endroit.",
     "section": "Activités",
     "keywords": [
       "Heartopia",
       "Activités",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Activités - Français</h1>\n          <p>Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Activités guide</h2>\n          <p>Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Activités est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Activités - Français</h1>\n          <p>Guide Heartopia en français pour Activités: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Activités</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Activités. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/birdwatching/",
     "translationStatus": "translated",
     "title": "Heartopia Activités - Français",
-    "description": "Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Activités: routes, données, carte et outils au même endroit.",
     "section": "Activités",
     "keywords": [
       "Heartopia",
       "Activités",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Activités - Français</h1>\n          <p>Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Activités guide</h2>\n          <p>Page Heartopia en français pour Activités, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Activités est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Activités - Français</h1>\n          <p>Guide Heartopia en français pour Activités: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Activités</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Activités. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/cooking/",
     "translationStatus": "translated",
     "title": "Heartopia Recettes - Français",
-    "description": "Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Recettes: routes, données, carte et outils au même endroit.",
     "section": "Recettes",
     "keywords": [
       "Heartopia",
       "Recettes",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Recettes - Français</h1>\n          <p>Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Recettes guide</h2>\n          <p>Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Recettes est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Recettes - Français</h1>\n          <p>Guide Heartopia en français pour Recettes: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Recettes</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Recettes. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/fishing/",
     "translationStatus": "translated",
     "title": "Heartopia Poissons - Français",
-    "description": "Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Poissons: routes, données, carte et outils au même endroit.",
     "section": "Poissons",
     "keywords": [
       "Heartopia",
       "Poissons",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Poissons - Français</h1>\n          <p>Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Poissons guide</h2>\n          <p>Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Poissons est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Poissons - Français</h1>\n          <p>Guide Heartopia en français pour Poissons: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Poissons</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Poissons. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/gardening/",
     "translationStatus": "translated",
     "title": "Heartopia Cultures - Français",
-    "description": "Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Cultures: routes, données, carte et outils au même endroit.",
     "section": "Cultures",
     "keywords": [
       "Heartopia",
       "Cultures",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Cultures - Français</h1>\n          <p>Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Cultures guide</h2>\n          <p>Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Cultures est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Cultures - Français</h1>\n          <p>Guide Heartopia en français pour Cultures: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Cultures</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Cultures. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/insects/",
     "translationStatus": "translated",
     "title": "Heartopia Insectes - Français",
-    "description": "Page Heartopia en français pour Insectes, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Insectes: routes, données, carte et outils au même endroit.",
     "section": "Insectes",
     "keywords": [
       "Heartopia",
       "Insectes",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Insectes - Français</h1>\n          <p>Page Heartopia en français pour Insectes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Insectes guide</h2>\n          <p>Page Heartopia en français pour Insectes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Insectes est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Insectes - Français</h1>\n          <p>Guide Heartopia en français pour Insectes: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Insectes</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Insectes. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/house-designs/",
     "translationStatus": "translated",
     "title": "Heartopia Guide - Français",
-    "description": "Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Guide: routes, données, carte et outils au même endroit.",
     "section": "Guide",
     "keywords": [
       "Heartopia",
       "Guide",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Guide guide</h2>\n          <p>Page Heartopia en français pour Guide, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Guide est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Guide - Français</h1>\n          <p>Guide Heartopia en français pour Guide: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Guide</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Guide. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/map/",
     "translationStatus": "translated",
     "title": "Heartopia Carte - Français",
-    "description": "Page Heartopia en français pour Carte, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Carte: routes, données, carte et outils au même endroit.",
     "section": "Carte",
     "keywords": [
       "Heartopia",
       "Carte",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Carte - Français</h1>\n          <p>Page Heartopia en français pour Carte, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Carte guide</h2>\n          <p>Page Heartopia en français pour Carte, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Carte est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Carte - Français</h1>\n          <p>Guide Heartopia en français pour Carte: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Carte</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Carte. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/npcs/",
     "translationStatus": "translated",
     "title": "Heartopia Personnages - Français",
-    "description": "Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Personnages: routes, données, carte et outils au même endroit.",
     "section": "Personnages",
     "keywords": [
       "Heartopia",
       "Personnages",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Personnages - Français</h1>\n          <p>Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Personnages guide</h2>\n          <p>Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Personnages est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Personnages - Français</h1>\n          <p>Guide Heartopia en français pour Personnages: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Personnages</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Personnages. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/pets/",
     "translationStatus": "translated",
     "title": "Heartopia Animaux - Français",
-    "description": "Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Animaux: routes, données, carte et outils au même endroit.",
     "section": "Animaux",
     "keywords": [
       "Heartopia",
       "Animaux",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Animaux - Français</h1>\n          <p>Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Animaux guide</h2>\n          <p>Page Heartopia en français pour Animaux, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Animaux est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Animaux - Français</h1>\n          <p>Guide Heartopia en français pour Animaux: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Animaux</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Animaux. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/privacy/",
     "translationStatus": "translated",
     "title": "Heartopia Confidentialité - Français",
-    "description": "Page Heartopia en français pour Confidentialité, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Confidentialité: routes, données, carte et outils au même endroit.",
     "section": "Confidentialité",
     "keywords": [
       "Heartopia",
       "Confidentialité",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Confidentialité - Français</h1>\n          <p>Page Heartopia en français pour Confidentialité, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Confidentialité guide</h2>\n          <p>Page Heartopia en français pour Confidentialité, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Confidentialité est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Confidentialité - Français</h1>\n          <p>Guide Heartopia en français pour Confidentialité: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Confidentialité</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Confidentialité. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/terms/",
     "translationStatus": "translated",
     "title": "Heartopia Conditions - Français",
-    "description": "Page Heartopia en français pour Conditions, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Conditions: routes, données, carte et outils au même endroit.",
     "section": "Conditions",
     "keywords": [
       "Heartopia",
       "Conditions",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Conditions - Français</h1>\n          <p>Page Heartopia en français pour Conditions, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Conditions guide</h2>\n          <p>Page Heartopia en français pour Conditions, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Conditions est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Conditions - Français</h1>\n          <p>Guide Heartopia en français pour Conditions: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Conditions</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Conditions. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/",
     "translationStatus": "translated",
     "title": "Heartopia Outils - Français",
-    "description": "Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Outils: routes, données, carte et outils au même endroit.",
     "section": "Outils",
     "keywords": [
       "Heartopia",
       "Outils",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Outils guide</h2>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Outils est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Guide Heartopia en français pour Outils: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Outils</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Outils. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/checklist/",
     "translationStatus": "translated",
     "title": "Heartopia Outils - Français",
-    "description": "Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Outils: routes, données, carte et outils au même endroit.",
     "section": "Outils",
     "keywords": [
       "Heartopia",
       "Outils",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Outils guide</h2>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Outils est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Guide Heartopia en français pour Outils: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Outils</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Outils. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/crop-planner/",
     "translationStatus": "translated",
     "title": "Heartopia Cultures - Français",
-    "description": "Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Cultures: routes, données, carte et outils au même endroit.",
     "section": "Cultures",
     "keywords": [
       "Heartopia",
       "Cultures",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Cultures - Français</h1>\n          <p>Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Cultures guide</h2>\n          <p>Page Heartopia en français pour Cultures, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Cultures est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Cultures - Français</h1>\n          <p>Guide Heartopia en français pour Cultures: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Cultures</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Cultures. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/fish-tracker/",
     "translationStatus": "translated",
     "title": "Heartopia Poissons - Français",
-    "description": "Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Poissons: routes, données, carte et outils au même endroit.",
     "section": "Poissons",
     "keywords": [
       "Heartopia",
       "Poissons",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Poissons - Français</h1>\n          <p>Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Poissons guide</h2>\n          <p>Page Heartopia en français pour Poissons, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Poissons est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Poissons - Français</h1>\n          <p>Guide Heartopia en français pour Poissons: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Poissons</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Poissons. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/friendship-tracker/",
     "translationStatus": "translated",
     "title": "Heartopia Personnages - Français",
-    "description": "Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Personnages: routes, données, carte et outils au même endroit.",
     "section": "Personnages",
     "keywords": [
       "Heartopia",
       "Personnages",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Personnages - Français</h1>\n          <p>Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Personnages guide</h2>\n          <p>Page Heartopia en français pour Personnages, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Personnages est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Personnages - Français</h1>\n          <p>Guide Heartopia en français pour Personnages: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Personnages</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Personnages. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/recipe-finder/",
     "translationStatus": "translated",
     "title": "Heartopia Recettes - Français",
-    "description": "Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Recettes: routes, données, carte et outils au même endroit.",
     "section": "Recettes",
     "keywords": [
       "Heartopia",
       "Recettes",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Recettes - Français</h1>\n          <p>Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Recettes guide</h2>\n          <p>Page Heartopia en français pour Recettes, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Recettes est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Recettes - Français</h1>\n          <p>Guide Heartopia en français pour Recettes: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Recettes</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Recettes. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/timer/",
     "translationStatus": "translated",
     "title": "Heartopia Outils - Français",
-    "description": "Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.",
+    "description": "Guide Heartopia en français pour Outils: routes, données, carte et outils au même endroit.",
     "section": "Outils",
     "keywords": [
       "Heartopia",
       "Outils",
+      "Français",
       "guide",
-      "itinéraire",
-      "base de données"
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Outils guide</h2>\n          <p>Page Heartopia en français pour Outils, avec itinéraires, données, outils et conseils pratiques.</p>\n          <p>Outils est une fiche localisée pour éviter une page indexable en anglais de secours.</p>\n          <ul class=\"checklist\">\n            <li>codes / récompenses</li>\n            <li>base de données / carte</li>\n            <li>outils / itinéraire</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Français</span>\n          <h1>Heartopia Outils - Français</h1>\n          <p>Guide Heartopia en français pour Outils: routes, données, carte et outils au même endroit.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/fr/codes/\">Codes</a><a class=\"pastel-button alt\" href=\"/fr/database/\">Base de données</a><a class=\"pastel-button alt\" href=\"/fr/map/\">Carte</a><a class=\"pastel-button alt\" href=\"/fr/tools/\">Outils</a><a class=\"pastel-button alt\" href=\"/fr/guides/\">Guides</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Planifier Outils</h2>\n            <p>Cette page regroupe les informations utiles de Heartopia pour Outils. Utilise les liens rapides pour ouvrir codes, base de données, carte et outils.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Vérifier les codes</h3><p>Candidats actifs et récompenses.</p></div><div class=\"route-card\"><h3>Utiliser les données</h3><p>Poissons, boutiques, cultures, recettes et personnages.</p></div><div class=\"route-card\"><h3>Préparer la route</h3><p>Carte, marqueurs, calculateurs et suivis.</p></div></div>\n        </div>\n      </section>"
   }
 ]

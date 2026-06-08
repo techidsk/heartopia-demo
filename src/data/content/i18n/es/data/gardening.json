@@ -9,7 +9,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Tomato para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Tomato es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Tomato es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "1",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -23,7 +23,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Potato para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Potato es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Potato es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "1",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -37,7 +37,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Wheat para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Wheat es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Wheat es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "2",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -51,7 +51,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Lettuce para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Lettuce es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Lettuce es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "3",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -65,7 +65,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Pineapple para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Pineapple es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Pineapple es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "4",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -79,7 +79,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Carrot para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Carrot es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Carrot es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "5",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -93,7 +93,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Strawberry para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Strawberry es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Strawberry es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "6",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -107,7 +107,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Corn para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Corn es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Corn es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "6",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -121,7 +121,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Grape para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Grape es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Grape es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "7",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -135,7 +135,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Eggplant para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Eggplant es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Eggplant es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "8",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -149,7 +149,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 茶葉 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "茶葉 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "茶葉 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "11",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -163,7 +163,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Cacao Tree para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Cacao Tree es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Cacao Tree es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "12",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -177,7 +177,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa Avocado para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "Avocado es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "Avocado es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "13",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -191,7 +191,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 雛菊 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "雛菊 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "雛菊 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "3",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -205,7 +205,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 三色堇 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "三色堇 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "三色堇 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "4",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -219,7 +219,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 花燭 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "花燭 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "花燭 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "5",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -233,7 +233,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 虞美人 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "虞美人 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "虞美人 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "5",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -247,7 +247,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 馬蹄蓮 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "馬蹄蓮 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "馬蹄蓮 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "6",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -261,7 +261,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 牽牛花 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "牽牛花 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "牽牛花 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "6",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -275,7 +275,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 康乃馨 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "康乃馨 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "康乃馨 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "7",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -289,7 +289,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 鬱金香 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "鬱金香 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "鬱金香 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "8",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -303,7 +303,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 百合 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "百合 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "百合 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "9",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -317,7 +317,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 玫瑰 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "玫瑰 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "玫瑰 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "10",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -331,7 +331,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 風信子 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "風信子 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "風信子 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "11",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -345,7 +345,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 蝴蝶蘭 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "蝴蝶蘭 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "蝴蝶蘭 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "12",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -359,7 +359,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 天竺葵 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "天竺葵 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "天竺葵 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "13",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -373,7 +373,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 白蘿蔔 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "白蘿蔔 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "白蘿蔔 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "7",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   },
@@ -387,7 +387,7 @@
     "time": "revisado: ruta",
     "weather": "revisado: ruta",
     "route": "Usa 綠絨蒿 para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
-    "lore": "綠絨蒿 es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.",
+    "lore": "綠絨蒿 es una ficha en español para planificar rutas, colección y decisiones rápidas.",
     "hobbyLevel": "3",
     "source": "Datos localizados de Heartopia Hub basados en la edición inglesa."
   }

@@ -15,7 +15,7 @@
       "entri: Fertilizer",
       "entri: Basic watering supplies"
     ],
-    "notes": "Gardening Store adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+    "notes": "Gardening Store adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "entri: Shelves",
       "entri: Decor sets"
     ],
-    "notes": "Furniture Workshop adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+    "notes": "Furniture Workshop adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "entri: Pet care basics",
       "entri: Birdwatching route notes"
     ],
-    "notes": "Pet Shop adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+    "notes": "Pet Shop adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "entri: Fashion route items",
       "entri: Event outfit leads"
     ],
-    "notes": "Clothing Store adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+    "notes": "Clothing Store adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "entri: Instrument route notes",
       "entri: Home ambiance items"
     ],
-    "notes": "Annie's Music Store adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+    "notes": "Annie's Music Store adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "entri: Storage route notes",
       "entri: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+    "notes": "Ka Ching's General Store adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "entri: Furniture",
       "entri: Event stock"
     ],
-    "notes": "Doris Weather Cart adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+    "notes": "Doris Weather Cart adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "entri: Repair-kit reminders",
       "entri: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris."
+    "notes": "Sea Fishing Booth adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
   }
 ]

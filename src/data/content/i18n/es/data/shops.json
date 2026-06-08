@@ -15,7 +15,7 @@
       "entrada: Fertilizer",
       "entrada: Basic watering supplies"
     ],
-    "notes": "Gardening Store es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+    "notes": "Gardening Store es una ficha en español para planificar rutas, colección y decisiones rápidas."
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "entrada: Shelves",
       "entrada: Decor sets"
     ],
-    "notes": "Furniture Workshop es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+    "notes": "Furniture Workshop es una ficha en español para planificar rutas, colección y decisiones rápidas."
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "entrada: Pet care basics",
       "entrada: Birdwatching route notes"
     ],
-    "notes": "Pet Shop es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+    "notes": "Pet Shop es una ficha en español para planificar rutas, colección y decisiones rápidas."
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "entrada: Fashion route items",
       "entrada: Event outfit leads"
     ],
-    "notes": "Clothing Store es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+    "notes": "Clothing Store es una ficha en español para planificar rutas, colección y decisiones rápidas."
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "entrada: Instrument route notes",
       "entrada: Home ambiance items"
     ],
-    "notes": "Annie's Music Store es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+    "notes": "Annie's Music Store es una ficha en español para planificar rutas, colección y decisiones rápidas."
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "entrada: Storage route notes",
       "entrada: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+    "notes": "Ka Ching's General Store es una ficha en español para planificar rutas, colección y decisiones rápidas."
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "entrada: Furniture",
       "entrada: Event stock"
     ],
-    "notes": "Doris Weather Cart es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+    "notes": "Doris Weather Cart es una ficha en español para planificar rutas, colección y decisiones rápidas."
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "entrada: Repair-kit reminders",
       "entrada: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback."
+    "notes": "Sea Fishing Booth es una ficha en español para planificar rutas, colección y decisiones rápidas."
   }
 ]

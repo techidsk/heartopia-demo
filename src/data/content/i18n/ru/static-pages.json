@@ -2,437 +2,437 @@
   {
     "path": "/",
     "translationStatus": "translated",
-    "title": "Heartopia Главная - Русский",
-    "description": "Русская страница Heartopia для Главная: маршруты, данные, инструменты и практические заметки.",
-    "section": "Главная",
+    "title": "Русский хаб Heartopia",
+    "description": "Русская стартовая страница Heartopia: коды, база данных, карта, магазины, рыба, культуры, рецепты и инструменты.",
+    "section": "Русский",
     "keywords": [
       "Heartopia",
-      "Главная",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "Русский",
+      "guide",
+      "database"
     ],
     "ogImage": "/assets/heartopia-guide-hero.png",
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Главная - Русский</h1>\n          <p>Русская страница Heartopia для Главная: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Главная гайд</h2>\n          <p>Русская страница Heartopia для Главная: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Главная локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Русский хаб Heartopia</h1>\n          <p>Русская стартовая страница Heartopia: коды, база данных, карта, магазины, рыба, культуры, рецепты и инструменты.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Быстрый старт</h2>\n            <p>Используйте эту страницу как вход в основные маршруты Heartopia. Проверьте коды, откройте базу данных или карту, затем переходите к инструментам планирования.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/404.html",
     "translationStatus": "translated",
-    "title": "Heartopia Главная - Русский",
-    "description": "Русская страница Heartopia для Главная: маршруты, данные, инструменты и практические заметки.",
-    "section": "Главная",
+    "title": "Страница Heartopia не найдена",
+    "description": "Эта русская страница не найдена. Используйте коды, базу данных, карту или инструменты, чтобы продолжить.",
+    "section": "Русский",
     "keywords": [
       "Heartopia",
-      "Главная",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Главная - Русский</h1>\n          <p>Русская страница Heartopia для Главная: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Главная гайд</h2>\n          <p>Русская страница Heartopia для Главная: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Главная локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Страница Heartopia не найдена</h1>\n          <p>Эта русская страница не найдена. Используйте коды, базу данных, карту или инструменты, чтобы продолжить.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Быстрый старт</h2>\n            <p>Используйте эту страницу как вход в основные маршруты Heartopia. Проверьте коды, откройте базу данных или карту, затем переходите к инструментам планирования.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/about/",
     "translationStatus": "translated",
     "title": "Heartopia Гайд - Русский",
-    "description": "Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Гайд: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Гайд",
     "keywords": [
       "Heartopia",
       "Гайд",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Гайд - Русский</h1>\n          <p>Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Гайд гайд</h2>\n          <p>Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Гайд локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Гайд - Русский</h1>\n          <p>Русский гайд Heartopia для Гайд: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Гайд</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Гайд. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/animal-favorites/",
     "translationStatus": "translated",
     "title": "Heartopia Питомцы - Русский",
-    "description": "Русская страница Heartopia для Питомцы: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Питомцы: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Питомцы",
     "keywords": [
       "Heartopia",
       "Питомцы",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Питомцы - Русский</h1>\n          <p>Русская страница Heartopia для Питомцы: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Питомцы гайд</h2>\n          <p>Русская страница Heartopia для Питомцы: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Питомцы локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Питомцы - Русский</h1>\n          <p>Русский гайд Heartopia для Питомцы: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Питомцы</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Питомцы. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/codes/",
     "translationStatus": "translated",
     "title": "Heartopia Коды - Русский",
-    "description": "Русская страница Heartopia для Коды: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Коды: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Коды",
     "keywords": [
       "Heartopia",
       "Коды",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Коды - Русский</h1>\n          <p>Русская страница Heartopia для Коды: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Коды гайд</h2>\n          <p>Русская страница Heartopia для Коды: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Коды локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Коды - Русский</h1>\n          <p>Русский гайд Heartopia для Коды: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Коды</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Коды. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/contact/",
     "translationStatus": "translated",
     "title": "Heartopia Гайд - Русский",
-    "description": "Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Гайд: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Гайд",
     "keywords": [
       "Heartopia",
       "Гайд",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Гайд - Русский</h1>\n          <p>Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Гайд гайд</h2>\n          <p>Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Гайд локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Гайд - Русский</h1>\n          <p>Русский гайд Heartopia для Гайд: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Гайд</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Гайд. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/database/",
     "translationStatus": "translated",
     "title": "Heartopia База данных - Русский",
-    "description": "Русская страница Heartopia для База данных: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для База данных: маршруты, данные, карта и инструменты в одном месте.",
     "section": "База данных",
     "keywords": [
       "Heartopia",
       "База данных",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia База данных - Русский</h1>\n          <p>Русская страница Heartopia для База данных: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>База данных гайд</h2>\n          <p>Русская страница Heartopia для База данных: маршруты, данные, инструменты и практические заметки.</p>\n          <p>База данных локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia База данных - Русский</h1>\n          <p>Русский гайд Heartopia для База данных: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: База данных</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для База данных. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/download/",
     "translationStatus": "translated",
     "title": "Heartopia Скачать - Русский",
-    "description": "Русская страница Heartopia для Скачать: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Скачать: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Скачать",
     "keywords": [
       "Heartopia",
       "Скачать",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Скачать - Русский</h1>\n          <p>Русская страница Heartopia для Скачать: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Скачать гайд</h2>\n          <p>Русская страница Heartopia для Скачать: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Скачать локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Скачать - Русский</h1>\n          <p>Русский гайд Heartopia для Скачать: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Скачать</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Скачать. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/events/",
     "translationStatus": "translated",
     "title": "Heartopia События - Русский",
-    "description": "Русская страница Heartopia для События: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для События: маршруты, данные, карта и инструменты в одном месте.",
     "section": "События",
     "keywords": [
       "Heartopia",
       "События",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia События - Русский</h1>\n          <p>Русская страница Heartopia для События: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>События гайд</h2>\n          <p>Русская страница Heartopia для События: маршруты, данные, инструменты и практические заметки.</p>\n          <p>События локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia События - Русский</h1>\n          <p>Русский гайд Heartopia для События: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: События</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для События. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/guides/",
     "translationStatus": "translated",
     "title": "Heartopia Гайды - Русский",
-    "description": "Русская страница Heartopia для Гайды: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Гайды: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Гайды",
     "keywords": [
       "Heartopia",
       "Гайды",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Гайды - Русский</h1>\n          <p>Русская страница Heartopia для Гайды: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Гайды гайд</h2>\n          <p>Русская страница Heartopia для Гайды: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Гайды локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Гайды - Русский</h1>\n          <p>Русский гайд Heartopia для Гайды: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Гайды</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Гайды. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/",
     "translationStatus": "translated",
     "title": "Heartopia Хобби - Русский",
-    "description": "Русская страница Heartopia для Хобби: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Хобби: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Хобби",
     "keywords": [
       "Heartopia",
       "Хобби",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Хобби - Русский</h1>\n          <p>Русская страница Heartopia для Хобби: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Хобби гайд</h2>\n          <p>Русская страница Heartopia для Хобби: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Хобби локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Хобби - Русский</h1>\n          <p>Русский гайд Heartopia для Хобби: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Хобби</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Хобби. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/birdwatching/",
     "translationStatus": "translated",
     "title": "Heartopia Хобби - Русский",
-    "description": "Русская страница Heartopia для Хобби: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Хобби: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Хобби",
     "keywords": [
       "Heartopia",
       "Хобби",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Хобби - Русский</h1>\n          <p>Русская страница Heartopia для Хобби: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Хобби гайд</h2>\n          <p>Русская страница Heartopia для Хобби: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Хобби локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Хобби - Русский</h1>\n          <p>Русский гайд Heartopia для Хобби: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Хобби</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Хобби. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/cooking/",
     "translationStatus": "translated",
     "title": "Heartopia Рецепты - Русский",
-    "description": "Русская страница Heartopia для Рецепты: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Рецепты: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Рецепты",
     "keywords": [
       "Heartopia",
       "Рецепты",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Рецепты - Русский</h1>\n          <p>Русская страница Heartopia для Рецепты: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Рецепты гайд</h2>\n          <p>Русская страница Heartopia для Рецепты: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Рецепты локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Рецепты - Русский</h1>\n          <p>Русский гайд Heartopia для Рецепты: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Рецепты</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Рецепты. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/fishing/",
     "translationStatus": "translated",
     "title": "Heartopia Рыба - Русский",
-    "description": "Русская страница Heartopia для Рыба: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Рыба: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Рыба",
     "keywords": [
       "Heartopia",
       "Рыба",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Рыба - Русский</h1>\n          <p>Русская страница Heartopia для Рыба: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Рыба гайд</h2>\n          <p>Русская страница Heartopia для Рыба: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Рыба локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Рыба - Русский</h1>\n          <p>Русский гайд Heartopia для Рыба: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Рыба</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Рыба. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/gardening/",
     "translationStatus": "translated",
     "title": "Heartopia Культуры - Русский",
-    "description": "Русская страница Heartopia для Культуры: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Культуры: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Культуры",
     "keywords": [
       "Heartopia",
       "Культуры",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Культуры - Русский</h1>\n          <p>Русская страница Heartopia для Культуры: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Культуры гайд</h2>\n          <p>Русская страница Heartopia для Культуры: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Культуры локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Культуры - Русский</h1>\n          <p>Русский гайд Heartopia для Культуры: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Культуры</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Культуры. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/insects/",
     "translationStatus": "translated",
     "title": "Heartopia Насекомые - Русский",
-    "description": "Русская страница Heartopia для Насекомые: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Насекомые: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Насекомые",
     "keywords": [
       "Heartopia",
       "Насекомые",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Насекомые - Русский</h1>\n          <p>Русская страница Heartopia для Насекомые: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Насекомые гайд</h2>\n          <p>Русская страница Heartopia для Насекомые: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Насекомые локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Насекомые - Русский</h1>\n          <p>Русский гайд Heartopia для Насекомые: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Насекомые</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Насекомые. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/house-designs/",
     "translationStatus": "translated",
     "title": "Heartopia Гайд - Русский",
-    "description": "Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Гайд: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Гайд",
     "keywords": [
       "Heartopia",
       "Гайд",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Гайд - Русский</h1>\n          <p>Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Гайд гайд</h2>\n          <p>Русская страница Heartopia для Гайд: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Гайд локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Гайд - Русский</h1>\n          <p>Русский гайд Heartopia для Гайд: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Гайд</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Гайд. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/map/",
     "translationStatus": "translated",
     "title": "Heartopia Карта - Русский",
-    "description": "Русская страница Heartopia для Карта: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Карта: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Карта",
     "keywords": [
       "Heartopia",
       "Карта",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Карта - Русский</h1>\n          <p>Русская страница Heartopia для Карта: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Карта гайд</h2>\n          <p>Русская страница Heartopia для Карта: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Карта локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Карта - Русский</h1>\n          <p>Русский гайд Heartopia для Карта: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Карта</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Карта. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/npcs/",
     "translationStatus": "translated",
     "title": "Heartopia Персонажи - Русский",
-    "description": "Русская страница Heartopia для Персонажи: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Персонажи: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Персонажи",
     "keywords": [
       "Heartopia",
       "Персонажи",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Персонажи - Русский</h1>\n          <p>Русская страница Heartopia для Персонажи: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Персонажи гайд</h2>\n          <p>Русская страница Heartopia для Персонажи: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Персонажи локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Персонажи - Русский</h1>\n          <p>Русский гайд Heartopia для Персонажи: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Персонажи</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Персонажи. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/pets/",
     "translationStatus": "translated",
     "title": "Heartopia Питомцы - Русский",
-    "description": "Русская страница Heartopia для Питомцы: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Питомцы: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Питомцы",
     "keywords": [
       "Heartopia",
       "Питомцы",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Питомцы - Русский</h1>\n          <p>Русская страница Heartopia для Питомцы: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Питомцы гайд</h2>\n          <p>Русская страница Heartopia для Питомцы: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Питомцы локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Питомцы - Русский</h1>\n          <p>Русский гайд Heartopia для Питомцы: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Питомцы</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Питомцы. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/privacy/",
     "translationStatus": "translated",
     "title": "Heartopia Конфиденциальность - Русский",
-    "description": "Русская страница Heartopia для Конфиденциальность: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Конфиденциальность: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Конфиденциальность",
     "keywords": [
       "Heartopia",
       "Конфиденциальность",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Конфиденциальность - Русский</h1>\n          <p>Русская страница Heartopia для Конфиденциальность: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Конфиденциальность гайд</h2>\n          <p>Русская страница Heartopia для Конфиденциальность: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Конфиденциальность локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Конфиденциальность - Русский</h1>\n          <p>Русский гайд Heartopia для Конфиденциальность: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Конфиденциальность</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Конфиденциальность. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/terms/",
     "translationStatus": "translated",
     "title": "Heartopia Условия - Русский",
-    "description": "Русская страница Heartopia для Условия: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Условия: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Условия",
     "keywords": [
       "Heartopia",
       "Условия",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Условия - Русский</h1>\n          <p>Русская страница Heartopia для Условия: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Условия гайд</h2>\n          <p>Русская страница Heartopia для Условия: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Условия локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Условия - Русский</h1>\n          <p>Русский гайд Heartopia для Условия: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Условия</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Условия. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/",
     "translationStatus": "translated",
     "title": "Heartopia Инструменты - Русский",
-    "description": "Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Инструменты: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Инструменты",
     "keywords": [
       "Heartopia",
       "Инструменты",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Инструменты - Русский</h1>\n          <p>Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Инструменты гайд</h2>\n          <p>Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Инструменты локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Инструменты - Русский</h1>\n          <p>Русский гайд Heartopia для Инструменты: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Инструменты</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Инструменты. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/checklist/",
     "translationStatus": "translated",
     "title": "Heartopia Инструменты - Русский",
-    "description": "Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Инструменты: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Инструменты",
     "keywords": [
       "Heartopia",
       "Инструменты",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Инструменты - Русский</h1>\n          <p>Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Инструменты гайд</h2>\n          <p>Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Инструменты локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Инструменты - Русский</h1>\n          <p>Русский гайд Heartopia для Инструменты: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Инструменты</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Инструменты. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/crop-planner/",
     "translationStatus": "translated",
     "title": "Heartopia Культуры - Русский",
-    "description": "Русская страница Heartopia для Культуры: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Культуры: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Культуры",
     "keywords": [
       "Heartopia",
       "Культуры",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Культуры - Русский</h1>\n          <p>Русская страница Heartopia для Культуры: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Культуры гайд</h2>\n          <p>Русская страница Heartopia для Культуры: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Культуры локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Культуры - Русский</h1>\n          <p>Русский гайд Heartopia для Культуры: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Культуры</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Культуры. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/fish-tracker/",
     "translationStatus": "translated",
     "title": "Heartopia Рыба - Русский",
-    "description": "Русская страница Heartopia для Рыба: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Рыба: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Рыба",
     "keywords": [
       "Heartopia",
       "Рыба",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Рыба - Русский</h1>\n          <p>Русская страница Heartopia для Рыба: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Рыба гайд</h2>\n          <p>Русская страница Heartopia для Рыба: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Рыба локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Рыба - Русский</h1>\n          <p>Русский гайд Heartopia для Рыба: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Рыба</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Рыба. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/friendship-tracker/",
     "translationStatus": "translated",
     "title": "Heartopia Персонажи - Русский",
-    "description": "Русская страница Heartopia для Персонажи: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Персонажи: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Персонажи",
     "keywords": [
       "Heartopia",
       "Персонажи",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Персонажи - Русский</h1>\n          <p>Русская страница Heartopia для Персонажи: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Персонажи гайд</h2>\n          <p>Русская страница Heartopia для Персонажи: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Персонажи локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Персонажи - Русский</h1>\n          <p>Русский гайд Heartopia для Персонажи: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Персонажи</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Персонажи. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/recipe-finder/",
     "translationStatus": "translated",
     "title": "Heartopia Рецепты - Русский",
-    "description": "Русская страница Heartopia для Рецепты: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Рецепты: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Рецепты",
     "keywords": [
       "Heartopia",
       "Рецепты",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Рецепты - Русский</h1>\n          <p>Русская страница Heartopia для Рецепты: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Рецепты гайд</h2>\n          <p>Русская страница Heartopia для Рецепты: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Рецепты локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Рецепты - Русский</h1>\n          <p>Русский гайд Heartopia для Рецепты: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Рецепты</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Рецепты. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/timer/",
     "translationStatus": "translated",
     "title": "Heartopia Инструменты - Русский",
-    "description": "Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.",
+    "description": "Русский гайд Heartopia для Инструменты: маршруты, данные, карта и инструменты в одном месте.",
     "section": "Инструменты",
     "keywords": [
       "Heartopia",
       "Инструменты",
-      "гайд",
-      "маршрут",
-      "база данных"
+      "Русский",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Инструменты - Русский</h1>\n          <p>Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>Инструменты гайд</h2>\n          <p>Русская страница Heartopia для Инструменты: маршруты, данные, инструменты и практические заметки.</p>\n          <p>Инструменты локализовано, чтобы индексируемая страница не показывала английский fallback.</p>\n          <ul class=\"checklist\">\n            <li>коды / награды</li>\n            <li>база данных / карта</li>\n            <li>инструменты / маршрут</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub Русский</span>\n          <h1>Heartopia Инструменты - Русский</h1>\n          <p>Русский гайд Heartopia для Инструменты: маршруты, данные, карта и инструменты в одном месте.</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/ru/codes/\">Коды</a><a class=\"pastel-button alt\" href=\"/ru/database/\">База данных</a><a class=\"pastel-button alt\" href=\"/ru/map/\">Карта</a><a class=\"pastel-button alt\" href=\"/ru/tools/\">Инструменты</a><a class=\"pastel-button alt\" href=\"/ru/guides/\">Гайды</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>Планирование: Инструменты</h2>\n            <p>Эта страница собирает полезную информацию Heartopia для Инструменты. Используйте быстрые ссылки, чтобы открыть коды, базу данных, карту и инструменты.</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>Проверить коды</h3><p>Активные кандидаты и награды.</p></div><div class=\"route-card\"><h3>Открыть данные</h3><p>Рыба, магазины, культуры, рецепты и персонажи.</p></div><div class=\"route-card\"><h3>Собрать маршрут</h3><p>Карта, метки, калькуляторы и трекеры.</p></div></div>\n        </div>\n      </section>"
   }
 ]

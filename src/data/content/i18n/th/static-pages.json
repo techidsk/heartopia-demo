@@ -2,437 +2,437 @@
   {
     "path": "/",
     "translationStatus": "translated",
-    "title": "Heartopia หน้าแรก - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ หน้าแรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "section": "หน้าแรก",
+    "title": "Heartopia Hub ภาษาไทย",
+    "description": "หน้าเริ่มต้นภาษาไทยสำหรับ Heartopia รวมโค้ด ฐานข้อมูล แผนที่ ร้านค้า ปลา พืช สูตรอาหาร และเครื่องมือช่วยเล่น",
+    "section": "ภาษาไทย",
     "keywords": [
       "Heartopia",
-      "หน้าแรก",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
     "ogImage": "/assets/heartopia-guide-hero.png",
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia หน้าแรก - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ หน้าแรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>หน้าแรก ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ หน้าแรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>หน้าแรก เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia Hub ภาษาไทย</h1>\n          <p>หน้าเริ่มต้นภาษาไทยสำหรับ Heartopia รวมโค้ด ฐานข้อมูล แผนที่ ร้านค้า ปลา พืช สูตรอาหาร และเครื่องมือช่วยเล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>เริ่มอย่างรวดเร็ว</h2>\n            <p>ใช้หน้านี้เป็นจุดเริ่มต้นของเส้นทางหลักใน Heartopia ตรวจโค้ด เปิดฐานข้อมูลหรือแผนที่ แล้วใช้เครื่องมือเมื่อคุณต้องวางแผน</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/404.html",
     "translationStatus": "translated",
-    "title": "Heartopia หน้าแรก - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ หน้าแรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "section": "หน้าแรก",
+    "title": "ไม่พบหน้า Heartopia",
+    "description": "ไม่พบหน้านี้ในภาษาไทย ใช้โค้ด ฐานข้อมูล แผนที่ หรือเครื่องมือเพื่อไปต่อ",
+    "section": "ภาษาไทย",
     "keywords": [
       "Heartopia",
-      "หน้าแรก",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia หน้าแรก - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ หน้าแรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>หน้าแรก ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ หน้าแรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>หน้าแรก เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>ไม่พบหน้า Heartopia</h1>\n          <p>ไม่พบหน้านี้ในภาษาไทย ใช้โค้ด ฐานข้อมูล แผนที่ หรือเครื่องมือเพื่อไปต่อ</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>เริ่มอย่างรวดเร็ว</h2>\n            <p>ใช้หน้านี้เป็นจุดเริ่มต้นของเส้นทางหลักใน Heartopia ตรวจโค้ด เปิดฐานข้อมูลหรือแผนที่ แล้วใช้เครื่องมือเมื่อคุณต้องวางแผน</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/about/",
     "translationStatus": "translated",
-    "title": "Heartopia ไกด์ - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ไกด์ - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ไกด์ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ไกด์",
     "keywords": [
       "Heartopia",
       "ไกด์",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ไกด์ - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ไกด์ ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ไกด์ เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ไกด์ - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ไกด์ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ไกด์</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ไกด์ ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/animal-favorites/",
     "translationStatus": "translated",
-    "title": "Heartopia สัตว์เลี้ยง - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia สัตว์เลี้ยง - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "สัตว์เลี้ยง",
     "keywords": [
       "Heartopia",
       "สัตว์เลี้ยง",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia สัตว์เลี้ยง - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>สัตว์เลี้ยง ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>สัตว์เลี้ยง เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia สัตว์เลี้ยง - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน สัตว์เลี้ยง</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ สัตว์เลี้ยง ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/codes/",
     "translationStatus": "translated",
-    "title": "Heartopia โค้ด - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ โค้ด พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia โค้ด - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ โค้ด รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "โค้ด",
     "keywords": [
       "Heartopia",
       "โค้ด",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia โค้ด - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ โค้ด พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>โค้ด ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ โค้ด พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>โค้ด เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia โค้ด - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ โค้ด รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน โค้ด</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ โค้ด ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/contact/",
     "translationStatus": "translated",
-    "title": "Heartopia ไกด์ - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ไกด์ - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ไกด์ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ไกด์",
     "keywords": [
       "Heartopia",
       "ไกด์",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ไกด์ - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ไกด์ ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ไกด์ เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ไกด์ - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ไกด์ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ไกด์</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ไกด์ ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/database/",
     "translationStatus": "translated",
-    "title": "Heartopia ฐานข้อมูล - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ฐานข้อมูล พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ฐานข้อมูล - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ฐานข้อมูล รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ฐานข้อมูล",
     "keywords": [
       "Heartopia",
       "ฐานข้อมูล",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ฐานข้อมูล - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ฐานข้อมูล พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ฐานข้อมูล ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ฐานข้อมูล พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ฐานข้อมูล เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ฐานข้อมูล - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ฐานข้อมูล รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ฐานข้อมูล</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ฐานข้อมูล ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/download/",
     "translationStatus": "translated",
-    "title": "Heartopia ดาวน์โหลด - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ดาวน์โหลด พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ดาวน์โหลด - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ดาวน์โหลด รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ดาวน์โหลด",
     "keywords": [
       "Heartopia",
       "ดาวน์โหลด",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ดาวน์โหลด - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ดาวน์โหลด พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ดาวน์โหลด ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ดาวน์โหลด พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ดาวน์โหลด เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ดาวน์โหลด - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ดาวน์โหลด รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ดาวน์โหลด</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ดาวน์โหลด ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/events/",
     "translationStatus": "translated",
-    "title": "Heartopia กิจกรรม - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ กิจกรรม พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia กิจกรรม - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ กิจกรรม รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "กิจกรรม",
     "keywords": [
       "Heartopia",
       "กิจกรรม",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia กิจกรรม - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ กิจกรรม พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>กิจกรรม ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ กิจกรรม พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>กิจกรรม เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia กิจกรรม - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ กิจกรรม รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน กิจกรรม</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ กิจกรรม ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/guides/",
     "translationStatus": "translated",
-    "title": "Heartopia ไกด์ - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ไกด์ - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ไกด์ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ไกด์",
     "keywords": [
       "Heartopia",
       "ไกด์",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ไกด์ - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ไกด์ ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ไกด์ เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ไกด์ - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ไกด์ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ไกด์</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ไกด์ ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/",
     "translationStatus": "translated",
-    "title": "Heartopia งานอดิเรก - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ งานอดิเรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia งานอดิเรก - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ งานอดิเรก รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "งานอดิเรก",
     "keywords": [
       "Heartopia",
       "งานอดิเรก",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia งานอดิเรก - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ งานอดิเรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>งานอดิเรก ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ งานอดิเรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>งานอดิเรก เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia งานอดิเรก - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ งานอดิเรก รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน งานอดิเรก</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ งานอดิเรก ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/birdwatching/",
     "translationStatus": "translated",
-    "title": "Heartopia งานอดิเรก - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ งานอดิเรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia งานอดิเรก - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ งานอดิเรก รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "งานอดิเรก",
     "keywords": [
       "Heartopia",
       "งานอดิเรก",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia งานอดิเรก - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ งานอดิเรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>งานอดิเรก ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ งานอดิเรก พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>งานอดิเรก เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia งานอดิเรก - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ งานอดิเรก รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน งานอดิเรก</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ งานอดิเรก ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/cooking/",
     "translationStatus": "translated",
-    "title": "Heartopia สูตรอาหาร - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ สูตรอาหาร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia สูตรอาหาร - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ สูตรอาหาร รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "สูตรอาหาร",
     "keywords": [
       "Heartopia",
       "สูตรอาหาร",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia สูตรอาหาร - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ สูตรอาหาร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>สูตรอาหาร ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ สูตรอาหาร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>สูตรอาหาร เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia สูตรอาหาร - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ สูตรอาหาร รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน สูตรอาหาร</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ สูตรอาหาร ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/fishing/",
     "translationStatus": "translated",
-    "title": "Heartopia ปลา - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ปลา พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ปลา - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ปลา รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ปลา",
     "keywords": [
       "Heartopia",
       "ปลา",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ปลา - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ปลา พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ปลา ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ปลา พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ปลา เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ปลา - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ปลา รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ปลา</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ปลา ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/gardening/",
     "translationStatus": "translated",
-    "title": "Heartopia พืช - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ พืช พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia พืช - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ พืช รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "พืช",
     "keywords": [
       "Heartopia",
       "พืช",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia พืช - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ พืช พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>พืช ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ พืช พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>พืช เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia พืช - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ พืช รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน พืช</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ พืช ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/hobbies/insects/",
     "translationStatus": "translated",
-    "title": "Heartopia แมลง - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ แมลง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia แมลง - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ แมลง รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "แมลง",
     "keywords": [
       "Heartopia",
       "แมลง",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia แมลง - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ แมลง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>แมลง ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ แมลง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>แมลง เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia แมลง - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ แมลง รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน แมลง</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ แมลง ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/house-designs/",
     "translationStatus": "translated",
-    "title": "Heartopia ไกด์ - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ไกด์ - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ไกด์ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ไกด์",
     "keywords": [
       "Heartopia",
       "ไกด์",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ไกด์ - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ไกด์ ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ไกด์ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ไกด์ เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ไกด์ - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ไกด์ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ไกด์</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ไกด์ ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/map/",
     "translationStatus": "translated",
-    "title": "Heartopia แผนที่ - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ แผนที่ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia แผนที่ - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ แผนที่ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "แผนที่",
     "keywords": [
       "Heartopia",
       "แผนที่",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia แผนที่ - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ แผนที่ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>แผนที่ ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ แผนที่ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>แผนที่ เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia แผนที่ - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ แผนที่ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน แผนที่</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ แผนที่ ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/npcs/",
     "translationStatus": "translated",
-    "title": "Heartopia ตัวละคร - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ตัวละคร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ตัวละคร - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ตัวละคร รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ตัวละคร",
     "keywords": [
       "Heartopia",
       "ตัวละคร",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ตัวละคร - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ตัวละคร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ตัวละคร ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ตัวละคร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ตัวละคร เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ตัวละคร - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ตัวละคร รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ตัวละคร</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ตัวละคร ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/pets/",
     "translationStatus": "translated",
-    "title": "Heartopia สัตว์เลี้ยง - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia สัตว์เลี้ยง - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "สัตว์เลี้ยง",
     "keywords": [
       "Heartopia",
       "สัตว์เลี้ยง",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia สัตว์เลี้ยง - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>สัตว์เลี้ยง ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>สัตว์เลี้ยง เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia สัตว์เลี้ยง - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ สัตว์เลี้ยง รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน สัตว์เลี้ยง</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ สัตว์เลี้ยง ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/privacy/",
     "translationStatus": "translated",
-    "title": "Heartopia ความเป็นส่วนตัว - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ความเป็นส่วนตัว พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ความเป็นส่วนตัว - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ความเป็นส่วนตัว รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ความเป็นส่วนตัว",
     "keywords": [
       "Heartopia",
       "ความเป็นส่วนตัว",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ความเป็นส่วนตัว - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ความเป็นส่วนตัว พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ความเป็นส่วนตัว ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ความเป็นส่วนตัว พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ความเป็นส่วนตัว เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ความเป็นส่วนตัว - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ความเป็นส่วนตัว รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ความเป็นส่วนตัว</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ความเป็นส่วนตัว ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/terms/",
     "translationStatus": "translated",
-    "title": "Heartopia เงื่อนไข - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ เงื่อนไข พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia เงื่อนไข - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ เงื่อนไข รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "เงื่อนไข",
     "keywords": [
       "Heartopia",
       "เงื่อนไข",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia เงื่อนไข - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ เงื่อนไข พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>เงื่อนไข ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ เงื่อนไข พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>เงื่อนไข เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia เงื่อนไข - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ เงื่อนไข รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน เงื่อนไข</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ เงื่อนไข ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/",
     "translationStatus": "translated",
-    "title": "Heartopia เครื่องมือ - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia เครื่องมือ - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ เครื่องมือ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "เครื่องมือ",
     "keywords": [
       "Heartopia",
       "เครื่องมือ",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia เครื่องมือ - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>เครื่องมือ ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>เครื่องมือ เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia เครื่องมือ - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ เครื่องมือ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน เครื่องมือ</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ เครื่องมือ ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/checklist/",
     "translationStatus": "translated",
-    "title": "Heartopia เครื่องมือ - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia เครื่องมือ - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ เครื่องมือ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "เครื่องมือ",
     "keywords": [
       "Heartopia",
       "เครื่องมือ",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia เครื่องมือ - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>เครื่องมือ ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>เครื่องมือ เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia เครื่องมือ - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ เครื่องมือ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน เครื่องมือ</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ เครื่องมือ ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/crop-planner/",
     "translationStatus": "translated",
-    "title": "Heartopia พืช - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ พืช พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia พืช - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ พืช รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "พืช",
     "keywords": [
       "Heartopia",
       "พืช",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia พืช - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ พืช พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>พืช ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ พืช พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>พืช เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia พืช - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ พืช รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน พืช</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ พืช ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/fish-tracker/",
     "translationStatus": "translated",
-    "title": "Heartopia ปลา - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ปลา พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ปลา - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ปลา รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ปลา",
     "keywords": [
       "Heartopia",
       "ปลา",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ปลา - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ปลา พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ปลา ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ปลา พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ปลา เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ปลา - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ปลา รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ปลา</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ปลา ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/friendship-tracker/",
     "translationStatus": "translated",
-    "title": "Heartopia ตัวละคร - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ ตัวละคร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia ตัวละคร - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ ตัวละคร รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "ตัวละคร",
     "keywords": [
       "Heartopia",
       "ตัวละคร",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ตัวละคร - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ตัวละคร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>ตัวละคร ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ ตัวละคร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>ตัวละคร เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia ตัวละคร - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ ตัวละคร รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน ตัวละคร</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ ตัวละคร ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/recipe-finder/",
     "translationStatus": "translated",
-    "title": "Heartopia สูตรอาหาร - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ สูตรอาหาร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia สูตรอาหาร - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ สูตรอาหาร รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "สูตรอาหาร",
     "keywords": [
       "Heartopia",
       "สูตรอาหาร",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia สูตรอาหาร - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ สูตรอาหาร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>สูตรอาหาร ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ สูตรอาหาร พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>สูตรอาหาร เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia สูตรอาหาร - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ สูตรอาหาร รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน สูตรอาหาร</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ สูตรอาหาร ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   },
   {
     "path": "/tools/timer/",
     "translationStatus": "translated",
-    "title": "Heartopia เครื่องมือ - ไทย",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
+    "title": "Heartopia เครื่องมือ - ภาษาไทย",
+    "description": "ไกด์ Heartopia ภาษาไทยสำหรับ เครื่องมือ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว",
     "section": "เครื่องมือ",
     "keywords": [
       "Heartopia",
       "เครื่องมือ",
-      "ไกด์",
-      "เส้นทาง",
-      "ฐานข้อมูล"
+      "ภาษาไทย",
+      "guide",
+      "database"
     ],
-    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia เครื่องมือ - ไทย</h1>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"page-section\">\n        <div class=\"section-inner content\">\n          <h2>เครื่องมือ ไกด์</h2>\n          <p>หน้า Heartopia ภาษาไทยสำหรับ เครื่องมือ พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น</p>\n          <p>เครื่องมือ เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ</p>\n          <ul class=\"checklist\">\n            <li>โค้ด / รางวัล</li>\n            <li>ฐานข้อมูล / แผนที่</li>\n            <li>เครื่องมือ / เส้นทาง</li>\n          </ul>\n        </div>\n      </section>"
+    "content": "<section class=\"page-hero\">\n        <div class=\"section-inner\">\n          <span class=\"eyebrow\">Heartopia Hub ไทย</span>\n          <h1>Heartopia เครื่องมือ - ภาษาไทย</h1>\n          <p>ไกด์ Heartopia ภาษาไทยสำหรับ เครื่องมือ รวมเส้นทาง ข้อมูล แผนที่ และเครื่องมือไว้ในที่เดียว</p>\n          <div class=\"hero-buttons\"><a class=\"pastel-button alt\" href=\"/th/codes/\">โค้ด</a><a class=\"pastel-button alt\" href=\"/th/database/\">ฐานข้อมูล</a><a class=\"pastel-button alt\" href=\"/th/map/\">แผนที่</a><a class=\"pastel-button alt\" href=\"/th/tools/\">เครื่องมือ</a><a class=\"pastel-button alt\" href=\"/th/guides/\">ไกด์</a></div>\n        </div>\n      </section>\n\n      <section class=\"wiki-section\">\n        <div class=\"wiki-shell\">\n          <div class=\"center-head\">\n            <h2>วางแผน เครื่องมือ</h2>\n            <p>หน้านี้รวบรวมข้อมูล Heartopia ที่จำเป็นสำหรับ เครื่องมือ ใช้ลิงก์ลัดเพื่อเปิดโค้ด ฐานข้อมูล แผนที่ และเครื่องมือ</p>\n          </div>\n          <div class=\"route-grid\"><div class=\"route-card\"><h3>ตรวจโค้ด</h3><p>โค้ดที่ยังน่าทดสอบและรางวัล</p></div><div class=\"route-card\"><h3>ใช้ฐานข้อมูล</h3><p>ปลา ร้านค้า พืช สูตร และตัวละคร</p></div><div class=\"route-card\"><h3>จัดเส้นทาง</h3><p>แผนที่ หมุด เครื่องคำนวณ และตัวติดตาม</p></div></div>\n        </div>\n      </section>"
   }
 ]

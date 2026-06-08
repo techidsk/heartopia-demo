@@ -30,7 +30,7 @@ const localePacks = {
     routeText: (name) => `Nutze ${name} als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.`,
     unlock: (name) => `${name} ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.`,
     hours: "Nach Spielzeit und Shop-Rotation pruefen.",
-    note: (name) => `${name} ist ein lokalisierter Datensatz fuer schnelle Entscheidungen ohne englische Fallback-Seite.`,
+    note: (name) => `${name} ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.`,
     codeNote: "Arbeitscodes koennen sich aendern; im Spiel pruefen, bevor du Belohnungen einplanst.",
     expired: "Als abgelaufen gemeldet",
     terms: {
@@ -77,7 +77,7 @@ const localePacks = {
     routeText: (name) => `Usa ${name} para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.`,
     unlock: (name) => `${name} está disponible en la ruta adecuada de Heartopia o tras el progreso relacionado.`,
     hours: "Revisar según la hora del juego y la rotación de tiendas.",
-    note: (name) => `${name} es una ficha localizada para tomar decisiones sin mostrar contenido inglés como fallback.`,
+    note: (name) => `${name} es una ficha en español para planificar rutas, colección y decisiones rápidas.`,
     codeNote: "Los códigos activos pueden cambiar; compruébalos en el juego antes de planificar recompensas.",
     expired: "Reportado como caducado",
     terms: {
@@ -124,7 +124,7 @@ const localePacks = {
     routeText: (name) => `Utilise ${name} pour planifier l'itinéraire et comparer carte, boutique, niveau et journée.`,
     unlock: (name) => `${name} se débloque via la route Heartopia adaptée ou la progression associée.`,
     hours: "À vérifier selon l'heure du jeu et la rotation des boutiques.",
-    note: (name) => `${name} est une fiche localisée pour éviter une page indexable en anglais de secours.`,
+    note: (name) => `${name} est une fiche en français pour planifier les routes, la collection et les vérifications.`,
     codeNote: "Les codes actifs peuvent changer ; vérifie-les en jeu avant de compter sur les récompenses.",
     expired: "Signalé comme expiré",
     terms: {
@@ -171,7 +171,7 @@ const localePacks = {
     routeText: (name) => `Use ${name} para planejar a rota e comparar mapa, loja, nível e rotina diária.`,
     unlock: (name) => `${name} fica disponível na rota adequada de Heartopia ou após o progresso relacionado.`,
     hours: "Verifique conforme o horário do jogo e a rotação das lojas.",
-    note: (name) => `${name} é um registro localizado para evitar fallback em inglês em páginas indexáveis.`,
+    note: (name) => `${name} é uma ficha em português para planejar rotas, coleção e verificações rápidas.`,
     codeNote: "Códigos ativos podem mudar; confirme no jogo antes de planejar recompensas.",
     expired: "Reportado como expirado",
     terms: {
@@ -218,7 +218,7 @@ const localePacks = {
     routeText: (name) => `Gunakan ${name} untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.`,
     unlock: (name) => `${name} tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.`,
     hours: "Periksa sesuai waktu dalam game dan rotasi toko.",
-    note: (name) => `${name} adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.`,
+    note: (name) => `${name} adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.`,
     codeNote: "Kode aktif dapat berubah; cek di game sebelum mengandalkan hadiah.",
     expired: "Dilaporkan kedaluwarsa",
     terms: {
@@ -265,7 +265,7 @@ const localePacks = {
     routeText: (name) => `Используйте ${name}, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.`,
     unlock: (name) => `${name} доступно через подходящий маршрут Heartopia или после связанного прогресса.`,
     hours: "Проверьте по игровому времени и ротации магазинов.",
-    note: (name) => `${name} локализовано, чтобы индексируемая страница не показывала английский fallback.`,
+    note: (name) => `${name} — русская заметка для маршрутов, коллекции и быстрой проверки.`,
     codeNote: "Рабочие коды могут меняться; проверяйте их в игре перед планированием наград.",
     expired: "Отмечено как истекшее",
     terms: {
@@ -312,7 +312,7 @@ const localePacks = {
     routeText: (name) => `ใช้ ${name} เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน`,
     unlock: (name) => `${name} จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น`,
     hours: "ตรวจตามเวลาในเกมและรอบร้านค้า",
-    note: (name) => `${name} เป็นข้อมูลที่แปลแล้วเพื่อไม่ให้หน้า index ใช้ fallback ภาษาอังกฤษ`,
+    note: (name) => `${name} เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว`,
     codeNote: "โค้ดที่ใช้งานได้อาจเปลี่ยนได้ ควรตรวจในเกมก่อนวางแผนรางวัล",
     expired: "ถูกรายงานว่าหมดอายุ",
     terms: {
@@ -354,12 +354,12 @@ const localePacks = {
     checked: "確認済み",
     status: "公開済み",
     source: "英語編集版をもとにした Heartopia Hub の日本語データです。",
-    description: (label) => `Heartopia の ${label} 向け日本語ページ。ルート、データ、ツール、実用メモをまとめています。`,
+    description: (label) => `${label} に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。`,
     dataUse: (name) => `${name} はルート計画、収集、確認に使える日本語の早見データです。`,
     routeText: (name) => `${name} を使って、マップ、ショップ、レベル、日課の流れを比較できます。`,
     unlock: (name) => `${name} は関連する Heartopia ルートまたは進行度で利用できます。`,
     hours: "ゲーム内時間とショップローテーションに合わせて確認してください。",
-    note: (name) => `${name} は、インデックス可能なページで英語 fallback を出さないための日本語データです。`,
+    note: (name) => `${name} の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。`,
     codeNote: "有効コードは変わる場合があります。報酬を前提にする前にゲーム内で確認してください。",
     expired: "期限切れとして報告済み",
     terms: {
@@ -406,7 +406,7 @@ const localePacks = {
     routeText: (name) => `${name}으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.`,
     unlock: (name) => `${name}은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.`,
     hours: "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
-    note: (name) => `${name}은 색인 가능한 페이지가 영어 fallback을 표시하지 않도록 만든 한국어 데이터입니다.`,
+    note: (name) => `${name} 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다.`,
     codeNote: "활성 코드는 바뀔 수 있으니 보상을 계획하기 전에 게임 안에서 확인하세요.",
     expired: "만료로 보고됨",
     terms: {

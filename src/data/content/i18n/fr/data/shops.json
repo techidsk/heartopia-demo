@@ -15,7 +15,7 @@
       "fiche: Fertilizer",
       "fiche: Basic watering supplies"
     ],
-    "notes": "Gardening Store est une fiche localisée pour éviter une page indexable en anglais de secours."
+    "notes": "Gardening Store est une fiche en français pour planifier les routes, la collection et les vérifications."
   },
   {
     "id": "furniture-workshop",
@@ -33,7 +33,7 @@
       "fiche: Shelves",
       "fiche: Decor sets"
     ],
-    "notes": "Furniture Workshop est une fiche localisée pour éviter une page indexable en anglais de secours."
+    "notes": "Furniture Workshop est une fiche en français pour planifier les routes, la collection et les vérifications."
   },
   {
     "id": "pet-shop",
@@ -51,7 +51,7 @@
       "fiche: Pet care basics",
       "fiche: Birdwatching route notes"
     ],
-    "notes": "Pet Shop est une fiche localisée pour éviter une page indexable en anglais de secours."
+    "notes": "Pet Shop est une fiche en français pour planifier les routes, la collection et les vérifications."
   },
   {
     "id": "clothing-store",
@@ -68,7 +68,7 @@
       "fiche: Fashion route items",
       "fiche: Event outfit leads"
     ],
-    "notes": "Clothing Store est une fiche localisée pour éviter une page indexable en anglais de secours."
+    "notes": "Clothing Store est une fiche en français pour planifier les routes, la collection et les vérifications."
   },
   {
     "id": "music-store",
@@ -85,7 +85,7 @@
       "fiche: Instrument route notes",
       "fiche: Home ambiance items"
     ],
-    "notes": "Annie's Music Store est une fiche localisée pour éviter une page indexable en anglais de secours."
+    "notes": "Annie's Music Store est une fiche en français pour planifier les routes, la collection et les vérifications."
   },
   {
     "id": "general-store",
@@ -102,7 +102,7 @@
       "fiche: Storage route notes",
       "fiche: Errand supplies"
     ],
-    "notes": "Ka Ching's General Store est une fiche localisée pour éviter une page indexable en anglais de secours."
+    "notes": "Ka Ching's General Store est une fiche en français pour planifier les routes, la collection et les vérifications."
   },
   {
     "id": "doris-weather-cart",
@@ -120,7 +120,7 @@
       "fiche: Furniture",
       "fiche: Event stock"
     ],
-    "notes": "Doris Weather Cart est une fiche localisée pour éviter une page indexable en anglais de secours."
+    "notes": "Doris Weather Cart est une fiche en français pour planifier les routes, la collection et les vérifications."
   },
   {
     "id": "sea-fishing-booth",
@@ -137,6 +137,6 @@
       "fiche: Repair-kit reminders",
       "fiche: Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth est une fiche localisée pour éviter une page indexable en anglais de secours."
+    "notes": "Sea Fishing Booth est une fiche en français pour planifier les routes, la collection et les vérifications."
   }
 ]

@@ -9,7 +9,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Tomato untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Tomato adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Tomato adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "1",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -23,7 +23,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Potato untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Potato adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Potato adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "1",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -37,7 +37,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Wheat untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Wheat adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Wheat adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "2",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -51,7 +51,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Lettuce untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Lettuce adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Lettuce adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "3",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -65,7 +65,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Pineapple untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Pineapple adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Pineapple adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "4",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -79,7 +79,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Carrot untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Carrot adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Carrot adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "5",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -93,7 +93,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Strawberry untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Strawberry adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Strawberry adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "6",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -107,7 +107,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Corn untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Corn adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Corn adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "6",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -121,7 +121,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Grape untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Grape adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Grape adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "7",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -135,7 +135,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Eggplant untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Eggplant adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Eggplant adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "8",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -149,7 +149,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 茶葉 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "茶葉 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "茶葉 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "11",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -163,7 +163,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Cacao Tree untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Cacao Tree adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Cacao Tree adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "12",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -177,7 +177,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan Avocado untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "Avocado adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "Avocado adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "13",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -191,7 +191,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 雛菊 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "雛菊 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "雛菊 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "3",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -205,7 +205,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 三色堇 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "三色堇 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "三色堇 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "4",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -219,7 +219,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 花燭 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "花燭 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "花燭 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "5",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -233,7 +233,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 虞美人 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "虞美人 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "虞美人 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "5",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -247,7 +247,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 馬蹄蓮 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "馬蹄蓮 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "馬蹄蓮 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "6",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -261,7 +261,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 牽牛花 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "牽牛花 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "牽牛花 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "6",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -275,7 +275,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 康乃馨 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "康乃馨 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "康乃馨 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "7",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -289,7 +289,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 鬱金香 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "鬱金香 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "鬱金香 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "8",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -303,7 +303,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 百合 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "百合 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "百合 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "9",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -317,7 +317,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 玫瑰 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "玫瑰 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "玫瑰 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "10",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -331,7 +331,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 風信子 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "風信子 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "風信子 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "11",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -345,7 +345,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 蝴蝶蘭 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "蝴蝶蘭 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "蝴蝶蘭 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "12",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -359,7 +359,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 天竺葵 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "天竺葵 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "天竺葵 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "13",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -373,7 +373,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 白蘿蔔 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "白蘿蔔 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "白蘿蔔 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "7",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   },
@@ -387,7 +387,7 @@
     "time": "diperiksa: rute",
     "weather": "diperiksa: rute",
     "route": "Gunakan 綠絨蒿 untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "lore": "綠絨蒿 adalah data lokal agar halaman indeks tidak memakai fallback bahasa Inggris.",
+    "lore": "綠絨蒿 adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
     "hobbyLevel": "3",
     "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
   }
