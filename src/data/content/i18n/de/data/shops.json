@@ -2,141 +2,141 @@
   {
     "id": "gardening-store",
     "translationStatus": "translated",
-    "name": "Gardening Store",
-    "type": "Shop: seeds",
+    "name": "Gartenladen",
+    "type": "Samen",
     "owner": "Blanc",
-    "region": "Karte: Central Town",
-    "unlock": "Gardening Store ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "region": "Zentralstadt",
+    "unlock": "Nach der ersten Garten-Tutorialroute verfügbar.",
+    "hours": "Bei normalen Tagesbesorgungen in der Stadt prüfen.",
     "inventory": [
-      "Eintrag: Tomato Seeds",
-      "Eintrag: Potato Seeds",
-      "Eintrag: Wheat Seeds",
-      "Eintrag: Fertilizer",
-      "Eintrag: Basic watering supplies"
+      "Tomatensamen",
+      "Kartoffelsamen",
+      "Weizensamen",
+      "Dünger",
+      "Einfache Gießausrüstung"
     ],
-    "notes": "Gardening Store ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
+    "notes": "Bester erster Halt vor der Pflanzenprofit-Planung. Samenläufe mit einer kurzen Pflanzenroute koppeln."
   },
   {
     "id": "furniture-workshop",
     "translationStatus": "translated",
-    "name": "Furniture Workshop",
-    "type": "Shop: furniture",
+    "name": "Möbelwerkstatt",
+    "type": "Möbel",
     "owner": "Bob",
-    "region": "Karte: Central Town",
-    "unlock": "Furniture Workshop ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "region": "Zentralstadt",
+    "unlock": "Bobs Möbelroute und frühen Tischleraufträgen folgen.",
+    "hours": "Vor Sitzungen zum Hausdesign einplanen.",
     "inventory": [
-      "Eintrag: Starter furniture",
-      "Eintrag: Tables",
-      "Eintrag: Chairs",
-      "Eintrag: Shelves",
-      "Eintrag: Decor sets"
+      "Einsteigermöbel",
+      "Tische",
+      "Stühle",
+      "Regale",
+      "Dekor-Sets"
     ],
-    "notes": "Furniture Workshop ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
+    "notes": "Hauptübergang für Hauslayouts, Materialplanung und Raumideen."
   },
   {
     "id": "pet-shop",
     "translationStatus": "translated",
-    "name": "Pet Shop",
-    "type": "Shop: pets",
-    "owner": "Mrs. Joan and Bailey J",
-    "region": "Karte: Central Town",
-    "unlock": "Pet Shop ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "name": "Tierladen",
+    "type": "Haustiere",
+    "owner": "Frau Joan und Bailey J",
+    "region": "Zentralstadt",
+    "unlock": "Vor breiten Futtertests den Haustier-Onboardingpfad nutzen.",
+    "hours": "Besuchen, wenn Katzen, Hunde und Vogelbeobachtungs-Freischaltungen geroutet werden.",
     "inventory": [
-      "Eintrag: Dog Food",
-      "Eintrag: Cat-care items",
-      "Eintrag: Pet adoption leads",
-      "Eintrag: Pet care basics",
-      "Eintrag: Birdwatching route notes"
+      "Hundefutter",
+      "Katzenpflege-Gegenstände",
+      "Hinweise zur Haustieradoption",
+      "Grundlagen der Haustierpflege",
+      "Notizen zur Vogelbeobachtungsroute"
     ],
-    "notes": "Pet Shop ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
+    "notes": "Katzen und Hunde aus dem Tierladen von Wildtiertrögen und Oak-Oak getrennt halten."
   },
   {
     "id": "clothing-store",
     "translationStatus": "translated",
-    "name": "Clothing Store",
-    "type": "Shop: fashion",
+    "name": "Kleiderladen",
+    "type": "Mode",
     "owner": "Dorothy",
-    "region": "Karte: Central Town",
-    "unlock": "Clothing Store ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "region": "Zentralstadt",
+    "unlock": "Dorothys Mode- und Posterroute vorantreiben.",
+    "hours": "Mit NPC-Gesprächsrunden in Zentralstadt kombinieren.",
     "inventory": [
-      "Eintrag: Outfits",
-      "Eintrag: Cosmetic pieces",
-      "Eintrag: Fashion route items",
-      "Eintrag: Event outfit leads"
+      "Outfits",
+      "Kosmetische Teile",
+      "Mode-Routenobjekte",
+      "Hinweise auf Event-Outfits"
     ],
-    "notes": "Clothing Store ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
+    "notes": "Nützlich für Mode-Sammlungschecks und saisonale Outfitplanung."
   },
   {
     "id": "music-store",
     "translationStatus": "translated",
-    "name": "Annie's Music Store",
-    "type": "Shop: music",
+    "name": "Annies Musikladen",
+    "type": "Musik",
     "owner": "Annie",
-    "region": "Karte: Central Town",
-    "unlock": "Annie's Music Store ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "region": "Zentralstadt",
+    "unlock": "Nutzen, sobald Noten- und Wohn-Deko-Systeme erscheinen.",
+    "hours": "Am besten während der Hausdesign-Vorbereitung prüfen.",
     "inventory": [
-      "Eintrag: Sheet music leads",
-      "Eintrag: Music decor",
-      "Eintrag: Instrument route notes",
-      "Eintrag: Home ambiance items"
+      "Notenhinweise",
+      "Musikdekor",
+      "Notizen zu Instrumentenrouten",
+      "Ambiente-Gegenstände fürs Zuhause"
     ],
-    "notes": "Annie's Music Store ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
+    "notes": "Verbindet Hausdesign mit Musiksammlung und Raumthemen."
   },
   {
     "id": "general-store",
     "translationStatus": "translated",
-    "name": "Ka Ching's General Store",
-    "type": "Shop: general",
+    "name": "Ka Chings Gemischtwarenladen",
+    "type": "Allgemein",
     "owner": "Ka Ching",
-    "region": "Karte: Central Town",
-    "unlock": "Ka Ching's General Store ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "region": "Zentralstadt",
+    "unlock": "Besuchen, sobald Inventardruck Routen blockiert.",
+    "hours": "Mit jeder langen Sammel-, Angel- oder Eventschleife koppeln.",
     "inventory": [
-      "Eintrag: Inventory expansion",
-      "Eintrag: Utility goods",
-      "Eintrag: Storage route notes",
-      "Eintrag: Errand supplies"
+      "Inventarerweiterung",
+      "Nützliche Waren",
+      "Notizen zu Lager-Routen",
+      "Besorgungsbedarf"
     ],
-    "notes": "Ka Ching's General Store ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
+    "notes": "Vor materiallastigen Routen nutzen, damit Angel- und Sammelsitzungen nicht stocken."
   },
   {
     "id": "doris-weather-cart",
     "translationStatus": "translated",
-    "name": "Doris Weather Cart",
-    "type": "Shop: traveling",
+    "name": "Doris Wetterkarren",
+    "type": "Reisehändler",
     "owner": "Doris",
-    "region": "Karte: Dynamic weather route",
-    "unlock": "Doris Weather Cart ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "region": "Dynamische Wetterroute",
+    "unlock": "Erscheint bei besonderem Wetter, Regenbogen, Schnee oder Meteorrouten.",
+    "hours": "Patchsensibel; mit Spielkarte und Wettervorhersage bestätigen.",
     "inventory": [
-      "Eintrag: Weather recipes",
-      "Eintrag: Limited ingredients",
-      "Eintrag: Cosmetics",
-      "Eintrag: Furniture",
-      "Eintrag: Event stock"
+      "Wetterrezepte",
+      "Begrenzte Zutaten",
+      "Kosmetik",
+      "Möbel",
+      "Eventbestand"
     ],
-    "notes": "Doris Weather Cart ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
+    "notes": "Doris als dynamische Händlerin behandeln. Seltene Käufe nie ohne Wettercheck planen."
   },
   {
     "id": "sea-fishing-booth",
     "translationStatus": "translated",
-    "name": "Sea Fishing Booth",
-    "type": "Shop: event",
+    "name": "Meeresangel-Stand",
+    "type": "Event",
     "owner": "Bill",
-    "region": "Karte: Fishing Village",
-    "unlock": "Sea Fishing Booth ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "hours": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "region": "Fischerdorf",
+    "unlock": "Während Meeresangeln und Angel-Eventrouten nutzen.",
+    "hours": "Prüfen, wenn die Eventseite auf Angelvorbereitung verweist.",
     "inventory": [
-      "Eintrag: Sea fishing route",
-      "Eintrag: Event fish notes",
-      "Eintrag: Repair-kit reminders",
-      "Eintrag: Coastal task handoffs"
+      "Meeresangelroute",
+      "Notizen zu Eventfischen",
+      "Erinnerungen an Reparatursets",
+      "Übergänge zu Küstenaufgaben"
     ],
-    "notes": "Sea Fishing Booth ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen."
+    "notes": "Am besten mit Fisch-Tracker, Inventarchecks und Eventbelohnungsplanung koppeln."
   }
 ]

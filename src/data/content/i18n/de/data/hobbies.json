@@ -2,50 +2,50 @@
   {
     "id": "fishing",
     "translationStatus": "translated",
-    "name": "Fishing",
-    "group": "Guide: core",
-    "summary": "Fishing als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "name": "Angeln",
+    "group": "Kern",
+    "summary": "Gewässerrouten mit Freischaltung, Spannungsübung, Fisch-Tracker, Kartenorten und Planung seltener Fänge."
   },
   {
     "id": "gardening",
     "translationStatus": "translated",
-    "name": "Gardening",
-    "group": "Guide: core",
-    "summary": "Gardening als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "name": "Gärtnern",
+    "group": "Kern",
+    "summary": "Pflanzenroute mit Samenplanung, Profitvergleich, Pflanzenplaner, Timern und Rezeptverwertung."
   },
   {
     "id": "cooking",
     "translationStatus": "translated",
-    "name": "Cooking",
-    "group": "Guide: core",
-    "summary": "Cooking als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "name": "Kochen",
+    "group": "Kern",
+    "summary": "Rezepte mit Massimo-Freischaltung, Marmelade, Fish and Chips, QTE-Sicherheit und Eventzutaten-Checks."
   },
   {
     "id": "birdwatching",
     "translationStatus": "translated",
-    "name": "Birdwatching",
-    "group": "Guide: nature",
-    "summary": "Birdwatching als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "name": "Vogelbeobachtung",
+    "group": "Natur",
+    "summary": "Kamera- und Fernglasroute mit Wetter, Ort, Pose und Sammlungscheckliste."
   },
   {
     "id": "insects",
     "translationStatus": "translated",
-    "name": "Insect Catching",
-    "group": "Guide: nature",
-    "summary": "Insect Catching als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "name": "Insektenfang",
+    "group": "Natur",
+    "summary": "Bubble-Net-Route mit DG6-Freischaltung, Zeit, Wetter, Habitat, seltenen Insekten und Verkaufschecks."
   },
   {
     "id": "cat-care",
     "translationStatus": "translated",
-    "name": "Cat Care",
-    "group": "Guide: care",
-    "summary": "Cat Care als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "name": "Katzenpflege",
+    "group": "Pflege",
+    "summary": "Tierladenroute mit Adoption, Futtertests, Favoritentracking und täglichen Pflegerunden."
   },
   {
     "id": "dog-care",
     "translationStatus": "translated",
-    "name": "Dog Care",
-    "group": "Guide: care",
-    "summary": "Dog Care als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "name": "Hundepflege",
+    "group": "Pflege",
+    "summary": "Hundefutter-Basis, Adoptionsroute, Trennung von Oak-Oak und Tests für Tierfavoriten."
   }
 ]

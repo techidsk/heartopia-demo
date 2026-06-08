@@ -2,98 +2,98 @@
   {
     "id": "dog",
     "translationStatus": "translated",
-    "name": "Dog",
-    "category": "Datenbank: pet",
-    "route": "Nutze Dog als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Hund",
+    "category": "Haustier",
+    "route": "Adoption im Tierladen",
     "food": [
-      "Eintrag: Dog Food",
-      "Eintrag: Simple cooked dishes",
-      "Eintrag: Low-cost test foods"
+      "Hundefutter",
+      "Einfache gekochte Gerichte",
+      "Günstige Testfutter"
     ],
-    "unlock": "Dog ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "unlock": "Haustierpflege-Route nach Frau Joans Onboarding",
+    "source": "Tierladen"
   },
   {
     "id": "cat",
     "translationStatus": "translated",
-    "name": "Cat",
-    "category": "Datenbank: pet",
-    "route": "Nutze Cat als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Katze",
+    "category": "Haustier",
+    "route": "Onboarding im Tierladen",
     "food": [
-      "Eintrag: Cat-care items",
-      "Eintrag: Pet baseline food",
-      "Eintrag: Low-cost tests"
+      "Katzenpflege-Gegenstände",
+      "Grundfutter für Haustiere",
+      "Günstige Tests"
     ],
-    "unlock": "Cat ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "unlock": "Erste Haustierpflege-Onboardingroute",
+    "source": "Tierladen"
   },
   {
     "id": "fox",
     "translationStatus": "translated",
-    "name": "Fox",
-    "category": "Datenbank: wild",
-    "route": "Nutze Fox als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Fuchs",
+    "category": "Wildtier",
+    "route": "Trog im Blumenfeld",
     "food": [
-      "Eintrag: Meat lane",
-      "Eintrag: Fish lane",
-      "Eintrag: Wild animal tests"
+      "Fleischroute",
+      "Fischroute",
+      "Tests für Wildtiere"
     ],
-    "unlock": "Fox ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "unlock": "Wildtier-Trogroute",
+    "source": "Blumenfeld"
   },
   {
     "id": "sea-otter",
     "translationStatus": "translated",
-    "name": "Sea Otter",
-    "category": "Datenbank: wild",
-    "route": "Nutze Sea Otter als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Seeotter",
+    "category": "Wildtier",
+    "route": "Trog im Fischerdorf",
     "food": [
-      "Eintrag: Shrimp",
-      "Eintrag: Shell lane",
-      "Eintrag: Coastal fish tests"
+      "Garnele",
+      "Muschelroute",
+      "Küstenfisch-Tests"
     ],
-    "unlock": "Sea Otter ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "unlock": "Wildtier-Trogroute",
+    "source": "Fischerdorf"
   },
   {
     "id": "chicken",
     "translationStatus": "translated",
-    "name": "Chicken",
-    "category": "Datenbank: farm",
-    "route": "Nutze Chicken als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Huhn",
+    "category": "Farmtier",
+    "route": "Farmtierrroute",
     "food": [
-      "Eintrag: Corn",
-      "Eintrag: Crop lane",
-      "Eintrag: Basic feed tests"
+      "Mais",
+      "Pflanzenroute",
+      "Einfache Futtertests"
     ],
-    "unlock": "Chicken ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "unlock": "Farmtierpflege-Route",
+    "source": "Farmtierroute"
   },
   {
     "id": "cow",
     "translationStatus": "translated",
-    "name": "Cow",
-    "category": "Datenbank: farm",
-    "route": "Nutze Cow als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Kuh",
+    "category": "Farmtier",
+    "route": "Farmtierrroute",
     "food": [
-      "Eintrag: Wheat",
-      "Eintrag: Grass lane",
-      "Eintrag: Long crop overlap"
+      "Weizen",
+      "Grasroute",
+      "Überschneidung mit Langzeitpflanzen"
     ],
-    "unlock": "Cow ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "unlock": "Farmtierpflege-Route",
+    "source": "Farmtierroute"
   },
   {
     "id": "oak-oak",
     "translationStatus": "translated",
     "name": "Oak-Oak",
-    "category": "Datenbank: quest",
-    "route": "Nutze Oak-Oak als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "category": "Quest",
+    "route": "Questbegleiter im Wald",
     "food": [
-      "Eintrag: Quest-specific care",
-      "Eintrag: Do not mix with dog route"
+      "Questspezifische Pflege",
+      "Nicht mit der Hunderoute mischen"
     ],
-    "unlock": "Oak-Oak ist in der passenden Heartopia-Route oder nach dem relevanten Fortschritt verfuegbar.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "unlock": "Astralis-Wald-Questreihe",
+    "source": "Questroute"
   }
 ]

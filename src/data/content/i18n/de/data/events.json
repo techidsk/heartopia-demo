@@ -2,82 +2,82 @@
   {
     "id": "modular-streets",
     "translationStatus": "translated",
-    "name": "Modular Streets Festival",
-    "window": "geprueft: Route",
-    "route": "Nutze Modular Streets Festival als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Modulare-Straßen-Festival",
+    "window": "9. Mai - 20. Juni 2026",
+    "route": "Aufgaben zu Ziegelfischen, Ziegelinsekten, Ziegelvögeln und Sammlerherausforderungen.",
     "rewards": [
-      "Belohnungen: Brick furniture lane",
-      "Belohnungen: Festival collectibles",
-      "Belohnungen: Collection progress"
+      "Möbelreihe im Ziegelstil",
+      "Festival-Sammelobjekte",
+      "Sammlungsfortschritt"
     ],
     "prep": [
-      "Route: Redeem active codes",
-      "Route: Free storage space",
-      "Route: Open fish tracker",
-      "Route: Check map routes"
+      "Aktive Codes einlösen",
+      "Lagerplatz freimachen",
+      "Fisch-Tracker öffnen",
+      "Kartenrouten prüfen"
     ]
   },
   {
     "id": "graffiti-channel",
     "translationStatus": "translated",
-    "name": "Graffiti Channel Exhibition",
-    "window": "geprueft: Route",
-    "route": "Nutze Graffiti Channel Exhibition als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Graffiti-Channel-Ausstellung",
+    "window": "9. Mai - 20. Juni 2026",
+    "route": "Mode- und Sammelroute, die mit Festivalbelohnungen verknüpft ist.",
     "rewards": [
-      "Belohnungen: Fashion display route",
-      "Belohnungen: Collector tasks",
-      "Belohnungen: Event styling notes"
+      "Mode-Ausstellungsroute",
+      "Sammleraufgaben",
+      "Notizen zum Event-Styling"
     ],
     "prep": [
-      "Route: Check clothing store",
-      "Route: Review event checklist",
-      "Route: Leave room for display items"
+      "Kleiderladen prüfen",
+      "Event-Checkliste durchgehen",
+      "Platz für Ausstellungsobjekte lassen"
     ]
   },
   {
     "id": "sea-fishing",
     "translationStatus": "translated",
-    "name": "Sea Fishing",
-    "window": "geprueft: Route",
-    "route": "Nutze Sea Fishing als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Meeresangeln",
+    "window": "Freischaltungsroute",
+    "route": "Fischerdorf mit Bill; nützlich für Eventaufgaben und seltene Fischrouten.",
     "rewards": [
-      "Belohnungen: Sea fish progress",
-      "Belohnungen: Fishing event rewards",
-      "Belohnungen: Recipe inputs"
+      "Fortschritt bei Meeresfischen",
+      "Belohnungen aus dem Angel-Event",
+      "Rezeptzutaten"
     ],
     "prep": [
-      "Route: Open fish tracker",
-      "Route: Check inventory space",
-      "Route: Bring repair kit if needed"
+      "Fisch-Tracker öffnen",
+      "Inventarplatz prüfen",
+      "Bei Bedarf Reparaturset mitbringen"
     ]
   },
   {
     "id": "next-banner-watch",
     "translationStatus": "translated",
-    "name": "Next Banner Watch",
-    "window": "geprueft: Route",
-    "route": "Nutze Next Banner Watch als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Nächstes Banner beobachten",
+    "window": "Noch offen",
+    "route": "Platzhalter für das nächste offizielle Banner oder Festival.",
     "rewards": [
-      "Belohnungen: Unknown until announcement"
+      "Bis zur Ankündigung unbekannt"
     ],
     "prep": [
-      "Route: Keep codes page checked",
-      "Route: Save flexible materials",
-      "Route: Do not spend all event stock"
+      "Codes-Seite regelmäßig prüfen",
+      "Flexible Materialien aufbewahren",
+      "Nicht den gesamten Eventbestand ausgeben"
     ]
   },
   {
     "id": "closed-code-window",
     "translationStatus": "translated",
-    "name": "Closed Code Window Archive",
-    "window": "geprueft: Route",
-    "route": "Nutze Closed Code Window Archive als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
+    "name": "Archiv geschlossener Code-Fenster",
+    "window": "Abgelaufen oder unbestätigt",
+    "route": "Archivierte Belohnungsfenster getrennt von aktuellen Aufgaben halten.",
     "rewards": [
-      "Belohnungen: Historical reward notes"
+      "Historische Belohnungsnotizen"
     ],
     "prep": [
-      "Route: Move expired codes out of current route",
-      "Route: Keep source check date visible"
+      "Abgelaufene Codes aus der aktuellen Route verschieben",
+      "Prüfdatum der Quelle sichtbar halten"
     ]
   }
 ]

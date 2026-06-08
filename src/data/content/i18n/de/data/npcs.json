@@ -3,155 +3,160 @@
     "id": "blanc",
     "translationStatus": "translated",
     "name": "Blanc",
-    "group": "Datenbank: mentor",
-    "role": "Guide: Gardening mentor",
-    "location": "Karte: Garden Shop / Central Town",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Mentor",
+    "role": "Gartenmentor",
+    "location": "Gartenladen / Zentralstadt",
+    "schedule": "Blanc vor Samenkäufen und Blumenplanung als Anker der Gartenroute nutzen.",
     "gifts": [
-      "Belohnungen: Fresh crop",
-      "Belohnungen: Flower",
-      "Belohnungen: Simple cooked dish"
+      "Frische Pflanze",
+      "Blume",
+      "Einfaches gekochtes Gericht"
     ],
     "nameZh": "布蘭克",
-    "profile": "Blanc ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "profile": "Blanc ist im TW-Wiki als Gartenmentor für Pflanzen, Blumen und spätere Blumenzucht-Routen geführt.",
+    "source": "Biligame Heartopia TW Wiki Startseite"
   },
   {
     "id": "bob",
     "translationStatus": "translated",
     "name": "Bob",
-    "group": "Datenbank: shopkeeper",
-    "role": "Guide: Furniture workshop owner",
-    "location": "Karte: Central Town",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Händler",
+    "role": "Besitzer der Möbelwerkstatt",
+    "location": "Zentralstadt",
+    "schedule": "Den Möbelstopp während der Hauslayout-Planung nutzen.",
     "gifts": [
-      "Belohnungen: Wood decor",
-      "Belohnungen: House material",
-      "Belohnungen: Simple dish"
-    ]
+      "Holzdekor",
+      "Hausmaterial",
+      "Einfaches Gericht"
+    ],
+    "nameZh": "鲍勃"
   },
   {
     "id": "dorothy",
     "translationStatus": "translated",
     "name": "Dorothy",
-    "group": "Datenbank: shopkeeper",
-    "role": "Guide: Clothing store owner",
-    "location": "Karte: Central Town",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Händlerin",
+    "role": "Besitzerin des Kleiderladens",
+    "location": "Zentralstadt",
+    "schedule": "Kleiderbesorgungen mit NPC-Gesprächsrunden in Zentralstadt koppeln.",
     "gifts": [
-      "Belohnungen: Fashion item",
-      "Belohnungen: Flower",
-      "Belohnungen: Dessert"
-    ]
+      "Modegegenstand",
+      "Blume",
+      "Dessert"
+    ],
+    "nameZh": "多萝西"
   },
   {
     "id": "mrs-joan",
     "translationStatus": "translated",
-    "name": "Mrs. Joan",
-    "group": "Datenbank: mentor",
-    "role": "Guide: Pet care mentor",
-    "location": "Karte: Pet Shop",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "name": "Frau Joan",
+    "group": "Mentorin",
+    "role": "Mentorin für Haustierpflege",
+    "location": "Tierladen",
+    "schedule": "Die Tierladenroute nutzen, wenn Hundefutter und Adoption getestet werden.",
     "gifts": [
-      "Belohnungen: Dog Food",
-      "Belohnungen: Pet-care item",
-      "Belohnungen: Cooked dish"
-    ]
+      "Hundefutter",
+      "Haustierpflege-Gegenstand",
+      "Gekochtes Gericht"
+    ],
+    "nameZh": "琼夫人"
   },
   {
     "id": "doris",
     "translationStatus": "translated",
     "name": "Doris",
-    "group": "Datenbank: dynamic",
-    "role": "Guide: Weather merchant",
-    "location": "Karte: Dynamic weather route",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Dynamisch",
+    "role": "Wetterhändlerin",
+    "location": "Dynamische Wetterroute",
+    "schedule": "Vor seltenen Käufen die Wetterroute im Spiel bestätigen.",
     "gifts": [
-      "Belohnungen: Weather item",
-      "Belohnungen: Colorful flower",
-      "Belohnungen: Rare dish"
-    ]
+      "Wettergegenstand",
+      "Bunte Blume",
+      "Seltenes Gericht"
+    ],
+    "nameZh": "多莉丝"
   },
   {
     "id": "bill",
     "translationStatus": "translated",
     "name": "Bill",
-    "group": "Datenbank: event",
-    "role": "Guide: Sea Fishing event mentor",
-    "location": "Karte: Fishing Village",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Event",
+    "role": "Mentor des Meeresangel-Events",
+    "location": "Fischerdorf",
+    "schedule": "Bill nutzen, wenn Meeresangeln oder Eventaufgaben auf Küstenrouten verweisen.",
     "gifts": [
-      "Belohnungen: Fish",
-      "Belohnungen: Repair Kit",
-      "Belohnungen: Seafood dish"
-    ]
+      "Fisch",
+      "Reparaturset",
+      "Meeresfrüchtegericht"
+    ],
+    "nameZh": "比尔"
   },
   {
     "id": "albert-ii",
     "translationStatus": "translated",
     "name": "Albert II",
-    "group": "Datenbank: featured",
-    "role": "Guide: Featured town character",
-    "location": "Karte: Heartopia town route",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Hervorgehoben",
+    "role": "Vorgestellter Stadtcharakter",
+    "location": "Heartopia-Stadtroute",
+    "schedule": "Charakter von der Startseite; Live-Standort im Spiel bestätigen, bevor Geschenke geroutet werden.",
     "gifts": [
-      "Belohnungen: Favorite gift pending",
-      "Belohnungen: Liked gift pending",
-      "Belohnungen: Talk route"
+      "Lieblingsgeschenk ausstehend",
+      "Beliebtes Geschenk ausstehend",
+      "Gesprächsroute"
     ],
     "nameZh": "阿爾伯特二世",
-    "profile": "Albert II ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "profile": "Auf der Charakterleiste der TW-Wiki-Startseite hervorgehoben; Detailroute steht noch aus.",
+    "source": "Biligame Heartopia TW Wiki Startseite"
   },
   {
     "id": "ka-ching",
     "translationStatus": "translated",
     "name": "Ka Ching",
-    "group": "Datenbank: shopkeeper",
-    "role": "Guide: General store owner",
-    "location": "Karte: Central Town",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Händler",
+    "role": "Besitzer des Gemischtwarenladens",
+    "location": "Zentralstadt",
+    "schedule": "Ka Ching mit Inventar-, Nutzwaren- und Langrouten-Vorbereitung koppeln.",
     "gifts": [
-      "Belohnungen: Utility item",
-      "Belohnungen: Simple dish",
-      "Belohnungen: Favorite gift pending"
+      "Nutzgegenstand",
+      "Einfaches Gericht",
+      "Lieblingsgeschenk ausstehend"
     ],
     "nameZh": "卡清",
-    "profile": "Ka Ching ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "profile": "Auf der TW-Wiki-Startseite hervorgehoben und mit der Gemischtwarenladenroute dieses Leitfadens verbunden.",
+    "source": "Biligame Heartopia TW Wiki Startseite"
   },
   {
     "id": "annie",
     "translationStatus": "translated",
     "name": "Annie",
-    "group": "Datenbank: shopkeeper",
-    "role": "Guide: Music store owner",
-    "location": "Karte: Central Town",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Händlerin",
+    "role": "Besitzerin des Musikladens",
+    "location": "Zentralstadt",
+    "schedule": "Annie nutzen, wenn Hausambiente, Musik und Sammlungsrouten sich überschneiden.",
     "gifts": [
-      "Belohnungen: Music decor",
-      "Belohnungen: Dessert",
-      "Belohnungen: Favorite gift pending"
+      "Musikdekor",
+      "Dessert",
+      "Lieblingsgeschenk ausstehend"
     ],
     "nameZh": "安妮",
-    "profile": "Annie ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "profile": "Auf der TW-Wiki-Startseite hervorgehoben und mit der Musikladenroute dieses Leitfadens verbunden.",
+    "source": "Biligame Heartopia TW Wiki Startseite"
   },
   {
     "id": "vania",
     "translationStatus": "translated",
     "name": "Vania",
-    "group": "Datenbank: featured",
-    "role": "Guide: Featured town character",
-    "location": "Karte: Heartopia town route",
-    "schedule": "Nach Spielzeit und Shop-Rotation pruefen.",
+    "group": "Hervorgehoben",
+    "role": "Vorgestellter Stadtcharakter",
+    "location": "Heartopia-Stadtroute",
+    "schedule": "Charakter von der Startseite; Live-Standort im Spiel bestätigen, bevor Geschenke geroutet werden.",
     "gifts": [
-      "Belohnungen: Favorite gift pending",
-      "Belohnungen: Liked gift pending",
-      "Belohnungen: Talk route"
+      "Lieblingsgeschenk ausstehend",
+      "Beliebtes Geschenk ausstehend",
+      "Gesprächsroute"
     ],
     "nameZh": "萬尼亞",
-    "profile": "Vania ist ein deutschsprachiger Heartopia-Hinweis fuer Planung, Sammlung und schnelle Entscheidungen.",
-    "source": "Lokalisierte Heartopia-Hub-Daten auf Basis der englischen Redaktion."
+    "profile": "Auf der Charakterleiste der TW-Wiki-Startseite hervorgehoben; Detailroute steht noch aus.",
+    "source": "Biligame Heartopia TW Wiki Startseite"
   }
 ]

@@ -2,241 +2,241 @@
   {
     "id": "wels-catfish",
     "translationStatus": "translated",
-    "name": "Wels Catfish",
-    "spot": "Karte: Meadow Lake",
-    "condition": "Nutze Wels Catfish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Wels",
+    "spot": "Wiesensee",
+    "condition": "Einsteigerroute",
+    "window": "Jede Einsteigersitzung",
     "level": "Lv 1",
-    "use": "Wels Catfish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Schnelle Angelroute für den frühen Spielabschnitt"
   },
   {
     "id": "goldfish",
     "translationStatus": "translated",
-    "name": "Goldfish",
-    "spot": "Karte: Meadow Lake",
-    "condition": "Nutze Goldfish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Goldfisch",
+    "spot": "Wiesensee",
+    "condition": "Morgens bis abends",
+    "window": "Morgen bis Abend",
     "level": "Lv 1",
-    "use": "Goldfish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Frühes Sammlungs- und Tracker-Ziel"
   },
   {
     "id": "arctic-char",
     "translationStatus": "translated",
-    "name": "Arctic Char",
-    "spot": "Karte: Forest Lake",
-    "condition": "Nutze Arctic Char als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Seesaibling",
+    "spot": "Waldsee",
+    "condition": "Bei kühlem Wetter priorisieren",
+    "window": "Kühles Wetter",
     "level": "Lv 2",
-    "use": "Arctic Char als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Kontrollpunkt auf der Waldsee-Route"
   },
   {
     "id": "giant-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Giant Pearl Mussel",
-    "spot": "Karte: Forest Lake",
-    "condition": "Nutze Giant Pearl Mussel als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Riesenperlmuschel",
+    "spot": "Waldsee",
+    "condition": "Beispielzeile für jede Tageszeit",
+    "window": "Jederzeit",
     "level": "Lv 2",
-    "use": "Giant Pearl Mussel als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Auffüll- und Wertcheck am Waldsee"
   },
   {
     "id": "largemouth-bass",
     "translationStatus": "translated",
-    "name": "Largemouth Bass",
-    "spot": "Karte: Forest Lake",
-    "condition": "Nutze Largemouth Bass als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Forellenbarsch",
+    "spot": "Waldsee",
+    "condition": "Standardfang auf der Seenroute",
+    "window": "Jederzeit",
     "level": "Lv 2",
-    "use": "Largemouth Bass als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Regulärer Fang am See"
   },
   {
     "id": "common-whitefish",
     "translationStatus": "translated",
-    "name": "Common Whitefish",
-    "spot": "Karte: Onsen Mountain Lake",
-    "condition": "Nutze Common Whitefish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Große Bodenrenke",
+    "spot": "Onsen-Bergsee",
+    "condition": "Route am Bergsee",
+    "window": "Jederzeit",
     "level": "Lv 3",
-    "use": "Common Whitefish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Fang in der Onsen-Schleife"
   },
   {
     "id": "ruffe",
     "translationStatus": "translated",
-    "name": "Ruffe",
-    "spot": "Karte: Onsen Mountain Lake",
-    "condition": "Nutze Ruffe als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Kaulbarsch",
+    "spot": "Onsen-Bergsee",
+    "condition": "Route am Bergsee",
+    "window": "Jederzeit",
     "level": "Lv 3",
-    "use": "Ruffe als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Fang in der Onsen-Schleife"
   },
   {
     "id": "crucian-carp",
     "translationStatus": "translated",
-    "name": "Crucian Carp",
-    "spot": "Karte: Spring Lake",
-    "condition": "Nutze Crucian Carp als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Karausche",
+    "spot": "Quellsee",
+    "condition": "Route mit Regenbonus",
+    "window": "Regenbonus",
     "level": "Lv 3",
-    "use": "Crucian Carp als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Ziel für Regensitzungen"
   },
   {
     "id": "huchen",
     "translationStatus": "translated",
     "name": "Huchen",
-    "spot": "Karte: Giantwood River",
-    "condition": "Nutze Huchen als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "spot": "Riesenwald-Fluss",
+    "condition": "Level 9; Regenbogenwetter",
+    "window": "Regenbogenwetter",
     "level": "Lv 9",
-    "use": "Huchen als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Priorität für seltene Flussfische"
   },
   {
     "id": "burbot",
     "translationStatus": "translated",
-    "name": "Burbot",
-    "spot": "Karte: Tranquil River",
-    "condition": "Nutze Burbot als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Quappe",
+    "spot": "Stiller Fluss",
+    "condition": "Mittag bis Abend",
+    "window": "Mittag bis Abend",
     "level": "Lv 4",
-    "use": "Burbot als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Reguläre Flussroute"
   },
   {
     "id": "beltfish",
     "translationStatus": "translated",
-    "name": "Beltfish",
-    "spot": "Karte: Zephyr Sea",
-    "condition": "Nutze Beltfish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Degenfisch",
+    "spot": "Zephyrmeer",
+    "condition": "Küstenroute",
+    "window": "Jede Küstensitzung",
     "level": "Lv 4",
-    "use": "Beltfish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Auffüllziel für die Küstenroute"
   },
   {
     "id": "atlantic-pygmy-octopus",
     "translationStatus": "translated",
-    "name": "Atlantic Pygmy Octopus",
-    "spot": "Karte: Zephyr Sea",
-    "condition": "Nutze Atlantic Pygmy Octopus als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Atlantischer Zwergkrake",
+    "spot": "Zephyrmeer",
+    "condition": "Küstenroute",
+    "window": "Jede Küstensitzung",
     "level": "Lv 4",
-    "use": "Atlantic Pygmy Octopus als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Check für die Küstenroute"
   },
   {
     "id": "atlantic-salmon",
     "translationStatus": "translated",
-    "name": "Atlantic Salmon",
-    "spot": "Karte: Whale Sea",
-    "condition": "Nutze Atlantic Salmon als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Atlantischer Lachs",
+    "spot": "Walmeer",
+    "condition": "Späte Meeresroute",
+    "window": "Späte Meeressitzung",
     "level": "Lv 7",
-    "use": "Atlantic Salmon als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Wertvolle Meeresroute"
   },
   {
     "id": "swordfish",
     "translationStatus": "translated",
-    "name": "Swordfish",
-    "spot": "Karte: Whale Sea",
-    "condition": "Nutze Swordfish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Schwertfisch",
+    "spot": "Walmeer",
+    "condition": "Level 10",
+    "window": "Späte Meeressitzung",
     "level": "Lv 10",
-    "use": "Swordfish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Seltenes Ziel im späteren Spiel"
   },
   {
     "id": "rainbow-fish",
     "translationStatus": "translated",
-    "name": "Rainbow Fish",
-    "spot": "Karte: Starlight Sea",
-    "condition": "Nutze Rainbow Fish als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Regenbogenfisch",
+    "spot": "Sternenlichtmeer",
+    "condition": "Regenbogenwetter",
+    "window": "Regenbogenwetter",
     "level": "Lv 8",
-    "use": "Rainbow Fish als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Priorität bei seltenem Wetter"
   },
   {
     "id": "koi",
     "translationStatus": "translated",
     "name": "Koi",
-    "spot": "Karte: Secret Pond",
-    "condition": "Nutze Koi als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "spot": "Geheimer Teich",
+    "condition": "Mitternachtsroute",
+    "window": "Mitternacht",
     "level": "Lv 5",
-    "use": "Koi als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Check am versteckten Teich"
   },
   {
     "id": "golden-king-crab",
     "translationStatus": "translated",
-    "name": "Golden King Crab",
-    "spot": "Karte: Sea Fishing",
-    "condition": "Nutze Golden King Crab als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Goldene Königskrabbe",
+    "spot": "Meeresangeln",
+    "condition": "Eventroute",
+    "window": "Eventfenster",
     "level": "Event",
-    "use": "Golden King Crab als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Ziel des Meeresangel-Events"
   },
   {
     "id": "bluefin-tuna",
     "translationStatus": "translated",
-    "name": "Bluefin Tuna",
-    "spot": "Karte: Old Sea",
-    "condition": "Nutze Bluefin Tuna als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Blauflossen-Thunfisch",
+    "spot": "Altes Meer",
+    "condition": "Level 10",
+    "window": "Späte Meeressitzung",
     "level": "Lv 10",
-    "use": "Bluefin Tuna als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Seltenes Ziel im späteren Spiel"
   },
   {
     "id": "smooth-hammerhead",
     "translationStatus": "translated",
-    "name": "Smooth Hammerhead",
-    "spot": "Karte: Deep Sea",
-    "condition": "Nutze Smooth Hammerhead als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Glatter Hammerhai",
+    "spot": "Tiefsee",
+    "condition": "Level 10",
+    "window": "Späte Meeressitzung",
     "level": "Lv 10",
-    "use": "Smooth Hammerhead als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Seltenes Ziel im späteren Spiel"
   },
   {
     "id": "european-eel",
     "translationStatus": "translated",
-    "name": "European Eel",
-    "spot": "Karte: Old Sea",
-    "condition": "Nutze European Eel als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Europäischer Aal",
+    "spot": "Altes Meer",
+    "condition": "Abendroute",
+    "window": "Abend",
     "level": "Lv 7",
-    "use": "European Eel als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Abendziel im Alten Meer"
   },
   {
     "id": "butterfly-koi",
     "translationStatus": "translated",
-    "name": "Butterfly Koi",
-    "spot": "Karte: Secret Pond",
-    "condition": "Nutze Butterfly Koi als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Schmetterlingskoi",
+    "spot": "Geheimer Teich",
+    "condition": "Check für seltene Teichfische",
+    "window": "Seltenes Teichfenster",
     "level": "Lv 6",
-    "use": "Butterfly Koi als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Seltener Check am versteckten Teich"
   },
   {
     "id": "large-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Large Pearl Mussel",
-    "spot": "Karte: Forest Lake",
-    "condition": "Nutze Large Pearl Mussel als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Große Perlmuschel",
+    "spot": "Waldsee",
+    "condition": "Beispielzeile für jede Tageszeit",
+    "window": "Jederzeit",
     "level": "Lv 5",
-    "use": "Large Pearl Mussel als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Sammlungsziel am Waldsee"
   },
   {
     "id": "rainbow-trout",
     "translationStatus": "translated",
-    "name": "Rainbow Trout",
-    "spot": "Karte: Giantwood River",
-    "condition": "Nutze Rainbow Trout als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Regenbogenforelle",
+    "spot": "Riesenwald-Fluss",
+    "condition": "Kandidat für die Regenbogenroute",
+    "window": "Regenbogenwetter",
     "level": "Lv 6",
-    "use": "Rainbow Trout als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Wettercheck für seltene Flussfische"
   },
   {
     "id": "sea-bream",
     "translationStatus": "translated",
-    "name": "Sea Bream",
-    "spot": "Karte: Fishing Village",
-    "condition": "Nutze Sea Bream als Planungsroute und vergleiche Karte, Shop, Level und Tagesablauf.",
-    "window": "geprueft: Route",
+    "name": "Meerbrasse",
+    "spot": "Fischerdorf",
+    "condition": "Küstencheck für Einsteiger",
+    "window": "Jede Küstensitzung",
     "level": "Lv 1",
-    "use": "Sea Bream als schneller deutschsprachiger Heartopia-Hinweis fuer Route, Planung und Sammlung."
+    "use": "Küstenroute für Einsteiger"
   }
 ]
