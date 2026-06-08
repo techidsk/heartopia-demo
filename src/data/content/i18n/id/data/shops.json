@@ -2,141 +2,141 @@
   {
     "id": "gardening-store",
     "translationStatus": "translated",
-    "name": "Gardening Store",
-    "type": "toko: seeds",
+    "name": "Toko Berkebun",
+    "type": "benih",
     "owner": "Blanc",
-    "region": "peta: Central Town",
-    "unlock": "Gardening Store tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "region": "Kota Sentral",
+    "unlock": "Available setelah the lebih dulu gardening tutorial rute.",
+    "hours": "Check during normal daytime town errands.",
     "inventory": [
-      "entri: Tomato Seeds",
-      "entri: Potato Seeds",
-      "entri: Wheat Seeds",
-      "entri: Fertilizer",
-      "entri: Basic watering supplies"
+      "Benih Tomat",
+      "Benih Kentang",
+      "Benih Gandum",
+      "Pupuk",
+      "Perlengkapan siram dasar"
     ],
-    "notes": "Gardening Store adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
+    "notes": "Best lebih dulu stop sebelum crop-profit perencanaan. Pair seed buys dengan a short-session crop rute."
   },
   {
     "id": "furniture-workshop",
     "translationStatus": "translated",
-    "name": "Furniture Workshop",
-    "type": "toko: furniture",
+    "name": "Bengkel Furnitur",
+    "type": "furnitur",
     "owner": "Bob",
-    "region": "peta: Central Town",
-    "unlock": "Furniture Workshop tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "region": "Kota Sentral",
+    "unlock": "Follow Bob's furniture rute dan early joinery requests.",
+    "hours": "Plan this stop sebelum house-design sessions.",
     "inventory": [
-      "entri: Starter furniture",
-      "entri: Tables",
-      "entri: Chairs",
-      "entri: Shelves",
-      "entri: Decor sets"
+      "Furnitur pemula",
+      "Meja",
+      "Kursi",
+      "Rak",
+      "Set dekor"
     ],
-    "notes": "Furniture Workshop adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
+    "notes": "Main handoff untuk house layouts, material perencanaan, dan room-berdasarkan-room design ideas."
   },
   {
     "id": "pet-shop",
     "translationStatus": "translated",
-    "name": "Pet Shop",
-    "type": "toko: pets",
-    "owner": "Mrs. Joan and Bailey J",
-    "region": "peta: Central Town",
-    "unlock": "Pet Shop tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "name": "Toko Peliharaan",
+    "type": "peliharaan",
+    "owner": "Nyonya Joan and Bailey J",
+    "region": "Kota Sentral",
+    "unlock": "Gunakan the peliharaan-perawatan onboarding path sebelum broad uji makanan.",
+    "hours": "Visit when routing cats, dogs, dan birdwatching unlocks.",
     "inventory": [
-      "entri: Dog Food",
-      "entri: Cat-care items",
-      "entri: Pet adoption leads",
-      "entri: Pet care basics",
-      "entri: Birdwatching route notes"
+      "Makanan Anjing",
+      "Perlengkapan perawatan kucing",
+      "Petunjuk adopsi peliharaan",
+      "Dasar perawatan peliharaan",
+      "Catatan rute mengamati burung"
     ],
-    "notes": "Pet Shop adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
+    "notes": "Keep peliharaan-toko cats dan dogs separate dari liar animal troughs dan Oak-Oak."
   },
   {
     "id": "clothing-store",
     "translationStatus": "translated",
-    "name": "Clothing Store",
-    "type": "toko: fashion",
+    "name": "Toko Pakaian",
+    "type": "mode",
     "owner": "Dorothy",
-    "region": "peta: Central Town",
-    "unlock": "Clothing Store tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "region": "Kota Sentral",
+    "unlock": "Progress Dorothy's fashion dan poster rute.",
+    "hours": "Combine dengan Kota Sentral NPC gift loops.",
     "inventory": [
-      "entri: Outfits",
-      "entri: Cosmetic pieces",
-      "entri: Fashion route items",
-      "entri: Event outfit leads"
+      "Pakaian",
+      "Item kosmetik",
+      "Item rute mode",
+      "Petunjuk pakaian event"
     ],
-    "notes": "Clothing Store adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
+    "notes": "Useful untuk fashion koleksi centang dan seasonal outfit perencanaan."
   },
   {
     "id": "music-store",
     "translationStatus": "translated",
-    "name": "Annie's Music Store",
-    "type": "toko: music",
+    "name": "Toko Musik Annie",
+    "type": "musik",
     "owner": "Annie",
-    "region": "peta: Central Town",
-    "unlock": "Annie's Music Store tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "region": "Kota Sentral",
+    "unlock": "Gunakan setelah sheet-music dan home-decoration systems appear.",
+    "hours": "Best checked during home-design prep.",
     "inventory": [
-      "entri: Sheet music leads",
-      "entri: Music decor",
-      "entri: Instrument route notes",
-      "entri: Home ambiance items"
+      "Petunjuk partitur musik",
+      "Dekor musik",
+      "Catatan rute instrumen",
+      "Item suasana rumah"
     ],
-    "notes": "Annie's Music Store adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
+    "notes": "Connects house design dengan music koleksi dan room-theme perencanaan."
   },
   {
     "id": "general-store",
     "translationStatus": "translated",
-    "name": "Ka Ching's General Store",
-    "type": "toko: general",
+    "name": "Toko Serba Ada Ka Ching",
+    "type": "umum",
     "owner": "Ka Ching",
-    "region": "peta: Central Town",
-    "unlock": "Ka Ching's General Store tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "region": "Kota Sentral",
+    "unlock": "Visit when inventory pressure starts blocking rutes.",
+    "hours": "Pair dengan any long gathering, memancing, atau event loop.",
     "inventory": [
-      "entri: Inventory expansion",
-      "entri: Utility goods",
-      "entri: Storage route notes",
-      "entri: Errand supplies"
+      "Perluasan inventaris",
+      "Barang utilitas",
+      "Catatan rute penyimpanan",
+      "Perlengkapan tugas"
     ],
-    "notes": "Ka Ching's General Store adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
+    "notes": "Gunakan this sebelum material-heavy rutes so memancing dan foraging sessions do not stall."
   },
   {
     "id": "doris-weather-cart",
     "translationStatus": "translated",
-    "name": "Doris Weather Cart",
-    "type": "toko: traveling",
+    "name": "Gerobak Cuaca Doris",
+    "type": "keliling",
     "owner": "Doris",
-    "region": "peta: Dynamic weather route",
-    "unlock": "Doris Weather Cart tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "region": "Dynamic cuaca rute",
+    "unlock": "Appears around special cuaca states, rainbows, snow, atau meteor rutes.",
+    "hours": "Patch-sensitive; confirm dengan the in-game peta dan cuaca forecast.",
     "inventory": [
-      "entri: Weather recipes",
-      "entri: Limited ingredients",
-      "entri: Cosmetics",
-      "entri: Furniture",
-      "entri: Event stock"
+      "Resep cuaca",
+      "Bahan terbatas",
+      "Kosmetik",
+      "Furnitur",
+      "Stok event"
     ],
-    "notes": "Doris Weather Cart adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
+    "notes": "Treat Doris as a dinamis merchant. Do not plan langka purchases without checking cuaca lebih dulu."
   },
   {
     "id": "sea-fishing-booth",
     "translationStatus": "translated",
-    "name": "Sea Fishing Booth",
-    "type": "toko: event",
+    "name": "Stan Memancing Laut",
+    "type": "event",
     "owner": "Bill",
-    "region": "peta: Fishing Village",
-    "unlock": "Sea Fishing Booth tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "hours": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "region": "Desa Nelayan",
+    "unlock": "Gunakan during Sea Memancing dan memancing-event rutes.",
+    "hours": "Check when the events halaman points to memancing prep.",
     "inventory": [
-      "entri: Sea fishing route",
-      "entri: Event fish notes",
-      "entri: Repair-kit reminders",
-      "entri: Coastal task handoffs"
+      "Rute memancing laut",
+      "Catatan ikan event",
+      "Pengingat kit perbaikan",
+      "Serah-terima tugas pesisir"
     ],
-    "notes": "Sea Fishing Booth adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat."
+    "notes": "Best paired dengan fish pelacak, inventory centang, dan event hadiah perencanaan."
   }
 ]

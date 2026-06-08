@@ -3,97 +3,97 @@
     "id": "dog",
     "translationStatus": "translated",
     "name": "Dog",
-    "category": "basis data: pet",
-    "route": "Gunakan Dog untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "category": "peliharaan",
+    "route": "Pet Toko adoption",
     "food": [
-      "entri: Dog Food",
-      "entri: Simple cooked dishes",
-      "entri: Low-cost test foods"
+      "Dog Food",
+      "Simple cooked dishes",
+      "Low-cost test foods"
     ],
-    "unlock": "Dog tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "unlock": "Pet-perawatan rute setelah Nyonya Joan onboarding",
+    "source": "Pet Toko"
   },
   {
     "id": "cat",
     "translationStatus": "translated",
     "name": "Cat",
-    "category": "basis data: pet",
-    "route": "Gunakan Cat untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "category": "peliharaan",
+    "route": "Pet Toko onboarding",
     "food": [
-      "entri: Cat-care items",
-      "entri: Pet baseline food",
-      "entri: Low-cost tests"
+      "Cat-perawatan items",
+      "Pet baseline food",
+      "Low-cost tests"
     ],
-    "unlock": "Cat tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "unlock": "First peliharaan-perawatan onboarding rute",
+    "source": "Pet Toko"
   },
   {
     "id": "fox",
     "translationStatus": "translated",
     "name": "Fox",
-    "category": "basis data: wild",
-    "route": "Gunakan Fox untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "category": "liar",
+    "route": "Padang Bunga trough",
     "food": [
-      "entri: Meat lane",
-      "entri: Fish lane",
-      "entri: Wild animal tests"
+      "Meat lane",
+      "Ikan lane",
+      "Wild animal tests"
     ],
-    "unlock": "Fox tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "unlock": "Wild animal trough rute",
+    "source": "Padang Bunga"
   },
   {
     "id": "sea-otter",
     "translationStatus": "translated",
     "name": "Sea Otter",
-    "category": "basis data: wild",
-    "route": "Gunakan Sea Otter untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "category": "liar",
+    "route": "Desa Nelayan trough",
     "food": [
-      "entri: Shrimp",
-      "entri: Shell lane",
-      "entri: Coastal fish tests"
+      "Shrimp",
+      "Shell lane",
+      "Coastal fish tests"
     ],
-    "unlock": "Sea Otter tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "unlock": "Wild animal trough rute",
+    "source": "Desa Nelayan"
   },
   {
     "id": "chicken",
     "translationStatus": "translated",
     "name": "Chicken",
-    "category": "basis data: farm",
-    "route": "Gunakan Chicken untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "category": "ternak",
+    "route": "Farm animal rute",
     "food": [
-      "entri: Corn",
-      "entri: Crop lane",
-      "entri: Basic feed tests"
+      "Jagung",
+      "Crop lane",
+      "Basic feed tests"
     ],
-    "unlock": "Chicken tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "unlock": "Farm animal perawatan rute",
+    "source": "Farm animal lane"
   },
   {
     "id": "cow",
     "translationStatus": "translated",
     "name": "Cow",
-    "category": "basis data: farm",
-    "route": "Gunakan Cow untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "category": "ternak",
+    "route": "Farm animal rute",
     "food": [
-      "entri: Wheat",
-      "entri: Grass lane",
-      "entri: Long crop overlap"
+      "Gandum",
+      "Grass lane",
+      "Long crop overlap"
     ],
-    "unlock": "Cow tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "unlock": "Farm animal perawatan rute",
+    "source": "Farm animal lane"
   },
   {
     "id": "oak-oak",
     "translationStatus": "translated",
     "name": "Oak-Oak",
-    "category": "basis data: quest",
-    "route": "Gunakan Oak-Oak untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "category": "quest",
+    "route": "Hutan quest companion",
     "food": [
-      "entri: Quest-specific care",
-      "entri: Do not mix with dog route"
+      "Quest-specific perawatan",
+      "Do not mix dengan dog rute"
     ],
-    "unlock": "Oak-Oak tersedia lewat rute Heartopia yang sesuai atau setelah progres terkait.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "unlock": "Hutan Astralis quest line",
+    "source": "Quest rute"
   }
 ]

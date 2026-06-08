@@ -3,155 +3,160 @@
     "id": "blanc",
     "translationStatus": "translated",
     "name": "Blanc",
-    "group": "basis data: mentor",
-    "role": "panduan: Gardening mentor",
-    "location": "peta: Garden Shop / Central Town",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "mentor",
+    "role": "Berkebun mentor",
+    "location": "Garden Toko / Kota Sentral",
+    "schedule": "Gunakan Blanc as the gardening rute anchor sebelum seed buying dan flower perencanaan.",
     "gifts": [
-      "hadiah: Fresh crop",
-      "hadiah: Flower",
-      "hadiah: Simple cooked dish"
+      "Fresh crop",
+      "Flower",
+      "Simple cooked dish"
     ],
-    "nameZh": "布蘭克",
-    "profile": "Blanc adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "nameZh": "Blanc",
+    "profile": "TW Wiki lists Blanc as the gardening mentor tied to crops, flowers, dan later flower breeding rutes.",
+    "source": "Biligame Heartopia TW Wiki beranda"
   },
   {
     "id": "bob",
     "translationStatus": "translated",
     "name": "Bob",
-    "group": "basis data: shopkeeper",
-    "role": "panduan: Furniture workshop owner",
-    "location": "peta: Central Town",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "shopkeeper",
+    "role": "Furniture workshop owner",
+    "location": "Kota Sentral",
+    "schedule": "Gunakan the furniture stop while perencanaan house layouts.",
     "gifts": [
-      "hadiah: Wood decor",
-      "hadiah: House material",
-      "hadiah: Simple dish"
-    ]
+      "Wood decor",
+      "House material",
+      "Simple dish"
+    ],
+    "nameZh": "Bob"
   },
   {
     "id": "dorothy",
     "translationStatus": "translated",
     "name": "Dorothy",
-    "group": "basis data: shopkeeper",
-    "role": "panduan: Clothing store owner",
-    "location": "peta: Central Town",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "shopkeeper",
+    "role": "Clothing store owner",
+    "location": "Kota Sentral",
+    "schedule": "Pair clothing errands dengan Kota Sentral NPC talk loops.",
     "gifts": [
-      "hadiah: Fashion item",
-      "hadiah: Flower",
-      "hadiah: Dessert"
-    ]
+      "Fashion item",
+      "Flower",
+      "Dessert"
+    ],
+    "nameZh": "Dorothy"
   },
   {
     "id": "mrs-joan",
     "translationStatus": "translated",
-    "name": "Mrs. Joan",
-    "group": "basis data: mentor",
-    "role": "panduan: Pet care mentor",
-    "location": "peta: Pet Shop",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "name": "Nyonya Joan",
+    "group": "mentor",
+    "role": "Pet perawatan mentor",
+    "location": "Pet Toko",
+    "schedule": "Gunakan the peliharaan toko rute when testing Dog Food dan adoption flows.",
     "gifts": [
-      "hadiah: Dog Food",
-      "hadiah: Pet-care item",
-      "hadiah: Cooked dish"
-    ]
+      "Dog Food",
+      "Pet-perawatan item",
+      "Cooked dish"
+    ],
+    "nameZh": "Nyonya Joan"
   },
   {
     "id": "doris",
     "translationStatus": "translated",
     "name": "Doris",
-    "group": "basis data: dynamic",
-    "role": "panduan: Weather merchant",
-    "location": "peta: Dynamic weather route",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "dynamic",
+    "role": "Weather merchant",
+    "location": "Dynamic cuaca rute",
+    "schedule": "Confirm the in-game cuaca rute sebelum perencanaan langka purchases.",
     "gifts": [
-      "hadiah: Weather item",
-      "hadiah: Colorful flower",
-      "hadiah: Rare dish"
-    ]
+      "Weather item",
+      "Colorful flower",
+      "Rare dish"
+    ],
+    "nameZh": "Doris"
   },
   {
     "id": "bill",
     "translationStatus": "translated",
     "name": "Bill",
-    "group": "basis data: event",
-    "role": "panduan: Sea Fishing event mentor",
-    "location": "peta: Fishing Village",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "event",
+    "role": "Sea Memancing event mentor",
+    "location": "Desa Nelayan",
+    "schedule": "Gunakan Bill when sea memancing atau event tugas point to coastal rutes.",
     "gifts": [
-      "hadiah: Fish",
-      "hadiah: Repair Kit",
-      "hadiah: Seafood dish"
-    ]
+      "Ikan",
+      "Kit Perbaikan",
+      "Seafood dish"
+    ],
+    "nameZh": "Bill"
   },
   {
     "id": "albert-ii",
     "translationStatus": "translated",
     "name": "Albert II",
-    "group": "basis data: featured",
-    "role": "panduan: Featured town character",
-    "location": "peta: Heartopia town route",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "featured",
+    "role": "Featured town character",
+    "location": "Heartopia town rute",
+    "schedule": "Berandapage feature character; confirm live location in game sebelum routing gifts.",
     "gifts": [
-      "hadiah: Favorite gift pending",
-      "hadiah: Liked gift pending",
-      "hadiah: Talk route"
+      "Favorite gift pending",
+      "Liked gift pending",
+      "Talk rute"
     ],
-    "nameZh": "阿爾伯特二世",
-    "profile": "Albert II adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "nameZh": "Albert II",
+    "profile": "Featured on the TW Wiki homepage character strip; detailed rute data is still pending.",
+    "source": "Biligame Heartopia TW Wiki beranda"
   },
   {
     "id": "ka-ching",
     "translationStatus": "translated",
     "name": "Ka Ching",
-    "group": "basis data: shopkeeper",
-    "role": "panduan: General store owner",
-    "location": "peta: Central Town",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "shopkeeper",
+    "role": "General store owner",
+    "location": "Kota Sentral",
+    "schedule": "Pair Ka Ching dengan inventory, utility, dan long-rute preparation errands.",
     "gifts": [
-      "hadiah: Utility item",
-      "hadiah: Simple dish",
-      "hadiah: Favorite gift pending"
+      "Utility item",
+      "Simple dish",
+      "Favorite gift pending"
     ],
-    "nameZh": "卡清",
-    "profile": "Ka Ching adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "nameZh": "Ka Ching",
+    "profile": "Featured on the TW Wiki homepage dan connected to the general-store rute in this panduan.",
+    "source": "Biligame Heartopia TW Wiki beranda"
   },
   {
     "id": "annie",
     "translationStatus": "translated",
     "name": "Annie",
-    "group": "basis data: shopkeeper",
-    "role": "panduan: Music store owner",
-    "location": "peta: Central Town",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "shopkeeper",
+    "role": "Music store owner",
+    "location": "Kota Sentral",
+    "schedule": "Gunakan Annie when house ambience, music, dan koleksi rutes overlap.",
     "gifts": [
-      "hadiah: Music decor",
-      "hadiah: Dessert",
-      "hadiah: Favorite gift pending"
+      "Music decor",
+      "Dessert",
+      "Favorite gift pending"
     ],
-    "nameZh": "安妮",
-    "profile": "Annie adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "nameZh": "Annie",
+    "profile": "Featured on the TW Wiki homepage dan connected to the music-store rute in this panduan.",
+    "source": "Biligame Heartopia TW Wiki beranda"
   },
   {
     "id": "vania",
     "translationStatus": "translated",
     "name": "Vania",
-    "group": "basis data: featured",
-    "role": "panduan: Featured town character",
-    "location": "peta: Heartopia town route",
-    "schedule": "Periksa sesuai waktu dalam game dan rotasi toko.",
+    "group": "featured",
+    "role": "Featured town character",
+    "location": "Heartopia town rute",
+    "schedule": "Berandapage feature character; confirm live location in game sebelum routing gifts.",
     "gifts": [
-      "hadiah: Favorite gift pending",
-      "hadiah: Liked gift pending",
-      "hadiah: Talk route"
+      "Favorite gift pending",
+      "Liked gift pending",
+      "Talk rute"
     ],
-    "nameZh": "萬尼亞",
-    "profile": "Vania adalah catatan bahasa Indonesia untuk rute, koleksi, dan pengecekan cepat.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "nameZh": "Vania",
+    "profile": "Featured on the TW Wiki homepage character strip; detailed rute data is still pending.",
+    "source": "Biligame Heartopia TW Wiki beranda"
   }
 ]

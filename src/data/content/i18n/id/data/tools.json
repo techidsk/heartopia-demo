@@ -2,96 +2,96 @@
   {
     "id": "profit-calculator",
     "translationStatus": "translated",
-    "title": "Profit Calculator",
-    "category": "alat: calculator",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Profit Calculator, berisi rute, data, alat, dan catatan pemain.",
-    "useCase": "Gunakan Profit Calculator untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "title": "Kalkulator Profit",
+    "category": "calculator",
+    "description": "Compare crop profit berdasarkan plot count, session length, dan star bonus.",
+    "useCase": "Pilih the best crop sebelum planting.",
     "linkedData": [
-      "basis data: crops",
-      "basis data: shops",
-      "basis data: recipes"
+      "crops",
+      "toko",
+      "recipes"
     ],
-    "status": "diterbitkan"
+    "status": "tersedia"
   },
   {
     "id": "fish-tracker",
     "translationStatus": "translated",
-    "title": "Fish Tracker",
-    "category": "alat: tracker",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Fish Tracker, berisi rute, data, alat, dan catatan pemain.",
-    "useCase": "Gunakan Fish Tracker untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "title": "Pelacak Ikan",
+    "category": "tracker",
+    "description": "Lacak langka fish catches berdasarkan water rute, level gate, dan time condition.",
+    "useCase": "Simpan koleksi progres across sessions.",
     "linkedData": [
-      "basis data: fish",
-      "basis data: map"
+      "fish",
+      "peta"
     ],
-    "status": "diterbitkan"
+    "status": "tersedia"
   },
   {
     "id": "crop-planner",
     "translationStatus": "translated",
-    "title": "Crop Planner",
-    "category": "alat: planner",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Crop Planner, berisi rute, data, alat, dan catatan pemain.",
-    "useCase": "Gunakan Crop Planner untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "title": "Perencana Tanaman",
+    "category": "planner",
+    "description": "Buat an aktif, seimbang, atau offline crop rute dari playtime dan plot count.",
+    "useCase": "Ubah a play window into a planting schedule.",
     "linkedData": [
-      "basis data: crops",
-      "basis data: shops"
+      "crops",
+      "toko"
     ],
-    "status": "diterbitkan"
+    "status": "tersedia"
   },
   {
     "id": "friendship-tracker",
     "translationStatus": "translated",
-    "title": "Friendship Tracker",
-    "category": "alat: tracker",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Friendship Tracker, berisi rute, data, alat, dan catatan pemain.",
-    "useCase": "Gunakan Friendship Tracker untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "title": "Pelacak Pertemanan",
+    "category": "tracker",
+    "description": "Perkirakan NPC routine progres dari gifts, talks, dan hangouts.",
+    "useCase": "Plan one relationship loop untuk the week.",
     "linkedData": [
-      "basis data: npcs",
-      "basis data: shops"
+      "npcs",
+      "toko"
     ],
-    "status": "diterbitkan"
+    "status": "tersedia"
   },
   {
     "id": "recipe-finder",
     "translationStatus": "translated",
-    "title": "Recipe Finder",
-    "category": "alat: finder",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Recipe Finder, berisi rute, data, alat, dan catatan pemain.",
-    "useCase": "Gunakan Recipe Finder untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "title": "Pencari Resep",
+    "category": "finder",
+    "description": "Saring starter recipes berdasarkan ingredients you already have.",
+    "useCase": "Pilih what to cook sebelum selling atau gifting.",
     "linkedData": [
-      "basis data: recipes",
-      "basis data: crops",
-      "basis data: fish"
+      "recipes",
+      "crops",
+      "fish"
     ],
-    "status": "diterbitkan"
+    "status": "tersedia"
   },
   {
     "id": "checklist",
     "translationStatus": "translated",
-    "title": "Daily Checklist",
-    "category": "alat: tracker",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Daily Checklist, berisi rute, data, alat, dan catatan pemain.",
-    "useCase": "Gunakan Daily Checklist untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "title": "Checklist Harian",
+    "category": "tracker",
+    "description": "Simpan a repeatable harian rute dengan presets untuk codes, crops, fish, dan NPC.",
+    "useCase": "Keep short sessions dari drifting.",
     "linkedData": [
-      "basis data: codes",
-      "basis data: map",
-      "basis data: shops"
+      "codes",
+      "peta",
+      "toko"
     ],
-    "status": "diterbitkan"
+    "status": "tersedia"
   },
   {
     "id": "timer",
     "translationStatus": "translated",
-    "title": "Route Timer",
-    "category": "alat: timer",
-    "description": "Halaman Heartopia bahasa Indonesia untuk Route Timer, berisi rute, data, alat, dan catatan pemain.",
-    "useCase": "Gunakan Route Timer untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "title": "Timer Rute",
+    "category": "timer",
+    "description": "Run persistent timers untuk crops, cooking, memancing windows, dan toko centang.",
+    "useCase": "Know when to return to a rute.",
     "linkedData": [
-      "basis data: crops",
-      "basis data: recipes",
-      "basis data: map"
+      "crops",
+      "recipes",
+      "peta"
     ],
-    "status": "diterbitkan"
+    "status": "tersedia"
   }
 ]

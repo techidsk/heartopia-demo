@@ -2,50 +2,50 @@
   {
     "id": "fishing",
     "translationStatus": "translated",
-    "name": "Fishing",
-    "group": "panduan: core",
-    "summary": "Fishing sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+    "name": "Memancing",
+    "group": "inti",
+    "summary": "Water-type rute dengan unlock, tension practice, fish pelacak, peta spots, dan langka catch perencanaan."
   },
   {
     "id": "gardening",
     "translationStatus": "translated",
-    "name": "Gardening",
-    "group": "panduan: core",
-    "summary": "Gardening sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+    "name": "Berkebun",
+    "group": "inti",
+    "summary": "Crop rute dengan seed perencanaan, profit comparison, crop perencana, timers, dan recipe sinks."
   },
   {
     "id": "cooking",
     "translationStatus": "translated",
-    "name": "Cooking",
-    "group": "panduan: core",
-    "summary": "Cooking sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+    "name": "Memasak",
+    "group": "inti",
+    "summary": "Resep rute dengan Massimo unlock, jam, Ikan dan Chips, QTE safety, dan event ingredient centang."
   },
   {
     "id": "birdwatching",
     "translationStatus": "translated",
-    "name": "Birdwatching",
-    "group": "panduan: nature",
-    "summary": "Birdwatching sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+    "name": "Mengamati Burung",
+    "group": "nature",
+    "summary": "Camera dan binocular rute dengan cuaca, location, pose, dan koleksi checklist perencanaan."
   },
   {
     "id": "insects",
     "translationStatus": "translated",
-    "name": "Insect Catching",
-    "group": "panduan: nature",
-    "summary": "Insect Catching sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+    "name": "Menangkap Serangga",
+    "group": "nature",
+    "summary": "Bubble Net rute dengan DG6 unlock, time, cuaca, habitat, langka bugs, dan sale centang."
   },
   {
     "id": "cat-care",
     "translationStatus": "translated",
-    "name": "Cat Care",
-    "group": "panduan: care",
-    "summary": "Cat Care sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+    "name": "Perawatan Kucing",
+    "group": "perawatan",
+    "summary": "Pet toko rute dengan adoption, uji makanan, favorite tracking, dan harian perawatan loops."
   },
   {
     "id": "dog-care",
     "translationStatus": "translated",
-    "name": "Dog Care",
-    "group": "panduan: care",
-    "summary": "Dog Care sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi."
+    "name": "Perawatan Anjing",
+    "group": "perawatan",
+    "summary": "Dog food baseline, adoption rute, Oak-Oak separation, dan animal favorite testing."
   }
 ]

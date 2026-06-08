@@ -2,221 +2,221 @@
   {
     "id": "mixed-jam",
     "translationStatus": "translated",
-    "name": "Mixed Jam",
-    "group": "basis data: fruit",
+    "name": "Selai Campur",
+    "group": "buah",
     "ingredients": [
-      "entri: 4x Any Fruit"
+      "4x Buah apa saja"
     ],
-    "route": "Gunakan Mixed Jam untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Mixed Jam sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Buah",
+    "use": "Uji nilai awal",
+    "source": "Fruit loop"
   },
   {
     "id": "apple-jam",
     "translationStatus": "translated",
-    "name": "Apple Jam",
-    "group": "basis data: fruit",
+    "name": "Selai Apel",
+    "group": "buah",
     "ingredients": [
-      "entri: 4x Apple"
+      "4x Apel"
     ],
-    "route": "Gunakan Apple Jam untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Apple Jam sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Buah",
+    "use": "Pemakaian hasil kebun buah sederhana",
+    "source": "Orchard rute"
   },
   {
     "id": "blueberry-jam",
     "translationStatus": "translated",
-    "name": "Blueberry Jam",
-    "group": "basis data: fruit",
+    "name": "Selai Blueberry",
+    "group": "buah",
     "ingredients": [
-      "entri: 4x Blueberry"
+      "4x Blueberry"
     ],
-    "route": "Gunakan Blueberry Jam untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Blueberry Jam sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Buah",
+    "use": "Pemakaian loop buah",
+    "source": "Fruit rute"
   },
   {
     "id": "grape-jam",
     "translationStatus": "translated",
-    "name": "Grape Jam",
-    "group": "basis data: fruit",
+    "name": "Selai Anggur",
+    "group": "buah",
     "ingredients": [
-      "entri: 4x Grape"
+      "4x Anggur"
     ],
-    "route": "Gunakan Grape Jam untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Grape Jam sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Buah",
+    "use": "Rute benih belakangan",
+    "source": "Lv 7 crop rute"
   },
   {
     "id": "mandarin-jam",
     "translationStatus": "translated",
-    "name": "Mandarin Jam",
-    "group": "basis data: fruit",
+    "name": "Selai Jeruk Mandarin",
+    "group": "buah",
     "ingredients": [
-      "entri: 4x Mandarin"
+      "4x Jeruk Mandarin"
     ],
-    "route": "Gunakan Mandarin Jam untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Mandarin Jam sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Buah",
+    "use": "Pemakaian hadiah kode",
+    "source": "Reward buah rute"
   },
   {
     "id": "pineapple-jam",
     "translationStatus": "translated",
-    "name": "Pineapple Jam",
-    "group": "basis data: crop-fruit",
+    "name": "Selai Nanas",
+    "group": "tanaman/buah",
     "ingredients": [
-      "entri: 4x Pineapple"
+      "4x Nanas"
     ],
-    "route": "Gunakan Pineapple Jam untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Pineapple Jam sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Crop/Fruit",
+    "use": "Uji tanaman cepat",
+    "source": "Aktif crop rute"
   },
   {
     "id": "strawberry-jam",
     "translationStatus": "translated",
-    "name": "Strawberry Jam",
-    "group": "basis data: crop-fruit",
+    "name": "Selai Stroberi",
+    "group": "tanaman/buah",
     "ingredients": [
-      "entri: 4x Strawberry"
+      "4x Stroberi"
     ],
-    "route": "Gunakan Strawberry Jam untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Strawberry Jam sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Crop/Fruit",
+    "use": "Rute unlock menengah",
+    "source": "Lv 6 crop rute"
   },
   {
     "id": "house-salad",
     "translationStatus": "translated",
-    "name": "House Salad",
-    "group": "basis data: crop",
+    "name": "Salad Rumah",
+    "group": "tanaman",
     "ingredients": [
-      "entri: 2x Any Vegetable"
+      "2x Sayuran apa saja"
     ],
-    "route": "Gunakan House Salad untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "House Salad sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Crop",
+    "use": "Pemakaian sayuran berlebih",
+    "source": "Sayuran rute"
   },
   {
     "id": "fish-and-chips",
     "translationStatus": "translated",
     "name": "Fish and Chips",
-    "group": "basis data: fish-crop",
+    "group": "ikan/tanaman",
     "ingredients": [
-      "entri: 2x Any Fish",
-      "entri: 2x Potato"
+      "2x Ikan apa saja",
+      "2x Kentang"
     ],
-    "route": "Gunakan Fish and Chips untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Fish and Chips sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Ikan/Crop",
+    "use": "Rute gabungan yang bagus",
+    "source": "Ikan plus Kentang rute"
   },
   {
     "id": "grilled-mushrooms",
     "translationStatus": "translated",
-    "name": "Grilled Mushrooms",
-    "group": "basis data: forage",
+    "name": "Jamur Panggang",
+    "group": "forage",
     "ingredients": [
-      "entri: 4x Any Mushroom"
+      "4x Jamur apa saja"
     ],
-    "route": "Gunakan Grilled Mushrooms untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Grilled Mushrooms sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Forage",
+    "use": "Pemakaian hasil forage",
+    "source": "Jamur rute"
   },
   {
     "id": "tomato-plate",
     "translationStatus": "translated",
-    "name": "Tomato Plate",
-    "group": "basis data: crop",
+    "name": "Piring Tomat",
+    "group": "tanaman",
     "ingredients": [
-      "entri: Tomato",
-      "entri: Vegetable input"
+      "Tomat",
+      "Bahan sayuran"
     ],
-    "route": "Gunakan Tomato Plate untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Tomato Plate sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Crop",
+    "use": "Uji sesi aktif",
+    "source": "Aktif Tomat rute"
   },
   {
     "id": "corn-snack",
     "translationStatus": "translated",
-    "name": "Corn Snack",
-    "group": "basis data: crop",
+    "name": "Camilan Jagung",
+    "group": "tanaman",
     "ingredients": [
-      "entri: Corn input"
+      "Bahan jagung"
     ],
-    "route": "Gunakan Corn Snack untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Corn Snack sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Crop",
+    "use": "Sekaligus pakan hewan",
+    "source": "Jagung dan animal rute"
   },
   {
     "id": "carrot-dish",
     "translationStatus": "translated",
-    "name": "Carrot Dish",
-    "group": "basis data: crop",
+    "name": "Hidangan Wortel",
+    "group": "tanaman",
     "ingredients": [
-      "entri: Carrot input"
+      "Bahan wortel"
     ],
-    "route": "Gunakan Carrot Dish untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Carrot Dish sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Crop",
+    "use": "Rute dua jam",
+    "source": "Balanced crop rute"
   },
   {
     "id": "seafood-plate",
     "translationStatus": "translated",
-    "name": "Seafood Plate",
-    "group": "basis data: fish",
+    "name": "Piring Hidangan Laut",
+    "group": "ikan",
     "ingredients": [
-      "entri: Ocean fish input"
+      "Bahan ikan laut"
     ],
-    "route": "Gunakan Seafood Plate untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Seafood Plate sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Ikan",
+    "use": "Pakai setelah loop laut",
+    "source": "Ocean rute"
   },
   {
     "id": "mountain-soup",
     "translationStatus": "translated",
-    "name": "Mountain Soup",
-    "group": "basis data: forage-crop",
+    "name": "Sup Pegunungan",
+    "group": "forage/tanaman",
     "ingredients": [
-      "entri: Mushroom",
-      "entri: Vegetable"
+      "Jamur",
+      "Sayuran"
     ],
-    "route": "Gunakan Mountain Soup untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Mountain Soup sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Forage/Crop",
+    "use": "Pemakaian loop Onsen",
+    "source": "Onsen dan crop rute"
   },
   {
     "id": "simple-breakfast",
     "translationStatus": "translated",
-    "name": "Simple Breakfast",
-    "group": "basis data: farm",
+    "name": "Sarapan Sederhana",
+    "group": "ternak",
     "ingredients": [
-      "entri: Egg",
-      "entri: Crop input"
+      "Telur",
+      "Bahan tanaman"
     ],
-    "route": "Gunakan Simple Breakfast untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Simple Breakfast sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Farm",
+    "use": "Kandidat rute ternak",
+    "source": "Farm animal rute"
   },
   {
     "id": "bizarre-food",
     "translationStatus": "translated",
-    "name": "Bizarre Food",
-    "group": "basis data: qte",
+    "name": "Makanan Aneh",
+    "group": "QTE",
     "ingredients": [
-      "entri: Failed timing"
+      "Timing gagal"
     ],
-    "route": "Gunakan Bizarre Food untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Bizarre Food sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "QTE",
+    "use": "Hindari saat memakai bahan langka",
+    "source": "Failed timing"
   },
   {
     "id": "event-dish",
     "translationStatus": "translated",
-    "name": "Event Dish",
-    "group": "basis data: event",
+    "name": "Hidangan Event",
+    "group": "event",
     "ingredients": [
-      "entri: Limited material"
+      "Material terbatas"
     ],
-    "route": "Gunakan Event Dish untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
-    "use": "Event Dish sebagai referensi cepat bahasa Indonesia untuk rute, rencana, dan koleksi.",
-    "source": "Data Heartopia Hub berbahasa Indonesia berdasarkan penyuntingan Inggris."
+    "route": "Event",
+    "use": "Pastikan nilainya lebih dulu",
+    "source": "Limited event rute"
   }
 ]

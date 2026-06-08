@@ -2,82 +2,82 @@
   {
     "id": "modular-streets",
     "translationStatus": "translated",
-    "name": "Modular Streets Festival",
-    "window": "diperiksa: rute",
-    "route": "Gunakan Modular Streets Festival untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "name": "Modular Spohonts Festival",
+    "window": "9 Mei - 20 Juni 2026",
+    "route": "Brick fish, Brick insects, Brick birds, dan Collector's Challenge tugas.",
     "rewards": [
-      "hadiah: Brick furniture lane",
-      "hadiah: Festival collectibles",
-      "hadiah: Collection progress"
+      "Brick furniture lane",
+      "Festival collectibles",
+      "Collection progres"
     ],
     "prep": [
-      "rute: Redeem active codes",
-      "rute: Free storage space",
-      "rute: Open fish tracker",
-      "rute: Check map routes"
+      "Redeem aktif codes",
+      "Free storage space",
+      "Buka fish pelacak",
+      "Check peta rutes"
     ]
   },
   {
     "id": "graffiti-channel",
     "translationStatus": "translated",
     "name": "Graffiti Channel Exhibition",
-    "window": "diperiksa: rute",
-    "route": "Gunakan Graffiti Channel Exhibition untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "9 Mei - 20 Juni 2026",
+    "route": "Fashion dan collectible rute tied to festival hadiah loops.",
     "rewards": [
-      "hadiah: Fashion display route",
-      "hadiah: Collector tasks",
-      "hadiah: Event styling notes"
+      "Fashion display rute",
+      "Collector tugas",
+      "Event styling catatan"
     ],
     "prep": [
-      "rute: Check clothing store",
-      "rute: Review event checklist",
-      "rute: Leave room for display items"
+      "Check clothing store",
+      "Review event checklist",
+      "Leave room untuk display items"
     ]
   },
   {
     "id": "sea-fishing",
     "translationStatus": "translated",
-    "name": "Sea Fishing",
-    "window": "diperiksa: rute",
-    "route": "Gunakan Sea Fishing untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "name": "Sea Memancing",
+    "window": "Unlock rute",
+    "route": "Desa Nelayan dengan Bill; useful untuk event tugas dan langka fish routing.",
     "rewards": [
-      "hadiah: Sea fish progress",
-      "hadiah: Fishing event rewards",
-      "hadiah: Recipe inputs"
+      "Sea fish progres",
+      "Memancing event hadiah",
+      "Resep inputs"
     ],
     "prep": [
-      "rute: Open fish tracker",
-      "rute: Check inventory space",
-      "rute: Bring repair kit if needed"
+      "Buka fish pelacak",
+      "Check inventory space",
+      "Bring repair kit if needed"
     ]
   },
   {
     "id": "next-banner-watch",
     "translationStatus": "translated",
     "name": "Next Banner Watch",
-    "window": "diperiksa: rute",
-    "route": "Gunakan Next Banner Watch untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "window": "TBA",
+    "route": "Placeholder watch item untuk the next official banner atau festival handoff.",
     "rewards": [
-      "hadiah: Unknown until announcement"
+      "Belum diketahui until announcement"
     ],
     "prep": [
-      "rute: Keep codes page checked",
-      "rute: Save flexible materials",
-      "rute: Do not spend all event stock"
+      "Keep codes halaman checked",
+      "Simpan flexible material",
+      "Do not spend all event stock"
     ]
   },
   {
     "id": "closed-code-window",
     "translationStatus": "translated",
-    "name": "Closed Code Window Archive",
-    "window": "diperiksa: rute",
-    "route": "Gunakan Closed Code Window Archive untuk merencanakan rute dan membandingkan peta, toko, level, serta jadwal harian.",
+    "name": "Closed Kode Window Archive",
+    "window": "Expired atau unverified",
+    "route": "Archived hadiah windows should stay separate dari saat ini tugas.",
     "rewards": [
-      "hadiah: Historical reward notes"
+      "Historical hadiah catatan"
     ],
     "prep": [
-      "rute: Move expired codes out of current route",
-      "rute: Keep source check date visible"
+      "Move kedaluwarsa codes out of saat ini rute",
+      "Keep source check date visible"
     ]
   }
 ]
