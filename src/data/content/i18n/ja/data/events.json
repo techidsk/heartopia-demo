@@ -2,82 +2,82 @@
   {
     "id": "modular-streets",
     "translationStatus": "translated",
-    "name": "Modular Streets Festival",
-    "window": "確認済み: ルート",
-    "route": "Modular Streets Festival を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "モジュラーストリートフェスティバル",
+    "window": "2026年5月9日〜6月20日",
+    "route": "ブロック魚、ブロック昆虫、ブロック野鳥、およびコレクターズチャレンジのタスクをこなすルート。",
     "rewards": [
-      "報酬: Brick furniture lane",
-      "報酬: Festival collectibles",
-      "報酬: Collection progress"
+      "ブロック家具ルート",
+      "フェスティバルコレクション",
+      "コレクション進捗"
     ],
     "prep": [
-      "ルート: Redeem active codes",
-      "ルート: Free storage space",
-      "ルート: Open fish tracker",
-      "ルート: Check map routes"
+      "有効なコードを使用して報酬を受け取る",
+      "倉庫の空きを確保する",
+      "魚トラッカーを開く",
+      "マップのルートを確認する"
     ]
   },
   {
     "id": "graffiti-channel",
     "translationStatus": "translated",
-    "name": "Graffiti Channel Exhibition",
-    "window": "確認済み: ルート",
-    "route": "Graffiti Channel Exhibition を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "グラフィティチャンネル展",
+    "window": "2026年5月9日〜6月20日",
+    "route": "フェスティバルの報酬ループに連動したファッションとコレクションのルート。",
     "rewards": [
-      "報酬: Fashion display route",
-      "報酬: Collector tasks",
-      "報酬: Event styling notes"
+      "ファッション展示ルート",
+      "コレクタータスク",
+      "イベントスタイリングメモ"
     ],
     "prep": [
-      "ルート: Check clothing store",
-      "ルート: Review event checklist",
-      "ルート: Leave room for display items"
+      "洋服店を確認する",
+      "イベントチェックリストを見直す",
+      "展示アイテム用のスペースを空けておく"
     ]
   },
   {
     "id": "sea-fishing",
     "translationStatus": "translated",
-    "name": "Sea Fishing",
-    "window": "確認済み: ルート",
-    "route": "Sea Fishing を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "海釣り",
+    "window": "ルートを解放する",
+    "route": "ビルとともにフィッシングビレッジへ。イベントタスクやレアな魚のルーティングに便利。",
     "rewards": [
-      "報酬: Sea fish progress",
-      "報酬: Fishing event rewards",
-      "報酬: Recipe inputs"
+      "海魚の進捗",
+      "釣りイベント報酬",
+      "レシピ素材"
     ],
     "prep": [
-      "ルート: Open fish tracker",
-      "ルート: Check inventory space",
-      "ルート: Bring repair kit if needed"
+      "魚トラッカーを開く",
+      "インベントリの空きを確認する",
+      "必要なら修理キットを持参する"
     ]
   },
   {
     "id": "next-banner-watch",
     "translationStatus": "translated",
-    "name": "Next Banner Watch",
-    "window": "確認済み: ルート",
-    "route": "Next Banner Watch を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "次のバナー情報ウォッチ",
+    "window": "未定",
+    "route": "次の公式バナーまたはフェスティバル引き継ぎのための監視プレースホルダー。",
     "rewards": [
-      "報酬: Unknown until announcement"
+      "発表前は不明"
     ],
     "prep": [
-      "ルート: Keep codes page checked",
-      "ルート: Save flexible materials",
-      "ルート: Do not spend all event stock"
+      "コードページを継続的に確認する",
+      "汎用素材を温存する",
+      "イベントの在庫をすべて使い切らない"
     ]
   },
   {
     "id": "closed-code-window",
     "translationStatus": "translated",
-    "name": "Closed Code Window Archive",
-    "window": "確認済み: ルート",
-    "route": "Closed Code Window Archive を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "終了済みコードウィンドウアーカイブ",
+    "window": "期限切れまたは未確認",
+    "route": "アーカイブ済みの報酬ウィンドウは現在のタスクとは別に管理する。",
     "rewards": [
-      "報酬: Historical reward notes"
+      "過去の報酬メモ"
     ],
     "prep": [
-      "ルート: Move expired codes out of current route",
-      "ルート: Keep source check date visible"
+      "期限切れのコードを現在のルートから移動する",
+      "ソース確認日を見えるようにしておく"
     ]
   }
 ]

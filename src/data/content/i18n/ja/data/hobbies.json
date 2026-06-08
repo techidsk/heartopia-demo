@@ -2,50 +2,50 @@
   {
     "id": "fishing",
     "translationStatus": "translated",
-    "name": "Fishing",
-    "group": "ガイド: core",
-    "summary": "Fishing はルート計画、収集、確認に使える日本語の早見データです。"
+    "name": "釣り",
+    "group": "コア",
+    "summary": "水辺ルート。解放条件、テンション練習、魚トラッカー、マップスポット、レアな魚の計画を網羅。"
   },
   {
     "id": "gardening",
     "translationStatus": "translated",
-    "name": "Gardening",
-    "group": "ガイド: core",
-    "summary": "Gardening はルート計画、収集、確認に使える日本語の早見データです。"
+    "name": "園芸",
+    "group": "コア",
+    "summary": "作物ルート。種の計画、収益比較、作物プランナー、タイマー、レシピ消費先を網羅。"
   },
   {
     "id": "cooking",
     "translationStatus": "translated",
-    "name": "Cooking",
-    "group": "ガイド: core",
-    "summary": "Cooking はルート計画、収集、確認に使える日本語の早見データです。"
+    "name": "料理",
+    "group": "コア",
+    "summary": "レシピルート。マッシモ解放、ジャム、フィッシュアンドチップス、QTE安全確認、イベント素材チェックを網羅。"
   },
   {
     "id": "birdwatching",
     "translationStatus": "translated",
-    "name": "Birdwatching",
-    "group": "ガイド: nature",
-    "summary": "Birdwatching はルート計画、収集、確認に使える日本語の早見データです。"
+    "name": "野鳥観察",
+    "group": "自然",
+    "summary": "カメラと双眼鏡のルート。天気、場所、ポーズ、コレクションチェックリストを組み合わせた計画を網羅。"
   },
   {
     "id": "insects",
     "translationStatus": "translated",
-    "name": "Insect Catching",
-    "group": "ガイド: nature",
-    "summary": "Insect Catching はルート計画、収集、確認に使える日本語の早見データです。"
+    "name": "昆虫採集",
+    "group": "自然",
+    "summary": "バブルネットルート。D.G.6解放、時間帯、天気、生息地、レアな虫、売却チェックを網羅。"
   },
   {
     "id": "cat-care",
     "translationStatus": "translated",
-    "name": "Cat Care",
-    "group": "ガイド: care",
-    "summary": "Cat Care はルート計画、収集、確認に使える日本語の早見データです。"
+    "name": "猫のお世話",
+    "group": "交流",
+    "summary": "ペットショップルート。引き取り、食事テスト、お気に入りの把握、毎日のお世話ループを網羅。"
   },
   {
     "id": "dog-care",
     "translationStatus": "translated",
-    "name": "Dog Care",
-    "group": "ガイド: care",
-    "summary": "Dog Care はルート計画、収集、確認に使える日本語の早見データです。"
+    "name": "犬のお世話",
+    "group": "交流",
+    "summary": "犬のエサの基本、引き取りルート、オークオークの分離、動物のお気に入りテストを網羅。"
   }
 ]

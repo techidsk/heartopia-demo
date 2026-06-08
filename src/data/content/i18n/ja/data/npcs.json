@@ -2,156 +2,162 @@
   {
     "id": "blanc",
     "translationStatus": "translated",
-    "name": "Blanc",
-    "group": "データベース: mentor",
-    "role": "ガイド: Gardening mentor",
-    "location": "マップ: Garden Shop / Central Town",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "ブラン",
+    "group": "メンター",
+    "role": "園芸メンター",
+    "location": "ガーデンショップ / セントラルタウン",
+    "schedule": "種の購入と花の計画をする前に、ブランを園芸ルートの基点として活用しよう。",
     "gifts": [
-      "報酬: Fresh crop",
-      "報酬: Flower",
-      "報酬: Simple cooked dish"
+      "新鮮な作物",
+      "花",
+      "簡単な料理"
     ],
     "nameZh": "布蘭克",
-    "profile": "Blanc の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "profile": "TW Wikiではブランが作物・花・花卉育成ルートに関連する園芸メンターとして紹介されている。",
+    "source": "Biligame Heartopia TW Wiki ホームページ"
   },
   {
     "id": "bob",
     "translationStatus": "translated",
-    "name": "Bob",
-    "group": "データベース: shopkeeper",
-    "role": "ガイド: Furniture workshop owner",
-    "location": "マップ: Central Town",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "ボブ",
+    "group": "ショップオーナー",
+    "role": "家具工房オーナー",
+    "location": "セントラルタウン",
+    "schedule": "家のレイアウトを計画する際に家具店へ立ち寄ろう。",
     "gifts": [
-      "報酬: Wood decor",
-      "報酬: House material",
-      "報酬: Simple dish"
-    ]
+      "木製デコレーション",
+      "家屋素材",
+      "簡単な料理"
+    ],
+    "nameZh": "鲍勃"
   },
   {
     "id": "dorothy",
     "translationStatus": "translated",
-    "name": "Dorothy",
-    "group": "データベース: shopkeeper",
-    "role": "ガイド: Clothing store owner",
-    "location": "マップ: Central Town",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "ドロシー",
+    "group": "ショップオーナー",
+    "role": "洋服店オーナー",
+    "location": "セントラルタウン",
+    "schedule": "服の購入用事とセントラルタウンのNPC会話ループをまとめて行おう。",
     "gifts": [
-      "報酬: Fashion item",
-      "報酬: Flower",
-      "報酬: Dessert"
-    ]
+      "ファッションアイテム",
+      "花",
+      "デザート"
+    ],
+    "nameZh": "多萝西"
   },
   {
     "id": "mrs-joan",
     "translationStatus": "translated",
-    "name": "Mrs. Joan",
-    "group": "データベース: mentor",
-    "role": "ガイド: Pet care mentor",
-    "location": "マップ: Pet Shop",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "ジョーン夫人",
+    "group": "メンター",
+    "role": "ペットケアメンター",
+    "location": "ペットショップ",
+    "schedule": "ドッグフードや引き取りフローを確認する際はペットショップのルートを使おう。",
     "gifts": [
-      "報酬: Dog Food",
-      "報酬: Pet-care item",
-      "報酬: Cooked dish"
-    ]
+      "ドッグフード",
+      "ペットケアアイテム",
+      "料理"
+    ],
+    "nameZh": "琼夫人"
   },
   {
     "id": "doris",
     "translationStatus": "translated",
-    "name": "Doris",
-    "group": "データベース: dynamic",
-    "role": "ガイド: Weather merchant",
-    "location": "マップ: Dynamic weather route",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "ドリス",
+    "group": "ダイナミック",
+    "role": "天気商人",
+    "location": "変動天気ルート",
+    "schedule": "レアアイテムの購入計画を立てる前に、ゲーム内の天気ルートを確認しよう。",
     "gifts": [
-      "報酬: Weather item",
-      "報酬: Colorful flower",
-      "報酬: Rare dish"
-    ]
+      "天気アイテム",
+      "カラフルな花",
+      "レア料理"
+    ],
+    "nameZh": "多莉丝"
   },
   {
     "id": "bill",
     "translationStatus": "translated",
-    "name": "Bill",
-    "group": "データベース: event",
-    "role": "ガイド: Sea Fishing event mentor",
-    "location": "マップ: Fishing Village",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "ビル",
+    "group": "イベント",
+    "role": "海釣りイベントメンター",
+    "location": "フィッシングビレッジ",
+    "schedule": "海釣りやイベントタスクが沿岸ルートを指している場合はビルを訪ねよう。",
     "gifts": [
-      "報酬: Fish",
-      "報酬: Repair Kit",
-      "報酬: Seafood dish"
-    ]
+      "魚",
+      "修理キット",
+      "海鮮料理"
+    ],
+    "nameZh": "比尔"
   },
   {
     "id": "albert-ii",
     "translationStatus": "translated",
-    "name": "Albert II",
-    "group": "データベース: featured",
-    "role": "ガイド: Featured town character",
-    "location": "マップ: Heartopia town route",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "アルバートII世",
+    "group": "フィーチャード",
+    "role": "注目の街キャラクター",
+    "location": "Heartopiaタウンルート",
+    "schedule": "ホームページの注目キャラクター。プレゼントのルートを組む前にゲーム内で実際の場所を確認しよう。",
     "gifts": [
-      "報酬: Favorite gift pending",
-      "報酬: Liked gift pending",
-      "報酬: Talk route"
+      "好きなプレゼント（未確認）",
+      "気に入るプレゼント（未確認）",
+      "会話ルート"
     ],
     "nameZh": "阿爾伯特二世",
-    "profile": "Albert II の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "profile": "TW Wikiホームページのキャラクター欄に掲載されている。詳細なルートデータは未整備。",
+    "source": "Biligame Heartopia TW Wiki ホームページ"
   },
   {
     "id": "ka-ching",
     "translationStatus": "translated",
-    "name": "Ka Ching",
-    "group": "データベース: shopkeeper",
-    "role": "ガイド: General store owner",
-    "location": "マップ: Central Town",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "カーチン",
+    "group": "ショップオーナー",
+    "role": "雑貨店オーナー",
+    "location": "セントラルタウン",
+    "schedule": "カーチンへの訪問はインベントリ補充、実用品の購入、長ルートの準備とまとめて行おう。",
     "gifts": [
-      "報酬: Utility item",
-      "報酬: Simple dish",
-      "報酬: Favorite gift pending"
+      "実用アイテム",
+      "簡単な料理",
+      "好きなプレゼント（未確認）"
     ],
     "nameZh": "卡清",
-    "profile": "Ka Ching の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "profile": "TW Wikiホームページに掲載されており、このガイドでは雑貨店ルートと連携している。",
+    "source": "Biligame Heartopia TW Wiki ホームページ"
   },
   {
     "id": "annie",
     "translationStatus": "translated",
-    "name": "Annie",
-    "group": "データベース: shopkeeper",
-    "role": "ガイド: Music store owner",
-    "location": "マップ: Central Town",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "アニー",
+    "group": "ショップオーナー",
+    "role": "音楽店オーナー",
+    "location": "セントラルタウン",
+    "schedule": "家のBGM・音楽・コレクションのルートが重なる際はアニーを活用しよう。",
     "gifts": [
-      "報酬: Music decor",
-      "報酬: Dessert",
-      "報酬: Favorite gift pending"
+      "音楽デコレーション",
+      "デザート",
+      "好きなプレゼント（未確認）"
     ],
     "nameZh": "安妮",
-    "profile": "Annie の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "profile": "TW Wikiホームページに掲載されており、このガイドでは音楽店ルートと連携している。",
+    "source": "Biligame Heartopia TW Wiki ホームページ"
   },
   {
     "id": "vania",
     "translationStatus": "translated",
-    "name": "Vania",
-    "group": "データベース: featured",
-    "role": "ガイド: Featured town character",
-    "location": "マップ: Heartopia town route",
-    "schedule": "ゲーム内時間とショップローテーションに合わせて確認してください。",
+    "name": "ヴァーニャ",
+    "group": "フィーチャード",
+    "role": "注目の街キャラクター",
+    "location": "Heartopiaタウンルート",
+    "schedule": "ホームページの注目キャラクター。プレゼントのルートを組む前にゲーム内で実際の場所を確認しよう。",
     "gifts": [
-      "報酬: Favorite gift pending",
-      "報酬: Liked gift pending",
-      "報酬: Talk route"
+      "好きなプレゼント（未確認）",
+      "気に入るプレゼント（未確認）",
+      "会話ルート"
     ],
     "nameZh": "萬尼亞",
-    "profile": "Vania の確認に使える日本語メモです。ルートや関連ページを見直しながら更新します。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "profile": "TW Wikiホームページのキャラクター欄に掲載されている。詳細なルートデータは未整備。",
+    "source": "Biligame Heartopia TW Wiki ホームページ"
   }
 ]
+

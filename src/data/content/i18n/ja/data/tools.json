@@ -2,96 +2,96 @@
   {
     "id": "profit-calculator",
     "translationStatus": "translated",
-    "title": "Profit Calculator",
-    "category": "ツール: calculator",
-    "description": "Profit Calculator に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
-    "useCase": "Profit Calculator を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "title": "収益計算ツール",
+    "category": "計算ツール",
+    "description": "区画数・セッション時間・星ボーナスで作物の収益を比較します。",
+    "useCase": "植える前に最適な作物を選びましょう。",
     "linkedData": [
-      "データベース: crops",
-      "データベース: shops",
-      "データベース: recipes"
+      "作物",
+      "ショップ",
+      "レシピ"
     ],
-    "status": "公開済み"
+    "status": "利用可能"
   },
   {
     "id": "fish-tracker",
     "translationStatus": "translated",
-    "title": "Fish Tracker",
-    "category": "ツール: tracker",
-    "description": "Fish Tracker に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
-    "useCase": "Fish Tracker を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "title": "魚トラッカー",
+    "category": "トラッカー",
+    "description": "水域ルート・レベル条件・時間帯ごとにレアな魚の捕獲状況を記録します。",
+    "useCase": "セッションをまたいでコレクションの進捗を保存しましょう。",
     "linkedData": [
-      "データベース: fish",
-      "データベース: map"
+      "魚",
+      "マップ"
     ],
-    "status": "公開済み"
+    "status": "利用可能"
   },
   {
     "id": "crop-planner",
     "translationStatus": "translated",
-    "title": "Crop Planner",
-    "category": "ツール: planner",
-    "description": "Crop Planner に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
-    "useCase": "Crop Planner を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "title": "作物プランナー",
+    "category": "プランナー",
+    "description": "プレイ時間と区画数から、アクティブ・バランス・オフラインの作物ルートを作成します。",
+    "useCase": "プレイ時間を植え付けスケジュールに変換しましょう。",
     "linkedData": [
-      "データベース: crops",
-      "データベース: shops"
+      "作物",
+      "ショップ"
     ],
-    "status": "公開済み"
+    "status": "利用可能"
   },
   {
     "id": "friendship-tracker",
     "translationStatus": "translated",
-    "title": "Friendship Tracker",
-    "category": "ツール: tracker",
-    "description": "Friendship Tracker に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
-    "useCase": "Friendship Tracker を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "title": "友情トラッカー",
+    "category": "トラッカー",
+    "description": "プレゼント・会話・お出かけからNPCとの関係進捗を推定します。",
+    "useCase": "今週の交流ループを計画しましょう。",
     "linkedData": [
-      "データベース: npcs",
-      "データベース: shops"
+      "NPC",
+      "ショップ"
     ],
-    "status": "公開済み"
+    "status": "利用可能"
   },
   {
     "id": "recipe-finder",
     "translationStatus": "translated",
-    "title": "Recipe Finder",
-    "category": "ツール: finder",
-    "description": "Recipe Finder に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
-    "useCase": "Recipe Finder を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "title": "レシピ検索ツール",
+    "category": "検索ツール",
+    "description": "手持ちの食材で作れる初級レシピを絞り込みます。",
+    "useCase": "売る前・贈る前に何を料理するか決めましょう。",
     "linkedData": [
-      "データベース: recipes",
-      "データベース: crops",
-      "データベース: fish"
+      "レシピ",
+      "作物",
+      "魚"
     ],
-    "status": "公開済み"
+    "status": "利用可能"
   },
   {
     "id": "checklist",
     "translationStatus": "translated",
-    "title": "Daily Checklist",
-    "category": "ツール: tracker",
-    "description": "Daily Checklist に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
-    "useCase": "Daily Checklist を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "title": "デイリーチェックリスト",
+    "category": "チェックリスト",
+    "description": "日課ルート・補給・コレクション確認をひとつのチェックリストにまとめます。",
+    "useCase": "ゲームを始める前に今日の優先事項を確認しましょう。",
     "linkedData": [
-      "データベース: codes",
-      "データベース: map",
-      "データベース: shops"
+      "ルート",
+      "NPC",
+      "イベント"
     ],
-    "status": "公開済み"
+    "status": "利用可能"
   },
   {
     "id": "timer",
     "translationStatus": "translated",
-    "title": "Route Timer",
-    "category": "ツール: timer",
-    "description": "Route Timer に必要な Heartopia のルート、データ、ツール、確認メモを日本語でまとめています。",
-    "useCase": "Route Timer を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "title": "ルートタイマー",
+    "category": "タイマー",
+    "description": "作物・釣り・ルート巡回に短時間のリマインダーを設定します。",
+    "useCase": "複数のルートをリズムよくこなしましょう。",
     "linkedData": [
-      "データベース: crops",
-      "データベース: recipes",
-      "データベース: map"
+      "作物",
+      "釣り",
+      "日課"
     ],
-    "status": "公開済み"
+    "status": "利用可能"
   }
 ]

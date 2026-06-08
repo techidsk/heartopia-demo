@@ -2,98 +2,98 @@
   {
     "id": "dog",
     "translationStatus": "translated",
-    "name": "Dog",
-    "category": "データベース: pet",
-    "route": "Dog を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "犬",
+    "category": "ペット",
+    "route": "ペットショップ引き取り",
     "food": [
-      "項目: Dog Food",
-      "項目: Simple cooked dishes",
-      "項目: Low-cost test foods"
+      "ドッグフード",
+      "簡単な料理",
+      "低コストのテスト食品"
     ],
-    "unlock": "Dog は関連する Heartopia ルートまたは進行度で利用できます。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "unlock": "ジョーン夫人のオンボーディング後のペットケアルート",
+    "source": "ペットショップ"
   },
   {
     "id": "cat",
     "translationStatus": "translated",
-    "name": "Cat",
-    "category": "データベース: pet",
-    "route": "Cat を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "猫",
+    "category": "ペット",
+    "route": "ペットショップオンボーディング",
     "food": [
-      "項目: Cat-care items",
-      "項目: Pet baseline food",
-      "項目: Low-cost tests"
+      "猫ケアアイテム",
+      "ペット基本食品",
+      "低コストのテスト"
     ],
-    "unlock": "Cat は関連する Heartopia ルートまたは進行度で利用できます。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "unlock": "最初のペットケアオンボーディングルート",
+    "source": "ペットショップ"
   },
   {
     "id": "fox",
     "translationStatus": "translated",
-    "name": "Fox",
-    "category": "データベース: wild",
-    "route": "Fox を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "キツネ",
+    "category": "野生",
+    "route": "フラワーフィールドの給餌槽",
     "food": [
-      "項目: Meat lane",
-      "項目: Fish lane",
-      "項目: Wild animal tests"
+      "肉類ルート",
+      "魚類ルート",
+      "野生動物テスト"
     ],
-    "unlock": "Fox は関連する Heartopia ルートまたは進行度で利用できます。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "unlock": "野生動物給餌槽ルート",
+    "source": "フラワーフィールド"
   },
   {
     "id": "sea-otter",
     "translationStatus": "translated",
-    "name": "Sea Otter",
-    "category": "データベース: wild",
-    "route": "Sea Otter を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "ラッコ",
+    "category": "野生",
+    "route": "フィッシングビレッジの給餌槽",
     "food": [
-      "項目: Shrimp",
-      "項目: Shell lane",
-      "項目: Coastal fish tests"
+      "エビ",
+      "貝類ルート",
+      "沿岸魚類テスト"
     ],
-    "unlock": "Sea Otter は関連する Heartopia ルートまたは進行度で利用できます。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "unlock": "野生動物給餌槽ルート",
+    "source": "フィッシングビレッジ"
   },
   {
     "id": "chicken",
     "translationStatus": "translated",
-    "name": "Chicken",
-    "category": "データベース: farm",
-    "route": "Chicken を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "ニワトリ",
+    "category": "農場",
+    "route": "農場動物ルート",
     "food": [
-      "項目: Corn",
-      "項目: Crop lane",
-      "項目: Basic feed tests"
+      "トウモロコシ",
+      "作物ルート",
+      "基本飼料テスト"
     ],
-    "unlock": "Chicken は関連する Heartopia ルートまたは進行度で利用できます。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "unlock": "農場動物ケアルート",
+    "source": "農場動物ルート"
   },
   {
     "id": "cow",
     "translationStatus": "translated",
-    "name": "Cow",
-    "category": "データベース: farm",
-    "route": "Cow を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "name": "ウシ",
+    "category": "農場",
+    "route": "農場動物ルート",
     "food": [
-      "項目: Wheat",
-      "項目: Grass lane",
-      "項目: Long crop overlap"
+      "小麦",
+      "牧草ルート",
+      "長期作物重複テスト"
     ],
-    "unlock": "Cow は関連する Heartopia ルートまたは進行度で利用できます。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "unlock": "農場動物ケアルート",
+    "source": "農場動物ルート"
   },
   {
     "id": "oak-oak",
     "translationStatus": "translated",
     "name": "Oak-Oak",
-    "category": "データベース: quest",
-    "route": "Oak-Oak を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
+    "category": "クエスト",
+    "route": "フォレストのクエスト仲間",
     "food": [
-      "項目: Quest-specific care",
-      "項目: Do not mix with dog route"
+      "クエスト専用ケア",
+      "犬のルートと混用しないこと"
     ],
-    "unlock": "Oak-Oak は関連する Heartopia ルートまたは進行度で利用できます。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "unlock": "アストラリスフォレストのクエストライン",
+    "source": "クエストルート"
   }
 ]

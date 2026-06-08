@@ -2,221 +2,221 @@
   {
     "id": "mixed-jam",
     "translationStatus": "translated",
-    "name": "Mixed Jam",
-    "group": "データベース: fruit",
+    "name": "ミックスジャム",
+    "group": "果物",
     "ingredients": [
-      "項目: 4x Any Fruit"
+      "任意の果物 x4"
     ],
-    "route": "Mixed Jam を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Mixed Jam はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "果物",
+    "use": "入門向け価値テスト",
+    "source": "果物ループ"
   },
   {
     "id": "apple-jam",
     "translationStatus": "translated",
-    "name": "Apple Jam",
-    "group": "データベース: fruit",
+    "name": "アップルジャム",
+    "group": "果物",
     "ingredients": [
-      "項目: 4x Apple"
+      "リンゴ x4"
     ],
-    "route": "Apple Jam を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Apple Jam はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "果物",
+    "use": "果樹園素材のシンプルな消費ポイント",
+    "source": "果樹園ルート"
   },
   {
     "id": "blueberry-jam",
     "translationStatus": "translated",
-    "name": "Blueberry Jam",
-    "group": "データベース: fruit",
+    "name": "ブルーベリージャム",
+    "group": "果物",
     "ingredients": [
-      "項目: 4x Blueberry"
+      "ブルーベリー x4"
     ],
-    "route": "Blueberry Jam を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Blueberry Jam はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "果物",
+    "use": "果物ループの素材消費ポイント",
+    "source": "果物ルート"
   },
   {
     "id": "grape-jam",
     "translationStatus": "translated",
-    "name": "Grape Jam",
-    "group": "データベース: fruit",
+    "name": "グレープジャム",
+    "group": "果物",
     "ingredients": [
-      "項目: 4x Grape"
+      "ブドウ x4"
     ],
-    "route": "Grape Jam を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Grape Jam はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "果物",
+    "use": "後半の種ルート",
+    "source": "Lv 7 作物ルート"
   },
   {
     "id": "mandarin-jam",
     "translationStatus": "translated",
-    "name": "Mandarin Jam",
-    "group": "データベース: fruit",
+    "name": "マンダリンジャム",
+    "group": "果物",
     "ingredients": [
-      "項目: 4x Mandarin"
+      "ミカン x4"
     ],
-    "route": "Mandarin Jam を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Mandarin Jam はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "果物",
+    "use": "コード報酬果物の消費ポイント",
+    "source": "報酬果物ルート"
   },
   {
     "id": "pineapple-jam",
     "translationStatus": "translated",
-    "name": "Pineapple Jam",
-    "group": "データベース: crop-fruit",
+    "name": "パイナップルジャム",
+    "group": "作物/果物",
     "ingredients": [
-      "項目: 4x Pineapple"
+      "パイナップル x4"
     ],
-    "route": "Pineapple Jam を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Pineapple Jam はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "作物/果物",
+    "use": "速攻作物テスト",
+    "source": "積極作物ルート"
   },
   {
     "id": "strawberry-jam",
     "translationStatus": "translated",
-    "name": "Strawberry Jam",
-    "group": "データベース: crop-fruit",
+    "name": "ストロベリージャム",
+    "group": "作物/果物",
     "ingredients": [
-      "項目: 4x Strawberry"
+      "イチゴ x4"
     ],
-    "route": "Strawberry Jam を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Strawberry Jam はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "作物/果物",
+    "use": "中盤解放ルート",
+    "source": "Lv 6 作物ルート"
   },
   {
     "id": "house-salad",
     "translationStatus": "translated",
-    "name": "House Salad",
-    "group": "データベース: crop",
+    "name": "ハウスサラダ",
+    "group": "作物",
     "ingredients": [
-      "項目: 2x Any Vegetable"
+      "任意の野菜 x2"
     ],
-    "route": "House Salad を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "House Salad はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "作物",
+    "use": "余剰野菜の消費ポイント",
+    "source": "野菜ルート"
   },
   {
     "id": "fish-and-chips",
     "translationStatus": "translated",
-    "name": "Fish and Chips",
-    "group": "データベース: fish-crop",
+    "name": "フィッシュアンドチップス",
+    "group": "魚/作物",
     "ingredients": [
-      "項目: 2x Any Fish",
-      "項目: 2x Potato"
+      "任意の魚 x2",
+      "ジャガイモ x2"
     ],
-    "route": "Fish and Chips を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Fish and Chips はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "魚/作物",
+    "use": "魚と作物を組み合わせた効率ルート",
+    "source": "魚とジャガイモのルート"
   },
   {
     "id": "grilled-mushrooms",
     "translationStatus": "translated",
-    "name": "Grilled Mushrooms",
-    "group": "データベース: forage",
+    "name": "グリルキノコ",
+    "group": "採集",
     "ingredients": [
-      "項目: 4x Any Mushroom"
+      "任意のキノコ x4"
     ],
-    "route": "Grilled Mushrooms を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Grilled Mushrooms はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "採集",
+    "use": "採集素材の消費ポイント",
+    "source": "キノコルート"
   },
   {
     "id": "tomato-plate",
     "translationStatus": "translated",
-    "name": "Tomato Plate",
-    "group": "データベース: crop",
+    "name": "トマトプレート",
+    "group": "作物",
     "ingredients": [
-      "項目: Tomato",
-      "項目: Vegetable input"
+      "トマト",
+      "野菜素材"
     ],
-    "route": "Tomato Plate を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Tomato Plate はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "作物",
+    "use": "アクティブセッションテスト",
+    "source": "積極トマトルート"
   },
   {
     "id": "corn-snack",
     "translationStatus": "translated",
-    "name": "Corn Snack",
-    "group": "データベース: crop",
+    "name": "コーンスナック",
+    "group": "作物",
     "ingredients": [
-      "項目: Corn input"
+      "トウモロコシ素材"
     ],
-    "route": "Corn Snack を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Corn Snack はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "作物",
+    "use": "動物エサルートと重複",
+    "source": "トウモロコシと動物のルート"
   },
   {
     "id": "carrot-dish",
     "translationStatus": "translated",
-    "name": "Carrot Dish",
-    "group": "データベース: crop",
+    "name": "ニンジン料理",
+    "group": "作物",
     "ingredients": [
-      "項目: Carrot input"
+      "ニンジン素材"
     ],
-    "route": "Carrot Dish を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Carrot Dish はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "作物",
+    "use": "2時間ルート",
+    "source": "バランス型作物ルート"
   },
   {
     "id": "seafood-plate",
     "translationStatus": "translated",
-    "name": "Seafood Plate",
-    "group": "データベース: fish",
+    "name": "シーフードプレート",
+    "group": "魚",
     "ingredients": [
-      "項目: Ocean fish input"
+      "海の魚素材"
     ],
-    "route": "Seafood Plate を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Seafood Plate はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "魚",
+    "use": "海洋ループ後に使用",
+    "source": "海洋ルート"
   },
   {
     "id": "mountain-soup",
     "translationStatus": "translated",
-    "name": "Mountain Soup",
-    "group": "データベース: forage-crop",
+    "name": "山里スープ",
+    "group": "採集/作物",
     "ingredients": [
-      "項目: Mushroom",
-      "項目: Vegetable"
+      "キノコ",
+      "野菜"
     ],
-    "route": "Mountain Soup を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Mountain Soup はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "採集/作物",
+    "use": "温泉ループの素材消費ポイント",
+    "source": "温泉と作物のルート"
   },
   {
     "id": "simple-breakfast",
     "translationStatus": "translated",
-    "name": "Simple Breakfast",
-    "group": "データベース: farm",
+    "name": "シンプル朝食",
+    "group": "農場",
     "ingredients": [
-      "項目: Egg",
-      "項目: Crop input"
+      "タマゴ",
+      "作物素材"
     ],
-    "route": "Simple Breakfast を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Simple Breakfast はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "農場",
+    "use": "農場ルート候補",
+    "source": "農場動物ルート"
   },
   {
     "id": "bizarre-food",
     "translationStatus": "translated",
-    "name": "Bizarre Food",
-    "group": "データベース: qte",
+    "name": "奇妙な食べ物",
+    "group": "QTE",
     "ingredients": [
-      "項目: Failed timing"
+      "タイミング失敗"
     ],
-    "route": "Bizarre Food を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Bizarre Food はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "QTE",
+    "use": "レア素材使用時は極力避ける",
+    "source": "タイミング失敗"
   },
   {
     "id": "event-dish",
     "translationStatus": "translated",
-    "name": "Event Dish",
-    "group": "データベース: event",
+    "name": "イベント料理",
+    "group": "イベント",
     "ingredients": [
-      "項目: Limited material"
+      "期間限定素材"
     ],
-    "route": "Event Dish を使って、マップ、ショップ、レベル、日課の流れを比較できます。",
-    "use": "Event Dish はルート計画、収集、確認に使える日本語の早見データです。",
-    "source": "英語編集版をもとにした Heartopia Hub の日本語データです。"
+    "route": "イベント",
+    "use": "価値を確認してから使用する",
+    "source": "期間限定イベントルート"
   }
 ]
