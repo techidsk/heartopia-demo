@@ -47,6 +47,24 @@ const nonChineseUiLeakPatterns = [
   /\d+ 个作物记录/,
   /\d+ 个工具入口/
 ];
+const nonEnglishUiLeakPatterns = [
+  /This fish entry is localized/,
+  /This crop entry is localized/,
+  /This shop entry is localized/,
+  /This recipe entry is localized/,
+  /This character entry is localized/,
+  /This gardening entry is localized/,
+  /This insect entry is localized/,
+  /Check the water, weather, or time window first/,
+  /Compare growth time, seed cost, and sell value/,
+  /Confirm ingredient sources and risk/,
+  /Related fish from the same water route/,
+  /Related crops from the same planning group/,
+  /Related entries from the same shop type/,
+  /Related dishes from the same recipe group/,
+  /Other entries from the same handbook group/,
+  /Other insects from the same route tag/
+];
 const fallbackTitlePatterns = [
   /<title>Translation pending<\/title>/i,
   /<title>Übersetzung ausstehend<\/title>/i,
@@ -221,6 +239,12 @@ for (const filePath of htmlFiles) {
       const mainText = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] || html;
       for (const pattern of nonChineseUiLeakPatterns) {
         if (pattern.test(mainText)) failures.push(`${relative}: non-Chinese body contains Chinese UI copy`);
+      }
+    }
+    if (locale !== "en") {
+      const mainText = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] || html;
+      for (const pattern of nonEnglishUiLeakPatterns) {
+        if (pattern.test(mainText)) failures.push(`${relative}: non-English body contains English data UI copy`);
       }
     }
     checks.push(
