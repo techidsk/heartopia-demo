@@ -2,156 +2,161 @@
   {
     "id": "blanc",
     "translationStatus": "translated",
-    "name": "Blanc",
-    "group": "데이터베이스: mentor",
-    "role": "가이드: Gardening mentor",
-    "location": "지도: Garden Shop / Central Town",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "블랑",
+    "group": "멘토",
+    "role": "원예 멘토",
+    "location": "가든 숍 / 센트럴 타운",
+    "schedule": "씨앗 구매와 꽃 계획 전에 블랑을 원예 루트의 기준점으로 사용하세요.",
     "gifts": [
-      "보상: Fresh crop",
-      "보상: Flower",
-      "보상: Simple cooked dish"
+      "신선한 작물",
+      "꽃",
+      "간단한 요리"
     ],
-    "nameZh": "布蘭克",
-    "profile": "Blanc 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "nameZh": "블랑",
+    "profile": "TW Wiki는 블랑을 작물, 꽃, 이후 꽃 교배 루트와 연결된 원예 멘토로 소개합니다.",
+    "source": "Biligame 하토피아 TW Wiki 홈페이지"
   },
   {
     "id": "bob",
     "translationStatus": "translated",
-    "name": "Bob",
-    "group": "데이터베이스: shopkeeper",
-    "role": "가이드: Furniture workshop owner",
-    "location": "지도: Central Town",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "밥",
+    "group": "상점 주인",
+    "role": "가구 공방 주인",
+    "location": "센트럴 타운",
+    "schedule": "집 배치를 계획할 때 가구 지점에 들르세요.",
     "gifts": [
-      "보상: Wood decor",
-      "보상: House material",
-      "보상: Simple dish"
-    ]
+      "목재 장식",
+      "집 재료",
+      "간단한 요리"
+    ],
+    "nameZh": "밥"
   },
   {
     "id": "dorothy",
     "translationStatus": "translated",
-    "name": "Dorothy",
-    "group": "데이터베이스: shopkeeper",
-    "role": "가이드: Clothing store owner",
-    "location": "지도: Central Town",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "도로시",
+    "group": "상점 주인",
+    "role": "의상 상점 주인",
+    "location": "센트럴 타운",
+    "schedule": "의상 구매를 센트럴 타운 NPC 대화 루프와 함께 묶으세요.",
     "gifts": [
-      "보상: Fashion item",
-      "보상: Flower",
-      "보상: Dessert"
-    ]
+      "패션 아이템",
+      "꽃",
+      "디저트"
+    ],
+    "nameZh": "도로시"
   },
   {
     "id": "mrs-joan",
     "translationStatus": "translated",
-    "name": "Mrs. Joan",
-    "group": "데이터베이스: mentor",
-    "role": "가이드: Pet care mentor",
-    "location": "지도: Pet Shop",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "조앤 부인",
+    "group": "멘토",
+    "role": "펫 케어 멘토",
+    "location": "펫 숍",
+    "schedule": "강아지 사료와 입양 흐름을 테스트할 때 펫 숍 루트를 이용하세요.",
     "gifts": [
-      "보상: Dog Food",
-      "보상: Pet-care item",
-      "보상: Cooked dish"
-    ]
+      "강아지 사료",
+      "펫 케어 용품",
+      "요리"
+    ],
+    "nameZh": "조앤 부인"
   },
   {
     "id": "doris",
     "translationStatus": "translated",
-    "name": "Doris",
-    "group": "데이터베이스: dynamic",
-    "role": "가이드: Weather merchant",
-    "location": "지도: Dynamic weather route",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "도리스",
+    "group": "동적",
+    "role": "날씨 상인",
+    "location": "동적 날씨 루트",
+    "schedule": "희귀 구매를 계획하기 전에 게임 내 날씨 루트를 확인하세요.",
     "gifts": [
-      "보상: Weather item",
-      "보상: Colorful flower",
-      "보상: Rare dish"
-    ]
+      "날씨 아이템",
+      "색색의 꽃",
+      "희귀 요리"
+    ],
+    "nameZh": "도리스"
   },
   {
     "id": "bill",
     "translationStatus": "translated",
-    "name": "Bill",
-    "group": "데이터베이스: event",
-    "role": "가이드: Sea Fishing event mentor",
-    "location": "지도: Fishing Village",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "빌",
+    "group": "이벤트",
+    "role": "바다 낚시 이벤트 멘토",
+    "location": "피싱 빌리지",
+    "schedule": "바다 낚시나 이벤트 과제가 해안 루트를 가리킬 때 빌을 이용하세요.",
     "gifts": [
-      "보상: Fish",
-      "보상: Repair Kit",
-      "보상: Seafood dish"
-    ]
+      "물고기",
+      "수리 키트",
+      "해산물 요리"
+    ],
+    "nameZh": "빌"
   },
   {
     "id": "albert-ii",
     "translationStatus": "translated",
-    "name": "Albert II",
-    "group": "데이터베이스: featured",
-    "role": "가이드: Featured town character",
-    "location": "지도: Heartopia town route",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "알버트 2세",
+    "group": "주요 인물",
+    "role": "주요 마을 캐릭터",
+    "location": "하토피아 타운 루트",
+    "schedule": "홈페이지 주요 캐릭터입니다. 선물 루팅 전 게임 내 실제 위치를 확인하세요.",
     "gifts": [
-      "보상: Favorite gift pending",
-      "보상: Liked gift pending",
-      "보상: Talk route"
+      "선호 선물 확인 대기",
+      "좋아하는 선물 확인 대기",
+      "대화 루트"
     ],
-    "nameZh": "阿爾伯特二世",
-    "profile": "Albert II 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "nameZh": "알버트 2세",
+    "profile": "TW Wiki 홈페이지 캐릭터 영역에 소개되어 있으며, 상세 루트 데이터는 아직 확인 중입니다.",
+    "source": "Biligame 하토피아 TW Wiki 홈페이지"
   },
   {
     "id": "ka-ching",
     "translationStatus": "translated",
-    "name": "Ka Ching",
-    "group": "데이터베이스: shopkeeper",
-    "role": "가이드: General store owner",
-    "location": "지도: Central Town",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "카칭",
+    "group": "상점 주인",
+    "role": "잡화점 주인",
+    "location": "센트럴 타운",
+    "schedule": "인벤토리, 유틸리티, 긴 루트 준비 심부름과 카칭을 함께 묶으세요.",
     "gifts": [
-      "보상: Utility item",
-      "보상: Simple dish",
-      "보상: Favorite gift pending"
+      "유틸리티 아이템",
+      "간단한 요리",
+      "선호 선물 확인 대기"
     ],
-    "nameZh": "卡清",
-    "profile": "Ka Ching 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "nameZh": "카칭",
+    "profile": "TW Wiki 홈페이지에 소개되어 있으며 이 가이드의 잡화점 루트와 연결됩니다.",
+    "source": "Biligame 하토피아 TW Wiki 홈페이지"
   },
   {
     "id": "annie",
     "translationStatus": "translated",
-    "name": "Annie",
-    "group": "데이터베이스: shopkeeper",
-    "role": "가이드: Music store owner",
-    "location": "지도: Central Town",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "애니",
+    "group": "상점 주인",
+    "role": "음악 상점 주인",
+    "location": "센트럴 타운",
+    "schedule": "집 분위기, 음악, 수집 루트가 겹칠 때 애니를 이용하세요.",
     "gifts": [
-      "보상: Music decor",
-      "보상: Dessert",
-      "보상: Favorite gift pending"
+      "음악 장식",
+      "디저트",
+      "선호 선물 확인 대기"
     ],
-    "nameZh": "安妮",
-    "profile": "Annie 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "nameZh": "애니",
+    "profile": "TW Wiki 홈페이지에 소개되어 있으며 이 가이드의 음악 상점 루트와 연결됩니다.",
+    "source": "Biligame 하토피아 TW Wiki 홈페이지"
   },
   {
     "id": "vania",
     "translationStatus": "translated",
-    "name": "Vania",
-    "group": "데이터베이스: featured",
-    "role": "가이드: Featured town character",
-    "location": "지도: Heartopia town route",
-    "schedule": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "바니아",
+    "group": "주요 인물",
+    "role": "주요 마을 캐릭터",
+    "location": "하토피아 타운 루트",
+    "schedule": "홈페이지 주요 캐릭터입니다. 선물 루팅 전 게임 내 실제 위치를 확인하세요.",
     "gifts": [
-      "보상: Favorite gift pending",
-      "보상: Liked gift pending",
-      "보상: Talk route"
+      "선호 선물 확인 대기",
+      "좋아하는 선물 확인 대기",
+      "대화 루트"
     ],
-    "nameZh": "萬尼亞",
-    "profile": "Vania 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "nameZh": "바니아",
+    "profile": "TW Wiki 홈페이지 캐릭터 영역에 소개되어 있으며, 상세 루트 데이터는 아직 확인 중입니다.",
+    "source": "Biligame 하토피아 TW Wiki 홈페이지"
   }
 ]

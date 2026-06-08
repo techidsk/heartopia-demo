@@ -2,141 +2,141 @@
   {
     "id": "gardening-store",
     "translationStatus": "translated",
-    "name": "Gardening Store",
-    "type": "상점: seeds",
-    "owner": "Blanc",
-    "region": "지도: Central Town",
-    "unlock": "Gardening Store은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "원예 상점",
+    "type": "씨앗",
+    "owner": "블랑",
+    "region": "센트럴 타운",
+    "unlock": "첫 원예 튜토리얼 루트를 마치면 이용할 수 있습니다.",
+    "hours": "일반적인 낮 시간대 마을 심부름 중에 확인하세요.",
     "inventory": [
-      "항목: Tomato Seeds",
-      "항목: Potato Seeds",
-      "항목: Wheat Seeds",
-      "항목: Fertilizer",
-      "항목: Basic watering supplies"
+      "토마토 씨앗",
+      "감자 씨앗",
+      "밀 씨앗",
+      "비료",
+      "기본 물주기 용품"
     ],
-    "notes": "Gardening Store 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
+    "notes": "작물 수익을 계획하기 전 가장 먼저 들르기 좋은 곳입니다. 씨앗을 살 때 짧은 세션용 작물 루트도 함께 잡으세요."
   },
   {
     "id": "furniture-workshop",
     "translationStatus": "translated",
-    "name": "Furniture Workshop",
-    "type": "상점: furniture",
-    "owner": "Bob",
-    "region": "지도: Central Town",
-    "unlock": "Furniture Workshop은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "가구 공방",
+    "type": "가구",
+    "owner": "밥",
+    "region": "센트럴 타운",
+    "unlock": "밥의 가구 루트와 초반 목공 의뢰를 진행하세요.",
+    "hours": "하우스 디자인 세션 전에 들르도록 계획하세요.",
     "inventory": [
-      "항목: Starter furniture",
-      "항목: Tables",
-      "항목: Chairs",
-      "항목: Shelves",
-      "항목: Decor sets"
+      "초반 가구",
+      "테이블",
+      "의자",
+      "선반",
+      "장식 세트"
     ],
-    "notes": "Furniture Workshop 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
+    "notes": "집 배치, 재료 계획, 방별 디자인 아이디어로 이어지는 핵심 연결 지점입니다."
   },
   {
     "id": "pet-shop",
     "translationStatus": "translated",
-    "name": "Pet Shop",
-    "type": "상점: pets",
-    "owner": "Mrs. Joan and Bailey J",
-    "region": "지도: Central Town",
-    "unlock": "Pet Shop은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "펫 숍",
+    "type": "펫",
+    "owner": "조앤 부인과 베일리 J",
+    "region": "센트럴 타운",
+    "unlock": "넓은 범위의 먹이 테스트 전에 펫 케어 입문 루트를 먼저 진행하세요.",
+    "hours": "고양이, 개, 조류 관찰 해금을 함께 동선화할 때 방문하세요.",
     "inventory": [
-      "항목: Dog Food",
-      "항목: Cat-care items",
-      "항목: Pet adoption leads",
-      "항목: Pet care basics",
-      "항목: Birdwatching route notes"
+      "강아지 사료",
+      "고양이 케어 용품",
+      "펫 입양 단서",
+      "펫 케어 기본품",
+      "조류 관찰 루트 노트"
     ],
-    "notes": "Pet Shop 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
+    "notes": "펫 숍의 고양이와 개는 야생 동물 여물통, Oak-Oak과 따로 관리하세요."
   },
   {
     "id": "clothing-store",
     "translationStatus": "translated",
-    "name": "Clothing Store",
-    "type": "상점: fashion",
-    "owner": "Dorothy",
-    "region": "지도: Central Town",
-    "unlock": "Clothing Store은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "의상 상점",
+    "type": "패션",
+    "owner": "도로시",
+    "region": "센트럴 타운",
+    "unlock": "도로시의 패션 및 포스터 루트를 진행하세요.",
+    "hours": "센트럴 타운 NPC 선물 루프와 함께 묶으세요.",
     "inventory": [
-      "항목: Outfits",
-      "항목: Cosmetic pieces",
-      "항목: Fashion route items",
-      "항목: Event outfit leads"
+      "의상",
+      "외형 파츠",
+      "패션 루트 아이템",
+      "이벤트 의상 단서"
     ],
-    "notes": "Clothing Store 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
+    "notes": "패션 수집 확인과 시즌 의상 계획에 유용합니다."
   },
   {
     "id": "music-store",
     "translationStatus": "translated",
-    "name": "Annie's Music Store",
-    "type": "상점: music",
-    "owner": "Annie",
-    "region": "지도: Central Town",
-    "unlock": "Annie's Music Store은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "애니의 음악 상점",
+    "type": "음악",
+    "owner": "애니",
+    "region": "센트럴 타운",
+    "unlock": "악보와 집 꾸미기 시스템이 나타난 뒤 이용하세요.",
+    "hours": "집 디자인 준비 중에 확인하기 좋습니다.",
     "inventory": [
-      "항목: Sheet music leads",
-      "항목: Music decor",
-      "항목: Instrument route notes",
-      "항목: Home ambiance items"
+      "악보 단서",
+      "음악 장식",
+      "악기 루트 노트",
+      "집 분위기 아이템"
     ],
-    "notes": "Annie's Music Store 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
+    "notes": "집 디자인과 음악 수집, 방 테마 계획을 연결합니다."
   },
   {
     "id": "general-store",
     "translationStatus": "translated",
-    "name": "Ka Ching's General Store",
-    "type": "상점: general",
-    "owner": "Ka Ching",
-    "region": "지도: Central Town",
-    "unlock": "Ka Ching's General Store은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "카칭의 잡화점",
+    "type": "잡화",
+    "owner": "카칭",
+    "region": "센트럴 타운",
+    "unlock": "인벤토리 압박이 루트를 막기 시작할 때 방문하세요.",
+    "hours": "긴 채집, 낚시, 이벤트 루프와 함께 묶으세요.",
     "inventory": [
-      "항목: Inventory expansion",
-      "항목: Utility goods",
-      "항목: Storage route notes",
-      "항목: Errand supplies"
+      "인벤토리 확장",
+      "유틸리티 상품",
+      "보관 루트 노트",
+      "심부름 용품"
     ],
-    "notes": "Ka Ching's General Store 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
+    "notes": "재료가 많이 필요한 루트 전에 들러 낚시와 채집 세션이 멈추지 않게 하세요."
   },
   {
     "id": "doris-weather-cart",
     "translationStatus": "translated",
-    "name": "Doris Weather Cart",
-    "type": "상점: traveling",
-    "owner": "Doris",
-    "region": "지도: Dynamic weather route",
-    "unlock": "Doris Weather Cart은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "도리스의 날씨 카트",
+    "type": "순회 상인",
+    "owner": "도리스",
+    "region": "동적 날씨 루트",
+    "unlock": "특수 날씨, 무지개, 눈, 유성 루트 주변에 나타납니다.",
+    "hours": "패치에 민감하므로 게임 내 지도와 날씨 예보로 확인하세요.",
     "inventory": [
-      "항목: Weather recipes",
-      "항목: Limited ingredients",
-      "항목: Cosmetics",
-      "항목: Furniture",
-      "항목: Event stock"
+      "날씨 레시피",
+      "한정 재료",
+      "화장품",
+      "가구",
+      "이벤트 재고"
     ],
-    "notes": "Doris Weather Cart 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
+    "notes": "도리스를 동적 상인으로 취급하세요. 날씨를 먼저 확인하지 않고 희귀 구매를 계획하지 마세요."
   },
   {
     "id": "sea-fishing-booth",
     "translationStatus": "translated",
-    "name": "Sea Fishing Booth",
-    "type": "상점: event",
-    "owner": "Bill",
-    "region": "지도: Fishing Village",
-    "unlock": "Sea Fishing Booth은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "hours": "게임 시간과 상점 로테이션에 맞춰 확인하세요.",
+    "name": "바다 낚시 부스",
+    "type": "이벤트",
+    "owner": "빌",
+    "region": "피싱 빌리지",
+    "unlock": "바다 낚시와 낚시 이벤트 루트 중에 이용하세요.",
+    "hours": "이벤트 페이지가 낚시 준비를 가리킬 때 확인하세요.",
     "inventory": [
-      "항목: Sea fishing route",
-      "항목: Event fish notes",
-      "항목: Repair-kit reminders",
-      "항목: Coastal task handoffs"
+      "바다 낚시 루트",
+      "이벤트 물고기 노트",
+      "수리 키트 알림",
+      "해안 과제 연결"
     ],
-    "notes": "Sea Fishing Booth 확인에 쓰는 한국어 메모입니다. 루트와 관련 페이지를 함께 업데이트합니다."
+    "notes": "물고기 트래커, 인벤토리 확인, 이벤트 보상 계획과 함께 쓰기 좋습니다."
   }
 ]

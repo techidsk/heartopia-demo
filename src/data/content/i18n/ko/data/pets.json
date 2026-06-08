@@ -2,98 +2,98 @@
   {
     "id": "dog",
     "translationStatus": "translated",
-    "name": "Dog",
-    "category": "데이터베이스: pet",
-    "route": "Dog으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "개",
+    "category": "펫",
+    "route": "펫 숍 입양",
     "food": [
-      "항목: Dog Food",
-      "항목: Simple cooked dishes",
-      "항목: Low-cost test foods"
+      "강아지 사료",
+      "간단한 요리",
+      "저비용 테스트 먹이"
     ],
-    "unlock": "Dog은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "unlock": "조앤 부인 입문 후 펫 케어 루트",
+    "source": "펫 숍"
   },
   {
     "id": "cat",
     "translationStatus": "translated",
-    "name": "Cat",
-    "category": "데이터베이스: pet",
-    "route": "Cat으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "고양이",
+    "category": "펫",
+    "route": "펫 숍 입문",
     "food": [
-      "항목: Cat-care items",
-      "항목: Pet baseline food",
-      "항목: Low-cost tests"
+      "고양이 케어 용품",
+      "펫 기본 먹이",
+      "저비용 테스트"
     ],
-    "unlock": "Cat은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "unlock": "첫 펫 케어 입문 루트",
+    "source": "펫 숍"
   },
   {
     "id": "fox",
     "translationStatus": "translated",
-    "name": "Fox",
-    "category": "데이터베이스: wild",
-    "route": "Fox으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "여우",
+    "category": "야생",
+    "route": "플라워 필드 여물통",
     "food": [
-      "항목: Meat lane",
-      "항목: Fish lane",
-      "항목: Wild animal tests"
+      "고기 루트",
+      "물고기 루트",
+      "야생 동물 테스트"
     ],
-    "unlock": "Fox은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "unlock": "야생 동물 여물통 루트",
+    "source": "플라워 필드"
   },
   {
     "id": "sea-otter",
     "translationStatus": "translated",
-    "name": "Sea Otter",
-    "category": "데이터베이스: wild",
-    "route": "Sea Otter으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "해달",
+    "category": "야생",
+    "route": "피싱 빌리지 여물통",
     "food": [
-      "항목: Shrimp",
-      "항목: Shell lane",
-      "항목: Coastal fish tests"
+      "새우",
+      "조개류 루트",
+      "해안 물고기 테스트"
     ],
-    "unlock": "Sea Otter은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "unlock": "야생 동물 여물통 루트",
+    "source": "피싱 빌리지"
   },
   {
     "id": "chicken",
     "translationStatus": "translated",
-    "name": "Chicken",
-    "category": "데이터베이스: farm",
-    "route": "Chicken으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "닭",
+    "category": "농장",
+    "route": "농장 동물 루트",
     "food": [
-      "항목: Corn",
-      "항목: Crop lane",
-      "항목: Basic feed tests"
+      "옥수수",
+      "작물 루트",
+      "기본 사료 테스트"
     ],
-    "unlock": "Chicken은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "unlock": "농장 동물 케어 루트",
+    "source": "농장 동물 동선"
   },
   {
     "id": "cow",
     "translationStatus": "translated",
-    "name": "Cow",
-    "category": "데이터베이스: farm",
-    "route": "Cow으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "소",
+    "category": "농장",
+    "route": "농장 동물 루트",
     "food": [
-      "항목: Wheat",
-      "항목: Grass lane",
-      "항목: Long crop overlap"
+      "밀",
+      "풀 루트",
+      "긴 작물 겹침"
     ],
-    "unlock": "Cow은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "unlock": "농장 동물 케어 루트",
+    "source": "농장 동물 동선"
   },
   {
     "id": "oak-oak",
     "translationStatus": "translated",
     "name": "Oak-Oak",
-    "category": "데이터베이스: quest",
-    "route": "Oak-Oak으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "category": "퀘스트",
+    "route": "포레스트 퀘스트 동료",
     "food": [
-      "항목: Quest-specific care",
-      "항목: Do not mix with dog route"
+      "퀘스트 전용 케어",
+      "개 루트와 섞지 않기"
     ],
-    "unlock": "Oak-Oak은 관련 Heartopia 루트나 진행도 이후 사용할 수 있습니다.",
-    "source": "영문 편집본을 바탕으로 한 Heartopia Hub 한국어 데이터입니다."
+    "unlock": "아스트랄리스 포레스트 퀘스트 라인",
+    "source": "퀘스트 루트"
   }
 ]

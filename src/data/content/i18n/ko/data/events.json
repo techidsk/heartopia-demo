@@ -2,82 +2,82 @@
   {
     "id": "modular-streets",
     "translationStatus": "translated",
-    "name": "Modular Streets Festival",
-    "window": "확인됨: 루트",
-    "route": "Modular Streets Festival으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "모듈러 스트리트 페스티벌",
+    "window": "2026년 5월 9일 - 6월 20일",
+    "route": "브릭 물고기, 브릭 벌레, 브릭 새, 컬렉터 챌린지 과제입니다.",
     "rewards": [
-      "보상: Brick furniture lane",
-      "보상: Festival collectibles",
-      "보상: Collection progress"
+      "브릭 가구 동선",
+      "페스티벌 수집품",
+      "수집 진행도"
     ],
     "prep": [
-      "루트: Redeem active codes",
-      "루트: Free storage space",
-      "루트: Open fish tracker",
-      "루트: Check map routes"
+      "활성 코드 교환",
+      "보관 공간 비우기",
+      "물고기 트래커 열기",
+      "지도 루트 확인"
     ]
   },
   {
     "id": "graffiti-channel",
     "translationStatus": "translated",
-    "name": "Graffiti Channel Exhibition",
-    "window": "확인됨: 루트",
-    "route": "Graffiti Channel Exhibition으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "그래피티 채널 전시",
+    "window": "2026년 5월 9일 - 6월 20일",
+    "route": "페스티벌 보상 루프와 연결된 패션 및 수집 루트입니다.",
     "rewards": [
-      "보상: Fashion display route",
-      "보상: Collector tasks",
-      "보상: Event styling notes"
+      "패션 전시 루트",
+      "컬렉터 과제",
+      "이벤트 스타일링 노트"
     ],
     "prep": [
-      "루트: Check clothing store",
-      "루트: Review event checklist",
-      "루트: Leave room for display items"
+      "의상 상점 확인",
+      "이벤트 체크리스트 검토",
+      "전시 아이템 공간 남기기"
     ]
   },
   {
     "id": "sea-fishing",
     "translationStatus": "translated",
-    "name": "Sea Fishing",
-    "window": "확인됨: 루트",
-    "route": "Sea Fishing으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "바다 낚시",
+    "window": "해금 루트",
+    "route": "빌과 함께하는 피싱 빌리지 루트로, 이벤트 과제와 희귀 물고기 동선에 유용합니다.",
     "rewards": [
-      "보상: Sea fish progress",
-      "보상: Fishing event rewards",
-      "보상: Recipe inputs"
+      "바다 물고기 진행도",
+      "낚시 이벤트 보상",
+      "레시피 재료"
     ],
     "prep": [
-      "루트: Open fish tracker",
-      "루트: Check inventory space",
-      "루트: Bring repair kit if needed"
+      "물고기 트래커 열기",
+      "인벤토리 공간 확인",
+      "필요하면 수리 키트 챙기기"
     ]
   },
   {
     "id": "next-banner-watch",
     "translationStatus": "translated",
-    "name": "Next Banner Watch",
-    "window": "확인됨: 루트",
-    "route": "Next Banner Watch으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "다음 배너 관찰",
+    "window": "추후 공개",
+    "route": "다음 공식 배너나 페스티벌 연결을 기다리는 자리표시 항목입니다.",
     "rewards": [
-      "보상: Unknown until announcement"
+      "공개 전까지 미확인"
     ],
     "prep": [
-      "루트: Keep codes page checked",
-      "루트: Save flexible materials",
-      "루트: Do not spend all event stock"
+      "코드 페이지 계속 확인",
+      "유연하게 쓸 재료 저장",
+      "이벤트 재고를 모두 쓰지 않기"
     ]
   },
   {
     "id": "closed-code-window",
     "translationStatus": "translated",
-    "name": "Closed Code Window Archive",
-    "window": "확인됨: 루트",
-    "route": "Closed Code Window Archive으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "name": "종료된 코드 기간 아카이브",
+    "window": "만료 또는 미확인",
+    "route": "지난 보상 기간은 현재 과제와 분리해 보관하세요.",
     "rewards": [
-      "보상: Historical reward notes"
+      "과거 보상 노트"
     ],
     "prep": [
-      "루트: Move expired codes out of current route",
-      "루트: Keep source check date visible"
+      "만료 코드를 현재 루트에서 분리",
+      "출처 확인 날짜를 보이게 유지"
     ]
   }
 ]

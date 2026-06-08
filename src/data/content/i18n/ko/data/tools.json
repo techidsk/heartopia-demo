@@ -2,96 +2,96 @@
   {
     "id": "profit-calculator",
     "translationStatus": "translated",
-    "title": "Profit Calculator",
-    "category": "도구: calculator",
-    "description": "Heartopia Profit Calculator 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
-    "useCase": "Profit Calculator으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "title": "수익 계산기",
+    "category": "계산기",
+    "description": "밭 수, 세션 길이, 별 보너스 기준으로 작물 수익을 비교합니다.",
+    "useCase": "심기 전에 가장 좋은 작물을 고르세요.",
     "linkedData": [
-      "데이터베이스: crops",
-      "데이터베이스: shops",
-      "데이터베이스: recipes"
+      "작물",
+      "상점",
+      "레시피"
     ],
-    "status": "게시됨"
+    "status": "작동 중"
   },
   {
     "id": "fish-tracker",
     "translationStatus": "translated",
-    "title": "Fish Tracker",
-    "category": "도구: tracker",
-    "description": "Heartopia Fish Tracker 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
-    "useCase": "Fish Tracker으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "title": "물고기 트래커",
+    "category": "트래커",
+    "description": "수역 루트, 레벨 제한, 시간 조건별로 희귀 물고기 포획을 추적합니다.",
+    "useCase": "세션 사이의 수집 진행도를 저장하세요.",
     "linkedData": [
-      "데이터베이스: fish",
-      "데이터베이스: map"
+      "물고기",
+      "지도"
     ],
-    "status": "게시됨"
+    "status": "작동 중"
   },
   {
     "id": "crop-planner",
     "translationStatus": "translated",
-    "title": "Crop Planner",
-    "category": "도구: planner",
-    "description": "Heartopia Crop Planner 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
-    "useCase": "Crop Planner으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "title": "작물 플래너",
+    "category": "플래너",
+    "description": "플레이 시간과 밭 수로 활동형, 균형형, 오프라인형 작물 루트를 만듭니다.",
+    "useCase": "플레이 가능 시간을 재배 일정으로 바꾸세요.",
     "linkedData": [
-      "데이터베이스: crops",
-      "데이터베이스: shops"
+      "작물",
+      "상점"
     ],
-    "status": "게시됨"
+    "status": "작동 중"
   },
   {
     "id": "friendship-tracker",
     "translationStatus": "translated",
-    "title": "Friendship Tracker",
-    "category": "도구: tracker",
-    "description": "Heartopia Friendship Tracker 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
-    "useCase": "Friendship Tracker으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "title": "우정 트래커",
+    "category": "트래커",
+    "description": "선물, 대화, 함께 놀기를 바탕으로 NPC 일상 진행도를 추정합니다.",
+    "useCase": "이번 주 관계 루프 하나를 계획하세요.",
     "linkedData": [
-      "데이터베이스: npcs",
-      "데이터베이스: shops"
+      "NPC",
+      "상점"
     ],
-    "status": "게시됨"
+    "status": "작동 중"
   },
   {
     "id": "recipe-finder",
     "translationStatus": "translated",
-    "title": "Recipe Finder",
-    "category": "도구: finder",
-    "description": "Heartopia Recipe Finder 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
-    "useCase": "Recipe Finder으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "title": "레시피 찾기",
+    "category": "찾기",
+    "description": "이미 가진 재료로 초반 레시피를 필터링합니다.",
+    "useCase": "팔거나 선물하기 전에 무엇을 요리할지 고르세요.",
     "linkedData": [
-      "데이터베이스: recipes",
-      "데이터베이스: crops",
-      "데이터베이스: fish"
+      "레시피",
+      "작물",
+      "물고기"
     ],
-    "status": "게시됨"
+    "status": "작동 중"
   },
   {
     "id": "checklist",
     "translationStatus": "translated",
-    "title": "Daily Checklist",
-    "category": "도구: tracker",
-    "description": "Heartopia Daily Checklist 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
-    "useCase": "Daily Checklist으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "title": "일일 체크리스트",
+    "category": "체크리스트",
+    "description": "코드, 작물, 물고기, NPC 프리셋이 있는 반복 일일 루트를 저장합니다.",
+    "useCase": "짧은 세션이 흐트러지지 않게 하세요.",
     "linkedData": [
-      "데이터베이스: codes",
-      "데이터베이스: map",
-      "데이터베이스: shops"
+      "코드",
+      "지도",
+      "상점"
     ],
-    "status": "게시됨"
+    "status": "작동 중"
   },
   {
     "id": "timer",
     "translationStatus": "translated",
-    "title": "Route Timer",
-    "category": "도구: timer",
-    "description": "Heartopia Route Timer 한국어 페이지로 루트, 데이터, 도구, 실전 메모를 정리합니다.",
-    "useCase": "Route Timer으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
+    "title": "루트 타이머",
+    "category": "타이머",
+    "description": "작물, 요리, 낚시 시간대, 상점 확인용 지속 타이머를 실행합니다.",
+    "useCase": "언제 루트로 돌아가야 하는지 확인하세요.",
     "linkedData": [
-      "데이터베이스: crops",
-      "데이터베이스: recipes",
-      "데이터베이스: map"
+      "작물",
+      "레시피",
+      "지도"
     ],
-    "status": "게시됨"
+    "status": "작동 중"
   }
 ]

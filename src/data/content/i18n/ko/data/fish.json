@@ -2,241 +2,241 @@
   {
     "id": "wels-catfish",
     "translationStatus": "translated",
-    "name": "Wels Catfish",
-    "spot": "지도: Meadow Lake",
-    "condition": "Wels Catfish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "유럽메기",
+    "spot": "메도우 레이크",
+    "condition": "초반 루트",
+    "window": "어떤 초반 세션이든",
     "level": "Lv 1",
-    "use": "Wels Catfish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "초반 빠른 낚시 루트"
   },
   {
     "id": "goldfish",
     "translationStatus": "translated",
-    "name": "Goldfish",
-    "spot": "지도: Meadow Lake",
-    "condition": "Goldfish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "금붕어",
+    "spot": "메도우 레이크",
+    "condition": "아침부터 저녁까지",
+    "window": "아침-저녁",
     "level": "Lv 1",
-    "use": "Goldfish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "초반 수집과 트래커 목표"
   },
   {
     "id": "arctic-char",
     "translationStatus": "translated",
-    "name": "Arctic Char",
-    "spot": "지도: Forest Lake",
-    "condition": "Arctic Char으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "북극곤들매기",
+    "spot": "포레스트 레이크",
+    "condition": "서늘한 날씨 우선 확인",
+    "window": "서늘한 날씨",
     "level": "Lv 2",
-    "use": "Arctic Char은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "포레스트 레이크 루트 확인"
   },
   {
     "id": "giant-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Giant Pearl Mussel",
-    "spot": "지도: Forest Lake",
-    "condition": "Giant Pearl Mussel으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "대형 진주조개",
+    "spot": "포레스트 레이크",
+    "condition": "언제든 가능한 샘플 항목",
+    "window": "언제든",
     "level": "Lv 2",
-    "use": "Giant Pearl Mussel은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "포레스트 레이크 보완 및 가치 확인"
   },
   {
     "id": "largemouth-bass",
     "translationStatus": "translated",
-    "name": "Largemouth Bass",
-    "spot": "지도: Forest Lake",
-    "condition": "Largemouth Bass으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "큰입배스",
+    "spot": "포레스트 레이크",
+    "condition": "호수 루트 보완",
+    "window": "언제든",
     "level": "Lv 2",
-    "use": "Largemouth Bass은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "일반 호수 포획"
   },
   {
     "id": "common-whitefish",
     "translationStatus": "translated",
-    "name": "Common Whitefish",
-    "spot": "지도: Onsen Mountain Lake",
-    "condition": "Common Whitefish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "보통흰송어",
+    "spot": "온천 산 호수",
+    "condition": "산악 호수 루트",
+    "window": "언제든",
     "level": "Lv 3",
-    "use": "Common Whitefish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "온천 루프 포획"
   },
   {
     "id": "ruffe",
     "translationStatus": "translated",
-    "name": "Ruffe",
-    "spot": "지도: Onsen Mountain Lake",
-    "condition": "Ruffe으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "러프",
+    "spot": "온천 산 호수",
+    "condition": "산악 호수 루트",
+    "window": "언제든",
     "level": "Lv 3",
-    "use": "Ruffe은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "온천 루프 포획"
   },
   {
     "id": "crucian-carp",
     "translationStatus": "translated",
-    "name": "Crucian Carp",
-    "spot": "지도: Spring Lake",
-    "condition": "Crucian Carp으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "붕어",
+    "spot": "스프링 레이크",
+    "condition": "비 오는 날 보너스 루트",
+    "window": "비 오는 날 보너스",
     "level": "Lv 3",
-    "use": "Crucian Carp은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "비 오는 세션 목표"
   },
   {
     "id": "huchen",
     "translationStatus": "translated",
-    "name": "Huchen",
-    "spot": "지도: Giantwood River",
-    "condition": "Huchen으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "후첸",
+    "spot": "자이언트우드 강",
+    "condition": "Lv 9; 무지개 날씨",
+    "window": "무지개 날씨",
     "level": "Lv 9",
-    "use": "Huchen은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "희귀 강 물고기 우선 목표"
   },
   {
     "id": "burbot",
     "translationStatus": "translated",
-    "name": "Burbot",
-    "spot": "지도: Tranquil River",
-    "condition": "Burbot으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "모캐",
+    "spot": "트랭퀼 강",
+    "condition": "정오부터 저녁까지",
+    "window": "정오-저녁",
     "level": "Lv 4",
-    "use": "Burbot은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "일반 강 루트"
   },
   {
     "id": "beltfish",
     "translationStatus": "translated",
-    "name": "Beltfish",
-    "spot": "지도: Zephyr Sea",
-    "condition": "Beltfish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "갈치",
+    "spot": "제퍼 바다",
+    "condition": "해안 루트",
+    "window": "어떤 해안 세션이든",
     "level": "Lv 4",
-    "use": "Beltfish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "해안 루트 보완"
   },
   {
     "id": "atlantic-pygmy-octopus",
     "translationStatus": "translated",
-    "name": "Atlantic Pygmy Octopus",
-    "spot": "지도: Zephyr Sea",
-    "condition": "Atlantic Pygmy Octopus으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "대서양 피그미 문어",
+    "spot": "제퍼 바다",
+    "condition": "해안 루트",
+    "window": "어떤 해안 세션이든",
     "level": "Lv 4",
-    "use": "Atlantic Pygmy Octopus은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "해안 루트 확인"
   },
   {
     "id": "atlantic-salmon",
     "translationStatus": "translated",
-    "name": "Atlantic Salmon",
-    "spot": "지도: Whale Sea",
-    "condition": "Atlantic Salmon으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "대서양연어",
+    "spot": "웨일 바다",
+    "condition": "후반 바다 루트",
+    "window": "후반 바다 세션",
     "level": "Lv 7",
-    "use": "Atlantic Salmon은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "바다 가치 루트"
   },
   {
     "id": "swordfish",
     "translationStatus": "translated",
-    "name": "Swordfish",
-    "spot": "지도: Whale Sea",
-    "condition": "Swordfish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "황새치",
+    "spot": "웨일 바다",
+    "condition": "Lv 10",
+    "window": "후반 바다 세션",
     "level": "Lv 10",
-    "use": "Swordfish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "후반 희귀 목표"
   },
   {
     "id": "rainbow-fish",
     "translationStatus": "translated",
-    "name": "Rainbow Fish",
-    "spot": "지도: Starlight Sea",
-    "condition": "Rainbow Fish으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "레인보우피시",
+    "spot": "스타라이트 바다",
+    "condition": "무지개 날씨",
+    "window": "무지개 날씨",
     "level": "Lv 8",
-    "use": "Rainbow Fish은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "희귀 날씨 우선 목표"
   },
   {
     "id": "koi",
     "translationStatus": "translated",
-    "name": "Koi",
-    "spot": "지도: Secret Pond",
-    "condition": "Koi으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "비단잉어",
+    "spot": "비밀 연못",
+    "condition": "자정 루트",
+    "window": "자정",
     "level": "Lv 5",
-    "use": "Koi은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "숨은 연못 확인"
   },
   {
     "id": "golden-king-crab",
     "translationStatus": "translated",
-    "name": "Golden King Crab",
-    "spot": "지도: Sea Fishing",
-    "condition": "Golden King Crab으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "황금 왕게",
+    "spot": "바다 낚시",
+    "condition": "이벤트 루트",
+    "window": "이벤트 기간",
     "level": "Event",
-    "use": "Golden King Crab은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "바다 낚시 이벤트 목표"
   },
   {
     "id": "bluefin-tuna",
     "translationStatus": "translated",
-    "name": "Bluefin Tuna",
-    "spot": "지도: Old Sea",
-    "condition": "Bluefin Tuna으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "참다랑어",
+    "spot": "올드 시",
+    "condition": "Lv 10",
+    "window": "후반 바다 세션",
     "level": "Lv 10",
-    "use": "Bluefin Tuna은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "후반 희귀 목표"
   },
   {
     "id": "smooth-hammerhead",
     "translationStatus": "translated",
-    "name": "Smooth Hammerhead",
-    "spot": "지도: Deep Sea",
-    "condition": "Smooth Hammerhead으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "귀상어",
+    "spot": "딥 시",
+    "condition": "Lv 10",
+    "window": "후반 바다 세션",
     "level": "Lv 10",
-    "use": "Smooth Hammerhead은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "후반 희귀 목표"
   },
   {
     "id": "european-eel",
     "translationStatus": "translated",
-    "name": "European Eel",
-    "spot": "지도: Old Sea",
-    "condition": "European Eel으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "유럽뱀장어",
+    "spot": "올드 시",
+    "condition": "저녁 루트",
+    "window": "저녁",
     "level": "Lv 7",
-    "use": "European Eel은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "올드 시 저녁 목표"
   },
   {
     "id": "butterfly-koi",
     "translationStatus": "translated",
-    "name": "Butterfly Koi",
-    "spot": "지도: Secret Pond",
-    "condition": "Butterfly Koi으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "나비 비단잉어",
+    "spot": "비밀 연못",
+    "condition": "희귀 연못 확인",
+    "window": "희귀 연못 시간대",
     "level": "Lv 6",
-    "use": "Butterfly Koi은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "숨은 연못 희귀 확인"
   },
   {
     "id": "large-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Large Pearl Mussel",
-    "spot": "지도: Forest Lake",
-    "condition": "Large Pearl Mussel으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "큰 진주조개",
+    "spot": "포레스트 레이크",
+    "condition": "언제든 가능한 샘플 항목",
+    "window": "언제든",
     "level": "Lv 5",
-    "use": "Large Pearl Mussel은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "포레스트 레이크 수집 목표"
   },
   {
     "id": "rainbow-trout",
     "translationStatus": "translated",
-    "name": "Rainbow Trout",
-    "spot": "지도: Giantwood River",
-    "condition": "Rainbow Trout으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "무지개송어",
+    "spot": "자이언트우드 강",
+    "condition": "무지개 루트 후보",
+    "window": "무지개 날씨",
     "level": "Lv 6",
-    "use": "Rainbow Trout은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "희귀 강 날씨 확인"
   },
   {
     "id": "sea-bream",
     "translationStatus": "translated",
-    "name": "Sea Bream",
-    "spot": "지도: Fishing Village",
-    "condition": "Sea Bream으로 지도, 상점, 레벨, 하루 루틴을 비교해 루트를 계획하세요.",
-    "window": "확인됨: 루트",
+    "name": "참돔",
+    "spot": "피싱 빌리지",
+    "condition": "초반 해안 확인",
+    "window": "어떤 해안 세션이든",
     "level": "Lv 1",
-    "use": "Sea Bream은 루트 계획, 수집, 확인에 쓰는 한국어 빠른 참고 데이터입니다."
+    "use": "초반 해안 루트"
   }
 ]
