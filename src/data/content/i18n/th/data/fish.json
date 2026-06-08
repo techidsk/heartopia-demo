@@ -2,241 +2,241 @@
   {
     "id": "wels-catfish",
     "translationStatus": "translated",
-    "name": "Wels Catfish",
-    "spot": "แผนที่: Meadow Lake",
-    "condition": "ใช้ Wels Catfish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาดุกเวลส์",
+    "spot": "ทะเลสาบเมโดว์",
+    "condition": "เส้นทางเริ่มต้น",
+    "window": "รอบเริ่มต้นใดก็ได้",
     "level": "Lv 1",
-    "use": "Wels Catfish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เส้นทางตกปลาช่วงต้นที่เร็ว"
   },
   {
     "id": "goldfish",
     "translationStatus": "translated",
-    "name": "Goldfish",
-    "spot": "แผนที่: Meadow Lake",
-    "condition": "ใช้ Goldfish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาทอง",
+    "spot": "ทะเลสาบเมโดว์",
+    "condition": "เช้าถึงเย็น",
+    "window": "เช้าถึงเย็น",
     "level": "Lv 1",
-    "use": "Goldfish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายสะสมช่วงต้นและตัวติดตาม"
   },
   {
     "id": "arctic-char",
     "translationStatus": "translated",
-    "name": "Arctic Char",
-    "spot": "แผนที่: Forest Lake",
-    "condition": "ใช้ Arctic Char เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาอาร์กติกชาร์",
+    "spot": "ทะเลสาบป่า",
+    "condition": "ให้ความสำคัญช่วงอากาศเย็น",
+    "window": "อากาศเย็น",
     "level": "Lv 2",
-    "use": "Arctic Char เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เช็กเส้นทางทะเลสาบป่า"
   },
   {
     "id": "giant-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Giant Pearl Mussel",
-    "spot": "แผนที่: Forest Lake",
-    "condition": "ใช้ Giant Pearl Mussel เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "หอยมุกยักษ์",
+    "spot": "ทะเลสาบป่า",
+    "condition": "บันทึกตัวอย่างเวลาใดก็ได้",
+    "window": "เวลาใดก็ได้",
     "level": "Lv 2",
-    "use": "Giant Pearl Mussel เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เติมบันทึกทะเลสาบป่าและเช็กมูลค่า"
   },
   {
     "id": "largemouth-bass",
     "translationStatus": "translated",
-    "name": "Largemouth Bass",
-    "spot": "แผนที่: Forest Lake",
-    "condition": "ใช้ Largemouth Bass เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลากะพงปากกว้าง",
+    "spot": "ทะเลสาบป่า",
+    "condition": "รายการเติมเต็มเส้นทางทะเลสาบ",
+    "window": "เวลาใดก็ได้",
     "level": "Lv 2",
-    "use": "Largemouth Bass เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "จับปลาทะเลสาบตามปกติ"
   },
   {
     "id": "common-whitefish",
     "translationStatus": "translated",
-    "name": "Common Whitefish",
-    "spot": "แผนที่: Onsen Mountain Lake",
-    "condition": "ใช้ Common Whitefish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาไวต์ฟิชธรรมดา",
+    "spot": "ทะเลสาบภูเขาออนเซ็น",
+    "condition": "เส้นทางทะเลสาบภูเขา",
+    "window": "เวลาใดก็ได้",
     "level": "Lv 3",
-    "use": "Common Whitefish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "จับในลูปออนเซ็น"
   },
   {
     "id": "ruffe",
     "translationStatus": "translated",
-    "name": "Ruffe",
-    "spot": "แผนที่: Onsen Mountain Lake",
-    "condition": "ใช้ Ruffe เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลารัฟฟ์",
+    "spot": "ทะเลสาบภูเขาออนเซ็น",
+    "condition": "เส้นทางทะเลสาบภูเขา",
+    "window": "เวลาใดก็ได้",
     "level": "Lv 3",
-    "use": "Ruffe เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "จับในลูปออนเซ็น"
   },
   {
     "id": "crucian-carp",
     "translationStatus": "translated",
-    "name": "Crucian Carp",
-    "spot": "แผนที่: Spring Lake",
-    "condition": "ใช้ Crucian Carp เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาคาร์ปครูเชียน",
+    "spot": "ทะเลสาบสปริง",
+    "condition": "เส้นทางโบนัสช่วงฝนตก",
+    "window": "โบนัสช่วงฝนตก",
     "level": "Lv 3",
-    "use": "Crucian Carp เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายรอบฝนตก"
   },
   {
     "id": "huchen",
     "translationStatus": "translated",
-    "name": "Huchen",
-    "spot": "แผนที่: Giantwood River",
-    "condition": "ใช้ Huchen เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาฮูเชน",
+    "spot": "แม่น้ำไจแอนต์วูด",
+    "condition": "Lv 9; อากาศสายรุ้ง",
+    "window": "อากาศสายรุ้ง",
     "level": "Lv 9",
-    "use": "Huchen เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายแม่น้ำหายากที่ควรทำก่อน"
   },
   {
     "id": "burbot",
     "translationStatus": "translated",
-    "name": "Burbot",
-    "spot": "แผนที่: Tranquil River",
-    "condition": "ใช้ Burbot เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาบอร์บอต",
+    "spot": "แม่น้ำแทรงควิล",
+    "condition": "เที่ยงถึงเย็น",
+    "window": "เที่ยงถึงเย็น",
     "level": "Lv 4",
-    "use": "Burbot เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เส้นทางแม่น้ำประจำ"
   },
   {
     "id": "beltfish",
     "translationStatus": "translated",
-    "name": "Beltfish",
-    "spot": "แผนที่: Zephyr Sea",
-    "condition": "ใช้ Beltfish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาดาบเงิน",
+    "spot": "ทะเลเซเฟอร์",
+    "condition": "เส้นทางชายฝั่ง",
+    "window": "รอบชายฝั่งใดก็ได้",
     "level": "Lv 4",
-    "use": "Beltfish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เติมรายการเส้นทางชายฝั่ง"
   },
   {
     "id": "atlantic-pygmy-octopus",
     "translationStatus": "translated",
-    "name": "Atlantic Pygmy Octopus",
-    "spot": "แผนที่: Zephyr Sea",
-    "condition": "ใช้ Atlantic Pygmy Octopus เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "หมึกแคระแอตแลนติก",
+    "spot": "ทะเลเซเฟอร์",
+    "condition": "เส้นทางชายฝั่ง",
+    "window": "รอบชายฝั่งใดก็ได้",
     "level": "Lv 4",
-    "use": "Atlantic Pygmy Octopus เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เช็กเส้นทางชายฝั่ง"
   },
   {
     "id": "atlantic-salmon",
     "translationStatus": "translated",
-    "name": "Atlantic Salmon",
-    "spot": "แผนที่: Whale Sea",
-    "condition": "ใช้ Atlantic Salmon เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาแซลมอนแอตแลนติก",
+    "spot": "ทะเลวาฬ",
+    "condition": "เส้นทางทะเลช่วงท้ายเกม",
+    "window": "รอบทะเลช่วงท้ายเกม",
     "level": "Lv 7",
-    "use": "Atlantic Salmon เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เส้นทางทะเลเพื่อมูลค่า"
   },
   {
     "id": "swordfish",
     "translationStatus": "translated",
-    "name": "Swordfish",
-    "spot": "แผนที่: Whale Sea",
-    "condition": "ใช้ Swordfish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลากระโทงดาบ",
+    "spot": "ทะเลวาฬ",
+    "condition": "Lv 10",
+    "window": "รอบทะเลช่วงท้ายเกม",
     "level": "Lv 10",
-    "use": "Swordfish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายหายากช่วงท้ายเกม"
   },
   {
     "id": "rainbow-fish",
     "translationStatus": "translated",
-    "name": "Rainbow Fish",
-    "spot": "แผนที่: Starlight Sea",
-    "condition": "ใช้ Rainbow Fish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาเรนโบว์",
+    "spot": "ทะเลสตาร์ไลต์",
+    "condition": "อากาศสายรุ้ง",
+    "window": "อากาศสายรุ้ง",
     "level": "Lv 8",
-    "use": "Rainbow Fish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายอากาศหายากที่ควรทำก่อน"
   },
   {
     "id": "koi",
     "translationStatus": "translated",
-    "name": "Koi",
-    "spot": "แผนที่: Secret Pond",
-    "condition": "ใช้ Koi เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาคาร์ปโค่ย",
+    "spot": "บ่อลับ",
+    "condition": "เที่ยงคืน เส้นทาง",
+    "window": "เที่ยงคืน",
     "level": "Lv 5",
-    "use": "Koi เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "ตรวจบ่อลับ"
   },
   {
     "id": "golden-king-crab",
     "translationStatus": "translated",
-    "name": "Golden King Crab",
-    "spot": "แผนที่: Sea Fishing",
-    "condition": "ใช้ Golden King Crab เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
-    "level": "Event",
-    "use": "Golden King Crab เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "name": "ปูคิงแครบสีทอง",
+    "spot": "อีเวนต์ตกปลาทะเล",
+    "condition": "อีเวนต์ เส้นทาง",
+    "window": "ช่วงเวลาอีเวนต์",
+    "level": "อีเวนต์",
+    "use": "เป้าหมายอีเวนต์ตกปลาทะเล"
   },
   {
     "id": "bluefin-tuna",
     "translationStatus": "translated",
-    "name": "Bluefin Tuna",
-    "spot": "แผนที่: Old Sea",
-    "condition": "ใช้ Bluefin Tuna เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาทูน่าครีบน้ำเงิน",
+    "spot": "ทะเลเก่า",
+    "condition": "Lv 10",
+    "window": "รอบทะเลช่วงท้ายเกม",
     "level": "Lv 10",
-    "use": "Bluefin Tuna เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายหายากช่วงท้ายเกม"
   },
   {
     "id": "smooth-hammerhead",
     "translationStatus": "translated",
-    "name": "Smooth Hammerhead",
-    "spot": "แผนที่: Deep Sea",
-    "condition": "ใช้ Smooth Hammerhead เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ฉลามหัวค้อนเรียบ",
+    "spot": "ทะเลลึก",
+    "condition": "Lv 10",
+    "window": "รอบทะเลช่วงท้ายเกม",
     "level": "Lv 10",
-    "use": "Smooth Hammerhead เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายหายากช่วงท้ายเกม"
   },
   {
     "id": "european-eel",
     "translationStatus": "translated",
-    "name": "European Eel",
-    "spot": "แผนที่: Old Sea",
-    "condition": "ใช้ European Eel เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาไหลยุโรป",
+    "spot": "ทะเลเก่า",
+    "condition": "เส้นทางช่วงเย็น",
+    "window": "ช่วงเย็น",
     "level": "Lv 7",
-    "use": "European Eel เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายทะเลเก่าช่วงเย็น"
   },
   {
     "id": "butterfly-koi",
     "translationStatus": "translated",
-    "name": "Butterfly Koi",
-    "spot": "แผนที่: Secret Pond",
-    "condition": "ใช้ Butterfly Koi เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาคาร์ปบัตเตอร์ฟลาย",
+    "spot": "บ่อลับ",
+    "condition": "ตรวจบ่อหายาก",
+    "window": "หายาก pond ช่วงเวลา",
     "level": "Lv 6",
-    "use": "Butterfly Koi เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "ตรวจของหายากในบ่อลับ"
   },
   {
     "id": "large-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Large Pearl Mussel",
-    "spot": "แผนที่: Forest Lake",
-    "condition": "ใช้ Large Pearl Mussel เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "หอยมุกใหญ่",
+    "spot": "ทะเลสาบป่า",
+    "condition": "บันทึกตัวอย่างเวลาใดก็ได้",
+    "window": "เวลาใดก็ได้",
     "level": "Lv 5",
-    "use": "Large Pearl Mussel เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เป้าหมายสะสมที่ทะเลสาบป่า"
   },
   {
     "id": "rainbow-trout",
     "translationStatus": "translated",
-    "name": "Rainbow Trout",
-    "spot": "แผนที่: Giantwood River",
-    "condition": "ใช้ Rainbow Trout เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาเทราต์สายรุ้ง",
+    "spot": "แม่น้ำไจแอนต์วูด",
+    "condition": "ตัวเลือกเส้นทางสายรุ้ง",
+    "window": "อากาศสายรุ้ง",
     "level": "Lv 6",
-    "use": "Rainbow Trout เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เช็กอากาศของปลาแม่น้ำหายาก"
   },
   {
     "id": "sea-bream",
     "translationStatus": "translated",
-    "name": "Sea Bream",
-    "spot": "แผนที่: Fishing Village",
-    "condition": "ใช้ Sea Bream เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "window": "ตรวจแล้ว: เส้นทาง",
+    "name": "ปลาทรายแดง",
+    "spot": "ฟิชชิงวิลเลจ",
+    "condition": "ตรวจชายฝั่งเริ่มต้น",
+    "window": "รอบชายฝั่งใดก็ได้",
     "level": "Lv 1",
-    "use": "Sea Bream เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "use": "เส้นทางชายฝั่งเริ่มต้น"
   }
 ]

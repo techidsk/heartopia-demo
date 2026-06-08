@@ -2,50 +2,50 @@
   {
     "id": "fishing",
     "translationStatus": "translated",
-    "name": "Fishing",
-    "group": "ไกด์: core",
-    "summary": "Fishing เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "name": "ตกปลา",
+    "group": "หลัก",
+    "summary": "Water-type เส้นทาง พร้อม ปลดล็อก, tension practice, ปลา ตัวติดตาม, แผนที่ spots, และ หายาก catch การวางแผน."
   },
   {
     "id": "gardening",
     "translationStatus": "translated",
-    "name": "Gardening",
-    "group": "ไกด์: core",
-    "summary": "Gardening เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "name": "ทำสวน",
+    "group": "หลัก",
+    "summary": "พืชผล เส้นทาง พร้อม เมล็ด การวางแผน, กำไร comparison, พืชผล ตัววางแผน, ตัวจับเวลาs, และ recipe sinks."
   },
   {
     "id": "cooking",
     "translationStatus": "translated",
-    "name": "Cooking",
-    "group": "ไกด์: core",
-    "summary": "Cooking เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "name": "ทำอาหาร",
+    "group": "หลัก",
+    "summary": "สูตรอาหาร เส้นทาง พร้อม มัสซิโม ปลดล็อก, jam, ปลาและมันฝรั่งทอด, QTE safety, และ อีเวนต์ วัตถุดิบ checks."
   },
   {
     "id": "birdwatching",
     "translationStatus": "translated",
-    "name": "Birdwatching",
-    "group": "ไกด์: nature",
-    "summary": "Birdwatching เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "name": "ดูนก",
+    "group": "ธรรมชาติ",
+    "summary": "Camera และ binocular เส้นทาง พร้อม สภาพอากาศ, location, pose, และ การสะสม เช็กลิสต์ การวางแผน."
   },
   {
     "id": "insects",
     "translationStatus": "translated",
-    "name": "Insect Catching",
-    "group": "ไกด์: nature",
-    "summary": "Insect Catching เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "name": "จับแมลง",
+    "group": "ธรรมชาติ",
+    "summary": "ตาข่ายบับเบิล เส้นทาง พร้อม DG6 ปลดล็อก, เวลา, สภาพอากาศ, habitat, หายาก bugs, และ sale checks."
   },
   {
     "id": "cat-care",
     "translationStatus": "translated",
-    "name": "Cat Care",
-    "group": "ไกด์: care",
-    "summary": "Cat Care เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "name": "แมว การดูแล",
+    "group": "ดูแล",
+    "summary": "สัตว์เลี้ยง ร้านค้า เส้นทาง พร้อม การรับเลี้ยง, อาหาร tests, favorite tracking, และ daily ดูแล ลูป."
   },
   {
     "id": "dog-care",
     "translationStatus": "translated",
-    "name": "Dog Care",
-    "group": "ไกด์: care",
-    "summary": "Dog Care เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม"
+    "name": "สุนัข การดูแล",
+    "group": "ดูแล",
+    "summary": "สุนัข อาหาร baseline, การรับเลี้ยง เส้นทาง, โอ๊ก-โอ๊ก separation, และ สัตว์ favorite testing."
   }
 ]

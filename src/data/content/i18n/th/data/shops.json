@@ -2,141 +2,141 @@
   {
     "id": "gardening-store",
     "translationStatus": "translated",
-    "name": "Gardening Store",
-    "type": "ร้านค้า: seeds",
-    "owner": "Blanc",
-    "region": "แผนที่: Central Town",
-    "unlock": "Gardening Store จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
-    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "ทำสวน ร้านค้า",
+    "type": "เมล็ดพันธุ์",
+    "owner": "บลองก์",
+    "region": "เซ็นทรัลทาวน์",
+    "unlock": "ใช้ได้หลังผ่านเส้นทางสอนทำสวนครั้งแรก",
+    "hours": "ตรวจระหว่างทำธุระในเมืองช่วงกลางวันปกติ",
     "inventory": [
-      "รายการ: Tomato Seeds",
-      "รายการ: Potato Seeds",
-      "รายการ: Wheat Seeds",
-      "รายการ: Fertilizer",
-      "รายการ: Basic watering supplies"
+      "มะเขือเทศ เมล็ด",
+      "มันฝรั่ง เมล็ด",
+      "ข้าวสาลี เมล็ด",
+      "ปุ๋ย",
+      "พื้นฐาน รดน้ำ supplies"
     ],
-    "notes": "Gardening Store เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
+    "notes": "จุดแวะแรกที่ดี ก่อนวางแผนกำไรพืชผล ควรซื้อเมล็ดพร้อมเส้นทางปลูกรอบสั้น"
   },
   {
     "id": "furniture-workshop",
     "translationStatus": "translated",
     "name": "Furniture Workshop",
-    "type": "ร้านค้า: furniture",
-    "owner": "Bob",
-    "region": "แผนที่: Central Town",
-    "unlock": "Furniture Workshop จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
-    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "type": "เฟอร์นิเจอร์",
+    "owner": "บ็อบ",
+    "region": "เซ็นทรัลทาวน์",
+    "unlock": "ทำตามเส้นทางเฟอร์นิเจอร์ของบ็อบและคำของานไม้ช่วงแรก",
+    "hours": "วางแผนแวะจุดนี้ก่อนจัดแบบบ้าน",
     "inventory": [
-      "รายการ: Starter furniture",
-      "รายการ: Tables",
-      "รายการ: Chairs",
-      "รายการ: Shelves",
-      "รายการ: Decor sets"
+      "เริ่มต้น เฟอร์นิเจอร์",
+      "Tables",
+      "Chairs",
+      "Shelves",
+      "Decor sets"
     ],
-    "notes": "Furniture Workshop เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
+    "notes": "จุดส่งต่อหลักสำหรับผังบ้าน แผนวัสดุ และไอเดียออกแบบรายห้อง"
   },
   {
     "id": "pet-shop",
     "translationStatus": "translated",
-    "name": "Pet Shop",
-    "type": "ร้านค้า: pets",
-    "owner": "Mrs. Joan and Bailey J",
-    "region": "แผนที่: Central Town",
-    "unlock": "Pet Shop จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
-    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "สัตว์เลี้ยง ร้านค้า",
+    "type": "สัตว์เลี้ยง",
+    "owner": "มิสซิสโจน และ เบลีย์ เจ",
+    "region": "เซ็นทรัลทาวน์",
+    "unlock": "ใช้เส้นทางเริ่มต้นดูแลสัตว์เลี้ยงก่อนทดสอบอาหารวงกว้าง",
+    "hours": "แวะเมื่อจัดเส้นทางแมว สุนัข และปลดล็อกดูนก",
     "inventory": [
-      "รายการ: Dog Food",
-      "รายการ: Cat-care items",
-      "รายการ: Pet adoption leads",
-      "รายการ: Pet care basics",
-      "รายการ: Birdwatching route notes"
+      "อาหารสุนัข",
+      "ของดูแลแมว",
+      "สัตว์เลี้ยง การรับเลี้ยง leads",
+      "สัตว์เลี้ยง ดูแล basics",
+      "ดูนก เส้นทาง หมายเหตุ"
     ],
-    "notes": "Pet Shop เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
+    "notes": "แยกแมว/สุนัขจากร้านสัตว์เลี้ยง ออกจากรางสัตว์ป่าและโอ๊ก-โอ๊ก"
   },
   {
     "id": "clothing-store",
     "translationStatus": "translated",
-    "name": "Clothing Store",
-    "type": "ร้านค้า: fashion",
-    "owner": "Dorothy",
-    "region": "แผนที่: Central Town",
-    "unlock": "Clothing Store จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
-    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "Clothing ร้านค้า",
+    "type": "แฟชั่น",
+    "owner": "โดโรธี",
+    "region": "เซ็นทรัลทาวน์",
+    "unlock": "เดินเส้นทางแฟชั่นและโปสเตอร์ของโดโรธี",
+    "hours": "รวมกับลูปให้ของขวัญ NPC ในเซ็นทรัลทาวน์",
     "inventory": [
-      "รายการ: Outfits",
-      "รายการ: Cosmetic pieces",
-      "รายการ: Fashion route items",
-      "รายการ: Event outfit leads"
+      "Outfits",
+      "Cosmetic pieces",
+      "Fashion เส้นทาง items",
+      "อีเวนต์ outfit leads"
     ],
-    "notes": "Clothing Store เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
+    "notes": "มีประโยชน์สำหรับเช็กคอลเลกชันแฟชั่นและวางแผนชุดตามฤดูกาล"
   },
   {
     "id": "music-store",
     "translationStatus": "translated",
-    "name": "Annie's Music Store",
-    "type": "ร้านค้า: music",
-    "owner": "Annie",
-    "region": "แผนที่: Central Town",
-    "unlock": "Annie's Music Store จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
-    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "แอนนี่'s Music ร้านค้า",
+    "type": "ดนตรี",
+    "owner": "แอนนี่",
+    "region": "เซ็นทรัลทาวน์",
+    "unlock": "ใช้หลังระบบโน้ตเพลงและตกแต่งบ้านเปิดขึ้น",
+    "hours": "ควรเช็กระหว่างเตรียมแบบบ้าน",
     "inventory": [
-      "รายการ: Sheet music leads",
-      "รายการ: Music decor",
-      "รายการ: Instrument route notes",
-      "รายการ: Home ambiance items"
+      "Sheet ดนตรี leads",
+      "Music decor",
+      "Instrument เส้นทาง หมายเหตุ",
+      "บ้าน ambiance items"
     ],
-    "notes": "Annie's Music Store เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
+    "notes": "เชื่อมแบบบ้านกับการสะสมดนตรีและการวางธีมห้อง"
   },
   {
     "id": "general-store",
     "translationStatus": "translated",
-    "name": "Ka Ching's General Store",
-    "type": "ร้านค้า: general",
-    "owner": "Ka Ching",
-    "region": "แผนที่: Central Town",
-    "unlock": "Ka Ching's General Store จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
-    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "คาชิง's General ร้านค้า",
+    "type": "ทั่วไป",
+    "owner": "คาชิง",
+    "region": "เซ็นทรัลทาวน์",
+    "unlock": "แวะเมื่อช่องเก็บของเริ่มขวางเส้นทาง",
+    "hours": "จับคู่กับลูปรวบรวมของ ตกปลา หรืออีเวนต์ที่ใช้เวลานาน",
     "inventory": [
-      "รายการ: Inventory expansion",
-      "รายการ: Utility goods",
-      "รายการ: Storage route notes",
-      "รายการ: Errand supplies"
+      "ช่องเก็บของ expansion",
+      "Utility goods",
+      "Storage เส้นทาง หมายเหตุ",
+      "Errand supplies"
     ],
-    "notes": "Ka Ching's General Store เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
+    "notes": "ใช้ก่อนเส้นทางที่ใช้วัสดุมาก เพื่อไม่ให้รอบตกปลาและเก็บของสะดุด"
   },
   {
     "id": "doris-weather-cart",
     "translationStatus": "translated",
-    "name": "Doris Weather Cart",
-    "type": "ร้านค้า: traveling",
-    "owner": "Doris",
-    "region": "แผนที่: Dynamic weather route",
-    "unlock": "Doris Weather Cart จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
-    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "ดอริส สภาพอากาศ Cart",
+    "type": "ร้านเดินทาง",
+    "owner": "ดอริส",
+    "region": "ตามเงื่อนไข สภาพอากาศ เส้นทาง",
+    "unlock": "ปรากฏแถวสภาพอากาศพิเศษ สายรุ้ง หิมะ หรือเส้นทางดาวตก",
+    "hours": "อาจเปลี่ยนตามแพตช์; ยืนยันด้วยแผนที่ในเกมและพยากรณ์อากาศ",
     "inventory": [
-      "รายการ: Weather recipes",
-      "รายการ: Limited ingredients",
-      "รายการ: Cosmetics",
-      "รายการ: Furniture",
-      "รายการ: Event stock"
+      "สภาพอากาศ recipes",
+      "Limited วัตถุดิบ",
+      "Cosmetics",
+      "Furniture",
+      "อีเวนต์ stock"
     ],
-    "notes": "Doris Weather Cart เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
+    "notes": "มองดอริสเป็นพ่อค้าเร่ตามเงื่อนไข อย่าวางแผนซื้อของหายากโดยไม่เช็กอากาศก่อน"
   },
   {
     "id": "sea-fishing-booth",
     "translationStatus": "translated",
-    "name": "Sea Fishing Booth",
-    "type": "ร้านค้า: event",
-    "owner": "Bill",
-    "region": "แผนที่: Fishing Village",
-    "unlock": "Sea Fishing Booth จะใช้ได้ผ่านเส้นทาง Heartopia ที่เกี่ยวข้องหรือหลังจากมีความคืบหน้าที่จำเป็น",
-    "hours": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "อีเวนต์ตกปลาทะเล Booth",
+    "type": "อีเวนต์",
+    "owner": "บิล",
+    "region": "ฟิชชิงวิลเลจ",
+    "unlock": "ใช้ระหว่างอีเวนต์ตกปลาทะเลและเส้นทางอีเวนต์ตกปลา",
+    "hours": "ตรวจเมื่อหน้าอีเวนต์ชี้ไปที่การเตรียมตกปลา",
     "inventory": [
-      "รายการ: Sea fishing route",
-      "รายการ: Event fish notes",
-      "รายการ: Repair-kit reminders",
-      "รายการ: Coastal task handoffs"
+      "Sea ตกปลา เส้นทาง",
+      "อีเวนต์ ปลา หมายเหตุ",
+      "Repair-kit reminders",
+      "Coastal task handoffs"
     ],
-    "notes": "Sea Fishing Booth เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว"
+    "notes": "เหมาะจับคู่กับตัวติดตามปลา การเช็กช่องเก็บของ และแผนรางวัลอีเวนต์"
   }
 ]

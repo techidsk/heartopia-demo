@@ -2,96 +2,96 @@
   {
     "id": "profit-calculator",
     "translationStatus": "translated",
-    "title": "Profit Calculator",
-    "category": "เครื่องมือ: calculator",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ Profit Calculator พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "useCase": "ใช้ Profit Calculator เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "title": "เครื่องคำนวณกำไร",
+    "category": "เครื่องคำนวณ",
+    "description": "เปรียบเทียบกำไรพืชผลตามจำนวนแปลง ระยะเวลาเล่น และโบนัสดาว",
+    "useCase": "เลือกพืชผลที่คุ้มที่สุดก่อนปลูก",
     "linkedData": [
-      "ฐานข้อมูล: crops",
-      "ฐานข้อมูล: shops",
-      "ฐานข้อมูล: recipes"
+      "พืชผล",
+      "ร้านค้า",
+      "สูตรอาหาร"
     ],
-    "status": "เผยแพร่"
+    "status": "ใช้งานได้"
   },
   {
     "id": "fish-tracker",
     "translationStatus": "translated",
-    "title": "Fish Tracker",
-    "category": "เครื่องมือ: tracker",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ Fish Tracker พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "useCase": "ใช้ Fish Tracker เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "title": "ตัวติดตามปลา",
+    "category": "ตัวติดตาม",
+    "description": "ติดตามปลาหายากตามเส้นทางน้ำ เงื่อนไขเลเวล และช่วงเวลาที่พบ",
+    "useCase": "บันทึกความคืบหน้าการสะสมข้ามรอบเล่น",
     "linkedData": [
-      "ฐานข้อมูล: fish",
-      "ฐานข้อมูล: map"
+      "ปลา",
+      "แผนที่"
     ],
-    "status": "เผยแพร่"
+    "status": "ใช้งานได้"
   },
   {
     "id": "crop-planner",
     "translationStatus": "translated",
-    "title": "Crop Planner",
-    "category": "เครื่องมือ: planner",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ Crop Planner พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "useCase": "ใช้ Crop Planner เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "title": "ตัววางแผนพืชผล",
+    "category": "ตัววางแผน",
+    "description": "สร้างเส้นทางพืชผลแบบเล่นต่อเนื่อง แบบสมดุล หรือแบบทิ้งไว้ข้ามรอบ จากเวลาเล่นและจำนวนแปลง",
+    "useCase": "แปลงช่วงเวลาเล่นให้เป็นตารางปลูก",
     "linkedData": [
-      "ฐานข้อมูล: crops",
-      "ฐานข้อมูล: shops"
+      "พืชผล",
+      "ร้านค้า"
     ],
-    "status": "เผยแพร่"
+    "status": "ใช้งานได้"
   },
   {
     "id": "friendship-tracker",
     "translationStatus": "translated",
-    "title": "Friendship Tracker",
-    "category": "เครื่องมือ: tracker",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ Friendship Tracker พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "useCase": "ใช้ Friendship Tracker เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "title": "ตัวติดตามมิตรภาพ",
+    "category": "ตัวติดตาม",
+    "description": "ประเมินความคืบหน้ากิจวัตรของ NPC จากของขวัญ การคุย และการชวนใช้เวลาด้วยกัน",
+    "useCase": "วางแผนลูปความสัมพันธ์หนึ่งสัปดาห์",
     "linkedData": [
-      "ฐานข้อมูล: npcs",
-      "ฐานข้อมูล: shops"
+      "NPC",
+      "ร้านค้า"
     ],
-    "status": "เผยแพร่"
+    "status": "ใช้งานได้"
   },
   {
     "id": "recipe-finder",
     "translationStatus": "translated",
-    "title": "Recipe Finder",
-    "category": "เครื่องมือ: finder",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ Recipe Finder พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "useCase": "ใช้ Recipe Finder เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "title": "ตัวค้นหาสูตรอาหาร",
+    "category": "ตัวค้นหา",
+    "description": "กรองสูตรเริ่มต้นตามวัตถุดิบที่คุณมีอยู่แล้ว",
+    "useCase": "เลือกเมนูที่จะทำก่อนขายหรือให้เป็นของขวัญ",
     "linkedData": [
-      "ฐานข้อมูล: recipes",
-      "ฐานข้อมูล: crops",
-      "ฐานข้อมูล: fish"
+      "สูตรอาหาร",
+      "พืชผล",
+      "ปลา"
     ],
-    "status": "เผยแพร่"
+    "status": "ใช้งานได้"
   },
   {
     "id": "checklist",
     "translationStatus": "translated",
-    "title": "Daily Checklist",
-    "category": "เครื่องมือ: tracker",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ Daily Checklist พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "useCase": "ใช้ Daily Checklist เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "title": "เช็กลิสต์ประจำวัน",
+    "category": "ตัวติดตาม",
+    "description": "บันทึกเส้นทางประจำวันที่ทำซ้ำได้ พร้อมชุดงานสำหรับโค้ด พืชผล ปลา และ NPC",
+    "useCase": "กันไม่ให้รอบเล่นสั้นหลุดแผน",
     "linkedData": [
-      "ฐานข้อมูล: codes",
-      "ฐานข้อมูล: map",
-      "ฐานข้อมูล: shops"
+      "โค้ด",
+      "แผนที่",
+      "ร้านค้า"
     ],
-    "status": "เผยแพร่"
+    "status": "ใช้งานได้"
   },
   {
     "id": "timer",
     "translationStatus": "translated",
-    "title": "Route Timer",
-    "category": "เครื่องมือ: timer",
-    "description": "หน้า Heartopia ภาษาไทยสำหรับ Route Timer พร้อมเส้นทาง ข้อมูล เครื่องมือ และคำแนะนำสำหรับผู้เล่น",
-    "useCase": "ใช้ Route Timer เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "title": "ตัวจับเวลาเส้นทาง",
+    "category": "ตัวจับเวลา",
+    "description": "ตั้งตัวจับเวลาต่อเนื่องสำหรับพืชผล การทำอาหาร ช่วงตกปลา และการกลับไปเช็กร้านค้า",
+    "useCase": "รู้เวลาที่ควรกลับไปทำเส้นทางต่อ",
     "linkedData": [
-      "ฐานข้อมูล: crops",
-      "ฐานข้อมูล: recipes",
-      "ฐานข้อมูล: map"
+      "พืชผล",
+      "สูตรอาหาร",
+      "แผนที่"
     ],
-    "status": "เผยแพร่"
+    "status": "ใช้งานได้"
   }
 ]

@@ -2,156 +2,161 @@
   {
     "id": "blanc",
     "translationStatus": "translated",
-    "name": "Blanc",
-    "group": "ฐานข้อมูล: mentor",
-    "role": "ไกด์: Gardening mentor",
-    "location": "แผนที่: Garden Shop / Central Town",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "บลองก์",
+    "group": "เมนเทอร์",
+    "role": "ทำสวน เมนเทอร์",
+    "location": "Garden ร้านค้า / เซ็นทรัลทาวน์",
+    "schedule": "ใช้ บลองก์ as gardening เส้นทาง anchor ก่อน เมล็ด buying และ flower การวางแผน.",
     "gifts": [
-      "รางวัล: Fresh crop",
-      "รางวัล: Flower",
-      "รางวัล: Simple cooked dish"
+      "Fresh พืชผล",
+      "ดอกไม้",
+      "เรียบง่าย อาหารปรุงสุก"
     ],
     "nameZh": "布蘭克",
-    "profile": "Blanc เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "profile": "TW Wiki lists บลองก์ as gardening เมนเทอร์ tied ไปยัง พืชผล, flowers, และ later flower breeding เส้นทางs.",
+    "source": "Biligame Heartopia หน้าแรก TW Wiki"
   },
   {
     "id": "bob",
     "translationStatus": "translated",
-    "name": "Bob",
-    "group": "ฐานข้อมูล: shopkeeper",
-    "role": "ไกด์: Furniture workshop owner",
-    "location": "แผนที่: Central Town",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "บ็อบ",
+    "group": "เจ้าของร้าน",
+    "role": "Furniture workshop เจ้าของ",
+    "location": "เซ็นทรัลทาวน์",
+    "schedule": "ใช้ เฟอร์นิเจอร์ stop while การวางแผน house layouts.",
     "gifts": [
-      "รางวัล: Wood decor",
-      "รางวัล: House material",
-      "รางวัล: Simple dish"
-    ]
+      "Wood decor",
+      "House วัสดุ",
+      "เรียบง่าย dish"
+    ],
+    "nameZh": "鲍勃"
   },
   {
     "id": "dorothy",
     "translationStatus": "translated",
-    "name": "Dorothy",
-    "group": "ฐานข้อมูล: shopkeeper",
-    "role": "ไกด์: Clothing store owner",
-    "location": "แผนที่: Central Town",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "โดโรธี",
+    "group": "เจ้าของร้าน",
+    "role": "Clothing ร้านค้า เจ้าของ",
+    "location": "เซ็นทรัลทาวน์",
+    "schedule": "Pair clothing errands พร้อม เซ็นทรัลทาวน์ NPC talk ลูป.",
     "gifts": [
-      "รางวัล: Fashion item",
-      "รางวัล: Flower",
-      "รางวัล: Dessert"
-    ]
+      "ไอเท็มแฟชั่น",
+      "ดอกไม้",
+      "ของหวาน"
+    ],
+    "nameZh": "多萝西"
   },
   {
     "id": "mrs-joan",
     "translationStatus": "translated",
-    "name": "Mrs. Joan",
-    "group": "ฐานข้อมูล: mentor",
-    "role": "ไกด์: Pet care mentor",
-    "location": "แผนที่: Pet Shop",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "มิสซิสโจน",
+    "group": "เมนเทอร์",
+    "role": "สัตว์เลี้ยง ดูแล เมนเทอร์",
+    "location": "สัตว์เลี้ยง ร้านค้า",
+    "schedule": "ใช้ สัตว์เลี้ยง ร้านค้า เส้นทาง เมื่อ testing อาหารสุนัข และ การรับเลี้ยง flows.",
     "gifts": [
-      "รางวัล: Dog Food",
-      "รางวัล: Pet-care item",
-      "รางวัล: Cooked dish"
-    ]
+      "อาหารสุนัข",
+      "ของดูแลสัตว์เลี้ยง",
+      "อาหารปรุงสุก"
+    ],
+    "nameZh": "琼夫人"
   },
   {
     "id": "doris",
     "translationStatus": "translated",
-    "name": "Doris",
-    "group": "ฐานข้อมูล: dynamic",
-    "role": "ไกด์: Weather merchant",
-    "location": "แผนที่: Dynamic weather route",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "ดอริส",
+    "group": "ปรากฏตามเงื่อนไข",
+    "role": "สภาพอากาศ พ่อค้า",
+    "location": "ตามเงื่อนไข สภาพอากาศ เส้นทาง",
+    "schedule": "ยืนยัน ในเกม สภาพอากาศ เส้นทาง ก่อน การวางแผน หายาก purchases.",
     "gifts": [
-      "รางวัล: Weather item",
-      "รางวัล: Colorful flower",
-      "รางวัล: Rare dish"
-    ]
+      "ไอเท็มสภาพอากาศ",
+      "ดอกไม้สีสด",
+      "อาหารหายาก"
+    ],
+    "nameZh": "多莉丝"
   },
   {
     "id": "bill",
     "translationStatus": "translated",
-    "name": "Bill",
-    "group": "ฐานข้อมูล: event",
-    "role": "ไกด์: Sea Fishing event mentor",
-    "location": "แผนที่: Fishing Village",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "บิล",
+    "group": "อีเวนต์",
+    "role": "อีเวนต์ตกปลาทะเล อีเวนต์ เมนเทอร์",
+    "location": "ฟิชชิงวิลเลจ",
+    "schedule": "ใช้ บิล เมื่อ sea ตกปลา หรือ อีเวนต์ tasks point ไปยัง coastal เส้นทางs.",
     "gifts": [
-      "รางวัล: Fish",
-      "รางวัล: Repair Kit",
-      "รางวัล: Seafood dish"
-    ]
+      "ปลา",
+      "ชุดซ่อม",
+      "Seafood dish"
+    ],
+    "nameZh": "比尔"
   },
   {
     "id": "albert-ii",
     "translationStatus": "translated",
-    "name": "Albert II",
-    "group": "ฐานข้อมูล: featured",
-    "role": "ไกด์: Featured town character",
-    "location": "แผนที่: Heartopia town route",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "อัลเบิร์ตที่สอง",
+    "group": "ตัวละครเด่น",
+    "role": "ตัวเด่น town ตัวละคร",
+    "location": "Heartopia town เส้นทาง",
+    "schedule": "บ้านpage feature ตัวละคร; confirm live location ใน game ก่อน routing ของขวัญ.",
     "gifts": [
-      "รางวัล: Favorite gift pending",
-      "รางวัล: Liked gift pending",
-      "รางวัล: Talk route"
+      "Favorite ของขวัญ pending",
+      "Liked ของขวัญ pending",
+      "Talk เส้นทาง"
     ],
     "nameZh": "阿爾伯特二世",
-    "profile": "Albert II เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "profile": "ตัวเด่น บน หน้าแรก TW Wiki ตัวละคร strip; detailed เส้นทาง data is still pending.",
+    "source": "Biligame Heartopia หน้าแรก TW Wiki"
   },
   {
     "id": "ka-ching",
     "translationStatus": "translated",
-    "name": "Ka Ching",
-    "group": "ฐานข้อมูล: shopkeeper",
-    "role": "ไกด์: General store owner",
-    "location": "แผนที่: Central Town",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "คาชิง",
+    "group": "เจ้าของร้าน",
+    "role": "General ร้านค้า เจ้าของ",
+    "location": "เซ็นทรัลทาวน์",
+    "schedule": "Pair คาชิง พร้อม ช่องเก็บของ, utility, และ long-เส้นทาง preparation errands.",
     "gifts": [
-      "รางวัล: Utility item",
-      "รางวัล: Simple dish",
-      "รางวัล: Favorite gift pending"
+      "Utility item",
+      "เรียบง่าย dish",
+      "Favorite ของขวัญ pending"
     ],
     "nameZh": "卡清",
-    "profile": "Ka Ching เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "profile": "ตัวเด่น บน หน้าแรก TW Wiki และ connected ไปยัง ทั่วไป-ร้านค้า เส้นทาง ใน this guide.",
+    "source": "Biligame Heartopia หน้าแรก TW Wiki"
   },
   {
     "id": "annie",
     "translationStatus": "translated",
-    "name": "Annie",
-    "group": "ฐานข้อมูล: shopkeeper",
-    "role": "ไกด์: Music store owner",
-    "location": "แผนที่: Central Town",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "แอนนี่",
+    "group": "เจ้าของร้าน",
+    "role": "Music ร้านค้า เจ้าของ",
+    "location": "เซ็นทรัลทาวน์",
+    "schedule": "ใช้ แอนนี่ เมื่อ house ambience, ดนตรี, และ การสะสม เส้นทางs overlap.",
     "gifts": [
-      "รางวัล: Music decor",
-      "รางวัล: Dessert",
-      "รางวัล: Favorite gift pending"
+      "Music decor",
+      "ของหวาน",
+      "Favorite ของขวัญ pending"
     ],
     "nameZh": "安妮",
-    "profile": "Annie เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "profile": "ตัวเด่น บน หน้าแรก TW Wiki และ connected ไปยัง ดนตรี-ร้านค้า เส้นทาง ใน this guide.",
+    "source": "Biligame Heartopia หน้าแรก TW Wiki"
   },
   {
     "id": "vania",
     "translationStatus": "translated",
-    "name": "Vania",
-    "group": "ฐานข้อมูล: featured",
-    "role": "ไกด์: Featured town character",
-    "location": "แผนที่: Heartopia town route",
-    "schedule": "ตรวจตามเวลาในเกมและรอบร้านค้า",
+    "name": "วาเนีย",
+    "group": "ตัวละครเด่น",
+    "role": "ตัวเด่น town ตัวละคร",
+    "location": "Heartopia town เส้นทาง",
+    "schedule": "บ้านpage feature ตัวละคร; confirm live location ใน game ก่อน routing ของขวัญ.",
     "gifts": [
-      "รางวัล: Favorite gift pending",
-      "รางวัล: Liked gift pending",
-      "รางวัล: Talk route"
+      "Favorite ของขวัญ pending",
+      "Liked ของขวัญ pending",
+      "Talk เส้นทาง"
     ],
     "nameZh": "萬尼亞",
-    "profile": "Vania เป็นบันทึกภาษาไทยสำหรับเส้นทาง การสะสม และการตรวจสอบอย่างรวดเร็ว",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "profile": "ตัวเด่น บน หน้าแรก TW Wiki ตัวละคร strip; detailed เส้นทาง data is still pending.",
+    "source": "Biligame Heartopia หน้าแรก TW Wiki"
   }
 ]

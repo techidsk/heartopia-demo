@@ -2,221 +2,221 @@
   {
     "id": "mixed-jam",
     "translationStatus": "translated",
-    "name": "Mixed Jam",
-    "group": "ฐานข้อมูล: fruit",
+    "name": "แยมรวม",
+    "group": "ผลไม้",
     "ingredients": [
-      "รายการ: 4x Any Fruit"
+      "4x ผลไม้ใดก็ได้"
     ],
-    "route": "ใช้ Mixed Jam เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Mixed Jam เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ผลไม้",
+    "use": "ใช้ทดสอบมูลค่าช่วงเริ่มต้น",
+    "source": "ลูปผลไม้"
   },
   {
     "id": "apple-jam",
     "translationStatus": "translated",
-    "name": "Apple Jam",
-    "group": "ฐานข้อมูล: fruit",
+    "name": "แยมแอปเปิล",
+    "group": "ผลไม้",
     "ingredients": [
-      "รายการ: 4x Apple"
+      "4x แอปเปิล"
     ],
-    "route": "ใช้ Apple Jam เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Apple Jam เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ผลไม้",
+    "use": "ใช้ระบายผลผลิตจากสวนผลไม้แบบง่าย",
+    "source": "เส้นทางสวนผลไม้"
   },
   {
     "id": "blueberry-jam",
     "translationStatus": "translated",
-    "name": "Blueberry Jam",
-    "group": "ฐานข้อมูล: fruit",
+    "name": "แยมบลูเบอร์รี",
+    "group": "ผลไม้",
     "ingredients": [
-      "รายการ: 4x Blueberry"
+      "4x บลูเบอร์รี"
     ],
-    "route": "ใช้ Blueberry Jam เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Blueberry Jam เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ผลไม้",
+    "use": "ใช้ระบายผลผลิตจากลูปผลไม้",
+    "source": "เส้นทางผลไม้"
   },
   {
     "id": "grape-jam",
     "translationStatus": "translated",
-    "name": "Grape Jam",
-    "group": "ฐานข้อมูล: fruit",
+    "name": "แยมองุ่น",
+    "group": "ผลไม้",
     "ingredients": [
-      "รายการ: 4x Grape"
+      "4x องุ่น"
     ],
-    "route": "ใช้ Grape Jam เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Grape Jam เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ผลไม้",
+    "use": "เส้นทางเมล็ดช่วงหลัง",
+    "source": "เส้นทางพืชผล Lv 7"
   },
   {
     "id": "mandarin-jam",
     "translationStatus": "translated",
-    "name": "Mandarin Jam",
-    "group": "ฐานข้อมูล: fruit",
+    "name": "แยมส้มแมนดาริน",
+    "group": "ผลไม้",
     "ingredients": [
-      "รายการ: 4x Mandarin"
+      "4x ส้มแมนดาริน"
     ],
-    "route": "ใช้ Mandarin Jam เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Mandarin Jam เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ผลไม้",
+    "use": "ใช้ระบายผลไม้จากรางวัลโค้ด",
+    "source": "เส้นทางผลไม้จากรางวัล"
   },
   {
     "id": "pineapple-jam",
     "translationStatus": "translated",
-    "name": "Pineapple Jam",
-    "group": "ฐานข้อมูล: crop-fruit",
+    "name": "แยมสับปะรด",
+    "group": "พืชผล-ผลไม้",
     "ingredients": [
-      "รายการ: 4x Pineapple"
+      "4x สับปะรด"
     ],
-    "route": "ใช้ Pineapple Jam เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Pineapple Jam เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "พืชผล/ผลไม้",
+    "use": "ใช้ทดสอบพืชผลรอบเร็ว",
+    "source": "เส้นทางพืชผลแบบเล่นต่อเนื่อง"
   },
   {
     "id": "strawberry-jam",
     "translationStatus": "translated",
-    "name": "Strawberry Jam",
-    "group": "ฐานข้อมูล: crop-fruit",
+    "name": "แยมสตรอว์เบอร์รี",
+    "group": "พืชผล-ผลไม้",
     "ingredients": [
-      "รายการ: 4x Strawberry"
+      "4x สตรอว์เบอร์รี"
     ],
-    "route": "ใช้ Strawberry Jam เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Strawberry Jam เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "พืชผล/ผลไม้",
+    "use": "เส้นทางปลดล็อกช่วงกลาง",
+    "source": "เส้นทางพืชผล Lv 6"
   },
   {
     "id": "house-salad",
     "translationStatus": "translated",
-    "name": "House Salad",
-    "group": "ฐานข้อมูล: crop",
+    "name": "สลัดผัก",
+    "group": "พืชผล",
     "ingredients": [
-      "รายการ: 2x Any Vegetable"
+      "2x ผักใดก็ได้"
     ],
-    "route": "ใช้ House Salad เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "House Salad เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "พืชผล",
+    "use": "ใช้ระบายผักส่วนเกิน",
+    "source": "ผัก เส้นทาง"
   },
   {
     "id": "fish-and-chips",
     "translationStatus": "translated",
-    "name": "Fish and Chips",
-    "group": "ฐานข้อมูล: fish-crop",
+    "name": "ปลาและมันฝรั่งทอด",
+    "group": "ปลา-พืชผล",
     "ingredients": [
-      "รายการ: 2x Any Fish",
-      "รายการ: 2x Potato"
+      "2x ปลาใดก็ได้",
+      "2x มันฝรั่ง"
     ],
-    "route": "ใช้ Fish and Chips เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Fish and Chips เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ปลา/พืชผล",
+    "use": "เส้นทางผสมที่คุ้มค่า",
+    "source": "เส้นทางปลาและมันฝรั่ง"
   },
   {
     "id": "grilled-mushrooms",
     "translationStatus": "translated",
-    "name": "Grilled Mushrooms",
-    "group": "ฐานข้อมูล: forage",
+    "name": "เห็ดย่าง",
+    "group": "ของเก็บป่า",
     "ingredients": [
-      "รายการ: 4x Any Mushroom"
+      "4x เห็ดชนิดใดก็ได้"
     ],
-    "route": "ใช้ Grilled Mushrooms เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Grilled Mushrooms เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ของเก็บป่า",
+    "use": "ใช้ระบายของที่เก็บจากป่า",
+    "source": "เส้นทางเห็ด"
   },
   {
     "id": "tomato-plate",
     "translationStatus": "translated",
-    "name": "Tomato Plate",
-    "group": "ฐานข้อมูล: crop",
+    "name": "จานมะเขือเทศ",
+    "group": "พืชผล",
     "ingredients": [
-      "รายการ: Tomato",
-      "รายการ: Vegetable input"
+      "มะเขือเทศ",
+      "วัตถุดิบผัก"
     ],
-    "route": "ใช้ Tomato Plate เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Tomato Plate เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "พืชผล",
+    "use": "ใช้ทดสอบรอบเล่นต่อเนื่อง",
+    "source": "เส้นทางมะเขือเทศแบบเล่นต่อเนื่อง"
   },
   {
     "id": "corn-snack",
     "translationStatus": "translated",
-    "name": "Corn Snack",
-    "group": "ฐานข้อมูล: crop",
+    "name": "ของว่างข้าวโพด",
+    "group": "พืชผล",
     "ingredients": [
-      "รายการ: Corn input"
+      "วัตถุดิบข้าวโพด"
     ],
-    "route": "ใช้ Corn Snack เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Corn Snack เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "พืชผล",
+    "use": "ใช้เมื่อวัตถุดิบซ้อนกับอาหารสัตว์",
+    "source": "ข้าวโพด และ สัตว์ เส้นทาง"
   },
   {
     "id": "carrot-dish",
     "translationStatus": "translated",
-    "name": "Carrot Dish",
-    "group": "ฐานข้อมูล: crop",
+    "name": "จานแครอต",
+    "group": "พืชผล",
     "ingredients": [
-      "รายการ: Carrot input"
+      "วัตถุดิบแครอต"
     ],
-    "route": "ใช้ Carrot Dish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Carrot Dish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "พืชผล",
+    "use": "เส้นทางรอบสองชั่วโมง",
+    "source": "เส้นทางพืชผลแบบสมดุล"
   },
   {
     "id": "seafood-plate",
     "translationStatus": "translated",
-    "name": "Seafood Plate",
-    "group": "ฐานข้อมูล: fish",
+    "name": "จานอาหารทะเล",
+    "group": "ปลา",
     "ingredients": [
-      "รายการ: Ocean fish input"
+      "วัตถุดิบปลาทะเล"
     ],
-    "route": "ใช้ Seafood Plate เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Seafood Plate เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ปลา",
+    "use": "ใช้หลังลูปทะเล",
+    "source": "เส้นทางทะเล"
   },
   {
     "id": "mountain-soup",
     "translationStatus": "translated",
-    "name": "Mountain Soup",
-    "group": "ฐานข้อมูล: forage-crop",
+    "name": "ซุปภูเขา",
+    "group": "ของเก็บป่า-พืชผล",
     "ingredients": [
-      "รายการ: Mushroom",
-      "รายการ: Vegetable"
+      "เห็ด",
+      "ผัก"
     ],
-    "route": "ใช้ Mountain Soup เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Mountain Soup เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ของเก็บป่า/พืชผล",
+    "use": "ใช้ระบายของจากลูปภูเขาออนเซ็น",
+    "source": "เส้นทางออนเซ็นและพืชผล"
   },
   {
     "id": "simple-breakfast",
     "translationStatus": "translated",
-    "name": "Simple Breakfast",
-    "group": "ฐานข้อมูล: farm",
+    "name": "อาหารเช้าแบบง่าย",
+    "group": "ฟาร์ม",
     "ingredients": [
-      "รายการ: Egg",
-      "รายการ: Crop input"
+      "ไข่",
+      "วัตถุดิบพืชผล"
     ],
-    "route": "ใช้ Simple Breakfast เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Simple Breakfast เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "ฟาร์ม",
+    "use": "ตัวเลือกสำหรับเส้นทางฟาร์ม",
+    "source": "ฟาร์ม สัตว์ เส้นทาง"
   },
   {
     "id": "bizarre-food",
     "translationStatus": "translated",
-    "name": "Bizarre Food",
-    "group": "ฐานข้อมูล: qte",
+    "name": "อาหารประหลาด",
+    "group": "QTE",
     "ingredients": [
-      "รายการ: Failed timing"
+      "กดจังหวะพลาด"
     ],
-    "route": "ใช้ Bizarre Food เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Bizarre Food เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "QTE",
+    "use": "ควรเลี่ยงเมื่อใช้วัตถุดิบหายาก",
+    "source": "กดจังหวะพลาด"
   },
   {
     "id": "event-dish",
     "translationStatus": "translated",
-    "name": "Event Dish",
-    "group": "ฐานข้อมูล: event",
+    "name": "จานอีเวนต์",
+    "group": "อีเวนต์",
     "ingredients": [
-      "รายการ: Limited material"
+      "วัสดุจำกัดเวลา"
     ],
-    "route": "ใช้ Event Dish เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
-    "use": "Event Dish เป็นข้อมูลอ้างอิงภาษาไทยสำหรับเส้นทาง การวางแผน และการสะสม",
-    "source": "ข้อมูล Heartopia Hub ภาษาไทยจากชุดข้อมูลอังกฤษที่ตรวจแก้แล้ว"
+    "route": "อีเวนต์",
+    "use": "ตรวจมูลค่าก่อนใช้งาน",
+    "source": "เส้นทางอีเวนต์จำกัดเวลา"
   }
 ]

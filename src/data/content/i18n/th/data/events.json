@@ -2,82 +2,82 @@
   {
     "id": "modular-streets",
     "translationStatus": "translated",
-    "name": "Modular Streets Festival",
-    "window": "ตรวจแล้ว: เส้นทาง",
-    "route": "ใช้ Modular Streets Festival เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "name": "Modular Sไม้ยืนต้นts Festival",
+    "window": "พฤษภาคม 9 - มิถุนายน 20, 2026",
+    "route": "Brick ปลา, Brick แมลง, Brick birds, และ Collector's Challenge tasks.",
     "rewards": [
-      "รางวัล: Brick furniture lane",
-      "รางวัล: Festival collectibles",
-      "รางวัล: Collection progress"
+      "Brick เฟอร์นิเจอร์ lane",
+      "Festival collectibles",
+      "การสะสม progress"
     ],
     "prep": [
-      "เส้นทาง: Redeem active codes",
-      "เส้นทาง: Free storage space",
-      "เส้นทาง: Open fish tracker",
-      "เส้นทาง: Check map routes"
+      "Redeem เล่นต่อเนื่อง codes",
+      "Free storage space",
+      "เปิด ปลา ตัวติดตาม",
+      "ตรวจ แผนที่ เส้นทางs"
     ]
   },
   {
     "id": "graffiti-channel",
     "translationStatus": "translated",
     "name": "Graffiti Channel Exhibition",
-    "window": "ตรวจแล้ว: เส้นทาง",
-    "route": "ใช้ Graffiti Channel Exhibition เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "พฤษภาคม 9 - มิถุนายน 20, 2026",
+    "route": "Fashion และ collectible เส้นทาง tied ไปยัง festival รางวัล ลูป.",
     "rewards": [
-      "รางวัล: Fashion display route",
-      "รางวัล: Collector tasks",
-      "รางวัล: Event styling notes"
+      "Fashion display เส้นทาง",
+      "Collector tasks",
+      "อีเวนต์ styling หมายเหตุ"
     ],
     "prep": [
-      "เส้นทาง: Check clothing store",
-      "เส้นทาง: Review event checklist",
-      "เส้นทาง: Leave room for display items"
+      "ตรวจ clothing ร้านค้า",
+      "Review อีเวนต์ เช็กลิสต์",
+      "Leave room สำหรับ display items"
     ]
   },
   {
     "id": "sea-fishing",
     "translationStatus": "translated",
-    "name": "Sea Fishing",
-    "window": "ตรวจแล้ว: เส้นทาง",
-    "route": "ใช้ Sea Fishing เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "name": "อีเวนต์ตกปลาทะเล",
+    "window": "ปลดล็อก เส้นทาง",
+    "route": "ฟิชชิงวิลเลจ พร้อม บิล; useful สำหรับ อีเวนต์ tasks และ หายาก ปลา routing.",
     "rewards": [
-      "รางวัล: Sea fish progress",
-      "รางวัล: Fishing event rewards",
-      "รางวัล: Recipe inputs"
+      "Sea ปลา progress",
+      "ตกปลา อีเวนต์ รางวัล",
+      "สูตรอาหาร inputs"
     ],
     "prep": [
-      "เส้นทาง: Open fish tracker",
-      "เส้นทาง: Check inventory space",
-      "เส้นทาง: Bring repair kit if needed"
+      "เปิด ปลา ตัวติดตาม",
+      "ตรวจ ช่องเก็บของ space",
+      "Bring repair kit if needed"
     ]
   },
   {
     "id": "next-banner-watch",
     "translationStatus": "translated",
     "name": "Next Banner Watch",
-    "window": "ตรวจแล้ว: เส้นทาง",
-    "route": "ใช้ Next Banner Watch เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "window": "TBA",
+    "route": "Placeholder watch item สำหรับ next ทางการ banner หรือ festival handoff.",
     "rewards": [
-      "รางวัล: Unknown until announcement"
+      "ยังไม่ทราบ until announcement"
     ],
     "prep": [
-      "เส้นทาง: Keep codes page checked",
-      "เส้นทาง: Save flexible materials",
-      "เส้นทาง: Do not spend all event stock"
+      "Keep codes page ตรวจแล้ว",
+      "บันทึก flexible วัสดุ",
+      "Do not spend all อีเวนต์ stock"
     ]
   },
   {
     "id": "closed-code-window",
     "translationStatus": "translated",
-    "name": "Closed Code Window Archive",
-    "window": "ตรวจแล้ว: เส้นทาง",
-    "route": "ใช้ Closed Code Window Archive เพื่อวางแผนเส้นทางและเทียบแผนที่ ร้านค้า เลเวล และรอบวัน",
+    "name": "Closed โค้ด ช่วงเวลา คลังเก่า",
+    "window": "หมดอายุ หรือ unverified",
+    "route": "Archived รางวัล ช่วงเวลา should stay separate จาก ปัจจุบัน tasks.",
     "rewards": [
-      "รางวัล: Historical reward notes"
+      "Historical รางวัล หมายเหตุ"
     ],
     "prep": [
-      "เส้นทาง: Move expired codes out of current route",
-      "เส้นทาง: Keep source check date visible"
+      "Move หมดอายุ codes out ของ ปัจจุบัน เส้นทาง",
+      "Keep แหล่งที่มา check date visible"
     ]
   }
 ]
