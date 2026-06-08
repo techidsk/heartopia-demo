@@ -23,7 +23,7 @@ const title = `${item.name} - Heartopia ${labels.gardening} ${labels.database}`;
 const description = `Heartopia ${labels.gardening}: ${item.name}. ${item.nameZh}; ${item.hobbyLevel}; ${item.season}; ${item.route}.`;
 ---
 
-<BaseLayout title={title} description={description} locale={locale} canonicalPath={detailPath} currentPath="/gardening/" ogImage={item.image}>
+<BaseLayout title={title} description={description} locale={locale} canonicalPath={detailPath} currentPath={detailPath} ogImage={item.image}>
   <section class="article-hero">
     <div class="wiki-shell">
       <Breadcrumbs

@@ -23,7 +23,7 @@ const related = insects.filter((candidate) => candidate.id !== item.id && candid
   title={`${item.name} - Heartopia Insect Location, Weather & Time`}
   description={`${item.name} Heartopia insect detail with ${item.time} time window, ${item.weather} weather, ${item.route} route, rarity ${item.rarity}, hobby level ${item.hobbyLevel}, icon, and TW Wiki source link.`}
   canonicalPath={`/insects/${item.id}/`}
-  currentPath="/insects/"
+  currentPath={`/insects/${item.id}/`}
   ogImage={item.image}
 >
   <section class="article-hero">

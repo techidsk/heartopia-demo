@@ -29,6 +29,8 @@ export const localizedDataIndexPaths = new Set([
   "/tools/"
 ]);
 
+const localizedFallbackPaths = new Set(["/tools/profit-calculator/"]);
+
 const normalizeRoutePath = (path: string) => {
   const [pathname] = path.split(/[?#]/);
   const normalized = pathname.startsWith("/") ? pathname : `/${pathname}`;
@@ -40,6 +42,7 @@ export async function canRenderLocalizedRoute(path: string, locale: Locale = def
   if (locale === defaultLocale || normalized === "/") return true;
   if (await isStaticPageTranslated(normalized, locale)) return true;
   if (localizedDataIndexPaths.has(normalized)) return true;
+  if (localizedFallbackPaths.has(normalized)) return true;
 
   const dataMatches: Array<[RegExp, Parameters<typeof getTranslatedDataIds>[1]]> = [
     [/^\/fish\/([^/]+)\/$/, "fish"],

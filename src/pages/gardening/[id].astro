@@ -23,7 +23,7 @@ const related = gardening.filter((candidate) => candidate.id !== item.id && cand
   title={`${item.name} - Heartopia Gardening Handbook`}
   description={`${item.name} Heartopia gardening detail with source name ${item.nameZh}, hobby level ${item.hobbyLevel}, season ${item.season}, route notes, icon, and TW Wiki source link.`}
   canonicalPath={`/gardening/${item.id}/`}
-  currentPath="/gardening/"
+  currentPath={`/gardening/${item.id}/`}
   ogImage={item.image}
 >
   <section class="article-hero">

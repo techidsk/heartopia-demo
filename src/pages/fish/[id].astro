@@ -23,7 +23,7 @@ const related = fish.filter((candidate) => candidate.id !== item.id && candidate
   title={`${item.name} - Heartopia Fish Location, Route & Conditions`}
   description={`${item.name} Heartopia fish detail with ${item.spot} location, ${item.condition} condition, ${item.window} window, ${item.level} gate, and route handoffs.`}
   canonicalPath={`/fish/${item.id}/`}
-  currentPath="/fish/"
+  currentPath={`/fish/${item.id}/`}
   ogImage="/assets/asset-fishing.jpg"
 >
   <section class="article-hero">

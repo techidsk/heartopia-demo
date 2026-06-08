@@ -22,7 +22,7 @@ const { npc } = Astro.props;
   title={`${npc.name} - Heartopia Character, Role & Route Notes`}
   description={`${npc.name} Heartopia character detail with role ${npc.role}, location ${npc.location}, gift route notes, map handoff, and ${npc.nameZh ? "TW Wiki portrait source" : "structured NPC route data"}.`}
   canonicalPath={`/characters/${npc.id}/`}
-  currentPath="/characters/"
+  currentPath={`/characters/${npc.id}/`}
   ogImage={npc.image || "/assets/asset-map.jpg"}
 >
   <section class="article-hero">

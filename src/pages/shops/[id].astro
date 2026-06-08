@@ -23,7 +23,7 @@ const related = shops.filter((candidate) => candidate.id !== shop.id && candidat
   title={`${shop.name} - Heartopia Shop Owner, Inventory & Map Route`}
   description={`${shop.name} Heartopia shop detail with owner ${shop.owner}, ${shop.region} route, unlock notes, key inventory, map marker, and related guide handoffs.`}
   canonicalPath={`/shops/${shop.id}/`}
-  currentPath="/shops/"
+  currentPath={`/shops/${shop.id}/`}
   ogImage="/assets/asset-map.jpg"
 >
   <section class="article-hero">

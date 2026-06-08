@@ -29,7 +29,7 @@ const relatedCrops = crops.filter((candidate) => candidate.id !== crop.id && can
   title={`${crop.name} - Heartopia Crop Growth, Profit & Recipe Uses`}
   description={`${crop.name} Heartopia crop detail with ${crop.growth} growth, ${crop.unlock} unlock, seed cost, sell value, recipe uses, and route planning links.`}
   canonicalPath={`/crops/${crop.id}/`}
-  currentPath="/crops/"
+  currentPath={`/crops/${crop.id}/`}
   ogImage={crop.image || "/assets/asset-gardening.jpg"}
 >
   <section class="article-hero">
