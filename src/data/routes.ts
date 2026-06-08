@@ -290,7 +290,11 @@ export async function getIndexableRouteEntries() {
     )
   ).flat();
 
-  return [...defaultEntries, ...translatedStaticEntries, ...translatedDataEntries].filter(
-    (entry) => !entry.path.includes("?") && !entry.path.includes("#")
-  );
+  const entriesByPath = new Map<string, RouteEntry>();
+  for (const entry of [...defaultEntries, ...translatedStaticEntries, ...translatedDataEntries]) {
+    if (entry.path.includes("?") || entry.path.includes("#")) continue;
+    if (!entriesByPath.has(entry.path)) entriesByPath.set(entry.path, entry);
+  }
+
+  return [...entriesByPath.values()];
 }
