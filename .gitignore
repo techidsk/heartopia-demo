@@ -8,3 +8,4 @@ qa/*.png
 qa/**/*.png
 qa/competitor-metrics.json
 npm-debug.log*
+*.log
