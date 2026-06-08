@@ -4,6 +4,7 @@ import MetricCards from "@components/MetricCards.astro";
 import { getHeartopiaData, type Gardening } from "@data/heartopia";
 import { getSiteConfig } from "@data/site";
 import { localizePath, type Locale } from "@i18n/config";
+import { getDataUiMessages } from "@i18n/dataUi";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
 interface Props {
@@ -14,6 +15,7 @@ interface Props {
 const { item, locale } = Astro.props;
 const siteConfig = getSiteConfig(locale);
 const labels = siteConfig.linkLabels;
+const ui = getDataUiMessages(locale);
 const { gardening } = await getHeartopiaData(locale);
 const related = gardening.filter((candidate) => candidate.id !== item.id && candidate.category === item.category).slice(0, 4);
 const detailPath = `/gardening/${item.id}/`;
@@ -32,13 +34,13 @@ const description = `Heartopia ${labels.gardening}: ${item.name}. ${item.nameZh}
         ]}
       />
       <h1>{item.name}</h1>
-      <p>{item.nameZh} 来自园艺手册。先确认来源名、图标和等级，再结合实际作物收益做规划。</p>
+      <p>{ui.gardening.heroSuffix(item.nameZh)}</p>
       <MetricCards
         metrics={[
-          { value: item.hobbyLevel, label: "爱好等级" },
-          { value: item.season, label: "季节" },
-          { value: item.category, label: "类型" },
-          { value: `#${item.number}`, label: "Wiki 编号" }
+          { value: item.hobbyLevel, label: ui.common.hobbyLevel },
+          { value: item.season, label: ui.common.season },
+          { value: item.category, label: ui.common.type },
+          { value: `#${item.number}`, label: ui.common.wikiNumber }
         ]}
       />
     </div>
@@ -48,27 +50,27 @@ const description = `Heartopia ${labels.gardening}: ${item.name}. ${item.nameZh}
     <div class="wiki-shell database-grid">
       <article class="wiki-card">
         <div class="collection-detail-head">
-          <img src={item.image} alt={`${item.name} 园艺图标`} loading="eager" />
+          <img src={item.image} alt={`${item.name} ${ui.gardening.iconAlt}`} loading="eager" />
           <div>
             <h2 class="wiki-title">{item.name}</h2>
             <p>{item.nameZh}</p>
           </div>
         </div>
         <div class="map-meta">
-          <span><strong>时间：</strong> {item.time}</span>
-          <span><strong>天气：</strong> {item.weather}</span>
-          <span><strong>路线：</strong> {item.route}</span>
-          <span><strong>来源：</strong> {item.source}</span>
+          <span><strong>{ui.gardening.time}:</strong> {item.time}</span>
+          <span><strong>{ui.gardening.weather}:</strong> {item.weather}</span>
+          <span><strong>{ui.common.route}:</strong> {item.route}</span>
+          <span><strong>{ui.common.source}:</strong> {item.source}</span>
         </div>
         <p>{item.lore}</p>
         <div class="entity-action-grid">
-          <a class="pastel-button" href={localizePath("/gardening/", locale)}>返回园艺手册</a>
-          <a class="pastel-button alt" href={item.wikiUrl} rel="nofollow noopener" target="_blank">打开 Wiki 来源</a>
+          <a class="pastel-button" href={localizePath("/gardening/", locale)}>{labels.gardening}</a>
+          <a class="pastel-button alt" href={item.wikiUrl} rel="nofollow noopener" target="_blank">{ui.actions.openWikiSource}</a>
         </div>
       </article>
       <aside class="wiki-card">
-        <h2 class="wiki-title">资料状态</h2>
-        <p>这条园艺资料已完成简体中文整理。收益、成长和商店数值会在对应作物数据中继续维护。</p>
+        <h2 class="wiki-title">{ui.common.dataStatus}</h2>
+        <p>{ui.gardening.status}</p>
       </aside>
     </div>
   </section>
@@ -77,15 +79,15 @@ const description = `Heartopia ${labels.gardening}: ${item.name}. ${item.nameZh}
     <section class="wiki-section tint-mint">
       <div class="wiki-shell">
         <div class="center-head">
-          <h2>相关园艺条目</h2>
-          <p>同一手册分组中的其他条目。</p>
+          <h2>{ui.gardening.relatedTitle}</h2>
+          <p>{ui.gardening.relatedText}</p>
         </div>
         <div class="route-grid">
           {related.map((candidate) => (
             <a class="route-card" href={localizePath(`/gardening/${candidate.id}/`, locale)}>
-              <img class="table-icon" src={candidate.image} alt={`${candidate.name} 图标`} loading="lazy" />
+              <img class="table-icon" src={candidate.image} alt={`${candidate.name} ${ui.gardening.iconAlt}`} loading="lazy" />
               <h3>{candidate.name}</h3>
-              <p>{candidate.nameZh} | {candidate.hobbyLevel} 级</p>
+              <p>{candidate.nameZh} | {candidate.hobbyLevel} {ui.gardening.levelSuffix}</p>
             </a>
           ))}
         </div>

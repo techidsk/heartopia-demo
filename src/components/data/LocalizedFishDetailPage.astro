@@ -4,6 +4,7 @@ import MetricCards from "@components/MetricCards.astro";
 import { getHeartopiaData, type Fish } from "@data/heartopia";
 import { getSiteConfig } from "@data/site";
 import { localizePath, type Locale } from "@i18n/config";
+import { getDataUiMessages } from "@i18n/dataUi";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
 interface Props {
@@ -14,24 +15,11 @@ interface Props {
 const { item, locale } = Astro.props;
 const siteConfig = getSiteConfig(locale);
 const labels = siteConfig.linkLabels;
+const ui = getDataUiMessages(locale);
 const { fish } = await getHeartopiaData(locale);
 const related = fish.filter((candidate) => candidate.id !== item.id && candidate.type === item.type).slice(0, 4);
-const waterRouteLabels: Record<string, string> = {
-  lake: "湖泊",
-  river: "河流",
-  ocean: "海洋",
-  hidden: "隐藏水域",
-  event: "活动"
-};
-const rarityLabels: Record<string, string> = {
-  common: "常见",
-  uncommon: "少见",
-  rare: "稀有",
-  epic: "史诗",
-  legendary: "传说"
-};
-const waterRoute = waterRouteLabels[item.type] || item.type;
-const rarity = rarityLabels[item.rarity] || item.rarity;
+const waterRoute = ui.waterRoutes[item.type] || item.type;
+const rarity = ui.rarity[item.rarity] || item.rarity;
 const detailPath = `/fish/${item.id}/`;
 const title = `${item.name} - Heartopia ${labels.fish} ${labels.map} ${labels.guides}`;
 const description = `Heartopia ${labels.fish}: ${item.name}. ${item.spot}; ${item.condition}; ${item.window}; ${item.level}.`;
@@ -55,13 +43,13 @@ const description = `Heartopia ${labels.fish}: ${item.name}. ${item.spot}; ${ite
         ]}
       />
       <h1>{item.name}</h1>
-      <p>{item.use}。先确认水域、天气或时段，再把目标加入钓鱼追踪。</p>
+      <p>{item.use}. {ui.fish.heroSuffix}</p>
       <MetricCards
         metrics={[
-          { value: waterRoute, label: "水域路线" },
-          { value: rarity, label: "稀有度" },
-          { value: item.level, label: "等级门槛" },
-          { value: item.window, label: "时段" }
+          { value: waterRoute, label: ui.common.waterRoute },
+          { value: rarity, label: ui.common.rarity },
+          { value: item.level, label: ui.common.levelGate },
+          { value: item.window, label: ui.common.window }
         ]}
       />
     </div>
@@ -70,22 +58,22 @@ const description = `Heartopia ${labels.fish}: ${item.name}. ${item.spot}; ${ite
   <section class="wiki-section">
     <div class="wiki-shell database-grid">
       <article class="wiki-card">
-        <h2 class="wiki-title">钓鱼路线</h2>
+        <h2 class="wiki-title">{ui.fish.routeTitle}</h2>
         <div class="map-meta">
-          <span><strong>位置：</strong> {item.spot}</span>
-          <span><strong>条件：</strong> {item.condition}</span>
-          <span><strong>时段：</strong> {item.window}</span>
-          <span><strong>用途：</strong> {item.use}</span>
+          <span><strong>{ui.common.location}:</strong> {item.spot}</span>
+          <span><strong>{ui.common.condition}:</strong> {item.condition}</span>
+          <span><strong>{ui.common.window}:</strong> {item.window}</span>
+          <span><strong>{ui.common.use}:</strong> {item.use}</span>
         </div>
         <div class="entity-action-grid">
-          <a class="pastel-button" href={localizePath(item.map, locale)}>打开地图路线</a>
-          <a class="pastel-button alt" href={localizePath("/tools/fish-tracker/", locale)}>追踪鱼类</a>
-          <a class="pastel-button alt" href={localizePath("/recipes/", locale)}>查看料理用途</a>
+          <a class="pastel-button" href={localizePath(item.map, locale)}>{ui.actions.openMapRoute}</a>
+          <a class="pastel-button alt" href={localizePath("/tools/fish-tracker/", locale)}>{ui.actions.trackFish}</a>
+          <a class="pastel-button alt" href={localizePath("/recipes/", locale)}>{ui.actions.cookingUses}</a>
         </div>
       </article>
       <aside class="wiki-card">
-        <h2 class="wiki-title">资料状态</h2>
-        <p>这条鱼类资料已完成简体中文整理。水域、条件和路线备注会继续跟随公开资料更新。</p>
+        <h2 class="wiki-title">{ui.common.dataStatus}</h2>
+        <p>{ui.fish.status}</p>
       </aside>
     </div>
   </section>
@@ -94,8 +82,8 @@ const description = `Heartopia ${labels.fish}: ${item.name}. ${item.spot}; ${ite
     <section class="wiki-section tint-mint">
       <div class="wiki-shell">
         <div class="center-head">
-          <h2>同水域目标</h2>
-          <p>来自同一水域路线的相关鱼类。</p>
+          <h2>{ui.fish.relatedTitle}</h2>
+          <p>{ui.fish.relatedText}</p>
         </div>
         <div class="route-grid">
           {related.map((candidate) => (

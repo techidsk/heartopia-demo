@@ -2,6 +2,7 @@
 import { getHeartopiaData } from "@data/heartopia";
 import { getSiteConfig } from "@data/site";
 import { getLocaleMeta, localizePath, type Locale } from "@i18n/config";
+import { getDataUiMessages } from "@i18n/dataUi";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
 interface Props {
@@ -13,114 +14,8 @@ const { locale, path } = Astro.props;
 const siteConfig = getSiteConfig(locale);
 const localeMeta = getLocaleMeta(locale);
 const labels = siteConfig.linkLabels;
+const ui = getDataUiMessages(locale);
 const data = await getHeartopiaData(locale);
-
-const pageCopy: Record<string, { title: string; description: string; eyebrow: string; heading: string; intro: string; currentPath: string }> = {
-  "/database/": {
-    title: "Heartopia 数据库 - 商店、作物、配方、鱼类、昆虫与宠物",
-    description: "搜索 Heartopia 的商店、作物、配方、鱼类、昆虫、园艺、角色、宠物、活动和工具数据。",
-    eyebrow: "本地化数据库",
-    heading: "Heartopia 数据库",
-    intro: "这里汇总已经接入简体中文 overlay 的结构化数据。列表页、详情页、搜索索引和站点地图会共用同一份数据。",
-    currentPath: "/database/"
-  },
-  "/fish/": {
-    title: "Heartopia 鱼类数据库 - 位置、天气、等级与用途",
-    description: "查看 Heartopia 鱼类的中文名称、位置、时间窗口、天气条件、等级门槛和用途。",
-    eyebrow: "鱼类路线",
-    heading: "鱼类数据库",
-    intro: "按水域、天气和等级门槛筛选钓鱼目标，再进入详情页查看路线备注。",
-    currentPath: "/fish/"
-  },
-  "/shops/": {
-    title: "Heartopia 商店列表 - 店主、库存、解锁与地图路线",
-    description: "查看 Heartopia 商店的中文名称、店主、库存、解锁说明和路线备注。",
-    eyebrow: "商店路线",
-    heading: "商店列表",
-    intro: "把商店当作路线节点：确认店主、库存、解锁条件，再跳到地图、NPC 或工具页面。",
-    currentPath: "/shops/"
-  },
-  "/crops/": {
-    title: "Heartopia 作物数据库 - 生长时间、解锁、用途与收益路线",
-    description: "查看 Heartopia 作物的中文名称、生长时间、解锁等级、用途和路线说明。",
-    eyebrow: "作物规划",
-    heading: "作物数据库",
-    intro: "按主动、均衡、离线和待确认路线查看作物，用于收益计算、料理和动物食物规划。",
-    currentPath: "/crops/"
-  },
-  "/gardening/": {
-    title: "Heartopia 园艺手册 - 作物、花卉、季节、天气与 Wiki 来源",
-    description: "查看 Heartopia 园艺手册条目的中文名称、季节、时间、天气、路线和来源。",
-    eyebrow: "园艺手册",
-    heading: "园艺手册",
-    intro: "这里保留 Wiki 来源名称、图标和出现条件，适合做收藏核对和路线记录。",
-    currentPath: "/gardening/"
-  },
-  "/insects/": {
-    title: "Heartopia 昆虫数据库 - 时间、天气、路线与稀有度",
-    description: "查看 Heartopia 昆虫的中文名称、季节、时间、天气、路线、稀有度和来源。",
-    eyebrow: "昆虫收集",
-    heading: "昆虫数据库",
-    intro: "按路线、天气和时间查看昆虫目标，并从详情页继续查看同路线条目。",
-    currentPath: "/insects/"
-  },
-  "/recipes/": {
-    title: "Heartopia 食谱数据库 - 食材、路线、用途与风险",
-    description: "查看 Heartopia 食谱的中文名称、食材、路线、用途、来源和风险。",
-    eyebrow: "料理路线",
-    heading: "食谱数据库",
-    intro: "把食谱作为作物、鱼类、采集和活动材料的消耗点，避免稀有材料浪费。",
-    currentPath: "/recipes/"
-  },
-  "/characters/": {
-    title: "Heartopia 角色 - NPC、礼物、位置与商店路线",
-    description: "查看 Heartopia 角色的中文名称、身份、位置、礼物、日程和路线链接。",
-    eyebrow: "角色路线",
-    heading: "角色",
-    intro: "把 NPC 作为商店、任务、送礼和地图路线的锚点来规划。",
-    currentPath: "/characters/"
-  },
-  "/codes/": {
-    title: "Heartopia 兑换码 - 可用候选、奖励与过期归档",
-    description: "查看 Heartopia 兑换码候选、奖励、奖励类型、明确期限和过期归档。",
-    eyebrow: "兑换码快照",
-    heading: "兑换码",
-    intro: "兑换码来自独立粉丝来源快照。先测试有明确期限的候选，再处理其他奖励码。",
-    currentPath: "/codes/"
-  },
-  "/events/": {
-    title: "Heartopia 活动中心 - 当前窗口、奖励与准备清单",
-    description: "查看 Heartopia 活动的窗口、路线、奖励和准备事项。",
-    eyebrow: "活动路线",
-    heading: "活动中心",
-    intro: "把活动当作有期限的路线：先看窗口，再确认奖励和准备事项。",
-    currentPath: "/events/"
-  },
-  "/pets/": {
-    title: "Heartopia 宠物攻略 - 宠物、野生动物、农场动物与食物路线",
-    description: "查看 Heartopia 宠物和动物的类别、路线、食物、解锁条件和来源。",
-    eyebrow: "动物路线",
-    heading: "宠物与动物",
-    intro: "把宠物店、野生动物食槽、农场动物和任务伙伴分开处理，避免食物测试混在一起。",
-    currentPath: "/pets/"
-  },
-  "/hobbies/": {
-    title: "Heartopia 爱好中心 - 钓鱼、园艺、料理、观鸟、昆虫与宠物",
-    description: "查看 Heartopia 爱好路线、分组、摘要、工具和数据库入口。",
-    eyebrow: "爱好路线",
-    heading: "爱好中心",
-    intro: "把爱好当作可执行路线，直接跳到对应工具、地图或数据库。",
-    currentPath: "/hobbies/"
-  },
-  "/tools/": {
-    title: "Heartopia 工具中心 - 计算器、追踪器、查询器与计时器",
-    description: "查看 Heartopia 工具的中文名称、类别、用途、关联数据和状态。",
-    eyebrow: "工具系统",
-    heading: "工具中心",
-    intro: "根据当前任务选择计算器、追踪器、规划器、查询器、清单或计时器。",
-    currentPath: "/tools/"
-  }
-};
 
 const pageLabelByPath: Record<string, string> = {
   "/database/": labels.database,
@@ -137,15 +32,14 @@ const pageLabelByPath: Record<string, string> = {
   "/hobbies/": labels.hobbies,
   "/tools/": labels.tools
 };
-const baseCopy = pageCopy[path] || pageCopy["/database/"];
 const localizedHeading = pageLabelByPath[path] || labels.database;
 const copy = {
-  ...baseCopy,
   title: `Heartopia ${localizedHeading} - ${localeMeta.label}`,
-  description: `Heartopia ${localizedHeading}: ${labels.database}, ${labels.map}, ${labels.tools}, ${labels.guides}.`,
-  eyebrow: `${localizedHeading} ${labels.guides}`,
+  description: ui.index.description(localizedHeading, labels.database, labels.map, labels.tools, labels.guides),
+  eyebrow: ui.index.eyebrow(localizedHeading),
   heading: localizedHeading,
-  intro: `Heartopia ${localizedHeading}: ${labels.database}, ${labels.map}, ${labels.tools}, ${labels.guides}.`
+  intro: ui.index.intro(localizedHeading, labels.database, labels.map, labels.tools, labels.guides),
+  currentPath: path in pageLabelByPath ? path : "/database/"
 };
 const link = (href: string) => localizePath(href, locale);
 const cardLimit = path === "/database/" ? 12 : 999;
@@ -165,7 +59,7 @@ const summaryCards = [
   { value: data.events.length, label: labels.events }
 ];
 
-const riskLabel = (risk: string) => ({ low: "低", medium: "中", high: "高" })[risk] || risk;
+const riskLabel = (risk: string) => ui.risk[risk] || risk;
 ---
 
 <BaseLayout title={copy.title} description={copy.description} locale={locale} canonicalPath={path} currentPath={copy.currentPath}>
@@ -187,18 +81,18 @@ const riskLabel = (risk: string) => ({ low: "低", medium: "中", high: "高" })
     <section class="wiki-section">
       <div class="wiki-shell card-grid">
         {[
-          { href: "/fish/", title: "鱼类", text: `${data.fish.length} 条鱼类路线`, image: "/assets/asset-fishing.jpg" },
-          { href: "/shops/", title: "商店", text: `${data.shops.length} 个商店节点`, image: "/assets/asset-map.jpg" },
-          { href: "/crops/", title: "作物", text: `${data.crops.length} 个作物记录`, image: "/assets/asset-gardening.jpg" },
-          { href: "/gardening/", title: "园艺", text: `${data.gardening.length} 条 Wiki 手册记录`, image: "/assets/wiki/gardening/tomato.png" },
-          { href: "/insects/", title: "昆虫", text: `${data.insects.length} 条昆虫记录`, image: "/assets/wiki/insects/insect-001.png" },
-          { href: "/recipes/", title: "食谱", text: `${data.recipes.length} 条料理路线`, image: "/assets/asset-events.jpg" },
-          { href: "/characters/", title: "角色", text: `${data.npcs.length} 个角色`, image: "/assets/wiki/characters/blanc.png" },
-          { href: "/pets/", title: "宠物", text: `${data.pets.length} 条动物路线`, image: "/assets/asset-pets.jpg" },
-          { href: "/hobbies/", title: "爱好", text: `${data.hobbies.length} 条爱好路线`, image: "/assets/asset-events.jpg" },
-          { href: "/tools/", title: "工具", text: `${data.tools.length} 个工具入口`, image: "/assets/asset-gardening.jpg" },
-          { href: "/codes/", title: "兑换码", text: `${data.codes.activeCandidates.length} 个候选`, image: "/assets/asset-events.jpg" },
-          { href: "/events/", title: "活动", text: `${data.events.length} 个活动项`, image: "/assets/asset-events.jpg" }
+          { href: "/fish/", title: labels.fish, text: ui.index.fishRoutes(data.fish.length), image: "/assets/asset-fishing.jpg" },
+          { href: "/shops/", title: labels.shops, text: ui.index.shopNodes(data.shops.length), image: "/assets/asset-map.jpg" },
+          { href: "/crops/", title: labels.crops, text: ui.index.cropRecords(data.crops.length), image: "/assets/asset-gardening.jpg" },
+          { href: "/gardening/", title: labels.gardening, text: ui.index.gardeningRecords(data.gardening.length), image: "/assets/wiki/gardening/tomato.png" },
+          { href: "/insects/", title: labels.insects, text: ui.index.insectRecords(data.insects.length), image: "/assets/wiki/insects/insect-001.png" },
+          { href: "/recipes/", title: labels.recipes, text: ui.index.recipeRoutes(data.recipes.length), image: "/assets/asset-events.jpg" },
+          { href: "/characters/", title: labels.characters, text: ui.index.characters(data.npcs.length), image: "/assets/wiki/characters/blanc.png" },
+          { href: "/pets/", title: labels.pets, text: ui.index.petRoutes(data.pets.length), image: "/assets/asset-pets.jpg" },
+          { href: "/hobbies/", title: labels.hobbies, text: ui.index.hobbyRoutes(data.hobbies.length), image: "/assets/asset-events.jpg" },
+          { href: "/tools/", title: labels.tools, text: ui.index.toolEntries(data.tools.length), image: "/assets/asset-gardening.jpg" },
+          { href: "/codes/", title: labels.codes, text: ui.index.codeCandidates(data.codes.activeCandidates.length), image: "/assets/asset-events.jpg" },
+          { href: "/events/", title: labels.events, text: ui.index.eventItems(data.events.length), image: "/assets/asset-events.jpg" }
         ].slice(0, cardLimit).map((item) => (
           <a class="route-card" href={link(item.href)}>
             <img src={item.image} alt="" loading="lazy" />
@@ -224,7 +118,7 @@ const riskLabel = (risk: string) => ({ low: "低", medium: "中", high: "高" })
 
   {path === "/crops/" && (
     <section class="wiki-section"><div class="wiki-shell card-grid">
-      {data.crops.map((item) => <a class="route-card" href={link(`/crops/${item.id}/`)}><strong>{item.name}</strong><span>{item.group} · {item.growth} · {item.unlock}</span><span>种子 {item.seed} / 售价 {item.sell}</span><small>{item.use}</small></a>)}
+      {data.crops.map((item) => <a class="route-card" href={link(`/crops/${item.id}/`)}><strong>{item.name}</strong><span>{item.group} · {item.growth} · {item.unlock}</span><span>{ui.index.seedSell(item.seed, item.sell)}</span><small>{item.use}</small></a>)}
     </div></section>
   )}
 
@@ -236,13 +130,13 @@ const riskLabel = (risk: string) => ({ low: "低", medium: "中", high: "高" })
 
   {path === "/insects/" && (
     <section class="wiki-section"><div class="wiki-shell card-grid">
-      {data.insects.map((item) => <a class="route-card" href={link(`/insects/${item.id}/`)}><strong>{item.name}</strong><span>{item.season} · {item.time} · {item.weather}</span><span>{item.route} · 稀有度 {item.rarity}</span><small>{item.lore}</small></a>)}
+      {data.insects.map((item) => <a class="route-card" href={link(`/insects/${item.id}/`)}><strong>{item.name}</strong><span>{item.season} · {item.time} · {item.weather}</span><span>{ui.index.rarityLine(item.route, item.rarity)}</span><small>{item.lore}</small></a>)}
     </div></section>
   )}
 
   {path === "/recipes/" && (
     <section class="wiki-section"><div class="wiki-shell card-grid">
-      {data.recipes.map((item) => <a class="route-card" href={link(`/recipes/${item.id}/`)}><strong>{item.name}</strong><span>{item.ingredients.join(" / ")}</span><span>{item.route} · 风险 {riskLabel(item.risk)}</span><small>{item.use}</small></a>)}
+      {data.recipes.map((item) => <a class="route-card" href={link(`/recipes/${item.id}/`)}><strong>{item.name}</strong><span>{item.ingredients.join(" / ")}</span><span>{ui.index.riskLine(item.route, riskLabel(item.risk))}</span><small>{item.use}</small></a>)}
     </div></section>
   )}
 
@@ -254,8 +148,8 @@ const riskLabel = (risk: string) => ({ low: "低", medium: "中", high: "高" })
 
   {path === "/codes/" && (
     <section class="wiki-section"><div class="wiki-shell database-grid">
-      <article class="wiki-card"><h2 class="wiki-title">可用候选</h2>{data.codes.activeCandidates.map((item) => <div class="source-panel"><strong>{item.code}</strong><p>{item.rewards.join(" / ")}</p>{item.note && <small>{item.note}</small>}</div>)}</article>
-      <aside class="wiki-card code-expired-list"><h2 class="wiki-title">过期归档</h2>{data.codes.expiredArchive.map((item) => <p class="expired-code-row"><strong><s>{item.code}</s></strong><br /><span>{item.reportedReward}</span> · <em>{item.expired}</em></p>)}</aside>
+      <article class="wiki-card"><h2 class="wiki-title">{ui.index.activeCandidates}</h2>{data.codes.activeCandidates.map((item) => <div class="source-panel"><strong>{item.code}</strong><p>{item.rewards.join(" / ")}</p>{item.note && <small>{item.note}</small>}</div>)}</article>
+      <aside class="wiki-card code-expired-list"><h2 class="wiki-title">{ui.index.expiredArchive}</h2>{data.codes.expiredArchive.map((item) => <p class="expired-code-row"><strong><s>{item.code}</s></strong><br /><span>{item.reportedReward}</span> · <em>{item.expired}</em></p>)}</aside>
     </div></section>
   )}
 

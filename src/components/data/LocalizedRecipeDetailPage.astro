@@ -4,6 +4,7 @@ import MetricCards from "@components/MetricCards.astro";
 import { getHeartopiaData, type Recipe } from "@data/heartopia";
 import { getSiteConfig } from "@data/site";
 import { localizePath, type Locale } from "@i18n/config";
+import { getDataUiMessages } from "@i18n/dataUi";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
 interface Props {
@@ -14,13 +15,13 @@ interface Props {
 const { recipe, locale } = Astro.props;
 const siteConfig = getSiteConfig(locale);
 const labels = siteConfig.linkLabels;
+const ui = getDataUiMessages(locale);
 const { crops, recipes } = await getHeartopiaData(locale);
-const ingredientText = recipe.ingredients.join("、");
+const ingredientText = recipe.ingredients.join(" / ");
 const ingredientHaystack = ingredientText.toLowerCase();
 const sourceCrops = crops.filter((crop) => ingredientHaystack.includes(crop.name.toLowerCase())).slice(0, 4);
 const related = recipes.filter((candidate) => candidate.id !== recipe.id && candidate.group === recipe.group).slice(0, 4);
-const riskLabels: Record<string, string> = { low: "低", medium: "中", high: "高" };
-const risk = riskLabels[recipe.risk] || recipe.risk;
+const risk = ui.risk[recipe.risk] || recipe.risk;
 const detailPath = `/recipes/${recipe.id}/`;
 const title = `${recipe.name} - Heartopia ${labels.recipes} ${labels.tools}`;
 const description = `Heartopia ${labels.recipes}: ${recipe.name}. ${ingredientText}; ${recipe.route}; ${risk}.`;
@@ -37,13 +38,13 @@ const description = `Heartopia ${labels.recipes}: ${recipe.name}. ${ingredientTe
         ]}
       />
       <h1>{recipe.name}</h1>
-      <p>{recipe.use}。先确认材料来源和风险，再把料理加入每日清单。</p>
+      <p>{recipe.use}. {ui.recipe.heroSuffix}</p>
       <MetricCards
         metrics={[
-          { value: recipe.route, label: "路线" },
-          { value: risk, label: "风险" },
-          { value: recipe.ingredients.length, label: "材料数" },
-          { value: recipe.source, label: "来源" }
+          { value: recipe.route, label: ui.common.route },
+          { value: risk, label: ui.common.risk },
+          { value: recipe.ingredients.length, label: ui.common.ingredientCount },
+          { value: recipe.source, label: ui.common.source }
         ]}
       />
     </div>
@@ -52,25 +53,25 @@ const description = `Heartopia ${labels.recipes}: ${recipe.name}. ${ingredientTe
   <section class="wiki-section">
     <div class="wiki-shell database-grid">
       <article class="wiki-card">
-        <h2 class="wiki-title">料理路线</h2>
+        <h2 class="wiki-title">{ui.recipe.routeTitle}</h2>
         <div class="recipe-ingredient-list">
           {recipe.ingredients.map((ingredient) => <span>{ingredient}</span>)}
         </div>
         <div class="map-meta">
-          <span><strong>分组：</strong> {recipe.group}</span>
-          <span><strong>路线：</strong> {recipe.route}</span>
-          <span><strong>来源：</strong> {recipe.source}</span>
-          <span><strong>用途：</strong> {recipe.use}</span>
+          <span><strong>{ui.common.group}:</strong> {recipe.group}</span>
+          <span><strong>{ui.common.route}:</strong> {recipe.route}</span>
+          <span><strong>{ui.common.source}:</strong> {recipe.source}</span>
+          <span><strong>{ui.common.use}:</strong> {recipe.use}</span>
         </div>
         <div class="entity-action-grid">
-          <a class="pastel-button" href={localizePath(recipe.tool, locale)}>打开食谱工具</a>
-          <a class="pastel-button alt" href={localizePath(recipe.primary, locale)}>材料来源</a>
-          <a class="pastel-button alt" href={localizePath("/tools/checklist/", locale)}>保存清单</a>
+          <a class="pastel-button" href={localizePath(recipe.tool, locale)}>{ui.actions.openRecipeTool}</a>
+          <a class="pastel-button alt" href={localizePath(recipe.primary, locale)}>{ui.actions.ingredientSource}</a>
+          <a class="pastel-button alt" href={localizePath("/tools/checklist/", locale)}>{ui.actions.saveChecklist}</a>
         </div>
       </article>
       <aside class="wiki-card">
-        <h2 class="wiki-title">资料状态</h2>
-        <p>这条食谱资料已完成简体中文整理。材料、路线和来源说明会继续跟随公开资料更新。</p>
+        <h2 class="wiki-title">{ui.common.dataStatus}</h2>
+        <p>{ui.recipe.status}</p>
       </aside>
     </div>
   </section>
@@ -79,8 +80,8 @@ const description = `Heartopia ${labels.recipes}: ${recipe.name}. ${ingredientTe
     <section class="wiki-section tint-mint">
       <div class="wiki-shell">
         <div class="center-head">
-          <h2>材料作物来源</h2>
-          <p>食材字段中匹配到的作物资料。</p>
+          <h2>{ui.recipe.sourceCropsTitle}</h2>
+          <p>{ui.recipe.sourceCropsText}</p>
         </div>
         <div class="route-grid">
           {sourceCrops.map((crop) => (
@@ -98,14 +99,14 @@ const description = `Heartopia ${labels.recipes}: ${recipe.name}. ${ingredientTe
     <section class="wiki-section">
       <div class="wiki-shell">
         <div class="center-head">
-          <h2>同分组食谱</h2>
-          <p>来自同一食谱分组的相关料理。</p>
+          <h2>{ui.recipe.relatedTitle}</h2>
+          <p>{ui.recipe.relatedText}</p>
         </div>
         <div class="route-grid">
           {related.map((candidate) => (
             <a class="route-card" href={localizePath(`/recipes/${candidate.id}/`, locale)}>
               <h3>{candidate.name}</h3>
-              <p>{candidate.ingredients.join("、")}</p>
+              <p>{candidate.ingredients.join(" / ")}</p>
             </a>
           ))}
         </div>

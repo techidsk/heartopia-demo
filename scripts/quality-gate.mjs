@@ -30,6 +30,23 @@ const nonChineseSeoLeakPatterns = [
   /数据库/,
   /首页/
 ];
+const nonChineseUiLeakPatterns = [
+  /资料状态/,
+  /打开 Wiki 来源/,
+  /返回园艺手册/,
+  /返回昆虫数据库/,
+  /捕捉备注/,
+  /同路线昆虫/,
+  /相关园艺条目/,
+  /可用候选/,
+  /过期归档/,
+  /种子 \d/,
+  /售价 \d/,
+  /\d+ 条鱼类路线/,
+  /\d+ 个商店节点/,
+  /\d+ 个作物记录/,
+  /\d+ 个工具入口/
+];
 const fallbackTitlePatterns = [
   /<title>Translation pending<\/title>/i,
   /<title>Übersetzung ausstehend<\/title>/i,
@@ -200,6 +217,10 @@ for (const filePath of htmlFiles) {
       ].join(" ");
       for (const pattern of nonChineseSeoLeakPatterns) {
         if (pattern.test(seoText)) failures.push(`${relative}: non-Chinese SEO metadata contains Chinese template copy`);
+      }
+      const mainText = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] || html;
+      for (const pattern of nonChineseUiLeakPatterns) {
+        if (pattern.test(mainText)) failures.push(`${relative}: non-Chinese body contains Chinese UI copy`);
       }
     }
     checks.push(

@@ -4,6 +4,7 @@ import MetricCards from "@components/MetricCards.astro";
 import { getHeartopiaData, type Crop } from "@data/heartopia";
 import { getSiteConfig } from "@data/site";
 import { localizePath, type Locale } from "@i18n/config";
+import { formatLocalizedGold, getDataUiMessages } from "@i18n/dataUi";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
 interface Props {
@@ -14,9 +15,10 @@ interface Props {
 const { crop, locale } = Astro.props;
 const siteConfig = getSiteConfig(locale);
 const labels = siteConfig.linkLabels;
+const ui = getDataUiMessages(locale);
 const { crops, recipes } = await getHeartopiaData(locale);
-const formatGold = (value: number | null) => (value === null ? "待补" : `${value.toLocaleString()} 金币`);
-const margin = crop.seed === null || crop.sell === null ? "待补" : `${(crop.sell - crop.seed).toLocaleString()} 金币`;
+const formatGold = (value: number | null) => formatLocalizedGold(value, locale, ui);
+const margin = crop.seed === null || crop.sell === null ? ui.common.unknown : formatGold(crop.sell - crop.seed);
 const cropName = crop.name.toLowerCase();
 const recipeUses = recipes
   .filter((recipe) => recipe.ingredients.some((ingredient) => ingredient.toLowerCase().includes(cropName)))
@@ -45,13 +47,13 @@ const description = `Heartopia ${labels.crops}: ${crop.name}. ${crop.growth}; ${
         ]}
       />
       <h1>{crop.name}</h1>
-      <p>{crop.use}。对比成长时间、种子成本和出售价值，决定它更适合在线循环还是离线种植。</p>
+      <p>{crop.use}. {ui.crop.heroSuffix}</p>
       <MetricCards
         metrics={[
-          { value: crop.growth, label: "成长" },
-          { value: crop.unlock, label: "解锁" },
-          { value: formatGold(crop.seed), label: "种子" },
-          { value: crop.hobbyLevel || formatGold(crop.sell), label: crop.hobbyLevel ? "Wiki 等级" : "出售" }
+          { value: crop.growth, label: ui.crop.growth },
+          { value: crop.unlock, label: ui.crop.unlock },
+          { value: formatGold(crop.seed), label: ui.crop.seed },
+          { value: crop.hobbyLevel || formatGold(crop.sell), label: crop.hobbyLevel ? ui.common.levelGate : ui.crop.sell }
         ]}
       />
     </div>
@@ -62,32 +64,32 @@ const description = `Heartopia ${labels.crops}: ${crop.name}. ${crop.growth}; ${
       <article class="wiki-card">
         {crop.image && (
           <div class="collection-detail-head">
-            <img src={crop.image} alt={`${crop.name} 作物图标`} loading="eager" />
+            <img src={crop.image} alt={`${crop.name} ${ui.crop.iconAlt}`} loading="eager" />
             <div>
               <h2 class="wiki-title">{crop.name}</h2>
               <p>{crop.nameZh || crop.name} · {crop.source}</p>
             </div>
           </div>
         )}
-        <h2 class="wiki-title">作物路线</h2>
+        <h2 class="wiki-title">{ui.crop.routeTitle}</h2>
         <div class="map-meta">
-          <span><strong>分组：</strong> {crop.group}</span>
-          <span><strong>路线：</strong> {crop.route}</span>
-          {crop.season && <span><strong>季节：</strong> {crop.season}</span>}
-          <span><strong>收益差：</strong> {margin}</span>
-          <span><strong>用途：</strong> {crop.use}</span>
+          <span><strong>{ui.common.group}:</strong> {crop.group}</span>
+          <span><strong>{ui.common.route}:</strong> {crop.route}</span>
+          {crop.season && <span><strong>{ui.common.season}:</strong> {crop.season}</span>}
+          <span><strong>{ui.crop.margin}:</strong> {margin}</span>
+          <span><strong>{ui.common.use}:</strong> {crop.use}</span>
         </div>
         {crop.lore && <p>{crop.lore}</p>}
         <div class="entity-action-grid">
-          <a class="pastel-button" href={localizePath(crop.tool, locale)}>打开作物工具</a>
-          <a class="pastel-button alt" href={localizePath(crop.shop, locale)}>查找种子</a>
-          <a class="pastel-button alt" href={localizePath(crop.related, locale)}>相关用途</a>
-          {crop.wikiUrl && <a class="pastel-button alt" href={crop.wikiUrl} rel="nofollow noopener" target="_blank">打开 Wiki 来源</a>}
+          <a class="pastel-button" href={localizePath(crop.tool, locale)}>{ui.actions.openCropTool}</a>
+          <a class="pastel-button alt" href={localizePath(crop.shop, locale)}>{ui.actions.findSeeds}</a>
+          <a class="pastel-button alt" href={localizePath(crop.related, locale)}>{ui.actions.relatedUses}</a>
+          {crop.wikiUrl && <a class="pastel-button alt" href={crop.wikiUrl} rel="nofollow noopener" target="_blank">{ui.actions.openWikiSource}</a>}
         </div>
       </article>
       <aside class="wiki-card">
-        <h2 class="wiki-title">资料状态</h2>
-        <p>这条作物资料已完成简体中文整理。成长时间、售价和种子成本会继续跟随资料源更新。</p>
+        <h2 class="wiki-title">{ui.common.dataStatus}</h2>
+        <p>{ui.crop.status}</p>
       </aside>
     </div>
   </section>
@@ -96,8 +98,8 @@ const description = `Heartopia ${labels.crops}: ${crop.name}. ${crop.growth}; ${
     <section class="wiki-section tint-mint">
       <div class="wiki-shell">
         <div class="center-head">
-          <h2>配方用途</h2>
-          <p>这些配方在食材字段中提到了该作物。</p>
+          <h2>{ui.crop.recipeUsesTitle}</h2>
+          <p>{ui.crop.recipeUsesText}</p>
         </div>
         <div class="route-grid">
           {recipeUses.map((recipe) => (
@@ -115,8 +117,8 @@ const description = `Heartopia ${labels.crops}: ${crop.name}. ${crop.growth}; ${
     <section class="wiki-section">
       <div class="wiki-shell">
         <div class="center-head">
-          <h2>同路线分组</h2>
-          <p>来自同一规划分组的相关作物。</p>
+          <h2>{ui.crop.relatedTitle}</h2>
+          <p>{ui.crop.relatedText}</p>
         </div>
         <div class="route-grid">
           {relatedCrops.map((candidate) => (
