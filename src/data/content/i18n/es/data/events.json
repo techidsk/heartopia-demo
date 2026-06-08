@@ -3,81 +3,81 @@
     "id": "modular-streets",
     "translationStatus": "translated",
     "name": "Modular Streets Festival",
-    "window": "revisado: ruta",
-    "route": "Usa Modular Streets Festival para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "May 9 - June 20, 2026",
+    "route": "Brick fish, Brick insects, Brick birds, and Collector's Challenge tasks.",
     "rewards": [
-      "recompensas: Brick furniture lane",
-      "recompensas: Festival collectibles",
-      "recompensas: Collection progress"
+      "Brick muebles lane",
+      "Festival collectibles",
+      "Collection progress"
     ],
     "prep": [
-      "ruta: Redeem active codes",
-      "ruta: Free storage space",
-      "ruta: Open fish tracker",
-      "ruta: Check map routes"
+      "Redeem active codes",
+      "Free storage space",
+      "Open fish tracker",
+      "Check map routes"
     ]
   },
   {
     "id": "graffiti-channel",
     "translationStatus": "translated",
     "name": "Graffiti Channel Exhibition",
-    "window": "revisado: ruta",
-    "route": "Usa Graffiti Channel Exhibition para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "May 9 - June 20, 2026",
+    "route": "Fashion and collectible ruta tied to festival reward loops.",
     "rewards": [
-      "recompensas: Fashion display route",
-      "recompensas: Collector tasks",
-      "recompensas: Event styling notes"
+      "Fashion display ruta",
+      "Collector tasks",
+      "Event styling notes"
     ],
     "prep": [
-      "ruta: Check clothing store",
-      "ruta: Review event checklist",
-      "ruta: Leave room for display items"
+      "Check clothing store",
+      "Review evento checklist",
+      "Leave room for display items"
     ]
   },
   {
     "id": "sea-fishing",
     "translationStatus": "translated",
-    "name": "Sea Fishing",
-    "window": "revisado: ruta",
-    "route": "Usa Sea Fishing para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "name": "Pesca marina",
+    "window": "Unlock ruta",
+    "route": "Aldea Pesquera with Bill; useful for evento tasks and rare fish routing.",
     "rewards": [
-      "recompensas: Sea fish progress",
-      "recompensas: Fishing event rewards",
-      "recompensas: Recipe inputs"
+      "Sea fish progress",
+      "Pesca evento rewards",
+      "Recipe inputs"
     ],
     "prep": [
-      "ruta: Open fish tracker",
-      "ruta: Check inventory space",
-      "ruta: Bring repair kit if needed"
+      "Open fish tracker",
+      "Check inventory space",
+      "Bring repair kit if needed"
     ]
   },
   {
     "id": "next-banner-watch",
     "translationStatus": "translated",
     "name": "Next Banner Watch",
-    "window": "revisado: ruta",
-    "route": "Usa Next Banner Watch para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "TBA",
+    "route": "Placeholder watch item for the next official banner or festival handoff.",
     "rewards": [
-      "recompensas: Unknown until announcement"
+      "Unknown until announcement"
     ],
     "prep": [
-      "ruta: Keep codes page checked",
-      "ruta: Save flexible materials",
-      "ruta: Do not spend all event stock"
+      "Keep codes page checked",
+      "Save flexible materiales",
+      "Do not spend all evento stock"
     ]
   },
   {
     "id": "closed-code-window",
     "translationStatus": "translated",
     "name": "Closed Code Window Archive",
-    "window": "revisado: ruta",
-    "route": "Usa Closed Code Window Archive para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "window": "Expired or unverified",
+    "route": "Archived reward windows should stay separate from actual tasks.",
     "rewards": [
-      "recompensas: Historical reward notes"
+      "Historical reward notes"
     ],
     "prep": [
-      "ruta: Move expired codes out of current route",
-      "ruta: Keep source check date visible"
+      "Move expired codes out of actual ruta",
+      "Keep source check date visible"
     ]
   }
 ]

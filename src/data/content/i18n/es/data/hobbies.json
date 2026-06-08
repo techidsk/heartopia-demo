@@ -2,50 +2,50 @@
   {
     "id": "fishing",
     "translationStatus": "translated",
-    "name": "Fishing",
-    "group": "guía: core",
-    "summary": "Fishing como referencia rápida en español para rutas, planificación y colección."
+    "name": "Pesca",
+    "group": "principal",
+    "summary": "Water-type ruta with unlock, tension practice, fish tracker, map spots, and rare catch planning."
   },
   {
     "id": "gardening",
     "translationStatus": "translated",
-    "name": "Gardening",
-    "group": "guía: core",
-    "summary": "Gardening como referencia rápida en español para rutas, planificación y colección."
+    "name": "Jardinería",
+    "group": "principal",
+    "summary": "Crop ruta with seed planning, profit comparison, crop planner, timers, and recipe sinks."
   },
   {
     "id": "cooking",
     "translationStatus": "translated",
-    "name": "Cooking",
-    "group": "guía: core",
-    "summary": "Cooking como referencia rápida en español para rutas, planificación y colección."
+    "name": "Cocina",
+    "group": "principal",
+    "summary": "Recipe ruta with Massimo unlock, jam, pescado con patatas, QTE safety, and evento ingredient checks."
   },
   {
     "id": "birdwatching",
     "translationStatus": "translated",
-    "name": "Birdwatching",
-    "group": "guía: nature",
-    "summary": "Birdwatching como referencia rápida en español para rutas, planificación y colección."
+    "name": "Observación de aves",
+    "group": "naturaleza",
+    "summary": "Camera and binocular ruta with weather, location, pose, and collection checklist planning."
   },
   {
     "id": "insects",
     "translationStatus": "translated",
-    "name": "Insect Catching",
-    "group": "guía: nature",
-    "summary": "Insect Catching como referencia rápida en español para rutas, planificación y colección."
+    "name": "Insect gatoching",
+    "group": "naturaleza",
+    "summary": "Bubble Net ruta with DG6 unlock, time, weather, habitat, rare bugs, and sale checks."
   },
   {
     "id": "cat-care",
     "translationStatus": "translated",
-    "name": "Cat Care",
-    "group": "guía: care",
-    "summary": "Cat Care como referencia rápida en español para rutas, planificación y colección."
+    "name": "gato Care",
+    "group": "cuidado",
+    "summary": "Pet shop ruta with adoption, food tests, favorite tracking, and daily care loops."
   },
   {
     "id": "dog-care",
     "translationStatus": "translated",
-    "name": "Dog Care",
-    "group": "guía: care",
-    "summary": "Dog Care como referencia rápida en español para rutas, planificación y colección."
+    "name": "perro Care",
+    "group": "cuidado",
+    "summary": "perro food baseline, adoption ruta, Oak-Oak separation, and animal favorite testing."
   }
 ]

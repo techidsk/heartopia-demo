@@ -3,95 +3,95 @@
     "id": "profit-calculator",
     "translationStatus": "translated",
     "title": "Profit Calculator",
-    "category": "herramientas: calculator",
-    "description": "Página en español de Heartopia para Profit Calculator, con rutas, datos, herramientas y consejos prácticos.",
-    "useCase": "Usa Profit Calculator para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "category": "calculadora",
+    "description": "Compare crop profit by plot count, session length, and star bonus.",
+    "useCase": "Choose the best crop before planting.",
     "linkedData": [
-      "base de datos: crops",
-      "base de datos: shops",
-      "base de datos: recipes"
+      "crops",
+      "shops",
+      "recipes"
     ],
-    "status": "publicado"
+    "status": "funciona"
   },
   {
     "id": "fish-tracker",
     "translationStatus": "translated",
     "title": "Fish Tracker",
-    "category": "herramientas: tracker",
-    "description": "Página en español de Heartopia para Fish Tracker, con rutas, datos, herramientas y consejos prácticos.",
-    "useCase": "Usa Fish Tracker para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "category": "rastreador",
+    "description": "Track rare fish catches by water ruta, level gate, and time condition.",
+    "useCase": "Save collection progress across sessions.",
     "linkedData": [
-      "base de datos: fish",
-      "base de datos: map"
+      "fish",
+      "map"
     ],
-    "status": "publicado"
+    "status": "funciona"
   },
   {
     "id": "crop-planner",
     "translationStatus": "translated",
     "title": "Crop Planner",
-    "category": "herramientas: planner",
-    "description": "Página en español de Heartopia para Crop Planner, con rutas, datos, herramientas y consejos prácticos.",
-    "useCase": "Usa Crop Planner para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "category": "planificador",
+    "description": "Build an active, balanced, or offline crop ruta from playtime and plot count.",
+    "useCase": "Turn a play window into a planting schedule.",
     "linkedData": [
-      "base de datos: crops",
-      "base de datos: shops"
+      "crops",
+      "shops"
     ],
-    "status": "publicado"
+    "status": "funciona"
   },
   {
     "id": "friendship-tracker",
     "translationStatus": "translated",
     "title": "Friendship Tracker",
-    "category": "herramientas: tracker",
-    "description": "Página en español de Heartopia para Friendship Tracker, con rutas, datos, herramientas y consejos prácticos.",
-    "useCase": "Usa Friendship Tracker para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "category": "rastreador",
+    "description": "Estimate NPC routine progress from gifts, talks, and hangouts.",
+    "useCase": "Plan one relationship loop for the week.",
     "linkedData": [
-      "base de datos: npcs",
-      "base de datos: shops"
+      "npcs",
+      "shops"
     ],
-    "status": "publicado"
+    "status": "funciona"
   },
   {
     "id": "recipe-finder",
     "translationStatus": "translated",
     "title": "Recipe Finder",
-    "category": "herramientas: finder",
-    "description": "Página en español de Heartopia para Recipe Finder, con rutas, datos, herramientas y consejos prácticos.",
-    "useCase": "Usa Recipe Finder para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "category": "buscador",
+    "description": "Filter starter recipes by ingredients you already have.",
+    "useCase": "Choose what to cook before selling or gifting.",
     "linkedData": [
-      "base de datos: recipes",
-      "base de datos: crops",
-      "base de datos: fish"
+      "recipes",
+      "crops",
+      "fish"
     ],
-    "status": "publicado"
+    "status": "funciona"
   },
   {
     "id": "checklist",
     "translationStatus": "translated",
     "title": "Daily Checklist",
-    "category": "herramientas: tracker",
-    "description": "Página en español de Heartopia para Daily Checklist, con rutas, datos, herramientas y consejos prácticos.",
-    "useCase": "Usa Daily Checklist para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "category": "rastreador",
+    "description": "Save a repeatable daily ruta with presets for codes, crops, fish, and NPCs.",
+    "useCase": "Keep short sessions from drifting.",
     "linkedData": [
-      "base de datos: codes",
-      "base de datos: map",
-      "base de datos: shops"
+      "codes",
+      "map",
+      "shops"
     ],
-    "status": "publicado"
+    "status": "funciona"
   },
   {
     "id": "timer",
     "translationStatus": "translated",
     "title": "Route Timer",
-    "category": "herramientas: timer",
-    "description": "Página en español de Heartopia para Route Timer, con rutas, datos, herramientas y consejos prácticos.",
-    "useCase": "Usa Route Timer para planificar la ruta y comparar mapa, tienda, nivel y ciclo diario.",
+    "category": "temporizador",
+    "description": "Run persistent timers for crops, cooking, pesca windows, and shop checks.",
+    "useCase": "Know when to return to a ruta.",
     "linkedData": [
-      "base de datos: crops",
-      "base de datos: recipes",
-      "base de datos: map"
+      "crops",
+      "recipes",
+      "map"
     ],
-    "status": "publicado"
+    "status": "funciona"
   }
 ]
