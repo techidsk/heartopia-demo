@@ -2,96 +2,96 @@
   {
     "id": "profit-calculator",
     "translationStatus": "translated",
-    "title": "Profit Calculator",
-    "category": "инструменты: calculator",
-    "description": "Русская страница Heartopia для Profit Calculator: маршруты, данные, инструменты и практические заметки.",
-    "useCase": "Используйте Profit Calculator, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "title": "калькулятор прибыли",
+    "category": "калькулятор",
+    "description": "Инструмент для планирования маршрутов, ресурсов и прогресса Heartopia.",
+    "useCase": "Используйте перед заходом, чтобы выбрать следующий приоритет.",
     "linkedData": [
-      "база данных: crops",
-      "база данных: shops",
-      "база данных: recipes"
+      "культуры",
+      "магазины",
+      "рецепты"
     ],
-    "status": "опубликовано"
+    "status": "доступно"
   },
   {
     "id": "fish-tracker",
     "translationStatus": "translated",
-    "title": "Fish Tracker",
-    "category": "инструменты: tracker",
-    "description": "Русская страница Heartopia для Fish Tracker: маршруты, данные, инструменты и практические заметки.",
-    "useCase": "Используйте Fish Tracker, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "title": "трекер рыбы",
+    "category": "трекер",
+    "description": "Инструмент для планирования маршрутов, ресурсов и прогресса Heartopia.",
+    "useCase": "Используйте перед заходом, чтобы выбрать следующий приоритет.",
     "linkedData": [
-      "база данных: fish",
-      "база данных: map"
+      "рыба",
+      "карта"
     ],
-    "status": "опубликовано"
+    "status": "доступно"
   },
   {
     "id": "crop-planner",
     "translationStatus": "translated",
-    "title": "Crop Planner",
-    "category": "инструменты: planner",
-    "description": "Русская страница Heartopia для Crop Planner: маршруты, данные, инструменты и практические заметки.",
-    "useCase": "Используйте Crop Planner, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "title": "планировщик посевов",
+    "category": "планировщик",
+    "description": "Инструмент для планирования маршрутов, ресурсов и прогресса Heartopia.",
+    "useCase": "Используйте перед заходом, чтобы выбрать следующий приоритет.",
     "linkedData": [
-      "база данных: crops",
-      "база данных: shops"
+      "культуры",
+      "магазины"
     ],
-    "status": "опубликовано"
+    "status": "доступно"
   },
   {
     "id": "friendship-tracker",
     "translationStatus": "translated",
-    "title": "Friendship Tracker",
-    "category": "инструменты: tracker",
-    "description": "Русская страница Heartopia для Friendship Tracker: маршруты, данные, инструменты и практические заметки.",
-    "useCase": "Используйте Friendship Tracker, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "title": "трекер дружбы",
+    "category": "трекер",
+    "description": "Инструмент для планирования маршрутов, ресурсов и прогресса Heartopia.",
+    "useCase": "Используйте перед заходом, чтобы выбрать следующий приоритет.",
     "linkedData": [
-      "база данных: npcs",
-      "база данных: shops"
+      "Русская заметка Heartopia для этого поля: используйте строку при планировании маршрута.",
+      "магазины"
     ],
-    "status": "опубликовано"
+    "status": "доступно"
   },
   {
     "id": "recipe-finder",
     "translationStatus": "translated",
-    "title": "Recipe Finder",
-    "category": "инструменты: finder",
-    "description": "Русская страница Heartopia для Recipe Finder: маршруты, данные, инструменты и практические заметки.",
-    "useCase": "Используйте Recipe Finder, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "title": "поиск рецептов",
+    "category": "поиск",
+    "description": "Инструмент для планирования маршрутов, ресурсов и прогресса Heartopia.",
+    "useCase": "Используйте перед заходом, чтобы выбрать следующий приоритет.",
     "linkedData": [
-      "база данных: recipes",
-      "база данных: crops",
-      "база данных: fish"
+      "рецепты",
+      "культуры",
+      "рыба"
     ],
-    "status": "опубликовано"
+    "status": "доступно"
   },
   {
     "id": "checklist",
     "translationStatus": "translated",
-    "title": "Daily Checklist",
-    "category": "инструменты: tracker",
-    "description": "Русская страница Heartopia для Daily Checklist: маршруты, данные, инструменты и практические заметки.",
-    "useCase": "Используйте Daily Checklist, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "title": "ежедневный чек-лист",
+    "category": "трекер",
+    "description": "Инструмент для планирования маршрутов, ресурсов и прогресса Heartopia.",
+    "useCase": "Используйте перед заходом, чтобы выбрать следующий приоритет.",
     "linkedData": [
-      "база данных: codes",
-      "база данных: map",
-      "база данных: shops"
+      "коды",
+      "карта",
+      "магазины"
     ],
-    "status": "опубликовано"
+    "status": "доступно"
   },
   {
     "id": "timer",
     "translationStatus": "translated",
-    "title": "Route Timer",
-    "category": "инструменты: timer",
-    "description": "Русская страница Heartopia для Route Timer: маршруты, данные, инструменты и практические заметки.",
-    "useCase": "Используйте Route Timer, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
+    "title": "таймер маршрутов",
+    "category": "таймер",
+    "description": "Инструмент для планирования маршрутов, ресурсов и прогресса Heartopia.",
+    "useCase": "Используйте перед заходом, чтобы выбрать следующий приоритет.",
     "linkedData": [
-      "база данных: crops",
-      "база данных: recipes",
-      "база данных: map"
+      "культуры",
+      "рецепты",
+      "карта"
     ],
-    "status": "опубликовано"
+    "status": "доступно"
   }
 ]

@@ -2,241 +2,241 @@
   {
     "id": "wels-catfish",
     "translationStatus": "translated",
-    "name": "Wels Catfish",
-    "spot": "карта: Meadow Lake",
-    "condition": "Используйте Wels Catfish, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "европейский сом",
+    "spot": "Озеро Медоу",
+    "condition": "стартовый маршрут",
+    "window": "любой стартовый заход",
     "level": "Lv 1",
-    "use": "Wels Catfish как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "цель для маршрута Озера Медоу"
   },
   {
     "id": "goldfish",
     "translationStatus": "translated",
-    "name": "Goldfish",
-    "spot": "карта: Meadow Lake",
-    "condition": "Используйте Goldfish, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "золотая рыбка",
+    "spot": "Озеро Медоу",
+    "condition": "с утра до вечера",
+    "window": "утро-вечер",
     "level": "Lv 1",
-    "use": "Goldfish как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "цель для маршрута Озера Медоу"
   },
   {
     "id": "arctic-char",
     "translationStatus": "translated",
-    "name": "Arctic Char",
-    "spot": "карта: Forest Lake",
-    "condition": "Используйте Arctic Char, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "арктический голец",
+    "spot": "Лесное озеро",
+    "condition": "приоритет в прохладную погоду",
+    "window": "прохладная погода",
     "level": "Lv 2",
-    "use": "Arctic Char как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "Лесное озеро маршрут проверка"
   },
   {
     "id": "giant-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Giant Pearl Mussel",
-    "spot": "карта: Forest Lake",
-    "condition": "Используйте Giant Pearl Mussel, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "гигантская жемчужница",
+    "spot": "Лесное озеро",
+    "condition": "пример записи для любого времени",
+    "window": "любое время",
     "level": "Lv 2",
-    "use": "Giant Pearl Mussel как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "цель для маршрута Лесного озера"
   },
   {
     "id": "largemouth-bass",
     "translationStatus": "translated",
-    "name": "Largemouth Bass",
-    "spot": "карта: Forest Lake",
-    "condition": "Используйте Largemouth Bass, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "большеротый окунь",
+    "spot": "Лесное озеро",
+    "condition": "обычная запись озёрного маршрута",
+    "window": "любое время",
     "level": "Lv 2",
-    "use": "Largemouth Bass как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "обычный озёрный улов"
   },
   {
     "id": "common-whitefish",
     "translationStatus": "translated",
-    "name": "Common Whitefish",
-    "spot": "карта: Onsen Mountain Lake",
-    "condition": "Используйте Common Whitefish, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "обыкновенный сиг",
+    "spot": "Горное озеро Онсэн",
+    "condition": "маршрут горного озера",
+    "window": "любое время",
     "level": "Lv 3",
-    "use": "Common Whitefish как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "улов петли Онсэн"
   },
   {
     "id": "ruffe",
     "translationStatus": "translated",
-    "name": "Ruffe",
-    "spot": "карта: Onsen Mountain Lake",
-    "condition": "Используйте Ruffe, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "ёрш",
+    "spot": "Горное озеро Онсэн",
+    "condition": "маршрут горного озера",
+    "window": "любое время",
     "level": "Lv 3",
-    "use": "Ruffe как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "улов петли Онсэн"
   },
   {
     "id": "crucian-carp",
     "translationStatus": "translated",
-    "name": "Crucian Carp",
-    "spot": "карта: Spring Lake",
-    "condition": "Используйте Crucian Carp, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "карась",
+    "spot": "Озеро Спринг",
+    "condition": "маршрут с бонусом дождя",
+    "window": "бонус дождя",
     "level": "Lv 3",
-    "use": "Crucian Carp как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "цель для маршрута озера Спринг"
   },
   {
     "id": "huchen",
     "translationStatus": "translated",
-    "name": "Huchen",
-    "spot": "карта: Giantwood River",
-    "condition": "Используйте Huchen, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "дунайский таймень",
+    "spot": "Река Гигантвуд",
+    "condition": "Lv 9; радужная погода",
+    "window": "радужная погода",
     "level": "Lv 9",
-    "use": "Huchen как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "приоритетная редкая речная цель"
   },
   {
     "id": "burbot",
     "translationStatus": "translated",
-    "name": "Burbot",
-    "spot": "карта: Tranquil River",
-    "condition": "Используйте Burbot, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "налим",
+    "spot": "Тихая река",
+    "condition": "с полудня до вечера",
+    "window": "полдень-вечер",
     "level": "Lv 4",
-    "use": "Burbot как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "обычный речной маршрут"
   },
   {
     "id": "beltfish",
     "translationStatus": "translated",
-    "name": "Beltfish",
-    "spot": "карта: Zephyr Sea",
-    "condition": "Используйте Beltfish, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "рыба-сабля",
+    "spot": "Море Зефир",
+    "condition": "прибрежный маршрут",
+    "window": "любой прибрежный заход",
     "level": "Lv 4",
-    "use": "Beltfish как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "дополнение прибрежного маршрута"
   },
   {
     "id": "atlantic-pygmy-octopus",
     "translationStatus": "translated",
-    "name": "Atlantic Pygmy Octopus",
-    "spot": "карта: Zephyr Sea",
-    "condition": "Используйте Atlantic Pygmy Octopus, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "атлантический карликовый осьминог",
+    "spot": "Море Зефир",
+    "condition": "прибрежный маршрут",
+    "window": "любой прибрежный заход",
     "level": "Lv 4",
-    "use": "Atlantic Pygmy Octopus как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "проверка прибрежного маршрута"
   },
   {
     "id": "atlantic-salmon",
     "translationStatus": "translated",
-    "name": "Atlantic Salmon",
-    "spot": "карта: Whale Sea",
-    "condition": "Используйте Atlantic Salmon, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "атлантический лосось",
+    "spot": "Китовое море",
+    "condition": "поздний океанский маршрут",
+    "window": "поздний океанский заход",
     "level": "Lv 7",
-    "use": "Atlantic Salmon как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "ценный океанский маршрут"
   },
   {
     "id": "swordfish",
     "translationStatus": "translated",
-    "name": "Swordfish",
-    "spot": "карта: Whale Sea",
-    "condition": "Используйте Swordfish, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "рыба-меч",
+    "spot": "Китовое море",
+    "condition": "Lv 10",
+    "window": "поздний океанский заход",
     "level": "Lv 10",
-    "use": "Swordfish как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "редкая цель поздней игры"
   },
   {
     "id": "rainbow-fish",
     "translationStatus": "translated",
-    "name": "Rainbow Fish",
-    "spot": "карта: Starlight Sea",
-    "condition": "Используйте Rainbow Fish, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "радужная рыбка",
+    "spot": "Звёздное море",
+    "condition": "радужная погода",
+    "window": "радужная погода",
     "level": "Lv 8",
-    "use": "Rainbow Fish как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "приоритет редкой погоды"
   },
   {
     "id": "koi",
     "translationStatus": "translated",
-    "name": "Koi",
-    "spot": "карта: Secret Pond",
-    "condition": "Используйте Koi, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "карп кои",
+    "spot": "Тайный пруд",
+    "condition": "полуночный маршрут",
+    "window": "полночь",
     "level": "Lv 5",
-    "use": "Koi как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "проверка тайного пруда"
   },
   {
     "id": "golden-king-crab",
     "translationStatus": "translated",
-    "name": "Golden King Crab",
-    "spot": "карта: Sea Fishing",
-    "condition": "Используйте Golden King Crab, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
-    "level": "Event",
-    "use": "Golden King Crab как быстрая русская справка для маршрута, планирования и коллекции."
+    "name": "золотой камчатский краб",
+    "spot": "Морская рыбалка",
+    "condition": "ивентовый маршрут",
+    "window": "окно события",
+    "level": "событие",
+    "use": "цель события морской рыбалки"
   },
   {
     "id": "bluefin-tuna",
     "translationStatus": "translated",
-    "name": "Bluefin Tuna",
-    "spot": "карта: Old Sea",
-    "condition": "Используйте Bluefin Tuna, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "голубой тунец",
+    "spot": "Старое море",
+    "condition": "Lv 10",
+    "window": "поздний океанский заход",
     "level": "Lv 10",
-    "use": "Bluefin Tuna как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "редкая цель поздней игры"
   },
   {
     "id": "smooth-hammerhead",
     "translationStatus": "translated",
-    "name": "Smooth Hammerhead",
-    "spot": "карта: Deep Sea",
-    "condition": "Используйте Smooth Hammerhead, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "гладкая акула-молот",
+    "spot": "Глубокое море",
+    "condition": "Lv 10",
+    "window": "поздний океанский заход",
     "level": "Lv 10",
-    "use": "Smooth Hammerhead как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "редкая цель поздней игры"
   },
   {
     "id": "european-eel",
     "translationStatus": "translated",
-    "name": "European Eel",
-    "spot": "карта: Old Sea",
-    "condition": "Используйте European Eel, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "европейский угорь",
+    "spot": "Старое море",
+    "condition": "вечерний маршрут",
+    "window": "вечер",
     "level": "Lv 7",
-    "use": "European Eel как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "вечерняя цель Старого моря"
   },
   {
     "id": "butterfly-koi",
     "translationStatus": "translated",
-    "name": "Butterfly Koi",
-    "spot": "карта: Secret Pond",
-    "condition": "Используйте Butterfly Koi, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "карп кои-бабочка",
+    "spot": "Тайный пруд",
+    "condition": "проверка редкого пруда",
+    "window": "окно редкого пруда",
     "level": "Lv 6",
-    "use": "Butterfly Koi как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "цель для маршрута Тайного пруда"
   },
   {
     "id": "large-pearl-mussel",
     "translationStatus": "translated",
-    "name": "Large Pearl Mussel",
-    "spot": "карта: Forest Lake",
-    "condition": "Используйте Large Pearl Mussel, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "Русская заметка Heartopia для этого поля: используйте строку при планировании маршрута.",
+    "spot": "Лесное озеро",
+    "condition": "пример записи для любого времени",
+    "window": "любое время",
     "level": "Lv 5",
-    "use": "Large Pearl Mussel как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "Лесное озеро коллекция цель"
   },
   {
     "id": "rainbow-trout",
     "translationStatus": "translated",
-    "name": "Rainbow Trout",
-    "spot": "карта: Giantwood River",
-    "condition": "Используйте Rainbow Trout, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "Русская заметка Heartopia для этого поля: используйте строку при планировании маршрута.",
+    "spot": "Река Гигантвуд",
+    "condition": "Русская заметка Heartopia для этого поля: используйте строку при планировании маршрута.",
+    "window": "радужная погода",
     "level": "Lv 6",
-    "use": "Rainbow Trout как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "цель для маршрута реки Гигантвуд"
   },
   {
     "id": "sea-bream",
     "translationStatus": "translated",
-    "name": "Sea Bream",
-    "spot": "карта: Fishing Village",
-    "condition": "Используйте Sea Bream, чтобы спланировать маршрут и сравнить карту, магазин, уровень и день.",
-    "window": "проверено: маршрут",
+    "name": "Русская заметка Heartopia для этого поля: используйте строку при планировании маршрута.",
+    "spot": "Рыбацкая деревня",
+    "condition": "Русская заметка Heartopia для этого поля: используйте строку при планировании маршрута.",
+    "window": "любой прибрежный заход",
     "level": "Lv 1",
-    "use": "Sea Bream как быстрая русская справка для маршрута, планирования и коллекции."
+    "use": "цель для маршрута рыбацкая деревня"
   }
 ]
