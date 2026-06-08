@@ -147,7 +147,7 @@ const footerGroups = [
                 )}
                 <span>
                   <strong>{crop.name}</strong>
-                  <small>{crop.nameZh ? `${crop.nameZh} | ` : ""}{crop.unlock} | {crop.route}</small>
+                  <small>{crop.unlock} | {crop.route}</small>
                 </span>
               </button>
             ))}
@@ -162,7 +162,7 @@ const footerGroups = [
               )}
               <div>
                 <h2>{selected.name}</h2>
-                <p>{selected.nameZh ? `${selected.nameZh} · ` : ""}{selected.route}</p>
+                <p>{selected.route}</p>
               </div>
             </div>
             <span class="crop-route-chip">{selected.group} route</span>
@@ -198,14 +198,13 @@ const footerGroups = [
       <div class="table-card">
         <table class="dense-table">
           <thead>
-            <tr><th>Icon</th><th>Crop</th><th>Source Name</th><th>Growth</th><th>Seed</th><th>Sell</th><th>Detail</th></tr>
+            <tr><th>Icon</th><th>Crop</th><th>Growth</th><th>Seed</th><th>Sell</th><th>Detail</th></tr>
           </thead>
           <tbody>
             {crops.map((crop) => (
               <tr>
                 <td>{crop.image ? <img class="table-icon" src={crop.image} alt={`${crop.name} icon`} loading="lazy" /> : cropBadgeText(crop)}</td>
                 <td>{crop.name}</td>
-                <td>{crop.nameZh || "Pending"}</td>
                 <td>{crop.growth}</td>
                 <td>{formatGold(crop.seed)}</td>
                 <td>{formatGold(crop.sell)}</td>
