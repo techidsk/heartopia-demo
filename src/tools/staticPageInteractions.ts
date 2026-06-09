@@ -419,6 +419,43 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
       resource: "#a86f2e",
       home: "#b45ca9"
     };
+    const createPointMarkerIcon = (point, state = {}) => {
+      const color = categoryColors[point.category] || categoryColors.resource;
+      const size = state.selected ? 18 : point.defaultVisible ? 12 : 10;
+      const classes = [
+        "heartopia-point-icon",
+        `is-${point.category || "resource"}`,
+        state.selected ? "is-selected" : "",
+        state.complete ? "is-complete" : ""
+      ].filter(Boolean).join(" ");
+
+      return L.divIcon({
+        className: "heartopia-marker-wrapper",
+        html: `
+          <span class="${escapeHtml(classes)}" style="--marker-color:${escapeHtml(color)}"></span>
+        `,
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+        tooltipAnchor: [0, -size / 2]
+      });
+    };
+    const renderPointHoverCard = (point) => {
+      const display = mapPointDisplay(point);
+      const categoryLabel = categoryLabels[point.category] || "Point";
+      const iconUrl = point.markerIconUrl || point.iconUrl || "";
+      const regionText = display.region;
+
+      return `
+        <article class="map-hover-card">
+          ${iconUrl ? `<img src="${escapeHtml(iconUrl)}" alt="" loading="lazy" decoding="async">` : `<span class="map-hover-dot ${escapeHtml(point.category || "resource")}"></span>`}
+          <div>
+            <strong>${escapeHtml(display.title)}</strong>
+            <span>${escapeHtml(display.type)} · ${escapeHtml(categoryLabel)}</span>
+            <small>${escapeHtml(regionText)}</small>
+          </div>
+        </article>
+      `;
+    };
     const aliasTerms = {
       "gardening-store": ["gardening store", "园艺商店", "布兰克"],
       "furniture-workshop": ["furniture workshop", "波叔", "家具店"],
@@ -482,10 +519,28 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
       attributionControl: false
     });
     map.setView([data.map.startLat || 0, data.map.startLng || 0], data.map.initialZoom || 9);
-    L.imageOverlay(createHeartopiaMapOverlay(), bounds, {
-      opacity: 1,
-      interactive: false
-    }).addTo(map);
+    if (data.map.imageOverlayUrl) {
+      L.imageOverlay(data.map.imageOverlayUrl, bounds, {
+        opacity: 1,
+        interactive: false
+      }).addTo(map);
+    } else if (data.map.tileLayers?.[0]?.urlTemplate) {
+      const primaryTileLayer = data.map.tileLayers[0];
+      L.tileLayer(primaryTileLayer.urlTemplate, {
+        minZoom: primaryTileLayer.minZoom || data.map.minZoom,
+        maxZoom: primaryTileLayer.maxZoom || data.map.maxZoom,
+        tileSize: primaryTileLayer.tileSize || data.map.tileSize || 256,
+        bounds,
+        noWrap: true,
+        crossOrigin: true,
+        opacity: 1
+      }).addTo(map);
+    } else {
+      L.imageOverlay(createHeartopiaMapOverlay(), bounds, {
+        opacity: 1,
+        interactive: false
+      }).addTo(map);
+    }
 
     const regionLayer = L.layerGroup().addTo(map);
     data.regions
@@ -506,18 +561,23 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
     let selectedPoint = null;
     let visibleEntries = [];
     const markerEntries = data.points.map((point) => {
-      const color = categoryColors[point.category] || categoryColors.resource;
       const display = mapPointDisplay(point);
-      const marker = L.circleMarker([point.lat, point.lng], {
-        radius: point.defaultVisible ? 7 : 5,
-        color: "#ffffff",
-        weight: point.defaultVisible ? 2 : 1,
-        fillColor: color,
-        fillOpacity: point.defaultVisible ? 0.95 : 0.72,
-        opacity: 1
+      const marker = L.marker([point.lat, point.lng], {
+        icon: createPointMarkerIcon(point),
+        keyboard: true,
+        riseOnHover: true,
+        zIndexOffset: point.defaultVisible ? 120 : 0
       });
       marker.on("click", () => selectPoint(point));
-      marker.bindTooltip(display.title, { direction: "top", offset: [0, -8], opacity: 0.92 });
+      marker.bindTooltip(renderPointHoverCard(point), {
+        className: "heartopia-map-hover-tooltip",
+        direction: "top",
+        offset: [0, -10],
+        opacity: 1,
+        sticky: true
+      });
+      marker.on("mouseover", () => marker.openTooltip());
+      marker.on("mouseout", () => marker.closeTooltip());
       return { point, marker };
     });
 
@@ -540,15 +600,8 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
     const styleMarker = (entry) => {
       const isSelected = selectedPoint?.id === entry.point.id;
       const isComplete = completedMarkers.has(entry.point.id);
-      const color = categoryColors[entry.point.category] || categoryColors.resource;
-      entry.marker.setStyle({
-        radius: isSelected ? 10 : entry.point.defaultVisible ? 7 : 5,
-        color: isSelected ? "#2f261f" : isComplete ? "#f6fff0" : "#ffffff",
-        weight: isSelected ? 3 : isComplete ? 2 : 1,
-        fillColor: isComplete ? "#8aa76a" : color,
-        fillOpacity: isSelected ? 1 : entry.point.defaultVisible ? 0.95 : 0.72
-      });
-      if (isSelected) entry.marker.bringToFront();
+      entry.marker.setIcon(createPointMarkerIcon(entry.point, { selected: isSelected, complete: isComplete }));
+      entry.marker.setZIndexOffset(isSelected ? 1000 : isComplete ? 300 : entry.point.defaultVisible ? 120 : 0);
     };
 
     const renderProgress = () => {
@@ -567,9 +620,15 @@ const initHeartopiaLeafletMap = async (interactiveMap) => {
       const regionText = display.region;
       const completed = completedMarkers.has(point.id);
       const guideHref = localizedGuideHref(mapGuideHref(point));
+      const iconUrl = point.markerIconUrl || point.iconUrl || "";
       detail.innerHTML = `
-        <h2>${escapeHtml(display.title)}</h2>
-        <p>${escapeHtml(display.type)} · ${escapeHtml(categoryLabel)}. ${escapeHtml(labels.markerBody)}</p>
+        <div class="map-detail-head">
+          ${iconUrl ? `<img src="${escapeHtml(iconUrl)}" alt="" loading="lazy" decoding="async">` : `<span class="map-detail-dot ${escapeHtml(point.category || "resource")}"></span>`}
+          <div>
+            <h2>${escapeHtml(display.title)}</h2>
+            <p>${escapeHtml(display.type)} · ${escapeHtml(categoryLabel)}. ${escapeHtml(labels.markerBody)}</p>
+          </div>
+        </div>
         <div class="map-meta">
           <span><strong>${escapeHtml(labels.category)}:</strong> ${escapeHtml(categoryLabel)}</span>
           <span><strong>${escapeHtml(labels.group)}:</strong> ${escapeHtml(groupText)}</span>
